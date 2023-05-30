@@ -5,8 +5,12 @@ require_once 'Arrays.php';
 
 class CSVHandler extends FileHandler
 {
-
-    private function csvToArray($filename)
+    /**
+     * Read CSV file to array
+     * @param $filename
+     * @return array
+     */
+    private function csvToArray($filename): array
     {
         $file = self::openReadFile($filename);
 
@@ -19,7 +23,12 @@ class CSVHandler extends FileHandler
         return $csvArr;
     }
 
-    private function rowHeadersToKeys($filename)
+    /**
+     * Get how headers from CSV as Array
+     * @param $filename
+     * @return array
+     */
+    private function rowHeadersToKeys($filename): array
     {
         $data = $this->csvToArray($filename);
         $keys = Arrays::getArrayValues($data[0]);
@@ -31,14 +40,24 @@ class CSVHandler extends FileHandler
         return $fixedKeys;
     }
 
-    private function rowData($filename)
+    /**
+     * Get data without array of keys
+     * @param $filename
+     * @return array
+     */
+    private function rowData($filename): array
     {
         $data = $this->csvToArray($filename);
         Arrays::shiftArray($data);
         return $data;
     }
 
-    public function getDataWithKeys($filename)
+    /**
+     * Get data with row headers as keys in nested array
+     * @param $filename
+     * @return array
+     */
+    public function getDataWithKeys($filename): array
     {
         $keys = $this->rowHeadersToKeys($filename);
         $data = $this->rowData($filename);
@@ -51,6 +70,4 @@ class CSVHandler extends FileHandler
         array_shift($arr);
         return $arr;
     }
-
-
 }

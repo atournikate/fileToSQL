@@ -1,5 +1,13 @@
 <?php
 
+/*public function getSingleKeyValuePair($entry, $singleKey) {
+    foreach ($entry as $key => $value) {
+        if ($key === $singleKey) {
+            $ret[$singleKey] = $value;
+            return $ret;
+        }
+    }
+}*/
 /*private function createDeleteStatement($data)
 {
     $titleDE = $data['title_de_changed'];
@@ -101,7 +109,7 @@ private function createInsertStatement($data)
         $this->table = $table;
     }
 
-    public function run()
+    public function createSqlFile()
     {
         $this->test();
     }

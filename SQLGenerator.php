@@ -9,16 +9,34 @@ class SQLGenerator
     private $data;
     private $conditions;
 
+    /**
+     * Construct
+     * @param $table
+     * @param $data
+     */
     public function __construct($table, $data) {
         $this->table = $table;
         $this->data = $data;
         $this->conditions = [];
     }
 
+    /**
+     * Add data
+     * @param $key
+     * @param $value
+     * @return void
+     */
     public function addData($key, $value) {
         $this->data[$key] = $value;
     }
 
+    /**
+     * Add a condition for query
+     * @param $key
+     * @param $value
+     * @param $operator
+     * @return array
+     */
     public function addCondition($key, $value, $operator = '=') {
         $this->conditions[] = [
             'column'    => $key,
@@ -29,6 +47,10 @@ class SQLGenerator
 
     }
 
+    /**
+     * Create string of conditions for query
+     * @return string
+     */
     public function buildConditions() {
         $conditions = [];
         foreach ($this->conditions as $condition) {
@@ -37,14 +59,23 @@ class SQLGenerator
         return implode(' AND ', $conditions);
     }
 
-    public function sqlInsertStatement()
+    /**
+     * Create sql Insert statement
+     * @return string
+     */
+    public function sqlInsertStatement($insertData)
     {
-        $columns    = implode(', ', Arrays::getArrayKeys($this->data));
-        $values     = "'" . implode("', '", $this->data) . "'";
+        $columns    = implode(', ', Arrays::getArrayKeys($insertData));
+        $values     = "'" . implode("', '", $insertData) . "'";
         $sql = "INSERT INTO {$this->table} ({$columns}) VALUES ({$values})";
         return $sql;
     }
 
+    /**
+     * Create sql Update statement
+     * @param $updateFields
+     * @return string
+     */
     public function sqlUpdateStatement($updateFields) {
         $updates = [];
         foreach ($updateFields as $key => $value) {
@@ -56,6 +87,10 @@ class SQLGenerator
         return $sql;
     }
 
+    /**
+     * Create sql Delete statement
+     * @return string
+     */
     public function sqlDeleteStatement() {
         //DELETE FROM table_name WHERE condition
         $conditions = $this->buildConditions();

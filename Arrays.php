@@ -13,21 +13,34 @@ class Arrays
         return array_shift($array);
     }
 
-    public static function getArrayKeys($array) {
+    /**
+     * Get array keys as array
+     * @param $array
+     * @return array
+     */
+    public static function getArrayKeys($array): array
+    {
         return array_keys($array);
     }
 
-    public static function getArrayValues($array) {
+    /**
+     * Get array values
+     * @param $array
+     * @return array
+     */
+    public static function getArrayValues($array): array
+    {
         return array_values($array);
     }
 
+    /**
+     * Combine two arrays, values of the first becoming the keys for the second
+     * @param $keyArr
+     * @param $valArr
+     * @return array|false
+     */
     public static function combineArrays($keyArr, $valArr) {
         return array_combine($keyArr, $valArr);
     }
-
-    public static function getArrayRandom($array) {
-        return array_rand($array, 1);
-    }
-
 
 }
