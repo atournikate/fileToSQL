@@ -33,7 +33,7 @@ class CSVHandler extends FileHandler
         $data = $this->csvToArray($filename);
         $keys = Arrays::getArrayValues($data[0]);
         foreach ($keys as $key) {
-            $key = preg_replace('/[\x{200B}-\x{200D}\x{FEFF}]/u', '', $key);
+            $key = preg_replace("/[\x{200B}-\x{200D}\x{FEFF}]/u", "", $key);
             $fixedKeys[] = $key;
         }
 
@@ -48,7 +48,7 @@ class CSVHandler extends FileHandler
     private function rowData($filename): array
     {
         $data = $this->csvToArray($filename);
-        Arrays::shiftArray($data);
+        array_shift($data);
         return $data;
     }
 
@@ -63,11 +63,32 @@ class CSVHandler extends FileHandler
         $data = $this->rowData($filename);
         $arr = [];
         foreach ($data as $entry) {
-            $entry = preg_replace('/(?<=[a-zA-Z])\'(?=[a-zA-Z]|[^\u0000-\u007F]|[À-ÿ])/', '\'', $entry);
+            $entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
             $newEntry = Arrays::combineArrays($keys, $entry);
             $arr[] = $newEntry;
         }
         array_shift($arr);
         return $arr;
     }
+    
+    /**
+     * Get data with row headers as keys in nested array
+     * @param $filename
+     * @return array
+     */
+    public function getDataWithoutLastKey($filename): array
+    {
+        $keys = $this->rowHeadersToKeys($filename);
+        $data = $this->rowData($filename);
+        $arr = [];
+        foreach ($data as $entry) {
+            $newEntry = array_combine($keys, $entry);
+            array_pop($newEntry);
+            //$entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
+            $arr[] = $newEntry;
+        }
+        return $arr;
+    }
+
+
 }

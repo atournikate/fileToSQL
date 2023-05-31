@@ -8,15 +8,17 @@ class SQLGenerator
     private $table;
     private $data;
     private $conditions;
+    private $columns;
 
     /**
      * Construct
      * @param $table
      * @param $data
      */
-    public function __construct($table, $data) {
+    public function __construct($table, $data = null) {
         $this->table = $table;
         $this->data = $data;
+        $this->columns = [];
         $this->conditions = [];
     }
 
@@ -67,7 +69,7 @@ class SQLGenerator
     {
         $columns    = implode(', ', Arrays::getArrayKeys($insertData));
         $values     = "'" . implode("', '", $insertData) . "'";
-        $sql = "INSERT INTO {$this->table} ({$columns}) VALUES ({$values})";
+        $sql = "INSERT INTO {$this->table} ({$columns}) VALUES ({$values});";
         return $sql;
     }
 
@@ -82,7 +84,7 @@ class SQLGenerator
             $updates[] = "{$key} = '{$value}'";
         }
         $conditions = $this->buildConditions();
-        $sql = "UPDATE {$this->table} SET " . implode(', ', $updates) . " WHERE {$conditions}";
+        $sql = "UPDATE {$this->table} SET " . implode(', ', $updates) . " WHERE {$conditions};";
 
         return $sql;
     }
@@ -94,7 +96,22 @@ class SQLGenerator
     public function sqlDeleteStatement() {
         //DELETE FROM table_name WHERE condition
         $conditions = $this->buildConditions();
-        $sql = "DELETE FROM {$this->table} WHERE {$conditions}";
+        $sql = "DELETE FROM {$this->table} WHERE {$conditions};";
+        return $sql;
+    }
+
+    public function sqlDropTable() {
+        $sql = "DROP TABLE IF EXISTS {$this->table};";
+        return $sql;
+    }
+
+    public function addTableColumn($columnName, $dataType, $options = '') {
+        $this->columns[] = "{$columnName} {$dataType} {$options}";
+    }
+
+    public function sqlCreateTable() {
+        $columns = implode(",\n", $this->columns);
+        $sql = "CREATE TABLE {$this->table} (\n{$columns}\n)";
         return $sql;
     }
 }

@@ -30,7 +30,7 @@ class CountriesSQL {
         if (!file_exists($newFile)) {
             fopen('countries.sql', 'w+');
         }
-        file_put_contents($newFile, implode("; ", $sql));
+        file_put_contents($newFile, implode("\n ", $sql));
     }
 
     public function getValidSqlCountries($entry, $table) {
@@ -51,14 +51,14 @@ class CountriesSQL {
 
         if ($isDeleted) {
             $sqlGen->addCondition('title_de', $titleDE);
-            $sql = $sqlGen->sqlDeleteStatement();
+            $sql = $sqlGen->sqlDeleteStatement() . PHP_EOL;
         } elseif ($titleChangedDE && !$isNew) {
             $updateFields = [
                 'iso3'              => $iso3,
                 'title_de'          => $titleDE,
                 'title_post_sort'   => $postData
             ];
-            $sql = $sqlGen->sqlUpdateStatement($updateFields);
+            $sql = $sqlGen->sqlUpdateStatement($updateFields) . PHP_EOL;
             //update title_de, post, iso3
         } elseif ($isNew) {
             $insertData = [
@@ -71,13 +71,13 @@ class CountriesSQL {
                 'title_post_sort'   => $postData
             ];
             $sql = $sqlGen->sqlDeleteStatement();
-            $sql .= "; " . $sqlGen->sqlInsertStatement($insertData);
+            $sql .= $sqlGen->sqlInsertStatement($insertData) . PHP_EOL;
         } else {
             $updateFields = [
                 'iso3'              => $iso3,
                 'title_post_sort'   => $postData
             ];
-            $sql = $sqlGen->sqlUpdateStatement($updateFields);
+            $sql = $sqlGen->sqlUpdateStatement($updateFields) . PHP_EOL;
             //update iso3, post
         }
         return $sql;

@@ -1,0 +1,308 @@
+ISO2
+
+AT
+
+CH
+
+DE--
+
+FL
+
+FR--
+
+IT
+
+ES
+
+GB
+
+GR
+
+HU
+
+LU
+
+NL
+
+PT
+
+RO
+
+
+ISO2
+
+Land
+
+Priorität
+
+Country
+
+Source
+
+Land
+
+Bezirk
+
+AT
+
+Östereich
+
+1
+
+Austria
+
+ 
+
+Bundesland
+
+Bezirk
+
+CH
+
+Schweiz
+
+1
+
+Switzerland
+
+select plz ,name, plz_zz from schnittstellen_post_orte plz_zz = '00';
+
+Kanton
+
+Bezirk
+
+DE
+
+Deutschland
+
+1
+
+Germany
+
+ 
+
+Land
+
+Kreis
+
+FL
+
+Liechtenstein
+
+1
+
+Liechtenstein
+
+select plz ,name, plz_zz from schnittstellen_post_orte where kanton = 'FL' and plz_zz = '00';
+
+Liechtenstein
+
+(94)
+
+Delivery area
+
+(last two digits)
+
+FR
+
+Frankreich
+
+1
+
+France
+
+ 
+
+Département
+
+(first two digits)
+
+Préfecture
+
+(last three digits)
+
+IT
+
+Italien
+
+1
+
+Italy
+
+  
+
+Province
+
+(first two digits)
+
+Town/District
+
+(third digit indicates major city or not)
+
+(last two digits indicate town or district)
+
+ES
+
+Spanien
+
+2
+
+Spain
+
+  
+
+Province
+
+(first two)
+
+Delivery Area
+
+(third digit, major city, a 0 means province capital) (last two digits areas)
+
+GB
+
+Grossbritanien und Nordirland
+
+2
+
+Great Britain
+
+  
+
+ 
+
+Outward Code (postcode area/district)
+
+(alphanumeric, 2 to 5 characters, including a space)
+
+Inward Code (postcode sector/unit)
+
+(last 3 characters - alphanumeric)
+
+GR
+
+Griechenland
+
+3
+
+Greece
+
+ 
+
+ 
+
+https://www.xo.gr/greek-postal-codes-zips/
+
+ 
+
+City/Prefecture
+
+(first 2 digits)
+
+(digit #3 might denote portion of street)
+
+Office
+
+(last 2 digits)
+
+HU
+
+Ungarn
+
+3
+
+Hungary
+
+ 
+
+ 
+
+Region/District
+
+(first digit region, second 2 digits district)
+
+Post office
+
+last digit
+
+LU
+
+Luxemburg
+
+3
+
+Luxembourg
+
+ 
+
+ 
+
+Region
+
+(first digit)
+
+Street
+
+(last 3 digits)
+
+NL
+
+Niederlande
+
+2
+
+the Netherlands
+
+https://www.postnl.nl/locatiewijzer/postcodeapi/
+
+ 
+
+City/Region
+
+(2 digits)
+
+House number range
+
+(two digits and two letters)
+
+PT
+
+Portugal
+
+2
+
+Portugal
+
+ 
+
+ 
+
+Region
+
+(first digit - region)
+
+(second 2 digits = distribution centers)
+
+(4th digit indicates capital status)
+
+Block
+
+(last 3 digits building blocks and designated addresses)
+
+RO
+
+Rumänien
+
+3
+
+Romania
+
+ 
+
+County
+
+(first 2)
+
+City
+
+(last 3 digits)

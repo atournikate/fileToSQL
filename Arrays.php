@@ -10,7 +10,8 @@ class Arrays
      * @return void
      */
     public static function shiftArray($array) {
-        return array_shift($array);
+       array_shift($array);
+       return $array;
     }
 
     /**
@@ -33,13 +34,19 @@ class Arrays
         return array_values($array);
     }
 
+    public static function removeLastElement($array) {
+        array_pop($array);
+        return $array;
+    }
+
     /**
      * Combine two arrays, values of the first becoming the keys for the second
      * @param $keyArr
      * @param $valArr
      * @return array|false
      */
-    public static function combineArrays($keyArr, $valArr) {
+    public static function combineArrays(array $keyArr, array $valArr): array 
+    {
         return array_combine($keyArr, $valArr);
     }
 
