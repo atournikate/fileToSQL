@@ -37,11 +37,19 @@ class SQLGenerator
         }
 
         $columns = array_keys($data[0]);
-        $values = [];
+        $pattern = "/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/u";
+        $replace = "\\'";
+
+        $values  = [];
 
         foreach ($data as $entry) {
-            $values[] = "'" . implode(", ", $entry) . "'";
+            $entry = array_map(function ($value) use ($pattern, $replace) {
+                $sanitizedValue = str_replace("\0", "", $value);
+                return preg_replace($pattern, $replace, $sanitizedValue);
+            }, $entry);
+            $values[] = "'" . implode("', '", $entry) . "'";
         }
+
 
         $colString = implode(", ", $columns);
         $valString = "(" . implode("), \n(", $values) . ")";

@@ -11,15 +11,20 @@ class CSVHandler extends FileHandler
      */
     private function csvToArray($filename): array
     {
+        $csvArr = [];
+
         $file = fopen($filename, 'r');
-
-        while (!feof($file)) {
-            $content = fgets($file);
-            $content = preg_replace("/^\xEF\xBB\xBF/", '', $content);
-            $csvArr[] = str_getcsv($content, ',');
+        if ($file === false) {
+            throw new \Exception("Unable to open file: $filename");
         }
-        fclose($file);
 
+        while( ($content = fgets($file)) !== false ) {
+            $content = trim($content);
+            $content = preg_replace("/^xEF\xBB\xBF/", '', $content);
+            $csvArr[] = str_getcsv($content, ', ');
+        }
+
+        fclose($file);
         return $csvArr;
     }
 
