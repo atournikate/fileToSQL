@@ -229,4 +229,70 @@ private function createInsertStatement($data)
     }
 
 
+    /**
+     * Get how headers from CSV as Array
+     * @param $filename
+     * @return array
+     */
+/*private function rowHeadersToKeys($filename): array
+{
+    $data = $this->csvToArray($filename);
+    $keys = array_values($data[0]);
+    foreach ($keys as $key) {
+        $key = preg_replace("/[\x{200B}-\x{200D}\x{FEFF}]/u", "", $key);
+        $fixedKeys[] = $key;
+    }
+
+    return $fixedKeys;
+}
+
+/**
+ * Get data without array of keys
+ * @param $filename
+ * @return array
+ */
+/*private function rowData($filename): array
+{
+    $data = $this->csvToArray($filename);
+    array_shift($data);
+    return $data;
+}*/
+
+/**
+ * Get data with row headers as keys in nested array
+ * @param $filename
+ * @return array
+ */
+/*public function getDataWithKeys($filename): array
+{
+    $keys = $this->rowHeadersToKeys($filename);
+    $data = $this->rowData($filename);
+    $arr = [];
+    foreach ($data as $entry) {
+        $entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
+        $newEntry = array_combine($keys, $entry);
+        $arr[] = $newEntry;
+    }
+    array_shift($arr);
+    return $arr;
+}*/
+
+/**
+ * Get data with row headers as keys in nested array
+ * @param $filename
+ * @return array
+ */
+/*public function getDataWithoutLastKey($filename): array
+{
+    $keys = $this->rowHeadersToKeys($filename);
+    $data = $this->rowData($filename);
+    $arr = [];
+    foreach ($data as $entry) {
+        $newEntry = array_combine($keys, $entry);
+        //$entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
+        $arr[] = $newEntry;
+    }
+    return $arr;
+}
+
 */

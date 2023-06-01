@@ -1,11 +1,10 @@
 <?php
-namespace kateland;
+namespace file2sql;
 
-require_once 'FileHandler.php';
 require_once 'CSVHandler.php';
 require_once 'SQLGenerator.php';
 
-use kateland\{FileHandler, CSVHandler, SQLGenerator};
+use file2sql\{CSVHandler, SQLGenerator};
 
 class PLZtoSQL {
     public function run($filename, $table) {
@@ -46,8 +45,8 @@ class PLZtoSQL {
             'plz'               => $entry['plz'],
             'name'              => $entry['name'],
             'state_code'        => $entry['state_code'],
-            'county_code'       => $entry['county_code'],
-            'district_code'     => $entry['district_code']
+            'district_code'     => $entry['district_code'],
+            'kreis_code'        => $entry['kreis_code']
         ];
         //$sql = $sqlGen->sqlDeleteStatement();
         $sql = $sqlGen->sqlInsertStatement($insertData);
@@ -60,10 +59,10 @@ class PLZtoSQL {
             ['id', 'INT', 'AUTO_INCREMENT PRIMARY KEY'],
             ['iso2', 'VARCHAR(255)', ''],
             ['plz', 'VARCHAR(255)', ''],
-            ['name', 'VARCHAR(255)', ''],
+            ['`name`', 'VARCHAR(255)', ''],
             ['state_code', 'VARCHAR(255)', ''],
-            ['county_code', 'VARCHAR(255)', ''],
             ['district_code', 'VARCHAR(255)', ''],
+            ['kreis_code', 'VARCHAR(255)', ''],
         ];
         $sqlGen = new SQLGenerator($table);
         foreach ($columns as $column) {

@@ -1,7 +1,6 @@
 <?php
 
-namespace kateland;
-require_once 'Arrays.php';
+namespace file2sql;
 
 class CSVHandler extends FileHandler
 {
@@ -12,83 +11,35 @@ class CSVHandler extends FileHandler
      */
     private function csvToArray($filename): array
     {
-        $file = self::openReadFile($filename);
+        $file = fopen($filename, 'r');
 
         while (!feof($file)) {
-            $csvArr[] = fgetcsv($file, 255, ',');
+            $content = fgets($file);
+            $content = preg_replace("/^\xEF\xBB\xBF/", '', $content);
+            $csvArr[] = str_getcsv($content, ',');
         }
-
-        self::closeFile();
+        fclose($file);
 
         return $csvArr;
     }
 
-    /**
-     * Get how headers from CSV as Array
-     * @param $filename
-     * @return array
-     */
-    private function rowHeadersToKeys($filename): array
-    {
+    public function getFormattedData($filename) {
         $data = $this->csvToArray($filename);
-        $keys = Arrays::getArrayValues($data[0]);
-        foreach ($keys as $key) {
-            $key = preg_replace("/[\x{200B}-\x{200D}\x{FEFF}]/u", "", $key);
-            $fixedKeys[] = $key;
+        $ret = [];
+
+        if (!empty($data)) {
+            $keys = $data[0];
+
+            $num = count($data);
+
+            for ($i = 1; $i < $num; $i++) {
+                $values = $data[$i];
+                $entry = array_combine($keys, $values);
+                $ret[] = $entry;
+            }
         }
 
-        return $fixedKeys;
+        return $ret;
     }
-
-    /**
-     * Get data without array of keys
-     * @param $filename
-     * @return array
-     */
-    private function rowData($filename): array
-    {
-        $data = $this->csvToArray($filename);
-        array_shift($data);
-        return $data;
-    }
-
-    /**
-     * Get data with row headers as keys in nested array
-     * @param $filename
-     * @return array
-     */
-    public function getDataWithKeys($filename): array
-    {
-        $keys = $this->rowHeadersToKeys($filename);
-        $data = $this->rowData($filename);
-        $arr = [];
-        foreach ($data as $entry) {
-            $entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
-            $newEntry = Arrays::combineArrays($keys, $entry);
-            $arr[] = $newEntry;
-        }
-        array_shift($arr);
-        return $arr;
-    }
-    
-    /**
-     * Get data with row headers as keys in nested array
-     * @param $filename
-     * @return array
-     */
-    public function getDataWithoutLastKey($filename): array
-    {
-        $keys = $this->rowHeadersToKeys($filename);
-        $data = $this->rowData($filename);
-        $arr = [];
-        foreach ($data as $entry) {
-            $newEntry = array_combine($keys, $entry);
-            array_pop($newEntry);
-            //$entry = preg_replace("/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/", "\'", $entry);
-            $arr[] = $newEntry;
-        }
-        return $arr;
-    }
-
 
 }

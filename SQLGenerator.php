@@ -1,117 +1,97 @@
 <?php
 
-namespace kateland;
-require_once 'Arrays.php';
+namespace file2sql;
 
 class SQLGenerator
 {
-    private $table;
-    private $data;
-    private $conditions;
-    private $columns;
-
-    /**
-     * Construct
-     * @param $table
-     * @param $data
-     */
-    public function __construct($table, $data = null) {
-        $this->table = $table;
-        $this->data = $data;
-        $this->columns = [];
-        $this->conditions = [];
-    }
-
-    /**
-     * Add data
-     * @param $key
-     * @param $value
-     * @return void
-     */
-    public function addData($key, $value) {
-        $this->data[$key] = $value;
-    }
-
-    /**
-     * Add a condition for query
-     * @param $key
-     * @param $value
-     * @param $operator
-     * @return array
-     */
-    public function addCondition($key, $value, $operator = '=') {
-        $this->conditions[] = [
-            'column'    => $key,
-            'value'     => $value,
-            'operator'  => $operator
-        ];
-        return $this->conditions;
-
-    }
 
     /**
      * Create string of conditions for query
+     * @param $key
+     * @param $value
+     * @param string $operator
      * @return string
      */
-    public function buildConditions() {
-        $conditions = [];
-        foreach ($this->conditions as $condition) {
-            $conditions[] = "{$condition['column']} {$condition['operator']} '{$condition['value']}'";
-        }
-        return implode(' AND ', $conditions);
+    public static function buildCondition($key, $value, string $operator = '='): string
+    {
+        return "$key $operator '$value'";
     }
 
     /**
      * Create sql Insert statement
+     * @param $table
+     * @param $data
      * @return string
      */
-    public function sqlInsertStatement($insertData)
+    public static function sqlInsertStatement($table, $data): string
     {
-        $columns    = implode(', ', Arrays::getArrayKeys($insertData));
-        $values     = "'" . implode("', '", $insertData) . "'";
-        $sql = "INSERT INTO {$this->table} ({$columns}) VALUES ({$values});";
-        return $sql;
+        $columns    = implode(', ', array_keys($data));
+        $values     = "'" . implode("', '", $data) . "'";
+        return "INSERT INTO $table ($columns) VALUES ($values);";
+    }
+
+    public static function sqlMultiLineInsertStatement($table, $data): string
+    {
+        if (empty($data)) {
+            return '';
+        }
+
+        $columns = array_keys($data[0]);
+        $values = [];
+
+        foreach ($data as $entry) {
+            $values[] = "'" . implode(", ", $entry) . "'";
+        }
+
+        $colString = implode(", ", $columns);
+        $valString = "(" . implode("), \n(", $values) . ")";
+
+        return  "INSERT INTO $table ($colString)\nVALUES\n$valString;";
     }
 
     /**
      * Create sql Update statement
-     * @param $updateFields
+     * @param $table
+     * @param $data
+     * @param $condition
      * @return string
      */
-    public function sqlUpdateStatement($updateFields) {
+    public static function sqlUpdateStatement($table, $data, $condition): string
+    {
         $updates = [];
-        foreach ($updateFields as $key => $value) {
-            $updates[] = "{$key} = '{$value}'";
+        foreach ($data as $key => $value) {
+            $updates[] = "$key = '$value'";
         }
-        $conditions = $this->buildConditions();
-        $sql = "UPDATE {$this->table} SET " . implode(', ', $updates) . " WHERE {$conditions};";
 
-        return $sql;
+        return "UPDATE $table SET " . implode(', ', $updates) . " WHERE $condition;";
     }
 
     /**
      * Create sql Delete statement
+     * @param $table
+     * @param $conditions
      * @return string
      */
-    public function sqlDeleteStatement() {
+    public static function sqlDeleteStatement($table, $conditions): string
+    {
         //DELETE FROM table_name WHERE condition
-        $conditions = $this->buildConditions();
-        $sql = "DELETE FROM {$this->table} WHERE {$conditions};";
-        return $sql;
+        return "DELETE FROM $table WHERE $conditions;";
     }
 
-    public function sqlDropTable() {
-        $sql = "DROP TABLE IF EXISTS {$this->table};";
-        return $sql;
+    public static function sqlDropTable($table): string
+    {
+        return "DROP TABLE IF EXISTS $table;";
     }
 
-    public function addTableColumn($columnName, $dataType, $options = '') {
-        $this->columns[] = "{$columnName} {$dataType} {$options}";
+    public static function addTableColumn($columnName, $dataType, $options = ''): string
+    {
+        $columns = "$columnName $dataType $options";
+        return $columns;
     }
 
-    public function sqlCreateTable() {
-        $columns = implode(",\n", $this->columns);
-        $sql = "CREATE TABLE {$this->table} (\n{$columns}\n)";
-        return $sql;
+    public static function sqlCreateTable($table, $data): string
+    {
+        $columns = implode(",\n", $data);
+        return "CREATE TABLE $table (\n$columns\n);";
     }
 }

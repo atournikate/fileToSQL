@@ -1,11 +1,11 @@
 <?php
-namespace kateland;
+namespace file2sql;
 
 require_once 'FileHandler.php';
 require_once 'CSVHandler.php';
 require_once 'SQLGenerator.php';
 
-use kateland\{FileHandler, CSVHandler, SQLGenerator};
+use file2sql\{FileHandler, CSVHandler, SQLGenerator};
 
 class CountriesSQL {
     public function run($filename, $table) {

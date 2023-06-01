@@ -1,6 +1,6 @@
 <?php
 
-namespace kateland;
+namespace file2sql;
 
 class FileHandler
 {
