@@ -1,5 +1,5 @@
-DELETE FROM orm_zip_code WHERE iso2 = 'RO';
-INSERT INTO orm_zip_code (iso2, zip_code, location)
+DELETE FROM orm_zip_code WHERE iso2 = '';
+INSERT INTO orm_zip_code (﻿iso2, zip_code, location)
 VALUES
 ('RO', '607502', 'Magazia'), 
 ('RO', '607543', 'Schineni (Săuceşti)'), 

@@ -20,8 +20,13 @@ class CSVHandler extends FileHandler
 
         while( ($content = fgets($file)) !== false ) {
             $content = trim($content);
-            $content = preg_replace("/^xEF\xBB\xBF/", '', $content);
-            $csvArr[] = str_getcsv($content, ', ');
+            $content = preg_replace("/^[\pZ\pC]+|[\pZ\pC]+$/u", "", $content);
+            $row = str_getcsv($content, ", ");
+            $row = array_map(function($value) {
+                return trim($value);
+            }, $row);
+
+            $csvArr[] = $row;
         }
 
         fclose($file);

@@ -37,7 +37,7 @@ class SQLGenerator
         }
 
         $columns = array_keys($data[0]);
-        $pattern = "/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0000}-\u{007F}]|[À-ÿ])/u";
+        $pattern = "/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0001}-\u{007F}]|[À-ÿ])/";
         $replace = "\\'";
 
         $values  = [];
@@ -47,6 +47,8 @@ class SQLGenerator
                 $sanitizedValue = str_replace("\0", "", $value);
                 return preg_replace($pattern, $replace, $sanitizedValue);
             }, $entry);
+
+            $entry = array_filter($entry);
             $values[] = "'" . implode("', '", $entry) . "'";
         }
 

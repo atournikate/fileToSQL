@@ -10,7 +10,6 @@ use file2sql\{CSVHandler, FileHandler, SQLGenerator};
 
 class CSVtoSQL
 {
-
     public function run($filepath, $table, $columns = null) {
         $this->processFiles($filepath, $table);
     }
@@ -26,7 +25,7 @@ class CSVtoSQL
         if (is_dir($filepath)) {
             $files = scandir($filepath);
         } else {
-            echo "Invalid directory path.";
+            throw new \Exception("Invalid directory path");
         }
         return $files;
     }
@@ -39,6 +38,7 @@ class CSVtoSQL
                 $data[] = $csv->getFormattedData($filepath . "/" . $file);
             }
         }
+
         return $data;
     }
 
@@ -90,6 +90,15 @@ class CSVtoSQL
             $insert = $this->createInserts($data[$i], $table);
             $this->printResultToFile($insert, $data[$i][0]['iso2'] . ".sql");
         }
+    }
+
+    public function logError($message, $logFile = 'error.log') {
+        if (!file_exists($logFile)) {
+            fopen($logFile, 'a+');
+        }
+        $timestamp = date('Y-m-d H:i:s');
+        $logMessage = "[$timestamp] $message\n";
+        error_log($logMessage, 3, $logFile);
     }
 
 }
