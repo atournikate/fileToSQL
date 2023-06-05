@@ -2,37 +2,58 @@
 
 namespace file2sql;
 
-require_once 'FileHandler.php';
+use Exception;
+
 require_once 'CSVHandler.php';
 require_once 'SQLGenerator.php';
 
-use file2sql\{CSVHandler, FileHandler, SQLGenerator};
-
 class CSVtoSQL
 {
-    public function run($filepath, $table, $columns = null) {
-        $this->processFiles($filepath, $table);
+    /**
+     * Cycle through data in CSV file, create sql file of insert statements for each one
+     * @param $filepath
+     * @param $table
+     * @return void
+     * @throws Exception
+     */
+    public function processCSVtoSQLFile($filepath, $table): void
+    {
+        $data = $this->convertCSVToArray($filepath);
+        $num = count($data);
+        for ($i = 0; $i < $num; $i++) {
+            //$data[$i] accesses data for each individual country zipcode file in a nested array
+            $insert = $this->createSQLInsertStatements($data[$i], $table);
+            $this->printResultToFile($insert, $data[$i][0]['iso2'] . ".sql");
+        }
     }
 
-    public function createSQLPLZ($filepath, $table, $columns) {
-        $this->createTable($table, $columns);
-        $this->createInserts($filepath, $table, $columns);
-    }
-
-
-    private function processDirectory($filepath)
+    /**
+     * Scan directory and return files
+     * @param $filepath
+     * @return array|false
+     * @throws Exception
+     */
+    private function processDirectory($filepath): bool|array
     {
         if (is_dir($filepath)) {
             $files = scandir($filepath);
         } else {
-            throw new \Exception("Invalid directory path");
+            throw new Exception("Invalid directory path");
         }
         return $files;
     }
 
-    private function getFileData($filepath) {
+    /**
+     * Convert CSV data to Array
+     * @param $filepath
+     * @return array
+     * @throws Exception
+     */
+    private function convertCSVToArray($filepath): array
+    {
         $csv = new CSVHandler();
         $files = $this->processDirectory($filepath);
+        $data = [];
         foreach ($files as $file) {
             if ($file !== '.' && $file !== '..') {
                 $data[] = $csv->getFormattedData($filepath . "/" . $file);
@@ -42,22 +63,43 @@ class CSVtoSQL
         return $data;
     }
 
-    private function createInserts($data, $table) {
+    /**
+     * Create SQL delete and insert statements
+     * @param $data
+     * @param $table
+     * @return string
+     */
+    private function createSQLInsertStatements($data, $table): string
+    {
         $iso        = $data[0]['iso2'];
 
         $condition  = SQLGenerator::buildCondition('iso2', $iso);
         $delete     = SQLGenerator::sqlDeleteStatement($table, $condition);
 
-        $insertStatements = $this->getInsertByLand($table, $data);
+        $insertStatements = $this->getMultiLineInserts($table, $data);
 
         return $delete . "\n" . $insertStatements;
     }
 
-    public function getInsertByLand($table, $data) {
+    /**
+     * Create multiline SQL insert statement
+     * @param $table
+     * @param $data
+     * @return string
+     */
+    private function getMultiLineInserts($table, $data): string
+    {
         return SQLGenerator::sqlMultiLineInsertStatement($table, $data);
     }
 
-    public function createTable($table, $columns) {
+    /**
+     * Create SQL table with Drop and Create Statement
+     * @param $table
+     * @param $columns
+     * @return string
+     */
+    private function createTable($table, $columns): string
+    {
         $cols = [];
         foreach ($columns as $column) {
             $cols[] = SQLGenerator::addTableColumn($column[0], $column[1], $column[2]);
@@ -68,31 +110,39 @@ class CSVtoSQL
         return $sql;
     }
 
-    public function printResultToFile($data, $fileName = 'test.sql') {
+    /**
+     * Write SQL to file
+     * @param $data
+     * @param string $fileName
+     * @return void
+     */
+    private function printResultToFile($data, string $fileName = 'test.sql'): void
+    {
         $filepath = 'sql/' . $fileName;
-        if (!file_exists($filepath)) {
+        if(!is_dir('sql')) {
             mkdir('sql');
-            fopen($filepath, 'w+');
+        }
+        if (!file_exists($filepath)) {
+            file_put_contents($filepath, '');
         }
 
         if (is_array($data)) {
-            file_put_contents($fileName, implode("\n", $data));
+            $content = implode("\n", $data);
         } else {
-            file_put_contents($filepath, $data);
+            $content = $data;
         }
+
+        file_put_contents($filepath, $content, FILE_APPEND);
     }
 
-    private function processFiles($filepath, $table) {
-        $data = $this->getFileData($filepath);
-        $num = count($data);
-        for ($i = 0; $i < $num; $i++) {
-            //$data[$i] accesses data for each individual country zipcode file in a nested array
-            $insert = $this->createInserts($data[$i], $table);
-            $this->printResultToFile($insert, $data[$i][0]['iso2'] . ".sql");
-        }
-    }
-
-    public function logError($message, $logFile = 'error.log') {
+    /**
+     * Log errors
+     * @param $message
+     * @param string $logFile
+     * @return void
+     */
+    public function logError($message, string $logFile = 'error.log'): void
+    {
         if (!file_exists($logFile)) {
             fopen($logFile, 'a+');
         }
@@ -112,4 +162,8 @@ $table = "orm_zip_code";
     ['location', 'VARCHAR(255)', ''],
 ];*/
 $test = new CSVtoSQL();
-$test->run($filepath, $table);
+try {
+    $test->processCSVtoSQLFile($filepath, $table);
+} catch (Exception $e) {
+    $test->logError($e->getMessage());
+}

@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Static class to create sql statements
+ */
 namespace file2sql;
 
 class SQLGenerator
@@ -30,6 +32,12 @@ class SQLGenerator
         return "INSERT INTO $table ($columns) VALUES ($values);";
     }
 
+    /**
+     * Create sql Insert statements for multiple inserts
+     * @param $table
+     * @param $data
+     * @return string
+     */
     public static function sqlMultiLineInsertStatement($table, $data): string
     {
         if (empty($data)) {
@@ -49,7 +57,7 @@ class SQLGenerator
             }, $entry);
 
             $entry = array_filter($entry);
-            $values[] = "'" . implode("', '", $entry) . "'";
+            $values[] = '"' . implode('", "', $entry) . '"';
         }
 
 
@@ -70,7 +78,7 @@ class SQLGenerator
     {
         $updates = [];
         foreach ($data as $key => $value) {
-            $updates[] = "$key = '$value'";
+            $updates[] = " `$key` =" . '"' . $value . '"';
         }
 
         return "UPDATE $table SET " . implode(', ', $updates) . " WHERE $condition;";
@@ -88,20 +96,37 @@ class SQLGenerator
         return "DELETE FROM $table WHERE $conditions;";
     }
 
+    /**
+     * Create sql Drop Table statement
+     * @param $table
+     * @return string
+     */
     public static function sqlDropTable($table): string
     {
         return "DROP TABLE IF EXISTS $table;";
     }
 
-    public static function addTableColumn($columnName, $dataType, $options = ''): string
+    /**
+     * Add a columns to new table
+     * @param $columnName
+     * @param $dataType
+     * @param string $options
+     * @return string
+     */
+    public static function addTableColumn($columnName, $dataType, string $options = ''): string
     {
-        $columns = "$columnName $dataType $options";
-        return $columns;
+        return "$columnName $dataType $options";
     }
 
+    /**
+     * Create sql Table
+     * @param $table
+     * @param $data
+     * @return string
+     */
     public static function sqlCreateTable($table, $data): string
     {
-        $columns = implode(",\n", $data);
+        $columns = implode("\n", $data);
         return "CREATE TABLE $table (\n$columns\n);";
     }
 }

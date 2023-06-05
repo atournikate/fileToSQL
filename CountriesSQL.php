@@ -1,28 +1,26 @@
 <?php
 namespace file2sql;
 
-require_once 'FileHandler.php';
+//require_once 'FileHandler.php';
+use Exception;
+
 require_once 'CSVHandler.php';
 require_once 'SQLGenerator.php';
 
-use file2sql\{FileHandler, CSVHandler, SQLGenerator};
-
 class CountriesSQL {
-    public function run($filename, $table) {
-        $this->createSqlFile($filename, $table);
-    }
 
     /**
      * Create SQL File
      * @param $filename
      * @param $table
      * @return void
+     * @throws Exception
      */
-    public function createSqlFile($filename, $table)
+    public function createSqlFile($filename, $table): void
     {
-        FileHandler::setFilename($filename);
-        $csv = new CSVHandler();
-        $data = $csv->getDataWithKeys($filename);
+        $csv    = new CSVHandler();
+        $data   = $csv->getFormattedData($filename);
+        $sql    = [];
         foreach ($data as $entry) {
             $sql[] = $this->getValidSqlCountries($entry, $table);
         }
@@ -33,8 +31,13 @@ class CountriesSQL {
         file_put_contents($newFile, implode("\n ", $sql));
     }
 
-    public function getValidSqlCountries($entry, $table) {
-        $sqlGen = new SQLGenerator($table, $entry);
+    /**
+     * @param $entry
+     * @param $table
+     * @return string
+     */
+    public function getValidSqlCountries($entry, $table): string
+    {
         $titleChangedDE = $entry['title_de_changed'];
         $isDeleted = $entry['is_deleted'];
         $isNew = $entry['is_new_entry'];
@@ -47,19 +50,18 @@ class CountriesSQL {
         $titleIT    = $entry['title_it'];
         $postData   = $entry['title_post_sort'];
 
-        $sqlGen->addCondition('iso2', $iso2);
+        $condition = SQLGenerator::buildCondition('iso2', $iso2);
 
         if ($isDeleted) {
-            $sqlGen->addCondition('title_de', $titleDE);
-            $sql = $sqlGen->sqlDeleteStatement() . PHP_EOL;
+            $condition .= SQLGenerator::buildCondition('title_de', $titleDE);
+            $sql = SQLGenerator::sqlDeleteStatement($table, $condition) . PHP_EOL;
         } elseif ($titleChangedDE && !$isNew) {
             $updateFields = [
                 'iso3'              => $iso3,
                 'title_de'          => $titleDE,
                 'title_post_sort'   => $postData
             ];
-            $sql = $sqlGen->sqlUpdateStatement($updateFields) . PHP_EOL;
-            //update title_de, post, iso3
+            $sql = SQLGenerator::sqlUpdateStatement($table, $updateFields, $condition) . PHP_EOL;
         } elseif ($isNew) {
             $insertData = [
                 'iso2'              => $iso2,
@@ -70,14 +72,14 @@ class CountriesSQL {
                 'title_it'          => $titleIT,
                 'title_post_sort'   => $postData
             ];
-            $sql = $sqlGen->sqlDeleteStatement();
-            $sql .= $sqlGen->sqlInsertStatement($insertData) . PHP_EOL;
+            $sql = SQLGenerator::sqlDeleteStatement($table, $condition);
+            $sql .= SQLGenerator::sqlInsertStatement($table, $insertData) . PHP_EOL;
         } else {
             $updateFields = [
                 'iso3'              => $iso3,
                 'title_post_sort'   => $postData
             ];
-            $sql = $sqlGen->sqlUpdateStatement($updateFields) . PHP_EOL;
+            $sql = SQLGenerator::sqlUpdateStatement($table, $updateFields, $condition) . PHP_EOL;
             //update iso3, post
         }
         return $sql;
@@ -89,4 +91,8 @@ $filename = 'countries.csv';
 $table = 'orm_country';
 
 $test = new CountriesSQL();
-$test->run($filename, $table);
+try {
+    $test->createSqlFile($filename, $table);
+} catch (Exception $e) {
+    echo "An Exception occurred: " . $e->getMessage();
+}

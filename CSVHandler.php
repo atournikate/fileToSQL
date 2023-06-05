@@ -2,12 +2,15 @@
 
 namespace file2sql;
 
-class CSVHandler extends FileHandler
+use Exception;
+
+class CSVHandler
 {
     /**
      * Read CSV file to array
      * @param $filename
      * @return array
+     * @throws Exception
      */
     private function csvToArray($filename): array
     {
@@ -15,11 +18,12 @@ class CSVHandler extends FileHandler
 
         $file = fopen($filename, 'r');
         if ($file === false) {
-            throw new \Exception("Unable to open file: $filename");
+            throw new Exception("Unable to open file: $filename");
         }
 
         while( ($content = fgets($file)) !== false ) {
             $content = trim($content);
+            //remove whitespaces or null spaces
             $content = preg_replace("/^[\pZ\pC]+|[\pZ\pC]+$/u", "", $content);
             $row = str_getcsv($content, ", ");
             $row = array_map(function($value) {
@@ -33,7 +37,14 @@ class CSVHandler extends FileHandler
         return $csvArr;
     }
 
-    public function getFormattedData($filename) {
+    /**
+     * Format row headers into array keys for data
+     * @param $filename
+     * @return array
+     * @throws Exception
+     */
+    public function getFormattedData($filename): array
+    {
         $data = $this->csvToArray($filename);
         $ret = [];
 
@@ -47,6 +58,8 @@ class CSVHandler extends FileHandler
                 $entry = array_combine($keys, $values);
                 $ret[] = $entry;
             }
+        } else {
+            throw new Exception("No data in file");
         }
 
         return $ret;
