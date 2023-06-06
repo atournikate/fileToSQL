@@ -23,6 +23,7 @@ class CSVtoSQL
         for ($i = 0; $i < $num; $i++) {
             //$data[$i] accesses data for each individual country zipcode file in a nested array
             $insert = $this->createSQLInsertStatements($data[$i], $table);
+
             $this->printResultToFile($insert, $data[$i][0]['iso2'] . ".sql");
         }
     }
@@ -33,7 +34,7 @@ class CSVtoSQL
      * @return array|false
      * @throws Exception
      */
-    private function processDirectory($filepath): bool|array
+    private function processDirectory($filepath)
     {
         if (is_dir($filepath)) {
             $files = scandir($filepath);
@@ -68,15 +69,16 @@ class CSVtoSQL
      * @param $data
      * @param $table
      * @return string
+     * @throws Exception
      */
     private function createSQLInsertStatements($data, $table): string
     {
-        $iso        = $data[0]['iso2'];
+        $iso2        = $data[0]['iso2'];
 
-        $condition  = SQLGenerator::buildCondition('iso2', $iso);
+        $condition  = SQLGenerator::buildCondition('iso2', $iso2);
         $delete     = SQLGenerator::sqlDeleteStatement($table, $condition);
 
-        $insertStatements = $this->getMultiLineInserts($table, $data);
+        $insertStatements = $this->getMultiIndividualInserts($table, $data);
 
         return $delete . "\n" . $insertStatements;
     }
@@ -86,10 +88,15 @@ class CSVtoSQL
      * @param $table
      * @param $data
      * @return string
+     * @throws Exception
      */
-    private function getMultiLineInserts($table, $data): string
+/*    private function getMultiLineInserts($table, $data): string
     {
         return SQLGenerator::sqlMultiLineInsertStatement($table, $data);
+    }*/
+
+    private function getMultiIndividualInserts($table, $data): string {
+        return SQLGenerator::sqlMultiIndividualInsertStatements($table, $data);
     }
 
     /**
@@ -98,7 +105,7 @@ class CSVtoSQL
      * @param $columns
      * @return string
      */
-    private function createTable($table, $columns): string
+    /*private function createTable($table, $columns): string
     {
         $cols = [];
         foreach ($columns as $column) {
@@ -108,7 +115,7 @@ class CSVtoSQL
         $sql .= "\n" . SQLGenerator::sqlCreateTable($table, $cols);
 
         return $sql;
-    }
+    }*/
 
     /**
      * Write SQL to file

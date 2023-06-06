@@ -1,4185 +1,4184 @@
-DELETE FROM orm_zip_code WHERE iso2 = 'NL';
-INSERT INTO orm_zip_code (iso2, zip_code, location)
-VALUES
-("NL", "7841", "Sleen"), 
-("NL", "7845", "Holsloot"), 
-("NL", "7812", "Emmen"), 
-("NL", "7895", "Roswinkel"), 
-("NL", "7915", "Alteveer gem Hoogeveen"), 
-("NL", "7705", "Drogteropslagen"), 
-("NL", "7963", "Ruinen"), 
-("NL", "7964", "Ansen"), 
-("NL", "9335", "Zuidvelde"), 
-("NL", "7933", "Pesse"), 
-("NL", "7973", "Darp"), 
-("NL", "9496", "Bunne"), 
-("NL", "9431", "Westerbork"), 
-("NL", "9163", "Nes"), 
-("NL", "9026", "Jellum"), 
-("NL", "8433", "Haulerwijk"), 
-("NL", "8435", "Donkerbroek"), 
-("NL", "9204", "Drachten"), 
-("NL", "8398", "Blesdijke"), 
-("NL", "9063", "Mûnein"), 
-("NL", "9256", "Ryptsjerk"), 
-("NL", "9258", "Jistrum"), 
-("NL", "9263", "Garyp"), 
-("NL", "8737", "Hidaard"), 
-("NL", "8751", "Zurich"), 
-("NL", "8759", "Exmorra"), 
-("NL", "8461", "Rottum"), 
-("NL", "9045", "Bitgummole"), 
-("NL", "9174", "Ginnum"), 
-("NL", "6811", "Arnhem"), 
-("NL", "4031", "Ingen"), 
-("NL", "6984", "Doesburg"), 
-("NL", "7008", "Doetinchem"), 
-("NL", "7009", "Doetinchem"), 
-("NL", "6921", "Duiven"), 
-("NL", "7352", "Hoenderloo"), 
-("NL", "8166", "Emst"), 
-("NL", "6581", "Malden"), 
-("NL", "6515", "Lent"), 
-("NL", "6955", "Ellecom"), 
-("NL", "6665", "Driel"), 
-("NL", "7157", "Rekken"), 
-("NL", "6562", "Groesbeek"), 
-("NL", "6572", "Berg en Dal"), 
-("NL", "9614", "Harkstede GN"), 
-("NL", "9745", "Groningen"), 
-("NL", "9751", "Haren Gn"), 
-("NL", "9965", "Zuurdijk"), 
-("NL", "9991", "Middelstum"), 
-("NL", "6241", "Bunde"), 
-("NL", "5923", "Venlo"), 
-("NL", "5951", "Belfeld"), 
-("NL", "5814", "Veulen"), 
-("NL", "5817", "Smakt"), 
-("NL", "6085", "Horn"), 
-("NL", "6065", "Montfort"), 
-("NL", "6287", "Eys"), 
-("NL", "6252", "Eckelrade"), 
-("NL", "5836", "Sambeek"), 
-("NL", "5758", "Neerkant"), 
-("NL", "5512", "Vessem"), 
-("NL", "5126", "Gilze"), 
-("NL", "5053", "Goirle"), 
-("NL", "5249", "Rosmalen"), 
-("NL", "5154", "Elshout"), 
-("NL", "5158", "Heesbeen"), 
-("NL", "5341", "Oss"), 
-("NL", "5342", "Oss"), 
-("NL", "5371", "Ravenstein"), 
-("NL", "4715", "Rucphen"), 
-("NL", "4651", "Steenbergen"), 
-("NL", "5018", "Tilburg"), 
-("NL", "5021", "Tilburg"), 
-("NL", "5056", "Berkel-Enschot"), 
-("NL", "5402", "Uden"), 
-("NL", "4891", "Rijsbergen"), 
-("NL", "5425", "De Mortel"), 
-("NL", "4726", "Moerstraten"), 
-("NL", "4794", "Heijningen"), 
-("NL", "5472", "Loosbroek"), 
-("NL", "5528", "Hoogeloon"), 
-("NL", "5491", "Sint-Oedenrode"), 
-("NL", "1636", "Schermerhorn"), 
-("NL", "1813", "Alkmaar"), 
-("NL", "1842", "Oterleek"), 
-("NL", "1073", "Amsterdam"), 
-("NL", "1094", "Amsterdam"), 
-("NL", "1463", "Noordbeemster"), 
-("NL", "1476", "Schardam"), 
-("NL", "1117", "Schiphol"), 
-("NL", "1963", "Heemskerk"), 
-("NL", "1967", "Heemskerk"), 
-("NL", "1701", "Heerhugowaard"), 
-("NL", "1749", "Warmenhuizen"), 
-("NL", "1754", "Burgerbrug"), 
-("NL", "1794", "Oosterend"), 
-("NL", "1505", "Zaandam"), 
-("NL", "1507", "Zaandam"), 
-("NL", "1394", "Nederhorst den Berg"), 
-("NL", "1402", "Bussum"), 
-("NL", "3819", "Amersfoort"), 
-("NL", "3991", "Houten"), 
-("NL", "3761", "Soest"), 
-("NL", "3763", "Soest"), 
-("NL", "3768", "Soest"), 
-("NL", "3513", "Utrecht"), 
-("NL", "3542", "Utrecht"), 
-("NL", "3584", "Utrecht"), 
-("NL", "3959", "Overberg"), 
-("NL", "4131", "Vianen"), 
-("NL", "4233", "Ameide"), 
-("NL", "4569", "Graauw"), 
-("NL", "4338", "Middelburg"), 
-("NL", "4542", "Hoek"), 
-("NL", "4551", "Sas van Gent"), 
-("NL", "4353", "Serooskerke"), 
-("NL", "4371", "Koudekerke"), 
-("NL", "4382", "Vlissingen"), 
-("NL", "4322", "Scharendijke"), 
-("NL", "2409", "Alphen aan den Rijn"), 
-("NL", "2613", "Delft"), 
-("NL", "2809", "Gouda"), 
-("NL", "2493", "'s-Gravenhage"), 
-("NL", "2923", "Krimpen aan den IJssel"), 
-("NL", "2311", "Leiden"), 
-("NL", "2323", "Leiden"), 
-("NL", "3142", "Maassluis"), 
-("NL", "2461", "Ter Aar"), 
-("NL", "3022", "Rotterdam"), 
-("NL", "3023", "Rotterdam"), 
-("NL", "3034", "Rotterdam"), 
-("NL", "3073", "Rotterdam"), 
-("NL", "3089", "Rotterdam"), 
-("NL", "3191", "Hoogvliet Rotterdam"), 
-("NL", "3119", "Schiedam"), 
-("NL", "3124", "Schiedam"), 
-("NL", "2382", "Zoeterwoude"), 
-("NL", "2672", "Naaldwijk"), 
-("NL", "2811", "Reeuwijk"), 
-("NL", "2274", "Voorburg"), 
-("NL", "2643", "Pijnacker"), 
-("NL", "2825", "Stolwijk"), 
-("NL", "3292", "Strijensas"), 
-("NL", "7627", "Bornerbroek"), 
-("NL", "7623", "Borne"), 
-("NL", "7626", "Hertme"), 
-("NL", "7543", "Enschede"), 
-("NL", "7546", "Enschede"), 
-("NL", "7482", "Haaksbergen"), 
-("NL", "8267", "Kampen"), 
-("NL", "8274", "Wilsum"), 
-("NL", "8045", "Zwolle"), 
-("NL", "7694", "Kloosterhaar"), 
-("NL", "7495", "Ambt Delden"), 
-("NL", "8198", "Marle"), 
-("NL", "7631", "Ootmarsum"), 
-("NL", "7636", "Agelo"), 
-("NL", "1311", "Almere"), 
-("NL", "1331", "Almere"), 
-("NL", "1338", "Almere"), 
-("NL", "1343", "Almere"), 
-("NL", "1356", "Almere"), 
-("NL", "8311", "Espel"), 
-("NL", "8313", "Rutten"), 
-("NL", "8321", "Urk"), 
-("NL", "8211", "Lelystad"), 
-("NL", "7849", "De Kiel"), 
-("NL", "9446", "Amen"), 
-("NL", "7974", "Havelterberg"), 
-("NL", "9438", "Garminge"), 
-("NL", "8857", "Wijnaldum"), 
-("NL", "8447", "Heerenveen"), 
-("NL", "8457", "Gersloot"), 
-("NL", "8934", "Leeuwarden"), 
-("NL", "9001", "Grou"), 
-("NL", "8421", "Oldeberkoop"), 
-("NL", "9245", "Nij Beets"), 
-("NL", "8611", "Gaastmeer"), 
-("NL", "8635", "Boazum"), 
-("NL", "8733", "Iens"), 
-("NL", "8765", "Tjerkwerd"), 
-("NL", "8528", "Dijken"), 
-("NL", "8556", "Sloten"), 
-("NL", "8807", "Herbaijum"), 
-("NL", "9044", "Bitgum"), 
-("NL", "9296", "Triemen"), 
-("NL", "7334", "Apeldoorn"), 
-("NL", "7346", "Hoog Soeren"), 
-("NL", "6841", "Arnhem"), 
-("NL", "6844", "Arnhem"), 
-("NL", "3775", "Kootwijk"), 
-("NL", "4101", "Culemborg"), 
-("NL", "6651", "Druten"), 
-("NL", "3863", "Nijkerk"), 
-("NL", "6541", "Nijmegen"), 
-("NL", "6865", "Doorwerth"), 
-("NL", "6874", "Wolfheze"), 
-("NL", "7107", "Winterswijk Kotten"), 
-("NL", "6616", "Hernen"), 
-("NL", "7205", "Zutphen"), 
-("NL", "7078", "Megchelen"), 
-("NL", "7165", "Rietmolen"), 
-("NL", "7234", "Wichmond"), 
-("NL", "6566", "Millingen aan de Rijn"), 
-("NL", "9792", "Ten Post"), 
-("NL", "9798", "Garmerwolde"), 
-("NL", "9673", "Winschoten"), 
-("NL", "9635", "Noordbroek"), 
-("NL", "9934", "Delfzijl"), 
-("NL", "6444", "Brunssum"), 
-("NL", "6468", "Kerkrade"), 
-("NL", "6219", "Maastricht"), 
-("NL", "6243", "Moorveld"), 
-("NL", "6587", "Middelaar"), 
-("NL", "5928", "Venlo"), 
-("NL", "6305", "Schin op Geul"), 
-("NL", "5766", "Griendtsveen"), 
-("NL", "5871", "Broekhuizenvorst"), 
-("NL", "6088", "Roggel"), 
-("NL", "6095", "Baexem"), 
-("NL", "6133", "Sittard"), 
-("NL", "6166", "Geleen"), 
-("NL", "5641", "Eindhoven"), 
-("NL", "5644", "Eindhoven"), 
-("NL", "5051", "Goirle"), 
-("NL", "5231", "'s-Hertogenbosch"), 
-("NL", "5234", "'s-Hertogenbosch"), 
-("NL", "5248", "Rosmalen"), 
-("NL", "5156", "Oudheusden"), 
-("NL", "5157", "Doeveren"), 
-("NL", "5176", "De Moer"), 
-("NL", "5059", "Heukelom"), 
-("NL", "5553", "Valkenswaard"), 
-("NL", "5506", "Veldhoven"), 
-("NL", "5591", "Heeze"), 
-("NL", "6021", "Budel"), 
-("NL", "6027", "Soerendonk"), 
-("NL", "4762", "Zevenbergen"), 
-("NL", "4793", "Fijnaart"), 
-("NL", "4844", "Terheijden"), 
-("NL", "4859", "Bavel AC"), 
-("NL", "5563", "Westerhoven"), 
-("NL", "1485", "Noordeinde"), 
-("NL", "1014", "Amsterdam"), 
-("NL", "1021", "Amsterdam"), 
-("NL", "2165", "Lisserbroek"), 
-("NL", "1218", "Hilversum"), 
-("NL", "1625", "Hoorn"), 
-("NL", "1627", "Hoorn"), 
-("NL", "1121", "Landsmeer"), 
-("NL", "1721", "Broek op Langedijk"), 
-("NL", "1691", "Hauwert"), 
-("NL", "1445", "Purmerend"), 
-("NL", "1757", "Oudesluis"), 
-("NL", "1911", "Uitgeest"), 
-("NL", "1971", "IJmuiden"), 
-("NL", "1521", "Westknollendam"), 
-("NL", "1608", "Wijdenes"), 
-("NL", "1241", "Kortenhoef"), 
-("NL", "3823", "Amersfoort"), 
-("NL", "3723", "Bilthoven"), 
-("NL", "3832", "Leusden"), 
-("NL", "3411", "Lopik"), 
-("NL", "3524", "Utrecht"), 
-("NL", "3544", "Utrecht"), 
-("NL", "3573", "Utrecht"), 
-("NL", "3404", "IJsselstein"), 
-("NL", "3709", "Zeist"), 
-("NL", "3448", "Woerden"), 
-("NL", "1427", "Amstelhoek"), 
-("NL", "4124", "Hagestein"), 
-("NL", "4472", "Goes"), 
-("NL", "4474", "Kloetinge"), 
-("NL", "4417", "Hansweert"), 
-("NL", "4575", "Overslag"), 
-("NL", "4389", "Ritthem"), 
-("NL", "4318", "Brouwershaven"), 
-("NL", "4527", "Aardenburg"), 
-("NL", "2622", "Delft"), 
-("NL", "3314", "Dordrecht"), 
-("NL", "2804", "Gouda"), 
-("NL", "2498", "'s-Gravenhage"), 
-("NL", "2562", "'s-Gravenhage"), 
-("NL", "3371", "Hardinxveld-Giessendam"), 
-("NL", "3227", "Oudenhoorn"), 
-("NL", "2203", "Noordwijk"), 
-("NL", "3014", "Rotterdam"), 
-("NL", "3053", "Rotterdam"), 
-("NL", "3055", "Rotterdam"), 
-("NL", "3193", "Hoogvliet Rotterdam"), 
-("NL", "3921", "Rotterdam"), 
-("NL", "3136", "Vlaardingen"), 
-("NL", "2715", "Zoetermeer"), 
-("NL", "2411", "Bodegraven"), 
-("NL", "2263", "Leidschendam"), 
-("NL", "2267", "Leidschendam"), 
-("NL", "3241", "Middelharnis"), 
-("NL", "2645", "Delfgauw"), 
-("NL", "3212", "Simonshaven"), 
-("NL", "7606", "Almelo"), 
-("NL", "7611", "Aadorp"), 
-("NL", "7443", "Nijverdal"), 
-("NL", "7552", "Hengelo"), 
-("NL", "8278", "Kamperveen"), 
-("NL", "7734", "Vilsteren"), 
-("NL", "8055", "Laag Zuthem"), 
-("NL", "8023", "Zwolle"), 
-("NL", "7946", "Wanneperveen"), 
-("NL", "8338", "Willemsoord"), 
-("NL", "8061", "Hasselt"), 
-("NL", "1341", "Almere"), 
-("NL", "8301", "Emmeloord"), 
-("NL", "8255", "Swifterbant"), 
-("NL", "8231", "Lelystad"), 
-("NL", "7754", "Wachtum"), 
-("NL", "7856", "Benneveld"), 
-("NL", "7811", "Emmen"), 
-("NL", "9457", "Deurze"), 
-("NL", "9571", "2e Exloërmond"), 
-("NL", "7925", "Linde"), 
-("NL", "9475", "Midlaren"), 
-("NL", "9873", "Gerkesklooster"), 
-("NL", "8933", "Leeuwarden"), 
-("NL", "8483", "Scherpenzeel"), 
-("NL", "8487", "Nijelamer"), 
-("NL", "9255", "Tytsjerk"), 
-("NL", "9105", "Rinsumageast"), 
-("NL", "8584", "Hemelum"), 
-("NL", "8734", "Easterein"), 
-("NL", "8764", "Dedgum"), 
-("NL", "8462", "Rotstergaast"), 
-("NL", "8501", "Joure"), 
-("NL", "8503", "Joure"), 
-("NL", "8563", "Wijckel"), 
-("NL", "8582", "Oudega"), 
-("NL", "9031", "Boksum"), 
-("NL", "9047", "Minnertsga"), 
-("NL", "9137", "Oosternijkerk"), 
-("NL", "9852", "Warfstermolen"), 
-("NL", "7001", "Doetinchem"), 
-("NL", "6711", "Ede"), 
-("NL", "6712", "Ede"), 
-("NL", "8171", "Vaassen"), 
-("NL", "8172", "Vaassen"), 
-("NL", "6544", "Nijmegen"), 
-("NL", "6707", "Wageningen"), 
-("NL", "7108", "Winterswijk Woold"), 
-("NL", "6613", "Balgoij"), 
-("NL", "7051", "Varsseveld"), 
-("NL", "6671", "Zetten"), 
-("NL", "6676", "Homoet"), 
-("NL", "4041", "Kesteren"), 
-("NL", "6577", "Erlecom"), 
-("NL", "7038", "Zeddam"), 
-("NL", "7045", "Azewijn"), 
-("NL", "4061", "Ophemert"), 
-("NL", "4184", "Opijnen"), 
-("NL", "4211", "Spijk"), 
-("NL", "9727", "Groningen"), 
-("NL", "9732", "Groningen"), 
-("NL", "9967", "Eenrum"), 
-("NL", "9978", "Hornhuizen"), 
-("NL", "9841", "Niezijl"), 
-("NL", "9905", "Holwierde"), 
-("NL", "9936", "Farmsum"), 
-("NL", "6418", "Heerlen"), 
-("NL", "5911", "Venlo"), 
-("NL", "5914", "Venlo"), 
-("NL", "6013", "Hunsel"), 
-("NL", "6017", "Thorn"), 
-("NL", "6116", "Roosteren"), 
-("NL", "6276", "Heijenrath"), 
-("NL", "6161", "Geleen"), 
-("NL", "4623", "Bergen op Zoom"), 
-("NL", "4624", "Bergen op Zoom"), 
-("NL", "5105", "Dongen"), 
-("NL", "5615", "Eindhoven"), 
-("NL", "5645", "Eindhoven"), 
-("NL", "5707", "Helmond"), 
-("NL", "5211", "'s-Hertogenbosch"), 
-("NL", "5222", "'s-Hertogenbosch"), 
-("NL", "5236", "'s-Hertogenbosch"), 
-("NL", "5242", "Rosmalen"), 
-("NL", "5383", "Vinkel"), 
-("NL", "5152", "Drunen"), 
-("NL", "4849", "Dorst"), 
-("NL", "5386", "Geffen"), 
-("NL", "5397", "Lith"), 
-("NL", "4721", "Schijf"), 
-("NL", "5038", "Tilburg"), 
-("NL", "4724", "Wouw"), 
-("NL", "5433", "Katwijk NB"), 
-("NL", "6023", "Budel-Schoot"), 
-("NL", "4926", "Lage Zwaluwe"), 
-("NL", "5561", "Riethoven"), 
-("NL", "5674", "Mierlo"), 
-("NL", "1483", "De Rijp"), 
-("NL", "1484", "Graft"), 
-("NL", "1829", "Oudorp"), 
-("NL", "1841", "Stompetoren"), 
-("NL", "1185", "Amstelveen"), 
-("NL", "1041", "Amsterdam"), 
-("NL", "1064", "Amsterdam"), 
-("NL", "1861", "Bergen (NH)"), 
-("NL", "1474", "Oosthuizen"), 
-("NL", "2136", "Zwaanshoek"), 
-("NL", "2153", "Nieuw-Vennep"), 
-("NL", "2114", "Heemstede"), 
-("NL", "1621", "Hoorn"), 
-("NL", "1277", "Huizen"), 
-("NL", "1127", "Den Ilp"), 
-("NL", "1424", "De Kwakel"), 
-("NL", "1992", "Velserbroek"), 
-("NL", "1777", "Hippolytushoef"), 
-("NL", "3997", "'t Goy"), 
-("NL", "3415", "Polsbroek"), 
-("NL", "3912", "Rhenen"), 
-("NL", "3523", "Utrecht"), 
-("NL", "3903", "Veenendaal"), 
-("NL", "3401", "IJsselstein"), 
-("NL", "3403", "IJsselstein"), 
-("NL", "4583", "Terhole"), 
-("NL", "4332", "Middelburg"), 
-("NL", "4333", "Middelburg"), 
-("NL", "4538", "Terneuzen"), 
-("NL", "4543", "Zaamslag"), 
-("NL", "4576", "Koewacht"), 
-("NL", "4581", "Axel"), 
-("NL", "4361", "Westkapelle"), 
-("NL", "4328", "Burgh-Haamstede"), 
-("NL", "4513", "Hoofdplaat"), 
-("NL", "4525", "Retranchement"), 
-("NL", "2628", "Delft"), 
-("NL", "2571", "'s-Gravenhage"), 
-("NL", "3224", "Hellevoetsluis"), 
-("NL", "3052", "Rotterdam"), 
-("NL", "2283", "Rijswijk"), 
-("NL", "3115", "Schiedam"), 
-("NL", "2716", "Zoetermeer"), 
-("NL", "2719", "Zoetermeer"), 
-("NL", "2171", "Warmond"), 
-("NL", "2272", "Voorburg"), 
-("NL", "2273", "Voorburg"), 
-("NL", "3271", "Mijnsheerenland"), 
-("NL", "7448", "Haarle"), 
-("NL", "7645", "Enter"), 
-("NL", "8016", "Zwolle"), 
-("NL", "8025", "Zwolle"), 
-("NL", "7675", "Bruinehaar"), 
-("NL", "8377", "Kalenberg"), 
-("NL", "1322", "Almere"), 
-("NL", "3922", "Elst Ut"), 
-("NL", "3961", "Wijk bij Duurstede"), 
-("NL", "3702", "Zeist"), 
-("NL", "3432", "Nieuwegein"), 
-("NL", "3425", "Snelrewaard"), 
-("NL", "1393", "Nigtevecht"), 
-("NL", "4122", "Zijderveld"), 
-("NL", "4434", "Kwadendamme"), 
-("NL", "4581", "Vogelwaarde"), 
-("NL", "4541", "Sluiskil"), 
-("NL", "4381", "Vlissingen"), 
-("NL", "4306", "Nieuwerkerk"), 
-("NL", "2954", "Alblasserdam"), 
-("NL", "4213", "Dalem"), 
-("NL", "2801", "Gouda"), 
-("NL", "2525", "'s-Gravenhage"), 
-("NL", "3342", "Hendrik-Ido-Ambacht"), 
-("NL", "2232", "Rijnsburg"), 
-("NL", "2926", "Krimpen aan den IJssel"), 
-("NL", "3038", "Rotterdam"), 
-("NL", "3192", "Hoogvliet Rotterdam"), 
-("NL", "3162", "Rhoon"), 
-("NL", "3165", "Rotterdam-Albrandswaard"), 
-("NL", "3131", "Vlaardingen"), 
-("NL", "2253", "Voorschoten"), 
-("NL", "2718", "Zoetermeer"), 
-("NL", "2726", "Zoetermeer"), 
-("NL", "2171", "Sassenheim"), 
-("NL", "3155", "Maasland"), 
-("NL", "2264", "Leidschendam"), 
-("NL", "3257", "Ooltgensplaat"), 
-("NL", "2975", "Ottoland"), 
-("NL", "4209", "Schelluinen"), 
-("NL", "7622", "Borne"), 
-("NL", "7692", "Mariënberg"), 
-("NL", "7793", "Hoogenweg"), 
-("NL", "7795", "Diffelen"), 
-("NL", "8101", "Raalte"), 
-("NL", "8107", "Broekland"), 
-("NL", "8043", "Zwolle"), 
-("NL", "7671", "Vriezenveen"), 
-("NL", "8374", "Kuinre"), 
-("NL", "1317", "Almere"), 
-("NL", "3895", "Zeewolde"), 
-("NL", "8244", "Lelystad"), 
-("NL", "9492", "Ubbena"), 
-("NL", "7842", "Diphoorn"), 
-("NL", "9514", "Gasselternijveen"), 
-("NL", "9312", "Nietap"), 
-("NL", "9336", "Huis ter Heide"), 
-("NL", "9354", "Nieuw-Roden"), 
-("NL", "7963", "Ruinen"), 
-("NL", "7985", "Geeuwenbrug"), 
-("NL", "9471", "Zuidlaren"), 
-("NL", "9473", "De Groeve"), 
-("NL", "9871", "Stroobos"), 
-("NL", "8454", "Mildam"), 
-("NL", "8405", "Luxwoude"), 
-("NL", "8472", "Wolvega"), 
-("NL", "9062", "Oentsjerk"), 
-("NL", "9251", "Burgum"), 
-("NL", "8523", "Idskenhuizen"), 
-("NL", "8536", "Oosterzee"), 
-("NL", "8567", "Oudemirdum"), 
-("NL", "8809", "Boer"), 
-("NL", "8812", "Peins"), 
-("NL", "9035", "Dronryp"), 
-("NL", "9123", "Metslawier"), 
-("NL", "9135", "Morra"), 
-("NL", "7315", "Apeldoorn"), 
-("NL", "7321", "Apeldoorn"), 
-("NL", "7336", "Apeldoorn"), 
-("NL", "7348", "Radio Kootwijk"), 
-("NL", "6846", "Arnhem"), 
-("NL", "4112", "Beusichem"), 
-("NL", "3842", "Harderwijk"), 
-("NL", "3843", "Harderwijk"), 
-("NL", "3848", "Harderwijk"), 
-("NL", "7218", "Almen"), 
-("NL", "7244", "Barchem"), 
-("NL", "8091", "Wezep"), 
-("NL", "8096", "Oldebroek"), 
-("NL", "7384", "Wilp"), 
-("NL", "6932", "Westervoort"), 
-("NL", "6615", "Leur"), 
-("NL", "5305", "Zuilichem"), 
-("NL", "5313", "Nieuwaal"), 
-("NL", "5318", "Bern"), 
-("NL", "6904", "Zevenaar"), 
-("NL", "6986", "Angerlo"), 
-("NL", "7203", "Zutphen"), 
-("NL", "8071", "Nunspeet"), 
-("NL", "8075", "Elspeet"), 
-("NL", "7142", "Groenlo"), 
-("NL", "4181", "Neerijnen"), 
-("NL", "9479", "Noordlaren"), 
-("NL", "9715", "Groningen"), 
-("NL", "9661", "Alteveer"), 
-("NL", "9636", "Zuidbroek"), 
-("NL", "9955", "Rasquert"), 
-("NL", "9822", "Niekerk"), 
-("NL", "9924", "Startenhuizen"), 
-("NL", "6464", "Kerkrade"), 
-("NL", "6227", "Maastricht"), 
-("NL", "6585", "Mook"), 
-("NL", "6586", "Plasmolen"), 
-("NL", "6034", "Nederweert-Eind"), 
-("NL", "6049", "Herten"), 
-("NL", "6291", "Vaals"), 
-("NL", "5916", "Venlo"), 
-("NL", "5801", "Venray"), 
-("NL", "6006", "Weert"), 
-("NL", "6325", "Berg en Terblijt"), 
-("NL", "6015", "Neeritter"), 
-("NL", "6074", "Melick"), 
-("NL", "5987", "Egchel"), 
-("NL", "6262", "Banholt"), 
-("NL", "6268", "Bemelen"), 
-("NL", "6269", "Margraten"), 
-("NL", "5428", "Venhorst"), 
-("NL", "5513", "Wintelre"), 
-("NL", "5521", "Eersel"), 
-("NL", "5627", "Eindhoven"), 
-("NL", "5028", "Diessen"), 
-("NL", "5172", "Kaatsheuvel"), 
-("NL", "5017", "Tilburg"), 
-("NL", "5503", "Veldhoven"), 
-("NL", "5763", "Milheeze"), 
-("NL", "5445", "Landhorst"), 
-("NL", "4765", "Zevenbergschen Hoek"), 
-("NL", "5388", "Nistelrode"), 
-("NL", "5462", "Veghel"), 
-("NL", "5481", "Schijndel"), 
-("NL", "1811", "Alkmaar"), 
-("NL", "1846", "Zuidschermer"), 
-("NL", "1036", "Amsterdam"), 
-("NL", "1043", "Amsterdam"), 
-("NL", "1067", "Amsterdam"), 
-("NL", "1262", "Blaricum"), 
-("NL", "1901", "Castricum"), 
-("NL", "2033", "Haarlem"), 
-("NL", "1437", "Rozenburg"), 
-("NL", "2064", "Spaarndam"), 
-("NL", "1702", "Heerhugowaard"), 
-("NL", "1851", "Heiloo"), 
-("NL", "1853", "Heiloo"), 
-("NL", "1783", "Den Helder"), 
-("NL", "1275", "Huizen"), 
-("NL", "1655", "Sijbekarspel"), 
-("NL", "1541", "Zaandam"), 
-("NL", "1713", "Obdam"), 
-("NL", "3625", "Breukeleveen"), 
-("NL", "3814", "Amersfoort"), 
-("NL", "3413", "Jaarsveld"), 
-("NL", "7852", "Wezup"), 
-("NL", "7965", "Broekhuizen"), 
-("NL", "9573", "1e Exloërmond"), 
-("NL", "7927", "Alteveer"), 
-("NL", "9315", "Roderwolde"), 
-("NL", "9417", "Spier"), 
-("NL", "8833", "Leons"), 
-("NL", "8935", "Leeuwarden"), 
-("NL", "8939", "Leeuwarden"), 
-("NL", "8423", "Makkinga"), 
-("NL", "8424", "Elsloo"), 
-("NL", "8477", "Oldeholtwolde"), 
-("NL", "8488", "Nijeholtwolde"), 
-("NL", "9109", "De Falom"), 
-("NL", "9271", "De Westereen"), 
-("NL", "8551", "Woudsend"), 
-("NL", "8552", "Smallebrugge"), 
-("NL", "8605", "Sneek"), 
-("NL", "8647", "Sibrandabuorren"), 
-("NL", "8713", "Hindeloopen"), 
-("NL", "8723", "Koudum"), 
-("NL", "8463", "Rotsterhaule"), 
-("NL", "8465", "Oudehaske"), 
-("NL", "8493", "Terherne"), 
-("NL", "8508", "Delfstrahuizen"), 
-("NL", "8524", "Teroele"), 
-("NL", "8534", "Eesterga"), 
-("NL", "8539", "Echtenerbrug"), 
-("NL", "8801", "Franeker"), 
-("NL", "8813", "Schalsum"), 
-("NL", "9079", "Westhoek"), 
-("NL", "9143", "Nes"), 
-("NL", "7313", "Apeldoorn"), 
-("NL", "6641", "Beuningen Gld"), 
-("NL", "6645", "Winssen"), 
-("NL", "7004", "Doetinchem"), 
-("NL", "9718", "Groningen"), 
-("NL", "9737", "Groningen"), 
-("NL", "9641", "Veendam"), 
-("NL", "9925", "Startenhuizen"), 
-("NL", "9821", "Oldekerk"), 
-("NL", "6374", "Landgraaf"), 
-("NL", "6216", "Maastricht"), 
-("NL", "6235", "Ulestraten"), 
-("NL", "5811", "Castenray"), 
-("NL", "6004", "Weert"), 
-("NL", "6005", "Weert"), 
-("NL", "6081", "Haelen"), 
-("NL", "6089", "Heibloem"), 
-("NL", "6099", "Beegden"), 
-("NL", "6111", "Sint Joost"), 
-("NL", "6321", "Wijlre"), 
-("NL", "6245", "Eijsden"), 
-("NL", "6261", "Mheer"), 
-("NL", "4826", "Breda"), 
-("NL", "5656", "Eindhoven"), 
-("NL", "4872", "Etten-Leur"), 
-("NL", "5702", "Helmond"), 
-("NL", "5708", "Helmond"), 
-("NL", "5381", "Vinkel"), 
-("NL", "5275", "Den Dungen"), 
-("NL", "5401", "Uden"), 
-("NL", "5404", "Uden"), 
-("NL", "4882", "Klein Zundert"), 
-("NL", "4751", "Oud Gastel"), 
-("NL", "5443", "Haps"), 
-("NL", "6024", "Budel-Dorplein"), 
-("NL", "5665", "Geldrop"), 
-("NL", "4264", "Veen"), 
-("NL", "1816", "Alkmaar"), 
-("NL", "1015", "Amsterdam"), 
-("NL", "1053", "Amsterdam"), 
-("NL", "1054", "Amsterdam"), 
-("NL", "1076", "Amsterdam"), 
-("NL", "1087", "Amsterdam"), 
-("NL", "2114", "Vogelenzang"), 
-("NL", "2012", "Haarlem"), 
-("NL", "2143", "Boesingheliede"), 
-("NL", "1212", "Hilversum"), 
-("NL", "1688", "Nibbixwoud"), 
-("NL", "1715", "Spanbroek"), 
-("NL", "1756", "'t Zand"), 
-("NL", "2451", "De Kwakel"), 
-("NL", "1972", "IJmuiden"), 
-("NL", "1525", "Wormerveer"), 
-("NL", "1458", "Spijkerboor"), 
-("NL", "1243", "'s-Graveland"), 
-("NL", "1732", "Lutjewinkel"), 
-("NL", "3812", "Amersfoort"), 
-("NL", "3818", "Amersfoort"), 
-("NL", "3824", "Amersfoort"), 
-("NL", "3826", "Amersfoort"), 
-("NL", "3829", "Hooglanderveen"), 
-("NL", "3721", "Bilthoven"), 
-("NL", "3732", "Bilthoven"), 
-("NL", "3833", "Leusden"), 
-("NL", "3765", "Soest"), 
-("NL", "3441", "Woerden"), 
-("NL", "3606", "Maarssen"), 
-("NL", "3634", "Loenersloot"), 
-("NL", "4436", "Oudelande"), 
-("NL", "4424", "Wemeldinge"), 
-("NL", "4384", "Vlissingen"), 
-("NL", "4302", "Zierikzee"), 
-("NL", "4506", "Cadzand"), 
-("NL", "4507", "Schoondijke"), 
-("NL", "4524", "Sluis"), 
-("NL", "2993", "Barendrecht"), 
-("NL", "2612", "Delft"), 
-("NL", "2808", "Gouda"), 
-("NL", "2515", "'s-Gravenhage"), 
-("NL", "2524", "'s-Gravenhage"), 
-("NL", "2574", "'s-Gravenhage"), 
-("NL", "2231", "Rijnsburg"), 
-("NL", "2211", "Noordwijkerhout"), 
-("NL", "3025", "Rotterdam"), 
-("NL", "3122", "Schiedam"), 
-("NL", "3138", "Vlaardingen"), 
-("NL", "2481", "Woubrugge"), 
-("NL", "2911", "Nieuwerkerk aan den IJssel"), 
-("NL", "3214", "Zuidland"), 
-("NL", "2973", "Molenaarsgraaf"), 
-("NL", "7608", "Almelo"), 
-("NL", "7427", "Deventer"), 
-("NL", "7536", "Enschede"), 
-("NL", "7693", "Sibculo"), 
-("NL", "7771", "Hardenberg"), 
-("NL", "7571", "Oldenzaal"), 
-("NL", "8102", "Raalte"), 
-("NL", "7715", "Punthorst"), 
-("NL", "7663", "Mander"), 
-("NL", "8355", "Giethoorn"), 
-("NL", "8307", "Ens"), 
-("NL", "8221", "Lelystad"), 
-("NL", "6715", "Ede"), 
-("NL", "3864", "Nijkerkerveen"), 
-("NL", "6511", "Nijmegen"), 
-("NL", "6545", "Nijmegen"), 
-("NL", "4002", "Tiel"), 
-("NL", "4003", "Tiel"), 
-("NL", "7101", "Winterswijk"), 
-("NL", "6605", "Wijchen"), 
-("NL", "5315", "Kerkwijk"), 
-("NL", "6629", "Appeltern"), 
-("NL", "6574", "Ubbergen"), 
-("NL", "4181", "Waardenburg"), 
-("NL", "7753", "Dalerpeel"), 
-("NL", "7848", "Schoonoord"), 
-("NL", "7815", "Emmen"), 
-("NL", "9511", "Gieterveen"), 
-("NL", "7874", "Odoornerveen"), 
-("NL", "9523", "Drouwenermond"), 
-("NL", "9526", "Bronnegerveen"), 
-("NL", "7958", "Koekange"), 
-("NL", "9314", "Foxwolde"), 
-("NL", "9497", "Donderen"), 
-("NL", "9761", "Eelde"), 
-("NL", "9437", "Balinge"), 
-("NL", "8916", "Leeuwarden"), 
-("NL", "8919", "Leeuwarden"), 
-("NL", "9005", "Wergea"), 
-("NL", "9081", "Lekkum"), 
-("NL", "9261", "Eastermar"), 
-("NL", "8621", "Indijk"), 
-("NL", "8622", "Hommerts"), 
-("NL", "8762", "Hieslum"), 
-("NL", "9012", "Raerd"), 
-("NL", "8804", "Tzum"), 
-("NL", "9147", "Hantum"), 
-("NL", "7122", "Aalten"), 
-("NL", "7331", "Apeldoorn"), 
-("NL", "7399", "Empe"), 
-("NL", "6981", "Doesburg"), 
-("NL", "8162", "Epe"), 
-("NL", "3844", "Harderwijk"), 
-("NL", "6512", "Nijmegen"), 
-("NL", "6869", "Heveadorp"), 
-("NL", "4013", "Kapel Avezaath"), 
-("NL", "7103", "Winterswijk"), 
-("NL", "7132", "Lichtenvoorde"), 
-("NL", "7141", "Groenlo"), 
-("NL", "6691", "Gendt"), 
-("NL", "7025", "Halle"), 
-("NL", "7233", "Vierakker"), 
-("NL", "7047", "Braamt"), 
-("NL", "4153", "Beesd"), 
-("NL", "4157", "Enspijk"), 
-("NL", "9753", "Haren Gn"), 
-("NL", "9585", "Vledderveen"), 
-("NL", "9678", "Westerlee"), 
-("NL", "9699", "Vriescheloo"), 
-("NL", "9781", "Bedum"), 
-("NL", "9968", "Pieterburen"), 
-("NL", "9969", "Westernieland"), 
-("NL", "9971", "Ulrum"), 
-("NL", "9976", "Lauwersoog"), 
-("NL", "9996", "Eppenhuizen"), 
-("NL", "9949", "Borgsweer"), 
-("NL", "6412", "Heerlen"), 
-("NL", "6421", "Heerlen"), 
-("NL", "6042", "Roermond"), 
-("NL", "5912", "Venlo"), 
-("NL", "5816", "Vredepeel"), 
-("NL", "6311", "Ransdaal"), 
-("NL", "6312", "Ransdaal"), 
-("NL", "5866", "Swolgen"), 
-("NL", "6061", "Posterholt"), 
-("NL", "6277", "Slenaken"), 
-("NL", "6286", "Wittem"), 
-("NL", "6289", "Elkenrade"), 
-("NL", "6131", "Sittard"), 
-("NL", "6134", "Sittard"), 
-("NL", "5986", "Beringe"), 
-("NL", "6439", "Doenrade"), 
-("NL", "5721", "Asten"), 
-("NL", "5725", "Heusden"), 
-("NL", "5447", "Rijkevoort"), 
-("NL", "5652", "Eindhoven"), 
-("NL", "5654", "Eindhoven"), 
-("NL", "5074", "Biezenmortel"), 
-("NL", "5216", "'s-Hertogenbosch"), 
-("NL", "5294", "Gemonde"), 
-("NL", "5692", "Son en Breugel"), 
-("NL", "5045", "Tilburg"), 
-("NL", "5551", "Valkenswaard"), 
-("NL", "5507", "Veldhoven"), 
-("NL", "5582", "Waalre"), 
-("NL", "4634", "Woensdrecht"), 
-("NL", "5735", "Aarle-Rixtel"), 
-("NL", "1022", "Amsterdam"), 
-("NL", "1075", "Amsterdam"), 
-("NL", "1095", "Amsterdam"), 
-("NL", "1096", "Amsterdam"), 
-("NL", "1261", "Blaricum"), 
-("NL", "1132", "Volendam"), 
-("NL", "2025", "Haarlem"), 
-("NL", "2031", "Haarlem"), 
-("NL", "1435", "Rijsenhout"), 
-("NL", "2155", "Leimuiderbrug"), 
-("NL", "1964", "Heemskerk"), 
-("NL", "1213", "Hilversum"), 
-("NL", "1252", "Laren"), 
-("NL", "1444", "Purmerend"), 
-("NL", "1738", "Waarland"), 
-("NL", "1502", "Zaandam"), 
-("NL", "1151", "Broek in Waterland"), 
-("NL", "1156", "Marken"), 
-("NL", "1764", "Breezand"), 
-("NL", "1766", "Wieringerwaard"), 
-("NL", "3722", "Bilthoven"), 
-("NL", "3732", "De Bilt"), 
-("NL", "3738", "Maartensdijk"), 
-("NL", "3984", "Odijk"), 
-("NL", "3993", "Houten"), 
-("NL", "3762", "Soest"), 
-("NL", "3769", "Soesterberg"), 
-("NL", "3522", "Utrecht"), 
-("NL", "3546", "Utrecht"), 
-("NL", "3585", "Utrecht"), 
-("NL", "3711", "Austerlitz"), 
-("NL", "3438", "Nieuwegein"), 
-("NL", "3642", "Mijdrecht"), 
-("NL", "4444", "'s-Heer Abtskerke"), 
-("NL", "4456", "Lewedorp"), 
-("NL", "4585", "Hengstdijk"), 
-("NL", "4383", "Vlissingen"), 
-("NL", "2396", "Koudekerk aan den Rijn"), 
-("NL", "2629", "Delft"), 
-("NL", "3329", "Dordrecht"), 
-("NL", "2521", "'s-Gravenhage"), 
-("NL", "2555", "'s-Gravenhage"), 
-("NL", "2566", "'s-Gravenhage"), 
-("NL", "3222", "Hellevoetsluis"), 
-("NL", "2431", "Noorden"), 
-("NL", "2204", "Noordwijk"), 
-("NL", "2982", "Ridderkerk"), 
-("NL", "3065", "Rotterdam"), 
-("NL", "3072", "Rotterdam"), 
-("NL", "3088", "Rotterdam"), 
-("NL", "3195", "Vondelingenplaat Rotterdam"), 
-("NL", "2285", "Rijswijk"), 
-("NL", "2244", "Wassenaar"), 
-("NL", "2722", "Zoetermeer"), 
-("NL", "2735", "Gelderswoude"), 
-("NL", "2661", "Bergschenhoek"), 
-("NL", "2681", "Monster"), 
-("NL", "2751", "Moerkapelle"), 
-("NL", "3466", "Waarder"), 
-("NL", "2855", "Vlist"), 
-("NL", "2964", "Groot-Ammers"), 
-("NL", "7603", "Almelo"), 
-("NL", "7429", "Colmschate"), 
-("NL", "7433", "Schalkhaar"), 
-("NL", "7534", "Enschede"), 
-("NL", "7694", "Kloosterhaar"), 
-("NL", "7787", "Holtheme"), 
-("NL", "7575", "Oldenzaal"), 
-("NL", "8361", "IJsselham"), 
-("NL", "8372", "Baarlo"), 
-("NL", "8243", "Lelystad"), 
-("NL", "7764", "Zandpol"), 
-("NL", "7831", "Nieuw-Weerdinge"), 
-("NL", "7913", "Nieuweroord"), 
-("NL", "7916", "Hollandscheveld"), 
-("NL", "9443", "Schoonloo"), 
-("NL", "9465", "Anderen"), 
-("NL", "9574", "Exloërveen"), 
-("NL", "7971", "Havelte"), 
-("NL", "7981", "Diever"), 
-("NL", "7983", "Wapse"), 
-("NL", "8385", "Vledderveen"), 
-("NL", "8938", "Leeuwarden"), 
-("NL", "9086", "Hempens"), 
-("NL", "8426", "Appelscha"), 
-("NL", "9244", "Beetsterzwaag"), 
-("NL", "8894", "Formerum"), 
-("NL", "8397", "De Blesse"), 
-("NL", "8478", "Sonnega"), 
-("NL", "8744", "Schettens"), 
-("NL", "9021", "Easterwierrum"), 
-("NL", "8841", "Baaium"), 
-("NL", "8856", "Pietersbierum"), 
-("NL", "9172", "Ferwert"), 
-("NL", "7339", "Ugchelen"), 
-("NL", "6828", "Arnhem"), 
-("NL", "3773", "Barneveld"), 
-("NL", "7006", "Doetinchem"), 
-("NL", "4001", "Tiel"), 
-("NL", "4004", "Tiel"), 
-("NL", "6701", "Wageningen"), 
-("NL", "6702", "Wageningen"), 
-("NL", "6703", "Wageningen"), 
-("NL", "6903", "Zevenaar"), 
-("NL", "8076", "Vierhouten"), 
-("NL", "7081", "Gendringen"), 
-("NL", "7137", "Lievelde"), 
-("NL", "6851", "Huissen"), 
-("NL", "6669", "Dodewaard"), 
-("NL", "6996", "Drempt"), 
-("NL", "7225", "Olburgen"), 
-("NL", "7037", "Beek"), 
-("NL", "4161", "Heukelum"), 
-("NL", "9725", "Groningen"), 
-("NL", "9744", "Groningen"), 
-("NL", "9684", "Finsterwolde"), 
-("NL", "9698", "Wedde"), 
-("NL", "9632", "Borgercompagnie"), 
-("NL", "9649", "Muntendam"), 
-("NL", "9883", "Zuurdijk"), 
-("NL", "9953", "Baflo"), 
-("NL", "9975", "Vierhuizen"), 
-("NL", "9997", "Zandeweer"), 
-("NL", "9362", "Boerakker"), 
-("NL", "9915", "'t Zandt"), 
-("NL", "6471", "Eygelshoven"), 
-("NL", "6226", "Maastricht"), 
-("NL", "5807", "Oostrum"), 
-("NL", "6003", "Weert"), 
-("NL", "6342", "Walem"), 
-("NL", "5865", "Tienray"), 
-("NL", "6142", "Einighausen"), 
-("NL", "6153", "Windraak"), 
-("NL", "5985", "Grashoek"), 
-("NL", "6454", "Jabeek"), 
-("NL", "4839", "Breda"), 
-("NL", "5525", "Duizel"), 
-("NL", "5616", "Eindhoven"), 
-("NL", "5651", "Eindhoven"), 
-("NL", "4873", "Etten-Leur"), 
-("NL", "5051", "Riel"), 
-("NL", "5224", "'s-Hertogenbosch"), 
-("NL", "5255", "Herpt"), 
-("NL", "5673", "Nuenen"), 
-("NL", "5386", "Oss"), 
-("NL", "5141", "Waalwijk"), 
-("NL", "4641", "Ossendrecht"), 
-("NL", "4701", "Roosendaal"), 
-("NL", "5375", "Reek"), 
-("NL", "4761", "Zevenbergen"), 
-("NL", "1488", "Starnmeer"), 
-("NL", "1024", "Amsterdam"), 
-("NL", "1066", "Amsterdam"), 
-("NL", "2051", "Overveen"), 
-("NL", "1112", "Diemen"), 
-("NL", "1703", "Heerhugowaard"), 
-("NL", "1216", "Hilversum"), 
-("NL", "1447", "Purmerend"), 
-("NL", "1724", "Oudkarspel"), 
-("NL", "1752", "Sint Maartensbrug"), 
-("NL", "1976", "IJmuiden"), 
-("NL", "1985", "Driehuis NH"), 
-("NL", "2071", "Santpoort-Noord"), 
-("NL", "1509", "Zaandam"), 
-("NL", "1606", "Venhuizen"), 
-("NL", "1614", "Lutjebroek"), 
-("NL", "1652", "Zuidermeer"), 
-("NL", "1401", "Bussum"), 
-("NL", "1411", "Naarden"), 
-("NL", "3743", "Baarn"), 
-("NL", "3525", "Utrecht"), 
-("NL", "3533", "Utrecht"), 
-("NL", "3906", "Veenendaal"), 
-("NL", "3907", "Veenendaal"), 
-("NL", "3443", "Woerden"), 
-("NL", "3444", "Woerden"), 
-("NL", "3648", "Wilnis"), 
-("NL", "3603", "Maarssen"), 
-("NL", "4437", "Ellewoutsdijk"), 
-("NL", "4587", "Kloosterzande"), 
-("NL", "4415", "Oostdijk"), 
-("NL", "4364", "Grijpskerke"), 
-("NL", "4365", "Meliskerke"), 
-("NL", "4301", "Zierikzee"), 
-("NL", "4303", "Zierikzee"), 
-("NL", "2953", "Alblasserdam"), 
-("NL", "2406", "Alphen aan den Rijn"), 
-("NL", "2904", "Capelle aan den IJssel"), 
-("NL", "4203", "Gorinchem"), 
-("NL", "2531", "'s-Gravenhage"), 
-("NL", "2543", "'s-Gravenhage"), 
-("NL", "2551", "'s-Gravenhage"), 
-("NL", "2585", "'s-Gravenhage"), 
-("NL", "3373", "Hardinxveld-Giessendam"), 
-("NL", "2924", "Krimpen aan den IJssel"), 
-("NL", "3141", "Maassluis"), 
-("NL", "2421", "Nieuwkoop"), 
-("NL", "3035", "Rotterdam"), 
-("NL", "3086", "Rotterdam"), 
-("NL", "3133", "Vlaardingen"), 
-("NL", "2243", "Wassenaar"), 
-("NL", "2711", "Zoetermeer"), 
-("NL", "3332", "Zwijndrecht"), 
-("NL", "2216", "Voorhout"), 
-("NL", "2692", "'s-Gravenzande"), 
-("NL", "3252", "Goedereede"), 
-("NL", "2642", "Pijnacker"), 
-("NL", "3284", "Zuid-Beijerland"), 
-("NL", "7512", "Enschede"), 
-("NL", "7521", "Enschede"), 
-("NL", "7523", "Enschede"), 
-("NL", "7483", "Haaksbergen"), 
-("NL", "8266", "Kampen"), 
-("NL", "8337", "De Pol"), 
-("NL", "7637", "Oud Ootmarsum"), 
-("NL", "1324", "Almere"), 
-("NL", "1326", "Almere"), 
-("NL", "8233", "Lelystad"), 
-("NL", "9489", "Zeijerveen"), 
-("NL", "7741", "Coevorden"), 
-("NL", "9463", "Eext"), 
-("NL", "9654", "Annerveenschekanaal"), 
-("NL", "9331", "Norg"), 
-("NL", "9765", "Paterswolde"), 
-("NL", "7910", "Nieuweroord"), 
-("NL", "9413", "Beilen"), 
-("NL", "9439", "Witteveen"), 
-("NL", "8413", "Oudehorne"), 
-("NL", "8924", "Leeuwarden"), 
-("NL", "9023", "Jorwert"), 
-("NL", "9071", "Alde Leie"), 
-("NL", "9084", "Goutum"), 
-("NL", "8899", "Vlieland"), 
-("NL", "8388", "Oosterstreek"), 
-("NL", "8391", "Noordwolde"), 
-("NL", "8394", "De Hoeve"), 
-("NL", "9269", "Feanwâlden"), 
-("NL", "8613", "Sandfirden"), 
-("NL", "8746", "Schraard"), 
-("NL", "8761", "Ferwoude"), 
-("NL", "8808", "Dongjum"), 
-("NL", "8831", "Winsum"), 
-("NL", "9134", "Lioessens"), 
-("NL", "9138", "Niawier"), 
-("NL", "9156", "Bornwird"), 
-("NL", "9177", "Jislum"), 
-("NL", "9292", "Augsbuurt"), 
-("NL", "7328", "Apeldoorn"), 
-("NL", "6831", "Arnhem"), 
-("NL", "6745", "De Klomp"), 
-("NL", "7211", "Eefde"), 
-("NL", "7245", "Laren"), 
-("NL", "3871", "Hoevelaken"), 
-("NL", "6523", "Nijmegen"), 
-("NL", "6536", "Nijmegen"), 
-("NL", "6861", "Oosterbeek"), 
-("NL", "7115", "Winterswijk Brinkheurne"), 
-("NL", "5311", "Gameren"), 
-("NL", "6684", "Ressen"), 
-("NL", "9774", "Adorp"), 
-("NL", "9843", "Grijpskerk"), 
-("NL", "9861", "Grootegast"), 
-("NL", "9933", "Delfzijl"), 
-("NL", "9947", "Termunten"), 
-("NL", "6411", "Heerlen"), 
-("NL", "6211", "Maastricht"), 
-("NL", "5926", "Venlo"), 
-("NL", "5803", "Venray"), 
-("NL", "6001", "Weert"), 
-("NL", "5977", "Evertsoord"), 
-("NL", "6281", "Mechelen"), 
-("NL", "6307", "Scheulder"), 
-("NL", "6336", "Hulsberg"), 
-("NL", "5109", "'s Gravenmoer"), 
-("NL", "5658", "Eindhoven"), 
-("NL", "5175", "Loon op Zand"), 
-("NL", "5672", "Nuenen"), 
-("NL", "5061", "Oisterwijk"), 
-("NL", "4905", "Oosterhout"), 
-("NL", "4907", "Oosterhout"), 
-("NL", "5356", "Neerloon"), 
-("NL", "5011", "Tilburg"), 
-("NL", "5048", "Tilburg"), 
-("NL", "5424", "Elsendorp"), 
-("NL", "4703", "Roosendaal"), 
-("NL", "4715", "Roosendaal"), 
-("NL", "5435", "Sint Agatha"), 
-("NL", "4791", "Klundert"), 
-("NL", "4267", "Drongelen"), 
-("NL", "4269", "Babyloniënbroek"), 
-("NL", "1461", "Zuidoostbeemster"), 
-("NL", "1906", "Limmen"), 
-("NL", "2065", "Haarlemmerliede"), 
-("NL", "2135", "Hoofddorp"), 
-("NL", "1704", "Heerhugowaard"), 
-("NL", "1678", "Oostwoud"), 
-("NL", "1683", "Zwaagdijk-Oost"), 
-("NL", "1521", "Wormerveer"), 
-("NL", "1454", "Watergang"), 
-("NL", "1546", "Jisp"), 
-("NL", "1779", "Hippolytushoef"), 
-("NL", "3817", "Amersfoort"), 
-("NL", "3927", "Renswoude"), 
-("NL", "3764", "Soest"), 
-("NL", "3766", "Soest"), 
-("NL", "3452", "Vleuten"), 
-("NL", "3471", "Woerden"), 
-("NL", "3607", "Maarssen"), 
-("NL", "3608", "Maarssen"), 
-("NL", "3612", "Tienhoven"), 
-("NL", "4163", "Oosterwijk"), 
-("NL", "4235", "Tienhoven aan de Lek"), 
-("NL", "4243", "Nieuwland"), 
-("NL", "4567", "Clinge"), 
-("NL", "4536", "Terneuzen"), 
-("NL", "4571", "Axel"), 
-("NL", "4352", "Gapinge"), 
-("NL", "4386", "Vlissingen"), 
-("NL", "2394", "Hazerswoude-Rijndijk"), 
-("NL", "2408", "Alphen aan den Rijn"), 
-("NL", "2409", "Hazerswoude-Dorp"), 
-("NL", "2731", "Benthuizen"), 
-("NL", "2992", "Barendrecht"), 
-("NL", "3232", "Brielle"), 
-("NL", "2905", "Capelle aan den IJssel"), 
-("NL", "2908", "Capelle aan den IJssel"), 
-("NL", "2625", "Delft"), 
-("NL", "2495", "'s-Gravenhage"), 
-("NL", "3221", "Hellevoetsluis"), 
-("NL", "3344", "Hendrik-Ido-Ambacht"), 
-("NL", "2221", "Katwijk"), 
-("NL", "2223", "Katwijk"), 
-("NL", "3037", "Rotterdam"), 
-("NL", "3132", "Vlaardingen"), 
-("NL", "2743", "Waddinxveen"), 
-("NL", "2727", "Zoetermeer"), 
-("NL", "2292", "Wateringen"), 
-("NL", "2159", "Kaag"), 
-("NL", "2415", "Nieuwerbrug aan den Rijn"), 
-("NL", "3274", "Heinenoord"), 
-("NL", "7609", "Almelo"), 
-("NL", "7413", "Deventer"), 
-("NL", "7531", "Enschede"), 
-("NL", "7545", "Enschede"), 
-("NL", "7696", "Brucht"), 
-("NL", "7784", "Ane"), 
-("NL", "8271", "IJsselmuiden"), 
-("NL", "8147", "Giethmen"), 
-("NL", "7678", "Geesteren"), 
-("NL", "7641", "Hoge Hexel"), 
-("NL", "8344", "Onna"), 
-("NL", "8346", "De Bult"), 
-("NL", "8347", "Eesveen"), 
-("NL", "8356", "Blokzijl"), 
-("NL", "8363", "Wetering"), 
-("NL", "7591", "Denekamp"), 
-("NL", "1314", "Almere"), 
-("NL", "8253", "Dronten"), 
-("NL", "8212", "Lelystad"), 
-("NL", "8225", "Lelystad"), 
-("NL", "6866", "Heelsum"), 
-("NL", "5308", "Aalst"), 
-("NL", "7077", "Netterden"), 
-("NL", "4053", "IJzendoorn"), 
-("NL", "4063", "Heesselt"), 
-("NL", "4064", "Varik"), 
-("NL", "9796", "Sint Annen"), 
-("NL", "9642", "Veendam"), 
-("NL", "9566", "Veelerveen"), 
-("NL", "9615", "Kolham"), 
-("NL", "7851", "Zweeloo"), 
-("NL", "7881", "Klazienaveen"), 
-("NL", "7881", "Emmer-Compascuum"), 
-("NL", "7894", "Zwartemeer"), 
-("NL", "7931", "Fluitenberg"), 
-("NL", "9537", "Eesergroen"), 
-("NL", "9306", "Alteveer"), 
-("NL", "9342", "Een"), 
-("NL", "7964", "Ansen"), 
-("NL", "9423", "Hoogersmilde"), 
-("NL", "9494", "Yde"), 
-("NL", "8446", "Heerenveen"), 
-("NL", "8835", "Easterlittens"), 
-("NL", "9024", "Weidum"), 
-("NL", "9051", "Stiens"), 
-("NL", "8607", "Sneek"), 
-("NL", "8623", "Jutrijp"), 
-("NL", "8626", "Offingawier"), 
-("NL", "8636", "Britswert"), 
-("NL", "8731", "Wommels"), 
-("NL", "8749", "Pingjum"), 
-("NL", "8845", "Waaksens"), 
-("NL", "8573", "Mirns"), 
-("NL", "9171", "Blije"), 
-("NL", "6823", "Arnhem"), 
-("NL", "6836", "Arnhem"), 
-("NL", "6644", "Ewijk"), 
-("NL", "7007", "Doetinchem"), 
-("NL", "6922", "Duiven"), 
-("NL", "6744", "Ederveen"), 
-("NL", "6624", "Heerewaarden"), 
-("NL", "6531", "Nijmegen"), 
-("NL", "8079", "Noordeinde Gld"), 
-("NL", "6883", "Velp"), 
-("NL", "6953", "Dieren"), 
-("NL", "4017", "Kerk Avezaath"), 
-("NL", "6911", "Pannerden"), 
-("NL", "7204", "Zutphen"), 
-("NL", "7134", "Vragender"), 
-("NL", "7136", "Zieuwent"), 
-("NL", "6672", "Hemmen"), 
-("NL", "6997", "Hoog-Keppel"), 
-("NL", "7046", "Vethuizen"), 
-("NL", "9717", "Groningen"), 
-("NL", "9672", "Winschoten"), 
-("NL", "9679", "Scheemda"), 
-("NL", "9686", "Beerta"), 
-("NL", "9551", "Sellingen"), 
-("NL", "9611", "Sappemeer"), 
-("NL", "9977", "Kloosterburen"), 
-("NL", "9979", "Eemshaven"), 
-("NL", "9804", "Noordhorn"), 
-("NL", "9884", "Niehove"), 
-("NL", "9908", "Godlinze"), 
-("NL", "6199", "Maastricht-Airport"), 
-("NL", "5853", "Siebengewald"), 
-("NL", "6443", "Brunssum"), 
-("NL", "6595", "Ottersum"), 
-("NL", "6223", "Maastricht"), 
-("NL", "6231", "Meerssen"), 
-("NL", "6044", "Roermond"), 
-("NL", "6082", "Buggenum"), 
-("NL", "6019", "Wessem"), 
-("NL", "6101", "Echt"), 
-("NL", "5685", "Best"), 
-("NL", "4834", "Breda"), 
-("NL", "4836", "Breda"), 
-("NL", "4875", "Etten-Leur"), 
-("NL", "5391", "Nuland"), 
-("NL", "4904", "Oosterhout"), 
-("NL", "5343", "Oss"), 
-("NL", "5041", "Tilburg"), 
-("NL", "5403", "Uden"), 
-("NL", "4635", "Huijbergen"), 
-("NL", "5761", "Bakel"), 
-("NL", "5529", "Casteren"), 
-("NL", "1025", "Amsterdam"), 
-("NL", "1027", "Amsterdam"), 
-("NL", "1052", "Amsterdam"), 
-("NL", "1056", "Amsterdam"), 
-("NL", "1069", "Amsterdam"), 
-("NL", "1943", "Beverwijk"), 
-("NL", "2144", "Beinsdorp"), 
-("NL", "1271", "Huizen"), 
-("NL", "1679", "Midwoud"), 
-("NL", "1797", "Den Hoorn"), 
-("NL", "1609", "Oosterleek"), 
-("NL", "1398", "Muiden"), 
-("NL", "3752", "Bunschoten-Spakenburg"), 
-("NL", "3553", "Utrecht"), 
-("NL", "3561", "Utrecht"), 
-("NL", "3566", "Utrecht"), 
-("NL", "3701", "Zeist"), 
-("NL", "3433", "Nieuwegein"), 
-("NL", "3464", "Papekop"), 
-("NL", "1426", "de Hoef"), 
-("NL", "4126", "Hei- en Boeicop"), 
-("NL", "4471", "'s-Heer Hendrikskinderen"), 
-("NL", "4334", "Middelburg"), 
-("NL", "4321", "Kerkwerve"), 
-("NL", "2407", "Alphen aan den Rijn"), 
-("NL", "3313", "Dordrecht"), 
-("NL", "4202", "Gorinchem"), 
-("NL", "2522", "'s-Gravenhage"), 
-("NL", "2581", "'s-Gravenhage"), 
-("NL", "2432", "Noorden"), 
-("NL", "2989", "Ridderkerk"), 
-("NL", "3012", "Rotterdam"), 
-("NL", "3044", "Rotterdam"), 
-("NL", "3047", "Rotterdam"), 
-("NL", "2281", "Rijswijk"), 
-("NL", "3161", "Rhoon"), 
-("NL", "3172", "Poortugaal"), 
-("NL", "3333", "Zwijndrecht"), 
-("NL", "2361", "Sassenheim"), 
-("NL", "3248", "Melissant"), 
-("NL", "2861", "Bergambacht"), 
-("NL", "8153", "Lemelerveld"), 
-("NL", "7421", "Deventer"), 
-("NL", "7525", "Enschede"), 
-("NL", "7544", "Enschede"), 
-("NL", "8263", "Kampen"), 
-("NL", "8276", "Zalk"), 
-("NL", "7735", "Arriën"), 
-("NL", "7642", "Wierden"), 
-("NL", "8341", "Steenwijkerwold"), 
-("NL", "7451", "Holten"), 
-("NL", "1323", "Almere"), 
-("NL", "3894", "Zeewolde"), 
-("NL", "3897", "Zeewolde"), 
-("NL", "3921", "Elst Ut"), 
-("NL", "3512", "Utrecht"), 
-("NL", "3515", "Utrecht"), 
-("NL", "3528", "Utrecht"), 
-("NL", "3564", "Utrecht"), 
-("NL", "3707", "Zeist"), 
-("NL", "3434", "Nieuwegein"), 
-("NL", "3631", "Nieuwersluis"), 
-("NL", "4465", "Goes"), 
-("NL", "4421", "Kapelle"), 
-("NL", "4521", "Biervliet"), 
-("NL", "2909", "Capelle aan den IJssel"), 
-("NL", "3318", "Dordrecht"), 
-("NL", "4204", "Gorinchem"), 
-("NL", "2807", "Gouda"), 
-("NL", "2533", "'s-Gravenhage"), 
-("NL", "2547", "'s-Gravenhage"), 
-("NL", "2553", "'s-Gravenhage"), 
-("NL", "2573", "'s-Gravenhage"), 
-("NL", "2222", "Katwijk"), 
-("NL", "2224", "Katwijk"), 
-("NL", "2921", "Krimpen aan den IJssel"), 
-("NL", "2435", "Zevenhoven"), 
-("NL", "3066", "Rotterdam"), 
-("NL", "3361", "Sliedrecht"), 
-("NL", "3176", "Poortugaal"), 
-("NL", "3233", "Oostvoorne"), 
-("NL", "2251", "Voorschoten"), 
-("NL", "2636", "Schipluiden"), 
-("NL", "2752", "Moerkapelle"), 
-("NL", "2913", "Nieuwerkerk aan den IJssel"), 
-("NL", "2412", "Bodegraven"), 
-("NL", "3244", "Nieuwe-Tonge"), 
-("NL", "2871", "Schoonhoven"), 
-("NL", "3273", "Westmaas"), 
-("NL", "2968", "Waal"), 
-("NL", "4225", "Noordeloos"), 
-("NL", "8152", "Lemelerveld"), 
-("NL", "7773", "Hardenberg"), 
-("NL", "7558", "Hengelo"), 
-("NL", "7581", "Losser"), 
-("NL", "7738", "Witharen"), 
-("NL", "7951", "Staphorst"), 
-("NL", "7672", "Vriezenveen"), 
-("NL", "8334", "Tuk"), 
-("NL", "8373", "Blankenham"), 
-("NL", "7595", "Weerselo"), 
-("NL", "1335", "Almere"), 
-("NL", "1351", "Almere"), 
-("NL", "1364", "Almere"), 
-("NL", "3891", "Zeewolde"), 
-("NL", "8322", "Urk"), 
-("NL", "8245", "Lelystad"), 
-("NL", "7844", "Veenoord"), 
-("NL", "7891", "Klazienaveen"), 
-("NL", "9454", "Ekehaar"), 
-("NL", "9512", "Nieuwediep"), 
-("NL", "9307", "Steenbergen"), 
-("NL", "9313", "Leutingewolde"), 
-("NL", "9766", "Eelderwolde"), 
-("NL", "9433", "Zwiggelte"), 
-("NL", "9286", "Twijzel"), 
-("NL", "8453", "Oranjewoud"), 
-("NL", "8923", "Leeuwarden"), 
-("NL", "9247", "Ureterp"), 
-("NL", "9207", "Drachten"), 
-("NL", "8608", "Sneek"), 
-("NL", "8617", "Abbega"), 
-("NL", "8627", "Gauw"), 
-("NL", "8629", "Scharnegoutum"), 
-("NL", "8651", "IJlst"), 
-("NL", "8741", "Hartwerd"), 
-("NL", "8748", "Witmarsum"), 
-("NL", "8757", "Gaast"), 
-("NL", "8566", "Nijemirdum"), 
-("NL", "9037", "Slappeterp"), 
-("NL", "9038", "Ingelum"), 
-("NL", "9102", "Dokkum"), 
-("NL", "9122", "Wetsens"), 
-("NL", "9851", "Burum"), 
-("NL", "7091", "Dinxperlo"), 
-("NL", "6835", "Arnhem"), 
-("NL", "3886", "Garderen"), 
-("NL", "4024", "Eck en Wiel"), 
-("NL", "6923", "Groessen"), 
-("NL", "8081", "Elburg"), 
-("NL", "6611", "Overasselt"), 
-("NL", "7215", "Joppe"), 
-("NL", "5324", "Ammerzoden"), 
-("NL", "6524", "Nijmegen"), 
-("NL", "6866", "Renkum"), 
-("NL", "7109", "Winterswijk Miste"), 
-("NL", "5302", "Zaltbommel"), 
-("NL", "6913", "Aerdt"), 
-("NL", "7231", "Zutphen"), 
-("NL", "8072", "Nunspeet"), 
-("NL", "7161", "Neede"), 
-("NL", "7256", "Keijenborg"), 
-("NL", "7036", "Loerbeek"), 
-("NL", "7044", "Lengel"), 
-("NL", "4158", "Deil"), 
-("NL", "9738", "Groningen"), 
-("NL", "9501", "Stadskanaal"), 
-("NL", "9685", "Blauwestad"), 
-("NL", "9771", "Sauwerd"), 
-("NL", "9784", "Noordwolde"), 
-("NL", "9365", "Niebert"), 
-("NL", "9893", "Garnwerd"), 
-("NL", "9922", "Westeremden"), 
-("NL", "9931", "Delfzijl"), 
-("NL", "5953", "Reuver"), 
-("NL", "6419", "Heerlen"), 
-("NL", "6465", "Kerkrade"), 
-("NL", "6224", "Maastricht"), 
-("NL", "6137", "Sittard"), 
-("NL", "6141", "Limbricht"), 
-("NL", "6436", "Amstenrade"), 
-("NL", "5113", "Ulicoten"), 
-("NL", "4817", "Breda"), 
-("NL", "5629", "Eindhoven"), 
-("NL", "5125", "Hulten"), 
-("NL", "5701", "Helmond"), 
-("NL", "5704", "Helmond"), 
-("NL", "5084", "Biest-Houtakker"), 
-("NL", "5674", "Nuenen"), 
-("NL", "5688", "Oirschot"), 
-("NL", "5349", "Oss"), 
-("NL", "5352", "Deursen-Dennenburg"), 
-("NL", "5504", "Veldhoven"), 
-("NL", "4705", "Roosendaal"), 
-("NL", "5374", "Schaijk"), 
-("NL", "5446", "Wanroij"), 
-("NL", "4921", "Made"), 
-("NL", "4856", "Strijbeek"), 
-("NL", "4283", "Giessen"), 
-("NL", "1844", "Driehuizen"), 
-("NL", "1072", "Amsterdam"), 
-("NL", "1083", "Amsterdam"), 
-("NL", "1106", "Amsterdam"), 
-("NL", "1108", "Amsterdam"), 
-("NL", "1601", "Enkhuizen"), 
-("NL", "1118", "Schiphol"), 
-("NL", "1175", "Lijnden"), 
-("NL", "1981", "Velsen-Zuid"), 
-("NL", "1504", "Zaandam"), 
-("NL", "1452", "Ilpendam"), 
-("NL", "1774", "Slootdorp"), 
-("NL", "3744", "Baarn"), 
-("NL", "3562", "Utrecht"), 
-("NL", "3582", "Utrecht"), 
-("NL", "3605", "Maarssen"), 
-("NL", "4128", "Lexmond"), 
-("NL", "4142", "Leerdam"), 
-("NL", "4532", "Terneuzen"), 
-("NL", "4356", "Oostkapelle"), 
-("NL", "4373", "Biggekerke"), 
-("NL", "4326", "Noordwelle"), 
-("NL", "2901", "Capelle aan den IJssel"), 
-("NL", "2624", "Delft"), 
-("NL", "2512", "'s-Gravenhage"), 
-("NL", "2564", "'s-Gravenhage"), 
-("NL", "3143", "Maassluis"), 
-("NL", "3011", "Rotterdam"), 
-("NL", "3039", "Rotterdam"), 
-("NL", "3151", "Hoek van Holland"), 
-("NL", "3181", "Rozenburg"), 
-("NL", "2289", "Rijswijk"), 
-("NL", "2254", "Voorschoten"), 
-("NL", "2652", "Berkel en Rodenrijs"), 
-("NL", "2678", "De Lier"), 
-("NL", "2355", "Hoogmade"), 
-("NL", "3253", "Ouddorp"), 
-("NL", "2632", "Nootdorp"), 
-("NL", "3218", "Heenvliet"), 
-("NL", "2825", "Berkenwoude"), 
-("NL", "2959", "Streefkerk"), 
-("NL", "2965", "Nieuwpoort"), 
-("NL", "7513", "Enschede"), 
-("NL", "7514", "Enschede"), 
-("NL", "7524", "Enschede"), 
-("NL", "7688", "Daarle"), 
-("NL", "7614", "Mariaparochie"), 
-("NL", "7679", "Langeveen"), 
-("NL", "7467", "Notter"), 
-("NL", "8343", "Zuidveen"), 
-("NL", "1359", "Almere"), 
-("NL", "7828", "Emmen"), 
-("NL", "9468", "Annen"), 
-("NL", "9515", "Gasselternijveen"), 
-("NL", "9533", "Drouwen"), 
-("NL", "7921", "Zuidwolde"), 
-("NL", "7926", "Kerkenveld"), 
-("NL", "9351", "Nietap"), 
-("NL", "9285", "Buitenpost"), 
-("NL", "8912", "Leeuwarden"), 
-("NL", "8925", "Leeuwarden"), 
-("NL", "9207", "Drachten-Azeven"), 
-("NL", "9213", "De Wilgen"), 
-("NL", "9216", "Oudega"), 
-("NL", "8892", "Striep"), 
-("NL", "8897", "Oosterend"), 
-("NL", "8475", "Nijeholtpade"), 
-("NL", "9091", "Wyns"), 
-("NL", "9264", "Earnewâld"), 
-("NL", "8616", "Westhem"), 
-("NL", "8538", "Bantega"), 
-("NL", "8564", "Ruigahuizen"), 
-("NL", "8802", "Franeker"), 
-("NL", "8842", "Wjelsryp"), 
-("NL", "9072", "Nij Altoenae"), 
-("NL", "9074", "Hallum"), 
-("NL", "9111", "Burdaard"), 
-("NL", "9112", "Burdaard"), 
-("NL", "9131", "Ee"), 
-("NL", "9299", "Zwagerbosch"), 
-("NL", "7317", "Apeldoorn"), 
-("NL", "4012", "Kerk-Avezaath"), 
-("NL", "4104", "Culemborg"), 
-("NL", "7216", "Kring van Dorth"), 
-("NL", "7242", "Lochem"), 
-("NL", "5335", "Alem"), 
-("NL", "6522", "Nijmegen"), 
-("NL", "6862", "Oosterbeek"), 
-("NL", "7392", "Twello"), 
-("NL", "5306", "Brakel"), 
-("NL", "8077", "Hulshorst"), 
-("NL", "7273", "Haarlo"), 
-("NL", "6999", "Hummelo"), 
-("NL", "7221", "Steenderen"), 
-("NL", "6576", "Ooij"), 
-("NL", "7041", "'s-Heerenberg"), 
-("NL", "4176", "Tuil"), 
-("NL", "9613", "Meerstad"), 
-("NL", "9622", "Lageland GN"), 
-("NL", "9716", "Groningen"), 
-("NL", "9591", "Onstwedde"), 
-("NL", "9619", "Froombosch"), 
-("NL", "9629", "Steendam"), 
-("NL", "9961", "Mensingeweer"), 
-("NL", "9989", "Warffum"), 
-("NL", "9864", "Kornhorn"), 
-("NL", "9912", "Leermens"), 
-("NL", "6176", "Spaubeek"), 
-("NL", "6431", "Hoensbroek"), 
-("NL", "6212", "Maastricht"), 
-("NL", "6181", "Elsloo"), 
-("NL", "5872", "Broekhuizen"), 
-("NL", "6107", "Stevensweert"), 
-("NL", "6136", "Sittard"), 
-("NL", "5981", "Panningen"), 
-("NL", "6363", "Wijnandsrade"), 
-("NL", "4818", "Breda"), 
-("NL", "5752", "Deurne"), 
-("NL", "5611", "Eindhoven"), 
-("NL", "4876", "Etten-Leur"), 
-("NL", "5703", "Helmond"), 
-("NL", "5247", "Rosmalen"), 
-("NL", "5015", "Tilburg"), 
-("NL", "5581", "Waalre"), 
-("NL", "4884", "Wernhout"), 
-("NL", "4754", "Stampersgat"), 
-("NL", "4724", "Heerle"), 
-("NL", "4771", "Langeweg"), 
-("NL", "5131", "Alphen"), 
-("NL", "1016", "Amsterdam"), 
-("NL", "1044", "Amsterdam"), 
-("NL", "1051", "Amsterdam"), 
-("NL", "1472", "Middelie"), 
-("NL", "2037", "Haarlem"), 
-("NL", "2142", "Cruquius"), 
-("NL", "1273", "Huizen"), 
-("NL", "1674", "Opperdoes"), 
-("NL", "1685", "Zwaagdijk-West"), 
-("NL", "1742", "Schagen"), 
-("NL", "1421", "Uithoorn"), 
-("NL", "1423", "Uithoorn"), 
-("NL", "2042", "Zandvoort"), 
-("NL", "1482", "Purmer"), 
-("NL", "1643", "Spierdijk"), 
-("NL", "1244", "Ankeveen"), 
-("NL", "1779", "Den Oever"), 
-("NL", "3825", "Amersfoort"), 
-("NL", "3791", "Achterveld"), 
-("NL", "7755", "Dalerveen"), 
-("NL", "7889", "Klazienaveen-Noord"), 
-("NL", "7944", "Meppel"), 
-("NL", "9455", "Geelbroek"), 
-("NL", "7875", "Exloo"), 
-("NL", "7961", "Ruinerwold"), 
-("NL", "8383", "Nijensleek"), 
-("NL", "9418", "Wijster"), 
-("NL", "9872", "Stroobos"), 
-("NL", "8441", "Heerenveen"), 
-("NL", "8451", "Oudeschoot"), 
-("NL", "8936", "Leeuwarden"), 
-("NL", "9004", "Warstiens"), 
-("NL", "8404", "Langezwaag"), 
-("NL", "9206", "Drachten"), 
-("NL", "9215", "De Veenhoop"), 
-("NL", "9061", "Gytsjerk"), 
-("NL", "9113", "Wâlterswâld"), 
-("NL", "8628", "Goënga"), 
-("NL", "8642", "Lytsewierrum"), 
-("NL", "8822", "Arum"), 
-("NL", "8537", "Echten"), 
-("NL", "8851", "Tzummarum"), 
-("NL", "9125", "Oostrum"), 
-("NL", "7121", "Aalten"), 
-("NL", "7345", "Wenum Wiesel"), 
-("NL", "7361", "Beekbergen"), 
-("NL", "6832", "Arnhem"), 
-("NL", "6834", "Arnhem"), 
-("NL", "6845", "Arnhem"), 
-("NL", "4016", "Kapel-Avezaath"), 
-("NL", "6731", "Otterlo"), 
-("NL", "8085", "Doornspijk"), 
-("NL", "3849", "Hierden"), 
-("NL", "6525", "Nijmegen"), 
-("NL", "6957", "Laag-Soeren"), 
-("NL", "4014", "Wadenoijen"), 
-("NL", "7397", "Nijbroek"), 
-("NL", "6704", "Wageningen"), 
-("NL", "6708", "Wageningen"), 
-("NL", "6628", "Altforst"), 
-("NL", "7084", "Breedenbroek"), 
-("NL", "6677", "Slijk-Ewijk"), 
-("NL", "4054", "Echteld"), 
-("NL", "4147", "Asperen"), 
-("NL", "9721", "Groningen"), 
-("NL", "9735", "Groningen"), 
-("NL", "9756", "Glimmen"), 
-("NL", "9503", "Stadskanaal"), 
-("NL", "9623", "Lageland"), 
-("NL", "9963", "Warfhuizen"), 
-("NL", "9965", "Leens"), 
-("NL", "9354", "Zevenhuizen"), 
-("NL", "9945", "Wagenborgen"), 
-("NL", "6373", "Landgraaf"), 
-("NL", "6237", "Moorveld"), 
-("NL", "6171", "Stein"), 
-("NL", "5932", "Tegelen"), 
-("NL", "5802", "Venray"), 
-("NL", "5809", "Leunen"), 
-("NL", "6343", "Klimmen"), 
-("NL", "5973", "Lottum"), 
-("NL", "6063", "Vlodrop"), 
-("NL", "6164", "Geleen"), 
-("NL", "4854", "Bavel"), 
-("NL", "5101", "Dongen"), 
-("NL", "5103", "Dongen"), 
-("NL", "5106", "Dongen"), 
-("NL", "5251", "Vlijmen"), 
-("NL", "5254", "Haarsteeg"), 
-("NL", "4908", "Oosterhout"), 
-("NL", "4909", "Oosteind"), 
-("NL", "5347", "Oss"), 
-("NL", "5358", "Huisseling"), 
-("NL", "5395", "Teeffelen"), 
-("NL", "4714", "Sprundel"), 
-("NL", "4671", "Dinteloord"), 
-("NL", "5022", "Tilburg"), 
-("NL", "5408", "Volkel"), 
-("NL", "5409", "Odiliapeel"), 
-("NL", "5741", "Beek en Donk"), 
-("NL", "4707", "Roosendaal"), 
-("NL", "4725", "Wouwse Plantage"), 
-("NL", "4772", "Langeweg"), 
-("NL", "5473", "Heeswijk-Dinther"), 
-("NL", "5575", "Luyksgestel"), 
-("NL", "4287", "Waardhuizen"), 
-("NL", "1433", "Kudelstaart"), 
-("NL", "1814", "Alkmaar"), 
-("NL", "1187", "Amstelveen"), 
-("NL", "1061", "Amsterdam"), 
-("NL", "1098", "Amsterdam"), 
-("NL", "1103", "Amsterdam"), 
-("NL", "1934", "Egmond aan den Hoef"), 
-("NL", "2023", "Haarlem"), 
-("NL", "2026", "Haarlem"), 
-("NL", "1969", "Heemskerk"), 
-("NL", "1784", "Den Helder"), 
-("NL", "1787", "Julianadorp"), 
-("NL", "1276", "Huizen"), 
-("NL", "1747", "Tuitjenhorn"), 
-("NL", "1501", "Zaandam"), 
-("NL", "1567", "Assendelft"), 
-("NL", "3981", "Bunnik"), 
-("NL", "3755", "Eemnes"), 
-("NL", "3454", "De Meern"), 
-("NL", "3531", "Utrecht"), 
-("NL", "3545", "Utrecht"), 
-("NL", "3565", "Utrecht"), 
-("NL", "3712", "Huis ter Heide"), 
-("NL", "3735", "Bosch en Duin"), 
-("NL", "3956", "Leersum"), 
-("NL", "3971", "Driebergen-Rijsenburg"), 
-("NL", "3601", "Maarssen"), 
-("NL", "3632", "Loenen aan de Vecht"), 
-("NL", "4245", "Leerbroek"), 
-("NL", "4451", "Heinkenszand"), 
-("NL", "4564", "Sint Jansteen"), 
-("NL", "4533", "Terneuzen"), 
-("NL", "4695", "Sint-Maartensdijk"), 
-("NL", "2445", "Aarlanderveen"), 
-("NL", "2523", "'s-Gravenhage"), 
-("NL", "2554", "'s-Gravenhage"), 
-("NL", "2591", "'s-Gravenhage"), 
-("NL", "2182", "Hillegom"), 
-("NL", "2162", "Lisse"), 
-("NL", "2163", "Lisse"), 
-("NL", "3144", "Maassluis"), 
-("NL", "3356", "Papendrecht"), 
-("NL", "2985", "Ridderkerk"), 
-("NL", "3054", "Rotterdam"), 
-("NL", "3123", "Schiedam"), 
-("NL", "3336", "Zwijndrecht"), 
-("NL", "2691", "'s-Gravenzande"), 
-("NL", "2377", "Oude Wetering"), 
-("NL", "3207", "Spijkenisse"), 
-("NL", "3216", "Abbenbroek"), 
-("NL", "4241", "Arkel"), 
-("NL", "7437", "Bathmen"), 
-("NL", "7695", "Bruchterveld"), 
-("NL", "7796", "Heemserveen"), 
-("NL", "7442", "Nijverdal"), 
-("NL", "8264", "Kampen"), 
-("NL", "8277", "Grafhorst"), 
-("NL", "7588", "Beuningen"), 
-("NL", "8111", "Heeten"), 
-("NL", "8112", "Nieuw Heeten"), 
-("NL", "8019", "Zwolle"), 
-("NL", "7461", "Rijssen"), 
-("NL", "1315", "Almere"), 
-("NL", "8309", "Tollebeek"), 
-("NL", "8218", "Lelystad"), 
-("NL", "9403", "Assen"), 
-("NL", "7742", "Coevorden"), 
-("NL", "7823", "Emmen"), 
-("NL", "7826", "Emmen"), 
-("NL", "7948", "Meppel"), 
-("NL", "9458", "Balloo"), 
-("NL", "9464", "Eexterzandvoort"), 
-("NL", "9535", "Ellertshaar"), 
-("NL", "9341", "Veenhuizen"), 
-("NL", "8382", "Frederiksoord"), 
-("NL", "9481", "Vries"), 
-("NL", "8861", "Harlingen"), 
-("NL", "8412", "Hoornsterzwaag"), 
-("NL", "8415", "Bontebok"), 
-("NL", "8448", "Heerenveen"), 
-("NL", "8468", "Haskerdijken"), 
-("NL", "8926", "Leeuwarden"), 
-("NL", "8941", "Leeuwarden"), 
-("NL", "9006", "Eagum"), 
-("NL", "9025", "Bears"), 
-("NL", "9431", "Oosterwolde"), 
-("NL", "8407", "Terwispel"), 
-("NL", "9214", "Smalle Ee"), 
-("NL", "8479", "Oldetrijne"), 
-("NL", "8722", "Molkwerum"), 
-("NL", "8512", "Broek"), 
-("NL", "9036", "Menaam"), 
-("NL", "9178", "Wânswert"), 
-("NL", "9295", "Westergeest"), 
-("NL", "7335", "Apeldoorn"), 
-("NL", "6812", "Arnhem"), 
-("NL", "6551", "Weurt"), 
-("NL", "6975", "Tonden"), 
-("NL", "7011", "Gaanderen"), 
-("NL", "6877", "Deelen"), 
-("NL", "6542", "Nijmegen"), 
-("NL", "4006", "Tiel"), 
-("NL", "7396", "Terwolde"), 
-("NL", "7104", "Winterswijk Meddo"), 
-("NL", "7105", "Winterswijk Huppel"), 
-("NL", "7119", "Winterswijk Corle"), 
-("NL", "7083", "Voorst"), 
-("NL", "7131", "Lichtenvoorde"), 
-("NL", "6673", "Andelst"), 
-("NL", "7255", "Hengelo (Gld)"), 
-("NL", "4151", "Acquoy"), 
-("NL", "4194", "Meteren"), 
-("NL", "9726", "Groningen"), 
-("NL", "9734", "Groningen"), 
-("NL", "9663", "Nieuwe Pekela"), 
-("NL", "9687", "Nieuw Beerta"), 
-("NL", "9609", "Waterhuizen"), 
-("NL", "9956", "Den Andel"), 
-("NL", "9984", "Oudeschip"), 
-("NL", "9994", "Toornwerd"), 
-("NL", "6191", "Beek"), 
-("NL", "6415", "Heerlen"), 
-("NL", "5925", "Venlo"), 
-("NL", "6367", "Voerendaal"), 
-("NL", "5961", "Horst"), 
-("NL", "6014", "Ittervoort"), 
-("NL", "6104", "Koningsbosch"), 
-("NL", "6167", "Geleen"), 
-("NL", "6267", "Cadier en Keer"), 
-("NL", "5283", "Boxtel"), 
-("NL", "4838", "Breda"), 
-("NL", "5107", "Dongen"), 
-("NL", "5617", "Eindhoven"), 
-("NL", "5133", "Riel"), 
-("NL", "5363", "Velp"), 
-("NL", "5089", "Haghorst"), 
-("NL", "5353", "Dieden"), 
-("NL", "5354", "Demen"), 
-("NL", "5293", "Gemonde"), 
-("NL", "5025", "Tilburg"), 
-("NL", "5161", "Sprang-Capelle"), 
-("NL", "4881", "Zundert"), 
-("NL", "5595", "Leende"), 
-("NL", "5741", "Aarle-Rixtel"), 
-("NL", "4708", "Roosendaal"), 
-("NL", "5434", "Vianen NB"), 
-("NL", "5845", "Sint Anthonis"), 
-("NL", "4671", "Heijningen"), 
-("NL", "5471", "Loosbroek"), 
-("NL", "5463", "Veghel"), 
-("NL", "1487", "Oost-Graftdijk"), 
-("NL", "1812", "Alkmaar"), 
-("NL", "1821", "Alkmaar"), 
-("NL", "1824", "Alkmaar"), 
-("NL", "1181", "Amstelveen"), 
-("NL", "1034", "Amsterdam"), 
-("NL", "1045", "Amsterdam"), 
-("NL", "1077", "Amsterdam"), 
-("NL", "1097", "Amsterdam"), 
-("NL", "2121", "Bennebroek"), 
-("NL", "1602", "Enkhuizen"), 
-("NL", "2151", "Nieuw-Vennep"), 
-("NL", "2152", "Nieuw-Vennep"), 
-("NL", "1782", "Den Helder"), 
-("NL", "1442", "Purmerend"), 
-("NL", "1793", "De Waal"), 
-("NL", "1382", "Weesp"), 
-("NL", "1508", "Zaandam"), 
-("NL", "1607", "Hem"), 
-("NL", "1771", "Wieringerwerf"), 
-("NL", "3412", "Lopik"), 
-("NL", "3437", "Nieuwegein"), 
-("NL", "3611", "Oud Zuilen"), 
-("NL", "4133", "Vianen"), 
-("NL", "4143", "Leerdam"), 
-("NL", "4431", "'s-Gravenpolder"), 
-("NL", "4433", "Hoedekenskerke"), 
-("NL", "4339", "Nieuw- en Sint Joosland"), 
-("NL", "4357", "Domburg"), 
-("NL", "4307", "Oosterland"), 
-("NL", "2991", "Barendrecht"), 
-("NL", "2491", "'s-Gravenhage"), 
-("NL", "2518", "'s-Gravenhage"), 
-("NL", "2565", "'s-Gravenhage"), 
-("NL", "2594", "'s-Gravenhage"), 
-("NL", "2322", "Leiden"), 
-("NL", "3046", "Rotterdam"), 
-("NL", "3061", "Rotterdam"), 
-("NL", "3117", "Schiedam"), 
-("NL", "3363", "Sliedrecht"), 
-("NL", "3234", "Oostvoorne"), 
-("NL", "3334", "Zwijndrecht"), 
-("NL", "2865", "Ammerstol"), 
-("NL", "3263", "Oud-Beijerland"), 
-("NL", "7610", "Almelo"), 
-("NL", "7621", "Borne"), 
-("NL", "7414", "Deventer"), 
-("NL", "7423", "Deventer"), 
-("NL", "7424", "Deventer"), 
-("NL", "7687", "Daarlerveen"), 
-("NL", "8275", "'s-Heerenbroek"), 
-("NL", "7685", "Beerzerveld"), 
-("NL", "8144", "Lierderholthuis"), 
-("NL", "7468", "Enter"), 
-("NL", "8024", "Zwolle"), 
-("NL", "8041", "Zwolle"), 
-("NL", "8332", "Steenwijk"), 
-("NL", "7497", "Bentelo"), 
-("NL", "7634", "Tilligte"), 
-("NL", "1316", "Almere"), 
-("NL", "1325", "Almere"), 
-("NL", "9408", "Assen"), 
-("NL", "7863", "Gees"), 
-("NL", "7827", "Emmen"), 
-("NL", "7933", "Pesse"), 
-("NL", "9515", "Gasselternijveenschemond"), 
-("NL", "7871", "Klijndijk"), 
-("NL", "7924", "Veeningen"), 
-("NL", "9749", "Matsloot"), 
-("NL", "9412", "Beilen"), 
-("NL", "8459", "Luinjeberd"), 
-("NL", "8434", "Waskemeer"), 
-("NL", "9217", "Nijega"), 
-("NL", "9219", "De Tike"), 
-("NL", "8881", "West-Terschelling"), 
-("NL", "8885", "Kinnum"), 
-("NL", "9064", "Aldtsjerk"), 
-("NL", "9106", "Sibrandahûs"), 
-("NL", "8721", "Warns"), 
-("NL", "8736", "Reahûs"), 
-("NL", "8811", "Ried"), 
-("NL", "8855", "Sexbierum"), 
-("NL", "9076", "St.-Annaparochie"), 
-("NL", "9121", "Aalsum"), 
-("NL", "7327", "Apeldoorn"), 
-("NL", "7332", "Apeldoorn"), 
-("NL", "6833", "Arnhem"), 
-("NL", "3794", "De Glind"), 
-("NL", "6717", "Ede"), 
-("NL", "6745", "Ede"), 
-("NL", "3852", "Ermelo"), 
-("NL", "6612", "Nederasselt"), 
-("NL", "6533", "Nijmegen"), 
-("NL", "6951", "Dieren"), 
-("NL", "4005", "Tiel"), 
-("NL", "6602", "Wijchen"), 
-("NL", "6604", "Wijchen"), 
-("NL", "6681", "Bemmel"), 
-("NL", "7039", "Stokkum"), 
-("NL", "4196", "Tricht"), 
-("NL", "9648", "Wildervank"), 
-("NL", "9602", "Hoogezand"), 
-("NL", "9974", "Zoutkamp"), 
-("NL", "9995", "Kantens"), 
-("NL", "9862", "Sebaldeburen"), 
-("NL", "9865", "Opende"), 
-("NL", "9901", "Appingedam"), 
-("NL", "9906", "Bierum"), 
-("NL", "6591", "Gennep"), 
-("NL", "6413", "Heerlen"), 
-("NL", "6462", "Kerkrade"), 
-("NL", "6466", "Kerkrade"), 
-("NL", "6214", "Maastricht"), 
-("NL", "6353", "Baneheide"), 
-("NL", "6077", "Sint Odiliënberg"), 
-("NL", "5984", "Koningslust"), 
-("NL", "6333", "Schimmert"), 
-("NL", "5824", "Holthees"), 
-("NL", "4822", "Breda"), 
-("NL", "4835", "Breda"), 
-("NL", "5235", "'s-Hertogenbosch"), 
-("NL", "5246", "Rosmalen"), 
-("NL", "5671", "Nuenen"), 
-("NL", "5351", "Berghem"), 
-("NL", "5271", "Gemonde"), 
-("NL", "5712", "Someren"), 
-("NL", "5032", "Tilburg"), 
-("NL", "5036", "Tilburg"), 
-("NL", "5042", "Tilburg"), 
-("NL", "5043", "Tilburg"), 
-("NL", "5554", "Valkenswaard"), 
-("NL", "5143", "Waalwijk"), 
-("NL", "5431", "Cuijk"), 
-("NL", "5843", "Westerbeek"), 
-("NL", "5846", "Ledeacker"), 
-("NL", "4797", "Willemstad"), 
-("NL", "5492", "Sint-Oedenrode"), 
-("NL", "4255", "Nieuwendijk"), 
-("NL", "4268", "Meeuwen"), 
-("NL", "4286", "Almkerk"), 
-("NL", "1817", "Alkmaar"), 
-("NL", "1183", "Amstelveen"), 
-("NL", "1033", "Amsterdam"), 
-("NL", "1931", "Egmond aan den Hoef"), 
-("NL", "1935", "Egmond-Binnen"), 
-("NL", "1966", "Heemskerk"), 
-("NL", "2101", "Heemstede"), 
-("NL", "1214", "Hilversum"), 
-("NL", "1274", "Huizen"), 
-("NL", "1657", "Abbekerk"), 
-("NL", "1682", "Zwaagdijk-Oost"), 
-("NL", "1191", "Ouderkerk aan de Amstel"), 
-("NL", "1975", "IJmuiden"), 
-("NL", "1991", "Velserbroek"), 
-("NL", "2082", "Santpoort-Zuid"), 
-("NL", "1154", "Uitdam"), 
-("NL", "1773", "Kreileroord"), 
-("NL", "3821", "Amersfoort"), 
-("NL", "3836", "Stoutenburg Noord"), 
-("NL", "3741", "Baarn"), 
-("NL", "3742", "Baarn"), 
-("NL", "3554", "Utrecht"), 
-("NL", "3446", "Woerden"), 
-("NL", "1391", "Abcoude"), 
-("NL", "3641", "Mijdrecht"), 
-("NL", "4565", "Kapellebrug"), 
-("NL", "4335", "Middelburg"), 
-("NL", "4413", "Krabbendijke"), 
-("NL", "4414", "Waarde"), 
-("NL", "4535", "Terneuzen"), 
-("NL", "4697", "Sint-Annaland"), 
-("NL", "4515", "IJzendijke"), 
-("NL", "2994", "Barendrecht"), 
-("NL", "2544", "'s-Gravenhage"), 
-("NL", "2341", "Oegstgeest"), 
-("NL", "3036", "Rotterdam"), 
-("NL", "3059", "Rotterdam"), 
-("NL", "3075", "Rotterdam"), 
-("NL", "3077", "Rotterdam"), 
-("NL", "3199", "Maasvlakte Rotterdam"), 
-("NL", "2374", "Oud Ade"), 
-("NL", "2631", "Nootdorp"), 
-("NL", "3205", "Spijkenisse"), 
-("NL", "3206", "Spijkenisse"), 
-("NL", "2821", "Stolwijk"), 
-("NL", "7533", "Enschede"), 
-("NL", "7783", "Gramsbergen"), 
-("NL", "7786", "Den Velde"), 
-("NL", "7447", "Hellendoorn"), 
-("NL", "8262", "Kampen"), 
-("NL", "8293", "Mastenbroek"), 
-("NL", "7661", "Vasse"), 
-("NL", "7466", "Zuna"), 
-("NL", "7683", "Den Ham"), 
-("NL", "8345", "Kallenkote"), 
-("NL", "8376", "Ossenzijl"), 
-("NL", "7478", "Diepenheim"), 
-("NL", "7638", "Nutter"), 
-("NL", "8294", "Mastenbroek"), 
-("NL", "1327", "Almere"), 
-("NL", "1355", "Almere"), 
-("NL", "8302", "Emmeloord"), 
-("NL", "8315", "Luttelgeest"), 
-("NL", "8219", "Lelystad"), 
-("NL", "9487", "Ter Aard"), 
-("NL", "7864", "Zwinderen"), 
-("NL", "7907", "Hoogeveen"), 
-("NL", "7948", "Nijeveen"), 
-("NL", "9456", "Eleveld"), 
-("NL", "9459", "Balloërveld"), 
-("NL", "9469", "Schipborg"), 
-("NL", "7858", "Eeserveen"), 
-("NL", "9525", "Drouwenerveen"), 
-("NL", "7935", "Eursinge"), 
-("NL", "9337", "Westervelde"), 
-("NL", "9421", "Bovensmilde"), 
-("NL", "8455", "Katlijk"), 
-("NL", "8469", "Nieuwebrug"), 
-("NL", "8913", "Leeuwarden"), 
-("NL", "8431", "Oosterwolde"), 
-("NL", "9246", "Olterterp"), 
-("NL", "9166", "Schiermonnikoog"), 
-("NL", "8896", "Hoorn"), 
-("NL", "8396", "Peperga"), 
-("NL", "8474", "Oldeholtpade"), 
-("NL", "8486", "Oldelamer"), 
-("NL", "9104", "Damwâld"), 
-("NL", "9108", "Broeksterwâld"), 
-("NL", "8625", "Oppenhuizen"), 
-("NL", "8751", "Pingjum"), 
-("NL", "8506", "Haskerhorne"), 
-("NL", "9075", "Westhoek"), 
-("NL", "7311", "Apeldoorn"), 
-("NL", "7316", "Apeldoorn"), 
-("NL", "7351", "Hoenderloo"), 
-("NL", "7364", "Lieren"), 
-("NL", "6816", "Arnhem"), 
-("NL", "6824", "Arnhem"), 
-("NL", "6827", "Arnhem"), 
-("NL", "6842", "Arnhem"), 
-("NL", "3772", "Barneveld"), 
-("NL", "6961", "Eerbeek"), 
-("NL", "4116", "Buren"), 
-("NL", "4106", "Culemborg"), 
-("NL", "7217", "Harfsen"), 
-("NL", "5333", "Hoenzadriel"), 
-("NL", "3861", "Nijkerk"), 
-("NL", "3511", "Utrecht"), 
-("NL", "3555", "Utrecht"), 
-("NL", "3945", "Cothen"), 
-("NL", "3947", "Langbroek"), 
-("NL", "3708", "Zeist"), 
-("NL", "3436", "Nieuwegein"), 
-("NL", "3447", "Woerden"), 
-("NL", "4125", "Hoef en Haag"), 
-("NL", "4464", "Goes"), 
-("NL", "4694", "Scherpenisse"), 
-("NL", "4388", "Oost-Souburg"), 
-("NL", "4484", "Kortgene"), 
-("NL", "4511", "Breskens"), 
-("NL", "2402", "Alphen aan den Rijn"), 
-("NL", "2771", "Boskoop"), 
-("NL", "3317", "Dordrecht"), 
-("NL", "4207", "Gorinchem"), 
-("NL", "2532", "'s-Gravenhage"), 
-("NL", "2552", "'s-Gravenhage"), 
-("NL", "2563", "'s-Gravenhage"), 
-("NL", "2584", "'s-Gravenhage"), 
-("NL", "2316", "Leiden"), 
-("NL", "2332", "Leiden"), 
-("NL", "2333", "Leiden"), 
-("NL", "3145", "Maassluis"), 
-("NL", "3146", "Maassluis"), 
-("NL", "3653", "Woerdense Verlaat"), 
-("NL", "2343", "Oegstgeest"), 
-("NL", "3351", "Papendrecht"), 
-("NL", "2984", "Ridderkerk"), 
-("NL", "3013", "Rotterdam"), 
-("NL", "3028", "Rotterdam"), 
-("NL", "3043", "Rotterdam"), 
-("NL", "3056", "Rotterdam"), 
-("NL", "3235", "Oostvoorne"), 
-("NL", "2381", "Zoeterwoude"), 
-("NL", "2362", "Warmond"), 
-("NL", "2761", "Zevenhuizen"), 
-("NL", "2262", "Leidschendam"), 
-("NL", "2265", "Leidschendam"), 
-("NL", "3247", "Dirksland"), 
-("NL", "2941", "Lekkerkerk"), 
-("NL", "2969", "Oud-Alblas"), 
-("NL", "4223", "Hoornaar"), 
-("NL", "8154", "Lemelerveld"), 
-("NL", "7415", "Deventer"), 
-("NL", "7731", "Ommen"), 
-("NL", "7732", "Ommen"), 
-("NL", "7668", "Haarle"), 
-("NL", "8032", "Zwolle"), 
-("NL", "7681", "Vroomshoop"), 
-("NL", "8331", "Steenwijk"), 
-("NL", "8378", "Paasloo"), 
-("NL", "7471", "Goor"), 
-("NL", "8131", "Wijhe"), 
-("NL", "1329", "Almere"), 
-("NL", "1336", "Almere"), 
-("NL", "1358", "Almere"), 
-("NL", "8223", "Lelystad"), 
-("NL", "8167", "Oene"), 
-("NL", "5328", "Rossum"), 
-("NL", "6705", "Wageningen"), 
-("NL", "6634", "Batenburg"), 
-("NL", "7061", "Terborg"), 
-("NL", "6571", "Berg en Dal"), 
-("NL", "7035", "Kilder"), 
-("NL", "9752", "Haren Gn"), 
-("NL", "9645", "Veendam"), 
-("NL", "9674", "Winschoten"), 
-("NL", "9682", "Oostwold"), 
-("NL", "9624", "Luddeweer"), 
-("NL", "9651", "Meeden"), 
-("NL", "9985", "Oosternieland"), 
-("NL", "9986", "Oldenzijl"), 
-("NL", "9824", "Noordwijk"), 
-("NL", "9844", "Pieterzijl"), 
-("NL", "9881", "Kommerzijl"), 
-("NL", "9918", "Garrelsweer"), 
-("NL", "5856", "Wellerlooi"), 
-("NL", "6416", "Heerlen"), 
-("NL", "6422", "Heerlen"), 
-("NL", "5913", "Venlo"), 
-("NL", "5931", "Tegelen"), 
-("NL", "5976", "Kronenberg"), 
-("NL", "6125", "Obbicht"), 
-("NL", "6365", "Schinnen"), 
-("NL", "6438", "Oirsbeek"), 
-("NL", "6447", "Merkelbeek"), 
-("NL", "4615", "Bergen op Zoom"), 
-("NL", "5753", "Deurne"), 
-("NL", "5759", "Helenaveen"), 
-("NL", "5614", "Eindhoven"), 
-("NL", "5121", "Rijen"), 
-("NL", "5453", "Langenboom"), 
-("NL", "5047", "Tilburg"), 
-("NL", "5508", "Veldhoven"), 
-("NL", "5266", "Cromvoirt"), 
-("NL", "5421", "Gemert"), 
-("NL", "5095", "Hooge Mierde"), 
-("NL", "5844", "Stevensbeek"), 
-("NL", "5383", "Vinkel"), 
-("NL", "5731", "Mierlo"), 
-("NL", "1065", "Amsterdam"), 
-("NL", "1931", "Egmond aan Zee"), 
-("NL", "2019", "Haarlem"), 
-("NL", "2024", "Haarlem"), 
-("NL", "1119", "Schiphol-Rijk"), 
-("NL", "1171", "Badhoevedorp"), 
-("NL", "2134", "Hoofddorp"), 
-("NL", "2156", "Weteringbrug"), 
-("NL", "1788", "Julianadorp"), 
-("NL", "1789", "Huisduinen"), 
-("NL", "1221", "Hilversum"), 
-("NL", "1623", "Hoorn"), 
-("NL", "1689", "Zwaag"), 
-("NL", "1681", "Zwaagdijk-Oost"), 
-("NL", "1796", "De Koog"), 
-("NL", "1613", "Grootebroek"), 
-("NL", "1141", "Monnickendam"), 
-("NL", "1645", "Ursem"), 
-("NL", "1761", "Anna Paulowna"), 
-("NL", "3731", "De Bilt"), 
-("NL", "3995", "Houten"), 
-("NL", "3911", "Rhenen"), 
-("NL", "7814", "Emmen"), 
-("NL", "7913", "Hollandscheveld"), 
-("NL", "9655", "Oud Annerveen"), 
-("NL", "9659", "Eexterveenschekanaal"), 
-("NL", "7876", "Valthermond"), 
-("NL", "9333", "Langelo"), 
-("NL", "9472", "Zuidlaren"), 
-("NL", "9436", "Mantinge"), 
-("NL", "9283", "Surhuizum"), 
-("NL", "8411", "Jubbega"), 
-("NL", "8495", "Aldeboarn"), 
-("NL", "9054", "Hijum"), 
-("NL", "8422", "Nijeberkoop"), 
-("NL", "8406", "Tijnje"), 
-("NL", "9248", "Siegerswoude"), 
-("NL", "9222", "Drachtstercompagnie"), 
-("NL", "8606", "Sneek"), 
-("NL", "8715", "Stavoren"), 
-("NL", "8521", "Sint Nicolaasga"), 
-("NL", "8526", "Boornzwaag"), 
-("NL", "9101", "Dokkum"), 
-("NL", "9103", "Dokkum"), 
-("NL", "9294", "Oudwoude"), 
-("NL", "9853", "Munnekezijl"), 
-("NL", "7126", "Bredevoort"), 
-("NL", "6813", "Arnhem"), 
-("NL", "6843", "Arnhem"), 
-("NL", "3853", "Ermelo"), 
-("NL", "3847", "Harderwijk"), 
-("NL", "7213", "Gorssel"), 
-("NL", "5321", "Hedel"), 
-("NL", "6537", "Nijmegen"), 
-("NL", "8097", "Oosterwolde Gld"), 
-("NL", "6881", "Velp"), 
-("NL", "4007", "Tiel"), 
-("NL", "7391", "Twello"), 
-("NL", "6709", "Wageningen"), 
-("NL", "6603", "Wijchen"), 
-("NL", "6915", "Lobith"), 
-("NL", "6657", "Boven-Leeuwen"), 
-("NL", "7071", "Ulft"), 
-("NL", "6687", "Angeren"), 
-("NL", "6661", "Elst"), 
-("NL", "7274", "Geesteren"), 
-("NL", "9563", "Ter Apelkanaal"), 
-("NL", "9628", "Siddeburen"), 
-("NL", "9951", "Winsum"), 
-("NL", "9959", "Onderdendam"), 
-("NL", "9983", "Roodeschool"), 
-("NL", "9998", "Rottum"), 
-("NL", "9882", "Kommerzijl"), 
-("NL", "9919", "Loppersum"), 
-("NL", "5954", "Beesel"), 
-("NL", "6446", "Brunssum"), 
-("NL", "6463", "Kerkrade"), 
-("NL", "6221", "Maastricht"), 
-("NL", "6225", "Maastricht"), 
-("NL", "6045", "Roermond"), 
-("NL", "6163", "Geleen"), 
-("NL", "5995", "Kessel"), 
-("NL", "6255", "Noorbeek"), 
-("NL", "5722", "Asten"), 
-("NL", "4613", "Bergen op Zoom"), 
-("NL", "4815", "Breda"), 
-("NL", "5632", "Eindhoven"), 
-("NL", "5633", "Eindhoven"), 
-("NL", "5646", "Eindhoven"), 
-("NL", "4874", "Etten-Leur"), 
-("NL", "4879", "Etten-Leur"), 
-("NL", "5122", "Rijen"), 
-("NL", "5213", "'s-Hertogenbosch"), 
-("NL", "5232", "'s-Hertogenbosch"), 
-("NL", "5392", "Nuland"), 
-("NL", "5451", "Mill"), 
-("NL", "5368", "Haren"), 
-("NL", "5012", "Tilburg"), 
-("NL", "5057", "Berkel-Enschot"), 
-("NL", "5556", "Valkenswaard"), 
-("NL", "5145", "Waalwijk"), 
-("NL", "4726", "Heerle"), 
-("NL", "5666", "Geldrop"), 
-("NL", "1186", "Amstelveen"), 
-("NL", "1188", "Amstelveen"), 
-("NL", "1017", "Amsterdam"), 
-("NL", "1031", "Amsterdam"), 
-("NL", "1074", "Amsterdam"), 
-("NL", "1101", "Amsterdam"), 
-("NL", "1131", "Volendam"), 
-("NL", "1961", "Heemskerk"), 
-("NL", "2105", "Heemstede"), 
-("NL", "1722", "Zuid-Scharwoude"), 
-("NL", "1658", "Lambertschaag"), 
-("NL", "1716", "Opmeer"), 
-("NL", "1551", "Westzaan"), 
-("NL", "1456", "Wijdewormer"), 
-("NL", "3816", "Amersfoort"), 
-("NL", "3999", "Tull en 't Waal"), 
-("NL", "3413", "Lopik"), 
-("NL", "3552", "Utrecht"), 
-("NL", "3904", "Veenendaal"), 
-("NL", "3734", "Den Dolder"), 
-("NL", "3467", "Hekendorp"), 
-("NL", "3471", "Zegveld"), 
-("NL", "3628", "Kockengen"), 
-("NL", "3989", "Ossenwaard"), 
-("NL", "4145", "Schoonrewoerd"), 
-("NL", "4461", "Goes"), 
-("NL", "4462", "Goes"), 
-("NL", "4588", "Walsoorden"), 
-("NL", "4336", "Middelburg"), 
-("NL", "4553", "Philippine"), 
-("NL", "4574", "Zuiddorpe"), 
-("NL", "4691", "Tholen"), 
-("NL", "3232", "Vierpolders"), 
-("NL", "3237", "Vierpolders"), 
-("NL", "2802", "Gouda"), 
-("NL", "2546", "'s-Gravenhage"), 
-("NL", "2572", "'s-Gravenhage"), 
-("NL", "2586", "'s-Gravenhage"), 
-("NL", "2593", "'s-Gravenhage"), 
-("NL", "3225", "Hellevoetsluis"), 
-("NL", "2314", "Leiden"), 
-("NL", "3355", "Papendrecht"), 
-("NL", "2986", "Ridderkerk"), 
-("NL", "3021", "Rotterdam"), 
-("NL", "3067", "Rotterdam"), 
-("NL", "3076", "Rotterdam"), 
-("NL", "3079", "Rotterdam"), 
-("NL", "3087", "Rotterdam"), 
-("NL", "3112", "Schiedam"), 
-("NL", "2665", "Bleiswijk"), 
-("NL", "2912", "Nieuwerkerk aan den IJssel"), 
-("NL", "2914", "Nieuwerkerk aan den IJssel"), 
-("NL", "3465", "Driebruggen"), 
-("NL", "3249", "Herkingen"), 
-("NL", "3251", "Stellendam"), 
-("NL", "3208", "Spijkenisse"), 
-("NL", "2831", "Gouderak"), 
-("NL", "3366", "Wijngaarden"), 
-("NL", "4221", "Hoogblokland"), 
-("NL", "7605", "Almelo"), 
-("NL", "7522", "Enschede"), 
-("NL", "7778", "Loozen"), 
-("NL", "7781", "De Krim"), 
-("NL", "7791", "Radewijk"), 
-("NL", "7737", "Stegeren"), 
-("NL", "7739", "Vinkenbuurt"), 
-("NL", "7693", "Sibculo"), 
-("NL", "8333", "Steenwijk"), 
-("NL", "1334", "Almere"), 
-("NL", "1362", "Almere"), 
-("NL", "8304", "Emmeloord"), 
-("NL", "8314", "Bant"), 
-("NL", "8319", "Schokland"), 
-("NL", "7824", "Emmen"), 
-("NL", "7833", "Nieuw-Amsterdam"), 
-("NL", "7902", "Hoogeveen"), 
-("NL", "7909", "Hoogeveen"), 
-("NL", "9467", "Anloo"), 
-("NL", "9656", "Spijkerboor"), 
-("NL", "9657", "Nieuw Annerveen"), 
-("NL", "7872", "Valthe"), 
-("NL", "9521", "Nieuw-Buinen"), 
-("NL", "9531", "Borger"), 
-("NL", "9301", "Roden"), 
-("NL", "9482", "Tynaarlo"), 
-("NL", "9162", "Ballum"), 
-("NL", "9056", "Koarnjum"), 
-("NL", "9057", "Jelsum"), 
-("NL", "8432", "Haule"), 
-("NL", "8393", "Vinkega"), 
-("NL", "8476", "Ter Idzard"), 
-("NL", "8482", "Spanga"), 
-("NL", "8484", "Langelille"), 
-("NL", "8603", "Sneek"), 
-("NL", "8604", "Sneek"), 
-("NL", "8621", "Heeg"), 
-("NL", "8633", "Ysbrechtum"), 
-("NL", "8742", "Burgwerd"), 
-("NL", "8755", "Idsegahuizum"), 
-("NL", "8507", "Rohel"), 
-("NL", "8854", "Oosterbierum"), 
-("NL", "9151", "Holwerd"), 
-("NL", "9173", "Hegebeintum"), 
-("NL", "7123", "Aalten"), 
-("NL", "7324", "Apeldoorn"), 
-("NL", "7381", "Klarenbeek"), 
-("NL", "4111", "Zoelmond"), 
-("NL", "7002", "Doetinchem"), 
-("NL", "6653", "Deest"), 
-("NL", "8191", "Wapenveld"), 
-("NL", "6956", "Spankeren"), 
-("NL", "6961", "Rozendaal"), 
-("NL", "7384", "Twello"), 
-("NL", "7102", "Winterswijk"), 
-("NL", "5301", "Zaltbommel"), 
-("NL", "6905", "Zevenaar"), 
-("NL", "6916", "Tolkamer"), 
-("NL", "4051", "Ochten"), 
-("NL", "7152", "Eibergen"), 
-("NL", "6561", "Groesbeek"), 
-("NL", "6573", "Beek"), 
-("NL", "9722", "Groningen"), 
-("NL", "9724", "Groningen"), 
-("NL", "9791", "Ten Boer"), 
-("NL", "9795", "Woltersum"), 
-("NL", "9644", "Veendam"), 
-("NL", "9541", "Vlagtwedde"), 
-("NL", "9626", "Schildwolde"), 
-("NL", "9939", "Tjuchem"), 
-("NL", "9962", "Schouwerzijl"), 
-("NL", "9356", "Tolbert"), 
-("NL", "9921", "Stedum"), 
-("NL", "6442", "Brunssum"), 
-("NL", "6351", "Bocholtz"), 
-("NL", "5941", "Velden"), 
-("NL", "5943", "Lomm"), 
-("NL", "5862", "Geijsteren"), 
-("NL", "6002", "Weert"), 
-("NL", "5971", "Grubbenvorst"), 
-("NL", "6274", "Reijmerstok"), 
-("NL", "6135", "Sittard"), 
-("NL", "6143", "Guttecoven"), 
-("NL", "4611", "Bergen op Zoom"), 
-("NL", "5684", "Best"), 
-("NL", "4841", "Prinsenbeek"), 
-("NL", "5626", "Eindhoven"), 
-("NL", "5642", "Eindhoven"), 
-("NL", "5243", "Rosmalen"), 
-("NL", "5253", "Nieuwkuijk"), 
-("NL", "5081", "Hilvarenbeek"), 
-("NL", "5689", "Oirschot"), 
-("NL", "5066", "Moergestel"), 
-("NL", "4911", "Den Hout"), 
-("NL", "5348", "Oss"), 
-("NL", "5357", "Overlangel"), 
-("NL", "5715", "Lierop"), 
-("NL", "5738", "Mariahout"), 
-("NL", "5096", "Hulsel"), 
-("NL", "4702", "Roosendaal"), 
-("NL", "4727", "Moerstraten"), 
-("NL", "4766", "Zevenbergschen Hoek"), 
-("NL", "5571", "Bergeijk"), 
-("NL", "1037", "Amsterdam"), 
-("NL", "2034", "Haarlem"), 
-("NL", "1161", "Zwanenburg"), 
-("NL", "2154", "Burgerveen"), 
-("NL", "1705", "Heerhugowaard"), 
-("NL", "1706", "Heerhugowaard"), 
-("NL", "1211", "Hilversum"), 
-("NL", "1217", "Hilversum"), 
-("NL", "1624", "Hoorn"), 
-("NL", "1686", "Zwaagdijk-West"), 
-("NL", "1662", "De Weere"), 
-("NL", "1441", "Purmerend"), 
-("NL", "1791", "Den Burg"), 
-("NL", "1422", "Uithoorn"), 
-("NL", "1525", "Westknollendam"), 
-("NL", "1633", "Avenhorn"), 
-("NL", "3615", "Westbroek"), 
-("NL", "3985", "Werkhoven"), 
-("NL", "3998", "Schalkwijk"), 
-("NL", "3417", "Montfoort"), 
-("NL", "3905", "Veenendaal"), 
-("NL", "3435", "Nieuwegein"), 
-("NL", "3651", "Zegveld"), 
-("NL", "3643", "Mijdrecht"), 
-("NL", "4247", "Kedichem"), 
-("NL", "4472", "'s-Heer Hendrikskinderen"), 
-("NL", "4589", "Ossenisse"), 
-("NL", "4571", "Zuiddorpe"), 
-("NL", "4693", "Poortvliet"), 
-("NL", "4315", "Dreischor"), 
-("NL", "2404", "Alphen aan den Rijn"), 
-("NL", "2511", "'s-Gravenhage"), 
-("NL", "2516", "'s-Gravenhage"), 
-("NL", "3372", "Hardinxveld-Giessendam"), 
-("NL", "3016", "Rotterdam"), 
-("NL", "3026", "Rotterdam"), 
-("NL", "3071", "Rotterdam"), 
-("NL", "2282", "Rijswijk"), 
-("NL", "2287", "Rijswijk"), 
-("NL", "3118", "Schiedam"), 
-("NL", "2712", "Zoetermeer"), 
-("NL", "3331", "Zwijndrecht"), 
-("NL", "2271", "Voorburg"), 
-("NL", "3202", "Spijkenisse"), 
-("NL", "2872", "Schoonhoven"), 
-("NL", "7602", "Almelo"), 
-("NL", "7412", "Deventer"), 
-("NL", "7535", "Enschede"), 
-("NL", "7782", "De Krim"), 
-("NL", "8014", "Zwolle"), 
-("NL", "7463", "Rijssen"), 
-("NL", "1361", "Almere"), 
-("NL", "3892", "Zeewolde"), 
-("NL", "8303", "Emmeloord"), 
-("NL", "8308", "Nagele"), 
-("NL", "8317", "Kraggenburg"), 
-("NL", "8222", "Lelystad"), 
-("NL", "3541", "Utrecht"), 
-("NL", "3703", "Zeist"), 
-("NL", "3449", "Woerden"), 
-("NL", "3951", "Maarn"), 
-("NL", "3602", "Maarssen"), 
-("NL", "4438", "Driewegen"), 
-("NL", "4453", "'s-Heerenhoek"), 
-("NL", "4416", "Kruiningen"), 
-("NL", "4531", "Terneuzen"), 
-("NL", "4351", "Veere"), 
-("NL", "4385", "Vlissingen"), 
-("NL", "4311", "Bruinisse"), 
-("NL", "2496", "'s-Gravenhage"), 
-("NL", "2545", "'s-Gravenhage"), 
-("NL", "2583", "'s-Gravenhage"), 
-("NL", "2592", "'s-Gravenhage"), 
-("NL", "2595", "'s-Gravenhage"), 
-("NL", "3223", "Hellevoetsluis"), 
-("NL", "2321", "Leiden"), 
-("NL", "2161", "Lisse"), 
-("NL", "1428", "Vrouwenakker"), 
-("NL", "2191", "De Zilk"), 
-("NL", "2201", "Noordwijk"), 
-("NL", "2983", "Ridderkerk"), 
-("NL", "3364", "Sliedrecht"), 
-("NL", "3135", "Vlaardingen"), 
-("NL", "2685", "Poeldijk"), 
-("NL", "3204", "Spijkenisse"), 
-("NL", "3264", "Nieuw-Beijerland"), 
-("NL", "3281", "Numansdorp"), 
-("NL", "8151", "Lemelerveld"), 
-("NL", "7776", "Slagharen"), 
-("NL", "7554", "Hengelo"), 
-("NL", "8105", "Luttenberg"), 
-("NL", "8035", "Zwolle"), 
-("NL", "7686", "Geerdijk"), 
-("NL", "8325", "Vollenhove"), 
-("NL", "8124", "Wesepe"), 
-("NL", "7597", "Saasveld"), 
-("NL", "8305", "Emmeloord"), 
-("NL", "8251", "Dronten"), 
-("NL", "8252", "Dronten"), 
-("NL", "9404", "Assen"), 
-("NL", "9407", "Assen"), 
-("NL", "7911", "Nieuweroord"), 
-("NL", "7918", "Nieuwlande"), 
-("NL", "7942", "Meppel"), 
-("NL", "7943", "Meppel"), 
-("NL", "9449", "Nooitgedacht"), 
-("NL", "9466", "Gasteren"), 
-("NL", "9527", "Bronneger"), 
-("NL", "9534", "Westdorp"), 
-("NL", "9334", "Peest"), 
-("NL", "9343", "Een-West"), 
-("NL", "8386", "Doldersum"), 
-("NL", "8387", "Boschoord"), 
-("NL", "7938", "Nieuw-Balinge"), 
-("NL", "9415", "Hijken"), 
-("NL", "9422", "Smilde"), 
-("NL", "9231", "Surhuisterveen"), 
-("NL", "8444", "Heerenveen"), 
-("NL", "9022", "Mantgum"), 
-("NL", "9053", "Feinsum"), 
-("NL", "9055", "Britsum"), 
-("NL", "9203", "Drachten"), 
-("NL", "8883", "Kaard"), 
-("NL", "9262", "Sumar"), 
-("NL", "8618", "Oosthem"), 
-("NL", "8658", "Greonterp"), 
-("NL", "8711", "Workum"), 
-("NL", "8516", "Doniaga"), 
-("NL", "8805", "Hitzum"), 
-("NL", "9144", "Hantumhuizen"), 
-("NL", "9154", "Foudgum"), 
-("NL", "9291", "Kollum"), 
-("NL", "9293", "Kollumerpomp"), 
-("NL", "7312", "Apeldoorn"), 
-("NL", "7314", "Apeldoorn"), 
-("NL", "6825", "Arnhem"), 
-("NL", "6826", "Arnhem"), 
-("NL", "3784", "Terschuur"), 
-("NL", "4105", "Culemborg"), 
-("NL", "6924", "Loo Gld"), 
-("NL", "6732", "Harskamp"), 
-("NL", "3851", "Ermelo"), 
-("NL", "5331", "Kerkdriel"), 
-("NL", "5334", "Velddriel"), 
-("NL", "6515", "Nijmegen"), 
-("NL", "6546", "Nijmegen"), 
-("NL", "3881", "Putten"), 
-("NL", "6882", "Velp"), 
-("NL", "4062", "Zennewijnen"), 
-("NL", "7382", "Klarenbeek"), 
-("NL", "6914", "Herwen"), 
-("NL", "7064", "Silvolde"), 
-("NL", "7076", "Varsselder"), 
-("NL", "7156", "Beltrum"), 
-("NL", "7271", "Borculo"), 
-("NL", "4182", "Neerijnen"), 
-("NL", "9743", "Groningen"), 
-("NL", "9797", "Thesinge"), 
-("NL", "9581", "Musselkanaal"), 
-("NL", "9942", "'t Waar"), 
-("NL", "9625", "Overschild"), 
-("NL", "9972", "Niekerk"), 
-("NL", "9364", "Nuis"), 
-("NL", "9805", "Briltil"), 
-("NL", "9866", "Lutjegast"), 
-("NL", "9903", "Appingedam"), 
-("NL", "9907", "Losdorp"), 
-("NL", "9911", "Oosterwijtwerd"), 
-("NL", "9913", "Eenum"), 
-("NL", "5851", "Afferden L"), 
-("NL", "6295", "Lemiers"), 
-("NL", "5813", "Ysselsteyn"), 
-("NL", "5861", "Wanssum"), 
-("NL", "5962", "Melderslo"), 
-("NL", "5963", "Hegelsom"), 
-("NL", "6075", "Herkenbosch"), 
-("NL", "6127", "Grevenbicht"), 
-("NL", "6451", "Schinveld"), 
-("NL", "6456", "Bingelrade"), 
-("NL", "4661", "Halsteren"), 
-("NL", "5427", "Boekel"), 
-("NL", "5821", "Vierlingsbeek"), 
-("NL", "5827", "Vortum-Mullem"), 
-("NL", "5281", "Boxtel"), 
-("NL", "4847", "Teteringen"), 
-("NL", "5756", "Vlierden"), 
-("NL", "5524", "Steensel"), 
-("NL", "5647", "Eindhoven"), 
-("NL", "4942", "Raamsdonksveer"), 
-("NL", "5706", "Helmond"), 
-("NL", "5085", "Esbeek"), 
-("NL", "5344", "Oss"), 
-("NL", "5394", "Oijen"), 
-("NL", "5292", "Gemonde"), 
-("NL", "4652", "Steenbergen"), 
-("NL", "4681", "Nieuw-Vossemeer"), 
-("NL", "5044", "Tilburg"), 
-("NL", "5502", "Veldhoven"), 
-("NL", "4631", "Hoogerheide"), 
-("NL", "4744", "Bosschenhoofd"), 
-("NL", "4704", "Roosendaal"), 
-("NL", "4781", "Moerdijk"), 
-("NL", "4855", "Galder"), 
-("NL", "5663", "Geldrop"), 
-("NL", "5664", "Geldrop"), 
-("NL", "5461", "Veghel"), 
-("NL", "4285", "Woudrichem"), 
-("NL", "1057", "Amsterdam"), 
-("NL", "1081", "Amsterdam"), 
-("NL", "1934", "Egmond-Binnen"), 
-("NL", "1451", "Purmerland"), 
-("NL", "1503", "Zaandam"), 
-("NL", "1696", "Oosterblokker"), 
-("NL", "1405", "Bussum"), 
-("NL", "3811", "Amersfoort"), 
-("NL", "3412", "Lopikerkapel"), 
-("NL", "7751", "Dalen"), 
-("NL", "7756", "Stieltjeskanaal"), 
-("NL", "7847", "'t Haantje"), 
-("NL", "7853", "Wezuperbrug"), 
-("NL", "7855", "Meppen"), 
-("NL", "7929", "Nieuwlande Coevorden"), 
-("NL", "7903", "Hoogeveen"), 
-("NL", "7904", "Hoogeveen"), 
-("NL", "7906", "Hoogeveen"), 
-("NL", "7949", "Rogat"), 
-("NL", "9461", "Gieten"), 
-("NL", "7877", "2e Valthermond"), 
-("NL", "9524", "Buinerveen"), 
-("NL", "9564", "Zandberg"), 
-("NL", "8351", "Wapserveen"), 
-("NL", "8456", "De Knipe"), 
-("NL", "8834", "Baard"), 
-("NL", "8911", "Leeuwarden"), 
-("NL", "9241", "Wijnjewoude"), 
-("NL", "9243", "Bakkeveen"), 
-("NL", "9212", "Boornbergum"), 
-("NL", "8891", "Midsland"), 
-("NL", "8893", "Landerum"), 
-("NL", "8702", "Bolsward"), 
-("NL", "9033", "Deinum"), 
-("NL", "9078", "Oudebildtzijl"), 
-("NL", "9148", "Hiaure"), 
-("NL", "7333", "Apeldoorn"), 
-("NL", "3781", "Voorthuizen"), 
-("NL", "6713", "Ede"), 
-("NL", "6741", "Lunteren"), 
-("NL", "7351", "Hoenderloo"), 
-("NL", "3846", "Harderwijk"), 
-("NL", "6582", "Heumen"), 
-("NL", "6534", "Nijmegen"), 
-("NL", "6663", "Lent"), 
-("NL", "8094", "Hattemerbroek"), 
-("NL", "7231", "Warnsveld"), 
-("NL", "7075", "Etten"), 
-("NL", "7135", "Harreveld"), 
-("NL", "7021", "Zelhem"), 
-("NL", "7226", "Bronkhorst"), 
-("NL", "6942", "Didam"), 
-("NL", "9723", "Groningen"), 
-("NL", "9728", "Groningen"), 
-("NL", "9584", "Mussel"), 
-("NL", "9607", "Foxhol"), 
-("NL", "9608", "Westerbroek"), 
-("NL", "9954", "Tinallinge"), 
-("NL", "9359", "Boerakker"), 
-("NL", "9946", "Woldendorp"), 
-("NL", "9948", "Termunterzijl"), 
-("NL", "6371", "Landgraaf"), 
-("NL", "6235", "Meerssen"), 
-("NL", "6041", "Roermond"), 
-("NL", "5922", "Venlo"), 
-("NL", "5927", "Venlo"), 
-("NL", "5812", "Heide"), 
-("NL", "6121", "Born"), 
-("NL", "6165", "Geleen"), 
-("NL", "6155", "Puth"), 
-("NL", "4616", "Bergen op Zoom"), 
-("NL", "5441", "Oeffelt"), 
-("NL", "4813", "Breda"), 
-("NL", "4816", "Breda"), 
-("NL", "5621", "Eindhoven"), 
-("NL", "4944", "Raamsdonk"), 
-("NL", "5364", "Escharen"), 
-("NL", "5223", "'s-Hertogenbosch"), 
-("NL", "5252", "Vlijmen"), 
-("NL", "5367", "Macharen"), 
-("NL", "4735", "Zegge"), 
-("NL", "5505", "Veldhoven"), 
-("NL", "5583", "Waalre"), 
-("NL", "5144", "Waalwijk"), 
-("NL", "5422", "Gemert"), 
-("NL", "5437", "Beers NB"), 
-("NL", "4271", "Dussen"), 
-("NL", "4273", "Hank"), 
-("NL", "1536", "Markenbinnen"), 
-("NL", "1019", "Amsterdam"), 
-("NL", "1046", "Amsterdam"), 
-("NL", "1060", "Amsterdam"), 
-("NL", "1071", "Amsterdam"), 
-("NL", "1104", "Amsterdam"), 
-("NL", "1871", "Schoorl"), 
-("NL", "1111", "Diemen"), 
-("NL", "2011", "Haarlem"), 
-("NL", "2157", "Abbenes"), 
-("NL", "1852", "Heiloo"), 
-("NL", "1785", "Den Helder"), 
-("NL", "1834", "Sint Pancras"), 
-("NL", "1251", "Laren"), 
-("NL", "1719", "Aartswoud"), 
-("NL", "1755", "Petten"), 
-("NL", "1384", "Weesp"), 
-("NL", "3834", "Leusden"), 
-("NL", "3514", "Utrecht"), 
-("NL", "3543", "Utrecht"), 
-("NL", "3583", "Utrecht"), 
-("NL", "3931", "Woudenberg"), 
-("NL", "3402", "IJsselstein"), 
-("NL", "3705", "Zeist"), 
-("NL", "4471", "Wolphaartsdijk"), 
-("NL", "4568", "Nieuw Namen"), 
-("NL", "4505", "Zuidzande"), 
-("NL", "2405", "Alphen aan den Rijn"), 
-("NL", "2614", "Delft"), 
-("NL", "2623", "Delft"), 
-("NL", "2803", "Gouda"), 
-("NL", "2514", "'s-Gravenhage"), 
-("NL", "2317", "Leiden"), 
-("NL", "2324", "Leiden"), 
-("NL", "2981", "Ridderkerk"), 
-("NL", "2988", "Ridderkerk"), 
-("NL", "3031", "Rotterdam"), 
-("NL", "3111", "Schiedam"), 
-("NL", "3121", "Schiedam"), 
-("NL", "2172", "Sassenheim"), 
-("NL", "2671", "Naaldwijk"), 
-("NL", "2676", "Maasdijk"), 
-("NL", "3299", "Maasdam"), 
-("NL", "2974", "Brandwijk"), 
-("NL", "7532", "Enschede"), 
-("NL", "7548", "Enschede"), 
-("NL", "7701", "Dedemsvaart"), 
-("NL", "7707", "Balkbrug"), 
-("NL", "7779", "Holthone"), 
-("NL", "7582", "Losser"), 
-("NL", "7586", "Overdinkel"), 
-("NL", "7576", "Oldenzaal"), 
-("NL", "7736", "Beerze"), 
-("NL", "7651", "Tubbergen"), 
-("NL", "8031", "Zwolle"), 
-("NL", "8339", "Marijenkampen"), 
-("NL", "7462", "Rijssen"), 
-("NL", "8196", "Welsum"), 
-("NL", "8281", "Genemuiden"), 
-("NL", "1333", "Almere"), 
-("NL", "1349", "Almere"), 
-("NL", "1353", "Almere"), 
-("NL", "9448", "Marwijksoord"), 
-("NL", "7984", "Dieverbrug"), 
-("NL", "7986", "Wittelte"), 
-("NL", "8384", "Wilhelminaoord"), 
-("NL", "8438", "Wateren"), 
-("NL", "9483", "Zeegse"), 
-("NL", "9411", "Beilen"), 
-("NL", "9416", "Oranje"), 
-("NL", "9434", "Eursinge"), 
-("NL", "8442", "Heerenveen"), 
-("NL", "8452", "Nieuweschoot"), 
-("NL", "8458", "Tjalleberd"), 
-("NL", "8937", "Leeuwarden"), 
-("NL", "9007", "Idaerd"), 
-("NL", "9008", "Reduzum"), 
-("NL", "8485", "Munnekeburen"), 
-("NL", "8553", "Indijk"), 
-("NL", "8601", "Sneek"), 
-("NL", "8632", "Tirns"), 
-("NL", "8743", "Hichtum"), 
-("NL", "8771", "Nijland"), 
-("NL", "8774", "Wolsum"), 
-("NL", "8775", "Nijhuizum"), 
-("NL", "9014", "Tersoal"), 
-("NL", "8467", "Vegelinsoord"), 
-("NL", "8505", "Snikzwaag"), 
-("NL", "8517", "Scharsterbrug"), 
-("NL", "8574", "Bakhuizen"), 
-("NL", "9073", "Marrum"), 
-("NL", "9132", "Engwierum"), 
-("NL", "9133", "Anjum"), 
-("NL", "9145", "Ternaard"), 
-("NL", "9153", "Brantgum"), 
-("NL", "7322", "Apeldoorn"), 
-("NL", "6642", "Beuningen Gld"), 
-("NL", "4119", "Ravenswaaij"), 
-("NL", "7005", "Doetinchem"), 
-("NL", "6714", "Ede"), 
-("NL", "8082", "Elburg"), 
-("NL", "8181", "Heerde"), 
-("NL", "8194", "Veessen"), 
-("NL", "3862", "Nijkerk"), 
-("NL", "6532", "Nijmegen"), 
-("NL", "8095", "'t Loo Oldebroek"), 
-("NL", "3882", "Putten"), 
-("NL", "7395", "Teuge"), 
-("NL", "7113", "Winterswijk Henxel"), 
-("NL", "5314", "Bruchem"), 
-("NL", "6909", "Babberich"), 
-("NL", "6578", "Leuth"), 
-("NL", "4155", "Gellicum"), 
-("NL", "4174", "Hellouw"), 
-("NL", "9714", "Groningen"), 
-("NL", "9731", "Groningen"), 
-("NL", "9755", "Onnen"), 
-("NL", "9695", "Bellingwolde"), 
-("NL", "9957", "Saaxumhuizen"), 
-("NL", "9973", "Houwerzijl"), 
-("NL", "9982", "Uithuizermeeden"), 
-("NL", "9366", "Jonkersvaart"), 
-("NL", "9831", "Aduard"), 
-("NL", "9863", "Doezum"), 
-("NL", "9909", "Spijk"), 
-("NL", "6599", "Ven-Zelderheide"), 
-("NL", "6417", "Heerlen"), 
-("NL", "6433", "Hoensbroek"), 
-("NL", "6035", "Ospel"), 
-("NL", "6092", "Leveroy"), 
-("NL", "6294", "Vijlen"), 
-("NL", "6039", "Stramproy"), 
-("NL", "6273", "Ingber"), 
-("NL", "6123", "Holtum"), 
-("NL", "5104", "Dongen"), 
-("NL", "5511", "Knegsel"), 
-("NL", "5624", "Eindhoven"), 
-("NL", "5628", "Eindhoven"), 
-("NL", "5212", "'s-Hertogenbosch"), 
-("NL", "5373", "Herpen"), 
-("NL", "5272", "Sint-Michielsgestel"), 
-("NL", "5711", "Someren"), 
-("NL", "4655", "De Heen"), 
-("NL", "5013", "Tilburg"), 
-("NL", "5405", "Uden"), 
-("NL", "5165", "Waspik"), 
-("NL", "4645", "Putte"), 
-("NL", "5527", "Hapert"), 
-("NL", "5531", "Bladel"), 
-("NL", "5661", "Geldrop"), 
-("NL", "4265", "Genderen"), 
-("NL", "1823", "Alkmaar"), 
-("NL", "1042", "Amsterdam"), 
-("NL", "1058", "Amsterdam"), 
-("NL", "1062", "Amsterdam"), 
-("NL", "1862", "Bergen (NH)"), 
-("NL", "2111", "Aerdenhout"), 
-("NL", "1113", "Diemen"), 
-("NL", "1473", "Warder"), 
-("NL", "2022", "Haarlem"), 
-("NL", "2063", "Spaarndam gem. Haarlem"), 
-("NL", "2131", "Hoofddorp"), 
-("NL", "2132", "Hoofddorp"), 
-("NL", "2158", "Buitenkaag"), 
-("NL", "1786", "Den Helder"), 
-("NL", "1622", "Hoorn"), 
-("NL", "1671", "Medemblik"), 
-("NL", "1676", "Twisk"), 
-("NL", "1693", "Wervershoof"), 
-("NL", "1795", "De Cocksdorp"), 
-("NL", "2041", "Zandvoort"), 
-("NL", "1617", "Westwoud"), 
-("NL", "1641", "Spierdijk"), 
-("NL", "1642", "Spierdijk"), 
-("NL", "3751", "Bunschoten-Spakenburg"), 
-("NL", "3527", "Utrecht"), 
-("NL", "3581", "Utrecht"), 
-("NL", "3445", "Woerden"), 
-("NL", "3612", "Maarssen"), 
-("NL", "4441", "Ovezande"), 
-("NL", "4481", "Goes"), 
-("NL", "4584", "Kuitaart"), 
-("NL", "4325", "Renesse"), 
-("NL", "4327", "Serooskerke"), 
-("NL", "4528", "Sint Kruis"), 
-("NL", "2391", "Hazerswoude-Dorp"), 
-("NL", "3231", "Vierpolders"), 
-("NL", "4205", "Gorinchem"), 
-("NL", "2596", "'s-Gravenhage"), 
-("NL", "2318", "Leiden"), 
-("NL", "3652", "Woerdense Verlaat"), 
-("NL", "2202", "Noordwijk"), 
-("NL", "3352", "Papendrecht"), 
-("NL", "3354", "Papendrecht"), 
-("NL", "3074", "Rotterdam"), 
-("NL", "3085", "Rotterdam"), 
-("NL", "3197", "Botlek Rotterdam"), 
-("NL", "3362", "Sliedrecht"), 
-("NL", "2723", "Zoetermeer"), 
-("NL", "2725", "Zoetermeer"), 
-("NL", "2662", "Bergschenhoek"), 
-("NL", "2684", "Ter Heijde"), 
-("NL", "2693", "'s-Gravenzande"), 
-("NL", "2371", "Roelofarendsveen"), 
-("NL", "2851", "Haastrecht"), 
-("NL", "7722", "Dalfsen"), 
-("NL", "7511", "Enschede"), 
-("NL", "7702", "Dedemsvaart"), 
-("NL", "7785", "Anevelde"), 
-("NL", "7794", "Rheeze"), 
-("NL", "7557", "Hengelo"), 
-("NL", "8265", "Kampen"), 
-("NL", "8141", "Heino"), 
-("NL", "7665", "Albergen"), 
-("NL", "8336", "Baars"), 
-("NL", "7561", "Deurningen"), 
-("NL", "7596", "Rossum"), 
-("NL", "1313", "Almere"), 
-("NL", "1357", "Almere"), 
-("NL", "9405", "Assen"), 
-("NL", "9409", "Loon"), 
-("NL", "9488", "Zeijerveld"), 
-("NL", "7825", "Emmen"), 
-("NL", "7916", "Elim"), 
-("NL", "9444", "Grolloo"), 
-("NL", "9451", "Rolde"), 
-("NL", "9452", "Nijlande"), 
-("NL", "9304", "Lieveren"), 
-("NL", "9311", "Nieuw-Roden"), 
-("NL", "9321", "Peize"), 
-("NL", "7975", "Uffelte"), 
-("NL", "7937", "Tiendeveen"), 
-("NL", "9423", "Hoogersmilde"), 
-("NL", "8862", "Harlingen"), 
-("NL", "8914", "Leeuwarden"), 
-("NL", "8922", "Leeuwarden"), 
-("NL", "9083", "Snakkerburen"), 
-("NL", "8408", "Lippenhuizen"), 
-("NL", "9202", "Drachten"), 
-("NL", "8612", "Idzega"), 
-("NL", "8615", "Blauwhuis"), 
-("NL", "8637", "Wiuwert"), 
-("NL", "8511", "Goingarijp"), 
-("NL", "8532", "Lemmer"), 
-("NL", "8572", "Rijs"), 
-("NL", "9136", "Paesens"), 
-("NL", "9155", "Raard"), 
-("NL", "7371", "Loenen"), 
-("NL", "4115", "Asch"), 
-("NL", "6718", "Ede"), 
-("NL", "6733", "Wekerom"), 
-("NL", "8052", "Hattem"), 
-("NL", "6891", "Rozendaal"), 
-("NL", "7439", "Steenenkamer"), 
-("NL", "6601", "Wijchen"), 
-("NL", "6901", "Zevenaar"), 
-("NL", "6626", "Alphen"), 
-("NL", "6852", "Huissen"), 
-("NL", "4156", "Rumpt"), 
-("NL", "4191", "Geldermalsen"), 
-("NL", "9794", "Lellens"), 
-("NL", "9502", "Stadskanaal"), 
-("NL", "9677", "Heiligerlee"), 
-("NL", "9603", "Hoogezand"), 
-("NL", "9964", "Wehe-den Hoorn"), 
-("NL", "9367", "De Wilp"), 
-("NL", "9825", "Lucaswolde"), 
-("NL", "9827", "Lettelbert"), 
-("NL", "9992", "Huizinge"), 
-("NL", "6414", "Heerlen"), 
-("NL", "6467", "Kerkrade"), 
-("NL", "6584", "Molenhoek"), 
-("NL", "6341", "Walem"), 
-("NL", "5964", "Meterik"), 
-("NL", "6086", "Neer"), 
-("NL", "6114", "Susteren"), 
-("NL", "6118", "Nieuwstadt"), 
-("NL", "6271", "Gulpen"), 
-("NL", "6278", "Beutenaken"), 
-("NL", "5988", "Helden"), 
-("NL", "6251", "Eckelrade"), 
-("NL", "6265", "Sint Geertruid"), 
-("NL", "6174", "Sweikhuizen"), 
-("NL", "4621", "Bergen op Zoom"), 
-("NL", "4622", "Bergen op Zoom"), 
-("NL", "5825", "Overloon"), 
-("NL", "5826", "Groeningen"), 
-("NL", "5298", "Liempde"), 
-("NL", "4819", "Breda"), 
-("NL", "4837", "Breda"), 
-("NL", "5655", "Eindhoven"), 
-("NL", "5382", "Vinkel"), 
-("NL", "5171", "Kaatsheuvel"), 
-("NL", "5062", "Oisterwijk"), 
-("NL", "5366", "Megen"), 
-("NL", "5271", "Den Dungen"), 
-("NL", "5271", "Sint-Michielsgestel"), 
-("NL", "5291", "Gemonde"), 
-("NL", "5691", "Son en Breugel"), 
-("NL", "5263", "Vught"), 
-("NL", "4885", "Achtmaal"), 
-("NL", "4709", "Nispen"), 
-("NL", "5449", "Rijkevoort-De Walsert"), 
-("NL", "4782", "Moerdijk"), 
-("NL", "5465", "Veghel"), 
-("NL", "4266", "Eethen"), 
-("NL", "1486", "West-Graftdijk"), 
-("NL", "1843", "Grootschermer"), 
-("NL", "1189", "Amstelveen"), 
-("NL", "1013", "Amsterdam"), 
-("NL", "1018", "Amsterdam"), 
-("NL", "1082", "Amsterdam"), 
-("NL", "1107", "Amsterdam"), 
-("NL", "1865", "Bergen aan Zee"), 
-("NL", "1902", "Castricum"), 
-("NL", "1477", "Hobrede"), 
-("NL", "2104", "Heemstede"), 
-("NL", "1723", "Noord-Scharwoude"), 
-("NL", "1663", "De Weere"), 
-("NL", "1443", "Purmerend"), 
-("NL", "1751", "Schagerbrug"), 
-("NL", "1541", "Koog aan de Zaan"), 
-("NL", "1544", "Zaandijk"), 
-("NL", "1534", "Oostknollendam"), 
-("NL", "1767", "Kolhorn"), 
-("NL", "3813", "Amersfoort"), 
-("NL", "3455", "Haarzuilens"), 
-("NL", "3563", "Utrecht"), 
-("NL", "3902", "Veenendaal"), 
-("NL", "4132", "Vianen"), 
-("NL", "4455", "Nieuwdorp"), 
-("NL", "4458", "Wolphaartsdijk"), 
-("NL", "4539", "Spui"), 
-("NL", "4374", "Zoutelande"), 
-("NL", "4317", "Noordgouwe"), 
-("NL", "4485", "Kats"), 
-("NL", "4501", "Oostburg"), 
-("NL", "2611", "Delft"), 
-("NL", "2627", "Delft"), 
-("NL", "4201", "Gorinchem"), 
-("NL", "2497", "'s-Gravenhage"), 
-("NL", "2526", "'s-Gravenhage"), 
-("NL", "2542", "'s-Gravenhage"), 
-("NL", "2548", "'s-Gravenhage"), 
-("NL", "3147", "Maassluis"), 
-("NL", "2212", "Noordwijkerhout"), 
-("NL", "3024", "Rotterdam"), 
-("NL", "3051", "Rotterdam"), 
-("NL", "3062", "Rotterdam"), 
-("NL", "2284", "Rijswijk"), 
-("NL", "3134", "Vlaardingen"), 
-("NL", "3137", "Vlaardingen"), 
-("NL", "2741", "Waddinxveen"), 
-("NL", "2728", "Zoetermeer"), 
-("NL", "2261", "Leidschendam"), 
-("NL", "2266", "Leidschendam"), 
-("NL", "2935", "Ouderkerk aan den IJssel"), 
-("NL", "2961", "Kinderdijk"), 
-("NL", "7721", "Dalfsen"), 
-("NL", "7416", "Deventer"), 
-("NL", "7418", "Deventer"), 
-("NL", "7551", "Hengelo"), 
-("NL", "7585", "Glane"), 
-("NL", "7572", "Oldenzaal"), 
-("NL", "7577", "Oldenzaal"), 
-("NL", "8015", "Zwolle"), 
-("NL", "8326", "Sint Jansklooster"), 
-("NL", "8335", "Witte Paarden"), 
-("NL", "8375", "Oldemarkt"), 
-("NL", "8312", "Creil"), 
-("NL", "8316", "Marknesse"), 
-("NL", "7761", "Schoonebeek"), 
-("NL", "7941", "Meppel"), 
-("NL", "9447", "Papenvoort"), 
-("NL", "9536", "Ees"), 
-("NL", "9305", "Roderesch"), 
-("NL", "9491", "Zeijen"), 
-("NL", "9432", "Zuidveld"), 
-("NL", "8443", "Heerenveen"), 
-("NL", "8445", "Heerenveen"), 
-("NL", "8449", "Terband"), 
-("NL", "8927", "Leeuwarden"), 
-("NL", "9003", "Warten"), 
-("NL", "9082", "Miedum"), 
-("NL", "9223", "Houtigehage"), 
-("NL", "8882", "Hee"), 
-("NL", "8392", "Boijl"), 
-("NL", "8481", "Nijetrijne"), 
-("NL", "8711", "Ferwoude"), 
-("NL", "8823", "Lollum"), 
-("NL", "8844", "Hinnaard"), 
-("NL", "8522", "Tjerkgaast"), 
-("NL", "8541", "Akmarijp"), 
-("NL", "9032", "Blessum"), 
-("NL", "9043", "Wier"), 
-("NL", "9107", "Jannum"), 
-("NL", "9297", "Veenklooster"), 
-("NL", "7329", "Apeldoorn"), 
-("NL", "6814", "Arnhem"), 
-("NL", "3774", "Kootwijkerbroek"), 
-("NL", "4023", "Rijswijk (GLD)"), 
-("NL", "4117", "Erichem"), 
-("NL", "3841", "Harderwijk"), 
-("NL", "6994", "De Steeg"), 
-("NL", "5316", "Delwijnen"), 
-("NL", "6902", "Zevenaar"), 
-("NL", "7206", "Zutphen"), 
-("NL", "7207", "Zutphen"), 
-("NL", "6685", "Haalderen"), 
-("NL", "9671", "Winschoten"), 
-("NL", "3454", "Utrecht"), 
-("NL", "3645", "Vinkeveen"), 
-("NL", "4562", "Hulst"), 
-("NL", "4482", "Kloetinge"), 
-("NL", "4316", "Zonnemaire"), 
-("NL", "4522", "Biervliet"), 
-("NL", "3238", "Zwartewaal"), 
-("NL", "2902", "Capelle aan den IJssel"), 
-("NL", "3328", "Dordrecht"), 
-("NL", "2517", "'s-Gravenhage"), 
-("NL", "2597", "'s-Gravenhage"), 
-("NL", "2235", "Valkenburg"), 
-("NL", "2925", "Krimpen aan den IJssel"), 
-("NL", "2351", "Leiderdorp"), 
-("NL", "2353", "Leiderdorp"), 
-("NL", "3198", "Europoort Rotterdam"), 
-("NL", "2288", "Rijswijk"), 
-("NL", "2721", "Zoetermeer"), 
-("NL", "2291", "Wateringen"), 
-("NL", "2375", "Rijpwetering"), 
-("NL", "2451", "Leimuiden"), 
-("NL", "2275", "Voorburg"), 
-("NL", "3245", "Sommelsdijk"), 
-("NL", "2641", "Pijnacker"), 
-("NL", "3211", "Geervliet"), 
-("NL", "3265", "Piershil"), 
-("NL", "2971", "Bleskensgraaf ca"), 
-("NL", "7411", "Deventer"), 
-("NL", "7542", "Enschede"), 
-("NL", "7481", "Haaksbergen"), 
-("NL", "7772", "Hardenberg"), 
-("NL", "7788", "Anerveen"), 
-("NL", "7955", "IJhorst"), 
-("NL", "7664", "Manderveen"), 
-("NL", "7666", "Fleringen"), 
-("NL", "7645", "Wierden"), 
-("NL", "8021", "Zwolle"), 
-("NL", "8042", "Zwolle"), 
-("NL", "8066", "Belt-Schutsloot"), 
-("NL", "7472", "Goor"), 
-("NL", "8121", "Olst"), 
-("NL", "1318", "Almere"), 
-("NL", "1321", "Almere"), 
-("NL", "8241", "Lelystad"), 
-("NL", "8242", "Lelystad"), 
-("NL", "6668", "Randwijk"), 
-("NL", "7223", "Baak"), 
-("NL", "7224", "Rha"), 
-("NL", "4197", "Buurmalsen"), 
-("NL", "9736", "Groningen"), 
-("NL", "9742", "Groningen"), 
-("NL", "9747", "Groningen"), 
-("NL", "9681", "Midwolda"), 
-("NL", "9691", "Oudezijl"), 
-("NL", "9785", "Zuidwolde"), 
-("NL", "9361", "Boerakker"), 
-("NL", "9363", "Marum"), 
-("NL", "9811", "Enumatil"), 
-("NL", "9845", "Visvliet"), 
-("NL", "9987", "Zijldijk"), 
-("NL", "6372", "Landgraaf"), 
-("NL", "6445", "Brunssum"), 
-("NL", "6469", "Kerkrade"), 
-("NL", "5863", "Blitterswijck"), 
-("NL", "5111", "Baarle-Nassau"), 
-("NL", "4625", "Bergen op Zoom"), 
-("NL", "5682", "Best"), 
-("NL", "5835", "Beugen"), 
-("NL", "4811", "Breda"), 
-("NL", "4812", "Breda"), 
-("NL", "4824", "Breda"), 
-("NL", "4827", "Breda"), 
-("NL", "5751", "Deurne"), 
-("NL", "5504", "Knegsel"), 
-("NL", "4941", "Raamsdonksveer"), 
-("NL", "5124", "Molenschot"), 
-("NL", "5052", "Goirle"), 
-("NL", "5241", "Rosmalen"), 
-("NL", "5151", "Drunen"), 
-("NL", "5396", "Lithoijen"), 
-("NL", "5432", "Cuijk"), 
-("NL", "5439", "Linden"), 
-("NL", "6028", "Gastel"), 
-("NL", "4758", "Standdaarbuiten"), 
-("NL", "4924", "Drimmelen"), 
-("NL", "4858", "Ulvenhout AC"), 
-("NL", "5534", "Netersel"), 
-("NL", "5466", "Veghel"), 
-("NL", "5469", "Erp"), 
-("NL", "4288", "Uitwijk"), 
-("NL", "1646", "Ursem"), 
-("NL", "1011", "Amsterdam"), 
-("NL", "1462", "Middenbeemster"), 
-("NL", "1873", "Groet"), 
-("NL", "1944", "Beverwijk"), 
-("NL", "1949", "Wijk aan Zee"), 
-("NL", "1921", "Akersloot"), 
-("NL", "1135", "Edam"), 
-("NL", "1475", "Beets"), 
-("NL", "2032", "Haarlem"), 
-("NL", "2065", "Vijfhuizen"), 
-("NL", "2106", "Heemstede"), 
-("NL", "1222", "Hilversum"), 
-("NL", "1628", "Hoorn"), 
-("NL", "1272", "Huizen"), 
-("NL", "1832", "Koedijk"), 
-("NL", "1718", "Hoogwoud"), 
-("NL", "1446", "Purmerend"), 
-("NL", "1741", "Schagen"), 
-("NL", "1381", "Weesp"), 
-("NL", "1383", "Weesp"), 
-("NL", "1631", "Oudendijk"), 
-("NL", "1648", "De Goorn"), 
-("NL", "1711", "Hensbroek"), 
-("NL", "1733", "Nieuwe Niedorp"), 
-("NL", "1769", "Haringhuizen"), 
-("NL", "1403", "Bussum"), 
-("NL", "3828", "Hoogland"), 
-("NL", "3405", "Benschop"), 
-("NL", "7843", "Erm"), 
-("NL", "7813", "Emmen"), 
-("NL", "7912", "Nieuweroord"), 
-("NL", "7936", "Tiendeveen"), 
-("NL", "9453", "Eldersloo"), 
-("NL", "9658", "Eexterveen"), 
-("NL", "7859", "Eeserveen"), 
-("NL", "8491", "Akkrum"), 
-("NL", "8427", "Ravenswoud"), 
-("NL", "8428", "Fochteloo"), 
-("NL", "8401", "Gorredijk"), 
-("NL", "9254", "Hurdegaryp"), 
-("NL", "8554", "Ypecolsga"), 
-("NL", "8641", "Rien"), 
-("NL", "8747", "Wons"), 
-("NL", "8754", "Makkum"), 
-("NL", "8758", "Allingawier"), 
-("NL", "8766", "Breezanddijk"), 
-("NL", "8464", "Sintjohannesga"), 
-("NL", "8531", "Lemmer"), 
-("NL", "8542", "Terkaple"), 
-("NL", "8814", "Zweins"), 
-("NL", "8843", "Spannum"), 
-("NL", "9298", "Kollumerzwaag"), 
-("NL", "7095", "De Heurne"), 
-("NL", "7323", "Apeldoorn"), 
-("NL", "7341", "Beemte Broekland"), 
-("NL", "3785", "Zwartebroek"), 
-("NL", "4021", "Maurik"), 
-("NL", "7031", "Wehl"), 
-("NL", "5327", "Hurwenen"), 
-("NL", "6521", "Nijmegen"), 
-("NL", "3925", "Scherpenzeel"), 
-("NL", "6987", "Giesbeek"), 
-("NL", "6988", "Lathum"), 
-("NL", "7065", "Sinderen"), 
-("NL", "6575", "Persingen"), 
-("NL", "7048", "Wijnbergen"), 
-("NL", "4152", "Rhenoy"), 
-("NL", "9711", "Groningen"), 
-("NL", "9646", "Veendam"), 
-("NL", "9545", "Bourtange"), 
-("NL", "9981", "Uithuizen"), 
-("NL", "9988", "Usquert"), 
-("NL", "9812", "Enumatil"), 
-("NL", "9892", "Feerwerd"), 
-("NL", "9902", "Appingedam"), 
-("NL", "5855", "Well L"), 
-("NL", "6031", "Nederweert"), 
-("NL", "5975", "Sevenum"), 
-("NL", "6093", "Heythuysen"), 
-("NL", "5724", "Ommel"), 
-("NL", "5683", "Best"), 
-("NL", "5831", "Boxmeer"), 
-("NL", "5657", "Eindhoven"), 
-("NL", "4877", "Etten-Leur"), 
-("NL", "4878", "Etten-Leur"), 
-("NL", "5076", "Haaren"), 
-("NL", "4902", "Oosterhout"), 
-("NL", "5355", "Neerlangel"), 
-("NL", "4722", "Schijf"), 
-("NL", "5037", "Tilburg"), 
-("NL", "5501", "Veldhoven"), 
-("NL", "5423", "Handel"), 
-("NL", "4741", "Hoeven"), 
-("NL", "4796", "Oudemolen"), 
-("NL", "4861", "Chaam"), 
-("NL", "5482", "Schijndel"), 
-("NL", "4251", "Werkendam"), 
-("NL", "1815", "Alkmaar"), 
-("NL", "1827", "Alkmaar"), 
-("NL", "1086", "Amsterdam"), 
-("NL", "1102", "Amsterdam"), 
-("NL", "1942", "Beverwijk"), 
-("NL", "1947", "Beverwijk"), 
-("NL", "2014", "Haarlem"), 
-("NL", "1687", "Wognum"), 
-("NL", "1448", "Purmerend"), 
-("NL", "1611", "Bovenkarspel"), 
-("NL", "3737", "Groenekan"), 
-("NL", "3754", "Eemdijk"), 
-("NL", "3461", "Linschoten"), 
-("NL", "3451", "Vleuten"), 
-("NL", "3551", "Utrecht"), 
-("NL", "3901", "Veenendaal"), 
-("NL", "3941", "Doorn"), 
-("NL", "4475", "Wilhelminadorp"), 
-("NL", "4481", "Kloetinge"), 
-("NL", "4566", "Heikant"), 
-("NL", "4543", "Terneuzen"), 
-("NL", "4675", "Sint Philipsland"), 
-("NL", "4508", "Waterlandkerkje"), 
-("NL", "4529", "Eede"), 
-("NL", "2471", "Zwammerdam"), 
-("NL", "3237", "Zwartewaal"), 
-("NL", "2626", "Delft"), 
-("NL", "3311", "Dordrecht"), 
-("NL", "4208", "Gorinchem"), 
-("NL", "2513", "'s-Gravenhage"), 
-("NL", "2582", "'s-Gravenhage"), 
-("NL", "2587", "'s-Gravenhage"), 
-("NL", "2225", "Katwijk"), 
-("NL", "2922", "Krimpen aan den IJssel"), 
-("NL", "2315", "Leiden"), 
-("NL", "3078", "Rotterdam"), 
-("NL", "3195", "Pernis Rotterdam"), 
-("NL", "2241", "Wassenaar"), 
-("NL", "2245", "Wassenaar"), 
-("NL", "2635", "Den Hoorn"), 
-("NL", "3243", "Stad aan 't Haringvliet"), 
-("NL", "3247", "Herkingen"), 
-("NL", "3295", "'s-Gravendeel"), 
-("NL", "2977", "Goudriaan"), 
-("NL", "7601", "Almelo"), 
-("NL", "7604", "Almelo"), 
-("NL", "7798", "Collendoorn"), 
-("NL", "7555", "Hengelo"), 
-("NL", "8261", "Kampen"), 
-("NL", "7587", "de Lutte"), 
-("NL", "7954", "Rouveen"), 
-("NL", "7676", "Westerhaar-Vriezenveensewijk"), 
-("NL", "7496", "Hengevelde"), 
-("NL", "1312", "Almere"), 
-("NL", "1339", "Almere"), 
-("NL", "1352", "Almere"), 
-("NL", "8256", "Biddinghuizen"), 
-("NL", "7861", "Oosterhesselen"), 
-("NL", "7908", "Hoogeveen"), 
-("NL", "7873", "Odoorn"), 
-("NL", "7991", "Dwingeloo"), 
-("NL", "9284", "Augustinusga"), 
-("NL", "9161", "Hollum"), 
-("NL", "8494", "Nes"), 
-("NL", "9027", "Hilaard"), 
-("NL", "9085", "Teerns"), 
-("NL", "9422", "Beetsterzwaag"), 
-("NL", "8631", "Loënga"), 
-("NL", "8644", "Dearsum"), 
-("NL", "8735", "Itens"), 
-("NL", "9013", "Poppenwier"), 
-("NL", "8535", "Follega"), 
-("NL", "8571", "Harich"), 
-("NL", "8816", "Skingen"), 
-("NL", "9034", "Marsum"), 
-("NL", "9141", "Wierum"), 
-("NL", "9142", "Moddergat"), 
-("NL", "6815", "Arnhem"), 
-("NL", "6974", "Leuvenheim"), 
-("NL", "6654", "Afferden"), 
-("NL", "6574", "Nijmegen"), 
-("NL", "6952", "Dieren"), 
-("NL", "6706", "Wageningen"), 
-("NL", "6931", "Westervoort"), 
-("NL", "6617", "Bergharen"), 
-("NL", "6621", "Dreumel"), 
-("NL", "6924", "Loo Gld"), 
-("NL", "6662", "Elst"), 
-("NL", "6666", "Heteren"), 
-("NL", "7151", "Eibergen"), 
-("NL", "4175", "Haaften"), 
-("NL", "9696", "Oudeschans"), 
-("NL", "9621", "Schildwolde"), 
-("NL", "9842", "Niezijl"), 
-("NL", "9904", "Krewerd"), 
-("NL", "9993", "Westerwijtwerd"), 
-("NL", "6596", "Milsbeek"), 
-("NL", "6217", "Maastricht"), 
-("NL", "6218", "Maastricht"), 
-("NL", "6369", "Simpelveld"), 
-("NL", "6301", "Valkenburg"), 
-("NL", "6097", "Heel"), 
-("NL", "6162", "Geleen"), 
-("NL", "6247", "Gronsveld"), 
-("NL", "6361", "Nuth"), 
-("NL", "5757", "Liessel"), 
-("NL", "5102", "Dongen"), 
-("NL", "5221", "'s-Hertogenbosch"), 
-("NL", "5359", "Keent"), 
-("NL", "5694", "Son en Breugel"), 
-("NL", "4756", "Kruisland"), 
-("NL", "5046", "Tilburg"), 
-("NL", "5071", "Udenhout"), 
-("NL", "5171", "Sprang-Capelle"), 
-("NL", "6029", "Sterksel"), 
-("NL", "4706", "Roosendaal"), 
-("NL", "5411", "Zeeland"), 
-("NL", "5841", "Oploo"), 
-("NL", "4759", "Noordhoek"), 
-("NL", "4927", "Hooge Zwaluwe"), 
-("NL", "4261", "Wijk en Aalburg"), 
-("NL", "1026", "Amsterdam"), 
-("NL", "1028", "Amsterdam"), 
-("NL", "1047", "Amsterdam"), 
-("NL", "1093", "Amsterdam"), 
-("NL", "2061", "Bloemendaal"), 
-("NL", "2021", "Haarlem"), 
-("NL", "2036", "Haarlem"), 
-("NL", "1438", "Oude Meer"), 
-("NL", "2133", "Hoofddorp"), 
-("NL", "1962", "Heemskerk"), 
-("NL", "1781", "Den Helder"), 
-("NL", "1619", "Andijk"), 
-("NL", "1115", "Duivendrecht"), 
-("NL", "1744", "Sint Maarten"), 
-("NL", "1506", "Zaandam"), 
-("NL", "1562", "Krommenie"), 
-("NL", "1566", "Assendelft"), 
-("NL", "1153", "Zuiderwoude"), 
-("NL", "1231", "Loosdrecht"), 
-("NL", "1736", "Zijdewind"), 
-("NL", "1768", "Barsingerhorn"), 
-("NL", "3992", "Houten"), 
-("NL", "3831", "Leusden"), 
-("NL", "1396", "Baambrugge"), 
-("NL", "3646", "Waverveen"), 
-("NL", "3621", "Breukelen"), 
-("NL", "4121", "Everdingen"), 
-("NL", "4435", "Baarland"), 
-("NL", "4443", "Nisse"), 
-("NL", "4458", "'s-Heer Arendskerke"), 
-("NL", "4575", "Zuiddorpe"), 
-("NL", "4698", "Oud-Vossemeer"), 
-("NL", "4305", "Ouwerkerk"), 
-("NL", "2401", "Alphen aan den Rijn"), 
-("NL", "3312", "Dordrecht"), 
-("NL", "2211", "De Zilk"), 
-("NL", "3353", "Papendrecht"), 
-("NL", "2987", "Ridderkerk"), 
-("NL", "3045", "Rotterdam"), 
-("NL", "3069", "Rotterdam"), 
-("NL", "3081", "Rotterdam"), 
-("NL", "3082", "Rotterdam"), 
-("NL", "3083", "Rotterdam"), 
-("NL", "2252", "Voorschoten"), 
-("NL", "2742", "Waddinxveen"), 
-("NL", "2717", "Zoetermeer"), 
-("NL", "3291", "Strijen"), 
-("NL", "2957", "Nieuw-Lekkerland"), 
-("NL", "7711", "Nieuwleusen"), 
-("NL", "7434", "Lettele"), 
-("NL", "7797", "Rheezerveen"), 
-("NL", "7559", "Hengelo"), 
-("NL", "7615", "Harbrinkhoek"), 
-("NL", "7667", "Reutum"), 
-("NL", "7645", "Hoge Hexel"), 
-("NL", "8011", "Zwolle"), 
-("NL", "8012", "Zwolle"), 
-("NL", "8017", "Zwolle"), 
-("NL", "8022", "Zwolle"), 
-("NL", "8371", "Scheerwolde"), 
-("NL", "7635", "Lattrop-Breklenkamp"), 
-("NL", "1354", "Almere"), 
-("NL", "6535", "Nijmegen"), 
-("NL", "9741", "Groningen"), 
-("NL", "9746", "Groningen"), 
-("NL", "9675", "Winschoten"), 
-("NL", "9944", "Nieuwolda"), 
-("NL", "9561", "Ter Apel"), 
-("NL", "9617", "Harkstede"), 
-("NL", "9402", "Assen"), 
-("NL", "7854", "Aalden"), 
-("NL", "7766", "Nieuw-Schoonebeek"), 
-("NL", "7905", "Hoogeveen"), 
-("NL", "7914", "Noordscheschut"), 
-("NL", "8437", "Zorgvlied"), 
-("NL", "9493", "De Punt"), 
-("NL", "9495", "Winde"), 
-("NL", "7928", "Stuifzand"), 
-("NL", "8872", "Midlum"), 
-("NL", "8941", "Akkrum"), 
-("NL", "8915", "Leeuwarden"), 
-("NL", "8921", "Leeuwarden"), 
-("NL", "9087", "Swichum"), 
-("NL", "8403", "Jonkerslân"), 
-("NL", "9218", "Opeinde"), 
-("NL", "8884", "Baaiduinen"), 
-("NL", "8471", "Wolvega"), 
-("NL", "8489", "Slijkenburg"), 
-("NL", "8732", "Kûbaard"), 
-("NL", "8752", "Kornwerderzand"), 
-("NL", "8772", "Tjalhuizum"), 
-("NL", "8821", "Kimswerd"), 
-("NL", "8466", "Nijehaske"), 
-("NL", "8513", "Ouwsterhaule"), 
-("NL", "8525", "Langweer"), 
-("NL", "8561", "Balk"), 
-("NL", "8806", "Achlum"), 
-("NL", "8852", "Firdgum"), 
-("NL", "8853", "Klooster Lidlum"), 
-("NL", "9077", "Vrouwenparochie"), 
-("NL", "9146", "Hantumeruitburen"), 
-("NL", "9152", "Waaxens"), 
-("NL", "9176", "Lichtaard"), 
-("NL", "3792", "Achterveld"), 
-("NL", "4032", "Ommeren"), 
-("NL", "4102", "Culemborg"), 
-("NL", "4103", "Culemborg"), 
-("NL", "6983", "Doesburg"), 
-("NL", "6631", "Horssen"), 
-("NL", "8161", "Epe"), 
-("NL", "8051", "Hattem"), 
-("NL", "7201", "Zutphen"), 
-("NL", "4043", "Opheusden"), 
-("NL", "7261", "Ruurlo"), 
-("NL", "6564", "Heilig Landstichting"), 
-("NL", "9712", "Groningen"), 
-("NL", "3526", "Utrecht"), 
-("NL", "3532", "Utrecht"), 
-("NL", "3704", "Zeist"), 
-("NL", "3442", "Woerden"), 
-("NL", "3471", "Kamerik"), 
-("NL", "3604", "Maarssen"), 
-("NL", "4231", "Meerkerk"), 
-("NL", "4696", "Stavenisse"), 
-("NL", "4323", "Ellemeet"), 
-("NL", "4486", "Colijnsplaat"), 
-("NL", "4494", "Geersdijk"), 
-("NL", "2903", "Capelle aan den IJssel"), 
-("NL", "2906", "Capelle aan den IJssel"), 
-("NL", "2616", "Delft"), 
-("NL", "3316", "Dordrecht"), 
-("NL", "2492", "'s-Gravenhage"), 
-("NL", "2561", "'s-Gravenhage"), 
-("NL", "2313", "Leiden"), 
-("NL", "2331", "Leiden"), 
-("NL", "3033", "Rotterdam"), 
-("NL", "3041", "Rotterdam"), 
-("NL", "3042", "Rotterdam"), 
-("NL", "3064", "Rotterdam"), 
-("NL", "3084", "Rotterdam"), 
-("NL", "3113", "Schiedam"), 
-("NL", "2675", "Honselersdijk"), 
-("NL", "3201", "Spijkenisse"), 
-("NL", "3205", "Hekelingen"), 
-("NL", "2931", "Krimpen aan de Lek"), 
-("NL", "3267", "Goudswaard"), 
-("NL", "3286", "Klaaswaal"), 
-("NL", "3293", "Mookhoek"), 
-("NL", "7425", "Deventer"), 
-("NL", "7428", "Deventer"), 
-("NL", "7441", "Nijverdal"), 
-("NL", "7573", "Oldenzaal"), 
-("NL", "7475", "Markelo"), 
-("NL", "8291", "Mastenbroek"), 
-("NL", "1332", "Almere"), 
-("NL", "1363", "Almere"), 
-("NL", "8224", "Lelystad"), 
-("NL", "8239", "Lelystad"), 
-("NL", "6932", "Duiven"), 
-("NL", "8084", "'t Harde"), 
-("NL", "6871", "Renkum"), 
-("NL", "7106", "Winterswijk Ratum"), 
-("NL", "6606", "Niftrik"), 
-("NL", "6686", "Doornenburg"), 
-("NL", "6998", "Laag-Keppel"), 
-("NL", "6941", "Didam"), 
-("NL", "4212", "Spijk"), 
-("NL", "9713", "Groningen"), 
-("NL", "9733", "Groningen"), 
-("NL", "9606", "Kropswolde"), 
-("NL", "9618", "Woudbloem"), 
-("NL", "9627", "Hellum"), 
-("NL", "9966", "Zuurdijk"), 
-("NL", "9999", "Stitswerd"), 
-("NL", "9832", "Den Horn"), 
-("NL", "9885", "Lauwerzijl"), 
-("NL", "9914", "Zeerijp"), 
-("NL", "6222", "Maastricht"), 
-("NL", "6229", "Maastricht"), 
-("NL", "6243", "Geulle"), 
-("NL", "5804", "Venray"), 
-("NL", "6012", "Haler"), 
-("NL", "6083", "Nunhem"), 
-("NL", "6096", "Grathem"), 
-("NL", "6105", "Maria Hoop"), 
-("NL", "6285", "Epen"), 
-("NL", "6124", "Papenhoven"), 
-("NL", "6132", "Sittard"), 
-("NL", "4612", "Bergen op Zoom"), 
-("NL", "5623", "Eindhoven"), 
-("NL", "5709", "Helmond"), 
-("NL", "5215", "'s-Hertogenbosch"), 
-("NL", "5233", "'s-Hertogenbosch"), 
-("NL", "5063", "Oisterwijk"), 
-("NL", "5398", "Maren-Kessel"), 
-("NL", "5258", "Berlicum"), 
-("NL", "5035", "Tilburg"), 
-("NL", "5406", "Uden"), 
-("NL", "5261", "Vught"), 
-("NL", "5264", "Vught"), 
-("NL", "5146", "Waalwijk"), 
-("NL", "4731", "Hoeven"), 
-("NL", "4845", "Wagenberg"), 
-("NL", "5384", "Heesch"), 
-("NL", "5467", "Veghel"), 
-("NL", "4254", "Sleeuwijk"), 
-("NL", "1431", "Aalsmeer"), 
-("NL", "1826", "Alkmaar"), 
-("NL", "1831", "Koedijk"), 
-("NL", "1012", "Amsterdam"), 
-("NL", "1032", "Amsterdam"), 
-("NL", "1059", "Amsterdam"), 
-("NL", "1941", "Beverwijk"), 
-("NL", "1481", "Purmer"), 
-("NL", "2141", "Vijfhuizen"), 
-("NL", "1968", "Heemskerk"), 
-("NL", "1215", "Hilversum"), 
-("NL", "1654", "Benningbroek"), 
-("NL", "1511", "Oostzaan"), 
-("NL", "1951", "Velsen-Noord"), 
-("NL", "1974", "IJmuiden"), 
-("NL", "1561", "Krommenie"), 
-("NL", "1647", "Berkhout"), 
-("NL", "1735", "'t Veld"), 
-("NL", "1399", "Muiderberg"), 
-("NL", "1404", "Bussum"), 
-("NL", "1406", "Bussum"), 
-("NL", "3739", "Hollandsche Rading"), 
-("NL", "9401", "Assen"), 
-("NL", "7846", "Noord-Sleen"), 
-("NL", "7765", "Weiteveen"), 
-("NL", "7821", "Emmen"), 
-("NL", "7901", "Hoogeveen"), 
-("NL", "7911", "Noordscheschut"), 
-("NL", "7966", "De Schiphorst"), 
-("NL", "7932", "Echten"), 
-("NL", "7957", "de Wijk"), 
-("NL", "9474", "Zuidlaarderveen"), 
-("NL", "9485", "Taarlo"), 
-("NL", "9414", "Hooghalen"), 
-("NL", "9419", "Drijber"), 
-("NL", "9287", "Twijzelerheide"), 
-("NL", "9288", "Kootstertille"), 
-("NL", "9289", "Drogeham"), 
-("NL", "8871", "Midlum"), 
-("NL", "8918", "Leeuwarden"), 
-("NL", "8931", "Leeuwarden"), 
-("NL", "9011", "Jirnsum"), 
-("NL", "9201", "Drachten"), 
-("NL", "9211", "Kortehemmen"), 
-("NL", "8895", "Lies"), 
-("NL", "9114", "Driezum"), 
-("NL", "8529", "Koufurderrige"), 
-("NL", "8624", "Uitwellingerga"), 
-("NL", "8701", "Bolsward"), 
-("NL", "8745", "Longerhouw"), 
-("NL", "8773", "Folsgare"), 
-("NL", "8502", "Joure"), 
-("NL", "8527", "Legemeer"), 
-("NL", "9079", "St.-Jacobiparochie"), 
-("NL", "9124", "Jouswier"), 
-("NL", "3888", "Uddel"), 
-("NL", "7326", "Apeldoorn"), 
-("NL", "6964", "Hall"), 
-("NL", "4011", "Zoelen"), 
-("NL", "4197", "Buurmalsen"), 
-("NL", "4107", "Culemborg"), 
-("NL", "6721", "Bennekom"), 
-("NL", "3845", "Harderwijk"), 
-("NL", "8193", "Vorchten"), 
-("NL", "6991", "Rheden"), 
-("NL", "7383", "Voorst"), 
-("NL", "7391", "Wilp"), 
-("NL", "7202", "Zutphen"), 
-("NL", "7263", "Mariënvelde"), 
-("NL", "6674", "Herveld"), 
-("NL", "7227", "Toldijk"), 
-("NL", "6579", "Kekerdom"), 
-("NL", "9631", "Borgercompagnie"), 
-("NL", "9688", "Drieborg"), 
-("NL", "9693", "Bad Nieuweschans"), 
-("NL", "9601", "Hoogezand"), 
-("NL", "9605", "Kiel-Windeweer"), 
-("NL", "9616", "Scharmer"), 
-("NL", "9621", "Slochteren"), 
-("NL", "9773", "Wetsinge"), 
-("NL", "9355", "Midwolde"), 
-("NL", "9801", "Zuidhorn"), 
-("NL", "9883", "Oldehove"), 
-("NL", "9923", "Garsthuizen"), 
-("NL", "9932", "Delfzijl"), 
-("NL", "9937", "Meedhuizen"), 
-("NL", "6441", "Brunssum"), 
-("NL", "6432", "Hoensbroek"), 
-("NL", "6129", "Urmond"), 
-("NL", "5915", "Venlo"), 
-("NL", "5921", "Venlo"), 
-("NL", "5935", "Steyl"), 
-("NL", "6011", "Ell"), 
-("NL", "6067", "Linne"), 
-("NL", "6151", "Munstergeleen"), 
-("NL", "4614", "Bergen op Zoom"), 
-("NL", "4664", "Lepelstraat"), 
-("NL", "5681", "Best"), 
-("NL", "5282", "Boxtel"), 
-("NL", "4814", "Breda"), 
-("NL", "4825", "Breda"), 
-("NL", "5612", "Eindhoven"), 
-("NL", "5613", "Eindhoven"), 
-("NL", "5625", "Eindhoven"), 
-("NL", "5643", "Eindhoven"), 
-("NL", "5653", "Eindhoven"), 
-("NL", "5361", "Grave"), 
-("NL", "5237", "'s-Hertogenbosch"), 
-("NL", "5455", "Wilbertoord"), 
-("NL", "5346", "Oss"), 
-("NL", "5014", "Tilburg"), 
-("NL", "5552", "Valkenswaard"), 
-("NL", "5142", "Waalwijk"), 
-("NL", "5764", "De Rips"), 
-("NL", "5094", "Lage Mierde"), 
-("NL", "4727", "Heerle"), 
-("NL", "6026", "Maarheeze"), 
-("NL", "5464", "Veghel"), 
-("NL", "1847", "Zuidschermer"), 
-("NL", "1184", "Amstelveen"), 
-("NL", "1023", "Amsterdam"), 
-("NL", "1035", "Amsterdam"), 
-("NL", "1063", "Amsterdam"), 
-("NL", "1078", "Amsterdam"), 
-("NL", "1109", "Amsterdam"), 
-("NL", "1471", "Kwadijk"), 
-("NL", "2035", "Haarlem"), 
-("NL", "1436", "Aalsmeerderbrug"), 
-("NL", "2102", "Heemstede"), 
-("NL", "1684", "Zwaagdijk-Oost"), 
-("NL", "1753", "Sint Maartensvlotbrug"), 
-("NL", "1634", "Scharwoude"), 
-("NL", "1778", "Westerland"), 
-("NL", "3822", "Amersfoort"), 
-("NL", "3749", "Lage Vuursche"), 
-("NL", "3994", "Houten"), 
-("NL", "3835", "Stoutenburg"), 
-("NL", "3453", "De Meern"), 
-("NL", "3439", "Nieuwegein"), 
-("NL", "3421", "Oudewater"), 
-("NL", "3481", "Harmelen"), 
-("NL", "4463", "Goes"), 
-("NL", "4341", "Arnemuiden"), 
-("NL", "4401", "Yerseke"), 
-("NL", "4354", "Vrouwenpolder"), 
-("NL", "4363", "Aagtekerke"), 
-("NL", "4387", "Vlissingen"), 
-("NL", "4493", "Kamperland"), 
-("NL", "4503", "Groede"), 
-("NL", "3315", "Dordrecht"), 
-("NL", "4206", "Gorinchem"), 
-("NL", "2541", "'s-Gravenhage"), 
-("NL", "3341", "Hendrik-Ido-Ambacht"), 
-("NL", "2181", "Hillegom"), 
-("NL", "2352", "Leiderdorp"), 
-("NL", "2441", "Nieuwveen"), 
-("NL", "3651", "Woerdense Verlaat"), 
-("NL", "3032", "Rotterdam"), 
-("NL", "3196", "Hoogvliet Rotterdam"), 
-("NL", "3196", "Vondelingenplaat Rotterdam"), 
-("NL", "3366", "Sliedrecht"), 
-("NL", "2713", "Zoetermeer"), 
-("NL", "3335", "Zwijndrecht"), 
-("NL", "2215", "Voorhout"), 
-("NL", "2295", "Kwintsheul"), 
-("NL", "2376", "Nieuwe Wetering"), 
-("NL", "7607", "Almelo"), 
-("NL", "7625", "Zenderen"), 
-("NL", "7419", "Deventer"), 
-("NL", "7426", "Deventer"), 
-("NL", "7431", "Diepenveen"), 
-("NL", "7435", "Okkenbroek"), 
-("NL", "7547", "Enschede"), 
-("NL", "7775", "Lutten"), 
-("NL", "7777", "Schuinesloot"), 
-("NL", "7792", "Venebrugge"), 
-("NL", "7553", "Hengelo"), 
-("NL", "7556", "Hengelo"), 
-("NL", "7642", "Notter"), 
-("NL", "8044", "Zwolle"), 
-("NL", "7491", "Delden"), 
-("NL", "1328", "Almere"), 
-("NL", "8226", "Lelystad"), 
-("NL", "7917", "Geesbrug"), 
-("NL", "7884", "Barger-Compascuum"), 
-("NL", "7887", "Erica"), 
-("NL", "7892", "Klazienaveen"), 
-("NL", "7934", "Stuifzand"), 
-("NL", "9462", "Gasselte"), 
-("NL", "9528", "Buinen"), 
-("NL", "9302", "Roden"), 
-("NL", "8381", "Vledder"), 
-("NL", "8439", "Oude Willem"), 
-("NL", "9417", "Spier"), 
-("NL", "9281", "Harkema"), 
-("NL", "9164", "Buren"), 
-("NL", "8832", "Húns"), 
-("NL", "9009", "Friens"), 
-("NL", "9088", "Wirdum"), 
-("NL", "9089", "Wytgaard"), 
-("NL", "8425", "Langedijke"), 
-("NL", "8409", "Hemrik"), 
-("NL", "9249", "Frieschepalen"), 
-("NL", "9205", "Drachten"), 
-("NL", "9257", "Noardburgum"), 
-("NL", "9265", "Suwâld"), 
-("NL", "8614", "Oudega"), 
-("NL", "8724", "It Heidenskip"), 
-("NL", "8753", "Cornwerd"), 
-("NL", "8514", "Ouwster-Nijega"), 
-("NL", "8581", "Elahuizen"), 
-("NL", "8583", "Kolderwolde"), 
-("NL", "9041", "Berltsum"), 
-("NL", "9175", "Reitsum"), 
-("NL", "6821", "Arnhem"), 
-("NL", "3771", "Barneveld"), 
-("NL", "6971", "Brummen"), 
-("NL", "4033", "Lienden"), 
-("NL", "6652", "Druten"), 
-("NL", "6655", "Puiflijk"), 
-("NL", "7241", "Lochem"), 
-("NL", "5325", "Well"), 
-("NL", "6538", "Nijmegen"), 
-("NL", "6543", "Nijmegen"), 
-("NL", "6914", "Lobith"), 
-("NL", "6917", "Spijk"), 
-("NL", "7232", "Warnsveld"), 
-("NL", "7055", "Heelweg"), 
-("NL", "7275", "Gelselaar"), 
-("NL", "7251", "Vorden"), 
-("NL", "4185", "Est"), 
-("NL", "4214", "Vuren"), 
-("NL", "9665", "Oude Pekela"), 
-("NL", "9697", "Blijham"), 
-("NL", "9633", "Tripscompagnie"), 
-("NL", "9351", "Leek"), 
-("NL", "9828", "Oostwold"), 
-("NL", "9833", "Den Ham"), 
-("NL", "9886", "Saaksum"), 
-("NL", "9891", "Ezinge"), 
-("NL", "5854", "Bergen L"), 
-("NL", "6461", "Kerkrade"), 
-("NL", "6215", "Maastricht"), 
-("NL", "6091", "Leveroy"), 
-("NL", "6071", "Swalmen"), 
-("NL", "5924", "Venlo"), 
-("NL", "5944", "Arcen"), 
-("NL", "5808", "Oirlo"), 
-("NL", "5815", "Merselo"), 
-("NL", "5966", "America"), 
-("NL", "6051", "Maasbracht"), 
-("NL", "6112", "Sint Joost"), 
-("NL", "5768", "Meijel"), 
-("NL", "4617", "Bergen op Zoom"), 
-("NL", "5823", "Maashees"), 
-("NL", "4871", "Etten-Leur"), 
-("NL", "5438", "Gassel"), 
-("NL", "5268", "Helvoirt"), 
-("NL", "5296", "Esch"), 
-("NL", "5256", "Heusden"), 
-("NL", "5454", "Sint Hubert"), 
-("NL", "4903", "Oosterhout"), 
-("NL", "4906", "Oosterhout"), 
-("NL", "4711", "St. Willebrord"), 
-("NL", "5509", "Veldhoven"), 
-("NL", "5262", "Vught"), 
-("NL", "4731", "Oudenbosch"), 
-("NL", "5476", "Vorstenbosch"), 
-("NL", "4284", "Rijswijk (NB)"), 
-("NL", "1822", "Alkmaar"), 
-("NL", "1055", "Amsterdam"), 
-("NL", "1068", "Amsterdam"), 
-("NL", "1091", "Amsterdam"), 
-("NL", "1092", "Amsterdam"), 
-("NL", "1105", "Amsterdam"), 
-("NL", "1165", "Halfweg"), 
-("NL", "1695", "Blokker"), 
-("NL", "1724", "Oudkarspel"), 
-("NL", "1661", "De Weere"), 
-("NL", "1746", "Dirkshorn"), 
-("NL", "1973", "IJmuiden"), 
-("NL", "2116", "Bentveld"), 
-("NL", "1775", "Middenmeer"), 
-("NL", "1412", "Naarden"), 
-("NL", "3815", "Amersfoort"), 
-("NL", "3572", "Utrecht"), 
-("NL", "3962", "Wijk bij Duurstede"), 
-("NL", "3431", "Nieuwegein"), 
-("NL", "3474", "Zegveld"), 
-("NL", "3972", "Driebergen-Rijsenburg"), 
-("NL", "4141", "Leerdam"), 
-("NL", "4561", "Hulst"), 
-("NL", "4423", "Schore"), 
-("NL", "4331", "Middelburg"), 
-("NL", "4411", "Rilland"), 
-("NL", "4491", "Wissenkerke"), 
-("NL", "2951", "Alblasserdam"), 
-("NL", "2952", "Alblasserdam"), 
-("NL", "2404", "Hazerswoude-Dorp"), 
-("NL", "2806", "Gouda"), 
-("NL", "3343", "Hendrik-Ido-Ambacht"), 
-("NL", "2312", "Leiden"), 
-("NL", "2334", "Leiden"), 
-("NL", "3015", "Rotterdam"), 
-("NL", "3029", "Rotterdam"), 
-("NL", "3114", "Schiedam"), 
-("NL", "3125", "Schiedam"), 
-("NL", "3235", "Rockanje"), 
-("NL", "2242", "Wassenaar"), 
-("NL", "2729", "Zoetermeer"), 
-("NL", "2673", "Naaldwijk"), 
-("NL", "2694", "'s-Gravenzande"), 
-("NL", "2841", "Moordrecht"), 
-("NL", "3255", "Oude-Tonge"), 
-("NL", "3203", "Spijkenisse"), 
-("NL", "3209", "Hekelingen"), 
-("NL", "2941", "Krimpen aan de Lek"), 
-("NL", "3297", "Puttershoek"), 
-("NL", "2967", "Langerak"), 
-("NL", "7417", "Deventer"), 
-("NL", "7422", "Deventer"), 
-("NL", "7562", "Deurningen"), 
-("NL", "8148", "Lemele"), 
-("NL", "8106", "Mariënheem"), 
-("NL", "7641", "Wierden"), 
-("NL", "8013", "Zwolle"), 
-("NL", "8034", "Zwolle"), 
-("NL", "8342", "Basse"), 
-("NL", "8362", "Nederland"), 
-("NL", "3899", "Zeewolde"), 
-("NL", "8254", "Dronten"), 
-("NL", "8232", "Lelystad"), 
-("NL", "3521", "Utrecht"), 
-("NL", "3534", "Utrecht"), 
-("NL", "3571", "Utrecht"), 
-("NL", "3706", "Zeist"), 
-("NL", "3953", "Maarsbergen"), 
-("NL", "3958", "Amerongen"), 
-("NL", "3626", "Nieuwer Ter Aa"), 
-("NL", "3633", "Vreeland"), 
-("NL", "4454", "Borssele"), 
-("NL", "4474", "Kattendijke"), 
-("NL", "4586", "Lamswaarde"), 
-("NL", "4337", "Middelburg"), 
-("NL", "4537", "Terneuzen"), 
-("NL", "4554", "Westdorpe"), 
-("NL", "4308", "Sirjansland"), 
-("NL", "4504", "Nieuwvliet"), 
-("NL", "2403", "Alphen aan den Rijn"), 
-("NL", "3231", "Brielle"), 
-("NL", "2907", "Capelle aan den IJssel"), 
-("NL", "3319", "Dordrecht"), 
-("NL", "2805", "Gouda"), 
-("NL", "2342", "Oegstgeest"), 
-("NL", "3027", "Rotterdam"), 
-("NL", "3063", "Rotterdam"), 
-("NL", "3068", "Rotterdam"), 
-("NL", "3194", "Hoogvliet Rotterdam"), 
-("NL", "2286", "Rijswijk"), 
-("NL", "3116", "Schiedam"), 
-("NL", "3171", "Poortugaal"), 
-("NL", "3234", "Tinte"), 
-("NL", "2724", "Zoetermeer"), 
-("NL", "2995", "Heerjansdam"), 
-("NL", "2361", "Warmond"), 
-("NL", "2651", "Berkel en Rodenrijs"), 
-("NL", "2465", "Rijnsaterwoude"), 
-("NL", "3256", "Achthuizen"), 
-("NL", "3258", "Den Bommel"), 
-("NL", "3261", "Oud-Beijerland"), 
-("NL", "3262", "Oud-Beijerland"), 
-("NL", "3381", "Giessenburg"), 
-("NL", "7541", "Enschede"), 
-("NL", "7691", "Bergentheim"), 
-("NL", "7574", "Oldenzaal"), 
-("NL", "8146", "Dalmsholte"), 
-("NL", "8103", "Raalte"), 
-("NL", "7662", "Hezingen"), 
-("NL", "8026", "Zwolle"), 
-("NL", "8028", "Zwolle"), 
-("NL", "8033", "Zwolle"), 
-("NL", "8064", "Zwartsluis"), 
-("NL", "1309", "Almere"), 
-("NL", "1319", "Almere"), 
-("NL", "3893", "Zeewolde"), 
-("NL", "3896", "Zeewolde"), 
-("NL", "3898", "Zeewolde"), 
-("NL", "9406", "Assen"), 
-("NL", "9486", "Rhee"), 
-("NL", "7822", "Emmen"), 
-("NL", "7885", "Nieuw-Dordrecht"), 
-("NL", "7913", "Hoogeveen"), 
-("NL", "9445", "Vredenheim"), 
-("NL", "9484", "Oudemolen"), 
-("NL", "9435", "Bruntinge"), 
-("NL", "9441", "Orvelte"), 
-("NL", "9442", "Elp"), 
-("NL", "9233", "Boelenslaan"), 
-("NL", "8414", "Nieuwehorne"), 
-("NL", "8917", "Leeuwarden"), 
-("NL", "8932", "Leeuwarden"), 
-("NL", "8497", "Goëngahuizen"), 
-("NL", "9221", "Rottevalle"), 
-("NL", "8389", "Zandhuizen"), 
-("NL", "8395", "Steggerda"), 
-("NL", "9067", "Readtsjerk"), 
-("NL", "8602", "Sneek"), 
-("NL", "8756", "Piaam"), 
-("NL", "8763", "Parrega"), 
-("NL", "8515", "Oldeouwer"), 
-("NL", "8565", "Sondel"), 
-("NL", "7325", "Apeldoorn"), 
-("NL", "6822", "Arnhem"), 
-("NL", "3776", "Stroe"), 
-("NL", "6982", "Doesburg"), 
-("NL", "7003", "Doetinchem"), 
-("NL", "6716", "Ede"), 
-("NL", "7214", "Epse"), 
-("NL", "5307", "Poederoijen"), 
-("NL", "5317", "Nederhemert"), 
-("NL", "6627", "Maasbommel"), 
-("NL", "6658", "Beneden-Leeuwen"), 
-("NL", "6659", "Wamel"), 
-("NL", "7054", "Westendorp"), 
-("NL", "6675", "Valburg"), 
-("NL", "6678", "Oosterhout"), 
-("NL", "4062", "Zennewijnen"), 
-("NL", "4171", "Herwijnen"), 
-("NL", "9793", "Winneweer"), 
-("NL", "9943", "Nieuw Scheemda"), 
-("NL", "9917", "Wirdum"), 
-("NL", "6598", "Heijen"), 
-("NL", "6213", "Maastricht"), 
-("NL", "6228", "Maastricht"), 
-("NL", "6043", "Roermond"), 
-("NL", "5864", "Meerlo"), 
-("NL", "6037", "Kelpen-Oler"), 
-("NL", "6109", "Ohé en Laak"), 
-("NL", "6102", "Echt"), 
-("NL", "6122", "Buchten"), 
-("NL", "5991", "Baarlo"), 
-("NL", "5993", "Maasbree"), 
-("NL", "5114", "Castelre"), 
-("NL", "4823", "Breda"), 
-("NL", "4851", "Ulvenhout"), 
-("NL", "5754", "Deurne"), 
-("NL", "5622", "Eindhoven"), 
-("NL", "5631", "Eindhoven"), 
-("NL", "4931", "Geertruidenberg"), 
-("NL", "5705", "Helmond"), 
-("NL", "5244", "Rosmalen"), 
-("NL", "5245", "Rosmalen"), 
-("NL", "5257", "Hedikhuizen"), 
-("NL", "5087", "Diessen"), 
-("NL", "5091", "Oost West en Middelbeers"), 
-("NL", "4901", "Oosterhout"), 
-("NL", "5345", "Oss"), 
-("NL", "5351", "Herpen"), 
-("NL", "5026", "Tilburg"), 
-("NL", "5049", "Tilburg"), 
-("NL", "5555", "Valkenswaard"), 
-("NL", "4631", "Huijbergen"), 
-("NL", "5737", "Lieshout"), 
-("NL", "5541", "Reusel"), 
-("NL", "5662", "Geldrop"), 
-("NL", "5667", "Geldrop"), 
-("NL", "4281", "Andel"), 
-("NL", "1432", "Aalsmeer"), 
-("NL", "1825", "Alkmaar"), 
-("NL", "1182", "Amstelveen"), 
-("NL", "1079", "Amsterdam"), 
-("NL", "1464", "Westbeemster"), 
-("NL", "1945", "Beverwijk"), 
-("NL", "1946", "Beverwijk"), 
-("NL", "1948", "Beverwijk"), 
-("NL", "1489", "de Woude"), 
-("NL", "2013", "Haarlem"), 
-("NL", "2015", "Haarlem"), 
-("NL", "1965", "Heemskerk"), 
-("NL", "2103", "Heemstede"), 
-("NL", "1223", "Hilversum"), 
-("NL", "1834", "Broek op Langedijk"), 
-("NL", "1692", "Hauwert"), 
-("NL", "1114", "Amsterdam-Duivendrecht"), 
-("NL", "1759", "Callantsoog"), 
-("NL", "1792", "Oudeschild"), 
-("NL", "1541", "Zaandijk"), 
-("NL", "1566", "Krommenie"), 
-("NL", "1616", "Hoogkarspel"), 
-("NL", "1697", "Schellinkhout"), 
-("NL", "1145", "Katwoude"), 
-("NL", "1531", "Wormer"), 
-("NL", "1731", "Winkel"), 
-("NL", "1734", "Oude Niedorp");
+DELETE FROM orm_zip_code WHERE  `iso2` ="NL";
+
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7841', `location` = 'Sleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7845', `location` = 'Holsloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7812', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7895', `location` = 'Roswinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7915', `location` = 'Alteveer gem Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7705', `location` = 'Drogteropslagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7963', `location` = 'Ruinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7964', `location` = 'Ansen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9335', `location` = 'Zuidvelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7933', `location` = 'Pesse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7973', `location` = 'Darp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9496', `location` = 'Bunne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9431', `location` = 'Westerbork', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9163', `location` = 'Nes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9026', `location` = 'Jellum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8433', `location` = 'Haulerwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8435', `location` = 'Donkerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9204', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8398', `location` = 'Blesdijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9063', `location` = 'Mûnein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9256', `location` = 'Ryptsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9258', `location` = 'Jistrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9263', `location` = 'Garyp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8737', `location` = 'Hidaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8751', `location` = 'Zurich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8759', `location` = 'Exmorra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8461', `location` = 'Rottum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9045', `location` = 'Bitgummole', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9174', `location` = 'Ginnum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6811', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4031', `location` = 'Ingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6984', `location` = 'Doesburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7008', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7009', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6921', `location` = 'Duiven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7352', `location` = 'Hoenderloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8166', `location` = 'Emst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6581', `location` = 'Malden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6515', `location` = 'Lent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6955', `location` = 'Ellecom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6665', `location` = 'Driel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7157', `location` = 'Rekken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6562', `location` = 'Groesbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6572', `location` = 'Berg en Dal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9614', `location` = 'Harkstede GN', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9745', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9751', `location` = 'Haren Gn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9965', `location` = 'Zuurdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9991', `location` = 'Middelstum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6241', `location` = 'Bunde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5923', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5951', `location` = 'Belfeld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5814', `location` = 'Veulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5817', `location` = 'Smakt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6085', `location` = 'Horn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6065', `location` = 'Montfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6287', `location` = 'Eys', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6252', `location` = 'Eckelrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5836', `location` = 'Sambeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5758', `location` = 'Neerkant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5512', `location` = 'Vessem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5126', `location` = 'Gilze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5053', `location` = 'Goirle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5249', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5154', `location` = 'Elshout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5158', `location` = 'Heesbeen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5341', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5342', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5371', `location` = 'Ravenstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4715', `location` = 'Rucphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4651', `location` = 'Steenbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5018', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5021', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5056', `location` = 'Berkel-Enschot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5402', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4891', `location` = 'Rijsbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5425', `location` = 'De Mortel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4726', `location` = 'Moerstraten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4794', `location` = 'Heijningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5472', `location` = 'Loosbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5528', `location` = 'Hoogeloon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5491', `location` = 'Sint-Oedenrode', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1636', `location` = 'Schermerhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1813', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1842', `location` = 'Oterleek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1073', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1094', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1463', `location` = 'Noordbeemster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1476', `location` = 'Schardam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1117', `location` = 'Schiphol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1963', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1967', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1701', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1749', `location` = 'Warmenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1754', `location` = 'Burgerbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1794', `location` = 'Oosterend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1505', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1507', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1394', `location` = 'Nederhorst den Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1402', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3819', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3991', `location` = 'Houten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3761', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3763', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3768', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3513', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3542', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3584', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3959', `location` = 'Overberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4131', `location` = 'Vianen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4233', `location` = 'Ameide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4569', `location` = 'Graauw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4338', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4542', `location` = 'Hoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4551', `location` = 'Sas van Gent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4353', `location` = 'Serooskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4371', `location` = 'Koudekerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4382', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4322', `location` = 'Scharendijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2409', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2613', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2809', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2493', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2923', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2311', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2323', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3142', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2461', `location` = 'Ter Aar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3022', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3023', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3034', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3073', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3089', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3191', `location` = 'Hoogvliet Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3119', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3124', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2382', `location` = 'Zoeterwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2672', `location` = 'Naaldwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2811', `location` = 'Reeuwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2274', `location` = 'Voorburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2643', `location` = 'Pijnacker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2825', `location` = 'Stolwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3292', `location` = 'Strijensas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7627', `location` = 'Bornerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7623', `location` = 'Borne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7626', `location` = 'Hertme', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7543', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7546', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7482', `location` = 'Haaksbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8267', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8274', `location` = 'Wilsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8045', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7694', `location` = 'Kloosterhaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7495', `location` = 'Ambt Delden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8198', `location` = 'Marle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7631', `location` = 'Ootmarsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7636', `location` = 'Agelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1311', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1331', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1338', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1343', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1356', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8311', `location` = 'Espel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8313', `location` = 'Rutten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8321', `location` = 'Urk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8211', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7849', `location` = 'De Kiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9446', `location` = 'Amen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7974', `location` = 'Havelterberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9438', `location` = 'Garminge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8857', `location` = 'Wijnaldum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8447', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8457', `location` = 'Gersloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8934', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9001', `location` = 'Grou', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8421', `location` = 'Oldeberkoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9245', `location` = 'Nij Beets', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8611', `location` = 'Gaastmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8635', `location` = 'Boazum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8733', `location` = 'Iens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8765', `location` = 'Tjerkwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8528', `location` = 'Dijken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8556', `location` = 'Sloten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8807', `location` = 'Herbaijum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9044', `location` = 'Bitgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9296', `location` = 'Triemen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7334', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7346', `location` = 'Hoog Soeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6841', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6844', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3775', `location` = 'Kootwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4101', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6651', `location` = 'Druten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3863', `location` = 'Nijkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6541', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6865', `location` = 'Doorwerth', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6874', `location` = 'Wolfheze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7107', `location` = 'Winterswijk Kotten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6616', `location` = 'Hernen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7205', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7078', `location` = 'Megchelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7165', `location` = 'Rietmolen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7234', `location` = 'Wichmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6566', `location` = 'Millingen aan de Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9792', `location` = 'Ten Post', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9798', `location` = 'Garmerwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9673', `location` = 'Winschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9635', `location` = 'Noordbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9934', `location` = 'Delfzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6444', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6468', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6219', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6243', `location` = 'Moorveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6587', `location` = 'Middelaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5928', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6305', `location` = 'Schin op Geul', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5766', `location` = 'Griendtsveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5871', `location` = 'Broekhuizenvorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6088', `location` = 'Roggel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6095', `location` = 'Baexem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6133', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6166', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5641', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5644', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5051', `location` = 'Goirle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5231', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5234', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5248', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5156', `location` = 'Oudheusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5157', `location` = 'Doeveren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5176', `location` = 'De Moer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5059', `location` = 'Heukelom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5553', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5506', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5591', `location` = 'Heeze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6021', `location` = 'Budel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6027', `location` = 'Soerendonk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4762', `location` = 'Zevenbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4793', `location` = 'Fijnaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4844', `location` = 'Terheijden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4859', `location` = 'Bavel AC', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5563', `location` = 'Westerhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1485', `location` = 'Noordeinde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1014', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1021', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2165', `location` = 'Lisserbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1218', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1625', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1627', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1121', `location` = 'Landsmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1721', `location` = 'Broek op Langedijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1691', `location` = 'Hauwert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1445', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1757', `location` = 'Oudesluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1911', `location` = 'Uitgeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1971', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1521', `location` = 'Westknollendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1608', `location` = 'Wijdenes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1241', `location` = 'Kortenhoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3823', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3723', `location` = 'Bilthoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3832', `location` = 'Leusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3411', `location` = 'Lopik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3524', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3544', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3573', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3404', `location` = 'IJsselstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3709', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3448', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1427', `location` = 'Amstelhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4124', `location` = 'Hagestein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4472', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4474', `location` = 'Kloetinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4417', `location` = 'Hansweert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4575', `location` = 'Overslag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4389', `location` = 'Ritthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4318', `location` = 'Brouwershaven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4527', `location` = 'Aardenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2622', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3314', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2804', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2498', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2562', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3371', `location` = 'Hardinxveld-Giessendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3227', `location` = 'Oudenhoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2203', `location` = 'Noordwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3014', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3053', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3055', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3193', `location` = 'Hoogvliet Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3921', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3136', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2715', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2411', `location` = 'Bodegraven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2263', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2267', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3241', `location` = 'Middelharnis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2645', `location` = 'Delfgauw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3212', `location` = 'Simonshaven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7606', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7611', `location` = 'Aadorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7443', `location` = 'Nijverdal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7552', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8278', `location` = 'Kamperveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7734', `location` = 'Vilsteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8055', `location` = 'Laag Zuthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8023', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7946', `location` = 'Wanneperveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8338', `location` = 'Willemsoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8061', `location` = 'Hasselt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1341', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8301', `location` = 'Emmeloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8255', `location` = 'Swifterbant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8231', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7754', `location` = 'Wachtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7856', `location` = 'Benneveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7811', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9457', `location` = 'Deurze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9571', `location` = '2e Exloërmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7925', `location` = 'Linde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9475', `location` = 'Midlaren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9873', `location` = 'Gerkesklooster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8933', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8483', `location` = 'Scherpenzeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8487', `location` = 'Nijelamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9255', `location` = 'Tytsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9105', `location` = 'Rinsumageast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8584', `location` = 'Hemelum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8734', `location` = 'Easterein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8764', `location` = 'Dedgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8462', `location` = 'Rotstergaast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8501', `location` = 'Joure', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8503', `location` = 'Joure', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8563', `location` = 'Wijckel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8582', `location` = 'Oudega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9031', `location` = 'Boksum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9047', `location` = 'Minnertsga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9137', `location` = 'Oosternijkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9852', `location` = 'Warfstermolen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7001', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6711', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6712', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8171', `location` = 'Vaassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8172', `location` = 'Vaassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6544', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6707', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7108', `location` = 'Winterswijk Woold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6613', `location` = 'Balgoij', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7051', `location` = 'Varsseveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6671', `location` = 'Zetten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6676', `location` = 'Homoet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4041', `location` = 'Kesteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6577', `location` = 'Erlecom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7038', `location` = 'Zeddam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7045', `location` = 'Azewijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4061', `location` = 'Ophemert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4184', `location` = 'Opijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4211', `location` = 'Spijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9727', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9732', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9967', `location` = 'Eenrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9978', `location` = 'Hornhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9841', `location` = 'Niezijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9905', `location` = 'Holwierde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9936', `location` = 'Farmsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6418', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5911', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5914', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6013', `location` = 'Hunsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6017', `location` = 'Thorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6116', `location` = 'Roosteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6276', `location` = 'Heijenrath', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6161', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4623', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4624', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5105', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5615', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5645', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5707', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5211', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5222', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5236', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5242', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5383', `location` = 'Vinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5152', `location` = 'Drunen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4849', `location` = 'Dorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5386', `location` = 'Geffen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5397', `location` = 'Lith', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4721', `location` = 'Schijf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5038', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4724', `location` = 'Wouw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5433', `location` = 'Katwijk NB', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6023', `location` = 'Budel-Schoot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4926', `location` = 'Lage Zwaluwe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5561', `location` = 'Riethoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5674', `location` = 'Mierlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1483', `location` = 'De Rijp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1484', `location` = 'Graft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1829', `location` = 'Oudorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1841', `location` = 'Stompetoren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1185', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1041', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1064', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1861', `location` = 'Bergen (NH)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1474', `location` = 'Oosthuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2136', `location` = 'Zwaanshoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2153', `location` = 'Nieuw-Vennep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2114', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1621', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1277', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1127', `location` = 'Den Ilp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1424', `location` = 'De Kwakel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1992', `location` = 'Velserbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1777', `location` = 'Hippolytushoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3997', `location` = ''t Goy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3415', `location` = 'Polsbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3912', `location` = 'Rhenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3523', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3903', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3401', `location` = 'IJsselstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3403', `location` = 'IJsselstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4583', `location` = 'Terhole', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4332', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4333', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4538', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4543', `location` = 'Zaamslag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4576', `location` = 'Koewacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4581', `location` = 'Axel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4361', `location` = 'Westkapelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4328', `location` = 'Burgh-Haamstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4513', `location` = 'Hoofdplaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4525', `location` = 'Retranchement', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2628', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2571', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3224', `location` = 'Hellevoetsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3052', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2283', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3115', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2716', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2719', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2171', `location` = 'Warmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2272', `location` = 'Voorburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2273', `location` = 'Voorburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3271', `location` = 'Mijnsheerenland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7448', `location` = 'Haarle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7645', `location` = 'Enter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8016', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8025', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7675', `location` = 'Bruinehaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8377', `location` = 'Kalenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1322', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3922', `location` = 'Elst Ut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3961', `location` = 'Wijk bij Duurstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3702', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3432', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3425', `location` = 'Snelrewaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1393', `location` = 'Nigtevecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4122', `location` = 'Zijderveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4434', `location` = 'Kwadendamme', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4581', `location` = 'Vogelwaarde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4541', `location` = 'Sluiskil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4381', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4306', `location` = 'Nieuwerkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2954', `location` = 'Alblasserdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4213', `location` = 'Dalem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2801', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2525', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3342', `location` = 'Hendrik-Ido-Ambacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2232', `location` = 'Rijnsburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2926', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3038', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3192', `location` = 'Hoogvliet Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3162', `location` = 'Rhoon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3165', `location` = 'Rotterdam-Albrandswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3131', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2253', `location` = 'Voorschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2718', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2726', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2171', `location` = 'Sassenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3155', `location` = 'Maasland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2264', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3257', `location` = 'Ooltgensplaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2975', `location` = 'Ottoland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4209', `location` = 'Schelluinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7622', `location` = 'Borne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7692', `location` = 'Mariënberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7793', `location` = 'Hoogenweg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7795', `location` = 'Diffelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8101', `location` = 'Raalte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8107', `location` = 'Broekland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8043', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7671', `location` = 'Vriezenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8374', `location` = 'Kuinre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1317', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3895', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8244', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9492', `location` = 'Ubbena', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7842', `location` = 'Diphoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9514', `location` = 'Gasselternijveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9312', `location` = 'Nietap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9336', `location` = 'Huis ter Heide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9354', `location` = 'Nieuw-Roden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7963', `location` = 'Ruinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7985', `location` = 'Geeuwenbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9471', `location` = 'Zuidlaren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9473', `location` = 'De Groeve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9871', `location` = 'Stroobos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8454', `location` = 'Mildam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8405', `location` = 'Luxwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8472', `location` = 'Wolvega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9062', `location` = 'Oentsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9251', `location` = 'Burgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8523', `location` = 'Idskenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8536', `location` = 'Oosterzee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8567', `location` = 'Oudemirdum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8809', `location` = 'Boer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8812', `location` = 'Peins', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9035', `location` = 'Dronryp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9123', `location` = 'Metslawier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9135', `location` = 'Morra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7315', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7321', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7336', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7348', `location` = 'Radio Kootwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6846', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4112', `location` = 'Beusichem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3842', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3843', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3848', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7218', `location` = 'Almen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7244', `location` = 'Barchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8091', `location` = 'Wezep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8096', `location` = 'Oldebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7384', `location` = 'Wilp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6932', `location` = 'Westervoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6615', `location` = 'Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5305', `location` = 'Zuilichem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5313', `location` = 'Nieuwaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5318', `location` = 'Bern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6904', `location` = 'Zevenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6986', `location` = 'Angerlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7203', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8071', `location` = 'Nunspeet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8075', `location` = 'Elspeet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7142', `location` = 'Groenlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4181', `location` = 'Neerijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9479', `location` = 'Noordlaren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9715', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9661', `location` = 'Alteveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9636', `location` = 'Zuidbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9955', `location` = 'Rasquert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9822', `location` = 'Niekerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9924', `location` = 'Startenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6464', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6227', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6585', `location` = 'Mook', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6586', `location` = 'Plasmolen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6034', `location` = 'Nederweert-Eind', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6049', `location` = 'Herten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6291', `location` = 'Vaals', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5916', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5801', `location` = 'Venray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6006', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6325', `location` = 'Berg en Terblijt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6015', `location` = 'Neeritter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6074', `location` = 'Melick', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5987', `location` = 'Egchel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6262', `location` = 'Banholt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6268', `location` = 'Bemelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6269', `location` = 'Margraten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5428', `location` = 'Venhorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5513', `location` = 'Wintelre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5521', `location` = 'Eersel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5627', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5028', `location` = 'Diessen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5172', `location` = 'Kaatsheuvel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5017', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5503', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5763', `location` = 'Milheeze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5445', `location` = 'Landhorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4765', `location` = 'Zevenbergschen Hoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5388', `location` = 'Nistelrode', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5462', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5481', `location` = 'Schijndel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1811', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1846', `location` = 'Zuidschermer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1036', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1043', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1067', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1262', `location` = 'Blaricum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1901', `location` = 'Castricum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2033', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1437', `location` = 'Rozenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2064', `location` = 'Spaarndam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1702', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1851', `location` = 'Heiloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1853', `location` = 'Heiloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1783', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1275', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1655', `location` = 'Sijbekarspel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1541', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1713', `location` = 'Obdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3625', `location` = 'Breukeleveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3814', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3413', `location` = 'Jaarsveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7852', `location` = 'Wezup', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7965', `location` = 'Broekhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9573', `location` = '1e Exloërmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7927', `location` = 'Alteveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9315', `location` = 'Roderwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9417', `location` = 'Spier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8833', `location` = 'Leons', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8935', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8939', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8423', `location` = 'Makkinga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8424', `location` = 'Elsloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8477', `location` = 'Oldeholtwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8488', `location` = 'Nijeholtwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9109', `location` = 'De Falom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9271', `location` = 'De Westereen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8551', `location` = 'Woudsend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8552', `location` = 'Smallebrugge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8605', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8647', `location` = 'Sibrandabuorren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8713', `location` = 'Hindeloopen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8723', `location` = 'Koudum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8463', `location` = 'Rotsterhaule', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8465', `location` = 'Oudehaske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8493', `location` = 'Terherne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8508', `location` = 'Delfstrahuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8524', `location` = 'Teroele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8534', `location` = 'Eesterga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8539', `location` = 'Echtenerbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8801', `location` = 'Franeker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8813', `location` = 'Schalsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9079', `location` = 'Westhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9143', `location` = 'Nes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7313', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6641', `location` = 'Beuningen Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6645', `location` = 'Winssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7004', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9718', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9737', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9641', `location` = 'Veendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9925', `location` = 'Startenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9821', `location` = 'Oldekerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6374', `location` = 'Landgraaf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6216', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6235', `location` = 'Ulestraten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5811', `location` = 'Castenray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6004', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6005', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6081', `location` = 'Haelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6089', `location` = 'Heibloem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6099', `location` = 'Beegden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6111', `location` = 'Sint Joost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6321', `location` = 'Wijlre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6245', `location` = 'Eijsden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6261', `location` = 'Mheer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4826', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5656', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4872', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5702', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5708', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5381', `location` = 'Vinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5275', `location` = 'Den Dungen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5401', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5404', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4882', `location` = 'Klein Zundert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4751', `location` = 'Oud Gastel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5443', `location` = 'Haps', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6024', `location` = 'Budel-Dorplein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5665', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4264', `location` = 'Veen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1816', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1015', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1053', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1054', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1076', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1087', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2114', `location` = 'Vogelenzang', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2012', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2143', `location` = 'Boesingheliede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1212', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1688', `location` = 'Nibbixwoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1715', `location` = 'Spanbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1756', `location` = ''t Zand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2451', `location` = 'De Kwakel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1972', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1525', `location` = 'Wormerveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1458', `location` = 'Spijkerboor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1243', `location` = ''s-Graveland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1732', `location` = 'Lutjewinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3812', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3818', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3824', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3826', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3829', `location` = 'Hooglanderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3721', `location` = 'Bilthoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3732', `location` = 'Bilthoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3833', `location` = 'Leusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3765', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3441', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3606', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3634', `location` = 'Loenersloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4436', `location` = 'Oudelande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4424', `location` = 'Wemeldinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4384', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4302', `location` = 'Zierikzee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4506', `location` = 'Cadzand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4507', `location` = 'Schoondijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4524', `location` = 'Sluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2993', `location` = 'Barendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2612', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2808', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2515', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2524', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2574', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2231', `location` = 'Rijnsburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2211', `location` = 'Noordwijkerhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3025', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3122', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3138', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2481', `location` = 'Woubrugge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2911', `location` = 'Nieuwerkerk aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3214', `location` = 'Zuidland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2973', `location` = 'Molenaarsgraaf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7608', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7427', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7536', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7693', `location` = 'Sibculo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7771', `location` = 'Hardenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7571', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8102', `location` = 'Raalte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7715', `location` = 'Punthorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7663', `location` = 'Mander', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8355', `location` = 'Giethoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8307', `location` = 'Ens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8221', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6715', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3864', `location` = 'Nijkerkerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6511', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6545', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4002', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4003', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7101', `location` = 'Winterswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6605', `location` = 'Wijchen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5315', `location` = 'Kerkwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6629', `location` = 'Appeltern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6574', `location` = 'Ubbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4181', `location` = 'Waardenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7753', `location` = 'Dalerpeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7848', `location` = 'Schoonoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7815', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9511', `location` = 'Gieterveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7874', `location` = 'Odoornerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9523', `location` = 'Drouwenermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9526', `location` = 'Bronnegerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7958', `location` = 'Koekange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9314', `location` = 'Foxwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9497', `location` = 'Donderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9761', `location` = 'Eelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9437', `location` = 'Balinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8916', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8919', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9005', `location` = 'Wergea', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9081', `location` = 'Lekkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9261', `location` = 'Eastermar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8621', `location` = 'Indijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8622', `location` = 'Hommerts', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8762', `location` = 'Hieslum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9012', `location` = 'Raerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8804', `location` = 'Tzum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9147', `location` = 'Hantum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7122', `location` = 'Aalten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7331', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7399', `location` = 'Empe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6981', `location` = 'Doesburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8162', `location` = 'Epe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3844', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6512', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6869', `location` = 'Heveadorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4013', `location` = 'Kapel Avezaath', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7103', `location` = 'Winterswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7132', `location` = 'Lichtenvoorde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7141', `location` = 'Groenlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6691', `location` = 'Gendt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7025', `location` = 'Halle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7233', `location` = 'Vierakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7047', `location` = 'Braamt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4153', `location` = 'Beesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4157', `location` = 'Enspijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9753', `location` = 'Haren Gn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9585', `location` = 'Vledderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9678', `location` = 'Westerlee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9699', `location` = 'Vriescheloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9781', `location` = 'Bedum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9968', `location` = 'Pieterburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9969', `location` = 'Westernieland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9971', `location` = 'Ulrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9976', `location` = 'Lauwersoog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9996', `location` = 'Eppenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9949', `location` = 'Borgsweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6412', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6421', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6042', `location` = 'Roermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5912', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5816', `location` = 'Vredepeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6311', `location` = 'Ransdaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6312', `location` = 'Ransdaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5866', `location` = 'Swolgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6061', `location` = 'Posterholt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6277', `location` = 'Slenaken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6286', `location` = 'Wittem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6289', `location` = 'Elkenrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6131', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6134', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5986', `location` = 'Beringe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6439', `location` = 'Doenrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5721', `location` = 'Asten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5725', `location` = 'Heusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5447', `location` = 'Rijkevoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5652', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5654', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5074', `location` = 'Biezenmortel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5216', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5294', `location` = 'Gemonde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5692', `location` = 'Son en Breugel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5045', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5551', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5507', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5582', `location` = 'Waalre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4634', `location` = 'Woensdrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5735', `location` = 'Aarle-Rixtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1022', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1075', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1095', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1096', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1261', `location` = 'Blaricum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1132', `location` = 'Volendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2025', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2031', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1435', `location` = 'Rijsenhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2155', `location` = 'Leimuiderbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1964', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1213', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1252', `location` = 'Laren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1444', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1738', `location` = 'Waarland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1502', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1151', `location` = 'Broek in Waterland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1156', `location` = 'Marken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1764', `location` = 'Breezand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1766', `location` = 'Wieringerwaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3722', `location` = 'Bilthoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3732', `location` = 'De Bilt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3738', `location` = 'Maartensdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3984', `location` = 'Odijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3993', `location` = 'Houten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3762', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3769', `location` = 'Soesterberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3522', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3546', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3585', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3711', `location` = 'Austerlitz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3438', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3642', `location` = 'Mijdrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4444', `location` = ''s-Heer Abtskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4456', `location` = 'Lewedorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4585', `location` = 'Hengstdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4383', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2396', `location` = 'Koudekerk aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2629', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3329', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2521', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2555', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2566', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3222', `location` = 'Hellevoetsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2431', `location` = 'Noorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2204', `location` = 'Noordwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2982', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3065', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3072', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3088', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3195', `location` = 'Vondelingenplaat Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2285', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2244', `location` = 'Wassenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2722', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2735', `location` = 'Gelderswoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2661', `location` = 'Bergschenhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2681', `location` = 'Monster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2751', `location` = 'Moerkapelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3466', `location` = 'Waarder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2855', `location` = 'Vlist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2964', `location` = 'Groot-Ammers', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7603', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7429', `location` = 'Colmschate', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7433', `location` = 'Schalkhaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7534', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7694', `location` = 'Kloosterhaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7787', `location` = 'Holtheme', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7575', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8361', `location` = 'IJsselham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8372', `location` = 'Baarlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8243', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7764', `location` = 'Zandpol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7831', `location` = 'Nieuw-Weerdinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7913', `location` = 'Nieuweroord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7916', `location` = 'Hollandscheveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9443', `location` = 'Schoonloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9465', `location` = 'Anderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9574', `location` = 'Exloërveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7971', `location` = 'Havelte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7981', `location` = 'Diever', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7983', `location` = 'Wapse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8385', `location` = 'Vledderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8938', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9086', `location` = 'Hempens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8426', `location` = 'Appelscha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9244', `location` = 'Beetsterzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8894', `location` = 'Formerum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8397', `location` = 'De Blesse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8478', `location` = 'Sonnega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8744', `location` = 'Schettens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9021', `location` = 'Easterwierrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8841', `location` = 'Baaium', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8856', `location` = 'Pietersbierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9172', `location` = 'Ferwert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7339', `location` = 'Ugchelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6828', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3773', `location` = 'Barneveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7006', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4001', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4004', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6701', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6702', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6703', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6903', `location` = 'Zevenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8076', `location` = 'Vierhouten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7081', `location` = 'Gendringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7137', `location` = 'Lievelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6851', `location` = 'Huissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6669', `location` = 'Dodewaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6996', `location` = 'Drempt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7225', `location` = 'Olburgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7037', `location` = 'Beek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4161', `location` = 'Heukelum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9725', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9744', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9684', `location` = 'Finsterwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9698', `location` = 'Wedde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9632', `location` = 'Borgercompagnie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9649', `location` = 'Muntendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9883', `location` = 'Zuurdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9953', `location` = 'Baflo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9975', `location` = 'Vierhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9997', `location` = 'Zandeweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9362', `location` = 'Boerakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9915', `location` = ''t Zandt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6471', `location` = 'Eygelshoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6226', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5807', `location` = 'Oostrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6003', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6342', `location` = 'Walem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5865', `location` = 'Tienray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6142', `location` = 'Einighausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6153', `location` = 'Windraak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5985', `location` = 'Grashoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6454', `location` = 'Jabeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4839', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5525', `location` = 'Duizel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5616', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5651', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4873', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5051', `location` = 'Riel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5224', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5255', `location` = 'Herpt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5673', `location` = 'Nuenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5386', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5141', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4641', `location` = 'Ossendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4701', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5375', `location` = 'Reek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4761', `location` = 'Zevenbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1488', `location` = 'Starnmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1024', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1066', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2051', `location` = 'Overveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1112', `location` = 'Diemen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1703', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1216', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1447', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1724', `location` = 'Oudkarspel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1752', `location` = 'Sint Maartensbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1976', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1985', `location` = 'Driehuis NH', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2071', `location` = 'Santpoort-Noord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1509', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1606', `location` = 'Venhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1614', `location` = 'Lutjebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1652', `location` = 'Zuidermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1401', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1411', `location` = 'Naarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3743', `location` = 'Baarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3525', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3533', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3906', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3907', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3443', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3444', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3648', `location` = 'Wilnis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3603', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4437', `location` = 'Ellewoutsdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4587', `location` = 'Kloosterzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4415', `location` = 'Oostdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4364', `location` = 'Grijpskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4365', `location` = 'Meliskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4301', `location` = 'Zierikzee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4303', `location` = 'Zierikzee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2953', `location` = 'Alblasserdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2406', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2904', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4203', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2531', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2543', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2551', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2585', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3373', `location` = 'Hardinxveld-Giessendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2924', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3141', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2421', `location` = 'Nieuwkoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3035', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3086', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3133', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2243', `location` = 'Wassenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2711', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3332', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2216', `location` = 'Voorhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2692', `location` = ''s-Gravenzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3252', `location` = 'Goedereede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2642', `location` = 'Pijnacker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3284', `location` = 'Zuid-Beijerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7512', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7521', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7523', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7483', `location` = 'Haaksbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8266', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8337', `location` = 'De Pol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7637', `location` = 'Oud Ootmarsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1324', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1326', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8233', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9489', `location` = 'Zeijerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7741', `location` = 'Coevorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9463', `location` = 'Eext', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9654', `location` = 'Annerveenschekanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9331', `location` = 'Norg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9765', `location` = 'Paterswolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7910', `location` = 'Nieuweroord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9413', `location` = 'Beilen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9439', `location` = 'Witteveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8413', `location` = 'Oudehorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8924', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9023', `location` = 'Jorwert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9071', `location` = 'Alde Leie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9084', `location` = 'Goutum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8899', `location` = 'Vlieland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8388', `location` = 'Oosterstreek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8391', `location` = 'Noordwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8394', `location` = 'De Hoeve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9269', `location` = 'Feanwâlden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8613', `location` = 'Sandfirden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8746', `location` = 'Schraard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8761', `location` = 'Ferwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8808', `location` = 'Dongjum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8831', `location` = 'Winsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9134', `location` = 'Lioessens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9138', `location` = 'Niawier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9156', `location` = 'Bornwird', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9177', `location` = 'Jislum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9292', `location` = 'Augsbuurt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7328', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6831', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6745', `location` = 'De Klomp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7211', `location` = 'Eefde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7245', `location` = 'Laren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3871', `location` = 'Hoevelaken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6523', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6536', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6861', `location` = 'Oosterbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7115', `location` = 'Winterswijk Brinkheurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5311', `location` = 'Gameren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6684', `location` = 'Ressen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9774', `location` = 'Adorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9843', `location` = 'Grijpskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9861', `location` = 'Grootegast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9933', `location` = 'Delfzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9947', `location` = 'Termunten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6411', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6211', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5926', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5803', `location` = 'Venray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6001', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5977', `location` = 'Evertsoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6281', `location` = 'Mechelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6307', `location` = 'Scheulder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6336', `location` = 'Hulsberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5109', `location` = ''s Gravenmoer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5658', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5175', `location` = 'Loon op Zand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5672', `location` = 'Nuenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5061', `location` = 'Oisterwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4905', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4907', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5356', `location` = 'Neerloon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5011', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5048', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5424', `location` = 'Elsendorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4703', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4715', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5435', `location` = 'Sint Agatha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4791', `location` = 'Klundert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4267', `location` = 'Drongelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4269', `location` = 'Babyloniënbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1461', `location` = 'Zuidoostbeemster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1906', `location` = 'Limmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2065', `location` = 'Haarlemmerliede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2135', `location` = 'Hoofddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1704', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1678', `location` = 'Oostwoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1683', `location` = 'Zwaagdijk-Oost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1521', `location` = 'Wormerveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1454', `location` = 'Watergang', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1546', `location` = 'Jisp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1779', `location` = 'Hippolytushoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3817', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3927', `location` = 'Renswoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3764', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3766', `location` = 'Soest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3452', `location` = 'Vleuten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3471', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3607', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3608', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3612', `location` = 'Tienhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4163', `location` = 'Oosterwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4235', `location` = 'Tienhoven aan de Lek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4243', `location` = 'Nieuwland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4567', `location` = 'Clinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4536', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4571', `location` = 'Axel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4352', `location` = 'Gapinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4386', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2394', `location` = 'Hazerswoude-Rijndijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2408', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2409', `location` = 'Hazerswoude-Dorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2731', `location` = 'Benthuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2992', `location` = 'Barendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3232', `location` = 'Brielle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2905', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2908', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2625', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2495', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3221', `location` = 'Hellevoetsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3344', `location` = 'Hendrik-Ido-Ambacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2221', `location` = 'Katwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2223', `location` = 'Katwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3037', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3132', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2743', `location` = 'Waddinxveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2727', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2292', `location` = 'Wateringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2159', `location` = 'Kaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2415', `location` = 'Nieuwerbrug aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3274', `location` = 'Heinenoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7609', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7413', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7531', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7545', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7696', `location` = 'Brucht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7784', `location` = 'Ane', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8271', `location` = 'IJsselmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8147', `location` = 'Giethmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7678', `location` = 'Geesteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7641', `location` = 'Hoge Hexel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8344', `location` = 'Onna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8346', `location` = 'De Bult', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8347', `location` = 'Eesveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8356', `location` = 'Blokzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8363', `location` = 'Wetering', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7591', `location` = 'Denekamp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1314', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8253', `location` = 'Dronten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8212', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8225', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6866', `location` = 'Heelsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5308', `location` = 'Aalst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7077', `location` = 'Netterden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4053', `location` = 'IJzendoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4063', `location` = 'Heesselt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4064', `location` = 'Varik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9796', `location` = 'Sint Annen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9642', `location` = 'Veendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9566', `location` = 'Veelerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9615', `location` = 'Kolham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7851', `location` = 'Zweeloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7881', `location` = 'Klazienaveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7881', `location` = 'Emmer-Compascuum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7894', `location` = 'Zwartemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7931', `location` = 'Fluitenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9537', `location` = 'Eesergroen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9306', `location` = 'Alteveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9342', `location` = 'Een', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7964', `location` = 'Ansen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9423', `location` = 'Hoogersmilde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9494', `location` = 'Yde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8446', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8835', `location` = 'Easterlittens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9024', `location` = 'Weidum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9051', `location` = 'Stiens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8607', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8623', `location` = 'Jutrijp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8626', `location` = 'Offingawier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8636', `location` = 'Britswert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8731', `location` = 'Wommels', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8749', `location` = 'Pingjum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8845', `location` = 'Waaksens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8573', `location` = 'Mirns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9171', `location` = 'Blije', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6823', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6836', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6644', `location` = 'Ewijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7007', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6922', `location` = 'Duiven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6744', `location` = 'Ederveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6624', `location` = 'Heerewaarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6531', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8079', `location` = 'Noordeinde Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6883', `location` = 'Velp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6953', `location` = 'Dieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4017', `location` = 'Kerk Avezaath', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6911', `location` = 'Pannerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7204', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7134', `location` = 'Vragender', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7136', `location` = 'Zieuwent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6672', `location` = 'Hemmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6997', `location` = 'Hoog-Keppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7046', `location` = 'Vethuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9717', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9672', `location` = 'Winschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9679', `location` = 'Scheemda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9686', `location` = 'Beerta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9551', `location` = 'Sellingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9611', `location` = 'Sappemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9977', `location` = 'Kloosterburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9979', `location` = 'Eemshaven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9804', `location` = 'Noordhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9884', `location` = 'Niehove', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9908', `location` = 'Godlinze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6199', `location` = 'Maastricht-Airport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5853', `location` = 'Siebengewald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6443', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6595', `location` = 'Ottersum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6223', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6231', `location` = 'Meerssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6044', `location` = 'Roermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6082', `location` = 'Buggenum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6019', `location` = 'Wessem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6101', `location` = 'Echt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5685', `location` = 'Best', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4834', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4836', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4875', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5391', `location` = 'Nuland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4904', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5343', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5041', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5403', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4635', `location` = 'Huijbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5761', `location` = 'Bakel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5529', `location` = 'Casteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1025', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1027', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1052', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1056', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1069', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1943', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2144', `location` = 'Beinsdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1271', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1679', `location` = 'Midwoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1797', `location` = 'Den Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1609', `location` = 'Oosterleek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1398', `location` = 'Muiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3752', `location` = 'Bunschoten-Spakenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3553', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3561', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3566', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3701', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3433', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3464', `location` = 'Papekop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1426', `location` = 'de Hoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4126', `location` = 'Hei- en Boeicop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4471', `location` = ''s-Heer Hendrikskinderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4334', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4321', `location` = 'Kerkwerve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2407', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3313', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4202', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2522', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2581', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2432', `location` = 'Noorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2989', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3012', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3044', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3047', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2281', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3161', `location` = 'Rhoon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3172', `location` = 'Poortugaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3333', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2361', `location` = 'Sassenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3248', `location` = 'Melissant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2861', `location` = 'Bergambacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8153', `location` = 'Lemelerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7421', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7525', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7544', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8263', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8276', `location` = 'Zalk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7735', `location` = 'Arriën', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7642', `location` = 'Wierden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8341', `location` = 'Steenwijkerwold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7451', `location` = 'Holten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1323', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3894', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3897', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3921', `location` = 'Elst Ut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3512', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3515', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3528', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3564', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3707', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3434', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3631', `location` = 'Nieuwersluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4465', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4421', `location` = 'Kapelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4521', `location` = 'Biervliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2909', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3318', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4204', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2807', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2533', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2547', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2553', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2573', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2222', `location` = 'Katwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2224', `location` = 'Katwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2921', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2435', `location` = 'Zevenhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3066', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3361', `location` = 'Sliedrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3176', `location` = 'Poortugaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3233', `location` = 'Oostvoorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2251', `location` = 'Voorschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2636', `location` = 'Schipluiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2752', `location` = 'Moerkapelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2913', `location` = 'Nieuwerkerk aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2412', `location` = 'Bodegraven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3244', `location` = 'Nieuwe-Tonge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2871', `location` = 'Schoonhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3273', `location` = 'Westmaas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2968', `location` = 'Waal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4225', `location` = 'Noordeloos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8152', `location` = 'Lemelerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7773', `location` = 'Hardenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7558', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7581', `location` = 'Losser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7738', `location` = 'Witharen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7951', `location` = 'Staphorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7672', `location` = 'Vriezenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8334', `location` = 'Tuk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8373', `location` = 'Blankenham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7595', `location` = 'Weerselo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1335', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1351', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1364', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3891', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8322', `location` = 'Urk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8245', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7844', `location` = 'Veenoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7891', `location` = 'Klazienaveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9454', `location` = 'Ekehaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9512', `location` = 'Nieuwediep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9307', `location` = 'Steenbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9313', `location` = 'Leutingewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9766', `location` = 'Eelderwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9433', `location` = 'Zwiggelte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9286', `location` = 'Twijzel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8453', `location` = 'Oranjewoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8923', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9247', `location` = 'Ureterp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9207', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8608', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8617', `location` = 'Abbega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8627', `location` = 'Gauw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8629', `location` = 'Scharnegoutum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8651', `location` = 'IJlst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8741', `location` = 'Hartwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8748', `location` = 'Witmarsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8757', `location` = 'Gaast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8566', `location` = 'Nijemirdum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9037', `location` = 'Slappeterp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9038', `location` = 'Ingelum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9102', `location` = 'Dokkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9122', `location` = 'Wetsens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9851', `location` = 'Burum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7091', `location` = 'Dinxperlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6835', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3886', `location` = 'Garderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4024', `location` = 'Eck en Wiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6923', `location` = 'Groessen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8081', `location` = 'Elburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6611', `location` = 'Overasselt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7215', `location` = 'Joppe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5324', `location` = 'Ammerzoden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6524', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6866', `location` = 'Renkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7109', `location` = 'Winterswijk Miste', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5302', `location` = 'Zaltbommel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6913', `location` = 'Aerdt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7231', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8072', `location` = 'Nunspeet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7161', `location` = 'Neede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7256', `location` = 'Keijenborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7036', `location` = 'Loerbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7044', `location` = 'Lengel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4158', `location` = 'Deil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9738', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9501', `location` = 'Stadskanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9685', `location` = 'Blauwestad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9771', `location` = 'Sauwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9784', `location` = 'Noordwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9365', `location` = 'Niebert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9893', `location` = 'Garnwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9922', `location` = 'Westeremden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9931', `location` = 'Delfzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5953', `location` = 'Reuver', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6419', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6465', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6224', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6137', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6141', `location` = 'Limbricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6436', `location` = 'Amstenrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5113', `location` = 'Ulicoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4817', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5629', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5125', `location` = 'Hulten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5701', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5704', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5084', `location` = 'Biest-Houtakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5674', `location` = 'Nuenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5688', `location` = 'Oirschot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5349', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5352', `location` = 'Deursen-Dennenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5504', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4705', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5374', `location` = 'Schaijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5446', `location` = 'Wanroij', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4921', `location` = 'Made', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4856', `location` = 'Strijbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4283', `location` = 'Giessen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1844', `location` = 'Driehuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1072', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1083', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1106', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1108', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1601', `location` = 'Enkhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1118', `location` = 'Schiphol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1175', `location` = 'Lijnden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1981', `location` = 'Velsen-Zuid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1504', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1452', `location` = 'Ilpendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1774', `location` = 'Slootdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3744', `location` = 'Baarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3562', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3582', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3605', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4128', `location` = 'Lexmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4142', `location` = 'Leerdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4532', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4356', `location` = 'Oostkapelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4373', `location` = 'Biggekerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4326', `location` = 'Noordwelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2901', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2624', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2512', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2564', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3143', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3011', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3039', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3151', `location` = 'Hoek van Holland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3181', `location` = 'Rozenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2289', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2254', `location` = 'Voorschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2652', `location` = 'Berkel en Rodenrijs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2678', `location` = 'De Lier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2355', `location` = 'Hoogmade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3253', `location` = 'Ouddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2632', `location` = 'Nootdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3218', `location` = 'Heenvliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2825', `location` = 'Berkenwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2959', `location` = 'Streefkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2965', `location` = 'Nieuwpoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7513', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7514', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7524', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7688', `location` = 'Daarle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7614', `location` = 'Mariaparochie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7679', `location` = 'Langeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7467', `location` = 'Notter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8343', `location` = 'Zuidveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1359', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7828', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9468', `location` = 'Annen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9515', `location` = 'Gasselternijveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9533', `location` = 'Drouwen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7921', `location` = 'Zuidwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7926', `location` = 'Kerkenveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9351', `location` = 'Nietap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9285', `location` = 'Buitenpost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8912', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8925', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9207', `location` = 'Drachten-Azeven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9213', `location` = 'De Wilgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9216', `location` = 'Oudega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8892', `location` = 'Striep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8897', `location` = 'Oosterend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8475', `location` = 'Nijeholtpade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9091', `location` = 'Wyns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9264', `location` = 'Earnewâld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8616', `location` = 'Westhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8538', `location` = 'Bantega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8564', `location` = 'Ruigahuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8802', `location` = 'Franeker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8842', `location` = 'Wjelsryp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9072', `location` = 'Nij Altoenae', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9074', `location` = 'Hallum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9111', `location` = 'Burdaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9112', `location` = 'Burdaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9131', `location` = 'Ee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9299', `location` = 'Zwagerbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7317', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4012', `location` = 'Kerk-Avezaath', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4104', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7216', `location` = 'Kring van Dorth', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7242', `location` = 'Lochem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5335', `location` = 'Alem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6522', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6862', `location` = 'Oosterbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7392', `location` = 'Twello', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5306', `location` = 'Brakel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8077', `location` = 'Hulshorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7273', `location` = 'Haarlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6999', `location` = 'Hummelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7221', `location` = 'Steenderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6576', `location` = 'Ooij', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7041', `location` = ''s-Heerenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4176', `location` = 'Tuil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9613', `location` = 'Meerstad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9622', `location` = 'Lageland GN', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9716', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9591', `location` = 'Onstwedde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9619', `location` = 'Froombosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9629', `location` = 'Steendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9961', `location` = 'Mensingeweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9989', `location` = 'Warffum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9864', `location` = 'Kornhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9912', `location` = 'Leermens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6176', `location` = 'Spaubeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6431', `location` = 'Hoensbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6212', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6181', `location` = 'Elsloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5872', `location` = 'Broekhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6107', `location` = 'Stevensweert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6136', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5981', `location` = 'Panningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6363', `location` = 'Wijnandsrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4818', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5752', `location` = 'Deurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5611', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4876', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5703', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5247', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5015', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5581', `location` = 'Waalre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4884', `location` = 'Wernhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4754', `location` = 'Stampersgat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4724', `location` = 'Heerle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4771', `location` = 'Langeweg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5131', `location` = 'Alphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1016', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1044', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1051', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1472', `location` = 'Middelie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2037', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2142', `location` = 'Cruquius', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1273', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1674', `location` = 'Opperdoes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1685', `location` = 'Zwaagdijk-West', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1742', `location` = 'Schagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1421', `location` = 'Uithoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1423', `location` = 'Uithoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2042', `location` = 'Zandvoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1482', `location` = 'Purmer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1643', `location` = 'Spierdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1244', `location` = 'Ankeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1779', `location` = 'Den Oever', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3825', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3791', `location` = 'Achterveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7755', `location` = 'Dalerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7889', `location` = 'Klazienaveen-Noord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7944', `location` = 'Meppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9455', `location` = 'Geelbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7875', `location` = 'Exloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7961', `location` = 'Ruinerwold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8383', `location` = 'Nijensleek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9418', `location` = 'Wijster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9872', `location` = 'Stroobos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8441', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8451', `location` = 'Oudeschoot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8936', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9004', `location` = 'Warstiens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8404', `location` = 'Langezwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9206', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9215', `location` = 'De Veenhoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9061', `location` = 'Gytsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9113', `location` = 'Wâlterswâld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8628', `location` = 'Goënga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8642', `location` = 'Lytsewierrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8822', `location` = 'Arum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8537', `location` = 'Echten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8851', `location` = 'Tzummarum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9125', `location` = 'Oostrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7121', `location` = 'Aalten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7345', `location` = 'Wenum Wiesel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7361', `location` = 'Beekbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6832', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6834', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6845', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4016', `location` = 'Kapel-Avezaath', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6731', `location` = 'Otterlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8085', `location` = 'Doornspijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3849', `location` = 'Hierden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6525', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6957', `location` = 'Laag-Soeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4014', `location` = 'Wadenoijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7397', `location` = 'Nijbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6704', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6708', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6628', `location` = 'Altforst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7084', `location` = 'Breedenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6677', `location` = 'Slijk-Ewijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4054', `location` = 'Echteld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4147', `location` = 'Asperen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9721', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9735', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9756', `location` = 'Glimmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9503', `location` = 'Stadskanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9623', `location` = 'Lageland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9963', `location` = 'Warfhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9965', `location` = 'Leens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9354', `location` = 'Zevenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9945', `location` = 'Wagenborgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6373', `location` = 'Landgraaf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6237', `location` = 'Moorveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6171', `location` = 'Stein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5932', `location` = 'Tegelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5802', `location` = 'Venray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5809', `location` = 'Leunen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6343', `location` = 'Klimmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5973', `location` = 'Lottum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6063', `location` = 'Vlodrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6164', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4854', `location` = 'Bavel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5101', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5103', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5106', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5251', `location` = 'Vlijmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5254', `location` = 'Haarsteeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4908', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4909', `location` = 'Oosteind', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5347', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5358', `location` = 'Huisseling', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5395', `location` = 'Teeffelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4714', `location` = 'Sprundel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4671', `location` = 'Dinteloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5022', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5408', `location` = 'Volkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5409', `location` = 'Odiliapeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5741', `location` = 'Beek en Donk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4707', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4725', `location` = 'Wouwse Plantage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4772', `location` = 'Langeweg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5473', `location` = 'Heeswijk-Dinther', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5575', `location` = 'Luyksgestel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4287', `location` = 'Waardhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1433', `location` = 'Kudelstaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1814', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1187', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1061', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1098', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1103', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1934', `location` = 'Egmond aan den Hoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2023', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2026', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1969', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1784', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1787', `location` = 'Julianadorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1276', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1747', `location` = 'Tuitjenhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1501', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1567', `location` = 'Assendelft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3981', `location` = 'Bunnik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3755', `location` = 'Eemnes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3454', `location` = 'De Meern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3531', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3545', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3565', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3712', `location` = 'Huis ter Heide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3735', `location` = 'Bosch en Duin', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3956', `location` = 'Leersum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3971', `location` = 'Driebergen-Rijsenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3601', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3632', `location` = 'Loenen aan de Vecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4245', `location` = 'Leerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4451', `location` = 'Heinkenszand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4564', `location` = 'Sint Jansteen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4533', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4695', `location` = 'Sint-Maartensdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2445', `location` = 'Aarlanderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2523', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2554', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2591', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2182', `location` = 'Hillegom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2162', `location` = 'Lisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2163', `location` = 'Lisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3144', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3356', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2985', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3054', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3123', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3336', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2691', `location` = ''s-Gravenzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2377', `location` = 'Oude Wetering', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3207', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3216', `location` = 'Abbenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4241', `location` = 'Arkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7437', `location` = 'Bathmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7695', `location` = 'Bruchterveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7796', `location` = 'Heemserveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7442', `location` = 'Nijverdal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8264', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8277', `location` = 'Grafhorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7588', `location` = 'Beuningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8111', `location` = 'Heeten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8112', `location` = 'Nieuw Heeten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8019', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7461', `location` = 'Rijssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1315', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8309', `location` = 'Tollebeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8218', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9403', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7742', `location` = 'Coevorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7823', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7826', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7948', `location` = 'Meppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9458', `location` = 'Balloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9464', `location` = 'Eexterzandvoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9535', `location` = 'Ellertshaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9341', `location` = 'Veenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8382', `location` = 'Frederiksoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9481', `location` = 'Vries', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8861', `location` = 'Harlingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8412', `location` = 'Hoornsterzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8415', `location` = 'Bontebok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8448', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8468', `location` = 'Haskerdijken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8926', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8941', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9006', `location` = 'Eagum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9025', `location` = 'Bears', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9431', `location` = 'Oosterwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8407', `location` = 'Terwispel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9214', `location` = 'Smalle Ee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8479', `location` = 'Oldetrijne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8722', `location` = 'Molkwerum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8512', `location` = 'Broek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9036', `location` = 'Menaam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9178', `location` = 'Wânswert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9295', `location` = 'Westergeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7335', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6812', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6551', `location` = 'Weurt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6975', `location` = 'Tonden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7011', `location` = 'Gaanderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6877', `location` = 'Deelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6542', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4006', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7396', `location` = 'Terwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7104', `location` = 'Winterswijk Meddo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7105', `location` = 'Winterswijk Huppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7119', `location` = 'Winterswijk Corle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7083', `location` = 'Voorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7131', `location` = 'Lichtenvoorde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6673', `location` = 'Andelst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7255', `location` = 'Hengelo (Gld)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4151', `location` = 'Acquoy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4194', `location` = 'Meteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9726', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9734', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9663', `location` = 'Nieuwe Pekela', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9687', `location` = 'Nieuw Beerta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9609', `location` = 'Waterhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9956', `location` = 'Den Andel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9984', `location` = 'Oudeschip', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9994', `location` = 'Toornwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6191', `location` = 'Beek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6415', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5925', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6367', `location` = 'Voerendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5961', `location` = 'Horst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6014', `location` = 'Ittervoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6104', `location` = 'Koningsbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6167', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6267', `location` = 'Cadier en Keer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5283', `location` = 'Boxtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4838', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5107', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5617', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5133', `location` = 'Riel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5363', `location` = 'Velp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5089', `location` = 'Haghorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5353', `location` = 'Dieden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5354', `location` = 'Demen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5293', `location` = 'Gemonde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5025', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5161', `location` = 'Sprang-Capelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4881', `location` = 'Zundert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5595', `location` = 'Leende', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5741', `location` = 'Aarle-Rixtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4708', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5434', `location` = 'Vianen NB', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5845', `location` = 'Sint Anthonis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4671', `location` = 'Heijningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5471', `location` = 'Loosbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5463', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1487', `location` = 'Oost-Graftdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1812', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1821', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1824', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1181', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1034', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1045', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1077', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1097', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2121', `location` = 'Bennebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1602', `location` = 'Enkhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2151', `location` = 'Nieuw-Vennep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2152', `location` = 'Nieuw-Vennep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1782', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1442', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1793', `location` = 'De Waal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1382', `location` = 'Weesp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1508', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1607', `location` = 'Hem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1771', `location` = 'Wieringerwerf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3412', `location` = 'Lopik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3437', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3611', `location` = 'Oud Zuilen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4133', `location` = 'Vianen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4143', `location` = 'Leerdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4431', `location` = ''s-Gravenpolder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4433', `location` = 'Hoedekenskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4339', `location` = 'Nieuw- en Sint Joosland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4357', `location` = 'Domburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4307', `location` = 'Oosterland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2991', `location` = 'Barendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2491', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2518', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2565', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2594', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2322', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3046', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3061', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3117', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3363', `location` = 'Sliedrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3234', `location` = 'Oostvoorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3334', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2865', `location` = 'Ammerstol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3263', `location` = 'Oud-Beijerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7610', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7621', `location` = 'Borne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7414', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7423', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7424', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7687', `location` = 'Daarlerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8275', `location` = ''s-Heerenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7685', `location` = 'Beerzerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8144', `location` = 'Lierderholthuis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7468', `location` = 'Enter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8024', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8041', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8332', `location` = 'Steenwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7497', `location` = 'Bentelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7634', `location` = 'Tilligte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1316', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1325', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9408', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7863', `location` = 'Gees', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7827', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7933', `location` = 'Pesse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9515', `location` = 'Gasselternijveenschemond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7871', `location` = 'Klijndijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7924', `location` = 'Veeningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9749', `location` = 'Matsloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9412', `location` = 'Beilen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8459', `location` = 'Luinjeberd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8434', `location` = 'Waskemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9217', `location` = 'Nijega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9219', `location` = 'De Tike', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8881', `location` = 'West-Terschelling', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8885', `location` = 'Kinnum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9064', `location` = 'Aldtsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9106', `location` = 'Sibrandahûs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8721', `location` = 'Warns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8736', `location` = 'Reahûs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8811', `location` = 'Ried', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8855', `location` = 'Sexbierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9076', `location` = 'St.-Annaparochie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9121', `location` = 'Aalsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7327', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7332', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6833', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3794', `location` = 'De Glind', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6717', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6745', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3852', `location` = 'Ermelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6612', `location` = 'Nederasselt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6533', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6951', `location` = 'Dieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4005', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6602', `location` = 'Wijchen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6604', `location` = 'Wijchen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6681', `location` = 'Bemmel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7039', `location` = 'Stokkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4196', `location` = 'Tricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9648', `location` = 'Wildervank', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9602', `location` = 'Hoogezand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9974', `location` = 'Zoutkamp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9995', `location` = 'Kantens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9862', `location` = 'Sebaldeburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9865', `location` = 'Opende', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9901', `location` = 'Appingedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9906', `location` = 'Bierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6591', `location` = 'Gennep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6413', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6462', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6466', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6214', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6353', `location` = 'Baneheide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6077', `location` = 'Sint Odiliënberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5984', `location` = 'Koningslust', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6333', `location` = 'Schimmert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5824', `location` = 'Holthees', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4822', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4835', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5235', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5246', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5671', `location` = 'Nuenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5351', `location` = 'Berghem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5271', `location` = 'Gemonde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5712', `location` = 'Someren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5032', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5036', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5042', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5043', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5554', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5143', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5431', `location` = 'Cuijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5843', `location` = 'Westerbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5846', `location` = 'Ledeacker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4797', `location` = 'Willemstad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5492', `location` = 'Sint-Oedenrode', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4255', `location` = 'Nieuwendijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4268', `location` = 'Meeuwen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4286', `location` = 'Almkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1817', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1183', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1033', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1931', `location` = 'Egmond aan den Hoef', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1935', `location` = 'Egmond-Binnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1966', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2101', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1214', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1274', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1657', `location` = 'Abbekerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1682', `location` = 'Zwaagdijk-Oost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1191', `location` = 'Ouderkerk aan de Amstel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1975', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1991', `location` = 'Velserbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2082', `location` = 'Santpoort-Zuid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1154', `location` = 'Uitdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1773', `location` = 'Kreileroord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3821', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3836', `location` = 'Stoutenburg Noord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3741', `location` = 'Baarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3742', `location` = 'Baarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3554', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3446', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1391', `location` = 'Abcoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3641', `location` = 'Mijdrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4565', `location` = 'Kapellebrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4335', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4413', `location` = 'Krabbendijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4414', `location` = 'Waarde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4535', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4697', `location` = 'Sint-Annaland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4515', `location` = 'IJzendijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2994', `location` = 'Barendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2544', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2341', `location` = 'Oegstgeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3036', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3059', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3075', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3077', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3199', `location` = 'Maasvlakte Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2374', `location` = 'Oud Ade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2631', `location` = 'Nootdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3205', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3206', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2821', `location` = 'Stolwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7533', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7783', `location` = 'Gramsbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7786', `location` = 'Den Velde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7447', `location` = 'Hellendoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8262', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8293', `location` = 'Mastenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7661', `location` = 'Vasse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7466', `location` = 'Zuna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7683', `location` = 'Den Ham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8345', `location` = 'Kallenkote', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8376', `location` = 'Ossenzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7478', `location` = 'Diepenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7638', `location` = 'Nutter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8294', `location` = 'Mastenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1327', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1355', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8302', `location` = 'Emmeloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8315', `location` = 'Luttelgeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8219', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9487', `location` = 'Ter Aard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7864', `location` = 'Zwinderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7907', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7948', `location` = 'Nijeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9456', `location` = 'Eleveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9459', `location` = 'Balloërveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9469', `location` = 'Schipborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7858', `location` = 'Eeserveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9525', `location` = 'Drouwenerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7935', `location` = 'Eursinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9337', `location` = 'Westervelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9421', `location` = 'Bovensmilde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8455', `location` = 'Katlijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8469', `location` = 'Nieuwebrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8913', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8431', `location` = 'Oosterwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9246', `location` = 'Olterterp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9166', `location` = 'Schiermonnikoog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8896', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8396', `location` = 'Peperga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8474', `location` = 'Oldeholtpade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8486', `location` = 'Oldelamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9104', `location` = 'Damwâld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9108', `location` = 'Broeksterwâld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8625', `location` = 'Oppenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8751', `location` = 'Pingjum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8506', `location` = 'Haskerhorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9075', `location` = 'Westhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7311', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7316', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7351', `location` = 'Hoenderloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7364', `location` = 'Lieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6816', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6824', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6827', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6842', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3772', `location` = 'Barneveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6961', `location` = 'Eerbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4116', `location` = 'Buren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4106', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7217', `location` = 'Harfsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5333', `location` = 'Hoenzadriel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3861', `location` = 'Nijkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3511', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3555', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3945', `location` = 'Cothen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3947', `location` = 'Langbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3708', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3436', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3447', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4125', `location` = 'Hoef en Haag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4464', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4694', `location` = 'Scherpenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4388', `location` = 'Oost-Souburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4484', `location` = 'Kortgene', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4511', `location` = 'Breskens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2402', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2771', `location` = 'Boskoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3317', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4207', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2532', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2552', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2563', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2584', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2316', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2332', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2333', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3145', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3146', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3653', `location` = 'Woerdense Verlaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2343', `location` = 'Oegstgeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3351', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2984', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3013', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3028', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3043', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3056', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3235', `location` = 'Oostvoorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2381', `location` = 'Zoeterwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2362', `location` = 'Warmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2761', `location` = 'Zevenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2262', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2265', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3247', `location` = 'Dirksland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2941', `location` = 'Lekkerkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2969', `location` = 'Oud-Alblas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4223', `location` = 'Hoornaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8154', `location` = 'Lemelerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7415', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7731', `location` = 'Ommen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7732', `location` = 'Ommen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7668', `location` = 'Haarle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8032', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7681', `location` = 'Vroomshoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8331', `location` = 'Steenwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8378', `location` = 'Paasloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7471', `location` = 'Goor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8131', `location` = 'Wijhe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1329', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1336', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1358', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8223', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8167', `location` = 'Oene', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5328', `location` = 'Rossum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6705', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6634', `location` = 'Batenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7061', `location` = 'Terborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6571', `location` = 'Berg en Dal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7035', `location` = 'Kilder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9752', `location` = 'Haren Gn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9645', `location` = 'Veendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9674', `location` = 'Winschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9682', `location` = 'Oostwold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9624', `location` = 'Luddeweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9651', `location` = 'Meeden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9985', `location` = 'Oosternieland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9986', `location` = 'Oldenzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9824', `location` = 'Noordwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9844', `location` = 'Pieterzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9881', `location` = 'Kommerzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9918', `location` = 'Garrelsweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5856', `location` = 'Wellerlooi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6416', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6422', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5913', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5931', `location` = 'Tegelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5976', `location` = 'Kronenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6125', `location` = 'Obbicht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6365', `location` = 'Schinnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6438', `location` = 'Oirsbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6447', `location` = 'Merkelbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4615', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5753', `location` = 'Deurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5759', `location` = 'Helenaveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5614', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5121', `location` = 'Rijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5453', `location` = 'Langenboom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5047', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5508', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5266', `location` = 'Cromvoirt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5421', `location` = 'Gemert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5095', `location` = 'Hooge Mierde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5844', `location` = 'Stevensbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5383', `location` = 'Vinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5731', `location` = 'Mierlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1065', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1931', `location` = 'Egmond aan Zee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2019', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2024', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1119', `location` = 'Schiphol-Rijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1171', `location` = 'Badhoevedorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2134', `location` = 'Hoofddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2156', `location` = 'Weteringbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1788', `location` = 'Julianadorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1789', `location` = 'Huisduinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1221', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1623', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1689', `location` = 'Zwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1681', `location` = 'Zwaagdijk-Oost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1796', `location` = 'De Koog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1613', `location` = 'Grootebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1141', `location` = 'Monnickendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1645', `location` = 'Ursem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1761', `location` = 'Anna Paulowna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3731', `location` = 'De Bilt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3995', `location` = 'Houten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3911', `location` = 'Rhenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7814', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7913', `location` = 'Hollandscheveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9655', `location` = 'Oud Annerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9659', `location` = 'Eexterveenschekanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7876', `location` = 'Valthermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9333', `location` = 'Langelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9472', `location` = 'Zuidlaren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9436', `location` = 'Mantinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9283', `location` = 'Surhuizum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8411', `location` = 'Jubbega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8495', `location` = 'Aldeboarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9054', `location` = 'Hijum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8422', `location` = 'Nijeberkoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8406', `location` = 'Tijnje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9248', `location` = 'Siegerswoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9222', `location` = 'Drachtstercompagnie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8606', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8715', `location` = 'Stavoren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8521', `location` = 'Sint Nicolaasga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8526', `location` = 'Boornzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9101', `location` = 'Dokkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9103', `location` = 'Dokkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9294', `location` = 'Oudwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9853', `location` = 'Munnekezijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7126', `location` = 'Bredevoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6813', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6843', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3853', `location` = 'Ermelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3847', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7213', `location` = 'Gorssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5321', `location` = 'Hedel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6537', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8097', `location` = 'Oosterwolde Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6881', `location` = 'Velp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4007', `location` = 'Tiel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7391', `location` = 'Twello', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6709', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6603', `location` = 'Wijchen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6915', `location` = 'Lobith', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6657', `location` = 'Boven-Leeuwen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7071', `location` = 'Ulft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6687', `location` = 'Angeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6661', `location` = 'Elst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7274', `location` = 'Geesteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9563', `location` = 'Ter Apelkanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9628', `location` = 'Siddeburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9951', `location` = 'Winsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9959', `location` = 'Onderdendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9983', `location` = 'Roodeschool', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9998', `location` = 'Rottum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9882', `location` = 'Kommerzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9919', `location` = 'Loppersum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5954', `location` = 'Beesel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6446', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6463', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6221', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6225', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6045', `location` = 'Roermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6163', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5995', `location` = 'Kessel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6255', `location` = 'Noorbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5722', `location` = 'Asten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4613', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4815', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5632', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5633', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5646', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4874', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4879', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5122', `location` = 'Rijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5213', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5232', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5392', `location` = 'Nuland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5451', `location` = 'Mill', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5368', `location` = 'Haren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5012', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5057', `location` = 'Berkel-Enschot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5556', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5145', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4726', `location` = 'Heerle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5666', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1186', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1188', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1017', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1031', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1074', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1101', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1131', `location` = 'Volendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1961', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2105', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1722', `location` = 'Zuid-Scharwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1658', `location` = 'Lambertschaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1716', `location` = 'Opmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1551', `location` = 'Westzaan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1456', `location` = 'Wijdewormer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3816', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3999', `location` = 'Tull en 't Waal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3413', `location` = 'Lopik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3552', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3904', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3734', `location` = 'Den Dolder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3467', `location` = 'Hekendorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3471', `location` = 'Zegveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3628', `location` = 'Kockengen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3989', `location` = 'Ossenwaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4145', `location` = 'Schoonrewoerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4461', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4462', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4588', `location` = 'Walsoorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4336', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4553', `location` = 'Philippine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4574', `location` = 'Zuiddorpe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4691', `location` = 'Tholen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3232', `location` = 'Vierpolders', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3237', `location` = 'Vierpolders', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2802', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2546', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2572', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2586', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2593', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3225', `location` = 'Hellevoetsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2314', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3355', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2986', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3021', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3067', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3076', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3079', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3087', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3112', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2665', `location` = 'Bleiswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2912', `location` = 'Nieuwerkerk aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2914', `location` = 'Nieuwerkerk aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3465', `location` = 'Driebruggen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3249', `location` = 'Herkingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3251', `location` = 'Stellendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3208', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2831', `location` = 'Gouderak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3366', `location` = 'Wijngaarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4221', `location` = 'Hoogblokland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7605', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7522', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7778', `location` = 'Loozen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7781', `location` = 'De Krim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7791', `location` = 'Radewijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7737', `location` = 'Stegeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7739', `location` = 'Vinkenbuurt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7693', `location` = 'Sibculo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8333', `location` = 'Steenwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1334', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1362', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8304', `location` = 'Emmeloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8314', `location` = 'Bant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8319', `location` = 'Schokland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7824', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7833', `location` = 'Nieuw-Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7902', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7909', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9467', `location` = 'Anloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9656', `location` = 'Spijkerboor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9657', `location` = 'Nieuw Annerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7872', `location` = 'Valthe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9521', `location` = 'Nieuw-Buinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9531', `location` = 'Borger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9301', `location` = 'Roden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9482', `location` = 'Tynaarlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9162', `location` = 'Ballum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9056', `location` = 'Koarnjum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9057', `location` = 'Jelsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8432', `location` = 'Haule', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8393', `location` = 'Vinkega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8476', `location` = 'Ter Idzard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8482', `location` = 'Spanga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8484', `location` = 'Langelille', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8603', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8604', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8621', `location` = 'Heeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8633', `location` = 'Ysbrechtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8742', `location` = 'Burgwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8755', `location` = 'Idsegahuizum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8507', `location` = 'Rohel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8854', `location` = 'Oosterbierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9151', `location` = 'Holwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9173', `location` = 'Hegebeintum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7123', `location` = 'Aalten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7324', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7381', `location` = 'Klarenbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4111', `location` = 'Zoelmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7002', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6653', `location` = 'Deest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8191', `location` = 'Wapenveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6956', `location` = 'Spankeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6961', `location` = 'Rozendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7384', `location` = 'Twello', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7102', `location` = 'Winterswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5301', `location` = 'Zaltbommel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6905', `location` = 'Zevenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6916', `location` = 'Tolkamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4051', `location` = 'Ochten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7152', `location` = 'Eibergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6561', `location` = 'Groesbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6573', `location` = 'Beek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9722', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9724', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9791', `location` = 'Ten Boer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9795', `location` = 'Woltersum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9644', `location` = 'Veendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9541', `location` = 'Vlagtwedde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9626', `location` = 'Schildwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9939', `location` = 'Tjuchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9962', `location` = 'Schouwerzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9356', `location` = 'Tolbert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9921', `location` = 'Stedum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6442', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6351', `location` = 'Bocholtz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5941', `location` = 'Velden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5943', `location` = 'Lomm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5862', `location` = 'Geijsteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6002', `location` = 'Weert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5971', `location` = 'Grubbenvorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6274', `location` = 'Reijmerstok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6135', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6143', `location` = 'Guttecoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4611', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5684', `location` = 'Best', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4841', `location` = 'Prinsenbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5626', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5642', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5243', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5253', `location` = 'Nieuwkuijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5081', `location` = 'Hilvarenbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5689', `location` = 'Oirschot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5066', `location` = 'Moergestel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4911', `location` = 'Den Hout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5348', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5357', `location` = 'Overlangel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5715', `location` = 'Lierop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5738', `location` = 'Mariahout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5096', `location` = 'Hulsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4702', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4727', `location` = 'Moerstraten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4766', `location` = 'Zevenbergschen Hoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5571', `location` = 'Bergeijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1037', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2034', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1161', `location` = 'Zwanenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2154', `location` = 'Burgerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1705', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1706', `location` = 'Heerhugowaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1211', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1217', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1624', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1686', `location` = 'Zwaagdijk-West', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1662', `location` = 'De Weere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1441', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1791', `location` = 'Den Burg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1422', `location` = 'Uithoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1525', `location` = 'Westknollendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1633', `location` = 'Avenhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3615', `location` = 'Westbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3985', `location` = 'Werkhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3998', `location` = 'Schalkwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3417', `location` = 'Montfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3905', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3435', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3651', `location` = 'Zegveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3643', `location` = 'Mijdrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4247', `location` = 'Kedichem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4472', `location` = ''s-Heer Hendrikskinderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4589', `location` = 'Ossenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4571', `location` = 'Zuiddorpe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4693', `location` = 'Poortvliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4315', `location` = 'Dreischor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2404', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2511', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2516', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3372', `location` = 'Hardinxveld-Giessendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3016', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3026', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3071', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2282', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2287', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3118', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2712', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3331', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2271', `location` = 'Voorburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3202', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2872', `location` = 'Schoonhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7602', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7412', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7535', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7782', `location` = 'De Krim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8014', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7463', `location` = 'Rijssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1361', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3892', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8303', `location` = 'Emmeloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8308', `location` = 'Nagele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8317', `location` = 'Kraggenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8222', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3541', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3703', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3449', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3951', `location` = 'Maarn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3602', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4438', `location` = 'Driewegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4453', `location` = ''s-Heerenhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4416', `location` = 'Kruiningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4531', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4351', `location` = 'Veere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4385', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4311', `location` = 'Bruinisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2496', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2545', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2583', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2592', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2595', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3223', `location` = 'Hellevoetsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2321', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2161', `location` = 'Lisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1428', `location` = 'Vrouwenakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2191', `location` = 'De Zilk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2201', `location` = 'Noordwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2983', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3364', `location` = 'Sliedrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3135', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2685', `location` = 'Poeldijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3204', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3264', `location` = 'Nieuw-Beijerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3281', `location` = 'Numansdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8151', `location` = 'Lemelerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7776', `location` = 'Slagharen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7554', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8105', `location` = 'Luttenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8035', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7686', `location` = 'Geerdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8325', `location` = 'Vollenhove', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8124', `location` = 'Wesepe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7597', `location` = 'Saasveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8305', `location` = 'Emmeloord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8251', `location` = 'Dronten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8252', `location` = 'Dronten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9404', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9407', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7911', `location` = 'Nieuweroord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7918', `location` = 'Nieuwlande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7942', `location` = 'Meppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7943', `location` = 'Meppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9449', `location` = 'Nooitgedacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9466', `location` = 'Gasteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9527', `location` = 'Bronneger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9534', `location` = 'Westdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9334', `location` = 'Peest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9343', `location` = 'Een-West', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8386', `location` = 'Doldersum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8387', `location` = 'Boschoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7938', `location` = 'Nieuw-Balinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9415', `location` = 'Hijken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9422', `location` = 'Smilde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9231', `location` = 'Surhuisterveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8444', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9022', `location` = 'Mantgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9053', `location` = 'Feinsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9055', `location` = 'Britsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9203', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8883', `location` = 'Kaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9262', `location` = 'Sumar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8618', `location` = 'Oosthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8658', `location` = 'Greonterp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8711', `location` = 'Workum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8516', `location` = 'Doniaga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8805', `location` = 'Hitzum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9144', `location` = 'Hantumhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9154', `location` = 'Foudgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9291', `location` = 'Kollum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9293', `location` = 'Kollumerpomp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7312', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7314', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6825', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6826', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3784', `location` = 'Terschuur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4105', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6924', `location` = 'Loo Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6732', `location` = 'Harskamp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3851', `location` = 'Ermelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5331', `location` = 'Kerkdriel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5334', `location` = 'Velddriel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6515', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6546', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3881', `location` = 'Putten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6882', `location` = 'Velp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4062', `location` = 'Zennewijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7382', `location` = 'Klarenbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6914', `location` = 'Herwen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7064', `location` = 'Silvolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7076', `location` = 'Varsselder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7156', `location` = 'Beltrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7271', `location` = 'Borculo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4182', `location` = 'Neerijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9743', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9797', `location` = 'Thesinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9581', `location` = 'Musselkanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9942', `location` = ''t Waar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9625', `location` = 'Overschild', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9972', `location` = 'Niekerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9364', `location` = 'Nuis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9805', `location` = 'Briltil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9866', `location` = 'Lutjegast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9903', `location` = 'Appingedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9907', `location` = 'Losdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9911', `location` = 'Oosterwijtwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9913', `location` = 'Eenum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5851', `location` = 'Afferden L', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6295', `location` = 'Lemiers', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5813', `location` = 'Ysselsteyn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5861', `location` = 'Wanssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5962', `location` = 'Melderslo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5963', `location` = 'Hegelsom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6075', `location` = 'Herkenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6127', `location` = 'Grevenbicht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6451', `location` = 'Schinveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6456', `location` = 'Bingelrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4661', `location` = 'Halsteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5427', `location` = 'Boekel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5821', `location` = 'Vierlingsbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5827', `location` = 'Vortum-Mullem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5281', `location` = 'Boxtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4847', `location` = 'Teteringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5756', `location` = 'Vlierden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5524', `location` = 'Steensel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5647', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4942', `location` = 'Raamsdonksveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5706', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5085', `location` = 'Esbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5344', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5394', `location` = 'Oijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5292', `location` = 'Gemonde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4652', `location` = 'Steenbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4681', `location` = 'Nieuw-Vossemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5044', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5502', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4631', `location` = 'Hoogerheide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4744', `location` = 'Bosschenhoofd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4704', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4781', `location` = 'Moerdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4855', `location` = 'Galder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5663', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5664', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5461', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4285', `location` = 'Woudrichem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1057', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1081', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1934', `location` = 'Egmond-Binnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1451', `location` = 'Purmerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1503', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1696', `location` = 'Oosterblokker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1405', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3811', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3412', `location` = 'Lopikerkapel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7751', `location` = 'Dalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7756', `location` = 'Stieltjeskanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7847', `location` = ''t Haantje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7853', `location` = 'Wezuperbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7855', `location` = 'Meppen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7929', `location` = 'Nieuwlande Coevorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7903', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7904', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7906', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7949', `location` = 'Rogat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9461', `location` = 'Gieten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7877', `location` = '2e Valthermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9524', `location` = 'Buinerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9564', `location` = 'Zandberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8351', `location` = 'Wapserveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8456', `location` = 'De Knipe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8834', `location` = 'Baard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8911', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9241', `location` = 'Wijnjewoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9243', `location` = 'Bakkeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9212', `location` = 'Boornbergum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8891', `location` = 'Midsland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8893', `location` = 'Landerum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8702', `location` = 'Bolsward', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9033', `location` = 'Deinum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9078', `location` = 'Oudebildtzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9148', `location` = 'Hiaure', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7333', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3781', `location` = 'Voorthuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6713', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6741', `location` = 'Lunteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7351', `location` = 'Hoenderloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3846', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6582', `location` = 'Heumen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6534', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6663', `location` = 'Lent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8094', `location` = 'Hattemerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7231', `location` = 'Warnsveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7075', `location` = 'Etten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7135', `location` = 'Harreveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7021', `location` = 'Zelhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7226', `location` = 'Bronkhorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6942', `location` = 'Didam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9723', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9728', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9584', `location` = 'Mussel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9607', `location` = 'Foxhol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9608', `location` = 'Westerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9954', `location` = 'Tinallinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9359', `location` = 'Boerakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9946', `location` = 'Woldendorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9948', `location` = 'Termunterzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6371', `location` = 'Landgraaf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6235', `location` = 'Meerssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6041', `location` = 'Roermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5922', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5927', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5812', `location` = 'Heide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6121', `location` = 'Born', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6165', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6155', `location` = 'Puth', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4616', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5441', `location` = 'Oeffelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4813', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4816', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5621', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4944', `location` = 'Raamsdonk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5364', `location` = 'Escharen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5223', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5252', `location` = 'Vlijmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5367', `location` = 'Macharen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4735', `location` = 'Zegge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5505', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5583', `location` = 'Waalre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5144', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5422', `location` = 'Gemert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5437', `location` = 'Beers NB', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4271', `location` = 'Dussen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4273', `location` = 'Hank', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1536', `location` = 'Markenbinnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1019', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1046', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1060', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1071', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1104', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1871', `location` = 'Schoorl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1111', `location` = 'Diemen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2011', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2157', `location` = 'Abbenes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1852', `location` = 'Heiloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1785', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1834', `location` = 'Sint Pancras', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1251', `location` = 'Laren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1719', `location` = 'Aartswoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1755', `location` = 'Petten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1384', `location` = 'Weesp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3834', `location` = 'Leusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3514', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3543', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3583', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3931', `location` = 'Woudenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3402', `location` = 'IJsselstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3705', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4471', `location` = 'Wolphaartsdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4568', `location` = 'Nieuw Namen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4505', `location` = 'Zuidzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2405', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2614', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2623', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2803', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2514', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2317', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2324', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2981', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2988', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3031', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3111', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3121', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2172', `location` = 'Sassenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2671', `location` = 'Naaldwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2676', `location` = 'Maasdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3299', `location` = 'Maasdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2974', `location` = 'Brandwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7532', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7548', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7701', `location` = 'Dedemsvaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7707', `location` = 'Balkbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7779', `location` = 'Holthone', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7582', `location` = 'Losser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7586', `location` = 'Overdinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7576', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7736', `location` = 'Beerze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7651', `location` = 'Tubbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8031', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8339', `location` = 'Marijenkampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7462', `location` = 'Rijssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8196', `location` = 'Welsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8281', `location` = 'Genemuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1333', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1349', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1353', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9448', `location` = 'Marwijksoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7984', `location` = 'Dieverbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7986', `location` = 'Wittelte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8384', `location` = 'Wilhelminaoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8438', `location` = 'Wateren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9483', `location` = 'Zeegse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9411', `location` = 'Beilen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9416', `location` = 'Oranje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9434', `location` = 'Eursinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8442', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8452', `location` = 'Nieuweschoot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8458', `location` = 'Tjalleberd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8937', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9007', `location` = 'Idaerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9008', `location` = 'Reduzum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8485', `location` = 'Munnekeburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8553', `location` = 'Indijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8601', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8632', `location` = 'Tirns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8743', `location` = 'Hichtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8771', `location` = 'Nijland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8774', `location` = 'Wolsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8775', `location` = 'Nijhuizum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9014', `location` = 'Tersoal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8467', `location` = 'Vegelinsoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8505', `location` = 'Snikzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8517', `location` = 'Scharsterbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8574', `location` = 'Bakhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9073', `location` = 'Marrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9132', `location` = 'Engwierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9133', `location` = 'Anjum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9145', `location` = 'Ternaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9153', `location` = 'Brantgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7322', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6642', `location` = 'Beuningen Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4119', `location` = 'Ravenswaaij', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7005', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6714', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8082', `location` = 'Elburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8181', `location` = 'Heerde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8194', `location` = 'Veessen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3862', `location` = 'Nijkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6532', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8095', `location` = ''t Loo Oldebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3882', `location` = 'Putten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7395', `location` = 'Teuge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7113', `location` = 'Winterswijk Henxel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5314', `location` = 'Bruchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6909', `location` = 'Babberich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6578', `location` = 'Leuth', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4155', `location` = 'Gellicum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4174', `location` = 'Hellouw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9714', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9731', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9755', `location` = 'Onnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9695', `location` = 'Bellingwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9957', `location` = 'Saaxumhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9973', `location` = 'Houwerzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9982', `location` = 'Uithuizermeeden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9366', `location` = 'Jonkersvaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9831', `location` = 'Aduard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9863', `location` = 'Doezum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9909', `location` = 'Spijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6599', `location` = 'Ven-Zelderheide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6417', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6433', `location` = 'Hoensbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6035', `location` = 'Ospel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6092', `location` = 'Leveroy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6294', `location` = 'Vijlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6039', `location` = 'Stramproy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6273', `location` = 'Ingber', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6123', `location` = 'Holtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5104', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5511', `location` = 'Knegsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5624', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5628', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5212', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5373', `location` = 'Herpen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5272', `location` = 'Sint-Michielsgestel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5711', `location` = 'Someren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4655', `location` = 'De Heen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5013', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5405', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5165', `location` = 'Waspik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4645', `location` = 'Putte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5527', `location` = 'Hapert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5531', `location` = 'Bladel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5661', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4265', `location` = 'Genderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1823', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1042', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1058', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1062', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1862', `location` = 'Bergen (NH)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2111', `location` = 'Aerdenhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1113', `location` = 'Diemen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1473', `location` = 'Warder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2022', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2063', `location` = 'Spaarndam gem. Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2131', `location` = 'Hoofddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2132', `location` = 'Hoofddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2158', `location` = 'Buitenkaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1786', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1622', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1671', `location` = 'Medemblik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1676', `location` = 'Twisk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1693', `location` = 'Wervershoof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1795', `location` = 'De Cocksdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2041', `location` = 'Zandvoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1617', `location` = 'Westwoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1641', `location` = 'Spierdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1642', `location` = 'Spierdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3751', `location` = 'Bunschoten-Spakenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3527', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3581', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3445', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3612', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4441', `location` = 'Ovezande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4481', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4584', `location` = 'Kuitaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4325', `location` = 'Renesse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4327', `location` = 'Serooskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4528', `location` = 'Sint Kruis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2391', `location` = 'Hazerswoude-Dorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3231', `location` = 'Vierpolders', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4205', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2596', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2318', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3652', `location` = 'Woerdense Verlaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2202', `location` = 'Noordwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3352', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3354', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3074', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3085', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3197', `location` = 'Botlek Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3362', `location` = 'Sliedrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2723', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2725', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2662', `location` = 'Bergschenhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2684', `location` = 'Ter Heijde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2693', `location` = ''s-Gravenzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2371', `location` = 'Roelofarendsveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2851', `location` = 'Haastrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7722', `location` = 'Dalfsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7511', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7702', `location` = 'Dedemsvaart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7785', `location` = 'Anevelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7794', `location` = 'Rheeze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7557', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8265', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8141', `location` = 'Heino', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7665', `location` = 'Albergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8336', `location` = 'Baars', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7561', `location` = 'Deurningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7596', `location` = 'Rossum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1313', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1357', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9405', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9409', `location` = 'Loon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9488', `location` = 'Zeijerveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7825', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7916', `location` = 'Elim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9444', `location` = 'Grolloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9451', `location` = 'Rolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9452', `location` = 'Nijlande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9304', `location` = 'Lieveren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9311', `location` = 'Nieuw-Roden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9321', `location` = 'Peize', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7975', `location` = 'Uffelte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7937', `location` = 'Tiendeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9423', `location` = 'Hoogersmilde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8862', `location` = 'Harlingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8914', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8922', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9083', `location` = 'Snakkerburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8408', `location` = 'Lippenhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9202', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8612', `location` = 'Idzega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8615', `location` = 'Blauwhuis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8637', `location` = 'Wiuwert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8511', `location` = 'Goingarijp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8532', `location` = 'Lemmer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8572', `location` = 'Rijs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9136', `location` = 'Paesens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9155', `location` = 'Raard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7371', `location` = 'Loenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4115', `location` = 'Asch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6718', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6733', `location` = 'Wekerom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8052', `location` = 'Hattem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6891', `location` = 'Rozendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7439', `location` = 'Steenenkamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6601', `location` = 'Wijchen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6901', `location` = 'Zevenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6626', `location` = 'Alphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6852', `location` = 'Huissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4156', `location` = 'Rumpt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4191', `location` = 'Geldermalsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9794', `location` = 'Lellens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9502', `location` = 'Stadskanaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9677', `location` = 'Heiligerlee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9603', `location` = 'Hoogezand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9964', `location` = 'Wehe-den Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9367', `location` = 'De Wilp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9825', `location` = 'Lucaswolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9827', `location` = 'Lettelbert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9992', `location` = 'Huizinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6414', `location` = 'Heerlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6467', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6584', `location` = 'Molenhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6341', `location` = 'Walem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5964', `location` = 'Meterik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6086', `location` = 'Neer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6114', `location` = 'Susteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6118', `location` = 'Nieuwstadt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6271', `location` = 'Gulpen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6278', `location` = 'Beutenaken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5988', `location` = 'Helden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6251', `location` = 'Eckelrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6265', `location` = 'Sint Geertruid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6174', `location` = 'Sweikhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4621', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4622', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5825', `location` = 'Overloon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5826', `location` = 'Groeningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5298', `location` = 'Liempde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4819', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4837', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5655', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5382', `location` = 'Vinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5171', `location` = 'Kaatsheuvel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5062', `location` = 'Oisterwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5366', `location` = 'Megen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5271', `location` = 'Den Dungen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5271', `location` = 'Sint-Michielsgestel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5291', `location` = 'Gemonde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5691', `location` = 'Son en Breugel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5263', `location` = 'Vught', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4885', `location` = 'Achtmaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4709', `location` = 'Nispen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5449', `location` = 'Rijkevoort-De Walsert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4782', `location` = 'Moerdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5465', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4266', `location` = 'Eethen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1486', `location` = 'West-Graftdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1843', `location` = 'Grootschermer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1189', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1013', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1018', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1082', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1107', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1865', `location` = 'Bergen aan Zee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1902', `location` = 'Castricum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1477', `location` = 'Hobrede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2104', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1723', `location` = 'Noord-Scharwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1663', `location` = 'De Weere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1443', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1751', `location` = 'Schagerbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1541', `location` = 'Koog aan de Zaan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1544', `location` = 'Zaandijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1534', `location` = 'Oostknollendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1767', `location` = 'Kolhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3813', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3455', `location` = 'Haarzuilens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3563', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3902', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4132', `location` = 'Vianen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4455', `location` = 'Nieuwdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4458', `location` = 'Wolphaartsdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4539', `location` = 'Spui', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4374', `location` = 'Zoutelande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4317', `location` = 'Noordgouwe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4485', `location` = 'Kats', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4501', `location` = 'Oostburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2611', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2627', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4201', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2497', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2526', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2542', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2548', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3147', `location` = 'Maassluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2212', `location` = 'Noordwijkerhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3024', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3051', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3062', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2284', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3134', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3137', `location` = 'Vlaardingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2741', `location` = 'Waddinxveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2728', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2261', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2266', `location` = 'Leidschendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2935', `location` = 'Ouderkerk aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2961', `location` = 'Kinderdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7721', `location` = 'Dalfsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7416', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7418', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7551', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7585', `location` = 'Glane', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7572', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7577', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8015', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8326', `location` = 'Sint Jansklooster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8335', `location` = 'Witte Paarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8375', `location` = 'Oldemarkt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8312', `location` = 'Creil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8316', `location` = 'Marknesse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7761', `location` = 'Schoonebeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7941', `location` = 'Meppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9447', `location` = 'Papenvoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9536', `location` = 'Ees', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9305', `location` = 'Roderesch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9491', `location` = 'Zeijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9432', `location` = 'Zuidveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8443', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8445', `location` = 'Heerenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8449', `location` = 'Terband', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8927', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9003', `location` = 'Warten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9082', `location` = 'Miedum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9223', `location` = 'Houtigehage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8882', `location` = 'Hee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8392', `location` = 'Boijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8481', `location` = 'Nijetrijne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8711', `location` = 'Ferwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8823', `location` = 'Lollum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8844', `location` = 'Hinnaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8522', `location` = 'Tjerkgaast', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8541', `location` = 'Akmarijp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9032', `location` = 'Blessum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9043', `location` = 'Wier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9107', `location` = 'Jannum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9297', `location` = 'Veenklooster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7329', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6814', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3774', `location` = 'Kootwijkerbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4023', `location` = 'Rijswijk (GLD)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4117', `location` = 'Erichem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3841', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6994', `location` = 'De Steeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5316', `location` = 'Delwijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6902', `location` = 'Zevenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7206', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7207', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6685', `location` = 'Haalderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9671', `location` = 'Winschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3454', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3645', `location` = 'Vinkeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4562', `location` = 'Hulst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4482', `location` = 'Kloetinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4316', `location` = 'Zonnemaire', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4522', `location` = 'Biervliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3238', `location` = 'Zwartewaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2902', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3328', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2517', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2597', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2235', `location` = 'Valkenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2925', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2351', `location` = 'Leiderdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2353', `location` = 'Leiderdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3198', `location` = 'Europoort Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2288', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2721', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2291', `location` = 'Wateringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2375', `location` = 'Rijpwetering', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2451', `location` = 'Leimuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2275', `location` = 'Voorburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3245', `location` = 'Sommelsdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2641', `location` = 'Pijnacker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3211', `location` = 'Geervliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3265', `location` = 'Piershil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2971', `location` = 'Bleskensgraaf ca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7411', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7542', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7481', `location` = 'Haaksbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7772', `location` = 'Hardenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7788', `location` = 'Anerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7955', `location` = 'IJhorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7664', `location` = 'Manderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7666', `location` = 'Fleringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7645', `location` = 'Wierden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8021', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8042', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8066', `location` = 'Belt-Schutsloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7472', `location` = 'Goor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8121', `location` = 'Olst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1318', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1321', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8241', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8242', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6668', `location` = 'Randwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7223', `location` = 'Baak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7224', `location` = 'Rha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4197', `location` = 'Buurmalsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9736', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9742', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9747', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9681', `location` = 'Midwolda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9691', `location` = 'Oudezijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9785', `location` = 'Zuidwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9361', `location` = 'Boerakker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9363', `location` = 'Marum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9811', `location` = 'Enumatil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9845', `location` = 'Visvliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9987', `location` = 'Zijldijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6372', `location` = 'Landgraaf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6445', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6469', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5863', `location` = 'Blitterswijck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5111', `location` = 'Baarle-Nassau', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4625', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5682', `location` = 'Best', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5835', `location` = 'Beugen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4811', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4812', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4824', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4827', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5751', `location` = 'Deurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5504', `location` = 'Knegsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4941', `location` = 'Raamsdonksveer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5124', `location` = 'Molenschot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5052', `location` = 'Goirle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5241', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5151', `location` = 'Drunen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5396', `location` = 'Lithoijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5432', `location` = 'Cuijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5439', `location` = 'Linden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6028', `location` = 'Gastel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4758', `location` = 'Standdaarbuiten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4924', `location` = 'Drimmelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4858', `location` = 'Ulvenhout AC', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5534', `location` = 'Netersel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5466', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5469', `location` = 'Erp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4288', `location` = 'Uitwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1646', `location` = 'Ursem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1011', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1462', `location` = 'Middenbeemster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1873', `location` = 'Groet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1944', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1949', `location` = 'Wijk aan Zee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1921', `location` = 'Akersloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1135', `location` = 'Edam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1475', `location` = 'Beets', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2032', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2065', `location` = 'Vijfhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2106', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1222', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1628', `location` = 'Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1272', `location` = 'Huizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1832', `location` = 'Koedijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1718', `location` = 'Hoogwoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1446', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1741', `location` = 'Schagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1381', `location` = 'Weesp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1383', `location` = 'Weesp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1631', `location` = 'Oudendijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1648', `location` = 'De Goorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1711', `location` = 'Hensbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1733', `location` = 'Nieuwe Niedorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1769', `location` = 'Haringhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1403', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3828', `location` = 'Hoogland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3405', `location` = 'Benschop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7843', `location` = 'Erm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7813', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7912', `location` = 'Nieuweroord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7936', `location` = 'Tiendeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9453', `location` = 'Eldersloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9658', `location` = 'Eexterveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7859', `location` = 'Eeserveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8491', `location` = 'Akkrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8427', `location` = 'Ravenswoud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8428', `location` = 'Fochteloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8401', `location` = 'Gorredijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9254', `location` = 'Hurdegaryp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8554', `location` = 'Ypecolsga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8641', `location` = 'Rien', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8747', `location` = 'Wons', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8754', `location` = 'Makkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8758', `location` = 'Allingawier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8766', `location` = 'Breezanddijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8464', `location` = 'Sintjohannesga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8531', `location` = 'Lemmer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8542', `location` = 'Terkaple', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8814', `location` = 'Zweins', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8843', `location` = 'Spannum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9298', `location` = 'Kollumerzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7095', `location` = 'De Heurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7323', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7341', `location` = 'Beemte Broekland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3785', `location` = 'Zwartebroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4021', `location` = 'Maurik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7031', `location` = 'Wehl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5327', `location` = 'Hurwenen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6521', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3925', `location` = 'Scherpenzeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6987', `location` = 'Giesbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6988', `location` = 'Lathum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7065', `location` = 'Sinderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6575', `location` = 'Persingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7048', `location` = 'Wijnbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4152', `location` = 'Rhenoy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9711', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9646', `location` = 'Veendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9545', `location` = 'Bourtange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9981', `location` = 'Uithuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9988', `location` = 'Usquert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9812', `location` = 'Enumatil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9892', `location` = 'Feerwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9902', `location` = 'Appingedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5855', `location` = 'Well L', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6031', `location` = 'Nederweert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5975', `location` = 'Sevenum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6093', `location` = 'Heythuysen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5724', `location` = 'Ommel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5683', `location` = 'Best', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5831', `location` = 'Boxmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5657', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4877', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4878', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5076', `location` = 'Haaren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4902', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5355', `location` = 'Neerlangel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4722', `location` = 'Schijf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5037', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5501', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5423', `location` = 'Handel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4741', `location` = 'Hoeven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4796', `location` = 'Oudemolen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4861', `location` = 'Chaam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5482', `location` = 'Schijndel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4251', `location` = 'Werkendam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1815', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1827', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1086', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1102', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1942', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1947', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2014', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1687', `location` = 'Wognum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1448', `location` = 'Purmerend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1611', `location` = 'Bovenkarspel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3737', `location` = 'Groenekan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3754', `location` = 'Eemdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3461', `location` = 'Linschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3451', `location` = 'Vleuten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3551', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3901', `location` = 'Veenendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3941', `location` = 'Doorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4475', `location` = 'Wilhelminadorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4481', `location` = 'Kloetinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4566', `location` = 'Heikant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4543', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4675', `location` = 'Sint Philipsland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4508', `location` = 'Waterlandkerkje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4529', `location` = 'Eede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2471', `location` = 'Zwammerdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3237', `location` = 'Zwartewaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2626', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3311', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4208', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2513', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2582', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2587', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2225', `location` = 'Katwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2922', `location` = 'Krimpen aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2315', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3078', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3195', `location` = 'Pernis Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2241', `location` = 'Wassenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2245', `location` = 'Wassenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2635', `location` = 'Den Hoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3243', `location` = 'Stad aan 't Haringvliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3247', `location` = 'Herkingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3295', `location` = ''s-Gravendeel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2977', `location` = 'Goudriaan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7601', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7604', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7798', `location` = 'Collendoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7555', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8261', `location` = 'Kampen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7587', `location` = 'de Lutte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7954', `location` = 'Rouveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7676', `location` = 'Westerhaar-Vriezenveensewijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7496', `location` = 'Hengevelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1312', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1339', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1352', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8256', `location` = 'Biddinghuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7861', `location` = 'Oosterhesselen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7908', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7873', `location` = 'Odoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7991', `location` = 'Dwingeloo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9284', `location` = 'Augustinusga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9161', `location` = 'Hollum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8494', `location` = 'Nes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9027', `location` = 'Hilaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9085', `location` = 'Teerns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9422', `location` = 'Beetsterzwaag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8631', `location` = 'Loënga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8644', `location` = 'Dearsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8735', `location` = 'Itens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9013', `location` = 'Poppenwier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8535', `location` = 'Follega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8571', `location` = 'Harich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8816', `location` = 'Skingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9034', `location` = 'Marsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9141', `location` = 'Wierum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9142', `location` = 'Moddergat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6815', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6974', `location` = 'Leuvenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6654', `location` = 'Afferden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6574', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6952', `location` = 'Dieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6706', `location` = 'Wageningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6931', `location` = 'Westervoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6617', `location` = 'Bergharen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6621', `location` = 'Dreumel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6924', `location` = 'Loo Gld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6662', `location` = 'Elst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6666', `location` = 'Heteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7151', `location` = 'Eibergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4175', `location` = 'Haaften', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9696', `location` = 'Oudeschans', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9621', `location` = 'Schildwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9842', `location` = 'Niezijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9904', `location` = 'Krewerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9993', `location` = 'Westerwijtwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6596', `location` = 'Milsbeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6217', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6218', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6369', `location` = 'Simpelveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6301', `location` = 'Valkenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6097', `location` = 'Heel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6162', `location` = 'Geleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6247', `location` = 'Gronsveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6361', `location` = 'Nuth', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5757', `location` = 'Liessel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5102', `location` = 'Dongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5221', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5359', `location` = 'Keent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5694', `location` = 'Son en Breugel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4756', `location` = 'Kruisland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5046', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5071', `location` = 'Udenhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5171', `location` = 'Sprang-Capelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6029', `location` = 'Sterksel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4706', `location` = 'Roosendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5411', `location` = 'Zeeland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5841', `location` = 'Oploo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4759', `location` = 'Noordhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4927', `location` = 'Hooge Zwaluwe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4261', `location` = 'Wijk en Aalburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1026', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1028', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1047', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1093', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2061', `location` = 'Bloemendaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2021', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2036', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1438', `location` = 'Oude Meer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2133', `location` = 'Hoofddorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1962', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1781', `location` = 'Den Helder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1619', `location` = 'Andijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1115', `location` = 'Duivendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1744', `location` = 'Sint Maarten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1506', `location` = 'Zaandam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1562', `location` = 'Krommenie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1566', `location` = 'Assendelft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1153', `location` = 'Zuiderwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1231', `location` = 'Loosdrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1736', `location` = 'Zijdewind', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1768', `location` = 'Barsingerhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3992', `location` = 'Houten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3831', `location` = 'Leusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1396', `location` = 'Baambrugge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3646', `location` = 'Waverveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3621', `location` = 'Breukelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4121', `location` = 'Everdingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4435', `location` = 'Baarland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4443', `location` = 'Nisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4458', `location` = ''s-Heer Arendskerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4575', `location` = 'Zuiddorpe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4698', `location` = 'Oud-Vossemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4305', `location` = 'Ouwerkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2401', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3312', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2211', `location` = 'De Zilk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3353', `location` = 'Papendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2987', `location` = 'Ridderkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3045', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3069', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3081', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3082', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3083', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2252', `location` = 'Voorschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2742', `location` = 'Waddinxveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2717', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3291', `location` = 'Strijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2957', `location` = 'Nieuw-Lekkerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7711', `location` = 'Nieuwleusen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7434', `location` = 'Lettele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7797', `location` = 'Rheezerveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7559', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7615', `location` = 'Harbrinkhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7667', `location` = 'Reutum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7645', `location` = 'Hoge Hexel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8011', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8012', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8017', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8022', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8371', `location` = 'Scheerwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7635', `location` = 'Lattrop-Breklenkamp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1354', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6535', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9741', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9746', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9675', `location` = 'Winschoten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9944', `location` = 'Nieuwolda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9561', `location` = 'Ter Apel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9617', `location` = 'Harkstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9402', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7854', `location` = 'Aalden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7766', `location` = 'Nieuw-Schoonebeek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7905', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7914', `location` = 'Noordscheschut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8437', `location` = 'Zorgvlied', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9493', `location` = 'De Punt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9495', `location` = 'Winde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7928', `location` = 'Stuifzand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8872', `location` = 'Midlum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8941', `location` = 'Akkrum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8915', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8921', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9087', `location` = 'Swichum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8403', `location` = 'Jonkerslân', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9218', `location` = 'Opeinde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8884', `location` = 'Baaiduinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8471', `location` = 'Wolvega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8489', `location` = 'Slijkenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8732', `location` = 'Kûbaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8752', `location` = 'Kornwerderzand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8772', `location` = 'Tjalhuizum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8821', `location` = 'Kimswerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8466', `location` = 'Nijehaske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8513', `location` = 'Ouwsterhaule', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8525', `location` = 'Langweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8561', `location` = 'Balk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8806', `location` = 'Achlum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8852', `location` = 'Firdgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8853', `location` = 'Klooster Lidlum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9077', `location` = 'Vrouwenparochie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9146', `location` = 'Hantumeruitburen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9152', `location` = 'Waaxens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9176', `location` = 'Lichtaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3792', `location` = 'Achterveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4032', `location` = 'Ommeren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4102', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4103', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6983', `location` = 'Doesburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6631', `location` = 'Horssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8161', `location` = 'Epe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8051', `location` = 'Hattem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7201', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4043', `location` = 'Opheusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7261', `location` = 'Ruurlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6564', `location` = 'Heilig Landstichting', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9712', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3526', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3532', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3704', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3442', `location` = 'Woerden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3471', `location` = 'Kamerik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3604', `location` = 'Maarssen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4231', `location` = 'Meerkerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4696', `location` = 'Stavenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4323', `location` = 'Ellemeet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4486', `location` = 'Colijnsplaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4494', `location` = 'Geersdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2903', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2906', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2616', `location` = 'Delft', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3316', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2492', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2561', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2313', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2331', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3033', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3041', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3042', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3064', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3084', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3113', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2675', `location` = 'Honselersdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3201', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3205', `location` = 'Hekelingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2931', `location` = 'Krimpen aan de Lek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3267', `location` = 'Goudswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3286', `location` = 'Klaaswaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3293', `location` = 'Mookhoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7425', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7428', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7441', `location` = 'Nijverdal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7573', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7475', `location` = 'Markelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8291', `location` = 'Mastenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1332', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1363', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8224', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8239', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6932', `location` = 'Duiven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8084', `location` = ''t Harde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6871', `location` = 'Renkum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7106', `location` = 'Winterswijk Ratum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6606', `location` = 'Niftrik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6686', `location` = 'Doornenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6998', `location` = 'Laag-Keppel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6941', `location` = 'Didam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4212', `location` = 'Spijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9713', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9733', `location` = 'Groningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9606', `location` = 'Kropswolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9618', `location` = 'Woudbloem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9627', `location` = 'Hellum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9966', `location` = 'Zuurdijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9999', `location` = 'Stitswerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9832', `location` = 'Den Horn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9885', `location` = 'Lauwerzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9914', `location` = 'Zeerijp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6222', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6229', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6243', `location` = 'Geulle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5804', `location` = 'Venray', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6012', `location` = 'Haler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6083', `location` = 'Nunhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6096', `location` = 'Grathem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6105', `location` = 'Maria Hoop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6285', `location` = 'Epen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6124', `location` = 'Papenhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6132', `location` = 'Sittard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4612', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5623', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5709', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5215', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5233', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5063', `location` = 'Oisterwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5398', `location` = 'Maren-Kessel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5258', `location` = 'Berlicum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5035', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5406', `location` = 'Uden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5261', `location` = 'Vught', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5264', `location` = 'Vught', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5146', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4731', `location` = 'Hoeven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4845', `location` = 'Wagenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5384', `location` = 'Heesch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5467', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4254', `location` = 'Sleeuwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1431', `location` = 'Aalsmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1826', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1831', `location` = 'Koedijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1012', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1032', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1059', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1941', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1481', `location` = 'Purmer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2141', `location` = 'Vijfhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1968', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1215', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1654', `location` = 'Benningbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1511', `location` = 'Oostzaan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1951', `location` = 'Velsen-Noord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1974', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1561', `location` = 'Krommenie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1647', `location` = 'Berkhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1735', `location` = ''t Veld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1399', `location` = 'Muiderberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1404', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1406', `location` = 'Bussum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3739', `location` = 'Hollandsche Rading', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9401', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7846', `location` = 'Noord-Sleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7765', `location` = 'Weiteveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7821', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7901', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7911', `location` = 'Noordscheschut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7966', `location` = 'De Schiphorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7932', `location` = 'Echten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7957', `location` = 'de Wijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9474', `location` = 'Zuidlaarderveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9485', `location` = 'Taarlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9414', `location` = 'Hooghalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9419', `location` = 'Drijber', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9287', `location` = 'Twijzelerheide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9288', `location` = 'Kootstertille', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9289', `location` = 'Drogeham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8871', `location` = 'Midlum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8918', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8931', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9011', `location` = 'Jirnsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9201', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9211', `location` = 'Kortehemmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8895', `location` = 'Lies', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9114', `location` = 'Driezum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8529', `location` = 'Koufurderrige', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8624', `location` = 'Uitwellingerga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8701', `location` = 'Bolsward', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8745', `location` = 'Longerhouw', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8773', `location` = 'Folsgare', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8502', `location` = 'Joure', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8527', `location` = 'Legemeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9079', `location` = 'St.-Jacobiparochie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9124', `location` = 'Jouswier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3888', `location` = 'Uddel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7326', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6964', `location` = 'Hall', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4011', `location` = 'Zoelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4197', `location` = 'Buurmalsen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4107', `location` = 'Culemborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6721', `location` = 'Bennekom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3845', `location` = 'Harderwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8193', `location` = 'Vorchten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6991', `location` = 'Rheden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7383', `location` = 'Voorst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7391', `location` = 'Wilp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7202', `location` = 'Zutphen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7263', `location` = 'Mariënvelde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6674', `location` = 'Herveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7227', `location` = 'Toldijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6579', `location` = 'Kekerdom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9631', `location` = 'Borgercompagnie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9688', `location` = 'Drieborg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9693', `location` = 'Bad Nieuweschans', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9601', `location` = 'Hoogezand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9605', `location` = 'Kiel-Windeweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9616', `location` = 'Scharmer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9621', `location` = 'Slochteren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9773', `location` = 'Wetsinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9355', `location` = 'Midwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9801', `location` = 'Zuidhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9883', `location` = 'Oldehove', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9923', `location` = 'Garsthuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9932', `location` = 'Delfzijl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9937', `location` = 'Meedhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6441', `location` = 'Brunssum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6432', `location` = 'Hoensbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6129', `location` = 'Urmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5915', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5921', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5935', `location` = 'Steyl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6011', `location` = 'Ell', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6067', `location` = 'Linne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6151', `location` = 'Munstergeleen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4614', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4664', `location` = 'Lepelstraat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5681', `location` = 'Best', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5282', `location` = 'Boxtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4814', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4825', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5612', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5613', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5625', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5643', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5653', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5361', `location` = 'Grave', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5237', `location` = ''s-Hertogenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5455', `location` = 'Wilbertoord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5346', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5014', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5552', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5142', `location` = 'Waalwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5764', `location` = 'De Rips', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5094', `location` = 'Lage Mierde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4727', `location` = 'Heerle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6026', `location` = 'Maarheeze', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5464', `location` = 'Veghel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1847', `location` = 'Zuidschermer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1184', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1023', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1035', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1063', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1078', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1109', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1471', `location` = 'Kwadijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2035', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1436', `location` = 'Aalsmeerderbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2102', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1684', `location` = 'Zwaagdijk-Oost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1753', `location` = 'Sint Maartensvlotbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1634', `location` = 'Scharwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1778', `location` = 'Westerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3822', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3749', `location` = 'Lage Vuursche', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3994', `location` = 'Houten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3835', `location` = 'Stoutenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3453', `location` = 'De Meern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3439', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3421', `location` = 'Oudewater', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3481', `location` = 'Harmelen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4463', `location` = 'Goes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4341', `location` = 'Arnemuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4401', `location` = 'Yerseke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4354', `location` = 'Vrouwenpolder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4363', `location` = 'Aagtekerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4387', `location` = 'Vlissingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4493', `location` = 'Kamperland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4503', `location` = 'Groede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3315', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4206', `location` = 'Gorinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2541', `location` = ''s-Gravenhage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3341', `location` = 'Hendrik-Ido-Ambacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2181', `location` = 'Hillegom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2352', `location` = 'Leiderdorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2441', `location` = 'Nieuwveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3651', `location` = 'Woerdense Verlaat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3032', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3196', `location` = 'Hoogvliet Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3196', `location` = 'Vondelingenplaat Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3366', `location` = 'Sliedrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2713', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3335', `location` = 'Zwijndrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2215', `location` = 'Voorhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2295', `location` = 'Kwintsheul', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2376', `location` = 'Nieuwe Wetering', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7607', `location` = 'Almelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7625', `location` = 'Zenderen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7419', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7426', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7431', `location` = 'Diepenveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7435', `location` = 'Okkenbroek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7547', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7775', `location` = 'Lutten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7777', `location` = 'Schuinesloot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7792', `location` = 'Venebrugge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7553', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7556', `location` = 'Hengelo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7642', `location` = 'Notter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8044', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7491', `location` = 'Delden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1328', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8226', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7917', `location` = 'Geesbrug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7884', `location` = 'Barger-Compascuum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7887', `location` = 'Erica', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7892', `location` = 'Klazienaveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7934', `location` = 'Stuifzand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9462', `location` = 'Gasselte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9528', `location` = 'Buinen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9302', `location` = 'Roden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8381', `location` = 'Vledder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8439', `location` = 'Oude Willem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9417', `location` = 'Spier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9281', `location` = 'Harkema', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9164', `location` = 'Buren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8832', `location` = 'Húns', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9009', `location` = 'Friens', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9088', `location` = 'Wirdum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9089', `location` = 'Wytgaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8425', `location` = 'Langedijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8409', `location` = 'Hemrik', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9249', `location` = 'Frieschepalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9205', `location` = 'Drachten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9257', `location` = 'Noardburgum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9265', `location` = 'Suwâld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8614', `location` = 'Oudega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8724', `location` = 'It Heidenskip', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8753', `location` = 'Cornwerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8514', `location` = 'Ouwster-Nijega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8581', `location` = 'Elahuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8583', `location` = 'Kolderwolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9041', `location` = 'Berltsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9175', `location` = 'Reitsum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6821', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3771', `location` = 'Barneveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6971', `location` = 'Brummen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4033', `location` = 'Lienden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6652', `location` = 'Druten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6655', `location` = 'Puiflijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7241', `location` = 'Lochem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5325', `location` = 'Well', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6538', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6543', `location` = 'Nijmegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6914', `location` = 'Lobith', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6917', `location` = 'Spijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7232', `location` = 'Warnsveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7055', `location` = 'Heelweg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7275', `location` = 'Gelselaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7251', `location` = 'Vorden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4185', `location` = 'Est', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4214', `location` = 'Vuren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9665', `location` = 'Oude Pekela', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9697', `location` = 'Blijham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9633', `location` = 'Tripscompagnie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9351', `location` = 'Leek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9828', `location` = 'Oostwold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9833', `location` = 'Den Ham', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9886', `location` = 'Saaksum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9891', `location` = 'Ezinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5854', `location` = 'Bergen L', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6461', `location` = 'Kerkrade', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6215', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6091', `location` = 'Leveroy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6071', `location` = 'Swalmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5924', `location` = 'Venlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5944', `location` = 'Arcen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5808', `location` = 'Oirlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5815', `location` = 'Merselo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5966', `location` = 'America', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6051', `location` = 'Maasbracht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6112', `location` = 'Sint Joost', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5768', `location` = 'Meijel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4617', `location` = 'Bergen op Zoom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5823', `location` = 'Maashees', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4871', `location` = 'Etten-Leur', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5438', `location` = 'Gassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5268', `location` = 'Helvoirt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5296', `location` = 'Esch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5256', `location` = 'Heusden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5454', `location` = 'Sint Hubert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4903', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4906', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4711', `location` = 'St. Willebrord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5509', `location` = 'Veldhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5262', `location` = 'Vught', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4731', `location` = 'Oudenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5476', `location` = 'Vorstenbosch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4284', `location` = 'Rijswijk (NB)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1822', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1055', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1068', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1091', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1092', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1105', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1165', `location` = 'Halfweg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1695', `location` = 'Blokker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1724', `location` = 'Oudkarspel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1661', `location` = 'De Weere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1746', `location` = 'Dirkshorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1973', `location` = 'IJmuiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2116', `location` = 'Bentveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1775', `location` = 'Middenmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1412', `location` = 'Naarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3815', `location` = 'Amersfoort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3572', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3962', `location` = 'Wijk bij Duurstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3431', `location` = 'Nieuwegein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3474', `location` = 'Zegveld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3972', `location` = 'Driebergen-Rijsenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4141', `location` = 'Leerdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4561', `location` = 'Hulst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4423', `location` = 'Schore', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4331', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4411', `location` = 'Rilland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4491', `location` = 'Wissenkerke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2951', `location` = 'Alblasserdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2952', `location` = 'Alblasserdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2404', `location` = 'Hazerswoude-Dorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2806', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3343', `location` = 'Hendrik-Ido-Ambacht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2312', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2334', `location` = 'Leiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3015', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3029', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3114', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3125', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3235', `location` = 'Rockanje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2242', `location` = 'Wassenaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2729', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2673', `location` = 'Naaldwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2694', `location` = ''s-Gravenzande', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2841', `location` = 'Moordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3255', `location` = 'Oude-Tonge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3203', `location` = 'Spijkenisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3209', `location` = 'Hekelingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2941', `location` = 'Krimpen aan de Lek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3297', `location` = 'Puttershoek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2967', `location` = 'Langerak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7417', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7422', `location` = 'Deventer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7562', `location` = 'Deurningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8148', `location` = 'Lemele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8106', `location` = 'Mariënheem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7641', `location` = 'Wierden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8013', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8034', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8342', `location` = 'Basse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8362', `location` = 'Nederland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3899', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8254', `location` = 'Dronten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8232', `location` = 'Lelystad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3521', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3534', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3571', `location` = 'Utrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3706', `location` = 'Zeist', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3953', `location` = 'Maarsbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3958', `location` = 'Amerongen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3626', `location` = 'Nieuwer Ter Aa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3633', `location` = 'Vreeland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4454', `location` = 'Borssele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4474', `location` = 'Kattendijke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4586', `location` = 'Lamswaarde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4337', `location` = 'Middelburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4537', `location` = 'Terneuzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4554', `location` = 'Westdorpe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4308', `location` = 'Sirjansland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4504', `location` = 'Nieuwvliet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2403', `location` = 'Alphen aan den Rijn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3231', `location` = 'Brielle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2907', `location` = 'Capelle aan den IJssel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3319', `location` = 'Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2805', `location` = 'Gouda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2342', `location` = 'Oegstgeest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3027', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3063', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3068', `location` = 'Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3194', `location` = 'Hoogvliet Rotterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2286', `location` = 'Rijswijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3116', `location` = 'Schiedam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3171', `location` = 'Poortugaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3234', `location` = 'Tinte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2724', `location` = 'Zoetermeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2995', `location` = 'Heerjansdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2361', `location` = 'Warmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2651', `location` = 'Berkel en Rodenrijs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2465', `location` = 'Rijnsaterwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3256', `location` = 'Achthuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3258', `location` = 'Den Bommel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3261', `location` = 'Oud-Beijerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3262', `location` = 'Oud-Beijerland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3381', `location` = 'Giessenburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7541', `location` = 'Enschede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7691', `location` = 'Bergentheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7574', `location` = 'Oldenzaal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8146', `location` = 'Dalmsholte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8103', `location` = 'Raalte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7662', `location` = 'Hezingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8026', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8028', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8033', `location` = 'Zwolle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8064', `location` = 'Zwartsluis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1309', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1319', `location` = 'Almere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3893', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3896', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3898', `location` = 'Zeewolde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9406', `location` = 'Assen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9486', `location` = 'Rhee', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7822', `location` = 'Emmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7885', `location` = 'Nieuw-Dordrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7913', `location` = 'Hoogeveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9445', `location` = 'Vredenheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9484', `location` = 'Oudemolen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9435', `location` = 'Bruntinge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9441', `location` = 'Orvelte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9442', `location` = 'Elp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9233', `location` = 'Boelenslaan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8414', `location` = 'Nieuwehorne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8917', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8932', `location` = 'Leeuwarden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8497', `location` = 'Goëngahuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9221', `location` = 'Rottevalle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8389', `location` = 'Zandhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8395', `location` = 'Steggerda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9067', `location` = 'Readtsjerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8602', `location` = 'Sneek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8756', `location` = 'Piaam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8763', `location` = 'Parrega', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8515', `location` = 'Oldeouwer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '8565', `location` = 'Sondel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7325', `location` = 'Apeldoorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6822', `location` = 'Arnhem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '3776', `location` = 'Stroe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6982', `location` = 'Doesburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7003', `location` = 'Doetinchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6716', `location` = 'Ede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7214', `location` = 'Epse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5307', `location` = 'Poederoijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5317', `location` = 'Nederhemert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6627', `location` = 'Maasbommel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6658', `location` = 'Beneden-Leeuwen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6659', `location` = 'Wamel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '7054', `location` = 'Westendorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6675', `location` = 'Valburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6678', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4062', `location` = 'Zennewijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4171', `location` = 'Herwijnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9793', `location` = 'Winneweer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9943', `location` = 'Nieuw Scheemda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '9917', `location` = 'Wirdum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6598', `location` = 'Heijen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6213', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6228', `location` = 'Maastricht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6043', `location` = 'Roermond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5864', `location` = 'Meerlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6037', `location` = 'Kelpen-Oler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6109', `location` = 'Ohé en Laak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6102', `location` = 'Echt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '6122', `location` = 'Buchten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5991', `location` = 'Baarlo', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5993', `location` = 'Maasbree', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5114', `location` = 'Castelre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4823', `location` = 'Breda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4851', `location` = 'Ulvenhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5754', `location` = 'Deurne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5622', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5631', `location` = 'Eindhoven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4931', `location` = 'Geertruidenberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5705', `location` = 'Helmond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5244', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5245', `location` = 'Rosmalen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5257', `location` = 'Hedikhuizen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5087', `location` = 'Diessen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5091', `location` = 'Oost West en Middelbeers', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4901', `location` = 'Oosterhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5345', `location` = 'Oss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5351', `location` = 'Herpen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5026', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5049', `location` = 'Tilburg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5555', `location` = 'Valkenswaard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4631', `location` = 'Huijbergen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5737', `location` = 'Lieshout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5541', `location` = 'Reusel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5662', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '5667', `location` = 'Geldrop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '4281', `location` = 'Andel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1432', `location` = 'Aalsmeer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1825', `location` = 'Alkmaar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1182', `location` = 'Amstelveen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1079', `location` = 'Amsterdam', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1464', `location` = 'Westbeemster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1945', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1946', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1948', `location` = 'Beverwijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1489', `location` = 'de Woude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2013', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2015', `location` = 'Haarlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1965', `location` = 'Heemskerk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '2103', `location` = 'Heemstede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1223', `location` = 'Hilversum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1834', `location` = 'Broek op Langedijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1692', `location` = 'Hauwert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1114', `location` = 'Amsterdam-Duivendrecht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1759', `location` = 'Callantsoog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1792', `location` = 'Oudeschild', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1541', `location` = 'Zaandijk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1566', `location` = 'Krommenie', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1616', `location` = 'Hoogkarspel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1697', `location` = 'Schellinkhout', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1145', `location` = 'Katwoude', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1531', `location` = 'Wormer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1731', `location` = 'Winkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'NL', `zip_code` = '1734', `location` = 'Oude Niedorp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';

@@ -56,6 +56,10 @@ class CSVHandler
             for ($i = 1; $i < $num; $i++) {
                 $values = $data[$i];
                 $entry = array_combine($keys, $values);
+
+                $entry['created_at'] = date('Y-m-d H:i:s');
+                $entry['updated_at'] = date('Y-m-d H:i:s');
+
                 $ret[] = $entry;
             }
         } else {

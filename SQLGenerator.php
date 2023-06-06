@@ -4,6 +4,8 @@
  */
 namespace file2sql;
 
+use Exception;
+
 class SQLGenerator
 {
 
@@ -16,7 +18,7 @@ class SQLGenerator
      */
     public static function buildCondition($key, $value, string $operator = '='): string
     {
-        return "$key $operator '$value'";
+        return " `$key` $operator" .  '"' . $value . '"';
     }
 
     /**
@@ -27,9 +29,56 @@ class SQLGenerator
      */
     public static function sqlInsertStatement($table, $data): string
     {
-        $columns    = implode(', ', array_keys($data));
+        //$columns    = implode(', ', array_keys($data));
+        $values = [];
+        foreach ($data as $key => $value) {
+            $values[] = " `$key` = " . '"' . $value . '"';
+        }
         $values     = "'" . implode("', '", $data) . "'";
-        return "INSERT INTO $table ($columns) VALUES ($values);";
+        $sql       = "INSERT INTO $table SET $values;";
+        return $sql. "\n";
+    }
+
+    /**
+     * @throws Exception
+     */
+    public static function sqlMultiIndividualInsertStatements($table, $data) {
+        if (empty($data)) {
+            throw new Exception("No data");
+        }
+
+        $pattern = "/(?<=[a-zA-Z])'(?=[a-zA-Z]|[^\u{0001}-\u{007F}]|[À-ÿ])/";
+        $replace = "\\'";
+
+        $sql     = "";
+
+        foreach ($data as $entry) {
+            $entryValues = [];
+            foreach ($entry as $key => $value) {
+                $key = self::sanitizeValue($key, $pattern, $replace);
+                $value = self::sanitizeValue($value, $pattern, $replace);
+
+                $entryValues[] = "`$key` = '$value'";
+            }
+
+            $sql .= "INSERT INTO $table SET " . implode(", ", $entryValues);
+            $sql .= ";" . PHP_EOL;
+        }
+
+        return  $sql;
+    }
+
+    private static function sanitizeValue($value, $pattern, $replace) {
+        if (is_array($value)) {
+            $sanitizedValues = [];
+            foreach ($value as $item) {
+                $sanitizedValues[] = self::sanitizeValue($item, $pattern, $replace);
+            }
+            return $sanitizedValues;
+        }
+
+        $sanitizedValue = str_replace("\0", "", $value);
+        return preg_replace($pattern, $replace, $sanitizedValue);
     }
 
     /**
@@ -81,7 +130,10 @@ class SQLGenerator
             $updates[] = " `$key` =" . '"' . $value . '"';
         }
 
-        return "UPDATE $table SET " . implode(', ', $updates) . " WHERE $condition;";
+
+        $sql = "UPDATE $table SET " . implode(', ', $updates) . " WHERE $condition;";
+
+        return $sql;
     }
 
     /**
@@ -90,10 +142,16 @@ class SQLGenerator
      * @param $conditions
      * @return string
      */
-    public static function sqlDeleteStatement($table, $conditions): string
+    public static function sqlUpdateDeletedStatement($table, $conditions): string
     {
         //DELETE FROM table_name WHERE condition
-        return "DELETE FROM $table WHERE $conditions;";
+        $sql= "UPDATE $table SET `is_deleted` = 1 WHERE $conditions;";
+        return  $sql. "\n";
+    }
+
+    public static function sqlDeleteStatement($table, $conditions) {
+        $sql = "DELETE FROM $table WHERE $conditions;";
+        return $sql . "\n";
     }
 
     /**
@@ -103,7 +161,8 @@ class SQLGenerator
      */
     public static function sqlDropTable($table): string
     {
-        return "DROP TABLE IF EXISTS $table;";
+        $sql= "DROP TABLE IF EXISTS $table;";
+        return $sql. "\n";
     }
 
     /**

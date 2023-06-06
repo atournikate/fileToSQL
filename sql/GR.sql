@@ -1,103 +1,102 @@
-DELETE FROM orm_zip_code WHERE iso2 = 'GR';
-INSERT INTO orm_zip_code (iso2, zip_code, location, )
-VALUES
-("GR", "84800", "Adamantas"), 
-("GR", "81102", "Agia Paraskevi"), 
-("GR", "84001", "Agia Theodoti"), 
-("GR", "81101", "Agiasos"), 
-("GR", "84300", "Agios Thaleleos"), 
-("GR", "84008", "Amorgos"), 
-("GR", "81200", "Ampeliko"), 
-("GR", "84100", "Ano Manna"), 
-("GR", "84008", "Ano Potamos"), 
-("GR", "84001", "Epano Kampos"), 
-("GR", "84100", "Galissas"), 
-("GR", "847 02", "Ia Municipal Unit"), 
-("GR", "84001", "Kampos"), 
-("GR", "81106", "Kato Tritos"), 
-("GR", "85109", "Kattavia"), 
-("GR", "84302", "Kinidaros"), 
-("GR", "84301", "Koronos"), 
-("GR", "85109", "Lachania"), 
-("GR", "81109", "Lafionas"), 
-("GR", "81104", "Mandamados"), 
-("GR", "84100", "Manna"), 
-("GR", "84100", "Mesaria"), 
-("GR", "81401", "Moudros"), 
-("GR", "83103", "Municipal Unit of Pythagoreio"), 
-("GR", "83104", "Municipal Unit of Pythagoreio"), 
-("GR", "853 02", "Municipality of Kos"), 
-("GR", "85300", "Municipality of Kos"), 
-("GR", "85301", "Municipality of Kos"), 
-("GR", "85302", "Municipality of Kos"), 
-("GR", "85309", "Municipality of Kos"), 
-("GR", "81400", "Myrina"), 
-("GR", "81100", "Mytilene"), 
-("GR", "84300", "Naxos"), 
-("GR", "85700", "Olymbos"), 
-("GR", "81400", "Platy"), 
-("GR", "81100", "Pligoni"), 
-("GR", "81300", "Polichnitos"), 
-("GR", "81400", "Portianou"), 
-("GR", "84001", "Psathi"), 
-("GR", "85100", "Rhodes"), 
-("GR", "81109", "Skoutaros"), 
-("GR", "82300", "Sykiada"), 
-("GR", "84700", "Thira Municipal Unit"), 
-("GR", "81100", "Vareia"), 
-("GR", "82200", "Vrontados"), 
-("GR", "81109", "Ypsilometopo"), 
-("GR", "81401", "Ρουσσοπούλι"), 
-("GR", "18010", "Aegina"), 
-("GR", "18903", "Aianteio"), 
-("GR", "19013", "Anavissos Municipal Unit"), 
-("GR", "19300", "Aspropyrgos"), 
-("GR", "11255", "Athens"), 
-("GR", "13231", "Chaidari"), 
-("GR", "19015", "Chalkoutsi"), 
-("GR", "19018", "Eleusis"), 
-("GR", "19200", "Eleusis"), 
-("GR", "19008", "Erythres"), 
-("GR", "19007", "Grammatiko"), 
-("GR", "19017", "Kalamos"), 
-("GR", "18020", "Kalloni"), 
-("GR", "19100", "Kineta"), 
-("GR", "19400", "Koropi"), 
-("GR", "19018", "Magoula"), 
-("GR", "19011", "Malakasa"), 
-("GR", "19003", "Markopoulo"), 
-("GR", "19100", "Megara"), 
-("GR", "19011", "Milesi"), 
-("GR", "12462", "Municipal Unit of Ano Liosia"), 
-("GR", "13341", "Municipal Unit of Ano Liosia"), 
-("GR", "13451", "Municipal Unit of Ano Liosia"), 
-("GR", "16451", "Municipal Unit of Argyroupoli"), 
-("GR", "16452", "Municipal Unit of Argyroupoli"), 
-("GR", "16452", "Municipal Unit of Elliniko"), 
-("GR", "16777", "Municipal Unit of Elliniko"), 
-("GR", "80100", "Municipal Unit of Kythira"), 
-("GR", "80200", "Municipal Unit of Kythira"), 
-("GR", "143 41", "Municipal Unit of Nea Filadelfeia"), 
-("GR", "15127", "Municipality of Chalandri"), 
-("GR", "15231", "Municipality of Chalandri"), 
-("GR", "15236", "Municipality of Chalandri"), 
-("GR", "15341", "Municipality of Chalandri"), 
-("GR", "154 51", "Municipality of Chalandri"), 
-("GR", "15123", "Municipality of Marousi"), 
-("GR", "15125", "Municipality of Marousi"), 
-("GR", "19005", "Nea Makri"), 
-("GR", "19009", "Nea Makri"), 
-("GR", "19015", "Nea Palatia"), 
-("GR", "154 51", "Neo Psychiko"), 
-("GR", "19015", "Oropos"), 
-("GR", "19009", "Pikermi"), 
-("GR", "19009", "Rafina"), 
-("GR", "19003", "Saint Spyridon"), 
-("GR", "19015", "Skala Oropou"), 
-("GR", "18020", "Taktikoupoli"), 
-("GR", "19500", "Άγιος Κωνσταντίνος"), 
-("GR", "19100", "Αιγειρούσες"), 
-("GR", "17455", "Άλιμος"), 
-("GR", "19008", "Δημοτική Ενότητα Δερβενοχωρίων"), 
-("GR", "19600", "Μάνδρα"), 
-("GR", "19006", "Νέα Πέραμος");
+DELETE FROM orm_zip_code WHERE  `iso2` ="GR";
+
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84800', `location` = 'Adamantas', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81102', `location` = 'Agia Paraskevi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84001', `location` = 'Agia Theodoti', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81101', `location` = 'Agiasos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84300', `location` = 'Agios Thaleleos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84008', `location` = 'Amorgos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81200', `location` = 'Ampeliko', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84100', `location` = 'Ano Manna', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84008', `location` = 'Ano Potamos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84001', `location` = 'Epano Kampos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84100', `location` = 'Galissas', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '847 02', `location` = 'Ia Municipal Unit', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84001', `location` = 'Kampos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81106', `location` = 'Kato Tritos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85109', `location` = 'Kattavia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84302', `location` = 'Kinidaros', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84301', `location` = 'Koronos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85109', `location` = 'Lachania', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81109', `location` = 'Lafionas', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81104', `location` = 'Mandamados', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84100', `location` = 'Manna', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84100', `location` = 'Mesaria', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81401', `location` = 'Moudros', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '83103', `location` = 'Municipal Unit of Pythagoreio', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '83104', `location` = 'Municipal Unit of Pythagoreio', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '853 02', `location` = 'Municipality of Kos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85300', `location` = 'Municipality of Kos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85301', `location` = 'Municipality of Kos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85302', `location` = 'Municipality of Kos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85309', `location` = 'Municipality of Kos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81400', `location` = 'Myrina', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81100', `location` = 'Mytilene', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84300', `location` = 'Naxos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85700', `location` = 'Olymbos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81400', `location` = 'Platy', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81100', `location` = 'Pligoni', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81300', `location` = 'Polichnitos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81400', `location` = 'Portianou', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84001', `location` = 'Psathi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '85100', `location` = 'Rhodes', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81109', `location` = 'Skoutaros', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '82300', `location` = 'Sykiada', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '84700', `location` = 'Thira Municipal Unit', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81100', `location` = 'Vareia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '82200', `location` = 'Vrontados', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81109', `location` = 'Ypsilometopo', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '81401', `location` = 'Ρουσσοπούλι', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '18010', `location` = 'Aegina', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '18903', `location` = 'Aianteio', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19013', `location` = 'Anavissos Municipal Unit', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19300', `location` = 'Aspropyrgos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '11255', `location` = 'Athens', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '13231', `location` = 'Chaidari', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19015', `location` = 'Chalkoutsi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19018', `location` = 'Eleusis', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19200', `location` = 'Eleusis', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19008', `location` = 'Erythres', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19007', `location` = 'Grammatiko', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19017', `location` = 'Kalamos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '18020', `location` = 'Kalloni', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19100', `location` = 'Kineta', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19400', `location` = 'Koropi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19018', `location` = 'Magoula', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19011', `location` = 'Malakasa', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19003', `location` = 'Markopoulo', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19100', `location` = 'Megara', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19011', `location` = 'Milesi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '12462', `location` = 'Municipal Unit of Ano Liosia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '13341', `location` = 'Municipal Unit of Ano Liosia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '13451', `location` = 'Municipal Unit of Ano Liosia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '16451', `location` = 'Municipal Unit of Argyroupoli', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '16452', `location` = 'Municipal Unit of Argyroupoli', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '16452', `location` = 'Municipal Unit of Elliniko', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '16777', `location` = 'Municipal Unit of Elliniko', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '80100', `location` = 'Municipal Unit of Kythira', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '80200', `location` = 'Municipal Unit of Kythira', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '143 41', `location` = 'Municipal Unit of Nea Filadelfeia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15127', `location` = 'Municipality of Chalandri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15231', `location` = 'Municipality of Chalandri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15236', `location` = 'Municipality of Chalandri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15341', `location` = 'Municipality of Chalandri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '154 51', `location` = 'Municipality of Chalandri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15123', `location` = 'Municipality of Marousi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '15125', `location` = 'Municipality of Marousi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19005', `location` = 'Nea Makri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19009', `location` = 'Nea Makri', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19015', `location` = 'Nea Palatia', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '154 51', `location` = 'Neo Psychiko', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19015', `location` = 'Oropos', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19009', `location` = 'Pikermi', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19009', `location` = 'Rafina', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19003', `location` = 'Saint Spyridon', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19015', `location` = 'Skala Oropou', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '18020', `location` = 'Taktikoupoli', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19500', `location` = 'Άγιος Κωνσταντίνος', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19100', `location` = 'Αιγειρούσες', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '17455', `location` = 'Άλιμος', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19008', `location` = 'Δημοτική Ενότητα Δερβενοχωρίων', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19600', `location` = 'Μάνδρα', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'GR', `zip_code` = '19006', `location` = 'Νέα Πέραμος', `` = '', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';

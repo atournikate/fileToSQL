@@ -1,4486 +1,4485 @@
-DELETE FROM orm_zip_code WHERE iso2 = 'LU';
-INSERT INTO orm_zip_code (iso2, zip_code, location)
-VALUES
-("LU", "L-8472", "Eischen"), 
-("LU", "L-8286", "Kehlen"), 
-("LU", "L-8135", "Bridel"), 
-("LU", "L-8161", "Bridel"), 
-("LU", "L-8215", "Mamer"), 
-("LU", "L-8309", "Holzem"), 
-("LU", "L-8363", "Greisch"), 
-("LU", "L-8364", "Hagen"), 
-("LU", "L-8423", "Steinfort"), 
-("LU", "L-4920", "Bascharage"), 
-("LU", "L-4926", "Bascharage"), 
-("LU", "L-4942", "Bascharage"), 
-("LU", "L-4957", "Hautcharage"), 
-("LU", "L-9744", "Deiffelt"), 
-("LU", "L-9768", "Reuler"), 
-("LU", "L-9807", "Hosingen"), 
-("LU", "L-9202", "Diekirch"), 
-("LU", "L-9288", "Diekirch"), 
-("LU", "L-9291", "Diekirch"), 
-("LU", "L-9012", "Ettelbruck"), 
-("LU", "L-9119", "Schieren"), 
-("LU", "L-6380", "Medernach"), 
-("LU", "L-6551", "Berdorf"), 
-("LU", "L-6415", "Echternach"), 
-("LU", "L-6422", "Echternach"), 
-("LU", "L-6452", "Echternach"), 
-("LU", "L-6495", "Echternach"), 
-("LU", "L-6571", "Osweiler"), 
-("LU", "L-7680", "Waldbillig"), 
-("LU", "L-3201", "Bettembourg"), 
-("LU", "L-3269", "Bettembourg"), 
-("LU", "L-4503", "Differdange"), 
-("LU", "L-4583", "Differdange"), 
-("LU", "L-3446", "Dudelange"), 
-("LU", "L-3462", "Dudelange"), 
-("LU", "L-3472", "Dudelange"), 
-("LU", "L-3531", "Dudelange"), 
-("LU", "L-3565", "Dudelange"), 
-("LU", "L-3568", "Dudelange"), 
-("LU", "L-4059", "Esch-sur-Alzette"), 
-("LU", "L-4118", "Esch-sur-Alzette"), 
-("LU", "L-4132", "Esch-sur-Alzette"), 
-("LU", "L-4170", "Esch-sur-Alzette"), 
-("LU", "L-4171", "Esch-sur-Alzette"), 
-("LU", "L-4256", "Esch-sur-Alzette"), 
-("LU", "L-4272", "Esch-sur-Alzette"), 
-("LU", "L-4280", "Esch-sur-Alzette"), 
-("LU", "L-4316", "Esch-sur-Alzette"), 
-("LU", "L-4332", "Esch-sur-Alzette"), 
-("LU", "L-5723", "Aspelt"), 
-("LU", "L-3615", "Kayl"), 
-("LU", "L-3638", "Kayl"), 
-("LU", "L-3677", "Kayl"), 
-("LU", "L-3682", "Kayl"), 
-("LU", "L-3354", "Leudelange"), 
-("LU", "L-3372", "Leudelange"), 
-("LU", "L-4391", "Pontpierre"), 
-("LU", "L-4741", "Pétange"), 
-("LU", "L-4742", "Pétange"), 
-("LU", "L-4878", "Lamadelaine"), 
-("LU", "L-3712", "Rumelange"), 
-("LU", "L-4372", "Belvaux"), 
-("LU", "L-4462", "Belvaux"), 
-("LU", "L-4476", "Belvaux"), 
-("LU", "L-4479", "Soleuvre"), 
-("LU", "L-4483", "Soleuvre"), 
-("LU", "L-3853", "Schifflange"), 
-("LU", "L-3856", "Schifflange"), 
-("LU", "L-3875", "Schifflange"), 
-("LU", "L-3876", "Schifflange"), 
-("LU", "L-6725", "Grevenmacher"), 
-("LU", "L-6726", "Grevenmacher"), 
-("LU", "L-6762", "Grevenmacher"), 
-("LU", "L-6118", "Junglinster"), 
-("LU", "L-5488", "Ehnen"), 
-("LU", "L-5856", "Hesperange"), 
-("LU", "L-5885", "Hesperange"), 
-("LU", "L-5887", "Alzingen"), 
-("LU", "L-5887", "Hesperange"), 
-("LU", "L-1245", "Senningerberg"), 
-("LU", "L-6946", "Niederanven"), 
-("LU", "L-6980", "Rameldange"), 
-("LU", "L-6995", "Rameldange"), 
-("LU", "L-5234", "Sandweiler"), 
-("LU", "L-5254", "Sandweiler"), 
-("LU", "L-5361", "Schrassig"), 
-("LU", "L-7336", "Steinsel"), 
-("LU", "L-8025", "Strassen"), 
-("LU", "L-8099", "Strassen"), 
-("LU", "L-7241", "Bereldange"), 
-("LU", "L-7258", "Helmsange"), 
-("LU", "L-5770", "Weiler-la-Tour"), 
-("LU", "L-1221", "Luxembourg"), 
-("LU", "L-1277", "Luxembourg"), 
-("LU", "L-1283", "Luxembourg"), 
-("LU", "L-1337", "Luxembourg"), 
-("LU", "L-1356", "Luxembourg"), 
-("LU", "L-1361", "Luxembourg"), 
-("LU", "L-1472", "Luxembourg"), 
-("LU", "L-1551", "Luxembourg"), 
-("LU", "L-1615", "Luxembourg"), 
-("LU", "L-1648", "Luxembourg"), 
-("LU", "L-1914", "Luxembourg"), 
-("LU", "L-2163", "Luxembourg"), 
-("LU", "L-2179", "Luxembourg"), 
-("LU", "L-2230", "Luxembourg"), 
-("LU", "L-2262", "Luxembourg"), 
-("LU", "L-2335", "Luxembourg"), 
-("LU", "L-2348", "Luxembourg"), 
-("LU", "L-2519", "Luxembourg"), 
-("LU", "L-2526", "Luxembourg"), 
-("LU", "L-2564", "Luxembourg"), 
-("LU", "L-2620", "Luxembourg"), 
-("LU", "L-2623", "Luxembourg"), 
-("LU", "L-7793", "Bissen"), 
-("LU", "L-7653", "Heffingen"), 
-("LU", "L-7357", "Helmdange"), 
-("LU", "L-7533", "Mersch"), 
-("LU", "L-7568", "Mersch"), 
-("LU", "L-7420", "Cruchten"), 
-("LU", "L-8551", "Noerdange"), 
-("LU", "L-8557", "Petit-Nobressart"), 
-("LU", "L-5353", "Canach"), 
-("LU", "L-5613", "Mondorf-les-Bains"), 
-("LU", "L-5514", "Remich"), 
-("LU", "L-5517", "Remich"), 
-("LU", "L-5427", "Greiveldange"), 
-("LU", "L-9458", "Brandenbourg"), 
-("LU", "L-9407", "Vianden"), 
-("LU", "L-9417", "Vianden"), 
-("LU", "L-9423", "Vianden"), 
-("LU", "L-9501", "Wiltz"), 
-("LU", "L-9534", "Wiltz"), 
-("LU", "L-9557", "Wiltz"), 
-("LU", "L-9579", "Weidingen"), 
-("LU", "L-8352", "Dahlem"), 
-("LU", "L-8479", "Eischen"), 
-("LU", "L-8384", "Koerich"), 
-("LU", "L-8118", "Bridel"), 
-("LU", "L-8146", "Bridel"), 
-("LU", "L-8166", "Bridel"), 
-("LU", "L-8242", "Mamer"), 
-("LU", "L-8246", "Mamer"), 
-("LU", "L-8255", "Mamer"), 
-("LU", "L-8278", "Holzem"), 
-("LU", "L-8311", "Capellen"), 
-("LU", "L-8398", "Roodt/Eisch"), 
-("LU", "L-8411", "Steinfort"), 
-("LU", "L-4916", "Bascharage"), 
-("LU", "L-4917", "Bascharage"), 
-("LU", "L-4963", "Clemency"), 
-("LU", "L-9960", "Hoffelt"), 
-("LU", "L-9711", "Clervaux"), 
-("LU", "L-9766", "Munshausen"), 
-("LU", "L-9912", "Troisvierges"), 
-("LU", "L-9376", "Hoscheid"), 
-("LU", "L-9163", "Kehmen"), 
-("LU", "L-9171", "Michelau"), 
-("LU", "L-9215", "Diekirch"), 
-("LU", "L-9232", "Diekirch"), 
-("LU", "L-9235", "Diekirch"), 
-("LU", "L-9259", "Diekirch"), 
-("LU", "L-9286", "Diekirch"), 
-("LU", "L-9002", "Ettelbruck"), 
-("LU", "L-9052", "Ettelbruck"), 
-("LU", "L-9057", "Ettelbruck"), 
-("LU", "L-9085", "Ettelbruck"), 
-("LU", "L-9180", "Oberfeulen"), 
-("LU", "L-7758", "Birtrange"), 
-("LU", "L-6211", "Consdorf"), 
-("LU", "L-6250", "Scheidgen"), 
-("LU", "L-6251", "Scheidgen"), 
-("LU", "L-6421", "Echternach"), 
-("LU", "L-6579", "Rosport"), 
-("LU", "L-6587", "Steinheim"), 
-("LU", "L-3210", "Bettembourg"), 
-("LU", "L-3218", "Bettembourg"), 
-("LU", "L-3232", "Bettembourg"), 
-("LU", "L-3288", "Bettembourg"), 
-("LU", "L-4510", "Oberkorn"), 
-("LU", "L-4525", "Niederkorn"), 
-("LU", "L-4531", "Differdange"), 
-("LU", "L-4591", "Differdange"), 
-("LU", "L-4609", "Niederkorn"), 
-("LU", "L-4620", "Differdange"), 
-("LU", "L-4642", "Differdange"), 
-("LU", "L-4646", "Niederkorn"), 
-("LU", "L-4678", "Niederkorn"), 
-("LU", "L-4687", "Differdange"), 
-("LU", "L-3417", "Dudelange"), 
-("LU", "L-3433", "Dudelange"), 
-("LU", "L-3449", "Dudelange"), 
-("LU", "L-3515", "Dudelange"), 
-("LU", "L-3549", "Dudelange"), 
-("LU", "L-3564", "Dudelange"), 
-("LU", "L-3596", "Dudelange"), 
-("LU", "L-4037", "Esch-sur-Alzette"), 
-("LU", "L-4040", "Esch-sur-Alzette"), 
-("LU", "L-4154", "Esch-sur-Alzette"), 
-("LU", "L-4156", "Esch-sur-Alzette"), 
-("LU", "L-4211", "Esch-sur-Alzette"), 
-("LU", "L-4289", "Esch-sur-Alzette"), 
-("LU", "L-4370", "Esch-sur-Alzette"), 
-("LU", "L-5712", "Aspelt"), 
-("LU", "L-5755", "Frisange"), 
-("LU", "L-3601", "Kayl"), 
-("LU", "L-3643", "Kayl"), 
-("LU", "L-3761", "Tétange"), 
-("LU", "L-3763", "Tétange"), 
-("LU", "L-3366", "Leudelange"), 
-("LU", "L-3896", "Foetz"), 
-("LU", "L-3921", "Mondercange"), 
-("LU", "L-4713", "Pétange"), 
-("LU", "L-4730", "Pétange"), 
-("LU", "L-4757", "Pétange"), 
-("LU", "L-4823", "Rodange"), 
-("LU", "L-3753", "Rumelange"), 
-("LU", "L-4444", "Belvaux"), 
-("LU", "L-4480", "Belvaux"), 
-("LU", "L-4487", "Belvaux"), 
-("LU", "L-6835", "Boudler"), 
-("LU", "L-6774", "Grevenmacher"), 
-("LU", "L-6184", "Gonderange"), 
-("LU", "L-6632", "Wasserbillig"), 
-("LU", "L-6684", "Mertert"), 
-("LU", "L-6687", "Mertert"), 
-("LU", "L-5417", "Ehnen"), 
-("LU", "L-5481", "Wormeldange"), 
-("LU", "L-8057", "Bertrange"), 
-("LU", "L-8060", "Bertrange"), 
-("LU", "L-5352", "Oetrange"), 
-("LU", "L-5823", "Fentange"), 
-("LU", "L-5838", "Fentange"), 
-("LU", "L-5884", "Hesperange"), 
-("LU", "L-5886", "Alzingen"), 
-("LU", "L-5886", "Hesperange"), 
-("LU", "L-5891", "Fentange"), 
-("LU", "L-5960", "Itzig"), 
-("LU", "L-5974", "Itzig"), 
-("LU", "L-2434", "Senningerberg"), 
-("LU", "L-6970", "Hostert"), 
-("LU", "L-7304", "Heisdorf"), 
-("LU", "L-7314", "Heisdorf"), 
-("LU", "L-7321", "Mullendorf"), 
-("LU", "L-7329", "Heisdorf"), 
-("LU", "L-7332", "Mullendorf"), 
-("LU", "L-1370", "Strassen"), 
-("LU", "L-8002", "Strassen"), 
-("LU", "L-8017", "Strassen"), 
-("LU", "L-8038", "Strassen"), 
-("LU", "L-7215", "Bereldange"), 
-("LU", "L-7220", "Helmsange"), 
-("LU", "L-7242", "Helmsange"), 
-("LU", "L-7245", "Bereldange"), 
-("LU", "L-1151", "Luxembourg"), 
-("LU", "L-1159", "Luxembourg"), 
-("LU", "L-1244", "Luxembourg"), 
-("LU", "L-1354", "Luxembourg"), 
-("LU", "L-1359", "Luxembourg"), 
-("LU", "L-1416", "Luxembourg"), 
-("LU", "L-1450", "Luxembourg"), 
-("LU", "L-1524", "Luxembourg"), 
-("LU", "L-1544", "Luxembourg"), 
-("LU", "L-1633", "Luxembourg"), 
-("LU", "L-1636", "Luxembourg"), 
-("LU", "L-1743", "Luxembourg"), 
-("LU", "L-1820", "Luxembourg"), 
-("LU", "L-1837", "Luxembourg"), 
-("LU", "L-1916", "Luxembourg"), 
-("LU", "L-1934", "Luxembourg"), 
-("LU", "L-2124", "Luxembourg"), 
-("LU", "L-2162", "Luxembourg"), 
-("LU", "L-2167", "Luxembourg"), 
-("LU", "L-2221", "Luxembourg"), 
-("LU", "L-2243", "Luxembourg"), 
-("LU", "L-2270", "Luxembourg"), 
-("LU", "L-2271", "Luxembourg"), 
-("LU", "L-2527", "Luxembourg"), 
-("LU", "L-2531", "Luxembourg"), 
-("LU", "L-2612", "Luxembourg"), 
-("LU", "L-2681", "Luxembourg"), 
-("LU", "L-2720", "Luxembourg"), 
-("LU", "L-2725", "Luxembourg"), 
-("LU", "L-7730", "Colmar-Berg"), 
-("LU", "L-7750", "Colmar-Berg"), 
-("LU", "L-7784", "Bissen"), 
-("LU", "L-7673", "Heffingen"), 
-("LU", "L-7620", "Larochette"), 
-("LU", "L-7633", "Larochette"), 
-("LU", "L-7358", "Lorentzweiler"), 
-("LU", "L-7463", "Pettingen"), 
-("LU", "L-7501", "Mersch"), 
-("LU", "L-7567", "Rollingen"), 
-("LU", "L-8560", "Roodt (Ell)"), 
-("LU", "L-9190", "Vichten"), 
-("LU", "L-5610", "Mondorf-les-Bains"), 
-("LU", "L-5670", "Altwies"), 
-("LU", "L-5471", "Wellenstein"), 
-("LU", "L-5535", "Remich"), 
-("LU", "L-5450", "Stadtbredimus"), 
-("LU", "L-9462", "Putscheid"), 
-("LU", "L-9411", "Vianden"), 
-("LU", "L-9150", "Eschdorf"), 
-("LU", "L-9520", "Wiltz"), 
-("LU", "L-9533", "Wiltz"), 
-("LU", "L-9571", "Wiltz"), 
-("LU", "L-9632", "Alscheid"), 
-("LU", "L-4975", "Bettange-sur-Mess"), 
-("LU", "L-8274", "Kehlen"), 
-("LU", "L-8321", "Olm"), 
-("LU", "L-8394", "Olm"), 
-("LU", "L-8241", "Mamer"), 
-("LU", "L-8268", "Mamer"), 
-("LU", "L-8451", "Steinfort"), 
-("LU", "L-9761", "Lentzweiler"), 
-("LU", "L-9772", "Troine"), 
-("LU", "L-9709", "Clervaux"), 
-("LU", "L-9756", "Kaesfurt"), 
-("LU", "L-9757", "Kalborn"), 
-("LU", "L-9994", "Weiswampach"), 
-("LU", "L-9210", "Diekirch"), 
-("LU", "L-9224", "Diekirch"), 
-("LU", "L-9227", "Diekirch"), 
-("LU", "L-9234", "Diekirch"), 
-("LU", "L-9237", "Diekirch"), 
-("LU", "L-9255", "Diekirch"), 
-("LU", "L-9283", "Diekirch"), 
-("LU", "L-9063", "Ettelbruck"), 
-("LU", "L-6255", "Zittig"), 
-("LU", "L-6431", "Echternach"), 
-("LU", "L-6480", "Echternach"), 
-("LU", "L-4524", "Differdange"), 
-("LU", "L-4545", "Differdange"), 
-("LU", "L-4648", "Differdange"), 
-("LU", "L-4649", "Oberkorn"), 
-("LU", "L-4668", "Differdange"), 
-("LU", "L-3428", "Dudelange"), 
-("LU", "L-3443", "Dudelange"), 
-("LU", "L-3465", "Dudelange"), 
-("LU", "L-3469", "Dudelange"), 
-("LU", "L-3493", "Dudelange"), 
-("LU", "L-3502", "Dudelange"), 
-("LU", "L-3510", "Dudelange"), 
-("LU", "L-3546", "Dudelange"), 
-("LU", "L-3569", "Dudelange"), 
-("LU", "L-3570", "Dudelange"), 
-("LU", "L-3582", "Dudelange"), 
-("LU", "L-4009", "Esch-sur-Alzette"), 
-("LU", "L-4038", "Esch-sur-Alzette"), 
-("LU", "L-4044", "Esch-sur-Alzette"), 
-("LU", "L-4048", "Esch-sur-Alzette"), 
-("LU", "L-4086", "Esch-sur-Alzette"), 
-("LU", "L-4113", "Esch-sur-Alzette"), 
-("LU", "L-4114", "Esch-sur-Alzette"), 
-("LU", "L-4134", "Esch-sur-Alzette"), 
-("LU", "L-4209", "Esch-sur-Alzette"), 
-("LU", "L-4318", "Esch-sur-Alzette"), 
-("LU", "L-4322", "Esch-sur-Alzette"), 
-("LU", "L-4330", "Esch-sur-Alzette"), 
-("LU", "L-3656", "Kayl"), 
-("LU", "L-3658", "Kayl"), 
-("LU", "L-3674", "Kayl"), 
-("LU", "L-3680", "Kayl"), 
-("LU", "L-3770", "Tétange"), 
-("LU", "L-3782", "Tétange"), 
-("LU", "L-3787", "Tétange"), 
-("LU", "L-3941", "Mondercange"), 
-("LU", "L-4394", "Pontpierre"), 
-("LU", "L-4395", "Pontpierre"), 
-("LU", "L-4719", "Pétange"), 
-("LU", "L-4720", "Pétange"), 
-("LU", "L-4752", "Pétange"), 
-("LU", "L-4755", "Pétange"), 
-("LU", "L-4760", "Pétange"), 
-("LU", "L-4763", "Pétange"), 
-("LU", "L-4771", "Pétange"), 
-("LU", "L-4820", "Rodange"), 
-("LU", "L-4832", "Rodange"), 
-("LU", "L-4894", "Lamadelaine"), 
-("LU", "L-3394", "Roeser"), 
-("LU", "L-3717", "Rumelange"), 
-("LU", "L-3737", "Rumelange"), 
-("LU", "L-4419", "Belvaux"), 
-("LU", "L-4451", "Belvaux"), 
-("LU", "L-4986", "Sanem"), 
-("LU", "L-3819", "Schifflange"), 
-("LU", "L-6922", "Berg"), 
-("LU", "L-6753", "Grevenmacher"), 
-("LU", "L-6180", "Gonderange"), 
-("LU", "L-6182", "Gonderange"), 
-("LU", "L-6955", "Rodenbourg"), 
-("LU", "L-6611", "Wasserbillig"), 
-("LU", "L-6630", "Wasserbillig"), 
-("LU", "L-6674", "Mertert"), 
-("LU", "L-6678", "Mertert"), 
-("LU", "L-8005", "Bertrange"), 
-("LU", "L-5335", "Moutfort"), 
-("LU", "L-5809", "Hesperange"), 
-("LU", "L-5812", "Hesperange"), 
-("LU", "L-5825", "Fentange"), 
-("LU", "L-5833", "Alzingen"), 
-("LU", "L-5958", "Itzig"), 
-("LU", "L-5962", "Itzig"), 
-("LU", "L-1709", "Senningerberg"), 
-("LU", "L-6976", "Oberanven"), 
-("LU", "L-6987", "Rameldange"), 
-("LU", "L-5213", "Sandweiler"), 
-("LU", "L-5233", "Sandweiler"), 
-("LU", "L-5239", "Sandweiler"), 
-("LU", "L-5290", "Neuhaeusgen"), 
-("LU", "L-5364", "Schrassig"), 
-("LU", "L-5365", "Munsbach"), 
-("LU", "L-5381", "Schuttrange"), 
-("LU", "L-1210", "Strassen"), 
-("LU", "L-8024", "Strassen"), 
-("LU", "L-8042", "Strassen"), 
-("LU", "L-7202", "Bereldange"), 
-("LU", "L-7218", "Helmsange"), 
-("LU", "L-7264", "Helmsange"), 
-("LU", "L-5761", "Hassel"), 
-("LU", "L-1113", "Luxembourg"), 
-("LU", "L-1229", "Luxembourg"), 
-("LU", "L-1241", "Luxembourg"), 
-("LU", "L-1317", "Luxembourg"), 
-("LU", "L-1521", "Luxembourg"), 
-("LU", "L-1527", "Luxembourg"), 
-("LU", "L-1534", "Luxembourg"), 
-("LU", "L-1832", "Luxembourg"), 
-("LU", "L-1836", "Luxembourg"), 
-("LU", "L-1841", "Luxembourg"), 
-("LU", "L-1851", "Luxembourg"), 
-("LU", "L-1852", "Luxembourg"), 
-("LU", "L-1921", "Luxembourg"), 
-("LU", "L-1952", "Luxembourg"), 
-("LU", "L-2120", "Luxembourg"), 
-("LU", "L-2140", "Luxembourg"), 
-("LU", "L-2241", "Luxembourg"), 
-("LU", "L-2330", "Luxembourg"), 
-("LU", "L-2336", "Luxembourg"), 
-("LU", "L-2342", "Luxembourg"), 
-("LU", "L-2347", "Luxembourg"), 
-("LU", "L-2381", "Luxembourg"), 
-("LU", "L-2414", "Luxembourg"), 
-("LU", "L-2426", "Luxembourg"), 
-("LU", "L-2453", "Luxembourg"), 
-("LU", "L-2552", "Luxembourg"), 
-("LU", "L-2607", "Luxembourg"), 
-("LU", "L-2621", "Luxembourg"), 
-("LU", "L-2714", "Luxembourg"), 
-("LU", "L-2732", "Luxembourg"), 
-("LU", "L-2740", "Luxembourg"), 
-("LU", "L-7703", "Bissen"), 
-("LU", "L-7779", "Bissen"), 
-("LU", "L-7781", "Bissen"), 
-("LU", "L-7796", "Bissen"), 
-("LU", "L-7415", "Brouch"), 
-("LU", "L-7626", "Larochette"), 
-("LU", "L-7354", "Helmdange"), 
-("LU", "L-7424", "Essingen"), 
-("LU", "L-7425", "Reckange"), 
-("LU", "L-7520", "Mersch"), 
-("LU", "L-7590", "Mersch"), 
-("LU", "L-5659", "Mondorf-les-Bains"), 
-("LU", "L-9635", "Bavigne"), 
-("LU", "L-9669", "Mecher (Haute-Sûre)"), 
-("LU", "L-9519", "Wiltz"), 
-("LU", "L-9541", "Wiltz"), 
-("LU", "L-8470", "Eischen"), 
-("LU", "L-8283", "Kehlen"), 
-("LU", "L-8292", "Meispelt"), 
-("LU", "L-8323", "Olm"), 
-("LU", "L-8332", "Olm"), 
-("LU", "L-8306", "Koerich"), 
-("LU", "L-8357", "Goeblange"), 
-("LU", "L-8129", "Bridel"), 
-("LU", "L-8147", "Bridel"), 
-("LU", "L-8217", "Mamer"), 
-("LU", "L-8379", "Kleinbettingen"), 
-("LU", "L-8422", "Steinfort"), 
-("LU", "L-8452", "Steinfort"), 
-("LU", "L-4901", "Bascharage"), 
-("LU", "L-4914", "Bascharage"), 
-("LU", "L-4921", "Hautcharage"), 
-("LU", "L-4924", "Hautcharage"), 
-("LU", "L-9940", "Asselborn"), 
-("LU", "L-9944", "Beiler"), 
-("LU", "L-9835", "Hoscheid-Dickt"), 
-("LU", "L-9211", "Diekirch"), 
-("LU", "L-9214", "Diekirch"), 
-("LU", "L-9268", "Diekirch"), 
-("LU", "L-9273", "Diekirch"), 
-("LU", "L-9280", "Diekirch"), 
-("LU", "L-9285", "Diekirch"), 
-("LU", "L-9142", "Burden"), 
-("LU", "L-9172", "Erpeldange-sur-Sûre"), 
-("LU", "L-9043", "Ettelbruck"), 
-("LU", "L-9081", "Ettelbruck"), 
-("LU", "L-6314", "Beaufort"), 
-("LU", "L-6213", "Consdorf"), 
-("LU", "L-6464", "Echternach"), 
-("LU", "L-6491", "Echternach"), 
-("LU", "L-6492", "Echternach"), 
-("LU", "L-6497", "Echternach"), 
-("LU", "L-6562", "Echternach"), 
-("LU", "L-6370", "Haller"), 
-("LU", "L-3249", "Bettembourg"), 
-("LU", "L-3275", "Bettembourg"), 
-("LU", "L-3311", "Abweiler"), 
-("LU", "L-3384", "Noertzange"), 
-("LU", "L-4515", "Differdange"), 
-("LU", "L-4622", "Oberkorn"), 
-("LU", "L-4691", "Differdange"), 
-("LU", "L-3414", "Dudelange"), 
-("LU", "L-3488", "Dudelange"), 
-("LU", "L-3552", "Dudelange"), 
-("LU", "L-4027", "Esch-sur-Alzette"), 
-("LU", "L-4063", "Esch-sur-Alzette"), 
-("LU", "L-4139", "Esch-sur-Alzette"), 
-("LU", "L-4141", "Esch-sur-Alzette"), 
-("LU", "L-4242", "Esch-sur-Alzette"), 
-("LU", "L-4243", "Esch-sur-Alzette"), 
-("LU", "L-4334", "Esch-sur-Alzette"), 
-("LU", "L-3676", "Kayl"), 
-("LU", "L-3767", "Tétange"), 
-("LU", "L-3781", "Tétange"), 
-("LU", "L-3318", "Bergem"), 
-("LU", "L-4390", "Pontpierre"), 
-("LU", "L-4739", "Pétange"), 
-("LU", "L-4761", "Pétange"), 
-("LU", "L-4822", "Rodange"), 
-("LU", "L-4838", "Rodange"), 
-("LU", "L-4881", "Lamadelaine"), 
-("LU", "L-4893", "Lamadelaine"), 
-("LU", "L-4908", "Pétange"), 
-("LU", "L-3755", "Rumelange"), 
-("LU", "L-4429", "Belvaux"), 
-("LU", "L-4449", "Soleuvre"), 
-("LU", "L-3880", "Schifflange"), 
-("LU", "L-3883", "Schifflange"), 
-("LU", "L-6917", "Roodt-sur-Syre"), 
-("LU", "L-6925", "Flaxweiler"), 
-("LU", "L-6711", "Grevenmacher"), 
-("LU", "L-6795", "Grevenmacher"), 
-("LU", "L-6117", "Junglinster"), 
-("LU", "L-6240", "Graulinster"), 
-("LU", "L-6839", "Lellig"), 
-("LU", "L-6850", "Manternach"), 
-("LU", "L-6651", "Wasserbillig"), 
-("LU", "L-6672", "Mertert"), 
-("LU", "L-8061", "Bertrange"), 
-("LU", "L-8078", "Bertrange"), 
-("LU", "L-5322", "Contern"), 
-("LU", "L-5331", "Moutfort"), 
-("LU", "L-5337", "Moutfort"), 
-("LU", "L-1232", "Howald"), 
-("LU", "L-1867", "Howald"), 
-("LU", "L-2319", "Howald"), 
-("LU", "L-5843", "Fentange"), 
-("LU", "L-5868", "Alzingen"), 
-("LU", "L-5953", "Itzig"), 
-("LU", "L-1670", "Senningerberg"), 
-("LU", "L-6940", "Niederanven"), 
-("LU", "L-6941", "Niederanven"), 
-("LU", "L-6977", "Oberanven"), 
-("LU", "L-5218", "Sandweiler"), 
-("LU", "L-5362", "Schrassig"), 
-("LU", "L-5375", "Schuttrange"), 
-("LU", "L-7323", "Steinsel"), 
-("LU", "L-7334", "Heisdorf"), 
-("LU", "L-7347", "Steinsel"), 
-("LU", "L-8030", "Strassen"), 
-("LU", "L-8098", "Strassen"), 
-("LU", "L-7201", "Bereldange"), 
-("LU", "L-7212", "Bereldange"), 
-("LU", "L-7230", "Helmsange"), 
-("LU", "L-7231", "Helmsange"), 
-("LU", "L-7239", "Bereldange"), 
-("LU", "L-1114", "Luxembourg"), 
-("LU", "L-1134", "Luxembourg"), 
-("LU", "L-1218", "Luxembourg"), 
-("LU", "L-1222", "Luxembourg"), 
-("LU", "L-1256", "Luxembourg"), 
-("LU", "L-1273", "Luxembourg"), 
-("LU", "L-1276", "Luxembourg"), 
-("LU", "L-1478", "Luxembourg"), 
-("LU", "L-1499", "Luxembourg"), 
-("LU", "L-1632", "Luxembourg"), 
-("LU", "L-1652", "Luxembourg"), 
-("LU", "L-1653", "Luxembourg"), 
-("LU", "L-1735", "Luxembourg"), 
-("LU", "L-1918", "Luxembourg"), 
-("LU", "L-1940", "Luxembourg"), 
-("LU", "L-1944", "Luxembourg"), 
-("LU", "L-2168", "Luxembourg"), 
-("LU", "L-2181", "Luxembourg"), 
-("LU", "L-2242", "Luxembourg"), 
-("LU", "L-2308", "Luxembourg"), 
-("LU", "L-2417", "Luxembourg"), 
-("LU", "L-2451", "Luxembourg"), 
-("LU", "L-2516", "Luxembourg"), 
-("LU", "L-2542", "Luxembourg"), 
-("LU", "L-2567", "Luxembourg"), 
-("LU", "L-2616", "Luxembourg"), 
-("LU", "L-7716", "Colmar-Berg"), 
-("LU", "L-7723", "Welsdorf"), 
-("LU", "L-7724", "Colmar-Berg"), 
-("LU", "L-7351", "Helmdange"), 
-("LU", "L-7355", "Helmdange"), 
-("LU", "L-7511", "Rollingen"), 
-("LU", "L-7592", "Beringen"), 
-("LU", "L-7593", "Beringen"), 
-("LU", "L-8509", "Redange/Attert"), 
-("LU", "L-8540", "Eltz"), 
-("LU", "L-5627", "Mondorf-les-Bains"), 
-("LU", "L-5403", "Bech-Kleinmacher"), 
-("LU", "L-5495", "Wintrange"), 
-("LU", "L-5695", "Emerange"), 
-("LU", "L-5532", "Remich"), 
-("LU", "L-5553", "Remich"), 
-("LU", "L-9359", "Seltz"), 
-("LU", "L-9440", "Vianden"), 
-("LU", "L-9668", "Masseler"), 
-("LU", "L-9554", "Wiltz"), 
-("LU", "L-9696", "Wiltz"), 
-("LU", "L-4906", "Dippach"), 
-("LU", "L-4968", "Schouweiler"), 
-("LU", "L-8466", "Eischen"), 
-("LU", "L-8478", "Eischen"), 
-("LU", "L-8285", "Kehlen"), 
-("LU", "L-8315", "Olm"), 
-("LU", "L-8341", "Olm"), 
-("LU", "L-8392", "Nospelt"), 
-("LU", "L-8361", "Goetzingen"), 
-("LU", "L-8141", "Bridel"), 
-("LU", "L-8331", "Capellen"), 
-("LU", "L-8336", "Capellen"), 
-("LU", "L-8346", "Grass"), 
-("LU", "L-4934", "Hautcharage"), 
-("LU", "L-4941", "Bascharage"), 
-("LU", "L-4966", "Clemency"), 
-("LU", "L-9673", "Oberwampach"), 
-("LU", "L-9999", "Wemperhardt"), 
-("LU", "L-9378", "Hoscheid"), 
-("LU", "L-9183", "Schlindermanderscheid"), 
-("LU", "L-9208", "Diekirch"), 
-("LU", "L-9160", "Ingeldorf"), 
-("LU", "L-9172", "Burden"), 
-("LU", "L-9027", "Ettelbruck"), 
-("LU", "L-9124", "Schieren"), 
-("LU", "L-7639", "Blumenthal"), 
-("LU", "L-6449", "Echternach"), 
-("LU", "L-6451", "Echternach"), 
-("LU", "L-6462", "Echternach"), 
-("LU", "L-6478", "Echternach"), 
-("LU", "L-6485", "Echternach"), 
-("LU", "L-6499", "Echternach"), 
-("LU", "L-3251", "Bettembourg"), 
-("LU", "L-3266", "Bettembourg"), 
-("LU", "L-4557", "Niederkorn"), 
-("LU", "L-4578", "Niederkorn"), 
-("LU", "L-4636", "Differdange"), 
-("LU", "L-4641", "Oberkorn"), 
-("LU", "L-4653", "Differdange"), 
-("LU", "L-3434", "Dudelange"), 
-("LU", "L-3453", "Dudelange"), 
-("LU", "L-3474", "Dudelange"), 
-("LU", "L-3480", "Dudelange"), 
-("LU", "L-3526", "Dudelange"), 
-("LU", "L-3554", "Dudelange"), 
-("LU", "L-3589", "Dudelange"), 
-("LU", "L-4070", "Esch-sur-Alzette"), 
-("LU", "L-4073", "Esch-sur-Alzette"), 
-("LU", "L-4105", "Esch-sur-Alzette"), 
-("LU", "L-4172", "Esch-sur-Alzette"), 
-("LU", "L-4255", "Esch-sur-Alzette"), 
-("LU", "L-4268", "Esch-sur-Alzette"), 
-("LU", "L-4360", "Esch-sur-Alzette"), 
-("LU", "L-3631", "Kayl"), 
-("LU", "L-3786", "Tétange"), 
-("LU", "L-3351", "Leudelange"), 
-("LU", "L-3918", "Mondercange"), 
-("LU", "L-3936", "Mondercange"), 
-("LU", "L-3938", "Mondercange"), 
-("LU", "L-4753", "Pétange"), 
-("LU", "L-4776", "Pétange"), 
-("LU", "L-4813", "Rodange"), 
-("LU", "L-4815", "Rodange"), 
-("LU", "L-4870", "Lamadelaine"), 
-("LU", "L-3724", "Rumelange"), 
-("LU", "L-3734", "Rumelange"), 
-("LU", "L-3740", "Rumelange"), 
-("LU", "L-4993", "Sanem"), 
-("LU", "L-3838", "Schifflange"), 
-("LU", "L-6933", "Mensdorf"), 
-("LU", "L-6790", "Grevenmacher"), 
-("LU", "L-6123", "Junglinster"), 
-("LU", "L-6160", "Bourglinster"), 
-("LU", "L-6195", "Imbringen"), 
-("LU", "L-6956", "Rodenbourg"), 
-("LU", "L-6831", "Berbourg"), 
-("LU", "L-5485", "Wormeldange-Haut"), 
-("LU", "L-8268", "Bertrange"), 
-("LU", "L-5312", "Contern"), 
-("LU", "L-5336", "Moutfort"), 
-("LU", "L-5355", "Oetrange"), 
-("LU", "L-1231", "Howald"), 
-("LU", "L-1842", "Howald"), 
-("LU", "L-5820", "Fentange"), 
-("LU", "L-5831", "Hesperange"), 
-("LU", "L-5835", "Alzingen"), 
-("LU", "L-5860", "Hesperange"), 
-("LU", "L-5875", "Alzingen"), 
-("LU", "L-5890", "Hesperange"), 
-("LU", "L-5235", "Sandweiler"), 
-("LU", "L-5363", "Schrassig"), 
-("LU", "L-7315", "Steinsel"), 
-("LU", "L-7317", "Mullendorf"), 
-("LU", "L-8029", "Strassen"), 
-("LU", "L-8034", "Strassen"), 
-("LU", "L-8040", "Strassen"), 
-("LU", "L-8111", "Strassen"), 
-("LU", "L-8130", "Strassen"), 
-("LU", "L-7253", "Walferdange"), 
-("LU", "L-1220", "Luxembourg"), 
-("LU", "L-1230", "Luxembourg"), 
-("LU", "L-1312", "Luxembourg"), 
-("LU", "L-1316", "Luxembourg"), 
-("LU", "L-1320", "Luxembourg"), 
-("LU", "L-1328", "Luxembourg"), 
-("LU", "L-1427", "Luxembourg"), 
-("LU", "L-1468", "Luxembourg"), 
-("LU", "L-1470", "Luxembourg"), 
-("LU", "L-1511", "Luxembourg"), 
-("LU", "L-1528", "Luxembourg"), 
-("LU", "L-1617", "Luxembourg"), 
-("LU", "L-1721", "Luxembourg"), 
-("LU", "L-1838", "Luxembourg"), 
-("LU", "L-1862", "Luxembourg"), 
-("LU", "L-1866", "Luxembourg"), 
-("LU", "L-1915", "Luxembourg"), 
-("LU", "L-1955", "Luxembourg"), 
-("LU", "L-2145", "Luxembourg"), 
-("LU", "L-2155", "Luxembourg"), 
-("LU", "L-2173", "Luxembourg"), 
-("LU", "L-2180", "Luxembourg"), 
-("LU", "L-2184", "Luxembourg"), 
-("LU", "L-2210", "Luxembourg"), 
-("LU", "L-2229", "Luxembourg"), 
-("LU", "L-2231", "Luxembourg"), 
-("LU", "L-2331", "Luxembourg"), 
-("LU", "L-2350", "Luxembourg"), 
-("LU", "L-2517", "Luxembourg"), 
-("LU", "L-2522", "Luxembourg"), 
-("LU", "L-2535", "Luxembourg"), 
-("LU", "L-2609", "Luxembourg"), 
-("LU", "L-2630", "Luxembourg"), 
-("LU", "L-2634", "Luxembourg"), 
-("LU", "L-2664", "Luxembourg"), 
-("LU", "L-2674", "Luxembourg"), 
-("LU", "L-2713", "Luxembourg"), 
-("LU", "L-7774", "Bissen"), 
-("LU", "L-7788", "Bissen"), 
-("LU", "L-7622", "Larochette"), 
-("LU", "L-7636", "Ernzen"), 
-("LU", "L-7445", "Lintgen"), 
-("LU", "L-7450", "Lintgen"), 
-("LU", "L-7452", "Lintgen"), 
-("LU", "L-7547", "Rollingen"), 
-("LU", "L-7572", "Mersch"), 
-("LU", "L-8715", "Everlange"), 
-("LU", "L-5730", "Filsdorf"), 
-("LU", "L-5612", "Mondorf-les-Bains"), 
-("LU", "L-5620", "Mondorf-les-Bains"), 
-("LU", "L-5629", "Mondorf-les-Bains"), 
-("LU", "L-5632", "Mondorf-les-Bains"), 
-("LU", "L-5655", "Mondorf-les-Bains"), 
-("LU", "L-5657", "Mondorf-les-Bains"), 
-("LU", "L-5690", "Ellange"), 
-("LU", "L-5693", "Elvange"), 
-("LU", "L-9660", "Insenborn"), 
-("LU", "L-9665", "Liefrange"), 
-("LU", "L-9518", "Erpeldange"), 
-("LU", "L-9542", "Wiltz"), 
-("LU", "L-8370", "Hobscheid"), 
-("LU", "L-8185", "Kehlen"), 
-("LU", "L-8295", "Keispelt"), 
-("LU", "L-8342", "Olm"), 
-("LU", "L-8358", "Goeblange"), 
-("LU", "L-8359", "Goeblange"), 
-("LU", "L-8185", "Kopstal"), 
-("LU", "L-8190", "Kopstal"), 
-("LU", "L-8435", "Steinfort"), 
-("LU", "L-4947", "Bascharage"), 
-("LU", "L-9762", "Lullange"), 
-("LU", "L-9773", "Troine-Route"), 
-("LU", "L-9701", "Clervaux"), 
-("LU", "L-9715", "Clervaux"), 
-("LU", "L-9911", "Troisvierges"), 
-("LU", "L-9952", "Drinklange"), 
-("LU", "L-9355", "Bettendorf"), 
-("LU", "L-9374", "Gilsdorf"), 
-("LU", "L-9243", "Diekirch"), 
-("LU", "L-9281", "Diekirch"), 
-("LU", "L-9284", "Diekirch"), 
-("LU", "L-9088", "Ettelbruck"), 
-("LU", "L-9176", "Niederfeulen"), 
-("LU", "L-9177", "Niederfeulen"), 
-("LU", "L-9167", "Mertzig"), 
-("LU", "L-9120", "Schieren"), 
-("LU", "L-9128", "Schieren"), 
-("LU", "L-6433", "Echternach"), 
-("LU", "L-6438", "Echternach"), 
-("LU", "L-6453", "Echternach"), 
-("LU", "L-6466", "Echternach"), 
-("LU", "L-3229", "Bettembourg"), 
-("LU", "L-3242", "Bettembourg"), 
-("LU", "L-3255", "Bettembourg"), 
-("LU", "L-4546", "Differdange"), 
-("LU", "L-4572", "Niederkorn"), 
-("LU", "L-3439", "Dudelange"), 
-("LU", "L-3467", "Dudelange"), 
-("LU", "L-3468", "Dudelange"), 
-("LU", "L-3483", "Dudelange"), 
-("LU", "L-3511", "Dudelange"), 
-("LU", "L-3521", "Dudelange"), 
-("LU", "L-3585", "Dudelange"), 
-("LU", "L-4001", "Esch-sur-Alzette"), 
-("LU", "L-4012", "Esch-sur-Alzette"), 
-("LU", "L-4023", "Esch-sur-Alzette"), 
-("LU", "L-4071", "Esch-sur-Alzette"), 
-("LU", "L-4082", "Esch-sur-Alzette"), 
-("LU", "L-4220", "Esch-sur-Alzette"), 
-("LU", "L-4241", "Esch-sur-Alzette"), 
-("LU", "L-4363", "Esch-sur-Alzette"), 
-("LU", "L-3650", "Kayl"), 
-("LU", "L-3655", "Kayl"), 
-("LU", "L-3370", "Leudelange"), 
-("LU", "L-4396", "Pontpierre"), 
-("LU", "L-4740", "Pétange"), 
-("LU", "L-4876", "Lamadelaine"), 
-("LU", "L-3961", "Ehlange"), 
-("LU", "L-4499", "Limpach"), 
-("LU", "L-3325", "Berchem"), 
-("LU", "L-3711", "Rumelange"), 
-("LU", "L-3729", "Rumelange"), 
-("LU", "L-3751", "Rumelange"), 
-("LU", "L-4409", "Belvaux"), 
-("LU", "L-4428", "Belvaux"), 
-("LU", "L-4463", "Soleuvre"), 
-("LU", "L-4984", "Sanem"), 
-("LU", "L-4991", "Sanem"), 
-("LU", "L-6912", "Roodt-sur-Syre"), 
-("LU", "L-6915", "Roodt-sur-Syre"), 
-("LU", "L-6833", "Biwer"), 
-("LU", "L-6870", "Wecker"), 
-("LU", "L-5424", "Gostingen"), 
-("LU", "L-5433", "Niederdonven"), 
-("LU", "L-6721", "Grevenmacher"), 
-("LU", "L-6752", "Grevenmacher"), 
-("LU", "L-6785", "Grevenmacher"), 
-("LU", "L-6141", "Junglinster"), 
-("LU", "L-6149", "Junglinster"), 
-("LU", "L-6614", "Wasserbillig"), 
-("LU", "L-6840", "Machtum"), 
-("LU", "L-6842", "Machtum"), 
-("LU", "L-8062", "Bertrange"), 
-("LU", "L-8093", "Bertrange"), 
-("LU", "L-5830", "Alzingen"), 
-("LU", "L-5839", "Fentange"), 
-("LU", "L-5859", "Hesperange"), 
-("LU", "L-5876", "Hesperange"), 
-("LU", "L-5941", "Hesperange"), 
-("LU", "L-1239", "Senningerberg"), 
-("LU", "L-6960", "Senningen"), 
-("LU", "L-5240", "Sandweiler"), 
-("LU", "L-1445", "Strassen"), 
-("LU", "L-8013", "Strassen"), 
-("LU", "L-8047", "Strassen"), 
-("LU", "L-1225", "Luxembourg"), 
-("LU", "L-1233", "Luxembourg"), 
-("LU", "L-1243", "Luxembourg"), 
-("LU", "L-1248", "Luxembourg"), 
-("LU", "L-1260", "Luxembourg"), 
-("LU", "L-1267", "Luxembourg"), 
-("LU", "L-1281", "Luxembourg"), 
-("LU", "L-1358", "Luxembourg"), 
-("LU", "L-1456", "Luxembourg"), 
-("LU", "L-1461", "Luxembourg"), 
-("LU", "L-1464", "Luxembourg"), 
-("LU", "L-1616", "Luxembourg"), 
-("LU", "L-1717", "Luxembourg"), 
-("LU", "L-1815", "Luxembourg"), 
-("LU", "L-1822", "Luxembourg"), 
-("LU", "L-1938", "Luxembourg"), 
-("LU", "L-2141", "Luxembourg"), 
-("LU", "L-2310", "Luxembourg"), 
-("LU", "L-2314", "Luxembourg"), 
-("LU", "L-2326", "Luxembourg"), 
-("LU", "L-2354", "Luxembourg"), 
-("LU", "L-2430", "Luxembourg"), 
-("LU", "L-2433", "Luxembourg"), 
-("LU", "L-2447", "Luxembourg"), 
-("LU", "L-2511", "Luxembourg"), 
-("LU", "L-2539", "Luxembourg"), 
-("LU", "L-2551", "Luxembourg"), 
-("LU", "L-2627", "Luxembourg"), 
-("LU", "L-2739", "Luxembourg"), 
-("LU", "L-7760", "Bissen"), 
-("LU", "L-7773", "Bissen"), 
-("LU", "L-7650", "Heffingen"), 
-("LU", "L-7449", "Lintgen"), 
-("LU", "L-7409", "Beringen"), 
-("LU", "L-7573", "Mersch"), 
-("LU", "L-7599", "Mersch"), 
-("LU", "L-8817", "Eschette"), 
-("LU", "L-9144", "Lehrhof"), 
-("LU", "L-8540", "Ospern"), 
-("LU", "L-8720", "Rippweiler"), 
-("LU", "L-8838", "Wahl"), 
-("LU", "L-5413", "Canach"), 
-("LU", "L-5614", "Mondorf-les-Bains"), 
-("LU", "L-5631", "Mondorf-les-Bains"), 
-("LU", "L-5444", "Schengen"), 
-("LU", "L-5515", "Remich"), 
-("LU", "L-5516", "Remich"), 
-("LU", "L-5549", "Remich"), 
-("LU", "L-5572", "Remich"), 
-("LU", "L-9461", "Nachtmanderscheid"), 
-("LU", "L-9674", "Nocher"), 
-("LU", "L-9575", "Wiltz"), 
-("LU", "L-2127", "Luxembourg"), 
-("LU", "L-2128", "Luxembourg"), 
-("LU", "L-2138", "Luxembourg"), 
-("LU", "L-2428", "Luxembourg"), 
-("LU", "L-2442", "Luxembourg"), 
-("LU", "L-2520", "Luxembourg"), 
-("LU", "L-2547", "Luxembourg"), 
-("LU", "L-2661", "Luxembourg"), 
-("LU", "L-7722", "Colmar-Berg"), 
-("LU", "L-7734", "Colmar-Berg"), 
-("LU", "L-7739", "Colmar-Berg"), 
-("LU", "L-7761", "Bissen"), 
-("LU", "L-7762", "Bissen"), 
-("LU", "L-7769", "Bissen"), 
-("LU", "L-7362", "Bofferdange"), 
-("LU", "L-7374", "Bofferdange"), 
-("LU", "L-7377", "Lorentzweiler"), 
-("LU", "L-7512", "Mersch"), 
-("LU", "L-7526", "Mersch"), 
-("LU", "L-8811", "Bilsdorf"), 
-("LU", "L-5443", "Rolling"), 
-("LU", "L-5619", "Mondorf-les-Bains"), 
-("LU", "L-5439", "Remerschen"), 
-("LU", "L-9451", "Bettel"), 
-("LU", "L-9409", "Vianden"), 
-("LU", "L-9637", "Bockholtz (Goesdorf)"), 
-("LU", "L-9662", "Kaundorf"), 
-("LU", "L-9552", "Wiltz"), 
-("LU", "L-9654", "Gruemelscheid"), 
-("LU", "L-4973", "Dippach"), 
-("LU", "L-8133", "Bridel"), 
-("LU", "L-8134", "Bridel"), 
-("LU", "L-8138", "Bridel"), 
-("LU", "L-8383", "Septfontaines"), 
-("LU", "L-8381", "Kleinbettingen"), 
-("LU", "L-8410", "Steinfort"), 
-("LU", "L-4960", "Clemency"), 
-("LU", "L-4979", "Fingig"), 
-("LU", "L-9968", "Lausdorn"), 
-("LU", "L-9378", "Closdelt"), 
-("LU", "L-9330", "Diekirch"), 
-("LU", "L-9147", "Erpeldange-sur-Sûre"), 
-("LU", "L-9026", "Ettelbruck"), 
-("LU", "L-9131", "Schieren"), 
-("LU", "L-6243", "Hemstal"), 
-("LU", "L-6555", "Bollendorf-Pont"), 
-("LU", "L-6201", "Consdorf"), 
-("LU", "L-6408", "Echternach"), 
-("LU", "L-6437", "Echternach"), 
-("LU", "L-6460", "Echternach"), 
-("LU", "L-6474", "Echternach"), 
-("LU", "L-6665", "Herborn"), 
-("LU", "L-6580", "Rosport"), 
-("LU", "L-3213", "Bettembourg"), 
-("LU", "L-3216", "Bettembourg"), 
-("LU", "L-3261", "Bettembourg"), 
-("LU", "L-3290", "Bettembourg"), 
-("LU", "L-3341", "Huncherange"), 
-("LU", "L-4509", "Niederkorn"), 
-("LU", "L-4539", "Oberkorn"), 
-("LU", "L-3516", "Dudelange"), 
-("LU", "L-3572", "Dudelange"), 
-("LU", "L-3588", "Dudelange"), 
-("LU", "L-4002", "Esch-sur-Alzette"), 
-("LU", "L-4019", "Esch-sur-Alzette"), 
-("LU", "L-4026", "Esch-sur-Alzette"), 
-("LU", "L-4119", "Esch-sur-Alzette"), 
-("LU", "L-4138", "Esch-sur-Alzette"), 
-("LU", "L-4169", "Esch-sur-Alzette"), 
-("LU", "L-4204", "Esch-sur-Alzette"), 
-("LU", "L-4205", "Esch-sur-Alzette"), 
-("LU", "L-4249", "Esch-sur-Alzette"), 
-("LU", "L-4260", "Esch-sur-Alzette"), 
-("LU", "L-4307", "Esch-sur-Alzette"), 
-("LU", "L-4343", "Esch-sur-Alzette"), 
-("LU", "L-4353", "Esch-sur-Alzette"), 
-("LU", "L-3333", "Hellange"), 
-("LU", "L-3335", "Hellange"), 
-("LU", "L-3651", "Kayl"), 
-("LU", "L-3781", "Kayl"), 
-("LU", "L-3345", "Leudelange"), 
-("LU", "L-3369", "Leudelange"), 
-("LU", "L-3374", "Leudelange"), 
-("LU", "L-3916", "Mondercange"), 
-("LU", "L-3932", "Mondercange"), 
-("LU", "L-4393", "Pontpierre"), 
-("LU", "L-4715", "Pétange"), 
-("LU", "L-4779", "Pétange"), 
-("LU", "L-4781", "Pétange"), 
-("LU", "L-4811", "Rodange"), 
-("LU", "L-3327", "Crauthem"), 
-("LU", "L-3328", "Crauthem"), 
-("LU", "L-3329", "Crauthem"), 
-("LU", "L-4381", "Ehlerange"), 
-("LU", "L-4424", "Belvaux"), 
-("LU", "L-4459", "Soleuvre"), 
-("LU", "L-4481", "Belvaux"), 
-("LU", "L-4486", "Soleuvre"), 
-("LU", "L-4990", "Sanem"), 
-("LU", "L-3821", "Schifflange"), 
-("LU", "L-3833", "Schifflange"), 
-("LU", "L-3843", "Schifflange"), 
-("LU", "L-3862", "Schifflange"), 
-("LU", "L-6735", "Grevenmacher"), 
-("LU", "L-6736", "Grevenmacher"), 
-("LU", "L-6792", "Grevenmacher"), 
-("LU", "L-6150", "Altlinster"), 
-("LU", "L-6171", "Godbrange"), 
-("LU", "L-6669", "Mertert"), 
-("LU", "L-8063", "Bertrange"), 
-("LU", "L-8070", "Bertrange"), 
-("LU", "L-8077", "Bertrange"), 
-("LU", "L-8083", "Bertrange"), 
-("LU", "L-8088", "Bertrange"), 
-("LU", "L-8117", "Bertrange"), 
-("LU", "L-5320", "Contern"), 
-("LU", "L-5840", "Hesperange"), 
-("LU", "L-5942", "Itzig"), 
-("LU", "L-6971", "Hostert"), 
-("LU", "L-5368", "Schuttrange"), 
-("LU", "L-5377", "Uebersyren"), 
-("LU", "L-7309", "Steinsel"), 
-("LU", "L-8044", "Strassen"), 
-("LU", "L-1112", "Luxembourg"), 
-("LU", "L-1133", "Luxembourg"), 
-("LU", "L-1148", "Luxembourg"), 
-("LU", "L-1262", "Luxembourg"), 
-("LU", "L-1309", "Luxembourg"), 
-("LU", "L-1310", "Luxembourg"), 
-("LU", "L-1343", "Luxembourg"), 
-("LU", "L-1375", "Luxembourg"), 
-("LU", "L-1490", "Luxembourg"), 
-("LU", "L-1546", "Luxembourg"), 
-("LU", "L-1727", "Luxembourg"), 
-("LU", "L-1732", "Luxembourg"), 
-("LU", "L-1740", "Luxembourg"), 
-("LU", "L-1913", "Luxembourg"), 
-("LU", "L-1933", "Luxembourg"), 
-("LU", "L-1941", "Luxembourg"), 
-("LU", "L-2114", "Luxembourg"), 
-("LU", "L-8372", "Hobscheid"), 
-("LU", "L-8375", "Hobscheid"), 
-("LU", "L-8290", "Kehlen"), 
-("LU", "L-8121", "Bridel"), 
-("LU", "L-8143", "Bridel"), 
-("LU", "L-8153", "Bridel"), 
-("LU", "L-8212", "Mamer"), 
-("LU", "L-8218", "Mamer"), 
-("LU", "L-8259", "Mamer"), 
-("LU", "L-8269", "Mamer"), 
-("LU", "L-8317", "Capellen"), 
-("LU", "L-8348", "Capellen"), 
-("LU", "L-8363", "Leesbach"), 
-("LU", "L-8368", "Hagen"), 
-("LU", "L-8412", "Steinfort"), 
-("LU", "L-4946", "Bascharage"), 
-("LU", "L-4948", "Bascharage"), 
-("LU", "L-9754", "Hinterhassel"), 
-("LU", "L-9903", "Troisvierges"), 
-("LU", "L-9954", "Goedange"), 
-("LU", "L-9968", "Hollermühle"), 
-("LU", "L-9145", "Erpeldange-sur-Sûre"), 
-("LU", "L-9003", "Ettelbruck"), 
-("LU", "L-9014", "Ettelbruck"), 
-("LU", "L-9031", "Warken"), 
-("LU", "L-9032", "Warken"), 
-("LU", "L-9064", "Ettelbruck"), 
-("LU", "L-9090", "Warken"), 
-("LU", "L-9390", "Reisdorf"), 
-("LU", "L-9456", "Hoesdorf"), 
-("LU", "L-7738", "Colmar-Pont"), 
-("LU", "L-9116", "Schieren"), 
-("LU", "L-9130", "Schieren"), 
-("LU", "L-6380", "Ermsdorf"), 
-("LU", "L-9366", "Ermsdorf"), 
-("LU", "L-6590", "Weilerbach"), 
-("LU", "L-6435", "Echternach"), 
-("LU", "L-6476", "Echternach"), 
-("LU", "L-6490", "Echternach"), 
-("LU", "L-6494", "Echternach"), 
-("LU", "L-6231", "Lilien"), 
-("LU", "L-6558", "Rosport"), 
-("LU", "L-3215", "Bettembourg"), 
-("LU", "L-3221", "Bettembourg"), 
-("LU", "L-3273", "Bettembourg"), 
-("LU", "L-3278", "Bettembourg"), 
-("LU", "L-3282", "Bettembourg"), 
-("LU", "L-4522", "Oberkorn"), 
-("LU", "L-4575", "Differdange"), 
-("LU", "L-4627", "Differdange"), 
-("LU", "L-4638", "Differdange"), 
-("LU", "L-4639", "Differdange"), 
-("LU", "L-4656", "Niederkorn"), 
-("LU", "L-4662", "Differdange"), 
-("LU", "L-4683", "Niederkorn"), 
-("LU", "L-4697", "Lasauvage"), 
-("LU", "L-3413", "Dudelange"), 
-("LU", "L-3420", "Dudelange"), 
-("LU", "L-3423", "Dudelange"), 
-("LU", "L-3448", "Dudelange"), 
-("LU", "L-3514", "Dudelange"), 
-("LU", "L-3522", "Dudelange"), 
-("LU", "L-3555", "Dudelange"), 
-("LU", "L-4005", "Esch-sur-Alzette"), 
-("LU", "L-4021", "Esch-sur-Alzette"), 
-("LU", "L-4039", "Esch-sur-Alzette"), 
-("LU", "L-4041", "Esch-sur-Alzette"), 
-("LU", "L-4062", "Esch-sur-Alzette"), 
-("LU", "L-4103", "Esch-sur-Alzette"), 
-("LU", "L-4107", "Esch-sur-Alzette"), 
-("LU", "L-4111", "Esch-sur-Alzette"), 
-("LU", "L-4303", "Esch-sur-Alzette"), 
-("LU", "L-4326", "Esch-sur-Alzette"), 
-("LU", "L-3334", "Hellange"), 
-("LU", "L-3336", "Hellange"), 
-("LU", "L-5701", "Aspelt"), 
-("LU", "L-5717", "Aspelt"), 
-("LU", "L-5752", "Frisange"), 
-("LU", "L-3635", "Kayl"), 
-("LU", "L-3654", "Kayl"), 
-("LU", "L-4734", "Pétange"), 
-("LU", "L-4842", "Rodange"), 
-("LU", "L-4877", "Lamadelaine"), 
-("LU", "L-3393", "Roedgen"), 
-("LU", "L-1896", "Kockelscheuer"), 
-("LU", "L-3743", "Rumelange"), 
-("LU", "L-4411", "Soleuvre"), 
-("LU", "L-4427", "Belvaux"), 
-("LU", "L-4432", "Soleuvre"), 
-("LU", "L-4441", "Soleuvre"), 
-("LU", "L-4468", "Belvaux"), 
-("LU", "L-3864", "Schifflange"), 
-("LU", "L-6934", "Mensdorf"), 
-("LU", "L-6712", "Grevenmacher"), 
-("LU", "L-6744", "Grevenmacher"), 
-("LU", "L-6772", "Grevenmacher"), 
-("LU", "L-6778", "Grevenmacher"), 
-("LU", "L-6120", "Junglinster"), 
-("LU", "L-6187", "Gonderange"), 
-("LU", "L-6637", "Wasserbillig"), 
-("LU", "L-8075", "Bertrange"), 
-("LU", "L-8080", "Bertrange"), 
-("LU", "L-8086", "Bertrange"), 
-("LU", "L-5351", "Oetrange"), 
-("LU", "L-1363", "Howald"), 
-("LU", "L-1749", "Howald"), 
-("LU", "L-5853", "Fentange"), 
-("LU", "L-5869", "Alzingen"), 
-("LU", "L-5961", "Itzig"), 
-("LU", "L-5972", "Itzig"), 
-("LU", "L-5973", "Itzig"), 
-("LU", "L-1638", "Senningerberg"), 
-("LU", "L-6939", "Niederanven"), 
-("LU", "L-6944", "Niederanven"), 
-("LU", "L-6962", "Senningen"), 
-("LU", "L-5244", "Sandweiler"), 
-("LU", "L-7326", "Mullendorf"), 
-("LU", "L-8073", "Strassen"), 
-("LU", "L-7225", "Bereldange"), 
-("LU", "L-7236", "Bereldange"), 
-("LU", "L-1128", "Luxembourg"), 
-("LU", "L-1145", "Luxembourg"), 
-("LU", "L-1213", "Luxembourg"), 
-("LU", "L-1247", "Luxembourg"), 
-("LU", "L-1327", "Luxembourg"), 
-("LU", "L-1330", "Luxembourg"), 
-("LU", "L-1336", "Luxembourg"), 
-("LU", "L-1345", "Luxembourg"), 
-("LU", "L-1429", "Luxembourg"), 
-("LU", "L-1449", "Luxembourg"), 
-("LU", "L-1459", "Luxembourg"), 
-("LU", "L-1482", "Luxembourg"), 
-("LU", "L-1535", "Luxembourg"), 
-("LU", "L-1635", "Luxembourg"), 
-("LU", "L-1710", "Luxembourg"), 
-("LU", "L-1821", "Luxembourg"), 
-("LU", "L-1874", "Luxembourg"), 
-("LU", "L-1920", "Luxembourg"), 
-("LU", "L-1936", "Luxembourg"), 
-("LU", "L-2121", "Luxembourg"), 
-("LU", "L-2153", "Luxembourg"), 
-("LU", "L-2265", "Luxembourg"), 
-("LU", "L-2266", "Luxembourg"), 
-("LU", "L-2337", "Luxembourg"), 
-("LU", "L-2435", "Luxembourg"), 
-("LU", "L-2521", "Luxembourg"), 
-("LU", "L-2550", "Luxembourg"), 
-("LU", "L-2558", "Luxembourg"), 
-("LU", "L-2608", "Luxembourg"), 
-("LU", "L-2671", "Luxembourg"), 
-("LU", "L-2718", "Luxembourg"), 
-("LU", "L-2741", "Luxembourg"), 
-("LU", "L-7740", "Colmar-Berg"), 
-("LU", "L-7772", "Bissen"), 
-("LU", "L-6155", "Lintgen"), 
-("LU", "L-7441", "Lintgen"), 
-("LU", "L-7372", "Lorentzweiler"), 
-("LU", "L-7373", "Helmdange"), 
-("LU", "L-7410", "Mersch"), 
-("LU", "L-7570", "Mersch"), 
-("LU", "L-8824", "Perlé"), 
-("LU", "L-8825", "Perlé"), 
-("LU", "L-8818", "Grevels (Grosbous)"), 
-("LU", "L-9173", "Vichten"), 
-("LU", "L-5408", "Bous"), 
-("LU", "L-5601", "Mondorf-les-Bains"), 
-("LU", "L-5616", "Mondorf-les-Bains"), 
-("LU", "L-5650", "Mondorf-les-Bains"), 
-("LU", "L-5559", "Remich"), 
-("LU", "L-9401", "Vianden"), 
-("LU", "L-9521", "Wiltz"), 
-("LU", "L-9523", "Wiltz"), 
-("LU", "L-9539", "Wiltz"), 
-("LU", "L-4994", "Schouweiler"), 
-("LU", "L-8471", "Eischen"), 
-("LU", "L-8293", "Keispelt"), 
-("LU", "L-8339", "Olm"), 
-("LU", "L-8340", "Olm"), 
-("LU", "L-8264", "Mamer"), 
-("LU", "L-8266", "Mamer"), 
-("LU", "L-8272", "Mamer"), 
-("LU", "L-8441", "Steinfort"), 
-("LU", "L-4797", "Linger"), 
-("LU", "L-4910", "Hautcharage"), 
-("LU", "L-4947", "Hautcharage"), 
-("LU", "L-4953", "Hautcharage"), 
-("LU", "L-9758", "Tintesmühle"), 
-("LU", "L-9763", "Marnach"), 
-("LU", "L-9240", "Diekirch"), 
-("LU", "L-9079", "Ettelbruck"), 
-("LU", "L-9093", "Ettelbruck"), 
-("LU", "L-6380", "Savelborn"), 
-("LU", "L-6316", "Beaufort"), 
-("LU", "L-6246", "Rippig"), 
-("LU", "L-6360", "Grundhof (Berdorf)"), 
-("LU", "L-6238", "Breidweiler"), 
-("LU", "L-6432", "Echternach"), 
-("LU", "L-6441", "Echternach"), 
-("LU", "L-6486", "Echternach"), 
-("LU", "L-3233", "Bettembourg"), 
-("LU", "L-3265", "Bettembourg"), 
-("LU", "L-3380", "Noertzange"), 
-("LU", "L-3386", "Noertzange"), 
-("LU", "L-4592", "Oberkorn"), 
-("LU", "L-4629", "Differdange"), 
-("LU", "L-4657", "Differdange"), 
-("LU", "L-4669", "Differdange"), 
-("LU", "L-4680", "Niederkorn"), 
-("LU", "L-3425", "Dudelange"), 
-("LU", "L-3445", "Dudelange"), 
-("LU", "L-3561", "Dudelange"), 
-("LU", "L-3594", "Dudelange"), 
-("LU", "L-4004", "Esch-sur-Alzette"), 
-("LU", "L-4030", "Esch-sur-Alzette"), 
-("LU", "L-4045", "Esch-sur-Alzette"), 
-("LU", "L-4100", "Esch-sur-Alzette"), 
-("LU", "L-4120", "Esch-sur-Alzette"), 
-("LU", "L-4143", "Esch-sur-Alzette"), 
-("LU", "L-4207", "Esch-sur-Alzette"), 
-("LU", "L-4237", "Esch-sur-Alzette"), 
-("LU", "L-4266", "Esch-sur-Alzette"), 
-("LU", "L-4310", "Esch-sur-Alzette"), 
-("LU", "L-4335", "Esch-sur-Alzette"), 
-("LU", "L-5718", "Aspelt"), 
-("LU", "L-5721", "Aspelt"), 
-("LU", "L-3764", "Tétange"), 
-("LU", "L-3790", "Tétange"), 
-("LU", "L-3346", "Leudelange"), 
-("LU", "L-3352", "Leudelange"), 
-("LU", "L-4702", "Pétange"), 
-("LU", "L-4722", "Pétange"), 
-("LU", "L-4736", "Pétange"), 
-("LU", "L-4774", "Pétange"), 
-("LU", "L-4810", "Rodange"), 
-("LU", "L-4853", "Rodange"), 
-("LU", "L-4882", "Lamadelaine"), 
-("LU", "L-4888", "Lamadelaine"), 
-("LU", "L-3716", "Rumelange"), 
-("LU", "L-4416", "Belvaux"), 
-("LU", "L-4467", "Soleuvre"), 
-("LU", "L-3814", "Schifflange"), 
-("LU", "L-3815", "Schifflange"), 
-("LU", "L-6868", "Wecker-Gare"), 
-("LU", "L-6926", "Flaxweiler"), 
-("LU", "L-6716", "Grevenmacher"), 
-("LU", "L-6751", "Grevenmacher"), 
-("LU", "L-6783", "Grevenmacher"), 
-("LU", "L-6650", "Wasserbillig"), 
-("LU", "L-6673", "Mertert"), 
-("LU", "L-6677", "Mertert"), 
-("LU", "L-8052", "Bertrange"), 
-("LU", "L-8068", "Bertrange"), 
-("LU", "L-5333", "Moutfort"), 
-("LU", "L-2112", "Howald"), 
-("LU", "L-2425", "Howald"), 
-("LU", "L-5814", "Fentange"), 
-("LU", "L-5822", "Hesperange"), 
-("LU", "L-5824", "Alzingen"), 
-("LU", "L-5864", "Fentange"), 
-("LU", "L-5893", "Hesperange"), 
-("LU", "L-6945", "Niederanven"), 
-("LU", "L-5217", "Sandweiler"), 
-("LU", "L-7317", "Steinsel"), 
-("LU", "L-7343", "Steinsel"), 
-("LU", "L-2510", "Strassen"), 
-("LU", "L-8001", "Strassen"), 
-("LU", "L-7224", "Walferdange"), 
-("LU", "L-7244", "Bereldange"), 
-("LU", "L-5774", "Weiler-la-Tour"), 
-("LU", "L-1142", "Luxembourg"), 
-("LU", "L-1211", "Luxembourg"), 
-("LU", "L-1219", "Luxembourg"), 
-("LU", "L-1224", "Luxembourg"), 
-("LU", "L-1235", "Luxembourg"), 
-("LU", "L-1240", "Luxembourg"), 
-("LU", "L-1253", "Luxembourg"), 
-("LU", "L-1335", "Luxembourg"), 
-("LU", "L-1371", "Luxembourg"), 
-("LU", "L-1373", "Luxembourg"), 
-("LU", "L-1430", "Luxembourg"), 
-("LU", "L-1481", "Luxembourg"), 
-("LU", "L-1536", "Luxembourg"), 
-("LU", "L-1545", "Luxembourg"), 
-("LU", "L-1621", "Luxembourg"), 
-("LU", "L-1644", "Luxembourg"), 
-("LU", "L-1731", "Luxembourg"), 
-("LU", "L-1817", "Luxembourg"), 
-("LU", "L-1831", "Luxembourg"), 
-("LU", "L-1854", "Luxembourg"), 
-("LU", "L-1872", "Luxembourg"), 
-("LU", "L-1881", "Luxembourg"), 
-("LU", "L-2144", "Luxembourg"), 
-("LU", "L-2172", "Luxembourg"), 
-("LU", "L-2176", "Luxembourg"), 
-("LU", "L-2338", "Luxembourg"), 
-("LU", "L-2359", "Luxembourg"), 
-("LU", "L-2424", "Luxembourg"), 
-("LU", "L-2540", "Luxembourg"), 
-("LU", "L-2617", "Luxembourg"), 
-("LU", "L-2652", "Luxembourg"), 
-("LU", "L-7433", "Grevenknapp"), 
-("LU", "L-7624", "Larochette"), 
-("LU", "L-7350", "Lorentzweiler"), 
-("LU", "L-7513", "Mersch"), 
-("LU", "L-7559", "Mersch"), 
-("LU", "L-8821", "Koetschette"), 
-("LU", "L-8511", "Redange/Attert"), 
-("LU", "L-8561", "Schwebach"), 
-("LU", "L-8614", "Reimberg"), 
-("LU", "L-5638", "Mondorf-les-Bains"), 
-("LU", "L-5691", "Ellange"), 
-("LU", "L-5675", "Burmerange"), 
-("LU", "L-5512", "Remich"), 
-("LU", "L-5531", "Remich"), 
-("LU", "L-5548", "Remich"), 
-("LU", "L-9158", "Heiderscheid"), 
-("LU", "L-9556", "Wiltz"), 
-("LU", "L-9573", "Wiltz"), 
-("LU", "L-4970", "Bettange-sur-Mess"), 
-("LU", "L-4976", "Bettange-sur-Mess"), 
-("LU", "L-8205", "Kehlen"), 
-("LU", "L-8388", "Koerich"), 
-("LU", "L-8126", "Bridel"), 
-("LU", "L-8132", "Bridel"), 
-("LU", "L-8179", "Kopstal"), 
-("LU", "L-8221", "Mamer"), 
-("LU", "L-8253", "Mamer"), 
-("LU", "L-4911", "Bascharage"), 
-("LU", "L-4931", "Hautcharage"), 
-("LU", "L-4945", "Hautcharage"), 
-("LU", "L-9641", "Brachtenbach"), 
-("LU", "L-9976", "Sassel"), 
-("LU", "L-9907", "Troisvierges"), 
-("LU", "L-9948", "Biwisch"), 
-("LU", "L-9950", "Breidfeld"), 
-("LU", "L-9377", "Hoscheid"), 
-("LU", "L-9801", "Hosingen"), 
-("LU", "L-9245", "Diekirch"), 
-("LU", "L-9010", "Ettelbruck"), 
-("LU", "L-9094", "Ettelbruck"), 
-("LU", "L-9175", "Niederfeulen"), 
-("LU", "L-6311", "Beaufort"), 
-("LU", "L-6420", "Echternach"), 
-("LU", "L-6443", "Echternach"), 
-("LU", "L-6483", "Echternach"), 
-("LU", "L-6572", "Osweiler"), 
-("LU", "L-6583", "Rosport"), 
-("LU", "L-6245", "Mullerthal"), 
-("LU", "L-3208", "Bettembourg"), 
-("LU", "L-3211", "Bettembourg"), 
-("LU", "L-3256", "Bettembourg"), 
-("LU", "L-3259", "Bettembourg"), 
-("LU", "L-4506", "Niederkorn"), 
-("LU", "L-4596", "Differdange"), 
-("LU", "L-4630", "Differdange"), 
-("LU", "L-4663", "Differdange"), 
-("LU", "L-3403", "Dudelange"), 
-("LU", "L-3486", "Dudelange"), 
-("LU", "L-3489", "Dudelange"), 
-("LU", "L-4003", "Esch-sur-Alzette"), 
-("LU", "L-4053", "Esch-sur-Alzette"), 
-("LU", "L-4066", "Esch-sur-Alzette"), 
-("LU", "L-4164", "Esch-sur-Alzette"), 
-("LU", "L-4177", "Esch-sur-Alzette"), 
-("LU", "L-4179", "Esch-sur-Alzette"), 
-("LU", "L-4206", "Esch-sur-Alzette"), 
-("LU", "L-4234", "Esch-sur-Alzette"), 
-("LU", "L-4247", "Esch-sur-Alzette"), 
-("LU", "L-4341", "Esch-sur-Alzette"), 
-("LU", "L-5756", "Frisange"), 
-("LU", "L-3640", "Kayl"), 
-("LU", "L-3895", "Foetz"), 
-("LU", "L-4718", "Pétange"), 
-("LU", "L-4873", "Lamadelaine"), 
-("LU", "L-3321", "Berchem"), 
-("LU", "L-3397", "Roeser"), 
-("LU", "L-3726", "Rumelange"), 
-("LU", "L-4464", "Soleuvre"), 
-("LU", "L-4465", "Soleuvre"), 
-("LU", "L-4482", "Soleuvre"), 
-("LU", "L-3872", "Schifflange"), 
-("LU", "L-6913", "Roodt-sur-Syre"), 
-("LU", "L-6921", "Roodt-sur-Syre"), 
-("LU", "L-5410", "Beyren"), 
-("LU", "L-6183", "Gonderange"), 
-("LU", "L-6197", "Eisenborn"), 
-("LU", "L-8011", "Bertrange"), 
-("LU", "L-8059", "Bertrange"), 
-("LU", "L-8066", "Bertrange"), 
-("LU", "L-1216", "Howald"), 
-("LU", "L-1813", "Howald"), 
-("LU", "L-1748", "Senningerberg"), 
-("LU", "L-6948", "Niederanven"), 
-("LU", "L-6975", "Rameldange"), 
-("LU", "L-6996", "Hostert"), 
-("LU", "L-5371", "Schuttrange"), 
-("LU", "L-7303", "Steinsel"), 
-("LU", "L-8012", "Strassen"), 
-("LU", "L-8032", "Strassen"), 
-("LU", "L-8045", "Strassen"), 
-("LU", "L-7213", "Bereldange"), 
-("LU", "L-7228", "Helmsange"), 
-("LU", "L-7229", "Helmsange"), 
-("LU", "L-7238", "Walferdange"), 
-("LU", "L-7262", "Helmsange"), 
-("LU", "L-1123", "Luxembourg"), 
-("LU", "L-1153", "Luxembourg"), 
-("LU", "L-1250", "Luxembourg"), 
-("LU", "L-1326", "Luxembourg"), 
-("LU", "L-1346", "Luxembourg"), 
-("LU", "L-1348", "Luxembourg"), 
-("LU", "L-1351", "Luxembourg"), 
-("LU", "L-1431", "Luxembourg"), 
-("LU", "L-1519", "Luxembourg"), 
-("LU", "L-1746", "Luxembourg"), 
-("LU", "L-1754", "Luxembourg"), 
-("LU", "L-1833", "Luxembourg"), 
-("LU", "L-1864", "Luxembourg"), 
-("LU", "L-1871", "Luxembourg"), 
-("LU", "L-1899", "Luxembourg"), 
-("LU", "L-1911", "Luxembourg"), 
-("LU", "L-1912", "Luxembourg"), 
-("LU", "L-1939", "Luxembourg"), 
-("LU", "L-2117", "Luxembourg"), 
-("LU", "L-2166", "Luxembourg"), 
-("LU", "L-2232", "Luxembourg"), 
-("LU", "L-2269", "Luxembourg"), 
-("LU", "L-2328", "Luxembourg"), 
-("LU", "L-2346", "Luxembourg"), 
-("LU", "L-2568", "Luxembourg"), 
-("LU", "L-2614", "Luxembourg"), 
-("LU", "L-2717", "Luxembourg"), 
-("LU", "L-2734", "Luxembourg"), 
-("LU", "L-2762", "Luxembourg"), 
-("LU", "L-8711", "Boevange-sur-Attert"), 
-("LU", "L-7625", "Larochette"), 
-("LU", "L-7443", "Lintgen"), 
-("LU", "L-7457", "Lintgen"), 
-("LU", "L-7364", "Bofferdange"), 
-("LU", "L-7375", "Lorentzweiler"), 
-("LU", "L-7382", "Helmdange"), 
-("LU", "L-7502", "Mersch"), 
-("LU", "L-7543", "Rollingen"), 
-("LU", "L-7558", "Rollingen"), 
-("LU", "L-7562", "Mersch"), 
-("LU", "L-7598", "Reckange"), 
-("LU", "L-7481", "Tuntange"), 
-("LU", "L-8562", "Schweich"), 
-("LU", "L-8806", "Rambrouch"), 
-("LU", "L-8809", "Arsdorf"), 
-("LU", "L-8823", "Haut-Martelange"), 
-("LU", "L-8510", "Redange/Attert"), 
-("LU", "L-8705", "Useldange"), 
-("LU", "L-8822", "Kuborn"), 
-("LU", "L-8613", "Pratz"), 
-("LU", "L-5682", "Dalheim"), 
-("LU", "L-5687", "Dalheim"), 
-("LU", "L-5898", "Dalheim"), 
-("LU", "L-5651", "Mondorf-les-Bains"), 
-("LU", "L-5652", "Mondorf-les-Bains"), 
-("LU", "L-5671", "Altwies"), 
-("LU", "L-5539", "Remich"), 
-("LU", "L-5550", "Remich"), 
-("LU", "L-5575", "Remich"), 
-("LU", "L-9361", "Brandenbourg"), 
-("LU", "L-9395", "Tandel"), 
-("LU", "L-9406", "Vianden"), 
-("LU", "L-9181", "Ringel"), 
-("LU", "L-9759", "Knaphoscheid"), 
-("LU", "L-9767", "Pintsch"), 
-("LU", "L-4997", "Schouweiler"), 
-("LU", "L-8371", "Hobscheid"), 
-("LU", "L-8460", "Eischen"), 
-("LU", "L-8469", "Eischen"), 
-("LU", "L-8474", "Eischen"), 
-("LU", "L-8475", "Eischen"), 
-("LU", "L-8393", "Olm"), 
-("LU", "L-8386", "Koerich"), 
-("LU", "L-8139", "Bridel"), 
-("LU", "L-8165", "Bridel"), 
-("LU", "L-8214", "Mamer"), 
-("LU", "L-8239", "Mamer"), 
-("LU", "L-8245", "Mamer"), 
-("LU", "L-8262", "Mamer"), 
-("LU", "L-8345", "Capellen"), 
-("LU", "L-8365", "Hagen"), 
-("LU", "L-8401", "Steinfort"), 
-("LU", "L-8421", "Steinfort"), 
-("LU", "L-8436", "Steinfort"), 
-("LU", "L-8448", "Steinfort"), 
-("LU", "L-4958", "Bascharage"), 
-("LU", "L-9741", "Boxhorn"), 
-("LU", "L-9183", "Oberschlinder"), 
-("LU", "L-9834", "Holzthum"), 
-("LU", "L-9353", "Bettendorf"), 
-("LU", "L-9371", "Gilsdorf"), 
-("LU", "L-9212", "Diekirch"), 
-("LU", "L-9218", "Diekirch"), 
-("LU", "L-9220", "Diekirch"), 
-("LU", "L-9242", "Diekirch"), 
-("LU", "L-9292", "Diekirch"), 
-("LU", "L-9001", "Ettelbruck"), 
-("LU", "L-9013", "Ettelbruck"), 
-("LU", "L-9029", "Warken"), 
-("LU", "L-9083", "Ettelbruck"), 
-("LU", "L-9179", "Oberfeulen"), 
-("LU", "L-9127", "Schieren"), 
-("LU", "L-7633", "Medernach"), 
-("LU", "L-6315", "Beaufort"), 
-("LU", "L-6212", "Consdorf"), 
-("LU", "L-6239", "Colbette"), 
-("LU", "L-6445", "Echternach"), 
-("LU", "L-6446", "Echternach"), 
-("LU", "L-6465", "Echternach"), 
-("LU", "L-6477", "Echternach"), 
-("LU", "L-6557", "Dickweiler"), 
-("LU", "L-7640", "Christnach"), 
-("LU", "L-7649", "Freckeisen"), 
-("LU", "L-4520", "Niederkorn"), 
-("LU", "L-4631", "Oberkorn"), 
-("LU", "L-4667", "Oberkorn"), 
-("LU", "L-4671", "Oberkorn"), 
-("LU", "L-4681", "Niederkorn"), 
-("LU", "L-4683", "Differdange"), 
-("LU", "L-4692", "Differdange"), 
-("LU", "L-4698", "Lasauvage"), 
-("LU", "L-3450", "Dudelange"), 
-("LU", "L-3539", "Dudelange"), 
-("LU", "L-4011", "Esch-sur-Alzette"), 
-("LU", "L-4014", "Esch-sur-Alzette"), 
-("LU", "L-4017", "Esch-sur-Alzette"), 
-("LU", "L-4031", "Esch-sur-Alzette"), 
-("LU", "L-4058", "Esch-sur-Alzette"), 
-("LU", "L-4085", "Esch-sur-Alzette"), 
-("LU", "L-4155", "Esch-sur-Alzette"), 
-("LU", "L-4176", "Esch-sur-Alzette"), 
-("LU", "L-4180", "Esch-sur-Alzette"), 
-("LU", "L-4240", "Esch-sur-Alzette"), 
-("LU", "L-4254", "Esch-sur-Alzette"), 
-("LU", "L-4277", "Esch-sur-Alzette"), 
-("LU", "L-4319", "Esch-sur-Alzette"), 
-("LU", "L-4336", "Esch-sur-Alzette"), 
-("LU", "L-4345", "Esch-sur-Alzette"), 
-("LU", "L-4374", "Esch-sur-Alzette"), 
-("LU", "L-5722", "Aspelt"), 
-("LU", "L-3621", "Kayl"), 
-("LU", "L-3313", "Bergem"), 
-("LU", "L-3314", "Bergem"), 
-("LU", "L-3901", "Mondercange"), 
-("LU", "L-3925", "Mondercange"), 
-("LU", "L-4775", "Pétange"), 
-("LU", "L-4814", "Rodange"), 
-("LU", "L-3330", "Crauthem"), 
-("LU", "L-3396", "Roeser"), 
-("LU", "L-4380", "Ehlerange"), 
-("LU", "L-4420", "Soleuvre"), 
-("LU", "L-4480", "Soleuvre"), 
-("LU", "L-4491", "Belvaux"), 
-("LU", "L-4985", "Sanem"), 
-("LU", "L-3841", "Schifflange"), 
-("LU", "L-4149", "Schifflange"), 
-("LU", "L-6951", "Olingen"), 
-("LU", "L-6837", "Brouch (Wecker)"), 
-("LU", "L-6755", "Grevenmacher"), 
-("LU", "L-6759", "Grevenmacher"), 
-("LU", "L-6773", "Grevenmacher"), 
-("LU", "L-6132", "Junglinster"), 
-("LU", "L-6235", "Beidweiler"), 
-("LU", "L-6649", "Wasserbillig"), 
-("LU", "L-5401", "Ahn"), 
-("LU", "L-5416", "Ehnen"), 
-("LU", "L-8051", "Bertrange"), 
-("LU", "L-8058", "Bertrange"), 
-("LU", "L-8082", "Bertrange"), 
-("LU", "L-5314", "Contern"), 
-("LU", "L-1228", "Howald"), 
-("LU", "L-1625", "Howald"), 
-("LU", "L-5855", "Hesperange"), 
-("LU", "L-5885", "Howald"), 
-("LU", "L-5975", "Itzig"), 
-("LU", "L-2443", "Senningerberg"), 
-("LU", "L-2513", "Senningerberg"), 
-("LU", "L-5211", "Sandweiler"), 
-("LU", "L-5250", "Sandweiler"), 
-("LU", "L-5252", "Sandweiler"), 
-("LU", "L-5380", "Uebersyren"), 
-("LU", "L-2409", "Strassen"), 
-("LU", "L-8027", "Strassen"), 
-("LU", "L-7223", "Bereldange"), 
-("LU", "L-7226", "Walferdange"), 
-("LU", "L-7232", "Bereldange"), 
-("LU", "L-7240", "Bereldange"), 
-("LU", "L-5775", "Weiler-la-Tour"), 
-("LU", "L-1129", "Luxembourg"), 
-("LU", "L-1238", "Luxembourg"), 
-("LU", "L-1314", "Luxembourg"), 
-("LU", "L-1322", "Luxembourg"), 
-("LU", "L-1372", "Luxembourg"), 
-("LU", "L-1454", "Luxembourg"), 
-("LU", "L-1541", "Luxembourg"), 
-("LU", "L-1550", "Luxembourg"), 
-("LU", "L-1715", "Luxembourg"), 
-("LU", "L-2123", "Luxembourg"), 
-("LU", "L-2224", "Luxembourg"), 
-("LU", "L-2226", "Luxembourg"), 
-("LU", "L-2422", "Luxembourg"), 
-("LU", "L-2445", "Luxembourg"), 
-("LU", "L-2532", "Luxembourg"), 
-("LU", "L-2553", "Luxembourg"), 
-("LU", "L-2628", "Luxembourg"), 
-("LU", "L-7721", "Colmar-Berg"), 
-("LU", "L-7727", "Colmar-Berg"), 
-("LU", "L-7794", "Bissen"), 
-("LU", "L-7610", "Larochette"), 
-("LU", "L-7379", "Lorentzweiler"), 
-("LU", "L-7392", "Asselscheuer"), 
-("LU", "L-7525", "Mersch"), 
-("LU", "L-7560", "Mersch"), 
-("LU", "L-7759", "Essingen"), 
-("LU", "L-8531", "Ell"), 
-("LU", "L-8546", "Hostert"), 
-("LU", "L-8508", "Redange/Attert"), 
-("LU", "L-8707", "Useldange"), 
-("LU", "L-9173", "Michelbouch"), 
-("LU", "L-5686", "Dalheim"), 
-("LU", "L-5635", "Mondorf-les-Bains"), 
-("LU", "L-5404", "Bech-Kleinmacher"), 
-("LU", "L-5440", "Remerschen"), 
-("LU", "L-5554", "Remich"), 
-("LU", "L-5570", "Remich"), 
-("LU", "L-5429", "Huettermuehle"), 
-("LU", "L-5451", "Stadtbredimus"), 
-("LU", "L-5442", "Roedt"), 
-("LU", "L-9516", "Wiltz"), 
-("LU", "L-9517", "Weidingen"), 
-("LU", "L-9537", "Wiltz"), 
-("LU", "L-8354", "Garnich"), 
-("LU", "L-8373", "Hobscheid"), 
-("LU", "L-8317", "Olm"), 
-("LU", "L-8120", "Bridel"), 
-("LU", "L-8154", "Bridel"), 
-("LU", "L-8156", "Bridel"), 
-("LU", "L-8186", "Kopstal"), 
-("LU", "L-8213", "Mamer"), 
-("LU", "L-8222", "Mamer"), 
-("LU", "L-8228", "Mamer"), 
-("LU", "L-8250", "Mamer"), 
-("LU", "L-8313", "Capellen"), 
-("LU", "L-8363", "Simmerfarm"), 
-("LU", "L-8347", "Hagen"), 
-("LU", "L-8414", "Steinfort"), 
-("LU", "L-8450", "Steinfort"), 
-("LU", "L-4929", "Hautcharage"), 
-("LU", "L-4956", "Hautcharage"), 
-("LU", "L-9672", "Niederwampach"), 
-("LU", "L-9749", "Fischbach"), 
-("LU", "L-9755", "Hupperdange"), 
-("LU", "L-9140", "Bourscheid"), 
-("LU", "L-9229", "Diekirch"), 
-("LU", "L-9230", "Diekirch"), 
-("LU", "L-9233", "Diekirch"), 
-("LU", "L-9241", "Diekirch"), 
-("LU", "L-9260", "Diekirch"), 
-("LU", "L-9099", "Ingeldorf"), 
-("LU", "L-9146", "Erpeldange-sur-Sûre"), 
-("LU", "L-9011", "Ettelbruck"), 
-("LU", "L-9054", "Ettelbruck"), 
-("LU", "L-9087", "Ettelbruck"), 
-("LU", "L-6311", "Reisdorf"), 
-("LU", "L-9122", "Schieren"), 
-("LU", "L-6231", "Bech"), 
-("LU", "L-6251", "Geyershof"), 
-("LU", "L-6562", "Berdorf"), 
-("LU", "L-6210", "Consdorf"), 
-("LU", "L-6423", "Echternach"), 
-("LU", "L-6484", "Echternach"), 
-("LU", "L-3220", "Bettembourg"), 
-("LU", "L-3260", "Bettembourg"), 
-("LU", "L-4514", "Differdange"), 
-("LU", "L-4548", "Differdange"), 
-("LU", "L-4549", "Differdange"), 
-("LU", "L-4554", "Oberkorn"), 
-("LU", "L-4556", "Differdange"), 
-("LU", "L-4574", "Differdange"), 
-("LU", "L-4686", "Niederkorn"), 
-("LU", "L-3426", "Dudelange"), 
-("LU", "L-3451", "Dudelange"), 
-("LU", "L-3543", "Dudelange"), 
-("LU", "L-3567", "Dudelange"), 
-("LU", "L-4072", "Esch-sur-Alzette"), 
-("LU", "L-4110", "Esch-sur-Alzette"), 
-("LU", "L-4125", "Esch-sur-Alzette"), 
-("LU", "L-4253", "Esch-sur-Alzette"), 
-("LU", "L-4309", "Esch-sur-Alzette"), 
-("LU", "L-4340", "Esch-sur-Alzette"), 
-("LU", "L-4346", "Esch-sur-Alzette"), 
-("LU", "L-3337", "Hellange"), 
-("LU", "L-5751", "Frisange"), 
-("LU", "L-3681", "Kayl"), 
-("LU", "L-4710", "Pétange"), 
-("LU", "L-4770", "Pétange"), 
-("LU", "L-4780", "Pétange"), 
-("LU", "L-4806", "Rodange"), 
-("LU", "L-4886", "Lamadelaine"), 
-("LU", "L-3320", "Berchem"), 
-("LU", "L-3718", "Rumelange"), 
-("LU", "L-3730", "Rumelange"), 
-("LU", "L-3741", "Rumelange"), 
-("LU", "L-4461", "Belvaux"), 
-("LU", "L-3811", "Schifflange"), 
-("LU", "L-3836", "Schifflange"), 
-("LU", "L-3857", "Schifflange"), 
-("LU", "L-6901", "Roodt-sur-Syre"), 
-("LU", "L-6724", "Grevenmacher"), 
-("LU", "L-6763", "Grevenmacher"), 
-("LU", "L-6791", "Grevenmacher"), 
-("LU", "L-6134", "Junglinster"), 
-("LU", "L-6147", "Junglinster"), 
-("LU", "L-6851", "Manternach"), 
-("LU", "L-6615", "Wasserbillig"), 
-("LU", "L-6655", "Wasserbillig"), 
-("LU", "L-6683", "Mertert"), 
-("LU", "L-5313", "Contern"), 
-("LU", "L-1223", "Howald"), 
-("LU", "L-1350", "Howald"), 
-("LU", "L-2317", "Howald"), 
-("LU", "L-5819", "Alzingen"), 
-("LU", "L-5834", "Hesperange"), 
-("LU", "L-5863", "Alzingen"), 
-("LU", "L-5874", "Hesperange"), 
-("LU", "L-5894", "Alzingen"), 
-("LU", "L-5895", "Alzingen"), 
-("LU", "L-6991", "Rameldange"), 
-("LU", "L-1523", "Findel"), 
-("LU", "L-5214", "Sandweiler"), 
-("LU", "L-7308", "Heisdorf"), 
-("LU", "L-7312", "Mullendorf"), 
-("LU", "L-7319", "Steinsel"), 
-("LU", "L-1483", "Strassen"), 
-("LU", "L-2361", "Strassen"), 
-("LU", "L-8011", "Strassen"), 
-("LU", "L-8031", "Strassen"), 
-("LU", "L-8049", "Strassen"), 
-("LU", "L-7256", "Walferdange"), 
-("LU", "L-1115", "Luxembourg"), 
-("LU", "L-1121", "Luxembourg"), 
-("LU", "L-1263", "Luxembourg"), 
-("LU", "L-1323", "Luxembourg"), 
-("LU", "L-1426", "Luxembourg"), 
-("LU", "L-1475", "Luxembourg"), 
-("LU", "L-1532", "Luxembourg"), 
-("LU", "L-1553", "Luxembourg"), 
-("LU", "L-1631", "Luxembourg"), 
-("LU", "L-1643", "Luxembourg"), 
-("LU", "L-1714", "Luxembourg"), 
-("LU", "L-1734", "Luxembourg"), 
-("LU", "L-1839", "Luxembourg"), 
-("LU", "L-2130", "Luxembourg"), 
-("LU", "L-2135", "Luxembourg"), 
-("LU", "L-2137", "Luxembourg"), 
-("LU", "L-2143", "Luxembourg"), 
-("LU", "L-2146", "Luxembourg"), 
-("LU", "L-2152", "Luxembourg"), 
-("LU", "L-2169", "Luxembourg"), 
-("LU", "L-2263", "Luxembourg"), 
-("LU", "L-2351", "Luxembourg"), 
-("LU", "L-2353", "Luxembourg"), 
-("LU", "L-2413", "Luxembourg"), 
-("LU", "L-2653", "Luxembourg"), 
-("LU", "L-2711", "Luxembourg"), 
-("LU", "L-7767", "Bissen"), 
-("LU", "L-7418", "Buschdorf"), 
-("LU", "L-7475", "Schoos"), 
-("LU", "L-7440", "Lintgen"), 
-("LU", "L-7380", "Lorentzweiler"), 
-("LU", "L-7531", "Mersch"), 
-("LU", "L-8533", "Elvange"), 
-("LU", "L-8537", "Hostert"), 
-("LU", "L-8826", "Perlé"), 
-("LU", "L-8831", "Rindschleiden"), 
-("LU", "L-5626", "Mondorf-les-Bains"), 
-("LU", "L-5636", "Mondorf-les-Bains"), 
-("LU", "L-5639", "Mondorf-les-Bains"), 
-("LU", "L-5658", "Mondorf-les-Bains"), 
-("LU", "L-5422", "Bech-Kleinmacher"), 
-("LU", "L-5446", "Schengen"), 
-("LU", "L-5519", "Remich"), 
-("LU", "L-5523", "Remich"), 
-("LU", "L-5560", "Remich"), 
-("LU", "L-5573", "Remich"), 
-("LU", "L-9453", "Bivels"), 
-("LU", "L-9639", "Boulaide"), 
-("LU", "L-9640", "Boulaide"), 
-("LU", "L-9696", "Winseler"), 
-("LU", "L-4977", "Bettange-sur-Mess"), 
-("LU", "L-8369", "Hivange"), 
-("LU", "L-8473", "Eischen"), 
-("LU", "L-8287", "Kehlen"), 
-("LU", "L-8324", "Olm"), 
-("LU", "L-8390", "Nospelt"), 
-("LU", "L-8387", "Koerich"), 
-("LU", "L-8127", "Bridel"), 
-("LU", "L-8157", "Bridel"), 
-("LU", "L-8219", "Mamer"), 
-("LU", "L-8220", "Mamer"), 
-("LU", "L-8231", "Mamer"), 
-("LU", "L-8233", "Mamer"), 
-("LU", "L-8243", "Mamer"), 
-("LU", "L-8318", "Capellen"), 
-("LU", "L-8415", "Steinfort"), 
-("LU", "L-4902", "Bascharage"), 
-("LU", "L-4908", "Bascharage"), 
-("LU", "L-4933", "Bascharage"), 
-("LU", "L-4940", "Bascharage"), 
-("LU", "L-4961", "Clemency"), 
-("LU", "L-9780", "Wincrange"), 
-("LU", "L-9905", "Troisvierges"), 
-("LU", "L-9808", "Hosingen"), 
-("LU", "L-9831", "Consthum"), 
-("LU", "L-9164", "Bourscheid-Moulin"), 
-("LU", "L-9203", "Diekirch"), 
-("LU", "L-9205", "Diekirch"), 
-("LU", "L-9266", "Diekirch"), 
-("LU", "L-9019", "Warken"), 
-("LU", "L-9030", "Warken"), 
-("LU", "L-9048", "Ettelbruck"), 
-("LU", "L-9060", "Ettelbruck"), 
-("LU", "L-9117", "Schieren"), 
-("LU", "L-9184", "Schieren"), 
-("LU", "L-6350", "Dillingen"), 
-("LU", "L-6252", "Wolper"), 
-("LU", "L-6417", "Echternach"), 
-("LU", "L-3238", "Bettembourg"), 
-("LU", "L-3240", "Bettembourg"), 
-("LU", "L-3274", "Bettembourg"), 
-("LU", "L-3340", "Huncherange"), 
-("LU", "L-3382", "Noertzange"), 
-("LU", "L-4593", "Differdange"), 
-("LU", "L-4626", "Oberkorn"), 
-("LU", "L-4660", "Differdange"), 
-("LU", "L-4665", "Oberkorn"), 
-("LU", "L-4676", "Niederkorn"), 
-("LU", "L-3464", "Dudelange"), 
-("LU", "L-3553", "Dudelange"), 
-("LU", "L-4033", "Esch-sur-Alzette"), 
-("LU", "L-4047", "Esch-sur-Alzette"), 
-("LU", "L-4067", "Esch-sur-Alzette"), 
-("LU", "L-4213", "Esch-sur-Alzette"), 
-("LU", "L-4222", "Esch-sur-Alzette"), 
-("LU", "L-4250", "Esch-sur-Alzette"), 
-("LU", "L-4301", "Esch-sur-Alzette"), 
-("LU", "L-4317", "Esch-sur-Alzette"), 
-("LU", "L-3620", "Kayl"), 
-("LU", "L-3657", "Kayl"), 
-("LU", "L-3672", "Kayl"), 
-("LU", "L-3762", "Tétange"), 
-("LU", "L-3773", "Tétange"), 
-("LU", "L-3897", "Foetz"), 
-("LU", "L-4786", "Pétange"), 
-("LU", "L-4809", "Rodange"), 
-("LU", "L-4846", "Rodange"), 
-("LU", "L-1898", "Kockelscheuer"), 
-("LU", "L-1899", "Kockelscheuer"), 
-("LU", "L-3701", "Rumelange"), 
-("LU", "L-3731", "Rumelange"), 
-("LU", "L-3733", "Rumelange"), 
-("LU", "L-4370", "Belvaux"), 
-("LU", "L-4385", "Ehlerange"), 
-("LU", "L-4422", "Belvaux"), 
-("LU", "L-4436", "Belvaux"), 
-("LU", "L-4447", "Soleuvre"), 
-("LU", "L-3826", "Schifflange"), 
-("LU", "L-3870", "Schifflange"), 
-("LU", "L-6910", "Roodt-sur-Syre"), 
-("LU", "L-6914", "Roodt-sur-Syre"), 
-("LU", "L-6930", "Mensdorf"), 
-("LU", "L-6718", "Grevenmacher"), 
-("LU", "L-6723", "Grevenmacher"), 
-("LU", "L-6101", "Junglinster"), 
-("LU", "L-6115", "Junglinster"), 
-("LU", "L-6116", "Junglinster"), 
-("LU", "L-6196", "Eisenborn"), 
-("LU", "L-6622", "Wasserbillig"), 
-("LU", "L-6645", "Wasserbillig"), 
-("LU", "L-5482", "Wormeldange"), 
-("LU", "L-8072", "Bertrange"), 
-("LU", "L-8091", "Bertrange"), 
-("LU", "L-8092", "Bertrange"), 
-("LU", "L-5811", "Fentange"), 
-("LU", "L-5828", "Fentange"), 
-("LU", "L-5896", "Alzingen"), 
-("LU", "L-5970", "Itzig"), 
-("LU", "L-5971", "Itzig"), 
-("LU", "L-5977", "Itzig"), 
-("LU", "L-6943", "Niederanven"), 
-("LU", "L-6970", "Oberanven"), 
-("LU", "L-6999", "Oberanven"), 
-("LU", "L-5299", "Schrassig"), 
-("LU", "L-5370", "Schuttrange"), 
-("LU", "L-5373", "Schuttrange"), 
-("LU", "L-7318", "Heisdorf"), 
-("LU", "L-8097", "Strassen"), 
-("LU", "L-7250", "Helmsange"), 
-("LU", "L-7251", "Helmsange"), 
-("LU", "L-7257", "Helmsange"), 
-("LU", "L-5773", "Weiler-la-Tour"), 
-("LU", "L-1117", "Luxembourg"), 
-("LU", "L-1147", "Luxembourg"), 
-("LU", "L-1152", "Luxembourg"), 
-("LU", "L-1234", "Luxembourg"), 
-("LU", "L-1272", "Luxembourg"), 
-("LU", "L-1278", "Luxembourg"), 
-("LU", "L-1325", "Luxembourg"), 
-("LU", "L-1432", "Luxembourg"), 
-("LU", "L-1460", "Luxembourg"), 
-("LU", "L-1520", "Luxembourg"), 
-("LU", "L-1624", "Luxembourg"), 
-("LU", "L-1661", "Luxembourg"), 
-("LU", "L-1747", "Luxembourg"), 
-("LU", "L-1811", "Luxembourg"), 
-("LU", "L-1882", "Luxembourg"), 
-("LU", "L-1917", "Luxembourg"), 
-("LU", "L-2111", "Luxembourg"), 
-("LU", "L-2156", "Luxembourg"), 
-("LU", "L-2211", "Luxembourg"), 
-("LU", "L-2324", "Luxembourg"), 
-("LU", "L-2423", "Luxembourg"), 
-("LU", "L-2441", "Luxembourg"), 
-("LU", "L-2454", "Luxembourg"), 
-("LU", "L-2543", "Luxembourg"), 
-("LU", "L-2613", "Luxembourg"), 
-("LU", "L-2624", "Luxembourg"), 
-("LU", "L-7795", "Bissen"), 
-("LU", "L-7425", "Finsterthal"), 
-("LU", "L-7635", "Ernzen"), 
-("LU", "L-7518", "Rollingen"), 
-("LU", "L-7523", "Mersch"), 
-("LU", "L-7564", "Mersch"), 
-("LU", "L-7591", "Beringen"), 
-("LU", "L-7482", "Tuntange"), 
-("LU", "L-5685", "Dalheim"), 
-("LU", "L-5698", "Welfrange"), 
-("LU", "L-5602", "Mondorf-les-Bains"), 
-("LU", "L-5470", "Wellenstein"), 
-("LU", "L-5513", "Remich"), 
-("LU", "L-5538", "Remich"), 
-("LU", "L-5552", "Remich"), 
-("LU", "L-5556", "Remich"), 
-("LU", "L-5465", "Waldbredimus"), 
-("LU", "L-9350", "Bastendorf"), 
-("LU", "L-9455", "Fouhren"), 
-("LU", "L-9420", "Vianden"), 
-("LU", "L-9650", "Esch-sur-Sûre"), 
-("LU", "L-9666", "Lultzhausen"), 
-("LU", "L-9653", "Goesdorf"), 
-("LU", "L-2158", "Luxembourg"), 
-("LU", "L-2159", "Luxembourg"), 
-("LU", "L-2161", "Luxembourg"), 
-("LU", "L-2174", "Luxembourg"), 
-("LU", "L-2223", "Luxembourg"), 
-("LU", "L-2329", "Luxembourg"), 
-("LU", "L-2380", "Luxembourg"), 
-("LU", "L-2419", "Luxembourg"), 
-("LU", "L-2448", "Luxembourg"), 
-("LU", "L-2449", "Luxembourg"), 
-("LU", "L-2455", "Luxembourg"), 
-("LU", "L-2528", "Luxembourg"), 
-("LU", "L-2541", "Luxembourg"), 
-("LU", "L-2548", "Luxembourg"), 
-("LU", "L-2549", "Luxembourg"), 
-("LU", "L-2554", "Luxembourg"), 
-("LU", "L-2629", "Luxembourg"), 
-("LU", "L-2663", "Luxembourg"), 
-("LU", "L-2722", "Luxembourg"), 
-("LU", "L-2733", "Luxembourg"), 
-("LU", "L-2761", "Luxembourg"), 
-("LU", "L-7714", "Colmar-Berg"), 
-("LU", "L-7737", "Colmar-Berg"), 
-("LU", "L-7741", "Colmar-Berg"), 
-("LU", "L-7763", "Bissen"), 
-("LU", "L-7770", "Bissen"), 
-("LU", "L-7432", "Gosseldange"), 
-("LU", "L-7444", "Lintgen"), 
-("LU", "L-7376", "Bofferdange"), 
-("LU", "L-7381", "Bofferdange"), 
-("LU", "L-7565", "Mersch"), 
-("LU", "L-8527", "Colpach-Bas"), 
-("LU", "L-9188", "Vichten"), 
-("LU", "L-8818", "Grevels"), 
-("LU", "L-5680", "Dalheim"), 
-("LU", "L-5741", "Filsdorf"), 
-("LU", "L-5518", "Remich"), 
-("LU", "L-5423", "Ersange"), 
-("LU", "L-9459", "Longsdorf"), 
-("LU", "L-9643", "Buederscheid"), 
-("LU", "L-9776", "Wilwerwiltz"), 
-("LU", "L-8280", "Kehlen"), 
-("LU", "L-8319", "Olm"), 
-("LU", "L-8150", "Bridel"), 
-("LU", "L-8252", "Mamer"), 
-("LU", "L-8310", "Capellen"), 
-("LU", "L-8325", "Capellen"), 
-("LU", "L-8363", "Simmerschmelz"), 
-("LU", "L-8396", "Septfontaines"), 
-("LU", "L-8362", "Grass"), 
-("LU", "L-8389", "Grass"), 
-("LU", "L-4937", "Hautcharage"), 
-("LU", "L-4943", "Hautcharage"), 
-("LU", "L-4952", "Bascharage"), 
-("LU", "L-9713", "Clervaux"), 
-("LU", "L-9805", "Hosingen"), 
-("LU", "L-9373", "Gilsdorf"), 
-("LU", "L-9206", "Diekirch"), 
-("LU", "L-9290", "Diekirch"), 
-("LU", "L-9378", "Erpeldange-sur-Sûre"), 
-("LU", "L-9024", "Ettelbruck"), 
-("LU", "L-9040", "Ettelbruck"), 
-("LU", "L-9046", "Ettelbruck"), 
-("LU", "L-9169", "Mertzig"), 
-("LU", "L-7660", "Medernach"), 
-("LU", "L-6239", "Marscherwald"), 
-("LU", "L-6439", "Echternach"), 
-("LU", "L-6450", "Echternach"), 
-("LU", "L-6455", "Echternach"), 
-("LU", "L-6487", "Echternach"), 
-("LU", "L-6496", "Echternach"), 
-("LU", "L-6660", "Born"), 
-("LU", "L-6581", "Rosport"), 
-("LU", "L-3235", "Bettembourg"), 
-("LU", "L-3272", "Bettembourg"), 
-("LU", "L-3279", "Bettembourg"), 
-("LU", "L-3280", "Bettembourg"), 
-("LU", "L-3284", "Bettembourg"), 
-("LU", "L-4536", "Differdange"), 
-("LU", "L-4540", "Differdange"), 
-("LU", "L-4550", "Oberkorn"), 
-("LU", "L-4555", "Niederkorn"), 
-("LU", "L-4640", "Oberkorn"), 
-("LU", "L-4650", "Niederkorn"), 
-("LU", "L-4689", "Differdange"), 
-("LU", "L-3424", "Dudelange"), 
-("LU", "L-3444", "Dudelange"), 
-("LU", "L-3460", "Dudelange"), 
-("LU", "L-3473", "Dudelange"), 
-("LU", "L-3524", "Dudelange"), 
-("LU", "L-3532", "Dudelange"), 
-("LU", "L-3563", "Dudelange"), 
-("LU", "L-3590", "Dudelange"), 
-("LU", "L-4006", "Esch-sur-Alzette"), 
-("LU", "L-4049", "Esch-sur-Alzette"), 
-("LU", "L-4102", "Esch-sur-Alzette"), 
-("LU", "L-4122", "Esch-sur-Alzette"), 
-("LU", "L-4126", "Esch-sur-Alzette"), 
-("LU", "L-4208", "Esch-sur-Alzette"), 
-("LU", "L-4216", "Esch-sur-Alzette"), 
-("LU", "L-4217", "Esch-sur-Alzette"), 
-("LU", "L-4238", "Esch-sur-Alzette"), 
-("LU", "L-4262", "Esch-sur-Alzette"), 
-("LU", "L-4270", "Esch-sur-Alzette"), 
-("LU", "L-4305", "Esch-sur-Alzette"), 
-("LU", "L-4362", "Esch-sur-Alzette"), 
-("LU", "L-5714", "Aspelt"), 
-("LU", "L-3671", "Kayl"), 
-("LU", "L-3673", "Kayl"), 
-("LU", "L-3347", "Leudelange"), 
-("LU", "L-3368", "Leudelange"), 
-("LU", "L-3373", "Leudelange"), 
-("LU", "L-3315", "Bergem"), 
-("LU", "L-3930", "Mondercange"), 
-("LU", "L-4398", "Pontpierre"), 
-("LU", "L-4714", "Pétange"), 
-("LU", "L-4744", "Lamadelaine"), 
-("LU", "L-4756", "Pétange"), 
-("LU", "L-4819", "Rodange"), 
-("LU", "L-4891", "Lamadelaine"), 
-("LU", "L-3960", "Ehlange"), 
-("LU", "L-4475", "Belvaux"), 
-("LU", "L-6931", "Mensdorf"), 
-("LU", "L-6750", "Grevenmacher"), 
-("LU", "L-6140", "Junglinster"), 
-("LU", "L-6631", "Wasserbillig"), 
-("LU", "L-8050", "Bertrange"), 
-("LU", "L-8074", "Bertrange"), 
-("LU", "L-5318", "Contern"), 
-("LU", "L-1274", "Howald"), 
-("LU", "L-1423", "Howald"), 
-("LU", "L-2412", "Howald"), 
-("LU", "L-2416", "Howald"), 
-("LU", "L-5826", "Fentange"), 
-("LU", "L-5862", "Fentange"), 
-("LU", "L-5865", "Alzingen"), 
-("LU", "L-1646", "Senningerberg"), 
-("LU", "L-6992", "Oberanven"), 
-("LU", "L-5360", "Schrassig"), 
-("LU", "L-7348", "Heisdorf"), 
-("LU", "L-8039", "Strassen"), 
-("LU", "L-8041", "Strassen"), 
-("LU", "L-7243", "Bereldange"), 
-("LU", "L-5760", "Hassel"), 
-("LU", "L-1150", "Luxembourg"), 
-("LU", "L-1318", "Luxembourg"), 
-("LU", "L-1324", "Luxembourg"), 
-("LU", "L-1355", "Luxembourg"), 
-("LU", "L-1419", "Luxembourg"), 
-("LU", "L-1538", "Luxembourg"), 
-("LU", "L-1548", "Luxembourg"), 
-("LU", "L-1610", "Luxembourg"), 
-("LU", "L-1623", "Luxembourg"), 
-("LU", "L-1719", "Luxembourg"), 
-("LU", "L-1860", "Luxembourg"), 
-("LU", "L-1922", "Luxembourg"), 
-("LU", "L-1929", "Luxembourg"), 
-("LU", "L-4998", "Schouweiler"), 
-("LU", "L-8350", "Garnich"), 
-("LU", "L-7423", "Dondelange"), 
-("LU", "L-8289", "Kehlen"), 
-("LU", "L-8183", "Kopstal"), 
-("LU", "L-8210", "Mamer"), 
-("LU", "L-8216", "Mamer"), 
-("LU", "L-8223", "Mamer"), 
-("LU", "L-8226", "Mamer"), 
-("LU", "L-8271", "Mamer"), 
-("LU", "L-8320", "Capellen"), 
-("LU", "L-4919", "Bascharage"), 
-("LU", "L-4927", "Hautcharage"), 
-("LU", "L-4951", "Bascharage"), 
-("LU", "L-9908", "Troisvierges"), 
-("LU", "L-9910", "Troisvierges"), 
-("LU", "L-9981", "Wilwerdange"), 
-("LU", "L-9970", "Leithum"), 
-("LU", "L-9806", "Hosingen"), 
-("LU", "L-9369", "Gilsdorf"), 
-("LU", "L-9164", "Lipperscheid"), 
-("LU", "L-9172", "Michelau"), 
-("LU", "L-9041", "Ettelbruck"), 
-("LU", "L-9067", "Ettelbruck"), 
-("LU", "L-9084", "Ettelbruck"), 
-("LU", "L-9098", "Ettelbruck"), 
-("LU", "L-9045", "Niederfeulen"), 
-("LU", "L-9364", "Keiwelbach"), 
-("LU", "L-6310", "Beaufort"), 
-("LU", "L-6430", "Echternach"), 
-("LU", "L-6440", "Echternach"), 
-("LU", "L-3253", "Bettembourg"), 
-("LU", "L-4512", "Niederkorn"), 
-("LU", "L-4581", "Differdange"), 
-("LU", "L-4597", "Differdange"), 
-("LU", "L-4610", "Niederkorn"), 
-("LU", "L-4611", "Niederkorn"), 
-("LU", "L-4645", "Niederkorn"), 
-("LU", "L-3427", "Dudelange"), 
-("LU", "L-3463", "Dudelange"), 
-("LU", "L-3466", "Dudelange"), 
-("LU", "L-3492", "Dudelange"), 
-("LU", "L-3520", "Dudelange"), 
-("LU", "L-3541", "Dudelange"), 
-("LU", "L-3560", "Dudelange"), 
-("LU", "L-3583", "Dudelange"), 
-("LU", "L-4036", "Esch-sur-Alzette"), 
-("LU", "L-4050", "Esch-sur-Alzette"), 
-("LU", "L-4060", "Esch-sur-Alzette"), 
-("LU", "L-4174", "Esch-sur-Alzette"), 
-("LU", "L-4244", "Esch-sur-Alzette"), 
-("LU", "L-4308", "Esch-sur-Alzette"), 
-("LU", "L-4331", "Esch-sur-Alzette"), 
-("LU", "L-4348", "Esch-sur-Alzette"), 
-("LU", "L-4366", "Esch-sur-Alzette"), 
-("LU", "L-3636", "Kayl"), 
-("LU", "L-3679", "Kayl"), 
-("LU", "L-3768", "Tétange"), 
-("LU", "L-3362", "Leudelange"), 
-("LU", "L-3365", "Leudelange"), 
-("LU", "L-3924", "Mondercange"), 
-("LU", "L-3945", "Mondercange"), 
-("LU", "L-4804", "Rodange"), 
-("LU", "L-4818", "Rodange"), 
-("LU", "L-4826", "Rodange"), 
-("LU", "L-4833", "Rodange"), 
-("LU", "L-4847", "Rodange"), 
-("LU", "L-3391", "Peppange"), 
-("LU", "L-3710", "Rumelange"), 
-("LU", "L-3727", "Rumelange"), 
-("LU", "L-4367", "Belvaux"), 
-("LU", "L-4405", "Soleuvre"), 
-("LU", "L-4439", "Soleuvre"), 
-("LU", "L-3831", "Schifflange"), 
-("LU", "L-3859", "Schifflange"), 
-("LU", "L-3863", "Schifflange"), 
-("LU", "L-6918", "Mensdorf"), 
-("LU", "L-6923", "Berg"), 
-("LU", "L-6838", "Hagelsdorf"), 
-("LU", "L-6770", "Grevenmacher"), 
-("LU", "L-6771", "Grevenmacher"), 
-("LU", "L-6784", "Grevenmacher"), 
-("LU", "L-6794", "Grevenmacher"), 
-("LU", "L-6124", "Junglinster"), 
-("LU", "L-6130", "Junglinster"), 
-("LU", "L-6169", "Eschweiler"), 
-("LU", "L-6621", "Wasserbillig"), 
-("LU", "L-6634", "Wasserbillig"), 
-("LU", "L-8065", "Bertrange"), 
-("LU", "L-8087", "Bertrange"), 
-("LU", "L-5340", "Moutfort"), 
-("LU", "L-1949", "Howald"), 
-("LU", "L-2370", "Howald"), 
-("LU", "L-5866", "Hesperange"), 
-("LU", "L-5871", "Alzingen"), 
-("LU", "L-5873", "Alzingen"), 
-("LU", "L-2315", "Senningerberg"), 
-("LU", "L-2633", "Senningerberg"), 
-("LU", "L-6973", "Rameldange"), 
-("LU", "L-6979", "Rameldange"), 
-("LU", "L-6982", "Oberanven"), 
-("LU", "L-5243", "Sandweiler"), 
-("LU", "L-7324", "Mullendorf"), 
-("LU", "L-8009", "Strassen"), 
-("LU", "L-8037", "Strassen"), 
-("LU", "L-8056", "Strassen"), 
-("LU", "L-8112", "Strassen"), 
-("LU", "L-7268", "Bereldange"), 
-("LU", "L-7269", "Walferdange"), 
-("LU", "L-5899", "Syren"), 
-("LU", "L-1144", "Luxembourg"), 
-("LU", "L-1160", "Luxembourg"), 
-("LU", "L-1249", "Luxembourg"), 
-("LU", "L-1334", "Luxembourg"), 
-("LU", "L-1340", "Luxembourg"), 
-("LU", "L-1341", "Luxembourg"), 
-("LU", "L-1349", "Luxembourg"), 
-("LU", "L-1365", "Luxembourg"), 
-("LU", "L-1367", "Luxembourg"), 
-("LU", "L-1465", "Luxembourg"), 
-("LU", "L-1547", "Luxembourg"), 
-("LU", "L-1613", "Luxembourg"), 
-("LU", "L-1619", "Luxembourg"), 
-("LU", "L-1626", "Luxembourg"), 
-("LU", "L-1650", "Luxembourg"), 
-("LU", "L-1656", "Luxembourg"), 
-("LU", "L-1712", "Luxembourg"), 
-("LU", "L-1753", "Luxembourg"), 
-("LU", "L-2116", "Luxembourg"), 
-("LU", "L-2131", "Luxembourg"), 
-("LU", "L-2183", "Luxembourg"), 
-("LU", "L-2322", "Luxembourg"), 
-("LU", "L-2344", "Luxembourg"), 
-("LU", "L-2415", "Luxembourg"), 
-("LU", "L-2431", "Luxembourg"), 
-("LU", "L-2530", "Luxembourg"), 
-("LU", "L-2559", "Luxembourg"), 
-("LU", "L-2565", "Luxembourg"), 
-("LU", "L-2635", "Luxembourg"), 
-("LU", "L-2637", "Luxembourg"), 
-("LU", "L-2716", "Luxembourg"), 
-("LU", "L-2719", "Luxembourg"), 
-("LU", "L-2721", "Luxembourg"), 
-("LU", "L-2726", "Luxembourg"), 
-("LU", "L-2731", "Luxembourg"), 
-("LU", "L-7785", "Bissen"), 
-("LU", "L-7791", "Bissen"), 
-("LU", "L-6175", "Schiltzberg"), 
-("LU", "L-7639", "Reuland"), 
-("LU", "L-7448", "Lintgen"), 
-("LU", "L-7455", "Lintgen"), 
-("LU", "L-7396", "Hunsdorf"), 
-("LU", "L-7463", "Moesdorf"), 
-("LU", "L-7536", "Mersch"), 
-("LU", "L-7542", "Mersch"), 
-("LU", "L-7557", "Mersch"), 
-("LU", "L-7431", "Niederglabach"), 
-("LU", "L-8538", "Hovelange"), 
-("LU", "L-5407", "Bous"), 
-("LU", "L-5422", "Erpeldange"), 
-("LU", "L-9360", "Brandenbourg"), 
-("LU", "L-9378", "Këppenhaff"), 
-("LU", "L-9408", "Vianden"), 
-("LU", "L-9412", "Vianden"), 
-("LU", "L-9151", "Eschdorf"), 
-("LU", "L-9156", "Heiderscheid"), 
-("LU", "L-9153", "Dirbach (Goesdorf)"), 
-("LU", "L-9656", "Harlange"), 
-("LU", "L-9531", "Wiltz"), 
-("LU", "L-9560", "Wiltz"), 
-("LU", "L-8374", "Hobscheid"), 
-("LU", "L-8316", "Olm"), 
-("LU", "L-8327", "Olm"), 
-("LU", "L-8191", "Kopstal"), 
-("LU", "L-8224", "Mamer"), 
-("LU", "L-8247", "Mamer"), 
-("LU", "L-4923", "Hautcharage"), 
-("LU", "L-4939", "Bascharage"), 
-("LU", "L-4965", "Clemency"), 
-("LU", "L-9737", "Clervaux"), 
-("LU", "L-9775", "Weicherdange"), 
-("LU", "L-9830", "Bockholtz"), 
-("LU", "L-9841", "Wahlhausen"), 
-("LU", "L-9221", "Gilsdorf"), 
-("LU", "L-9153", "Dirbach"), 
-("LU", "L-9164", "Bourscheid-Plage"), 
-("LU", "L-9182", "Scheidel"), 
-("LU", "L-9340", "Flebour"), 
-("LU", "L-9221", "Diekirch"), 
-("LU", "L-9236", "Diekirch"), 
-("LU", "L-9239", "Diekirch"), 
-("LU", "L-9251", "Diekirch"), 
-("LU", "L-9289", "Diekirch"), 
-("LU", "L-9056", "Ettelbruck"), 
-("LU", "L-9068", "Ettelbruck"), 
-("LU", "L-9071", "Ettelbruck"), 
-("LU", "L-9072", "Ettelbruck"), 
-("LU", "L-9168", "Mertzig"), 
-("LU", "L-7663", "Medernach"), 
-("LU", "L-6225", "Hersberg"), 
-("LU", "L-6230", "Bech"), 
-("LU", "L-6442", "Echternach"), 
-("LU", "L-6467", "Echternach"), 
-("LU", "L-6488", "Echternach"), 
-("LU", "L-6661", "Born"), 
-("LU", "L-3209", "Bettembourg"), 
-("LU", "L-3222", "Bettembourg"), 
-("LU", "L-3231", "Bettembourg"), 
-("LU", "L-3332", "Fennange"), 
-("LU", "L-4532", "Differdange"), 
-("LU", "L-4547", "Differdange"), 
-("LU", "L-4565", "Niederkorn"), 
-("LU", "L-4577", "Differdange"), 
-("LU", "L-4599", "Differdange"), 
-("LU", "L-4623", "Differdange"), 
-("LU", "L-4635", "Differdange"), 
-("LU", "L-4647", "Differdange"), 
-("LU", "L-4685", "Oberkorn"), 
-("LU", "L-3409", "Dudelange"), 
-("LU", "L-3470", "Dudelange"), 
-("LU", "L-3471", "Dudelange"), 
-("LU", "L-3571", "Dudelange"), 
-("LU", "L-3593", "Dudelange"), 
-("LU", "L-4018", "Esch-sur-Alzette"), 
-("LU", "L-4035", "Esch-sur-Alzette"), 
-("LU", "L-4081", "Esch-sur-Alzette"), 
-("LU", "L-4106", "Esch-sur-Alzette"), 
-("LU", "L-4109", "Esch-sur-Alzette"), 
-("LU", "L-4135", "Esch-sur-Alzette"), 
-("LU", "L-4210", "Esch-sur-Alzette"), 
-("LU", "L-4231", "Esch-sur-Alzette"), 
-("LU", "L-4302", "Esch-sur-Alzette"), 
-("LU", "L-4365", "Esch-sur-Alzette"), 
-("LU", "L-3660", "Kayl"), 
-("LU", "L-3358", "Leudelange"), 
-("LU", "L-3316", "Bergem"), 
-("LU", "L-3910", "Mondercange"), 
-("LU", "L-3911", "Mondercange"), 
-("LU", "L-3929", "Mondercange"), 
-("LU", "L-3931", "Mondercange"), 
-("LU", "L-3937", "Mondercange"), 
-("LU", "L-4707", "Pétange"), 
-("LU", "L-4731", "Pétange"), 
-("LU", "L-4732", "Pétange"), 
-("LU", "L-4737", "Pétange"), 
-("LU", "L-4801", "Rodange"), 
-("LU", "L-4834", "Rodange"), 
-("LU", "L-4883", "Lamadelaine"), 
-("LU", "L-4368", "Belvaux"), 
-("LU", "L-4413", "Soleuvre"), 
-("LU", "L-4440", "Soleuvre"), 
-("LU", "L-4484", "Soleuvre"), 
-("LU", "L-3817", "Schifflange"), 
-("LU", "L-3834", "Schifflange"), 
-("LU", "L-6754", "Grevenmacher"), 
-("LU", "L-6764", "Grevenmacher"), 
-("LU", "L-6775", "Grevenmacher"), 
-("LU", "L-6858", "Münschecker"), 
-("LU", "L-6685", "Mertert"), 
-("LU", "L-8054", "Bertrange"), 
-("LU", "L-2129", "Howald"), 
-("LU", "L-5810", "Hesperange"), 
-("LU", "L-5832", "Fentange"), 
-("LU", "L-5889", "Fentange"), 
-("LU", "L-5940", "Hesperange"), 
-("LU", "L-6969", "Oberanven"), 
-("LU", "L-6981", "Rameldange"), 
-("LU", "L-2410", "Strassen"), 
-("LU", "L-8016", "Strassen"), 
-("LU", "L-7219", "Helmsange"), 
-("LU", "L-7234", "Helmsange"), 
-("LU", "L-7246", "Helmsange"), 
-("LU", "L-7270", "Helmsange"), 
-("LU", "L-1111", "Luxembourg"), 
-("LU", "L-1141", "Luxembourg"), 
-("LU", "L-1266", "Luxembourg"), 
-("LU", "L-1270", "Luxembourg"), 
-("LU", "L-1370", "Luxembourg"), 
-("LU", "L-1418", "Luxembourg"), 
-("LU", "L-1420", "Luxembourg"), 
-("LU", "L-1453", "Luxembourg"), 
-("LU", "L-1474", "Luxembourg"), 
-("LU", "L-1634", "Luxembourg"), 
-("LU", "L-1645", "Luxembourg"), 
-("LU", "L-1649", "Luxembourg"), 
-("LU", "L-1651", "Luxembourg"), 
-("LU", "L-1745", "Luxembourg"), 
-("LU", "L-1873", "Luxembourg"), 
-("LU", "L-1925", "Luxembourg"), 
-("LU", "L-1943", "Luxembourg"), 
-("LU", "L-2118", "Luxembourg"), 
-("LU", "L-2149", "Luxembourg"), 
-("LU", "L-2150", "Luxembourg"), 
-("LU", "L-2157", "Luxembourg"), 
-("LU", "L-2165", "Luxembourg"), 
-("LU", "L-2215", "Luxembourg"), 
-("LU", "L-2233", "Luxembourg"), 
-("LU", "L-2323", "Luxembourg"), 
-("LU", "L-2332", "Luxembourg"), 
-("LU", "L-2340", "Luxembourg"), 
-("LU", "L-2343", "Luxembourg"), 
-("LU", "L-2410", "Luxembourg"), 
-("LU", "L-2544", "Luxembourg"), 
-("LU", "L-2563", "Luxembourg"), 
-("LU", "L-7735", "Colmar-Berg"), 
-("LU", "L-7790", "Bissen"), 
-("LU", "L-7453", "Lintgen"), 
-("LU", "L-7566", "Mersch"), 
-("LU", "L-9184", "Schrondweiler"), 
-("LU", "L-8812", "Flatzbour"), 
-("LU", "L-8558", "Reichlange"), 
-("LU", "L-8525", "Calmus"), 
-("LU", "L-8701", "Useldange"), 
-("LU", "L-8706", "Useldange"), 
-("LU", "L-8708", "Useldange"), 
-("LU", "L-8818", "Wahl"), 
-("LU", "L-8612", "Pratz"), 
-("LU", "L-5615", "Mondorf-les-Bains"), 
-("LU", "L-5618", "Mondorf-les-Bains"), 
-("LU", "L-5633", "Mondorf-les-Bains"), 
-("LU", "L-5653", "Mondorf-les-Bains"), 
-("LU", "L-5692", "Elvange"), 
-("LU", "L-5537", "Remich"), 
-("LU", "L-9359", "Bastendorf"), 
-("LU", "L-9466", "Weiler"), 
-("LU", "L-9687", "Surré"), 
-("LU", "L-9502", "Wiltz"), 
-("LU", "L-9545", "Wiltz"), 
-("LU", "L-9674", "Wiltz"), 
-("LU", "L-9663", "Kautenbach"), 
-("LU", "L-4996", "Schouweiler"), 
-("LU", "L-8294", "Keispelt"), 
-("LU", "L-8399", "Windhof (Koerich)"), 
-("LU", "L-8180", "Kopstal"), 
-("LU", "L-8244", "Mamer"), 
-("LU", "L-8249", "Mamer"), 
-("LU", "L-8270", "Mamer"), 
-("LU", "L-8277", "Holzem"), 
-("LU", "L-8279", "Holzem"), 
-("LU", "L-4907", "Bascharage"), 
-("LU", "L-4913", "Hautcharage"), 
-("LU", "L-9752", "Hamiville"), 
-("LU", "L-9982", "Weiler"), 
-("LU", "L-9712", "Clervaux"), 
-("LU", "L-9714", "Clervaux"), 
-("LU", "L-9980", "Wilwerdange"), 
-("LU", "L-9810", "Hosingen"), 
-("LU", "L-9359", "Bettendorf"), 
-("LU", "L-9382", "Moestroff"), 
-("LU", "L-9153", "Goebelsmühle"), 
-("LU", "L-9225", "Diekirch"), 
-("LU", "L-9244", "Diekirch"), 
-("LU", "L-9252", "Diekirch"), 
-("LU", "L-9282", "Diekirch"), 
-("LU", "L-9020", "Ettelbruck"), 
-("LU", "L-9166", "Mertzig"), 
-("LU", "L-9123", "Schieren"), 
-("LU", "L-7661", "Medernach"), 
-("LU", "L-6225", "Kobenbour"), 
-("LU", "L-6550", "Berdorf"), 
-("LU", "L-6419", "Echternach"), 
-("LU", "L-6463", "Echternach"), 
-("LU", "L-6471", "Echternach"), 
-("LU", "L-6663", "Boursdorf"), 
-("LU", "L-6666", "Givenich"), 
-("LU", "L-6558", "Girsterklaus"), 
-("LU", "L-7681", "Waldbillig"), 
-("LU", "L-3254", "Bettembourg"), 
-("LU", "L-3383", "Noertzange"), 
-("LU", "L-4516", "Differdange"), 
-("LU", "L-4517", "Oberkorn"), 
-("LU", "L-4518", "Differdange"), 
-("LU", "L-4521", "Differdange"), 
-("LU", "L-4530", "Differdange"), 
-("LU", "L-4534", "Differdange"), 
-("LU", "L-4535", "Differdange"), 
-("LU", "L-4540", "Oberkorn"), 
-("LU", "L-4601", "Differdange"), 
-("LU", "L-4679", "Oberkorn"), 
-("LU", "L-4687", "Oberkorn"), 
-("LU", "L-3440", "Dudelange"), 
-("LU", "L-3504", "Dudelange"), 
-("LU", "L-3525", "Dudelange"), 
-("LU", "L-3592", "Dudelange"), 
-("LU", "L-4051", "Esch-sur-Alzette"), 
-("LU", "L-4055", "Esch-sur-Alzette"), 
-("LU", "L-4088", "Esch-sur-Alzette"), 
-("LU", "L-4108", "Esch-sur-Alzette"), 
-("LU", "L-4137", "Esch-sur-Alzette"), 
-("LU", "L-4152", "Esch-sur-Alzette"), 
-("LU", "L-4167", "Esch-sur-Alzette"), 
-("LU", "L-4168", "Esch-sur-Alzette"), 
-("LU", "L-4202", "Esch-sur-Alzette"), 
-("LU", "L-4245", "Esch-sur-Alzette"), 
-("LU", "L-4364", "Esch-sur-Alzette"), 
-("LU", "L-3637", "Kayl"), 
-("LU", "L-3776", "Tétange"), 
-("LU", "L-3355", "Leudelange"), 
-("LU", "L-3317", "Bergem"), 
-("LU", "L-4712", "Pétange"), 
-("LU", "L-4777", "Pétange"), 
-("LU", "L-4778", "Pétange"), 
-("LU", "L-4807", "Rodange"), 
-("LU", "L-4850", "Rodange"), 
-("LU", "L-4887", "Lamadelaine"), 
-("LU", "L-4890", "Lamadelaine"), 
-("LU", "L-3392", "Roedgen"), 
-("LU", "L-3714", "Rumelange"), 
-("LU", "L-3728", "Rumelange"), 
-("LU", "L-3752", "Rumelange"), 
-("LU", "L-4406", "Belvaux"), 
-("LU", "L-4415", "Soleuvre"), 
-("LU", "L-4417", "Soleuvre"), 
-("LU", "L-4443", "Belvaux"), 
-("LU", "L-4488", "Belvaux"), 
-("LU", "L-3830", "Schifflange"), 
-("LU", "L-3832", "Schifflange"), 
-("LU", "L-3837", "Schifflange"), 
-("LU", "L-3860", "Schifflange"), 
-("LU", "L-3877", "Schifflange"), 
-("LU", "L-3882", "Schifflange"), 
-("LU", "L-6880", "Weydig"), 
-("LU", "L-5435", "Oberdonven"), 
-("LU", "L-6730", "Grevenmacher"), 
-("LU", "L-6739", "Grevenmacher"), 
-("LU", "L-6758", "Grevenmacher"), 
-("LU", "L-6779", "Grevenmacher"), 
-("LU", "L-6786", "Grevenmacher"), 
-("LU", "L-6111", "Junglinster"), 
-("LU", "L-6162", "Bourglinster"), 
-("LU", "L-6181", "Gonderange"), 
-("LU", "L-6620", "Wasserbillig"), 
-("LU", "L-6676", "Mertert"), 
-("LU", "L-6680", "Mertert"), 
-("LU", "L-6688", "Mertert"), 
-("LU", "L-5480", "Wormeldange"), 
-("LU", "L-8041", "Bertrange"), 
-("LU", "L-8071", "Bertrange"), 
-("LU", "L-8081", "Bertrange"), 
-("LU", "L-8094", "Bertrange"), 
-("LU", "L-5310", "Contern"), 
-("LU", "L-1455", "Howald"), 
-("LU", "L-5829", "Alzingen"), 
-("LU", "L-5867", "Fentange"), 
-("LU", "L-5872", "Alzingen"), 
-("LU", "L-5890", "Alzingen"), 
-("LU", "L-6165", "Ernster"), 
-("LU", "L-6942", "Niederanven"), 
-("LU", "L-6974", "Rameldange"), 
-("LU", "L-6997", "Oberanven"), 
-("LU", "L-5219", "Sandweiler"), 
-("LU", "L-5221", "Sandweiler"), 
-("LU", "L-5256", "Sandweiler"), 
-("LU", "L-5291", "Neuhaeusgen"), 
-("LU", "L-5372", "Munsbach"), 
-("LU", "L-5378", "Uebersyren"), 
-("LU", "L-7313", "Heisdorf"), 
-("LU", "L-7340", "Heisdorf"), 
-("LU", "L-7341", "Heisdorf"), 
-("LU", "L-8110", "Strassen"), 
-("LU", "L-7209", "Walferdange"), 
-("LU", "L-7227", "Bereldange"), 
-("LU", "L-7254", "Bereldange"), 
-("LU", "L-1161", "Luxembourg"), 
-("LU", "L-1271", "Luxembourg"), 
-("LU", "L-1282", "Luxembourg"), 
-("LU", "L-1319", "Luxembourg"), 
-("LU", "L-1338", "Luxembourg"), 
-("LU", "L-1531", "Luxembourg"), 
-("LU", "L-1622", "Luxembourg"), 
-("LU", "L-1720", "Luxembourg"), 
-("LU", "L-1733", "Luxembourg"), 
-("LU", "L-1744", "Luxembourg"), 
-("LU", "L-1845", "Luxembourg"), 
-("LU", "L-1858", "Luxembourg"), 
-("LU", "L-1859", "Luxembourg"), 
-("LU", "L-1868", "Luxembourg"), 
-("LU", "L-1923", "Luxembourg"), 
-("LU", "L-1928", "Luxembourg"), 
-("LU", "L-1947", "Luxembourg"), 
-("LU", "L-2113", "Luxembourg"), 
-("LU", "L-2115", "Luxembourg"), 
-("LU", "L-2151", "Luxembourg"), 
-("LU", "L-2160", "Luxembourg"), 
-("LU", "L-2318", "Luxembourg"), 
-("LU", "L-2436", "Luxembourg"), 
-("LU", "L-2450", "Luxembourg"), 
-("LU", "L-2538", "Luxembourg"), 
-("LU", "L-2555", "Luxembourg"), 
-("LU", "L-2636", "Luxembourg"), 
-("LU", "L-2680", "Luxembourg"), 
-("LU", "L-2724", "Luxembourg"), 
-("LU", "L-7715", "Colmar-Berg"), 
-("LU", "L-7786", "Bissen"), 
-("LU", "L-7601", "Larochette"), 
-("LU", "L-7613", "Larochette"), 
-("LU", "L-7615", "Larochette"), 
-("LU", "L-7360", "Helmdange"), 
-("LU", "L-7374", "Helmdange"), 
-("LU", "L-7392", "Blaschette"), 
-("LU", "L-7415", "Reckange"), 
-("LU", "L-7540", "Rollingen"), 
-("LU", "L-7431", "Oberglabach"), 
-("LU", "L-8550", "Noerdange"), 
-("LU", "L-8812", "Bigonville-Poteau"), 
-("LU", "L-8507", "Redange/Attert"), 
-("LU", "L-7470", "Saeul"), 
-("LU", "L-8610", "Buschrodt"), 
-("LU", "L-5421", "Erpeldange"), 
-("LU", "L-5611", "Mondorf-les-Bains"), 
-("LU", "L-5536", "Remich"), 
-("LU", "L-5555", "Remich"), 
-("LU", "L-9463", "Stolzembourg"), 
-("LU", "L-9419", "Vianden"), 
-("LU", "L-9422", "Vianden"), 
-("LU", "L-9633", "Baschleiden"), 
-("LU", "L-9514", "Wiltz"), 
-("LU", "L-9676", "Noertrange"), 
-("LU", "L-8351", "Dahlem"), 
-("LU", "L-8281", "Kehlen"), 
-("LU", "L-8284", "Kehlen"), 
-("LU", "L-8291", "Meispelt"), 
-("LU", "L-8338", "Olm"), 
-("LU", "L-8227", "Mamer"), 
-("LU", "L-8258", "Mamer"), 
-("LU", "L-8267", "Mamer"), 
-("LU", "L-8301", "Capellen"), 
-("LU", "L-8367", "Hagen"), 
-("LU", "L-4945", "Bascharage"), 
-("LU", "L-4969", "Hautcharage"), 
-("LU", "L-4978", "Fingig"), 
-("LU", "L-9738", "Eselborn"), 
-("LU", "L-9765", "Wirtgensmühle"), 
-("LU", "L-9962", "Holler"), 
-("LU", "L-9968", "Kleemühle"), 
-("LU", "L-9990", "Weiswampach"), 
-("LU", "L-9201", "Diekirch"), 
-("LU", "L-9216", "Diekirch"), 
-("LU", "L-9226", "Diekirch"), 
-("LU", "L-9279", "Diekirch"), 
-("LU", "L-9050", "Ettelbruck"), 
-("LU", "L-9091", "Ettelbruck"), 
-("LU", "L-9115", "Schieren"), 
-("LU", "L-7634", "Medernach"), 
-("LU", "L-6552", "Berdorf"), 
-("LU", "L-6250", "Consdorf"), 
-("LU", "L-6409", "Echternach"), 
-("LU", "L-6411", "Echternach"), 
-("LU", "L-6469", "Echternach"), 
-("LU", "L-6690", "Moersdorf"), 
-("LU", "L-7634", "Waldbillig"), 
-("LU", "L-3214", "Bettembourg"), 
-("LU", "L-3250", "Bettembourg"), 
-("LU", "L-3270", "Bettembourg"), 
-("LU", "L-3277", "Bettembourg"), 
-("LU", "L-4571", "Oberkorn"), 
-("LU", "L-4576", "Niederkorn"), 
-("LU", "L-4602", "Niederkorn"), 
-("LU", "L-4621", "Differdange"), 
-("LU", "L-4670", "Differdange"), 
-("LU", "L-3461", "Dudelange"), 
-("LU", "L-3509", "Dudelange"), 
-("LU", "L-3517", "Dudelange"), 
-("LU", "L-3548", "Dudelange"), 
-("LU", "L-4235", "Esch-sur-Alzette"), 
-("LU", "L-4265", "Esch-sur-Alzette"), 
-("LU", "L-4279", "Esch-sur-Alzette"), 
-("LU", "L-4314", "Esch-sur-Alzette"), 
-("LU", "L-4333", "Esch-sur-Alzette"), 
-("LU", "L-4344", "Esch-sur-Alzette"), 
-("LU", "L-4369", "Esch-sur-Alzette"), 
-("LU", "L-3644", "Kayl"), 
-("LU", "L-3772", "Tétange"), 
-("LU", "L-3349", "Leudelange"), 
-("LU", "L-3350", "Leudelange"), 
-("LU", "L-3353", "Leudelange"), 
-("LU", "L-3359", "Leudelange"), 
-("LU", "L-3360", "Leudelange"), 
-("LU", "L-3375", "Leudelange"), 
-("LU", "L-3927", "Mondercange"), 
-("LU", "L-4738", "Pétange"), 
-("LU", "L-4754", "Pétange"), 
-("LU", "L-4784", "Pétange"), 
-("LU", "L-4830", "Rodange"), 
-("LU", "L-4885", "Lamadelaine"), 
-("LU", "L-3715", "Rumelange"), 
-("LU", "L-3719", "Rumelange"), 
-("LU", "L-3721", "Rumelange"), 
-("LU", "L-4410", "Soleuvre"), 
-("LU", "L-4430", "Belvaux"), 
-("LU", "L-4477", "Belvaux"), 
-("LU", "L-4493", "Soleuvre"), 
-("LU", "L-3812", "Schifflange"), 
-("LU", "L-3816", "Schifflange"), 
-("LU", "L-3823", "Schifflange"), 
-("LU", "L-3850", "Schifflange"), 
-("LU", "L-6916", "Roodt-sur-Syre"), 
-("LU", "L-5425", "Gostingen"), 
-("LU", "L-6765", "Grevenmacher"), 
-("LU", "L-6782", "Grevenmacher"), 
-("LU", "L-6112", "Junglinster"), 
-("LU", "L-6136", "Junglinster"), 
-("LU", "L-6189", "Gonderange"), 
-("LU", "L-6638", "Wasserbillig"), 
-("LU", "L-5483", "Wormeldange"), 
-("LU", "L-5489", "Ehnen"), 
-("LU", "L-8069", "Bertrange"), 
-("LU", "L-8079", "Bertrange"), 
-("LU", "L-5328", "Medingen"), 
-("LU", "L-5334", "Moutfort"), 
-("LU", "L-5813", "Fentange"), 
-("LU", "L-5892", "Alzingen"), 
-("LU", "L-2170", "Senningerberg"), 
-("LU", "L-6947", "Niederanven"), 
-("LU", "L-1751", "Findel"), 
-("LU", "L-5236", "Sandweiler"), 
-("LU", "L-5359", "Schuttrange"), 
-("LU", "L-7305", "Mullendorf"), 
-("LU", "L-8048", "Strassen"), 
-("LU", "L-7260", "Bereldange"), 
-("LU", "L-1236", "Luxembourg"), 
-("LU", "L-1264", "Luxembourg"), 
-("LU", "L-1269", "Luxembourg"), 
-("LU", "L-1329", "Luxembourg"), 
-("LU", "L-1344", "Luxembourg"), 
-("LU", "L-1364", "Luxembourg"), 
-("LU", "L-1421", "Luxembourg"), 
-("LU", "L-1452", "Luxembourg"), 
-("LU", "L-1510", "Luxembourg"), 
-("LU", "L-1516", "Luxembourg"), 
-("LU", "L-1526", "Luxembourg"), 
-("LU", "L-1530", "Luxembourg"), 
-("LU", "L-1537", "Luxembourg"), 
-("LU", "L-1552", "Luxembourg"), 
-("LU", "L-1630", "Luxembourg"), 
-("LU", "L-1642", "Luxembourg"), 
-("LU", "L-1812", "Luxembourg"), 
-("LU", "L-1846", "Luxembourg"), 
-("LU", "L-1927", "Luxembourg"), 
-("LU", "L-1935", "Luxembourg"), 
-("LU", "L-2122", "Luxembourg"), 
-("LU", "L-2148", "Luxembourg"), 
-("LU", "L-2171", "Luxembourg"), 
-("LU", "L-2212", "Luxembourg"), 
-("LU", "L-2411", "Luxembourg"), 
-("LU", "L-2536", "Luxembourg"), 
-("LU", "L-2611", "Luxembourg"), 
-("LU", "L-2715", "Luxembourg"), 
-("LU", "L-7711", "Colmar-Berg"), 
-("LU", "L-7713", "Welsdorf"), 
-("LU", "L-7771", "Bissen"), 
-("LU", "L-7778", "Bissen"), 
-("LU", "L-7787", "Bissen"), 
-("LU", "L-7619", "Larochette"), 
-("LU", "L-7621", "Larochette"), 
-("LU", "L-7447", "Lintgen"), 
-("LU", "L-7373", "Lorentzweiler"), 
-("LU", "L-7383", "Lorentzweiler"), 
-("LU", "L-7384", "Lorentzweiler"), 
-("LU", "L-7527", "Rollingen"), 
-("LU", "L-7545", "Mersch"), 
-("LU", "L-7554", "Mersch"), 
-("LU", "L-7597", "Reckange"), 
-("LU", "L-8552", "Oberpallen"), 
-("LU", "L-8805", "Hostert"), 
-("LU", "L-8805", "Rambrouch"), 
-("LU", "L-8819", "Heispelt"), 
-("LU", "L-5412", "Canach"), 
-("LU", "L-5637", "Mondorf-les-Bains"), 
-("LU", "L-5445", "Schengen"), 
-("LU", "L-5551", "Remich"), 
-("LU", "L-9452", "Bettel"), 
-("LU", "L-9457", "Landscheid"), 
-("LU", "L-9418", "Vianden"), 
-("LU", "L-9425", "Vianden"), 
-("LU", "L-9674", "Nocher-Route"), 
-("LU", "L-9544", "Wiltz"), 
-("LU", "L-9549", "Wiltz"), 
-("LU", "L-9555", "Wiltz"), 
-("LU", "L-9570", "Wiltz"), 
-("LU", "L-9572", "Weidingen"), 
-("LU", "L-9576", "Weidingen"), 
-("LU", "L-9760", "Lellingen"), 
-("LU", "L-8343", "Olm"), 
-("LU", "L-8391", "Nospelt"), 
-("LU", "L-8151", "Bridel"), 
-("LU", "L-8265", "Mamer"), 
-("LU", "L-8314", "Capellen"), 
-("LU", "L-8444", "Steinfort"), 
-("LU", "L-8449", "Steinfort"), 
-("LU", "L-4915", "Hautcharage"), 
-("LU", "L-4954", "Bascharage"), 
-("LU", "L-4967", "Clemency"), 
-("LU", "L-9956", "Hachiville"), 
-("LU", "L-9840", "Siebenaler"), 
-("LU", "L-9972", "Lieler"), 
-("LU", "L-9372", "Gilsdorf"), 
-("LU", "L-9378", "Flebour"), 
-("LU", "L-9238", "Diekirch"), 
-("LU", "L-9249", "Diekirch"), 
-("LU", "L-9277", "Diekirch"), 
-("LU", "L-9018", "Warken"), 
-("LU", "L-9044", "Ettelbruck"), 
-("LU", "L-9082", "Ettelbruck"), 
-("LU", "L-9137", "Schieren"), 
-("LU", "L-6470", "Echternach"), 
-("LU", "L-6473", "Echternach"), 
-("LU", "L-6695", "Mompach"), 
-("LU", "L-6570", "Osweiler"), 
-("LU", "L-3224", "Bettembourg"), 
-("LU", "L-4570", "Niederkorn"), 
-("LU", "L-4582", "Differdange"), 
-("LU", "L-4594", "Differdange"), 
-("LU", "L-4598", "Niederkorn"), 
-("LU", "L-4604", "Differdange"), 
-("LU", "L-4612", "Niederkorn"), 
-("LU", "L-4613", "Differdange"), 
-("LU", "L-4625", "Differdange"), 
-("LU", "L-3419", "Dudelange"), 
-("LU", "L-3435", "Dudelange"), 
-("LU", "L-3447", "Dudelange"), 
-("LU", "L-3475", "Dudelange"), 
-("LU", "L-3550", "Dudelange"), 
-("LU", "L-4054", "Esch-sur-Alzette"), 
-("LU", "L-4084", "Esch-sur-Alzette"), 
-("LU", "L-4178", "Esch-sur-Alzette"), 
-("LU", "L-4261", "Esch-sur-Alzette"), 
-("LU", "L-4278", "Esch-sur-Alzette"), 
-("LU", "L-4304", "Esch-sur-Alzette"), 
-("LU", "L-4324", "Esch-sur-Alzette"), 
-("LU", "L-4327", "Esch-sur-Alzette"), 
-("LU", "L-4359", "Esch-sur-Alzette"), 
-("LU", "L-3653", "Kayl"), 
-("LU", "L-3348", "Leudelange"), 
-("LU", "L-3356", "Leudelange"), 
-("LU", "L-3944", "Mondercange"), 
-("LU", "L-4744", "Pétange"), 
-("LU", "L-4750", "Pétange"), 
-("LU", "L-4762", "Pétange"), 
-("LU", "L-3980", "Wickrange"), 
-("LU", "L-1897", "Kockelscheuer"), 
-("LU", "L-3390", "Peppange"), 
-("LU", "L-4452", "Belvaux"), 
-("LU", "L-3801", "Schifflange"), 
-("LU", "L-3818", "Schifflange"), 
-("LU", "L-3840", "Schifflange"), 
-("LU", "L-3852", "Schifflange"), 
-("LU", "L-3855", "Schifflange"), 
-("LU", "L-3879", "Schifflange"), 
-("LU", "L-6869", "Wecker"), 
-("LU", "L-6715", "Grevenmacher"), 
-("LU", "L-6719", "Grevenmacher"), 
-("LU", "L-6781", "Grevenmacher"), 
-("LU", "L-6145", "Junglinster"), 
-("LU", "L-6186", "Gonderange"), 
-("LU", "L-6648", "Wasserbillig"), 
-("LU", "L-6693", "Mertert"), 
-("LU", "L-5432", "Kapenacker"), 
-("LU", "L-6841", "Machtum"), 
-("LU", "L-8090", "Bertrange"), 
-("LU", "L-8095", "Bertrange"), 
-("LU", "L-8096", "Bertrange"), 
-("LU", "L-5324", "Contern"), 
-("LU", "L-5326", "Contern"), 
-("LU", "L-5330", "Moutfort"), 
-("LU", "L-1816", "Itzig"), 
-("LU", "L-5816", "Hesperange"), 
-("LU", "L-5817", "Fentange"), 
-("LU", "L-5826", "Hesperange"), 
-("LU", "L-5880", "Hesperange"), 
-("LU", "L-5943", "Itzig"), 
-("LU", "L-6905", "Niederanven"), 
-("LU", "L-5216", "Sandweiler"), 
-("LU", "L-5220", "Sandweiler"), 
-("LU", "L-5238", "Sandweiler"), 
-("LU", "L-5374", "Munsbach"), 
-("LU", "L-5376", "Uebersyren"), 
-("LU", "L-7302", "Steinsel"), 
-("LU", "L-7307", "Steinsel"), 
-("LU", "L-7344", "Steinsel"), 
-("LU", "L-8018", "Strassen"), 
-("LU", "L-7210", "Helmsange"), 
-("LU", "L-7259", "Bereldange"), 
-("LU", "L-1116", "Luxembourg"), 
-("LU", "L-1132", "Luxembourg"), 
-("LU", "L-1215", "Luxembourg"), 
-("LU", "L-1251", "Luxembourg"), 
-("LU", "L-1275", "Luxembourg"), 
-("LU", "L-1352", "Luxembourg"), 
-("LU", "L-1411", "Luxembourg"), 
-("LU", "L-1434", "Luxembourg"), 
-("LU", "L-1451", "Luxembourg"), 
-("LU", "L-1471", "Luxembourg"), 
-("LU", "L-1518", "Luxembourg"), 
-("LU", "L-1539", "Luxembourg"), 
-("LU", "L-1542", "Luxembourg"), 
-("LU", "L-1628", "Luxembourg"), 
-("LU", "L-1637", "Luxembourg"), 
-("LU", "L-1737", "Luxembourg"), 
-("LU", "L-1739", "Luxembourg"), 
-("LU", "L-1752", "Luxembourg"), 
-("LU", "L-1835", "Luxembourg"), 
-("LU", "L-1850", "Luxembourg"), 
-("LU", "L-1951", "Luxembourg"), 
-("LU", "L-2164", "Luxembourg"), 
-("LU", "L-2182", "Luxembourg"), 
-("LU", "L-2214", "Luxembourg"), 
-("LU", "L-2261", "Luxembourg"), 
-("LU", "L-2452", "Luxembourg"), 
-("LU", "L-2512", "Luxembourg"), 
-("LU", "L-2518", "Luxembourg"), 
-("LU", "L-2537", "Luxembourg"), 
-("LU", "L-2556", "Luxembourg"), 
-("LU", "L-2560", "Luxembourg"), 
-("LU", "L-2730", "Luxembourg"), 
-("LU", "L-7792", "Bissen"), 
-("LU", "L-7446", "Lintgen"), 
-("LU", "L-7514", "Mersch"), 
-("LU", "L-7532", "Rollingen"), 
-("LU", "L-7534", "Mersch"), 
-("LU", "L-7538", "Mersch"), 
-("LU", "L-7539", "Rollingen"), 
-("LU", "L-8814", "Bigonville"), 
-("LU", "L-8544", "Nagem"), 
-("LU", "L-8541", "Kapweiler"), 
-("LU", "L-5402", "Assel"), 
-("LU", "L-5421", "Welfrange"), 
-("LU", "L-5411", "Canach"), 
-("LU", "L-5521", "Remich"), 
-("LU", "L-5530", "Remich"), 
-("LU", "L-5558", "Remich"), 
-("LU", "L-5574", "Remich"), 
-("LU", "L-5466", "Waldbredimus"), 
-("LU", "L-9464", "Stolzembourg"), 
-("LU", "L-9415", "Vianden"), 
-("LU", "L-9144", "Hierheck"), 
-("LU", "L-9659", "Heiderscheidergrund"), 
-("LU", "L-9515", "Wiltz"), 
-("LU", "L-9532", "Wiltz"), 
-("LU", "L-9538", "Wiltz"), 
-("LU", "L-9559", "Wiltz"), 
-("LU", "L-9648", "Erpeldange"), 
-("LU", "L-9647", "Sonlez"), 
-("LU", "L-9670", "Merkholtz"), 
-("LU", "L-4970", "Sprinkange"), 
-("LU", "L-4995", "Schouweiler"), 
-("LU", "L-4998", "Sprinkange"), 
-("LU", "L-8376", "Kahler"), 
-("LU", "L-8465", "Eischen"), 
-("LU", "L-8467", "Eischen"), 
-("LU", "L-8333", "Olm"), 
-("LU", "L-8123", "Bridel"), 
-("LU", "L-8184", "Kopstal"), 
-("LU", "L-8232", "Mamer"), 
-("LU", "L-8237", "Mamer"), 
-("LU", "L-8240", "Mamer"), 
-("LU", "L-8303", "Capellen"), 
-("LU", "L-8337", "Capellen"), 
-("LU", "L-8437", "Steinfort"), 
-("LU", "L-8447", "Steinfort"), 
-("LU", "L-4922", "Bascharage"), 
-("LU", "L-4962", "Clemency"), 
-("LU", "L-9684", "Schimpach"), 
-("LU", "L-9759", "Kirelshof"), 
-("LU", "L-9765", "Kaaspelterhof"), 
-("LU", "L-9769", "Roder"), 
-("LU", "L-9942", "Basbellain"), 
-("LU", "L-9993", "Weiswampach"), 
-("LU", "L-9809", "Hosingen"), 
-("LU", "L-9833", "Dorscheid"), 
-("LU", "L-9354", "Bettendorf"), 
-("LU", "L-9278", "Diekirch"), 
-("LU", "L-9042", "Ettelbruck"), 
-("LU", "L-9047", "Ettelbruck"), 
-("LU", "L-9092", "Ettelbruck"), 
-("LU", "L-6312", "Beaufort"), 
-("LU", "L-6360", "Grundhof"), 
-("LU", "L-6401", "Echternach"), 
-("LU", "L-6410", "Echternach"), 
-("LU", "L-6454", "Echternach"), 
-("LU", "L-6479", "Echternach"), 
-("LU", "L-6582", "Rosport"), 
-("LU", "L-6380", "Savelborn (Waldbillig)"), 
-("LU", "L-7634", "Haller"), 
-("LU", "L-3243", "Bettembourg"), 
-("LU", "L-3283", "Bettembourg"), 
-("LU", "L-4501", "Differdange"), 
-("LU", "L-4507", "Differdange"), 
-("LU", "L-4542", "Differdange"), 
-("LU", "L-4601", "Niederkorn"), 
-("LU", "L-4644", "Niederkorn"), 
-("LU", "L-4661", "Niederkorn"), 
-("LU", "L-4666", "Niederkorn"), 
-("LU", "L-3418", "Dudelange"), 
-("LU", "L-3429", "Dudelange"), 
-("LU", "L-3540", "Dudelange"), 
-("LU", "L-3575", "Dudelange"), 
-("LU", "L-4046", "Esch-sur-Alzette"), 
-("LU", "L-4057", "Esch-sur-Alzette"), 
-("LU", "L-4140", "Esch-sur-Alzette"), 
-("LU", "L-4150", "Esch-sur-Alzette"), 
-("LU", "L-4236", "Esch-sur-Alzette"), 
-("LU", "L-4251", "Esch-sur-Alzette"), 
-("LU", "L-4271", "Esch-sur-Alzette"), 
-("LU", "L-3614", "Kayl"), 
-("LU", "L-3670", "Kayl"), 
-("LU", "L-3678", "Kayl"), 
-("LU", "L-3919", "Mondercange"), 
-("LU", "L-3928", "Mondercange"), 
-("LU", "L-4392", "Pontpierre"), 
-("LU", "L-4709", "Pétange"), 
-("LU", "L-4716", "Pétange"), 
-("LU", "L-4759", "Pétange"), 
-("LU", "L-4772", "Pétange"), 
-("LU", "L-4773", "Pétange"), 
-("LU", "L-4812", "Rodange"), 
-("LU", "L-4879", "Lamadelaine"), 
-("LU", "L-4982", "Reckange-sur-Mess"), 
-("LU", "L-3713", "Rumelange"), 
-("LU", "L-3722", "Rumelange"), 
-("LU", "L-3744", "Rumelange"), 
-("LU", "L-4426", "Belvaux"), 
-("LU", "L-4431", "Belvaux"), 
-("LU", "L-4433", "Soleuvre"), 
-("LU", "L-4435", "Soleuvre"), 
-("LU", "L-4453", "Belvaux"), 
-("LU", "L-4469", "Soleuvre"), 
-("LU", "L-4492", "Soleuvre"), 
-("LU", "L-3825", "Schifflange"), 
-("LU", "L-3874", "Schifflange"), 
-("LU", "L-6722", "Grevenmacher"), 
-("LU", "L-6731", "Grevenmacher"), 
-("LU", "L-6732", "Grevenmacher"), 
-("LU", "L-6733", "Grevenmacher"), 
-("LU", "L-6757", "Grevenmacher"), 
-("LU", "L-6761", "Grevenmacher"), 
-("LU", "L-6119", "Junglinster"), 
-("LU", "L-6121", "Junglinster"), 
-("LU", "L-6129", "Junglinster"), 
-("LU", "L-6131", "Junglinster"), 
-("LU", "L-6190", "Gonderange"), 
-("LU", "L-6610", "Wasserbillig"), 
-("LU", "L-6613", "Wasserbillig"), 
-("LU", "L-6636", "Wasserbillig"), 
-("LU", "L-6681", "Mertert"), 
-("LU", "L-6689", "Mertert"), 
-("LU", "L-8053", "Bertrange"), 
-("LU", "L-8076", "Bertrange"), 
-("LU", "L-5331", "Oetrange"), 
-("LU", "L-1508", "Howald"), 
-("LU", "L-2529", "Howald"), 
-("LU", "L-2545", "Howald"), 
-("LU", "L-2727", "Howald"), 
-("LU", "L-5950", "Itzig"), 
-("LU", "L-6972", "Rameldange"), 
-("LU", "L-6985", "Hostert"), 
-("LU", "L-6989", "Hostert"), 
-("LU", "L-2220", "Findel"), 
-("LU", "L-7306", "Mullendorf"), 
-("LU", "L-7320", "Steinsel"), 
-("LU", "L-7330", "Heisdorf"), 
-("LU", "L-7335", "Heisdorf"), 
-("LU", "L-8035", "Strassen"), 
-("LU", "L-7216", "Bereldange"), 
-("LU", "L-7233", "Bereldange"), 
-("LU", "L-7249", "Bereldange"), 
-("LU", "L-1120", "Luxembourg"), 
-("LU", "L-1124", "Luxembourg"), 
-("LU", "L-1135", "Luxembourg"), 
-("LU", "L-1214", "Luxembourg"), 
-("LU", "L-1217", "Luxembourg"), 
-("LU", "L-1246", "Luxembourg"), 
-("LU", "L-1265", "Luxembourg"), 
-("LU", "L-1369", "Luxembourg"), 
-("LU", "L-1409", "Luxembourg"), 
-("LU", "L-1513", "Luxembourg"), 
-("LU", "L-1522", "Luxembourg"), 
-("LU", "L-1529", "Luxembourg"), 
-("LU", "L-1549", "Luxembourg"), 
-("LU", "L-1713", "Luxembourg"), 
-("LU", "L-1840", "Luxembourg"), 
-("LU", "L-1853", "Luxembourg"), 
-("LU", "L-2175", "Luxembourg"), 
-("LU", "L-2240", "Luxembourg"), 
-("LU", "L-2267", "Luxembourg"), 
-("LU", "L-2309", "Luxembourg"), 
-("LU", "L-2327", "Luxembourg"), 
-("LU", "L-2349", "Luxembourg"), 
-("LU", "L-2352", "Luxembourg"), 
-("LU", "L-2429", "Luxembourg"), 
-("LU", "L-2615", "Luxembourg"), 
-("LU", "L-2729", "Luxembourg"), 
-("LU", "L-7726", "Colmar-Berg"), 
-("LU", "L-7425", "Bill"), 
-("LU", "L-7425", "Openthalt"), 
-("LU", "L-6155", "Weyer"), 
-("LU", "L-7451", "Lintgen"), 
-("LU", "L-7356", "Helmdange"), 
-("LU", "L-7356", "Lorentzweiler"), 
-("LU", "L-7464", "Moesdorf"), 
-("LU", "L-7515", "Mersch"), 
-("LU", "L-7555", "Mersch"), 
-("LU", "L-7571", "Mersch"), 
-("LU", "L-8521", "Beckerich"), 
-("LU", "L-8611", "Platen"), 
-("LU", "L-5640", "Mondorf-les-Bains"), 
-("LU", "L-5447", "Schwebsingen"), 
-("LU", "L-5520", "Remich"), 
-("LU", "L-5522", "Remich"), 
-("LU", "L-5561", "Remich"), 
-("LU", "L-9351", "Bastendorf"), 
-("LU", "L-9405", "Vianden"), 
-("LU", "L-9410", "Vianden"), 
-("LU", "L-9181", "Tadler"), 
-("LU", "L-9644", "Dahl"), 
-("LU", "L-9512", "Wiltz"), 
-("LU", "L-9565", "Wiltz"), 
-("LU", "L-9638", "Pommerloch"), 
-("LU", "L-4994", "Sprinkange"), 
-("LU", "L-8353", "Garnich"), 
-("LU", "L-8295", "Kehlen"), 
-("LU", "L-8149", "Bridel"), 
-("LU", "L-8234", "Mamer"), 
-("LU", "L-8326", "Capellen"), 
-("LU", "L-8395", "Septfontaines"), 
-("LU", "L-8366", "Hagen"), 
-("LU", "L-8420", "Steinfort"), 
-("LU", "L-4912", "Bascharage"), 
-("LU", "L-4918", "Bascharage"), 
-("LU", "L-4928", "Bascharage"), 
-("LU", "L-4932", "Hautcharage"), 
-("LU", "L-4949", "Hautcharage"), 
-("LU", "L-4950", "Bascharage"), 
-("LU", "L-4955", "Bascharage"), 
-("LU", "L-9974", "Maulusmühle"), 
-("LU", "L-9779", "Eselborn"), 
-("LU", "L-9836", "Hosingen"), 
-("LU", "L-9357", "Bettendorf"), 
-("LU", "L-9254", "Diekirch"), 
-("LU", "L-9370", "Diekirch"), 
-("LU", "L-9147", "Ingeldorf"), 
-("LU", "L-9016", "Ettelbruck"), 
-("LU", "L-9022", "Ettelbruck"), 
-("LU", "L-9025", "Ettelbruck"), 
-("LU", "L-9061", "Ettelbruck"), 
-("LU", "L-9062", "Ettelbruck"), 
-("LU", "L-6340", "Bigelbach"), 
-("LU", "L-9391", "Reisdorf"), 
-("LU", "L-9368", "Folkendange"), 
-("LU", "L-6482", "Echternach"), 
-("LU", "L-6691", "Moersdorf"), 
-("LU", "L-3271", "Bettembourg"), 
-("LU", "L-4529", "Differdange"), 
-("LU", "L-4552", "Niederkorn"), 
-("LU", "L-4563", "Niederkorn"), 
-("LU", "L-4605", "Differdange"), 
-("LU", "L-4606", "Oberkorn"), 
-("LU", "L-4690", "Differdange"), 
-("LU", "L-3401", "Dudelange"), 
-("LU", "L-3431", "Dudelange"), 
-("LU", "L-3441", "Dudelange"), 
-("LU", "L-3452", "Dudelange"), 
-("LU", "L-3482", "Dudelange"), 
-("LU", "L-3490", "Dudelange"), 
-("LU", "L-3505", "Dudelange"), 
-("LU", "L-3530", "Dudelange"), 
-("LU", "L-3584", "Dudelange"), 
-("LU", "L-4061", "Esch-sur-Alzette"), 
-("LU", "L-4064", "Esch-sur-Alzette"), 
-("LU", "L-4121", "Esch-sur-Alzette"), 
-("LU", "L-4149", "Esch-sur-Alzette"), 
-("LU", "L-4165", "Esch-sur-Alzette"), 
-("LU", "L-4248", "Esch-sur-Alzette"), 
-("LU", "L-4264", "Esch-sur-Alzette"), 
-("LU", "L-4275", "Esch-sur-Alzette"), 
-("LU", "L-4283", "Esch-sur-Alzette"), 
-("LU", "L-4321", "Esch-sur-Alzette"), 
-("LU", "L-4328", "Esch-sur-Alzette"), 
-("LU", "L-4337", "Esch-sur-Alzette"), 
-("LU", "L-4349", "Esch-sur-Alzette"), 
-("LU", "L-5719", "Aspelt"), 
-("LU", "L-5730", "Aspelt"), 
-("LU", "L-5753", "Frisange"), 
-("LU", "L-5754", "Frisange"), 
-("LU", "L-3914", "Mondercange"), 
-("LU", "L-3917", "Mondercange"), 
-("LU", "L-3933", "Mondercange"), 
-("LU", "L-3940", "Mondercange"), 
-("LU", "L-4706", "Lamadelaine"), 
-("LU", "L-4721", "Pétange"), 
-("LU", "L-4758", "Pétange"), 
-("LU", "L-4783", "Pétange"), 
-("LU", "L-4875", "Lamadelaine"), 
-("LU", "L-3322", "Bivange"), 
-("LU", "L-3324", "Bivange"), 
-("LU", "L-3735", "Rumelange"), 
-("LU", "L-3750", "Rumelange"), 
-("LU", "L-4475", "Soleuvre"), 
-("LU", "L-4485", "Soleuvre"), 
-("LU", "L-3810", "Schifflange"), 
-("LU", "L-3858", "Schifflange"), 
-("LU", "L-3878", "Schifflange"), 
-("LU", "L-3884", "Schifflange"), 
-("LU", "L-6760", "Grevenmacher"), 
-("LU", "L-6619", "Wasserbillig"), 
-("LU", "L-6623", "Wasserbillig"), 
-("LU", "L-6671", "Mertert"), 
-("LU", "L-6675", "Mertert"), 
-("LU", "L-6686", "Mertert"), 
-("LU", "L-5418", "Ehnen"), 
-("LU", "L-5317", "Contern"), 
-("LU", "L-2610", "Howald"), 
-("LU", "L-5841", "Hesperange"), 
-("LU", "L-5852", "Hesperange"), 
-("LU", "L-5854", "Alzingen"), 
-("LU", "L-5870", "Alzingen"), 
-("LU", "L-5952", "Itzig"), 
-("LU", "L-5955", "Itzig"), 
-("LU", "L-6906", "Niederanven"), 
-("LU", "L-6978", "Hostert"), 
-("LU", "L-6990", "Hostert"), 
-("LU", "L-6998", "Hostert"), 
-("LU", "L-2632", "Findel"), 
-("LU", "L-7342", "Heisdorf"), 
-("LU", "L-7345", "Heisdorf"), 
-("LU", "L-8008", "Strassen"), 
-("LU", "L-8014", "Strassen"), 
-("LU", "L-8021", "Strassen"), 
-("LU", "L-8028", "Strassen"), 
-("LU", "L-7221", "Bereldange"), 
-("LU", "L-1143", "Luxembourg"), 
-("LU", "L-1146", "Luxembourg"), 
-("LU", "L-1255", "Luxembourg"), 
-("LU", "L-1279", "Luxembourg"), 
-("LU", "L-1321", "Luxembourg"), 
-("LU", "L-1342", "Luxembourg"), 
-("LU", "L-1374", "Luxembourg"), 
-("LU", "L-1417", "Luxembourg"), 
-("LU", "L-1424", "Luxembourg"), 
-("LU", "L-1620", "Luxembourg"), 
-("LU", "L-1629", "Luxembourg"), 
-("LU", "L-1711", "Luxembourg"), 
-("LU", "L-1718", "Luxembourg"), 
-("LU", "L-1742", "Luxembourg"), 
-("LU", "L-1855", "Luxembourg"), 
-("LU", "L-1857", "Luxembourg"), 
-("LU", "L-1880", "Luxembourg"), 
-("LU", "L-1937", "Luxembourg"), 
-("LU", "L-2125", "Luxembourg"), 
-("LU", "L-2134", "Luxembourg"), 
-("LU", "L-2154", "Luxembourg"), 
-("LU", "L-2177", "Luxembourg"), 
-("LU", "L-2268", "Luxembourg"), 
-("LU", "L-2355", "Luxembourg"), 
-("LU", "L-2420", "Luxembourg"), 
-("LU", "L-7782", "Bissen"), 
-("LU", "L-7416", "Brouch"), 
-("LU", "L-7634", "Heffingen"), 
-("LU", "L-7652", "Heffingen"), 
-("LU", "L-7352", "Helmdange"), 
-("LU", "L-7353", "Lorentzweiler"), 
-("LU", "L-7392", "Klingelscheuer"), 
-("LU", "L-7397", "Hunsdorf"), 
-("LU", "L-7524", "Mersch"), 
-("LU", "L-7541", "Mersch"), 
-("LU", "L-8832", "Rombach-Martelange"), 
-("LU", "L-8545", "Niederpallen"), 
-("LU", "L-8620", "Schandel"), 
-("LU", "L-9465", "Walsdorf"), 
-("LU", "L-9157", "Heiderscheid"), 
-("LU", "L-9660", "Bonnal"), 
-("LU", "L-9657", "Harlange"), 
-("LU", "L-9530", "Wiltz"), 
-("LU", "L-9558", "Wiltz"), 
-("LU", "L-9682", "Selscheid"), 
-("LU", "L-8312", "Olm"), 
-("LU", "L-8360", "Goetzingen"), 
-("LU", "L-8124", "Bridel"), 
-("LU", "L-8142", "Bridel"), 
-("LU", "L-8160", "Bridel"), 
-("LU", "L-8187", "Kopstal"), 
-("LU", "L-8209", "Mamer"), 
-("LU", "L-8211", "Mamer"), 
-("LU", "L-8251", "Mamer"), 
-("LU", "L-8260", "Mamer"), 
-("LU", "L-8273", "Mamer"), 
-("LU", "L-8380", "Kleinbettingen"), 
-("LU", "L-8445", "Steinfort"), 
-("LU", "L-4940", "Hautcharage"), 
-("LU", "L-9751", "Grindhausen"), 
-("LU", "L-9753", "Heinerscheid"), 
-("LU", "L-9968", "Fossenhof"), 
-("LU", "L-9943", "Hautbellain"), 
-("LU", "L-9946", "Binsfeld"), 
-("LU", "L-9837", "Neidhausen"), 
-("LU", "L-9381", "Moestroff"), 
-("LU", "L-9183", "Friedbusch"), 
-("LU", "L-9209", "Diekirch"), 
-("LU", "L-9262", "Diekirch"), 
-("LU", "L-9267", "Diekirch"), 
-("LU", "L-9275", "Diekirch"), 
-("LU", "L-9276", "Diekirch"), 
-("LU", "L-9287", "Diekirch"), 
-("LU", "L-9161", "Ingeldorf"), 
-("LU", "L-9045", "Ettelbruck"), 
-("LU", "L-9065", "Ettelbruck"), 
-("LU", "L-9066", "Ettelbruck"), 
-("LU", "L-9186", "Stegen"), 
-("LU", "L-9365", "Eppeldorf"), 
-("LU", "L-6214", "Consdorf"), 
-("LU", "L-6414", "Echternach"), 
-("LU", "L-6448", "Echternach"), 
-("LU", "L-6481", "Echternach"), 
-("LU", "L-7641", "Christnach"), 
-("LU", "L-3225", "Bettembourg"), 
-("LU", "L-3236", "Bettembourg"), 
-("LU", "L-4513", "Niederkorn"), 
-("LU", "L-4528", "Differdange"), 
-("LU", "L-4538", "Oberkorn"), 
-("LU", "L-4551", "Niederkorn"), 
-("LU", "L-4553", "Niederkorn"), 
-("LU", "L-4558", "Oberkorn"), 
-("LU", "L-4560", "Differdange"), 
-("LU", "L-4607", "Differdange"), 
-("LU", "L-4633", "Differdange"), 
-("LU", "L-4643", "Niederkorn"), 
-("LU", "L-4654", "Differdange"), 
-("LU", "L-4677", "Differdange"), 
-("LU", "L-4693", "Differdange"), 
-("LU", "L-3422", "Dudelange"), 
-("LU", "L-3432", "Dudelange"), 
-("LU", "L-3507", "Dudelange"), 
-("LU", "L-3597", "Dudelange"), 
-("LU", "L-4020", "Esch-sur-Alzette"), 
-("LU", "L-4024", "Esch-sur-Alzette"), 
-("LU", "L-4074", "Esch-sur-Alzette"), 
-("LU", "L-4080", "Esch-sur-Alzette"), 
-("LU", "L-4083", "Esch-sur-Alzette"), 
-("LU", "L-4133", "Esch-sur-Alzette"), 
-("LU", "L-4221", "Esch-sur-Alzette"), 
-("LU", "L-4263", "Esch-sur-Alzette"), 
-("LU", "L-4267", "Esch-sur-Alzette"), 
-("LU", "L-4323", "Esch-sur-Alzette"), 
-("LU", "L-4347", "Esch-sur-Alzette"), 
-("LU", "L-4352", "Esch-sur-Alzette"), 
-("LU", "L-3788", "Tétange"), 
-("LU", "L-3363", "Leudelange"), 
-("LU", "L-3367", "Leudelange"), 
-("LU", "L-3371", "Leudelange"), 
-("LU", "L-3377", "Leudelange"), 
-("LU", "L-3898", "Foetz"), 
-("LU", "L-3912", "Mondercange"), 
-("LU", "L-3935", "Mondercange"), 
-("LU", "L-4717", "Pétange"), 
-("LU", "L-4751", "Pétange"), 
-("LU", "L-4871", "Lamadelaine"), 
-("LU", "L-4895", "Lamadelaine"), 
-("LU", "L-3378", "Livange"), 
-("LU", "L-3725", "Rumelange"), 
-("LU", "L-3738", "Rumelange"), 
-("LU", "L-4401", "Belvaux"), 
-("LU", "L-4414", "Soleuvre"), 
-("LU", "L-4418", "Soleuvre"), 
-("LU", "L-4442", "Soleuvre"), 
-("LU", "L-4471", "Belvaux"), 
-("LU", "L-4472", "Belvaux"), 
-("LU", "L-4987", "Sanem"), 
-("LU", "L-3813", "Schifflange"), 
-("LU", "L-5434", "Niederdonven"), 
-("LU", "L-6738", "Grevenmacher"), 
-("LU", "L-6740", "Grevenmacher"), 
-("LU", "L-6777", "Grevenmacher"), 
-("LU", "L-6114", "Junglinster"), 
-("LU", "L-6138", "Junglinster"), 
-("LU", "L-6618", "Wasserbillig"), 
-("LU", "L-6635", "Wasserbillig"), 
-("LU", "L-8055", "Bertrange"), 
-("LU", "L-8064", "Bertrange"), 
-("LU", "L-5315", "Contern"), 
-("LU", "L-5332", "Moutfort"), 
-("LU", "L-1137", "Howald"), 
-("LU", "L-1818", "Howald"), 
-("LU", "L-5888", "Alzingen"), 
-("LU", "L-5964", "Itzig"), 
-("LU", "L-2357", "Senningerberg"), 
-("LU", "L-6990", "Rameldange"), 
-("LU", "L-5215", "Sandweiler"), 
-("LU", "L-5253", "Sandweiler"), 
-("LU", "L-5369", "Schuttrange"), 
-("LU", "L-7311", "Heisdorf"), 
-("LU", "L-7339", "Steinsel"), 
-("LU", "L-8015", "Strassen"), 
-("LU", "L-8022", "Strassen"), 
-("LU", "L-1126", "Luxembourg"), 
-("LU", "L-1127", "Luxembourg"), 
-("LU", "L-1136", "Luxembourg"), 
-("LU", "L-1227", "Luxembourg"), 
-("LU", "L-1254", "Luxembourg"), 
-("LU", "L-1311", "Luxembourg"), 
-("LU", "L-1313", "Luxembourg"), 
-("LU", "L-1413", "Luxembourg"), 
-("LU", "L-1425", "Luxembourg"), 
-("LU", "L-1428", "Luxembourg"), 
-("LU", "L-1458", "Luxembourg"), 
-("LU", "L-1469", "Luxembourg"), 
-("LU", "L-1473", "Luxembourg"), 
-("LU", "L-1479", "Luxembourg"), 
-("LU", "L-1543", "Luxembourg"), 
-("LU", "L-1618", "Luxembourg"), 
-("LU", "L-1910", "Luxembourg"), 
-("LU", "L-1946", "Luxembourg"), 
-("LU", "L-2147", "Luxembourg"), 
-("LU", "L-2227", "Luxembourg"), 
-("LU", "L-2316", "Luxembourg"), 
-("LU", "L-2334", "Luxembourg"), 
-("LU", "L-2412", "Luxembourg"), 
-("LU", "L-2440", "Luxembourg"), 
-("LU", "L-2534", "Luxembourg"), 
-("LU", "L-2622", "Luxembourg"), 
-("LU", "L-2626", "Luxembourg"), 
-("LU", "L-2665", "Luxembourg"), 
-("LU", "L-7378", "Bofferdange"), 
-("LU", "L-7462", "Moesdorf"), 
-("LU", "L-7522", "Mersch"), 
-("LU", "L-7563", "Mersch"), 
-("LU", "L-7594", "Beringen"), 
-("LU", "L-7596", "Reckange"), 
-("LU", "L-7421", "Cruchten"), 
-("LU", "L-7411", "Marienthal"), 
-("LU", "L-8820", "Holtz"), 
-("LU", "L-8834", "Folschette"), 
-("LU", "L-8542", "Lannen"), 
-("LU", "L-5740", "Filsdorf"), 
-("LU", "L-9454", "Fouhren"), 
-("LU", "L-9380", "Merscheid"), 
-("LU", "L-9535", "Weidingen"), 
-("LU", "L-9540", "Wiltz"), 
-("LU", "L-9551", "Wiltz"), 
-("LU", "L-9651", "Eschweiler"), 
-("LU", "L-9636", "Berlé"), 
-("LU", "L-4974", "Dippach"), 
-("LU", "L-8356", "Garnich"), 
-("LU", "L-8463", "Eischen"), 
-("LU", "L-8468", "Eischen"), 
-("LU", "L-8322", "Olm"), 
-("LU", "L-8188", "Kopstal"), 
-("LU", "L-8189", "Kopstal"), 
-("LU", "L-8235", "Mamer"), 
-("LU", "L-8238", "Mamer"), 
-("LU", "L-8330", "Capellen"), 
-("LU", "L-8335", "Capellen"), 
-("LU", "L-8378", "Kleinbettingen"), 
-("LU", "L-8425", "Steinfort"), 
-("LU", "L-8442", "Steinfort"), 
-("LU", "L-9631", "Allerborn"), 
-("LU", "L-9645", "Derenbach"), 
-("LU", "L-9745", "Doennange"), 
-("LU", "L-9771", "Stockem"), 
-("LU", "L-9779", "Lentzweiler"), 
-("LU", "L-9708", "Clervaux"), 
-("LU", "L-9746", "Drauffelt"), 
-("LU", "L-9748", "Eselborn"), 
-("LU", "L-9774", "Urspelt"), 
-("LU", "L-9964", "Huldange"), 
-("LU", "L-9378", "Lipperscheid"), 
-("LU", "L-9228", "Diekirch"), 
-("LU", "L-9250", "Diekirch"), 
-("LU", "L-9256", "Diekirch"), 
-("LU", "L-9265", "Diekirch"), 
-("LU", "L-9293", "Diekirch"), 
-("LU", "L-9294", "Diekirch"), 
-("LU", "L-9069", "Ettelbruck"), 
-("LU", "L-9132", "Schieren"), 
-("LU", "L-7622", "Medernach"), 
-("LU", "L-7662", "Medernach"), 
-("LU", "L-6553", "Berdorf"), 
-("LU", "L-6412", "Echternach"), 
-("LU", "L-6468", "Echternach"), 
-("LU", "L-3219", "Bettembourg"), 
-("LU", "L-3234", "Bettembourg"), 
-("LU", "L-3257", "Bettembourg"), 
-("LU", "L-3267", "Bettembourg"), 
-("LU", "L-3285", "Bettembourg"), 
-("LU", "L-4505", "Niederkorn"), 
-("LU", "L-4519", "Differdange"), 
-("LU", "L-4527", "Oberkorn"), 
-("LU", "L-4531", "Oberkorn"), 
-("LU", "L-4537", "Differdange"), 
-("LU", "L-4562", "Niederkorn"), 
-("LU", "L-4564", "Differdange"), 
-("LU", "L-4608", "Differdange"), 
-("LU", "L-4624", "Oberkorn"), 
-("LU", "L-4628", "Differdange"), 
-("LU", "L-4664", "Niederkorn"), 
-("LU", "L-3484", "Dudelange"), 
-("LU", "L-3485", "Dudelange"), 
-("LU", "L-3503", "Dudelange"), 
-("LU", "L-3542", "Dudelange"), 
-("LU", "L-4008", "Esch-sur-Alzette"), 
-("LU", "L-4029", "Esch-sur-Alzette"), 
-("LU", "L-4042", "Esch-sur-Alzette"), 
-("LU", "L-4052", "Esch-sur-Alzette"), 
-("LU", "L-4131", "Esch-sur-Alzette"), 
-("LU", "L-4232", "Esch-sur-Alzette"), 
-("LU", "L-4239", "Esch-sur-Alzette"), 
-("LU", "L-4246", "Esch-sur-Alzette"), 
-("LU", "L-4276", "Esch-sur-Alzette"), 
-("LU", "L-4361", "Esch-sur-Alzette"), 
-("LU", "L-5710", "Aspelt"), 
-("LU", "L-5713", "Aspelt"), 
-("LU", "L-5716", "Aspelt"), 
-("LU", "L-3642", "Kayl"), 
-("LU", "L-3784", "Tétange"), 
-("LU", "L-3923", "Mondercange"), 
-("LU", "L-4802", "Lamadelaine"), 
-("LU", "L-4805", "Rodange"), 
-("LU", "L-4824", "Rodange"), 
-("LU", "L-4981", "Reckange-sur-Mess"), 
-("LU", "L-3320", "Bivange"), 
-("LU", "L-3323", "Bivange"), 
-("LU", "L-3381", "Livange"), 
-("LU", "L-3395", "Roeser"), 
-("LU", "L-3398", "Roeser"), 
-("LU", "L-3742", "Rumelange"), 
-("LU", "L-4421", "Soleuvre"), 
-("LU", "L-4454", "Belvaux"), 
-("LU", "L-4473", "Belvaux"), 
-("LU", "L-4489", "Belvaux"), 
-("LU", "L-4490", "Belvaux"), 
-("LU", "L-3820", "Schifflange"), 
-("LU", "L-3873", "Schifflange"), 
-("LU", "L-6834", "Biwerbach"), 
-("LU", "L-6834", "Biwer"), 
-("LU", "L-6836", "Breinert"), 
-("LU", "L-6737", "Grevenmacher"), 
-("LU", "L-6741", "Grevenmacher"), 
-("LU", "L-6776", "Grevenmacher"), 
-("LU", "L-6113", "Junglinster"), 
-("LU", "L-6122", "Junglinster"), 
-("LU", "L-6146", "Junglinster"), 
-("LU", "L-6163", "Bourglinster"), 
-("LU", "L-6617", "Wasserbillig"), 
-("LU", "L-6646", "Wasserbillig"), 
-("LU", "L-6647", "Wasserbillig"), 
-("LU", "L-8084", "Bertrange"), 
-("LU", "L-5316", "Contern"), 
-("LU", "L-5280", "Itzig"), 
-("LU", "L-5815", "Alzingen"), 
-("LU", "L-5846", "Fentange"), 
-("LU", "L-5884", "Howald"), 
-("LU", "L-5963", "Itzig"), 
-("LU", "L-1448", "Senningerberg"), 
-("LU", "L-6961", "Senningen"), 
-("LU", "L-6986", "Oberanven"), 
-("LU", "L-5231", "Sandweiler"), 
-("LU", "L-5342", "Schuttrange"), 
-("LU", "L-7325", "Heisdorf"), 
-("LU", "L-7327", "Steinsel"), 
-("LU", "L-7331", "Steinsel"), 
-("LU", "L-7346", "Mullendorf"), 
-("LU", "L-8023", "Strassen"), 
-("LU", "L-7214", "Bereldange"), 
-("LU", "L-7247", "Helmsange"), 
-("LU", "L-5771", "Weiler-la-Tour"), 
-("LU", "L-5898", "Syren"), 
-("LU", "L-1130", "Luxembourg"), 
-("LU", "L-1315", "Luxembourg"), 
-("LU", "L-1480", "Luxembourg"), 
-("LU", "L-1484", "Luxembourg"), 
-("LU", "L-1515", "Luxembourg"), 
-("LU", "L-1725", "Luxembourg"), 
-("LU", "L-1865", "Luxembourg"), 
-("LU", "L-1954", "Luxembourg"), 
-("LU", "L-2133", "Luxembourg"), 
-("LU", "L-2178", "Luxembourg"), 
-("LU", "L-2333", "Luxembourg"), 
-("LU", "L-2418", "Luxembourg"), 
-("LU", "L-2668", "Luxembourg"), 
-("LU", "L-7765", "Bissen"), 
-("LU", "L-7780", "Bissen"), 
-("LU", "L-7789", "Bissen"), 
-("LU", "L-6155", "Koedange"), 
-("LU", "L-7430", "Fischbach"), 
-("LU", "L-7456", "Lintgen"), 
-("LU", "L-7363", "Lorentzweiler"), 
-("LU", "L-7556", "Mersch"), 
-("LU", "L-7590", "Beringen"), 
-("LU", "L-8543", "Levelange"), 
-("LU", "L-8528", "Colpach-Haut"), 
-("LU", "L-8833", "Wolwelange"), 
-("LU", "L-9154", "Grosbous"), 
-("LU", "L-9155", "Grosbous"), 
-("LU", "L-8529", "Ehner"), 
-("LU", "L-8615", "Platen"), 
-("LU", "L-5683", "Dalheim"), 
-("LU", "L-5684", "Dalheim"), 
-("LU", "L-5405", "Bech-Kleinmacher"), 
-("LU", "L-5533", "Remich"), 
-("LU", "L-5544", "Remich"), 
-("LU", "L-9655", "Harlange"), 
-("LU", "L-9511", "Wiltz"), 
-("LU", "L-9536", "Wiltz"), 
-("LU", "L-9574", "Wiltz"), 
-("LU", "L-8116", "Bridel"), 
-("LU", "L-8140", "Bridel"), 
-("LU", "L-8167", "Bridel"), 
-("LU", "L-8201", "Mamer"), 
-("LU", "L-8229", "Mamer"), 
-("LU", "L-8230", "Mamer"), 
-("LU", "L-8236", "Mamer"), 
-("LU", "L-8261", "Mamer"), 
-("LU", "L-8302", "Capellen"), 
-("LU", "L-8413", "Steinfort"), 
-("LU", "L-8416", "Steinfort"), 
-("LU", "L-8440", "Steinfort"), 
-("LU", "L-8453", "Steinfort"), 
-("LU", "L-9742", "Boxhorn"), 
-("LU", "L-9909", "Troisvierges"), 
-("LU", "L-9839", "Rodershausen"), 
-("LU", "L-9356", "Bettendorf"), 
-("LU", "L-9257", "Diekirch"), 
-("LU", "L-9015", "Ettelbruck"), 
-("LU", "L-9023", "Ettelbruck"), 
-("LU", "L-9028", "Warken"), 
-("LU", "L-9126", "Schieren"), 
-("LU", "L-9136", "Schieren"), 
-("LU", "L-6418", "Echternach"), 
-("LU", "L-6461", "Echternach"), 
-("LU", "L-6586", "Steinheim"), 
-("LU", "L-3223", "Bettembourg"), 
-("LU", "L-3230", "Bettembourg"), 
-("LU", "L-3239", "Bettembourg"), 
-("LU", "L-3241", "Bettembourg"), 
-("LU", "L-4526", "Niederkorn"), 
-("LU", "L-4579", "Oberkorn"), 
-("LU", "L-4590", "Oberkorn"), 
-("LU", "L-4640", "Differdange"), 
-("LU", "L-4696", "Lasauvage"), 
-("LU", "L-3442", "Dudelange"), 
-("LU", "L-3476", "Dudelange"), 
-("LU", "L-3512", "Dudelange"), 
-("LU", "L-3513", "Dudelange"), 
-("LU", "L-3595", "Dudelange"), 
-("LU", "L-4013", "Esch-sur-Alzette"), 
-("LU", "L-4015", "Esch-sur-Alzette"), 
-("LU", "L-4034", "Esch-sur-Alzette"), 
-("LU", "L-4069", "Esch-sur-Alzette"), 
-("LU", "L-4173", "Esch-sur-Alzette"), 
-("LU", "L-4281", "Esch-sur-Alzette"), 
-("LU", "L-4351", "Esch-sur-Alzette"), 
-("LU", "L-5711", "Aspelt"), 
-("LU", "L-5750", "Frisange"), 
-("LU", "L-3612", "Kayl"), 
-("LU", "L-3675", "Kayl"), 
-("LU", "L-3766", "Tétange"), 
-("LU", "L-3899", "Foetz"), 
-("LU", "L-3920", "Mondercange"), 
-("LU", "L-3922", "Mondercange"), 
-("LU", "L-3926", "Mondercange"), 
-("LU", "L-4711", "Pétange"), 
-("LU", "L-4782", "Pétange"), 
-("LU", "L-4837", "Rodange"), 
-("LU", "L-4843", "Rodange"), 
-("LU", "L-4872", "Lamadelaine"), 
-("LU", "L-3326", "Crauthem"), 
-("LU", "L-3754", "Rumelange"), 
-("LU", "L-4445", "Belvaux"), 
-("LU", "L-4448", "Soleuvre"), 
-("LU", "L-4450", "Belvaux"), 
-("LU", "L-4460", "Belvaux"), 
-("LU", "L-4470", "Soleuvre"), 
-("LU", "L-4498", "Sanem"), 
-("LU", "L-4988", "Sanem"), 
-("LU", "L-4989", "Sanem"), 
-("LU", "L-4992", "Sanem"), 
-("LU", "L-6911", "Roodt-sur-Syre"), 
-("LU", "L-6713", "Grevenmacher"), 
-("LU", "L-6717", "Grevenmacher"), 
-("LU", "L-6734", "Grevenmacher"), 
-("LU", "L-6742", "Grevenmacher"), 
-("LU", "L-6756", "Grevenmacher"), 
-("LU", "L-6780", "Grevenmacher"), 
-("LU", "L-6144", "Junglinster"), 
-("LU", "L-6616", "Wasserbillig"), 
-("LU", "L-6633", "Wasserbillig"), 
-("LU", "L-8006", "Bertrange"), 
-("LU", "L-8085", "Bertrange"), 
-("LU", "L-5341", "Moutfort"), 
-("LU", "L-1353", "Howald"), 
-("LU", "L-2611", "Howald"), 
-("LU", "L-5801", "Hesperange"), 
-("LU", "L-5836", "Alzingen"), 
-("LU", "L-5959", "Itzig"), 
-("LU", "L-5201", "Sandweiler"), 
-("LU", "L-5251", "Sandweiler"), 
-("LU", "L-5255", "Sandweiler"), 
-("LU", "L-7310", "Heisdorf"), 
-("LU", "L-7328", "Heisdorf"), 
-("LU", "L-7333", "Steinsel"), 
-("LU", "L-8033", "Strassen"), 
-("LU", "L-8036", "Strassen"), 
-("LU", "L-8043", "Strassen"), 
-("LU", "L-5776", "Weiler-la-Tour"), 
-("LU", "L-1125", "Luxembourg"), 
-("LU", "L-1149", "Luxembourg"), 
-("LU", "L-1208", "Luxembourg"), 
-("LU", "L-1252", "Luxembourg"), 
-("LU", "L-1268", "Luxembourg"), 
-("LU", "L-1332", "Luxembourg"), 
-("LU", "L-1339", "Luxembourg"), 
-("LU", "L-1357", "Luxembourg"), 
-("LU", "L-1368", "Luxembourg"), 
-("LU", "L-1414", "Luxembourg"), 
-("LU", "L-1509", "Luxembourg"), 
-("LU", "L-1512", "Luxembourg"), 
-("LU", "L-1641", "Luxembourg"), 
-("LU", "L-1722", "Luxembourg"), 
-("LU", "L-1723", "Luxembourg"), 
-("LU", "L-1924", "Luxembourg"), 
-("LU", "L-1931", "Luxembourg"), 
-("LU", "L-1932", "Luxembourg"), 
-("LU", "L-1942", "Luxembourg"), 
-("LU", "L-2213", "Luxembourg"), 
-("LU", "L-2220", "Luxembourg"), 
-("LU", "L-2339", "Luxembourg"), 
-("LU", "L-2356", "Luxembourg"), 
-("LU", "L-2619", "Luxembourg"), 
-("LU", "L-2738", "Luxembourg"), 
-("LU", "L-7732", "Colmar-Berg"), 
-("LU", "L-7612", "Larochette"), 
-("LU", "L-7623", "Larochette"), 
-("LU", "L-7442", "Lintgen"), 
-("LU", "L-7370", "Lorentzweiler"), 
-("LU", "L-7517", "Mersch"), 
-("LU", "L-7553", "Mersch"), 
-("LU", "L-7435", "Hollenfels"), 
-("LU", "L-8801", "Rambrouch"), 
-("LU", "L-8808", "Arsdorf"), 
-("LU", "L-8835", "Folschette"), 
-("LU", "L-9144", "Dellen"), 
-("LU", "L-8558", "Platen"), 
-("LU", "L-5617", "Mondorf-les-Bains"), 
-("LU", "L-5577", "Remich"), 
-("LU", "L-9421", "Vianden"), 
-("LU", "L-9424", "Vianden"), 
-("LU", "L-9153", "Goebelsmuehle"), 
-("LU", "L-9689", "Tarchamps"), 
-("LU", "L-9543", "Wiltz"), 
-("LU", "L-9681", "Roullingen"), 
-("LU", "L-9747", "Enscherange"), 
-("LU", "L-4972", "Dippach"), 
-("LU", "L-4999", "Schouweiler"), 
-("LU", "L-8355", "Garnich"), 
-("LU", "L-8461", "Eischen"), 
-("LU", "L-8476", "Eischen"), 
-("LU", "L-8282", "Kehlen"), 
-("LU", "L-8125", "Bridel"), 
-("LU", "L-8128", "Bridel"), 
-("LU", "L-8145", "Bridel"), 
-("LU", "L-8159", "Bridel"), 
-("LU", "L-8182", "Kopstal"), 
-("LU", "L-8263", "Mamer"), 
-("LU", "L-4909", "Bascharage"), 
-("LU", "L-4930", "Bascharage"), 
-("LU", "L-9743", "Crendal"), 
-("LU", "L-9707", "Clervaux"), 
-("LU", "L-9263", "Diekirch"), 
-("LU", "L-9004", "Ettelbruck"), 
-("LU", "L-9080", "Ettelbruck"), 
-("LU", "L-9086", "Ettelbruck"), 
-("LU", "L-9156", "Niederfeulen"), 
-("LU", "L-9170", "Mertzig"), 
-("LU", "L-6301", "Beaufort"), 
-("LU", "L-6214", "Kalkesbach (Consdorf)"), 
-("LU", "L-6416", "Echternach"), 
-("LU", "L-6692", "Moersdorf"), 
-("LU", "L-6585", "Steinheim"), 
-("LU", "L-3217", "Bettembourg"), 
-("LU", "L-3258", "Bettembourg"), 
-("LU", "L-3276", "Bettembourg"), 
-("LU", "L-3281", "Bettembourg"), 
-("LU", "L-3287", "Bettembourg"), 
-("LU", "L-4504", "Oberkorn"), 
-("LU", "L-4533", "Niederkorn"), 
-("LU", "L-4544", "Differdange"), 
-("LU", "L-4559", "Differdange"), 
-("LU", "L-4632", "Differdange"), 
-("LU", "L-3412", "Dudelange"), 
-("LU", "L-3454", "Dudelange"), 
-("LU", "L-3545", "Dudelange"), 
-("LU", "L-3574", "Dudelange"), 
-("LU", "L-4043", "Esch-sur-Alzette"), 
-("LU", "L-4068", "Esch-sur-Alzette"), 
-("LU", "L-4101", "Esch-sur-Alzette"), 
-("LU", "L-4116", "Esch-sur-Alzette"), 
-("LU", "L-4130", "Esch-sur-Alzette"), 
-("LU", "L-4153", "Esch-sur-Alzette"), 
-("LU", "L-4166", "Esch-sur-Alzette"), 
-("LU", "L-4214", "Esch-sur-Alzette"), 
-("LU", "L-4230", "Esch-sur-Alzette"), 
-("LU", "L-4315", "Esch-sur-Alzette"), 
-("LU", "L-4325", "Esch-sur-Alzette"), 
-("LU", "L-4350", "Esch-sur-Alzette"), 
-("LU", "L-4355", "Esch-sur-Alzette"), 
-("LU", "L-3611", "Kayl"), 
-("LU", "L-3775", "Tétange"), 
-("LU", "L-3357", "Leudelange"), 
-("LU", "L-3364", "Leudelange"), 
-("LU", "L-3376", "Leudelange"), 
-("LU", "L-3913", "Mondercange"), 
-("LU", "L-4397", "Pontpierre"), 
-("LU", "L-4733", "Pétange"), 
-("LU", "L-4840", "Rodange"), 
-("LU", "L-3720", "Rumelange"), 
-("LU", "L-3723", "Rumelange"), 
-("LU", "L-4373", "Belvaux"), 
-("LU", "L-4383", "Ehlerange"), 
-("LU", "L-4425", "Belvaux"), 
-("LU", "L-4434", "Soleuvre"), 
-("LU", "L-4437", "Soleuvre"), 
-("LU", "L-4478", "Belvaux"), 
-("LU", "L-3822", "Schifflange"), 
-("LU", "L-3839", "Schifflange"), 
-("LU", "L-3842", "Schifflange"), 
-("LU", "L-3851", "Schifflange"), 
-("LU", "L-3854", "Schifflange"), 
-("LU", "L-3861", "Schifflange"), 
-("LU", "L-6868", "Wecker"), 
-("LU", "L-6720", "Grevenmacher"), 
-("LU", "L-6793", "Grevenmacher"), 
-("LU", "L-6143", "Junglinster"), 
-("LU", "L-6612", "Wasserbillig"), 
-("LU", "L-2524", "Howald"), 
-("LU", "L-2723", "Howald"), 
-("LU", "L-5818", "Alzingen"), 
-("LU", "L-5821", "Howald"), 
-("LU", "L-5956", "Itzig"), 
-("LU", "L-1209", "Senningerberg"), 
-("LU", "L-1736", "Senningerberg"), 
-("LU", "L-5212", "Sandweiler"), 
-("LU", "L-5230", "Sandweiler"), 
-("LU", "L-5372", "Schuttrange"), 
-("LU", "L-7302", "Mullendorf"), 
-("LU", "L-7322", "Steinsel"), 
-("LU", "L-8069", "Strassen"), 
-("LU", "L-8115", "Strassen"), 
-("LU", "L-8251", "Strassen"), 
-("LU", "L-5772", "Weiler-la-Tour"), 
-("LU", "L-1140", "Luxembourg"), 
-("LU", "L-1210", "Luxembourg"), 
-("LU", "L-1212", "Luxembourg"), 
-("LU", "L-1347", "Luxembourg"), 
-("LU", "L-1366", "Luxembourg"), 
-("LU", "L-1422", "Luxembourg"), 
-("LU", "L-1477", "Luxembourg"), 
-("LU", "L-1660", "Luxembourg"), 
-("LU", "L-1724", "Luxembourg"), 
-("LU", "L-1726", "Luxembourg"), 
-("LU", "L-1728", "Luxembourg"), 
-("LU", "L-1738", "Luxembourg"), 
-("LU", "L-1741", "Luxembourg"), 
-("LU", "L-1834", "Luxembourg"), 
-("LU", "L-1948", "Luxembourg"), 
-("LU", "L-1950", "Luxembourg"), 
-("LU", "L-2142", "Luxembourg"), 
-("LU", "L-2225", "Luxembourg"), 
-("LU", "L-2228", "Luxembourg"), 
-("LU", "L-2312", "Luxembourg"), 
-("LU", "L-2313", "Luxembourg"), 
-("LU", "L-2432", "Luxembourg"), 
-("LU", "L-2515", "Luxembourg"), 
-("LU", "L-2546", "Luxembourg"), 
-("LU", "L-2561", "Luxembourg"), 
-("LU", "L-2651", "Luxembourg"), 
-("LU", "L-2654", "Luxembourg"), 
-("LU", "L-2672", "Luxembourg"), 
-("LU", "L-2673", "Luxembourg"), 
-("LU", "L-7710", "Colmar-Berg"), 
-("LU", "L-7764", "Bissen"), 
-("LU", "L-7651", "Heffingen"), 
-("LU", "L-7390", "Blaschette"), 
-("LU", "L-7546", "Rollingen"), 
-("LU", "L-7411", "Ansembourg"), 
-("LU", "L-8812", "Bigonville"), 
-("LU", "L-8821", "Riesenhof"), 
-("LU", "L-8816", "Brattert"), 
-("LU", "L-5634", "Mondorf-les-Bains"), 
-("LU", "L-9458", "Landscheid"), 
-("LU", "L-9510", "Wiltz"), 
-("LU", "L-9553", "Weidingen"), 
-("LU", "L-9647", "Doncols"), 
-("LU", "L-8152", "Bridel"), 
-("LU", "L-8158", "Bridel"), 
-("LU", "L-8181", "Kopstal"), 
-("LU", "L-8225", "Mamer"), 
-("LU", "L-8328", "Capellen"), 
-("LU", "L-8438", "Steinfort"), 
-("LU", "L-4936", "Bascharage"), 
-("LU", "L-4942", "Hautcharage"), 
-("LU", "L-4959", "Bascharage"), 
-("LU", "L-4964", "Clemency"), 
-("LU", "L-9770", "Rumlange"), 
-("LU", "L-9902", "Cinqfontaines"), 
-("LU", "L-9706", "Clervaux"), 
-("LU", "L-9710", "Clervaux"), 
-("LU", "L-9765", "Mecher"), 
-("LU", "L-9838", "Eisenbach"), 
-("LU", "L-9191", "Welscheid"), 
-("LU", "L-9213", "Diekirch"), 
-("LU", "L-9231", "Diekirch"), 
-("LU", "L-9258", "Diekirch"), 
-("LU", "L-7758", "Grentzingen"), 
-("LU", "L-9021", "Ettelbruck"), 
-("LU", "L-9053", "Ettelbruck"), 
-("LU", "L-9089", "Ettelbruck"), 
-("LU", "L-9392", "Wallendorf-Pont"), 
-("LU", "L-7664", "Medernach"), 
-("LU", "L-6214", "Kalkesbach (Berdorf)"), 
-("LU", "L-6215", "Consdorf"), 
-("LU", "L-6475", "Echternach"), 
-("LU", "L-6493", "Echternach"), 
-("LU", "L-6572", "Echternach"), 
-("LU", "L-3212", "Bettembourg"), 
-("LU", "L-4502", "Differdange"), 
-("LU", "L-4523", "Oberkorn"), 
-("LU", "L-4541", "Differdange"), 
-("LU", "L-4561", "Oberkorn"), 
-("LU", "L-4569", "Oberkorn"), 
-("LU", "L-4595", "Differdange"), 
-("LU", "L-3411", "Dudelange"), 
-("LU", "L-3416", "Dudelange"), 
-("LU", "L-3421", "Dudelange"), 
-("LU", "L-3436", "Dudelange"), 
-("LU", "L-3491", "Dudelange"), 
-("LU", "L-3506", "Dudelange"), 
-("LU", "L-3547", "Dudelange"), 
-("LU", "L-3598", "Dudelange"), 
-("LU", "L-4028", "Esch-sur-Alzette"), 
-("LU", "L-4112", "Esch-sur-Alzette"), 
-("LU", "L-4115", "Esch-sur-Alzette"), 
-("LU", "L-4136", "Esch-sur-Alzette"), 
-("LU", "L-4151", "Esch-sur-Alzette"), 
-("LU", "L-4203", "Esch-sur-Alzette"), 
-("LU", "L-4320", "Esch-sur-Alzette"), 
-("LU", "L-4342", "Esch-sur-Alzette"), 
-("LU", "L-4354", "Esch-sur-Alzette"), 
-("LU", "L-5720", "Aspelt"), 
-("LU", "L-3622", "Kayl"), 
-("LU", "L-3630", "Kayl"), 
-("LU", "L-3771", "Tétange"), 
-("LU", "L-3780", "Tétange"), 
-("LU", "L-4708", "Pétange"), 
-("LU", "L-4808", "Rodange"), 
-("LU", "L-4829", "Rodange"), 
-("LU", "L-4849", "Rodange"), 
-("LU", "L-4874", "Lamadelaine"), 
-("LU", "L-4884", "Lamadelaine"), 
-("LU", "L-3985", "Pissange"), 
-("LU", "L-4980", "Reckange-sur-Mess"), 
-("LU", "L-4382", "Ehlerange"), 
-("LU", "L-4384", "Ehlerange"), 
-("LU", "L-4402", "Belvaux"), 
-("LU", "L-4438", "Soleuvre"), 
-("LU", "L-4482", "Belvaux"), 
-("LU", "L-4521", "Soleuvre"), 
-("LU", "L-3844", "Schifflange"), 
-("LU", "L-6919", "Roodt-sur-Syre"), 
-("LU", "L-6852", "Wecker-Gare"), 
-("LU", "L-6701", "Grevenmacher"), 
-("LU", "L-6743", "Grevenmacher"), 
-("LU", "L-6125", "Junglinster"), 
-("LU", "L-6137", "Junglinster"), 
-("LU", "L-6161", "Bourglinster"), 
-("LU", "L-6830", "Berbourg"), 
-("LU", "L-6601", "Wasserbillig"), 
-("LU", "L-6682", "Mertert"), 
-("LU", "L-5419", "Ehnen"), 
-("LU", "L-8067", "Bertrange"), 
-("LU", "L-5339", "Moutfort"), 
-("LU", "L-5353", "Oetrange"), 
-("LU", "L-2272", "Howald"), 
-("LU", "L-2446", "Howald"), 
-("LU", "L-5842", "Hesperange"), 
-("LU", "L-5861", "Fentange"), 
-("LU", "L-5863", "Hesperange"), 
-("LU", "L-5878", "Hesperange"), 
-("LU", "L-5951", "Itzig"), 
-("LU", "L-5957", "Itzig"), 
-("LU", "L-5976", "Itzig"), 
-("LU", "L-1259", "Senningerberg"), 
-("LU", "L-6166", "Ernster"), 
-("LU", "L-6988", "Hostert"), 
-("LU", "L-5280", "Sandweiler"), 
-("LU", "L-5367", "Schuttrange"), 
-("LU", "L-8020", "Strassen"), 
-("LU", "L-8046", "Strassen"), 
-("LU", "L-7217", "Bereldange"), 
-("LU", "L-7226", "Helmsange"), 
-("LU", "L-7235", "Bereldange"), 
-("LU", "L-7237", "Helmsange"), 
-("LU", "L-7252", "Bereldange"), 
-("LU", "L-7265", "Bereldange"), 
-("LU", "L-1122", "Luxembourg"), 
-("LU", "L-1131", "Luxembourg"), 
-("LU", "L-1242", "Luxembourg"), 
-("LU", "L-1261", "Luxembourg"), 
-("LU", "L-1412", "Luxembourg"), 
-("LU", "L-1611", "Luxembourg"), 
-("LU", "L-1655", "Luxembourg"), 
-("LU", "L-1716", "Luxembourg"), 
-("LU", "L-1814", "Luxembourg"), 
-("LU", "L-1856", "Luxembourg"), 
-("LU", "L-1870", "Luxembourg"), 
-("LU", "L-1930", "Luxembourg"), 
-("LU", "L-1945", "Luxembourg"), 
-("LU", "L-1953", "Luxembourg"), 
-("LU", "L-2132", "Luxembourg"), 
-("LU", "L-2139", "Luxembourg"), 
-("LU", "L-2273", "Luxembourg"), 
-("LU", "L-2320", "Luxembourg"), 
-("LU", "L-2341", "Luxembourg"), 
-("LU", "L-2358", "Luxembourg"), 
-("LU", "L-2360", "Luxembourg"), 
-("LU", "L-2562", "Luxembourg"), 
-("LU", "L-2625", "Luxembourg"), 
-("LU", "L-2631", "Luxembourg"), 
-("LU", "L-2667", "Luxembourg"), 
-("LU", "L-2737", "Luxembourg"), 
-("LU", "L-7731", "Colmar-Berg"), 
-("LU", "L-7733", "Colmar-Berg"), 
-("LU", "L-7777", "Bissen"), 
-("LU", "L-7417", "Brouch"), 
-("LU", "L-7627", "Larochette"), 
-("LU", "L-7454", "Lintgen"), 
-("LU", "L-7391", "Blaschette"), 
-("LU", "L-7395", "Hunsdorf"), 
-("LU", "L-7519", "Mersch"), 
-("LU", "L-7544", "Mersch"), 
-("LU", "L-7561", "Mersch"), 
-("LU", "L-7569", "Mersch"), 
-("LU", "L-7595", "Reckange"), 
-("LU", "L-7465", "Nommern"), 
-("LU", "L-8530", "Ell"), 
-("LU", "L-8609", "Bettborn"), 
-("LU", "L-5681", "Dalheim"), 
-("LU", "L-5415", "Canach"), 
-("LU", "L-5534", "Remich"), 
-("LU", "L-9458", "Hoscheidterhof"), 
-("LU", "L-9416", "Vianden"), 
-("LU", "L-9165", "Merscheid"), 
-("LU", "L-9518", "Weidingen"), 
-("LU", "L-9654", "Schleif"), 
-("LU", "L-8464", "Eischen"), 
-("LU", "L-8344", "Olm"), 
-("LU", "L-8383", "Koerich"), 
-("LU", "L-8385", "Koerich"), 
-("LU", "L-8137", "Bridel"), 
-("LU", "L-8248", "Mamer"), 
-("LU", "L-8323", "Capellen"), 
-("LU", "L-8329", "Capellen"), 
-("LU", "L-8424", "Steinfort"), 
-("LU", "L-4795", "Linger"), 
-("LU", "L-4796", "Linger"), 
-("LU", "L-4798", "Linger"), 
-("LU", "L-4944", "Bascharage"), 
-("LU", "L-9764", "Marnach"), 
-("LU", "L-9966", "Kaesfurt"), 
-("LU", "L-9968", "Rossmühle"), 
-("LU", "L-9183", "Unterschlinder"), 
-("LU", "L-9364", "Moestroff"), 
-("LU", "L-9370", "Gilsdorf"), 
-("LU", "L-9207", "Diekirch"), 
-("LU", "L-9253", "Diekirch"), 
-("LU", "L-9261", "Diekirch"), 
-("LU", "L-9264", "Diekirch"), 
-("LU", "L-9017", "Ettelbruck"), 
-("LU", "L-9033", "Warken"), 
-("LU", "L-9051", "Ettelbruck"), 
-("LU", "L-9121", "Schieren"), 
-("LU", "L-9133", "Schieren"), 
-("LU", "L-9135", "Schieren"), 
-("LU", "L-6313", "Beaufort"), 
-("LU", "L-6413", "Echternach"), 
-("LU", "L-6436", "Echternach"), 
-("LU", "L-6560", "Hinkel"), 
-("LU", "L-3237", "Bettembourg"), 
-("LU", "L-3252", "Bettembourg"), 
-("LU", "L-3286", "Bettembourg"), 
-("LU", "L-4543", "Differdange"), 
-("LU", "L-4580", "Differdange"), 
-("LU", "L-4651", "Differdange"), 
-("LU", "L-4658", "Oberkorn"), 
-("LU", "L-4682", "Differdange"), 
-("LU", "L-4688", "Differdange"), 
-("LU", "L-3410", "Dudelange"), 
-("LU", "L-3415", "Dudelange"), 
-("LU", "L-3487", "Dudelange"), 
-("LU", "L-3508", "Dudelange"), 
-("LU", "L-3523", "Dudelange"), 
-("LU", "L-3529", "Dudelange"), 
-("LU", "L-3562", "Dudelange"), 
-("LU", "L-3573", "Dudelange"), 
-("LU", "L-3576", "Dudelange"), 
-("LU", "L-4022", "Esch-sur-Alzette"), 
-("LU", "L-4032", "Esch-sur-Alzette"), 
-("LU", "L-4142", "Esch-sur-Alzette"), 
-("LU", "L-4201", "Esch-sur-Alzette"), 
-("LU", "L-4252", "Esch-sur-Alzette"), 
-("LU", "L-4282", "Esch-sur-Alzette"), 
-("LU", "L-3613", "Kayl"), 
-("LU", "L-3616", "Kayl"), 
-("LU", "L-3617", "Kayl"), 
-("LU", "L-3641", "Kayl"), 
-("LU", "L-3652", "Kayl"), 
-("LU", "L-3909", "Mondercange"), 
-("LU", "L-3915", "Mondercange"), 
-("LU", "L-4743", "Pétange"), 
-("LU", "L-4745", "Pétange"), 
-("LU", "L-4785", "Pétange"), 
-("LU", "L-4825", "Rodange"), 
-("LU", "L-4831", "Rodange"), 
-("LU", "L-4839", "Rodange"), 
-("LU", "L-4844", "Rodange"), 
-("LU", "L-4848", "Rodange"), 
-("LU", "L-3736", "Rumelange"), 
-("LU", "L-4371", "Belvaux"), 
-("LU", "L-4407", "Belvaux"), 
-("LU", "L-4408", "Belvaux"), 
-("LU", "L-4412", "Belvaux"), 
-("LU", "L-4423", "Soleuvre"), 
-("LU", "L-4460", "Soleuvre"), 
-("LU", "L-4494", "Soleuvre"), 
-("LU", "L-3824", "Schifflange"), 
-("LU", "L-3881", "Schifflange"), 
-("LU", "L-6815", "Betzdorf"), 
-("LU", "L-6835", "Boudlerbach"), 
-("LU", "L-6714", "Grevenmacher"), 
-("LU", "L-6796", "Grevenmacher"), 
-("LU", "L-6133", "Junglinster"), 
-("LU", "L-6139", "Junglinster"), 
-("LU", "L-6148", "Junglinster"), 
-("LU", "L-6170", "Godbrange"), 
-("LU", "L-6670", "Mertert"), 
-("LU", "L-8007", "Bertrange"), 
-("LU", "L-8089", "Bertrange"), 
-("LU", "L-5324", "Oetrange"), 
-("LU", "L-5808", "Fentange"), 
-("LU", "L-5830", "Hesperange"), 
-("LU", "L-5837", "Fentange"), 
-("LU", "L-5844", "Alzingen"), 
-("LU", "L-5850", "Howald"), 
-("LU", "L-5862", "Hesperange"), 
-("LU", "L-5954", "Itzig"), 
-("LU", "L-5969", "Itzig"), 
-("LU", "L-5978", "Itzig"), 
-("LU", "L-6996", "Oberanven"), 
-("LU", "L-5222", "Sandweiler"), 
-("LU", "L-7316", "Steinsel"), 
-("LU", "L-7337", "Heisdorf"), 
-("LU", "L-1512", "Strassen"), 
-("LU", "L-8010", "Strassen"), 
-("LU", "L-8019", "Strassen"), 
-("LU", "L-7211", "Helmsange"), 
-("LU", "L-7222", "Walferdange"), 
-("LU", "L-7261", "Helmsange"), 
-("LU", "L-7263", "Helmsange"), 
-("LU", "L-7274", "Walferdange"), 
-("LU", "L-5762", "Hassel"), 
-("LU", "L-1139", "Luxembourg"), 
-("LU", "L-1237", "Luxembourg"), 
-("LU", "L-1257", "Luxembourg"), 
-("LU", "L-1333", "Luxembourg"), 
-("LU", "L-1433", "Luxembourg"), 
-("LU", "L-1457", "Luxembourg"), 
-("LU", "L-1517", "Luxembourg"), 
-("LU", "L-1525", "Luxembourg"), 
-("LU", "L-1533", "Luxembourg"), 
-("LU", "L-1540", "Luxembourg"), 
-("LU", "L-1640", "Luxembourg"), 
-("LU", "L-1654", "Luxembourg"), 
-("LU", "L-1729", "Luxembourg"), 
-("LU", "L-1863", "Luxembourg"), 
-("LU", "L-1926", "Luxembourg"), 
-("LU", "L-2119", "Luxembourg"), 
-("LU", "L-2222", "Luxembourg"), 
-("LU", "L-2311", "Luxembourg"), 
-("LU", "L-2345", "Luxembourg"), 
-("LU", "L-2514", "Luxembourg"), 
-("LU", "L-2523", "Luxembourg"), 
-("LU", "L-2525", "Luxembourg"), 
-("LU", "L-2557", "Luxembourg"), 
-("LU", "L-2566", "Luxembourg"), 
-("LU", "L-2610", "Luxembourg"), 
-("LU", "L-2662", "Luxembourg"), 
-("LU", "L-2670", "Luxembourg"), 
-("LU", "L-2728", "Luxembourg"), 
-("LU", "L-2764", "Luxembourg"), 
-("LU", "L-7720", "Colmar-Berg"), 
-("LU", "L-7768", "Bissen"), 
-("LU", "L-7670", "Reuland"), 
-("LU", "L-7634", "Larochette"), 
-("LU", "L-7458", "Lintgen"), 
-("LU", "L-7460", "Prettingen"), 
-("LU", "L-7359", "Lorentzweiler"), 
-("LU", "L-7361", "Lorentzweiler"), 
-("LU", "L-7516", "Rollingen"), 
-("LU", "L-7537", "Rollingen"), 
-("LU", "L-8293", "Claushof"), 
-("LU", "L-8523", "Beckerich"), 
-("LU", "L-8526", "Colpach-Bas"), 
-("LU", "L-8813", "Bigonville"), 
-("LU", "L-7471", "Saeul"), 
-("LU", "L-8606", "Bettborn"), 
-("LU", "L-5414", "Canach"), 
-("LU", "L-5431", "Lenningen"), 
-("LU", "L-5628", "Mondorf-les-Bains"), 
-("LU", "L-5630", "Mondorf-les-Bains"), 
-("LU", "L-5441", "Remerschen"), 
-("LU", "L-5511", "Remich"), 
-("LU", "L-5571", "Remich"), 
-("LU", "L-9414", "Vianden"), 
-("LU", "L-9426", "Vianden"), 
-("LU", "L-9671", "Neunhausen"), 
-("LU", "L-9678", "Nothum"), 
-("LU", "L-9577", "Wiltz"), 
-("LU", "L-9578", "Wiltz"), 
-("LU", "L-4025", "Esch-sur-Alzette"), 
-("LU", "L-4123", "Esch-sur-Alzette"), 
-("LU", "L-2234", "Luxembourg"), 
-("LU", "L-2427", "Luxembourg"), 
-("LU", "L-2444", "Luxembourg"), 
-("LU", "L-2533", "Luxembourg"), 
-("LU", "L-2666", "Luxembourg"), 
-("LU", "L-2669", "Luxembourg"), 
-("LU", "L-2736", "Luxembourg"), 
-("LU", "L-2763", "Luxembourg"), 
-("LU", "L-7701", "Colmar-Berg"), 
-("LU", "L-7712", "Colmar-Berg"), 
-("LU", "L-7759", "Roost (Bissen)"), 
-("LU", "L-7766", "Bissen"), 
-("LU", "L-7783", "Bissen"), 
-("LU", "L-8710", "Boevange-sur-Attert"), 
-("LU", "L-6155", "Stuppicht"), 
-("LU", "L-7410", "Angelsberg"), 
-("LU", "L-7625", "Heffingen"), 
-("LU", "L-7618", "Larochette"), 
-("LU", "L-7371", "Helmdange"), 
-("LU", "L-7473", "Schoenfels"), 
-("LU", "L-7521", "Mersch"), 
-("LU", "L-7535", "Mersch"), 
-("LU", "L-7543", "Mersch"), 
-("LU", "L-7412", "Bour"), 
-("LU", "L-7480", "Tuntange"), 
-("LU", "L-8522", "Beckerich"), 
-("LU", "L-8539", "Huttange"), 
-("LU", "L-8506", "Redange/Attert"), 
-("LU", "L-9189", "Vichten"), 
-("LU", "L-5605", "Dalheim"), 
-("LU", "L-5430", "Lenningen"), 
-("LU", "L-5654", "Mondorf-les-Bains"), 
-("LU", "L-5656", "Mondorf-les-Bains"), 
-("LU", "L-5501", "Remich"), 
-("LU", "L-5540", "Remich"), 
-("LU", "L-5557", "Remich"), 
-("LU", "L-5576", "Remich"), 
-("LU", "L-5412", "Greiveldange"), 
-("LU", "L-5426", "Greiveldange"), 
-("LU", "L-5460", "Trintange"), 
-("LU", "L-9375", "Gralingen"), 
-("LU", "L-9633", "Boulaide"), 
-("LU", "L-9690", "Watrange"), 
-("LU", "L-9513", "Wiltz"), 
-("LU", "L-9522", "Wiltz"), 
-("LU", "L-9550", "Wiltz"), 
-("LU", "L-4971", "Bettange-sur-Mess"), 
-("LU", "L-4999", "Sprinkange"), 
-("LU", "L-8462", "Eischen"), 
-("LU", "L-8477", "Eischen"), 
-("LU", "L-8480", "Eischen"), 
-("LU", "L-8288", "Kehlen"), 
-("LU", "L-8119", "Bridel"), 
-("LU", "L-8131", "Bridel"), 
-("LU", "L-8254", "Mamer"), 
-("LU", "L-8308", "Capellen"), 
-("LU", "L-8334", "Capellen"), 
-("LU", "L-8443", "Steinfort"), 
-("LU", "L-4925", "Bascharage"), 
-("LU", "L-4935", "Hautcharage"), 
-("LU", "L-4938", "Bascharage"), 
-("LU", "L-9740", "Boevange"), 
-("LU", "L-9901", "Troisvierges"), 
-("LU", "L-9906", "Troisvierges"), 
-("LU", "L-9913", "Troisvierges"), 
-("LU", "L-9991", "Weiswampach"), 
-("LU", "L-9992", "Weiswampach"), 
-("LU", "L-9352", "Bettendorf"), 
-("LU", "L-9378", "Enteschbach"), 
-("LU", "L-9217", "Diekirch"), 
-("LU", "L-9055", "Ettelbruck"), 
-("LU", "L-9070", "Ettelbruck"), 
-("LU", "L-9118", "Schieren"), 
-("LU", "L-9125", "Schieren"), 
-("LU", "L-9129", "Schieren"), 
-("LU", "L-9134", "Schieren"), 
-("LU", "L-6225", "Altrier"), 
-("LU", "L-6402", "Echternach"), 
-("LU", "L-6434", "Echternach"), 
-("LU", "L-6447", "Echternach"), 
-("LU", "L-6472", "Echternach"), 
-("LU", "L-6559", "Girst"), 
-("LU", "L-3340", "Fennange"), 
-("LU", "L-3385", "Noertzange"), 
-("LU", "L-4508", "Differdange"), 
-("LU", "L-4511", "Differdange"), 
-("LU", "L-4573", "Differdange"), 
-("LU", "L-4603", "Differdange"), 
-("LU", "L-4634", "Differdange"), 
-("LU", "L-4672", "Oberkorn"), 
-("LU", "L-4684", "Differdange"), 
-("LU", "L-3402", "Dudelange"), 
-("LU", "L-3430", "Dudelange"), 
-("LU", "L-3481", "Dudelange"), 
-("LU", "L-3501", "Dudelange"), 
-("LU", "L-3544", "Dudelange"), 
-("LU", "L-3551", "Dudelange"), 
-("LU", "L-3566", "Dudelange"), 
-("LU", "L-3591", "Dudelange"), 
-("LU", "L-4007", "Esch-sur-Alzette"), 
-("LU", "L-4010", "Esch-sur-Alzette"), 
-("LU", "L-4016", "Esch-sur-Alzette"), 
-("LU", "L-4065", "Esch-sur-Alzette"), 
-("LU", "L-4175", "Esch-sur-Alzette"), 
-("LU", "L-4233", "Esch-sur-Alzette"), 
-("LU", "L-4306", "Esch-sur-Alzette"), 
-("LU", "L-3765", "Tétange"), 
-("LU", "L-3774", "Tétange"), 
-("LU", "L-3789", "Tétange"), 
-("LU", "L-3361", "Leudelange"), 
-("LU", "L-3934", "Mondercange"), 
-("LU", "L-3939", "Mondercange"), 
-("LU", "L-3943", "Mondercange"), 
-("LU", "L-4735", "Pétange"), 
-("LU", "L-4845", "Rodange"), 
-("LU", "L-4880", "Lamadelaine"), 
-("LU", "L-4889", "Lamadelaine"), 
-("LU", "L-4892", "Lamadelaine"), 
-("LU", "L-3389", "Peppange"), 
-("LU", "L-3739", "Rumelange"), 
-("LU", "L-4446", "Belvaux"), 
-("LU", "L-4466", "Soleuvre"), 
-("LU", "L-4474", "Belvaux"), 
-("LU", "L-3835", "Schifflange"), 
-("LU", "L-3871", "Schifflange"), 
-("LU", "L-6832", "Betzdorf"), 
-("LU", "L-6950", "Olingen"), 
-("LU", "L-6871", "Wecker"), 
-("LU", "L-6745", "Grevenmacher"), 
-("LU", "L-6135", "Junglinster"), 
-("LU", "L-6142", "Junglinster"), 
-("LU", "L-6185", "Gonderange"), 
-("LU", "L-6188", "Gonderange"), 
-("LU", "L-1467", "Howald"), 
-("LU", "L-6996", "Rameldange"), 
-("LU", "L-1319", "Findel"), 
-("LU", "L-1748", "Findel"), 
-("LU", "L-5232", "Sandweiler"), 
-("LU", "L-5237", "Sandweiler"), 
-("LU", "L-5241", "Sandweiler"), 
-("LU", "L-5366", "Munsbach"), 
-("LU", "L-7305", "Steinsel"), 
-("LU", "L-7338", "Heisdorf"), 
-("LU", "L-7349", "Heisdorf"), 
-("LU", "L-1019", "Strassen"), 
-("LU", "L-1525", "Strassen"), 
-("LU", "L-8026", "Strassen"), 
-("LU", "L-8070", "Strassen"), 
-("LU", "L-7220", "Walferdange"), 
-("LU", "L-7248", "Bereldange"), 
-("LU", "L-7255", "Helmsange"), 
-("LU", "L-1118", "Luxembourg"), 
-("LU", "L-1119", "Luxembourg"), 
-("LU", "L-1138", "Luxembourg"), 
-("LU", "L-1226", "Luxembourg"), 
-("LU", "L-1258", "Luxembourg"), 
-("LU", "L-1280", "Luxembourg"), 
-("LU", "L-1331", "Luxembourg"), 
-("LU", "L-1362", "Luxembourg"), 
-("LU", "L-1376", "Luxembourg"), 
-("LU", "L-1415", "Luxembourg"), 
-("LU", "L-1462", "Luxembourg"), 
-("LU", "L-1463", "Luxembourg"), 
-("LU", "L-1466", "Luxembourg"), 
-("LU", "L-1476", "Luxembourg"), 
-("LU", "L-1514", "Luxembourg"), 
-("LU", "L-1627", "Luxembourg"), 
-("LU", "L-1639", "Luxembourg"), 
-("LU", "L-1647", "Luxembourg"), 
-("LU", "L-1730", "Luxembourg"), 
-("LU", "L-1750", "Luxembourg"), 
-("LU", "L-1861", "Luxembourg"), 
-("LU", "L-1919", "Luxembourg");
+DELETE FROM orm_zip_code WHERE  `iso2` ="LU";
+
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8472', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8286', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8135', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8161', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8215', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8309', `location` = 'Holzem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8363', `location` = 'Greisch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8364', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8423', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4920', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4926', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4942', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4957', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9744', `location` = 'Deiffelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9768', `location` = 'Reuler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9807', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9202', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9288', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9291', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9012', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9119', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6380', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6551', `location` = 'Berdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6415', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6422', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6452', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6495', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6571', `location` = 'Osweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7680', `location` = 'Waldbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3201', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3269', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4503', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4583', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3446', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3462', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3472', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3531', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3565', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3568', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4059', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4118', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4132', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4170', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4171', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4256', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4272', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4280', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4316', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4332', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5723', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3615', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3638', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3677', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3682', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3354', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3372', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4391', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4741', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4742', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4878', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3712', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4372', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4462', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4476', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4479', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4483', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3853', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3856', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3875', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3876', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6725', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6726', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6762', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6118', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5488', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5856', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5885', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5887', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5887', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1245', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6946', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6980', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6995', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5234', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5254', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5361', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7336', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8025', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8099', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7241', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7258', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5770', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1221', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1277', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1283', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1337', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1356', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1361', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1472', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1551', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1615', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1648', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1914', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2163', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2179', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2230', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2262', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2335', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2348', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2519', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2526', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2564', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2620', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2623', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7793', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7653', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7357', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7533', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7568', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7420', `location` = 'Cruchten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8551', `location` = 'Noerdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8557', `location` = 'Petit-Nobressart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5353', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5613', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5514', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5517', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5427', `location` = 'Greiveldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9458', `location` = 'Brandenbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9407', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9417', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9423', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9501', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9534', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9557', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9579', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8352', `location` = 'Dahlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8479', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8384', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8118', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8146', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8166', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8242', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8246', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8255', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8278', `location` = 'Holzem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8311', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8398', `location` = 'Roodt/Eisch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8411', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4916', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4917', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4963', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9960', `location` = 'Hoffelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9711', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9766', `location` = 'Munshausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9912', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9376', `location` = 'Hoscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9163', `location` = 'Kehmen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9171', `location` = 'Michelau', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9215', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9232', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9235', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9259', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9286', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9002', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9052', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9057', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9085', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9180', `location` = 'Oberfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7758', `location` = 'Birtrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6211', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6250', `location` = 'Scheidgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6251', `location` = 'Scheidgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6421', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6579', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6587', `location` = 'Steinheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3210', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3218', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3232', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3288', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4510', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4525', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4531', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4591', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4609', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4620', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4642', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4646', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4678', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4687', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3417', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3433', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3449', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3515', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3549', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3564', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3596', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4037', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4040', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4154', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4156', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4211', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4289', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4370', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5712', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5755', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3601', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3643', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3761', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3763', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3366', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3896', `location` = 'Foetz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3921', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4713', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4730', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4757', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4823', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3753', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4444', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4480', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4487', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6835', `location` = 'Boudler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6774', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6184', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6632', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6684', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6687', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5417', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5481', `location` = 'Wormeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8057', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8060', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5352', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5823', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5838', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5884', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5886', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5886', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5891', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5960', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5974', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2434', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6970', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7304', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7314', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7321', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7329', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7332', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1370', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8002', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8017', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8038', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7215', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7220', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7242', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7245', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1151', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1159', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1244', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1354', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1359', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1416', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1450', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1524', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1544', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1633', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1636', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1743', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1820', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1837', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1916', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1934', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2124', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2162', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2167', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2221', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2243', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2270', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2271', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2527', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2531', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2612', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2681', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2720', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2725', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7730', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7750', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7784', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7673', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7620', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7633', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7358', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7463', `location` = 'Pettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7501', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7567', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8560', `location` = 'Roodt (Ell)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9190', `location` = 'Vichten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5610', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5670', `location` = 'Altwies', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5471', `location` = 'Wellenstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5535', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5450', `location` = 'Stadtbredimus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9462', `location` = 'Putscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9411', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9150', `location` = 'Eschdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9520', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9533', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9571', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9632', `location` = 'Alscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4975', `location` = 'Bettange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8274', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8321', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8394', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8241', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8268', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8451', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9761', `location` = 'Lentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9772', `location` = 'Troine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9709', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9756', `location` = 'Kaesfurt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9757', `location` = 'Kalborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9994', `location` = 'Weiswampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9210', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9224', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9227', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9234', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9237', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9255', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9283', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9063', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6255', `location` = 'Zittig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6431', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6480', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4524', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4545', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4648', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4649', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4668', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3428', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3443', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3465', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3469', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3493', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3502', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3510', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3546', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3569', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3570', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3582', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4009', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4038', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4044', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4048', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4086', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4113', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4114', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4134', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4209', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4318', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4322', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4330', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3656', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3658', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3674', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3680', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3770', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3782', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3787', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3941', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4394', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4395', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4719', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4720', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4752', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4755', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4760', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4763', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4771', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4820', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4832', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4894', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3394', `location` = 'Roeser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3717', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3737', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4419', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4451', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4986', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3819', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6922', `location` = 'Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6753', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6180', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6182', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6955', `location` = 'Rodenbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6611', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6630', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6674', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6678', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8005', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5335', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5809', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5812', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5825', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5833', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5958', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5962', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1709', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6976', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6987', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5213', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5233', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5239', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5290', `location` = 'Neuhaeusgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5364', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5365', `location` = 'Munsbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5381', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1210', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8024', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8042', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7202', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7218', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7264', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5761', `location` = 'Hassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1113', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1229', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1241', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1317', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1521', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1527', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1534', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1832', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1836', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1841', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1851', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1852', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1921', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1952', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2120', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2140', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2241', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2330', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2336', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2342', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2347', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2381', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2414', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2426', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2453', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2552', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2607', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2621', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2714', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2732', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2740', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7703', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7779', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7781', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7796', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7415', `location` = 'Brouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7626', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7354', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7424', `location` = 'Essingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7425', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7520', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7590', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5659', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9635', `location` = 'Bavigne', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9669', `location` = 'Mecher (Haute-Sûre)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9519', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9541', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8470', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8283', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8292', `location` = 'Meispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8323', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8332', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8306', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8357', `location` = 'Goeblange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8129', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8147', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8217', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8379', `location` = 'Kleinbettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8422', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8452', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4901', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4914', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4921', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4924', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9940', `location` = 'Asselborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9944', `location` = 'Beiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9835', `location` = 'Hoscheid-Dickt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9211', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9214', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9268', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9273', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9280', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9285', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9142', `location` = 'Burden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9172', `location` = 'Erpeldange-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9043', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9081', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6314', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6213', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6464', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6491', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6492', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6497', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6562', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6370', `location` = 'Haller', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3249', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3275', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3311', `location` = 'Abweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3384', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4515', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4622', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4691', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3414', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3488', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3552', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4027', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4063', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4139', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4141', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4242', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4243', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4334', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3676', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3767', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3781', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3318', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4390', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4739', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4761', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4822', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4838', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4881', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4893', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4908', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3755', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4429', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4449', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3880', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3883', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6917', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6925', `location` = 'Flaxweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6711', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6795', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6117', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6240', `location` = 'Graulinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6839', `location` = 'Lellig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6850', `location` = 'Manternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6651', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6672', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8061', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8078', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5322', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5331', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5337', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1232', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1867', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2319', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5843', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5868', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5953', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1670', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6940', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6941', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6977', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5218', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5362', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5375', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7323', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7334', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7347', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8030', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8098', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7201', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7212', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7230', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7231', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7239', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1114', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1134', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1218', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1222', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1256', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1273', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1276', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1478', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1499', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1632', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1652', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1653', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1735', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1918', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1940', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1944', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2168', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2181', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2242', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2308', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2417', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2451', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2516', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2542', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2567', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2616', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7716', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7723', `location` = 'Welsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7724', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7351', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7355', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7511', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7592', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7593', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8509', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8540', `location` = 'Eltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5627', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5403', `location` = 'Bech-Kleinmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5495', `location` = 'Wintrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5695', `location` = 'Emerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5532', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5553', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9359', `location` = 'Seltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9440', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9668', `location` = 'Masseler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9554', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9696', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4906', `location` = 'Dippach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4968', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8466', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8478', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8285', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8315', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8341', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8392', `location` = 'Nospelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8361', `location` = 'Goetzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8141', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8331', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8336', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8346', `location` = 'Grass', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4934', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4941', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4966', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9673', `location` = 'Oberwampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9999', `location` = 'Wemperhardt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Hoscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9183', `location` = 'Schlindermanderscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9208', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9160', `location` = 'Ingeldorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9172', `location` = 'Burden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9027', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9124', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7639', `location` = 'Blumenthal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6449', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6451', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6462', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6478', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6485', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6499', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3251', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3266', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4557', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4578', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4636', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4641', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4653', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3434', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3453', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3474', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3480', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3526', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3554', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3589', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4070', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4073', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4105', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4172', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4255', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4268', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4360', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3631', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3786', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3351', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3918', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3936', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3938', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4753', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4776', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4813', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4815', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4870', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3724', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3734', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3740', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4993', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3838', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6933', `location` = 'Mensdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6790', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6123', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6160', `location` = 'Bourglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6195', `location` = 'Imbringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6956', `location` = 'Rodenbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6831', `location` = 'Berbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5485', `location` = 'Wormeldange-Haut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8268', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5312', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5336', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5355', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1231', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1842', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5820', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5831', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5835', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5860', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5875', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5890', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5235', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5363', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7315', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7317', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8029', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8034', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8040', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8111', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8130', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7253', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1220', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1230', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1312', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1316', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1320', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1328', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1427', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1468', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1470', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1511', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1528', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1617', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1721', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1838', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1862', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1866', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1915', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1955', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2145', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2155', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2173', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2180', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2184', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2210', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2229', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2231', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2331', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2350', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2517', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2522', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2535', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2609', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2630', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2634', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2664', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2674', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2713', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7774', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7788', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7622', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7636', `location` = 'Ernzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7445', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7450', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7452', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7547', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7572', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8715', `location` = 'Everlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5730', `location` = 'Filsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5612', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5620', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5629', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5632', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5655', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5657', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5690', `location` = 'Ellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5693', `location` = 'Elvange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9660', `location` = 'Insenborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9665', `location` = 'Liefrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9518', `location` = 'Erpeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9542', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8370', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8185', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8295', `location` = 'Keispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8342', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8358', `location` = 'Goeblange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8359', `location` = 'Goeblange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8185', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8190', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8435', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4947', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9762', `location` = 'Lullange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9773', `location` = 'Troine-Route', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9701', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9715', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9911', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9952', `location` = 'Drinklange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9355', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9374', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9243', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9281', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9284', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9088', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9176', `location` = 'Niederfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9177', `location` = 'Niederfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9167', `location` = 'Mertzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9120', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9128', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6433', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6438', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6453', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6466', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3229', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3242', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3255', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4546', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4572', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3439', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3467', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3468', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3483', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3511', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3521', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3585', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4001', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4012', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4023', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4071', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4082', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4220', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4241', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4363', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3650', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3655', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3370', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4396', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4740', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4876', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3961', `location` = 'Ehlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4499', `location` = 'Limpach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3325', `location` = 'Berchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3711', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3729', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3751', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4409', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4428', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4463', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4984', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4991', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6912', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6915', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6833', `location` = 'Biwer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6870', `location` = 'Wecker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5424', `location` = 'Gostingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5433', `location` = 'Niederdonven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6721', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6752', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6785', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6141', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6149', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6614', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6840', `location` = 'Machtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6842', `location` = 'Machtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8062', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8093', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5830', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5839', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5859', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5876', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5941', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1239', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6960', `location` = 'Senningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5240', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1445', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8013', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8047', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1225', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1233', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1243', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1248', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1260', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1267', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1281', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1358', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1456', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1461', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1464', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1616', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1717', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1815', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1822', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1938', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2141', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2310', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2314', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2326', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2354', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2430', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2433', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2447', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2511', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2539', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2551', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2627', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2739', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7760', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7773', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7650', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7449', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7409', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7573', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7599', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8817', `location` = 'Eschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9144', `location` = 'Lehrhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8540', `location` = 'Ospern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8720', `location` = 'Rippweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8838', `location` = 'Wahl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5413', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5614', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5631', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5444', `location` = 'Schengen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5515', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5516', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5549', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5572', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9461', `location` = 'Nachtmanderscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9674', `location` = 'Nocher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9575', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2127', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2128', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2138', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2428', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2442', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2520', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2547', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2661', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7722', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7734', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7739', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7761', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7762', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7769', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7362', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7374', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7377', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7512', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7526', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8811', `location` = 'Bilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5443', `location` = 'Rolling', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5619', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5439', `location` = 'Remerschen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9451', `location` = 'Bettel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9409', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9637', `location` = 'Bockholtz (Goesdorf)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9662', `location` = 'Kaundorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9552', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9654', `location` = 'Gruemelscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4973', `location` = 'Dippach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8133', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8134', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8138', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8383', `location` = 'Septfontaines', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8381', `location` = 'Kleinbettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8410', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4960', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4979', `location` = 'Fingig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9968', `location` = 'Lausdorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Closdelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9330', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9147', `location` = 'Erpeldange-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9026', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9131', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6243', `location` = 'Hemstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6555', `location` = 'Bollendorf-Pont', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6201', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6408', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6437', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6460', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6474', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6665', `location` = 'Herborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6580', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3213', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3216', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3261', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3290', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3341', `location` = 'Huncherange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4509', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4539', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3516', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3572', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3588', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4002', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4019', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4026', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4119', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4138', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4169', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4204', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4205', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4249', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4260', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4307', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4343', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4353', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3333', `location` = 'Hellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3335', `location` = 'Hellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3651', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3781', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3345', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3369', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3374', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3916', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3932', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4393', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4715', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4779', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4781', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4811', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3327', `location` = 'Crauthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3328', `location` = 'Crauthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3329', `location` = 'Crauthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4381', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4424', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4459', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4481', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4486', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4990', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3821', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3833', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3843', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3862', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6735', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6736', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6792', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6150', `location` = 'Altlinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6171', `location` = 'Godbrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6669', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8063', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8070', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8077', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8083', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8088', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8117', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5320', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5840', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5942', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6971', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5368', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5377', `location` = 'Uebersyren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7309', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8044', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1112', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1133', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1148', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1262', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1309', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1310', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1343', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1375', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1490', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1546', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1727', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1732', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1740', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1913', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1933', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1941', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2114', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8372', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8375', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8290', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8121', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8143', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8153', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8212', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8218', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8259', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8269', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8317', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8348', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8363', `location` = 'Leesbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8368', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8412', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4946', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4948', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9754', `location` = 'Hinterhassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9903', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9954', `location` = 'Goedange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9968', `location` = 'Hollermühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9145', `location` = 'Erpeldange-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9003', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9014', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9031', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9032', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9064', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9090', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9390', `location` = 'Reisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9456', `location` = 'Hoesdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7738', `location` = 'Colmar-Pont', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9116', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9130', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6380', `location` = 'Ermsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9366', `location` = 'Ermsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6590', `location` = 'Weilerbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6435', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6476', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6490', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6494', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6231', `location` = 'Lilien', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6558', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3215', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3221', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3273', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3278', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3282', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4522', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4575', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4627', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4638', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4639', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4656', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4662', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4683', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4697', `location` = 'Lasauvage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3413', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3420', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3423', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3448', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3514', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3522', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3555', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4005', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4021', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4039', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4041', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4062', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4103', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4107', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4111', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4303', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4326', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3334', `location` = 'Hellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3336', `location` = 'Hellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5701', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5717', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5752', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3635', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3654', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4734', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4842', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4877', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3393', `location` = 'Roedgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1896', `location` = 'Kockelscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3743', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4411', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4427', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4432', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4441', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4468', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3864', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6934', `location` = 'Mensdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6712', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6744', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6772', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6778', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6120', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6187', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6637', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8075', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8080', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8086', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5351', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1363', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1749', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5853', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5869', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5961', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5972', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5973', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1638', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6939', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6944', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6962', `location` = 'Senningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5244', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7326', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8073', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7225', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7236', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1128', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1145', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1213', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1247', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1327', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1330', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1336', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1345', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1429', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1449', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1459', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1482', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1535', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1635', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1710', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1821', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1874', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1920', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1936', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2121', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2153', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2265', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2266', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2337', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2435', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2521', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2550', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2558', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2608', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2671', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2718', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2741', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7740', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7772', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6155', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7441', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7372', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7373', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7410', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7570', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8824', `location` = 'Perlé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8825', `location` = 'Perlé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8818', `location` = 'Grevels (Grosbous)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9173', `location` = 'Vichten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5408', `location` = 'Bous', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5601', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5616', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5650', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5559', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9401', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9521', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9523', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9539', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4994', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8471', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8293', `location` = 'Keispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8339', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8340', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8264', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8266', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8272', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8441', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4797', `location` = 'Linger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4910', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4947', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4953', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9758', `location` = 'Tintesmühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9763', `location` = 'Marnach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9240', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9079', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9093', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6380', `location` = 'Savelborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6316', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6246', `location` = 'Rippig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6360', `location` = 'Grundhof (Berdorf)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6238', `location` = 'Breidweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6432', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6441', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6486', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3233', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3265', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3380', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3386', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4592', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4629', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4657', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4669', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4680', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3425', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3445', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3561', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3594', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4004', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4030', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4045', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4100', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4120', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4143', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4207', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4237', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4266', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4310', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4335', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5718', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5721', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3764', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3790', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3346', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3352', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4702', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4722', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4736', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4774', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4810', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4853', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4882', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4888', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3716', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4416', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4467', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3814', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3815', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6868', `location` = 'Wecker-Gare', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6926', `location` = 'Flaxweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6716', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6751', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6783', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6650', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6673', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6677', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8052', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8068', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5333', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2112', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2425', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5814', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5822', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5824', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5864', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5893', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6945', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5217', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7317', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7343', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2510', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8001', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7224', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7244', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5774', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1142', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1211', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1219', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1224', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1235', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1240', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1253', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1335', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1371', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1373', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1430', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1481', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1536', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1545', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1621', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1644', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1731', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1817', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1831', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1854', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1872', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1881', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2144', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2172', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2176', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2338', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2359', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2424', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2540', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2617', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2652', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7433', `location` = 'Grevenknapp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7624', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7350', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7513', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7559', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8821', `location` = 'Koetschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8511', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8561', `location` = 'Schwebach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8614', `location` = 'Reimberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5638', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5691', `location` = 'Ellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5675', `location` = 'Burmerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5512', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5531', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5548', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9158', `location` = 'Heiderscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9556', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9573', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4970', `location` = 'Bettange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4976', `location` = 'Bettange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8205', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8388', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8126', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8132', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8179', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8221', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8253', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4911', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4931', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4945', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9641', `location` = 'Brachtenbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9976', `location` = 'Sassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9907', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9948', `location` = 'Biwisch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9950', `location` = 'Breidfeld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9377', `location` = 'Hoscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9801', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9245', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9010', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9094', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9175', `location` = 'Niederfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6311', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6420', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6443', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6483', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6572', `location` = 'Osweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6583', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6245', `location` = 'Mullerthal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3208', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3211', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3256', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3259', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4506', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4596', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4630', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4663', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3403', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3486', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3489', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4003', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4053', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4066', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4164', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4177', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4179', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4206', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4234', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4247', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4341', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5756', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3640', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3895', `location` = 'Foetz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4718', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4873', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3321', `location` = 'Berchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3397', `location` = 'Roeser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3726', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4464', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4465', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4482', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3872', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6913', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6921', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5410', `location` = 'Beyren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6183', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6197', `location` = 'Eisenborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8011', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8059', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8066', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1216', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1813', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1748', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6948', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6975', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6996', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5371', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7303', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8012', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8032', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8045', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7213', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7228', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7229', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7238', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7262', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1123', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1153', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1250', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1326', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1346', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1348', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1351', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1431', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1519', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1746', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1754', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1833', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1864', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1871', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1899', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1911', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1912', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1939', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2117', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2166', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2232', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2269', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2328', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2346', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2568', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2614', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2717', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2734', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2762', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8711', `location` = 'Boevange-sur-Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7625', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7443', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7457', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7364', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7375', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7382', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7502', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7543', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7558', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7562', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7598', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7481', `location` = 'Tuntange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8562', `location` = 'Schweich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8806', `location` = 'Rambrouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8809', `location` = 'Arsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8823', `location` = 'Haut-Martelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8510', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8705', `location` = 'Useldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8822', `location` = 'Kuborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8613', `location` = 'Pratz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5682', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5687', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5898', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5651', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5652', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5671', `location` = 'Altwies', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5539', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5550', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5575', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9361', `location` = 'Brandenbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9395', `location` = 'Tandel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9406', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9181', `location` = 'Ringel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9759', `location` = 'Knaphoscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9767', `location` = 'Pintsch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4997', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8371', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8460', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8469', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8474', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8475', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8393', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8386', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8139', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8165', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8214', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8239', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8245', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8262', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8345', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8365', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8401', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8421', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8436', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8448', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4958', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9741', `location` = 'Boxhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9183', `location` = 'Oberschlinder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9834', `location` = 'Holzthum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9353', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9371', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9212', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9218', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9220', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9242', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9292', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9001', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9013', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9029', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9083', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9179', `location` = 'Oberfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9127', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7633', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6315', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6212', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6239', `location` = 'Colbette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6445', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6446', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6465', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6477', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6557', `location` = 'Dickweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7640', `location` = 'Christnach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7649', `location` = 'Freckeisen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4520', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4631', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4667', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4671', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4681', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4683', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4692', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4698', `location` = 'Lasauvage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3450', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3539', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4011', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4014', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4017', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4031', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4058', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4085', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4155', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4176', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4180', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4240', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4254', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4277', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4319', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4336', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4345', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4374', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5722', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3621', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3313', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3314', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3901', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3925', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4775', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4814', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3330', `location` = 'Crauthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3396', `location` = 'Roeser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4380', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4420', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4480', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4491', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4985', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3841', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4149', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6951', `location` = 'Olingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6837', `location` = 'Brouch (Wecker)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6755', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6759', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6773', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6132', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6235', `location` = 'Beidweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6649', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5401', `location` = 'Ahn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5416', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8051', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8058', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8082', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5314', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1228', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1625', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5855', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5885', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5975', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2443', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2513', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5211', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5250', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5252', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5380', `location` = 'Uebersyren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2409', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8027', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7223', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7226', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7232', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7240', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5775', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1129', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1238', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1314', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1322', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1372', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1454', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1541', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1550', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1715', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2123', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2224', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2226', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2422', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2445', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2532', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2553', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2628', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7721', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7727', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7794', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7610', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7379', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7392', `location` = 'Asselscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7525', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7560', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7759', `location` = 'Essingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8531', `location` = 'Ell', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8546', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8508', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8707', `location` = 'Useldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9173', `location` = 'Michelbouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5686', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5635', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5404', `location` = 'Bech-Kleinmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5440', `location` = 'Remerschen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5554', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5570', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5429', `location` = 'Huettermuehle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5451', `location` = 'Stadtbredimus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5442', `location` = 'Roedt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9516', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9517', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9537', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8354', `location` = 'Garnich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8373', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8317', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8120', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8154', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8156', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8186', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8213', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8222', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8228', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8250', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8313', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8363', `location` = 'Simmerfarm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8347', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8414', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8450', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4929', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4956', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9672', `location` = 'Niederwampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9749', `location` = 'Fischbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9755', `location` = 'Hupperdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9140', `location` = 'Bourscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9229', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9230', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9233', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9241', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9260', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9099', `location` = 'Ingeldorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9146', `location` = 'Erpeldange-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9011', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9054', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9087', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6311', `location` = 'Reisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9122', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6231', `location` = 'Bech', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6251', `location` = 'Geyershof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6562', `location` = 'Berdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6210', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6423', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6484', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3220', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3260', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4514', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4548', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4549', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4554', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4556', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4574', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4686', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3426', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3451', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3543', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3567', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4072', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4110', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4125', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4253', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4309', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4340', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4346', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3337', `location` = 'Hellange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5751', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3681', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4710', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4770', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4780', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4806', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4886', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3320', `location` = 'Berchem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3718', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3730', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3741', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4461', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3811', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3836', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3857', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6901', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6724', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6763', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6791', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6134', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6147', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6851', `location` = 'Manternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6615', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6655', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6683', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5313', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1223', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1350', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2317', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5819', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5834', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5863', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5874', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5894', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5895', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6991', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1523', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5214', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7308', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7312', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7319', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1483', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2361', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8011', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8031', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8049', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7256', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1115', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1121', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1263', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1323', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1426', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1475', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1532', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1553', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1631', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1643', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1714', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1734', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1839', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2130', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2135', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2137', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2143', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2146', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2152', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2169', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2263', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2351', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2353', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2413', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2653', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2711', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7767', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7418', `location` = 'Buschdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7475', `location` = 'Schoos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7440', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7380', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7531', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8533', `location` = 'Elvange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8537', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8826', `location` = 'Perlé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8831', `location` = 'Rindschleiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5626', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5636', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5639', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5658', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5422', `location` = 'Bech-Kleinmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5446', `location` = 'Schengen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5519', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5523', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5560', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5573', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9453', `location` = 'Bivels', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9639', `location` = 'Boulaide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9640', `location` = 'Boulaide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9696', `location` = 'Winseler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4977', `location` = 'Bettange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8369', `location` = 'Hivange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8473', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8287', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8324', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8390', `location` = 'Nospelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8387', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8127', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8157', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8219', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8220', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8231', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8233', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8243', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8318', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8415', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4902', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4908', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4933', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4940', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4961', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9780', `location` = 'Wincrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9905', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9808', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9831', `location` = 'Consthum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9164', `location` = 'Bourscheid-Moulin', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9203', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9205', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9266', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9019', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9030', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9048', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9060', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9117', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9184', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6350', `location` = 'Dillingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6252', `location` = 'Wolper', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6417', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3238', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3240', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3274', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3340', `location` = 'Huncherange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3382', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4593', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4626', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4660', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4665', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4676', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3464', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3553', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4033', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4047', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4067', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4213', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4222', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4250', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4301', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4317', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3620', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3657', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3672', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3762', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3773', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3897', `location` = 'Foetz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4786', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4809', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4846', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1898', `location` = 'Kockelscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1899', `location` = 'Kockelscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3701', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3731', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3733', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4370', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4385', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4422', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4436', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4447', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3826', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3870', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6910', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6914', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6930', `location` = 'Mensdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6718', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6723', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6101', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6115', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6116', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6196', `location` = 'Eisenborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6622', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6645', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5482', `location` = 'Wormeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8072', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8091', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8092', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5811', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5828', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5896', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5970', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5971', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5977', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6943', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6970', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6999', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5299', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5370', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5373', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7318', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8097', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7250', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7251', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7257', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5773', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1117', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1147', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1152', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1234', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1272', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1278', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1325', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1432', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1460', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1520', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1624', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1661', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1747', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1811', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1882', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1917', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2111', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2156', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2211', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2324', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2423', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2441', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2454', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2543', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2613', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2624', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7795', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7425', `location` = 'Finsterthal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7635', `location` = 'Ernzen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7518', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7523', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7564', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7591', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7482', `location` = 'Tuntange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5685', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5698', `location` = 'Welfrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5602', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5470', `location` = 'Wellenstein', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5513', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5538', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5552', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5556', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5465', `location` = 'Waldbredimus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9350', `location` = 'Bastendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9455', `location` = 'Fouhren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9420', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9650', `location` = 'Esch-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9666', `location` = 'Lultzhausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9653', `location` = 'Goesdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2158', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2159', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2161', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2174', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2223', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2329', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2380', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2419', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2448', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2449', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2455', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2528', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2541', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2548', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2549', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2554', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2629', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2663', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2722', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2733', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2761', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7714', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7737', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7741', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7763', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7770', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7432', `location` = 'Gosseldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7444', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7376', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7381', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7565', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8527', `location` = 'Colpach-Bas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9188', `location` = 'Vichten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8818', `location` = 'Grevels', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5680', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5741', `location` = 'Filsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5518', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5423', `location` = 'Ersange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9459', `location` = 'Longsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9643', `location` = 'Buederscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9776', `location` = 'Wilwerwiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8280', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8319', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8150', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8252', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8310', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8325', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8363', `location` = 'Simmerschmelz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8396', `location` = 'Septfontaines', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8362', `location` = 'Grass', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8389', `location` = 'Grass', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4937', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4943', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4952', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9713', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9805', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9373', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9206', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9290', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Erpeldange-sur-Sûre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9024', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9040', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9046', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9169', `location` = 'Mertzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7660', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6239', `location` = 'Marscherwald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6439', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6450', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6455', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6487', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6496', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6660', `location` = 'Born', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6581', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3235', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3272', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3279', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3280', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3284', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4536', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4540', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4550', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4555', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4640', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4650', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4689', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3424', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3444', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3460', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3473', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3524', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3532', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3563', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3590', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4006', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4049', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4102', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4122', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4126', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4208', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4216', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4217', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4238', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4262', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4270', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4305', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4362', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5714', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3671', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3673', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3347', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3368', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3373', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3315', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3930', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4398', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4714', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4744', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4756', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4819', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4891', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3960', `location` = 'Ehlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4475', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6931', `location` = 'Mensdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6750', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6140', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6631', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8050', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8074', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5318', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1274', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1423', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2412', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2416', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5826', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5862', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5865', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1646', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6992', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5360', `location` = 'Schrassig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7348', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8039', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8041', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7243', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5760', `location` = 'Hassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1150', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1318', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1324', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1355', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1419', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1538', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1548', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1610', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1623', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1719', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1860', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1922', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1929', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4998', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8350', `location` = 'Garnich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7423', `location` = 'Dondelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8289', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8183', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8210', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8216', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8223', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8226', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8271', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8320', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4919', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4927', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4951', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9908', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9910', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9981', `location` = 'Wilwerdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9970', `location` = 'Leithum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9806', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9369', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9164', `location` = 'Lipperscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9172', `location` = 'Michelau', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9041', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9067', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9084', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9098', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9045', `location` = 'Niederfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9364', `location` = 'Keiwelbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6310', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6430', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6440', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3253', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4512', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4581', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4597', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4610', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4611', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4645', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3427', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3463', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3466', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3492', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3520', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3541', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3560', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3583', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4036', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4050', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4060', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4174', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4244', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4308', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4331', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4348', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4366', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3636', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3679', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3768', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3362', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3365', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3924', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3945', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4804', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4818', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4826', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4833', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4847', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3391', `location` = 'Peppange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3710', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3727', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4367', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4405', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4439', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3831', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3859', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3863', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6918', `location` = 'Mensdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6923', `location` = 'Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6838', `location` = 'Hagelsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6770', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6771', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6784', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6794', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6124', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6130', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6169', `location` = 'Eschweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6621', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6634', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8065', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8087', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5340', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1949', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2370', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5866', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5871', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5873', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2315', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2633', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6973', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6979', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6982', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5243', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7324', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8009', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8037', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8056', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8112', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7268', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7269', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5899', `location` = 'Syren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1144', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1160', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1249', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1334', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1340', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1341', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1349', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1365', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1367', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1465', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1547', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1613', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1619', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1626', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1650', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1656', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1712', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1753', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2116', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2131', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2183', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2322', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2344', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2415', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2431', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2530', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2559', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2565', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2635', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2637', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2716', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2719', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2721', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2726', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2731', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7785', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7791', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6175', `location` = 'Schiltzberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7639', `location` = 'Reuland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7448', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7455', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7396', `location` = 'Hunsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7463', `location` = 'Moesdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7536', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7542', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7557', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7431', `location` = 'Niederglabach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8538', `location` = 'Hovelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5407', `location` = 'Bous', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5422', `location` = 'Erpeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9360', `location` = 'Brandenbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Këppenhaff', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9408', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9412', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9151', `location` = 'Eschdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9156', `location` = 'Heiderscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9153', `location` = 'Dirbach (Goesdorf)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9656', `location` = 'Harlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9531', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9560', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8374', `location` = 'Hobscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8316', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8327', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8191', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8224', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8247', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4923', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4939', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4965', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9737', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9775', `location` = 'Weicherdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9830', `location` = 'Bockholtz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9841', `location` = 'Wahlhausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9221', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9153', `location` = 'Dirbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9164', `location` = 'Bourscheid-Plage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9182', `location` = 'Scheidel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9340', `location` = 'Flebour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9221', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9236', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9239', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9251', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9289', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9056', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9068', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9071', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9072', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9168', `location` = 'Mertzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7663', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6225', `location` = 'Hersberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6230', `location` = 'Bech', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6442', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6467', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6488', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6661', `location` = 'Born', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3209', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3222', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3231', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3332', `location` = 'Fennange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4532', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4547', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4565', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4577', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4599', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4623', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4635', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4647', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4685', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3409', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3470', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3471', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3571', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3593', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4018', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4035', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4081', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4106', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4109', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4135', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4210', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4231', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4302', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4365', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3660', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3358', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3316', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3910', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3911', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3929', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3931', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3937', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4707', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4731', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4732', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4737', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4801', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4834', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4883', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4368', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4413', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4440', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4484', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3817', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3834', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6754', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6764', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6775', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6858', `location` = 'Münschecker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6685', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8054', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2129', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5810', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5832', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5889', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5940', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6969', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6981', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2410', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8016', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7219', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7234', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7246', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7270', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1111', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1141', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1266', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1270', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1370', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1418', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1420', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1453', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1474', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1634', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1645', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1649', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1651', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1745', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1873', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1925', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1943', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2118', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2149', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2150', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2157', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2165', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2215', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2233', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2323', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2332', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2340', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2343', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2410', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2544', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2563', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7735', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7790', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7453', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7566', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9184', `location` = 'Schrondweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8812', `location` = 'Flatzbour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8558', `location` = 'Reichlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8525', `location` = 'Calmus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8701', `location` = 'Useldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8706', `location` = 'Useldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8708', `location` = 'Useldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8818', `location` = 'Wahl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8612', `location` = 'Pratz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5615', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5618', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5633', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5653', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5692', `location` = 'Elvange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5537', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9359', `location` = 'Bastendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9466', `location` = 'Weiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9687', `location` = 'Surré', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9502', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9545', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9674', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9663', `location` = 'Kautenbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4996', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8294', `location` = 'Keispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8399', `location` = 'Windhof (Koerich)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8180', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8244', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8249', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8270', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8277', `location` = 'Holzem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8279', `location` = 'Holzem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4907', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4913', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9752', `location` = 'Hamiville', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9982', `location` = 'Weiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9712', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9714', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9980', `location` = 'Wilwerdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9810', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9359', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9382', `location` = 'Moestroff', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9153', `location` = 'Goebelsmühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9225', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9244', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9252', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9282', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9020', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9166', `location` = 'Mertzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9123', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7661', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6225', `location` = 'Kobenbour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6550', `location` = 'Berdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6419', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6463', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6471', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6663', `location` = 'Boursdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6666', `location` = 'Givenich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6558', `location` = 'Girsterklaus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7681', `location` = 'Waldbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3254', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3383', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4516', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4517', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4518', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4521', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4530', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4534', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4535', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4540', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4601', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4679', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4687', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3440', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3504', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3525', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3592', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4051', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4055', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4088', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4108', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4137', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4152', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4167', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4168', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4202', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4245', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4364', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3637', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3776', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3355', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3317', `location` = 'Bergem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4712', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4777', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4778', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4807', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4850', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4887', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4890', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3392', `location` = 'Roedgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3714', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3728', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3752', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4406', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4415', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4417', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4443', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4488', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3830', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3832', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3837', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3860', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3877', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3882', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6880', `location` = 'Weydig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5435', `location` = 'Oberdonven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6730', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6739', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6758', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6779', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6786', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6111', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6162', `location` = 'Bourglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6181', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6620', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6676', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6680', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6688', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5480', `location` = 'Wormeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8041', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8071', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8081', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8094', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5310', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1455', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5829', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5867', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5872', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5890', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6165', `location` = 'Ernster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6942', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6974', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6997', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5219', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5221', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5256', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5291', `location` = 'Neuhaeusgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5372', `location` = 'Munsbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5378', `location` = 'Uebersyren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7313', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7340', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7341', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8110', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7209', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7227', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7254', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1161', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1271', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1282', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1319', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1338', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1531', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1622', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1720', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1733', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1744', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1845', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1858', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1859', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1868', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1923', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1928', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1947', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2113', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2115', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2151', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2160', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2318', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2436', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2450', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2538', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2555', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2636', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2680', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2724', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7715', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7786', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7601', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7613', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7615', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7360', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7374', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7392', `location` = 'Blaschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7415', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7540', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7431', `location` = 'Oberglabach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8550', `location` = 'Noerdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8812', `location` = 'Bigonville-Poteau', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8507', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7470', `location` = 'Saeul', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8610', `location` = 'Buschrodt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5421', `location` = 'Erpeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5611', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5536', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5555', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9463', `location` = 'Stolzembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9419', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9422', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9633', `location` = 'Baschleiden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9514', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9676', `location` = 'Noertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8351', `location` = 'Dahlem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8281', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8284', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8291', `location` = 'Meispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8338', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8227', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8258', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8267', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8301', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8367', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4945', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4969', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4978', `location` = 'Fingig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9738', `location` = 'Eselborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9765', `location` = 'Wirtgensmühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9962', `location` = 'Holler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9968', `location` = 'Kleemühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9990', `location` = 'Weiswampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9201', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9216', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9226', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9279', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9050', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9091', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9115', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7634', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6552', `location` = 'Berdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6250', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6409', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6411', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6469', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6690', `location` = 'Moersdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7634', `location` = 'Waldbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3214', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3250', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3270', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3277', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4571', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4576', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4602', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4621', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4670', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3461', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3509', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3517', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3548', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4235', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4265', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4279', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4314', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4333', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4344', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4369', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3644', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3772', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3349', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3350', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3353', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3359', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3360', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3375', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3927', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4738', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4754', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4784', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4830', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4885', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3715', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3719', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3721', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4410', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4430', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4477', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4493', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3812', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3816', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3823', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3850', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6916', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5425', `location` = 'Gostingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6765', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6782', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6112', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6136', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6189', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6638', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5483', `location` = 'Wormeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5489', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8069', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8079', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5328', `location` = 'Medingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5334', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5813', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5892', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2170', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6947', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1751', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5236', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5359', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7305', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8048', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7260', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1236', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1264', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1269', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1329', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1344', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1364', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1421', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1452', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1510', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1516', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1526', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1530', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1537', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1552', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1630', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1642', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1812', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1846', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1927', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1935', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2122', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2148', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2171', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2212', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2411', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2536', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2611', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2715', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7711', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7713', `location` = 'Welsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7771', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7778', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7787', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7619', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7621', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7447', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7373', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7383', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7384', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7527', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7545', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7554', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7597', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8552', `location` = 'Oberpallen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8805', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8805', `location` = 'Rambrouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8819', `location` = 'Heispelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5412', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5637', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5445', `location` = 'Schengen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5551', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9452', `location` = 'Bettel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9457', `location` = 'Landscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9418', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9425', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9674', `location` = 'Nocher-Route', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9544', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9549', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9555', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9570', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9572', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9576', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9760', `location` = 'Lellingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8343', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8391', `location` = 'Nospelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8151', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8265', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8314', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8444', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8449', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4915', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4954', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4967', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9956', `location` = 'Hachiville', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9840', `location` = 'Siebenaler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9972', `location` = 'Lieler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9372', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Flebour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9238', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9249', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9277', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9018', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9044', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9082', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9137', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6470', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6473', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6695', `location` = 'Mompach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6570', `location` = 'Osweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3224', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4570', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4582', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4594', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4598', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4604', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4612', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4613', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4625', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3419', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3435', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3447', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3475', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3550', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4054', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4084', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4178', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4261', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4278', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4304', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4324', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4327', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4359', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3653', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3348', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3356', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3944', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4744', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4750', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4762', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3980', `location` = 'Wickrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1897', `location` = 'Kockelscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3390', `location` = 'Peppange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4452', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3801', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3818', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3840', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3852', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3855', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3879', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6869', `location` = 'Wecker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6715', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6719', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6781', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6145', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6186', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6648', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6693', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5432', `location` = 'Kapenacker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6841', `location` = 'Machtum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8090', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8095', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8096', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5324', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5326', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5330', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1816', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5816', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5817', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5826', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5880', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5943', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6905', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5216', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5220', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5238', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5374', `location` = 'Munsbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5376', `location` = 'Uebersyren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7302', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7307', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7344', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8018', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7210', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7259', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1116', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1132', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1215', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1251', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1275', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1352', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1411', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1434', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1451', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1471', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1518', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1539', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1542', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1628', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1637', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1737', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1739', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1752', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1835', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1850', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1951', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2164', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2182', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2214', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2261', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2452', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2512', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2518', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2537', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2556', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2560', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2730', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7792', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7446', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7514', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7532', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7534', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7538', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7539', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8814', `location` = 'Bigonville', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8544', `location` = 'Nagem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8541', `location` = 'Kapweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5402', `location` = 'Assel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5421', `location` = 'Welfrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5411', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5521', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5530', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5558', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5574', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5466', `location` = 'Waldbredimus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9464', `location` = 'Stolzembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9415', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9144', `location` = 'Hierheck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9659', `location` = 'Heiderscheidergrund', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9515', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9532', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9538', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9559', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9648', `location` = 'Erpeldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9647', `location` = 'Sonlez', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9670', `location` = 'Merkholtz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4970', `location` = 'Sprinkange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4995', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4998', `location` = 'Sprinkange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8376', `location` = 'Kahler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8465', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8467', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8333', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8123', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8184', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8232', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8237', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8240', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8303', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8337', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8437', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8447', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4922', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4962', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9684', `location` = 'Schimpach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9759', `location` = 'Kirelshof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9765', `location` = 'Kaaspelterhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9769', `location` = 'Roder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9942', `location` = 'Basbellain', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9993', `location` = 'Weiswampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9809', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9833', `location` = 'Dorscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9354', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9278', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9042', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9047', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9092', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6312', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6360', `location` = 'Grundhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6401', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6410', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6454', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6479', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6582', `location` = 'Rosport', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6380', `location` = 'Savelborn (Waldbillig)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7634', `location` = 'Haller', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3243', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3283', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4501', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4507', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4542', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4601', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4644', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4661', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4666', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3418', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3429', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3540', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3575', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4046', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4057', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4140', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4150', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4236', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4251', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4271', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3614', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3670', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3678', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3919', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3928', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4392', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4709', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4716', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4759', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4772', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4773', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4812', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4879', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4982', `location` = 'Reckange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3713', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3722', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3744', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4426', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4431', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4433', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4435', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4453', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4469', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4492', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3825', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3874', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6722', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6731', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6732', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6733', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6757', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6761', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6119', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6121', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6129', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6131', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6190', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6610', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6613', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6636', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6681', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6689', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8053', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8076', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5331', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1508', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2529', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2545', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2727', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5950', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6972', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6985', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6989', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2220', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7306', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7320', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7330', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7335', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8035', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7216', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7233', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7249', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1120', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1124', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1135', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1214', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1217', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1246', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1265', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1369', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1409', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1513', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1522', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1529', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1549', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1713', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1840', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1853', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2175', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2240', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2267', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2309', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2327', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2349', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2352', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2429', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2615', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2729', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7726', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7425', `location` = 'Bill', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7425', `location` = 'Openthalt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6155', `location` = 'Weyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7451', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7356', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7356', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7464', `location` = 'Moesdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7515', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7555', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7571', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8521', `location` = 'Beckerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8611', `location` = 'Platen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5640', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5447', `location` = 'Schwebsingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5520', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5522', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5561', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9351', `location` = 'Bastendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9405', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9410', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9181', `location` = 'Tadler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9644', `location` = 'Dahl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9512', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9565', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9638', `location` = 'Pommerloch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4994', `location` = 'Sprinkange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8353', `location` = 'Garnich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8295', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8149', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8234', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8326', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8395', `location` = 'Septfontaines', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8366', `location` = 'Hagen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8420', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4912', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4918', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4928', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4932', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4949', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4950', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4955', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9974', `location` = 'Maulusmühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9779', `location` = 'Eselborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9836', `location` = 'Hosingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9357', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9254', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9370', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9147', `location` = 'Ingeldorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9016', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9022', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9025', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9061', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9062', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6340', `location` = 'Bigelbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9391', `location` = 'Reisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9368', `location` = 'Folkendange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6482', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6691', `location` = 'Moersdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3271', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4529', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4552', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4563', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4605', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4606', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4690', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3401', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3431', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3441', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3452', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3482', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3490', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3505', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3530', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3584', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4061', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4064', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4121', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4149', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4165', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4248', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4264', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4275', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4283', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4321', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4328', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4337', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4349', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5719', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5730', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5753', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5754', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3914', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3917', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3933', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3940', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4706', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4721', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4758', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4783', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4875', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3322', `location` = 'Bivange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3324', `location` = 'Bivange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3735', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3750', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4475', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4485', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3810', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3858', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3878', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3884', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6760', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6619', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6623', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6671', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6675', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6686', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5418', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5317', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2610', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5841', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5852', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5854', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5870', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5952', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5955', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6906', `location` = 'Niederanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6978', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6990', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6998', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2632', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7342', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7345', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8008', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8014', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8021', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8028', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7221', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1143', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1146', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1255', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1279', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1321', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1342', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1374', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1417', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1424', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1620', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1629', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1711', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1718', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1742', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1855', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1857', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1880', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1937', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2125', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2134', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2154', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2177', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2268', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2355', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2420', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7782', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7416', `location` = 'Brouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7634', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7652', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7352', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7353', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7392', `location` = 'Klingelscheuer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7397', `location` = 'Hunsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7524', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7541', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8832', `location` = 'Rombach-Martelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8545', `location` = 'Niederpallen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8620', `location` = 'Schandel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9465', `location` = 'Walsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9157', `location` = 'Heiderscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9660', `location` = 'Bonnal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9657', `location` = 'Harlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9530', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9558', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9682', `location` = 'Selscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8312', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8360', `location` = 'Goetzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8124', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8142', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8160', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8187', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8209', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8211', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8251', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8260', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8273', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8380', `location` = 'Kleinbettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8445', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4940', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9751', `location` = 'Grindhausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9753', `location` = 'Heinerscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9968', `location` = 'Fossenhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9943', `location` = 'Hautbellain', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9946', `location` = 'Binsfeld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9837', `location` = 'Neidhausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9381', `location` = 'Moestroff', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9183', `location` = 'Friedbusch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9209', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9262', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9267', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9275', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9276', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9287', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9161', `location` = 'Ingeldorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9045', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9065', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9066', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9186', `location` = 'Stegen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9365', `location` = 'Eppeldorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6214', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6414', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6448', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6481', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7641', `location` = 'Christnach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3225', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3236', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4513', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4528', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4538', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4551', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4553', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4558', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4560', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4607', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4633', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4643', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4654', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4677', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4693', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3422', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3432', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3507', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3597', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4020', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4024', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4074', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4080', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4083', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4133', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4221', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4263', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4267', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4323', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4347', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4352', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3788', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3363', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3367', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3371', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3377', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3898', `location` = 'Foetz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3912', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3935', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4717', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4751', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4871', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4895', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3378', `location` = 'Livange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3725', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3738', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4401', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4414', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4418', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4442', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4471', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4472', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4987', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3813', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5434', `location` = 'Niederdonven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6738', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6740', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6777', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6114', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6138', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6618', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6635', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8055', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8064', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5315', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5332', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1137', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1818', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5888', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5964', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2357', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6990', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5215', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5253', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5369', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7311', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7339', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8015', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8022', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1126', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1127', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1136', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1227', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1254', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1311', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1313', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1413', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1425', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1428', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1458', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1469', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1473', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1479', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1543', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1618', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1910', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1946', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2147', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2227', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2316', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2334', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2412', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2440', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2534', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2622', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2626', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2665', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7378', `location` = 'Bofferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7462', `location` = 'Moesdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7522', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7563', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7594', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7596', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7421', `location` = 'Cruchten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7411', `location` = 'Marienthal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8820', `location` = 'Holtz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8834', `location` = 'Folschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8542', `location` = 'Lannen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5740', `location` = 'Filsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9454', `location` = 'Fouhren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9380', `location` = 'Merscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9535', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9540', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9551', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9651', `location` = 'Eschweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9636', `location` = 'Berlé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4974', `location` = 'Dippach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8356', `location` = 'Garnich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8463', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8468', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8322', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8188', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8189', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8235', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8238', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8330', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8335', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8378', `location` = 'Kleinbettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8425', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8442', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9631', `location` = 'Allerborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9645', `location` = 'Derenbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9745', `location` = 'Doennange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9771', `location` = 'Stockem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9779', `location` = 'Lentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9708', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9746', `location` = 'Drauffelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9748', `location` = 'Eselborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9774', `location` = 'Urspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9964', `location` = 'Huldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Lipperscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9228', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9250', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9256', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9265', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9293', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9294', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9069', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9132', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7622', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7662', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6553', `location` = 'Berdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6412', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6468', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3219', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3234', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3257', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3267', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3285', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4505', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4519', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4527', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4531', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4537', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4562', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4564', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4608', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4624', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4628', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4664', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3484', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3485', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3503', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3542', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4008', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4029', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4042', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4052', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4131', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4232', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4239', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4246', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4276', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4361', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5710', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5713', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5716', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3642', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3784', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3923', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4802', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4805', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4824', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4981', `location` = 'Reckange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3320', `location` = 'Bivange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3323', `location` = 'Bivange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3381', `location` = 'Livange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3395', `location` = 'Roeser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3398', `location` = 'Roeser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3742', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4421', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4454', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4473', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4489', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4490', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3820', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3873', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6834', `location` = 'Biwerbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6834', `location` = 'Biwer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6836', `location` = 'Breinert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6737', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6741', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6776', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6113', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6122', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6146', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6163', `location` = 'Bourglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6617', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6646', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6647', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8084', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5316', `location` = 'Contern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5280', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5815', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5846', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5884', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5963', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1448', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6961', `location` = 'Senningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6986', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5231', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5342', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7325', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7327', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7331', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7346', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8023', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7214', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7247', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5771', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5898', `location` = 'Syren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1130', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1315', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1480', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1484', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1515', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1725', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1865', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1954', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2133', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2178', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2333', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2418', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2668', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7765', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7780', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7789', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6155', `location` = 'Koedange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7430', `location` = 'Fischbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7456', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7363', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7556', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7590', `location` = 'Beringen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8543', `location` = 'Levelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8528', `location` = 'Colpach-Haut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8833', `location` = 'Wolwelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9154', `location` = 'Grosbous', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9155', `location` = 'Grosbous', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8529', `location` = 'Ehner', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8615', `location` = 'Platen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5683', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5684', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5405', `location` = 'Bech-Kleinmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5533', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5544', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9655', `location` = 'Harlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9511', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9536', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9574', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8116', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8140', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8167', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8201', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8229', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8230', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8236', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8261', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8302', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8413', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8416', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8440', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8453', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9742', `location` = 'Boxhorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9909', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9839', `location` = 'Rodershausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9356', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9257', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9015', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9023', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9028', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9126', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9136', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6418', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6461', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6586', `location` = 'Steinheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3223', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3230', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3239', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3241', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4526', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4579', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4590', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4640', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4696', `location` = 'Lasauvage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3442', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3476', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3512', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3513', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3595', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4013', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4015', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4034', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4069', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4173', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4281', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4351', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5711', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5750', `location` = 'Frisange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3612', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3675', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3766', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3899', `location` = 'Foetz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3920', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3922', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3926', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4711', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4782', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4837', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4843', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4872', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3326', `location` = 'Crauthem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3754', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4445', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4448', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4450', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4460', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4470', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4498', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4988', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4989', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4992', `location` = 'Sanem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6911', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6713', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6717', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6734', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6742', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6756', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6780', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6144', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6616', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6633', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8006', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8085', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5341', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1353', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2611', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5801', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5836', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5959', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5201', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5251', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5255', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7310', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7328', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7333', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8033', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8036', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8043', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5776', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1125', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1149', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1208', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1252', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1268', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1332', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1339', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1357', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1368', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1414', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1509', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1512', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1641', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1722', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1723', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1924', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1931', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1932', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1942', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2213', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2220', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2339', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2356', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2619', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2738', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7732', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7612', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7623', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7442', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7370', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7517', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7553', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7435', `location` = 'Hollenfels', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8801', `location` = 'Rambrouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8808', `location` = 'Arsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8835', `location` = 'Folschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9144', `location` = 'Dellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8558', `location` = 'Platen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5617', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5577', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9421', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9424', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9153', `location` = 'Goebelsmuehle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9689', `location` = 'Tarchamps', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9543', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9681', `location` = 'Roullingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9747', `location` = 'Enscherange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4972', `location` = 'Dippach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4999', `location` = 'Schouweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8355', `location` = 'Garnich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8461', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8476', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8282', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8125', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8128', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8145', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8159', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8182', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8263', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4909', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4930', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9743', `location` = 'Crendal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9707', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9263', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9004', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9080', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9086', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9156', `location` = 'Niederfeulen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9170', `location` = 'Mertzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6301', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6214', `location` = 'Kalkesbach (Consdorf)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6416', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6692', `location` = 'Moersdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6585', `location` = 'Steinheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3217', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3258', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3276', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3281', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3287', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4504', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4533', `location` = 'Niederkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4544', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4559', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4632', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3412', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3454', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3545', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3574', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4043', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4068', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4101', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4116', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4130', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4153', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4166', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4214', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4230', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4315', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4325', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4350', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4355', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3611', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3775', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3357', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3364', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3376', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3913', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4397', `location` = 'Pontpierre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4733', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4840', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3720', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3723', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4373', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4383', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4425', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4434', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4437', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4478', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3822', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3839', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3842', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3851', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3854', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3861', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6868', `location` = 'Wecker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6720', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6793', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6143', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6612', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2524', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2723', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5818', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5821', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5956', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1209', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1736', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5212', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5230', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5372', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7302', `location` = 'Mullendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7322', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8069', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8115', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8251', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5772', `location` = 'Weiler-la-Tour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1140', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1210', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1212', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1347', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1366', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1422', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1477', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1660', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1724', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1726', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1728', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1738', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1741', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1834', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1948', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1950', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2142', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2225', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2228', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2312', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2313', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2432', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2515', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2546', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2561', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2651', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2654', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2672', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2673', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7710', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7764', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7651', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7390', `location` = 'Blaschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7546', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7411', `location` = 'Ansembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8812', `location` = 'Bigonville', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8821', `location` = 'Riesenhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8816', `location` = 'Brattert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5634', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9458', `location` = 'Landscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9510', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9553', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9647', `location` = 'Doncols', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8152', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8158', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8181', `location` = 'Kopstal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8225', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8328', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8438', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4936', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4942', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4959', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4964', `location` = 'Clemency', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9770', `location` = 'Rumlange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9902', `location` = 'Cinqfontaines', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9706', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9710', `location` = 'Clervaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9765', `location` = 'Mecher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9838', `location` = 'Eisenbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9191', `location` = 'Welscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9213', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9231', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9258', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7758', `location` = 'Grentzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9021', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9053', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9089', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9392', `location` = 'Wallendorf-Pont', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7664', `location` = 'Medernach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6214', `location` = 'Kalkesbach (Berdorf)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6215', `location` = 'Consdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6475', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6493', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6572', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3212', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4502', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4523', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4541', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4561', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4569', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4595', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3411', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3416', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3421', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3436', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3491', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3506', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3547', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3598', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4028', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4112', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4115', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4136', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4151', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4203', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4320', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4342', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4354', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5720', `location` = 'Aspelt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3622', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3630', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3771', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3780', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4708', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4808', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4829', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4849', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4874', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4884', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3985', `location` = 'Pissange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4980', `location` = 'Reckange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4382', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4384', `location` = 'Ehlerange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4402', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4438', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4482', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4521', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3844', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6919', `location` = 'Roodt-sur-Syre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6852', `location` = 'Wecker-Gare', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6701', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6743', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6125', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6137', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6161', `location` = 'Bourglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6830', `location` = 'Berbourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6601', `location` = 'Wasserbillig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6682', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5419', `location` = 'Ehnen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8067', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5339', `location` = 'Moutfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5353', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2272', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2446', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5842', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5861', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5863', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5878', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5951', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5957', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5976', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1259', `location` = 'Senningerberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6166', `location` = 'Ernster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6988', `location` = 'Hostert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5280', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5367', `location` = 'Schuttrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8020', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8046', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7217', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7226', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7235', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7237', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7252', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7265', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1122', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1131', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1242', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1261', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1412', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1611', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1655', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1716', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1814', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1856', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1870', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1930', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1945', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1953', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2132', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2139', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2273', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2320', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2341', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2358', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2360', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2562', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2625', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2631', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2667', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2737', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7731', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7733', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7777', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7417', `location` = 'Brouch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7627', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7454', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7391', `location` = 'Blaschette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7395', `location` = 'Hunsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7519', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7544', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7561', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7569', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7595', `location` = 'Reckange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7465', `location` = 'Nommern', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8530', `location` = 'Ell', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8609', `location` = 'Bettborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5681', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5415', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5534', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9458', `location` = 'Hoscheidterhof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9416', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9165', `location` = 'Merscheid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9518', `location` = 'Weidingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9654', `location` = 'Schleif', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8464', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8344', `location` = 'Olm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8383', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8385', `location` = 'Koerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8137', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8248', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8323', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8329', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8424', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4795', `location` = 'Linger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4796', `location` = 'Linger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4798', `location` = 'Linger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4944', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9764', `location` = 'Marnach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9966', `location` = 'Kaesfurt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9968', `location` = 'Rossmühle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9183', `location` = 'Unterschlinder', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9364', `location` = 'Moestroff', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9370', `location` = 'Gilsdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9207', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9253', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9261', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9264', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9017', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9033', `location` = 'Warken', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9051', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9121', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9133', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9135', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6313', `location` = 'Beaufort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6413', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6436', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6560', `location` = 'Hinkel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3237', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3252', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3286', `location` = 'Bettembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4543', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4580', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4651', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4658', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4682', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4688', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3410', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3415', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3487', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3508', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3523', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3529', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3562', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3573', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3576', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4022', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4032', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4142', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4201', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4252', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4282', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3613', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3616', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3617', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3641', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3652', `location` = 'Kayl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3909', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3915', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4743', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4745', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4785', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4825', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4831', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4839', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4844', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4848', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3736', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4371', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4407', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4408', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4412', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4423', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4460', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4494', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3824', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3881', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6815', `location` = 'Betzdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6835', `location` = 'Boudlerbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6714', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6796', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6133', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6139', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6148', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6170', `location` = 'Godbrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6670', `location` = 'Mertert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8007', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8089', `location` = 'Bertrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5324', `location` = 'Oetrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5808', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5830', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5837', `location` = 'Fentange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5844', `location` = 'Alzingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5850', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5862', `location` = 'Hesperange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5954', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5969', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5978', `location` = 'Itzig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6996', `location` = 'Oberanven', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5222', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7316', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7337', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1512', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8010', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8019', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7211', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7222', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7261', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7263', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7274', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5762', `location` = 'Hassel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1139', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1237', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1257', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1333', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1433', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1457', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1517', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1525', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1533', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1540', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1640', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1654', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1729', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1863', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1926', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2119', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2222', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2311', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2345', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2514', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2523', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2525', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2557', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2566', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2610', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2662', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2670', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2728', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2764', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7720', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7768', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7670', `location` = 'Reuland', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7634', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7458', `location` = 'Lintgen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7460', `location` = 'Prettingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7359', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7361', `location` = 'Lorentzweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7516', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7537', `location` = 'Rollingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8293', `location` = 'Claushof', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8523', `location` = 'Beckerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8526', `location` = 'Colpach-Bas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8813', `location` = 'Bigonville', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7471', `location` = 'Saeul', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8606', `location` = 'Bettborn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5414', `location` = 'Canach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5431', `location` = 'Lenningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5628', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5630', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5441', `location` = 'Remerschen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5511', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5571', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9414', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9426', `location` = 'Vianden', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9671', `location` = 'Neunhausen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9678', `location` = 'Nothum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9577', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9578', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4025', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4123', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2234', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2427', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2444', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2533', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2666', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2669', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2736', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-2763', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7701', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7712', `location` = 'Colmar-Berg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7759', `location` = 'Roost (Bissen)', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7766', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7783', `location` = 'Bissen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8710', `location` = 'Boevange-sur-Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6155', `location` = 'Stuppicht', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7410', `location` = 'Angelsberg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7625', `location` = 'Heffingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7618', `location` = 'Larochette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7371', `location` = 'Helmdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7473', `location` = 'Schoenfels', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7521', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7535', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7543', `location` = 'Mersch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7412', `location` = 'Bour', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7480', `location` = 'Tuntange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8522', `location` = 'Beckerich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8539', `location` = 'Huttange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8506', `location` = 'Redange/Attert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9189', `location` = 'Vichten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5605', `location` = 'Dalheim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5430', `location` = 'Lenningen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5654', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5656', `location` = 'Mondorf-les-Bains', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5501', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5540', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5557', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5576', `location` = 'Remich', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5412', `location` = 'Greiveldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5426', `location` = 'Greiveldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5460', `location` = 'Trintange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9375', `location` = 'Gralingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9633', `location` = 'Boulaide', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9690', `location` = 'Watrange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9513', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9522', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9550', `location` = 'Wiltz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4971', `location` = 'Bettange-sur-Mess', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4999', `location` = 'Sprinkange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8462', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8477', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8480', `location` = 'Eischen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8288', `location` = 'Kehlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8119', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8131', `location` = 'Bridel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8254', `location` = 'Mamer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8308', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8334', `location` = 'Capellen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8443', `location` = 'Steinfort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4925', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4935', `location` = 'Hautcharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4938', `location` = 'Bascharage', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9740', `location` = 'Boevange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9901', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9906', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9913', `location` = 'Troisvierges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9991', `location` = 'Weiswampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9992', `location` = 'Weiswampach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9352', `location` = 'Bettendorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9378', `location` = 'Enteschbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9217', `location` = 'Diekirch', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9055', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9070', `location` = 'Ettelbruck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9118', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9125', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9129', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-9134', `location` = 'Schieren', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6225', `location` = 'Altrier', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6402', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6434', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6447', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6472', `location` = 'Echternach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6559', `location` = 'Girst', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3340', `location` = 'Fennange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3385', `location` = 'Noertzange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4508', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4511', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4573', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4603', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4634', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4672', `location` = 'Oberkorn', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4684', `location` = 'Differdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3402', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3430', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3481', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3501', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3544', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3551', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3566', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3591', `location` = 'Dudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4007', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4010', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4016', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4065', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4175', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4233', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4306', `location` = 'Esch-sur-Alzette', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3765', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3774', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3789', `location` = 'Tétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3361', `location` = 'Leudelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3934', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3939', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3943', `location` = 'Mondercange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4735', `location` = 'Pétange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4845', `location` = 'Rodange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4880', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4889', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4892', `location` = 'Lamadelaine', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3389', `location` = 'Peppange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3739', `location` = 'Rumelange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4446', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4466', `location` = 'Soleuvre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-4474', `location` = 'Belvaux', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3835', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-3871', `location` = 'Schifflange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6832', `location` = 'Betzdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6950', `location` = 'Olingen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6871', `location` = 'Wecker', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6745', `location` = 'Grevenmacher', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6135', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6142', `location` = 'Junglinster', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6185', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6188', `location` = 'Gonderange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1467', `location` = 'Howald', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-6996', `location` = 'Rameldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1319', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1748', `location` = 'Findel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5232', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5237', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5241', `location` = 'Sandweiler', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-5366', `location` = 'Munsbach', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7305', `location` = 'Steinsel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7338', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7349', `location` = 'Heisdorf', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1019', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1525', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8026', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-8070', `location` = 'Strassen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7220', `location` = 'Walferdange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7248', `location` = 'Bereldange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-7255', `location` = 'Helmsange', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1118', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1119', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1138', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1226', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1258', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1280', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1331', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1362', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1376', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1415', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1462', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1463', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1466', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1476', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1514', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1627', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1639', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1647', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1730', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1750', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1861', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'LU', `zip_code` = 'L-1919', `location` = 'Luxembourg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';

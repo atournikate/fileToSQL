@@ -1,3574 +1,3573 @@
-DELETE FROM orm_zip_code WHERE iso2 = 'HU';
-INSERT INTO orm_zip_code (iso2, zip_code, location)
-VALUES
-("HU", "7715", "Mohács"), 
-("HU", "7735", "Szűr"), 
-("HU", "7775", "Magyarbóly"), 
-("HU", "7814", "Ócsárd"), 
-("HU", "7814", "Siklósbodony"), 
-("HU", "7824", "Egyházasharaszti"), 
-("HU", "7833", "Regenye"), 
-("HU", "7843", "Drávapiski"), 
-("HU", "7951", "Velény"), 
-("HU", "7957", "Okorág"), 
-("HU", "7973", "Endrőc"), 
-("HU", "7985", "Kisdobsza"), 
-("HU", "5525", "Füzesgyarmat"), 
-("HU", "5621", "Csárdaszállás"), 
-("HU", "5727", "Újszalonta"), 
-("HU", "5904", "Orosháza"), 
-("HU", "5940", "Tótkomlós"), 
-("HU", "6064", "Tiszaug"), 
-("HU", "6211", "Kaskantyú"), 
-("HU", "6341", "Homokmégy"), 
-("HU", "6500", "Baja"), 
-("HU", "1053", "Budapest"), 
-("HU", "1076", "Budapest"), 
-("HU", "1115", "Budapest"), 
-("HU", "1182", "Budapest"), 
-("HU", "1212", "Budapest"), 
-("HU", "3433", "Nyékládháza"), 
-("HU", "3443", "Mezőnagymihály"), 
-("HU", "3527", "Miskolc"), 
-("HU", "3588", "Hejőkürt"), 
-("HU", "3599", "Sajószöged"), 
-("HU", "3604", "Ózd"), 
-("HU", "3642", "Bánhorváti"), 
-("HU", "3734", "Szuhogy"), 
-("HU", "3754", "Szalonna"), 
-("HU", "3756", "Varbóc"), 
-("HU", "3759", "Aggtelek"), 
-("HU", "3763", "Bódvaszilas"), 
-("HU", "3786", "Lak"), 
-("HU", "3812", "Homrogd"), 
-("HU", "3893", "Regéc"), 
-("HU", "3964", "Pácin"), 
-("HU", "3973", "Cigánd"), 
-("HU", "3974", "Semjén"), 
-("HU", "6646", "Tömörkény"), 
-("HU", "6750", "Algyő"), 
-("HU", "6784", "Öttömös"), 
-("HU", "2473", "Vál"), 
-("HU", "8041", "Csór"), 
-("HU", "8093", "Lovasberény"), 
-("HU", "9012", "Győr"), 
-("HU", "9144", "Kóny"), 
-("HU", "9162", "Bezi"), 
-("HU", "9164", "Markotabödöge"), 
-("HU", "9168", "Csorna"), 
-("HU", "9171", "Győrújfalu"), 
-("HU", "9224", "Rajka"), 
-("HU", "9234", "Kisbodak"), 
-("HU", "9235", "Dunaremete"), 
-("HU", "9362", "Himod"), 
-("HU", "9491", "Hidegség"), 
-("HU", "4064", "Nagyhegyes"), 
-("HU", "4079", "Debrecen"), 
-("HU", "4263", "Nyírmártonfalva"), 
-("HU", "4264", "Nyírábrány"), 
-("HU", "4288", "Újléta"), 
-("HU", "3032", "Apc"), 
-("HU", "3259", "Szentdomonkos"), 
-("HU", "3358", "Erdőtelek"), 
-("HU", "3388", "Poroszló"), 
-("HU", "5052", "Újszász"), 
-("HU", "5121", "Jászjákóhalma"), 
-("HU", "5231", "Fegyvernek"), 
-("HU", "5358", "Tiszafüred"), 
-("HU", "5359", "Tiszafüred"), 
-("HU", "5440", "Kunszentmárton"), 
-("HU", "5461", "Tiszaföldvár"), 
-("HU", "5464", "Tiszainoka"), 
-("HU", "5475", "Csépa"), 
-("HU", "2800", "Tatabánya"), 
-("HU", "2851", "Környe"), 
-("HU", "2886", "Réde"), 
-("HU", "2618", "Nézsa"), 
-("HU", "2656", "Szátok"), 
-("HU", "3046", "Kisbágyon"), 
-("HU", "3066", "Kutasó"), 
-("HU", "3109", "Salgótarján"), 
-("HU", "3133", "Magyargéc"), 
-("HU", "3145", "Mátraterenye"), 
-("HU", "3146", "Mátraterenye"), 
-("HU", "3170", "Szécsény"), 
-("HU", "2013", "Pomáz"), 
-("HU", "2096", "Üröm"), 
-("HU", "2100", "Gödöllő"), 
-("HU", "2185", "Váckisújfalu"), 
-("HU", "2192", "Hévízgyörk"), 
-("HU", "2220", "Vecsés"), 
-("HU", "2251", "Tápiószecső"), 
-("HU", "2337", "Délegyháza"), 
-("HU", "2381", "Táborfalva"), 
-("HU", "2755", "Kocsér"), 
-("HU", "2768", "Újszilvás"), 
-("HU", "7285", "Kára"), 
-("HU", "7977", "Potony"), 
-("HU", "8618", "Kereki"), 
-("HU", "8630", "Balatonboglár"), 
-("HU", "8718", "Tapsony"), 
-("HU", "8858", "Porrogszentkirály"), 
-("HU", "4234", "Szakoly"), 
-("HU", "4405", "Nyíregyháza"), 
-("HU", "4446", "Tiszaeszlár"), 
-("HU", "4501", "Kemecse"), 
-("HU", "4536", "Ramocsaháza"), 
-("HU", "4543", "Laskod"), 
-("HU", "4732", "Cégénydányád"), 
-("HU", "4752", "Győrtelek"), 
-("HU", "7175", "Felsőnána"), 
-("HU", "7362", "Tarrós"), 
-("HU", "9511", "Kemenesmihályfa"), 
-("HU", "9531", "Mersevát"), 
-("HU", "9635", "Zsédeny"), 
-("HU", "9674", "Vashosszúfalu"), 
-("HU", "9739", "Kőszegpaty"), 
-("HU", "9783", "Egyházasrádóc"), 
-("HU", "9784", "Rádóckölked"), 
-("HU", "9799", "Szentpéterfa"), 
-("HU", "9917", "Daraboshegy"), 
-("HU", "9921", "Vasalja"), 
-("HU", "9935", "Szőce"), 
-("HU", "9951", "Rátót"), 
-("HU", "8161", "Ősi"), 
-("HU", "8192", "Hajmáskér"), 
-("HU", "8196", "Litér"), 
-("HU", "8230", "Balatonfüred"), 
-("HU", "8272", "Tagyon"), 
-("HU", "8317", "Lesencefalu"), 
-("HU", "8497", "Egeralja"), 
-("HU", "8353", "Zalaszántó"), 
-("HU", "8756", "Kisrécse"), 
-("HU", "8790", "Zalaszentgrót"), 
-("HU", "8800", "Nagykanizsa"), 
-("HU", "8864", "Tótszerdahely"), 
-("HU", "8913", "Egervár"), 
-("HU", "8917", "Milejszeg"), 
-("HU", "8918", "Németfalu"), 
-("HU", "8921", "Alibánfa"), 
-("HU", "8934", "Bezeréd"), 
-("HU", "8954", "Ortaháza"), 
-("HU", "8977", "Baglad"), 
-("HU", "8977", "Resznek"), 
-("HU", "8994", "Zalaszentgyörgy"), 
-("HU", "8998", "Ozmánbük"), 
-("HU", "7639", "Kökény"), 
-("HU", "7682", "Bükkösd"), 
-("HU", "7693", "Pécs"), 
-("HU", "7741", "Nagykozár"), 
-("HU", "7753", "Szajk"), 
-("HU", "7763", "Áta"), 
-("HU", "7766", "Újpetre"), 
-("HU", "7985", "Nagydobsza"), 
-("HU", "5500", "Gyomaendrőd"), 
-("HU", "6076", "Ágasegyháza"), 
-("HU", "6200", "Kiskőrös"), 
-("HU", "6452", "Mátételke"), 
-("HU", "1078", "Budapest"), 
-("HU", "1113", "Budapest"), 
-("HU", "1138", "Budapest"), 
-("HU", "1153", "Budapest"), 
-("HU", "1181", "Budapest"), 
-("HU", "1211", "Budapest"), 
-("HU", "1224", "Budapest"), 
-("HU", "1239", "Budapest"), 
-("HU", "3556", "Kisgyőr"), 
-("HU", "3578", "Kiscsécs"), 
-("HU", "3580", "Tiszaújváros"), 
-("HU", "3656", "Sajómercse"), 
-("HU", "3672", "Borsodnádasd"), 
-("HU", "3718", "Megyaszó"), 
-("HU", "3728", "Gömörszőlős"), 
-("HU", "3842", "Halmaj"), 
-("HU", "3844", "Szentistvánbaksa"), 
-("HU", "3863", "Szalaszend"), 
-("HU", "3875", "Hernádszurdok"), 
-("HU", "3892", "Hejce"), 
-("HU", "3994", "Bózsva"), 
-("HU", "3994", "Filkeháza"), 
-("HU", "3997", "Füzérkomlós"), 
-("HU", "6765", "Csengele"), 
-("HU", "6771", "Szeged"), 
-("HU", "2407", "Dunaújváros"), 
-("HU", "2453", "Ercsi"), 
-("HU", "8088", "Tabajd"), 
-("HU", "9071", "Gönyű"), 
-("HU", "9082", "Nyúl"), 
-("HU", "9099", "Pér"), 
-("HU", "9165", "Cakóháza"), 
-("HU", "9242", "Jánossomorja"), 
-("HU", "9243", "Várbalog"), 
-("HU", "9375", "Csér"), 
-("HU", "4000", "Debrecen"), 
-("HU", "4116", "Berekböszörmény"), 
-("HU", "4127", "Nagykereki"), 
-("HU", "4128", "Bedő"), 
-("HU", "4254", "Nyíradony"), 
-("HU", "3221", "Gyöngyös"), 
-("HU", "3232", "Gyöngyös"), 
-("HU", "3244", "Parád"), 
-("HU", "3250", "Pétervására"), 
-("HU", "3271", "Visonta"), 
-("HU", "3293", "Visznek"), 
-("HU", "3334", "Szajla"), 
-("HU", "3337", "Egerbocs"), 
-("HU", "2500", "Esztergom"), 
-("HU", "2524", "Nagysáp"), 
-("HU", "2532", "Tokodaltáró"), 
-("HU", "2535", "Mogyorósbánya"), 
-("HU", "2823", "Vértessomló"), 
-("HU", "2900", "Komárom"), 
-("HU", "2944", "Bana"), 
-("HU", "2657", "Tolmács"), 
-("HU", "2676", "Cserhátsurány"), 
-("HU", "3053", "Kozárd"), 
-("HU", "3068", "Mátraszőlős"), 
-("HU", "3075", "Kisbárkány"), 
-("HU", "2142", "Nagytarcsa"), 
-("HU", "2336", "Dunavarsány"), 
-("HU", "2440", "Százhalombatta"), 
-("HU", "2621", "Verőce"), 
-("HU", "2711", "Tápiószentmárton"), 
-("HU", "2740", "Abony"), 
-("HU", "2764", "Tápióbicske"), 
-("HU", "7282", "Fiad"), 
-("HU", "7552", "Rinyabesenyő"), 
-("HU", "7557", "Barcs"), 
-("HU", "7561", "Nagybajom"), 
-("HU", "8621", "Zamárdi"), 
-("HU", "8647", "Balatonmáriafürdő"), 
-("HU", "4375", "Piricse"), 
-("HU", "4546", "Anarcs"), 
-("HU", "4554", "Nyírtét"), 
-("HU", "4634", "Aranyosapáti"), 
-("HU", "4643", "Benk"), 
-("HU", "4751", "Kocsord"), 
-("HU", "4755", "Ököritófülpös"), 
-("HU", "4767", "Szamosangyalos"), 
-("HU", "4913", "Panyola"), 
-("HU", "4948", "Milota"), 
-("HU", "4976", "Garbolc"), 
-("HU", "7051", "Kajdacs"), 
-("HU", "7063", "Szárazd"), 
-("HU", "7164", "Bátaapáti"), 
-("HU", "7227", "Gyulaj"), 
-("HU", "9515", "Pápoc"), 
-("HU", "9600", "Sárvár"), 
-("HU", "9752", "Kenéz"), 
-("HU", "9772", "Kisunyom"), 
-("HU", "9811", "Andrásfa"), 
-("HU", "9933", "Őrimagyarósd"), 
-("HU", "9936", "Kisrákos"), 
-("HU", "9945", "Kercaszomor"), 
-("HU", "8200", "Veszprém"), 
-("HU", "8300", "Tapolca"), 
-("HU", "8318", "Lesencetomaj"), 
-("HU", "8411", "Veszprém"), 
-("HU", "8443", "Bánd"), 
-("HU", "8471", "Bodorfa"), 
-("HU", "8484", "Vid"), 
-("HU", "8563", "Homokbödöge"), 
-("HU", "8594", "Pápasalamon"), 
-("HU", "8313", "Balatongyörök"), 
-("HU", "8354", "Karmacs"), 
-("HU", "8356", "Nagygörbő"), 
-("HU", "8391", "Sármellék"), 
-("HU", "8742", "Esztergályhorváti"), 
-("HU", "8746", "Nagyrada"), 
-("HU", "8747", "Garabonc"), 
-("HU", "8764", "Zalaszentmárton"), 
-("HU", "8776", "Bocska"), 
-("HU", "8855", "Belezna"), 
-("HU", "8876", "Tormafölde"), 
-("HU", "8946", "Tófej"), 
-("HU", "8969", "Szijártóháza"), 
-("HU", "7678", "Abaliget"), 
-("HU", "7742", "Bogád"), 
-("HU", "7751", "Monyoród"), 
-("HU", "7752", "Versend"), 
-("HU", "7762", "Pécsudvard"), 
-("HU", "7800", "Nagytótfalu"), 
-("HU", "7843", "Tésenfa"), 
-("HU", "7951", "Pécsbagota"), 
-("HU", "7981", "Tótszentgyörgy"), 
-("HU", "5510", "Dévaványa"), 
-("HU", "5553", "Kondoros"), 
-("HU", "5630", "Békés"), 
-("HU", "5712", "Szabadkígyós"), 
-("HU", "6055", "Felsőlajos"), 
-("HU", "6085", "Fülöpszállás"), 
-("HU", "6331", "Foktő"), 
-("HU", "6511", "Bácsszentgyörgy"), 
-("HU", "1036", "Budapest"), 
-("HU", "1037", "Budapest"), 
-("HU", "1043", "Budapest"), 
-("HU", "1072", "Budapest"), 
-("HU", "1085", "Budapest"), 
-("HU", "1103", "Budapest"), 
-("HU", "1112", "Budapest"), 
-("HU", "1114", "Budapest"), 
-("HU", "1123", "Budapest"), 
-("HU", "1133", "Budapest"), 
-("HU", "1136", "Budapest"), 
-("HU", "3421", "Mezőnyárád"), 
-("HU", "3459", "Igrici"), 
-("HU", "3524", "Miskolc"), 
-("HU", "3645", "Mályinka"), 
-("HU", "3648", "Csernely"), 
-("HU", "3715", "Gesztely"), 
-("HU", "3733", "Rudabánya"), 
-("HU", "3773", "Sajókápolna"), 
-("HU", "3787", "Tomor"), 
-("HU", "3800", "Szikszó"), 
-("HU", "3816", "Gagyvendégi"), 
-("HU", "3834", "Beret"), 
-("HU", "3893", "Mogyoróska"), 
-("HU", "3905", "Monok"), 
-("HU", "3976", "Révleányvár"), 
-("HU", "3994", "Nagyhuta"), 
-("HU", "6728", "Szeged"), 
-("HU", "6774", "Ferencszállás"), 
-("HU", "6800", "Hódmezővásárhely"), 
-("HU", "7000", "Sárbogárd"), 
-("HU", "8043", "Iszkaszentgyörgy"), 
-("HU", "8097", "Nadap"), 
-("HU", "8126", "Sárszentágota"), 
-("HU", "9094", "Tápszentmiklós"), 
-("HU", "9141", "Ikrény"), 
-("HU", "9143", "Enese"), 
-("HU", "9327", "Rábasebes"), 
-("HU", "9346", "Vadosfa"), 
-("HU", "9462", "Völcsej"), 
-("HU", "4067", "Egyek"), 
-("HU", "3014", "Hort"), 
-("HU", "3034", "Szűcsi"), 
-("HU", "3234", "Mátraszentimre"), 
-("HU", "3242", "Parádsasvár"), 
-("HU", "3323", "Szarvaskő"), 
-("HU", "3324", "Felsőtárkány"), 
-("HU", "3336", "Bátor"), 
-("HU", "3372", "Kömlő"), 
-("HU", "3397", "Maklár"), 
-("HU", "5061", "Tiszasüly"), 
-("HU", "5232", "Tiszabő"), 
-("HU", "5235", "Tiszabura"), 
-("HU", "5451", "Öcsöd"), 
-("HU", "2652", "Tereske"), 
-("HU", "3136", "Etes"), 
-("HU", "2023", "Dunabogdány"), 
-("HU", "2089", "Telki"), 
-("HU", "2098", "Pilisszentkereszt"), 
-("HU", "2141", "Csömör"), 
-("HU", "2215", "Káva"), 
-("HU", "7253", "Csoma"), 
-("HU", "7276", "Gadács"), 
-("HU", "7282", "Kisbárapáti"), 
-("HU", "7400", "Kaposvár"), 
-("HU", "7431", "Juta"), 
-("HU", "7455", "Somogygeszti"), 
-("HU", "7463", "Patalom"), 
-("HU", "7473", "Gálosfa"), 
-("HU", "7477", "Zselickisfalud"), 
-("HU", "7523", "Kisasszond"), 
-("HU", "8614", "Bálványos"), 
-("HU", "8617", "Kőröshegy"), 
-("HU", "8732", "Szegerdő"), 
-("HU", "4235", "Biri"), 
-("HU", "4354", "Fábiánháza"), 
-("HU", "4468", "Balsa"), 
-("HU", "4474", "Tiszabercel"), 
-("HU", "4563", "Rohod"), 
-("HU", "4642", "Tornyospálca"), 
-("HU", "4811", "Kisvarsány"), 
-("HU", "4943", "Kömörő"), 
-("HU", "4963", "Kisszekeres"), 
-("HU", "4972", "Gacsály"), 
-("HU", "4974", "Zajta"), 
-("HU", "7064", "Gyönk"), 
-("HU", "7099", "Felsőnyék"), 
-("HU", "7171", "Sióagárd"), 
-("HU", "7181", "Tevel"), 
-("HU", "7352", "Györe"), 
-("HU", "9554", "Borgáta"), 
-("HU", "9653", "Répcelak"), 
-("HU", "9913", "Szarvaskend"), 
-("HU", "9938", "Nagyrákos"), 
-("HU", "9952", "Gasztony"), 
-("HU", "8194", "Vilonya"), 
-("HU", "8245", "Pécsely"), 
-("HU", "8412", "Veszprém"), 
-("HU", "8454", "Nyirád"), 
-("HU", "8474", "Csabrendek"), 
-("HU", "8517", "Magyargencs"), 
-("HU", "8523", "Várkesző"), 
-("HU", "8554", "Nagydém"), 
-("HU", "8561", "Adásztevel"), 
-("HU", "8795", "Zalaszentgrót"), 
-("HU", "8865", "Tótszentmárton"), 
-("HU", "8925", "Búcsúszentlászló"), 
-("HU", "8946", "Pusztaederics"), 
-("HU", "8957", "Csömödér"), 
-("HU", "7394", "Bodolyabér"), 
-("HU", "7666", "Pogány"), 
-("HU", "7727", "Palotabozsok"), 
-("HU", "7773", "Kisjakabfalva"), 
-("HU", "7811", "Túrony"), 
-("HU", "7817", "Rádfalva"), 
-("HU", "7837", "Hegyszentmárton"), 
-("HU", "7841", "Sámod"), 
-("HU", "7847", "Drávaszerdahely"), 
-("HU", "7937", "Boldogasszonyfa"), 
-("HU", "5800", "Mezőkovácsháza"), 
-("HU", "6132", "Móricgát"), 
-("HU", "6224", "Tabdi"), 
-("HU", "6451", "Tataháza"), 
-("HU", "1011", "Budapest"), 
-("HU", "1172", "Budapest"), 
-("HU", "1193", "Budapest"), 
-("HU", "1205", "Budapest"), 
-("HU", "1215", "Budapest"), 
-("HU", "3416", "Tard"), 
-("HU", "3508", "Miskolc"), 
-("HU", "3519", "Miskolc"), 
-("HU", "3554", "Bükkaranyos"), 
-("HU", "3562", "Onga"), 
-("HU", "3592", "Nemesbikk"), 
-("HU", "3595", "Hejőszalonta"), 
-("HU", "3636", "Vadna"), 
-("HU", "3654", "Bánréve"), 
-("HU", "3729", "Serényfalva"), 
-("HU", "3761", "Szinpetri"), 
-("HU", "3776", "Radostyán"), 
-("HU", "3795", "Nyomár"), 
-("HU", "3821", "Kány"), 
-("HU", "3851", "Ináncs"), 
-("HU", "3853", "Hernádbűd"), 
-("HU", "3895", "Gönc"), 
-("HU", "3942", "Sárazsadány"), 
-("HU", "6727", "Szeged"), 
-("HU", "6755", "Kübekháza"), 
-("HU", "6769", "Pusztaszer"), 
-("HU", "6913", "Csanádpalota"), 
-("HU", "6915", "Csanádalberti"), 
-("HU", "2463", "Tordas"), 
-("HU", "9026", "Győr"), 
-("HU", "9029", "Győr"), 
-("HU", "9097", "Mezőörs"), 
-("HU", "9374", "Iván"), 
-("HU", "9444", "Fertőszentmiklós"), 
-("HU", "9475", "Répcevis"), 
-("HU", "4095", "Folyás"), 
-("HU", "4174", "Bihartorda"), 
-("HU", "3036", "Gyöngyöstarján"), 
-("HU", "3252", "Erdőkövesd"), 
-("HU", "3261", "Pálosvörösmart"), 
-("HU", "3341", "Szúcs"), 
-("HU", "5053", "Szászberek"), 
-("HU", "5063", "Hunyadfalva"), 
-("HU", "5141", "Jásztelek"), 
-("HU", "2510", "Dorog"), 
-("HU", "2861", "Bakonysárkány"), 
-("HU", "2862", "Aka"), 
-("HU", "2879", "Kisbér"), 
-("HU", "2903", "Komárom"), 
-("HU", "2610", "Ősagárd"), 
-("HU", "3102", "Salgótarján"), 
-("HU", "3104", "Salgótarján"), 
-("HU", "3128", "Vizslás"), 
-("HU", "3143", "Mátranovák"), 
-("HU", "3176", "Hollókő"), 
-("HU", "2194", "Tura"), 
-("HU", "7284", "Somogydöröcske"), 
-("HU", "7533", "Visnye"), 
-("HU", "7588", "Vízvár"), 
-("HU", "8625", "Szólád"), 
-("HU", "8652", "Siójut"), 
-("HU", "8668", "Tengőd"), 
-("HU", "4246", "Nyíregyháza"), 
-("HU", "4542", "Petneháza"), 
-("HU", "4763", "Ura"), 
-("HU", "4821", "Ópályi"), 
-("HU", "7038", "Pusztahencse"), 
-("HU", "7095", "Iregszemcse"), 
-("HU", "9683", "Bejcgyertyános"), 
-("HU", "9730", "Kőszeg"), 
-("HU", "9777", "Rábahídvég"), 
-("HU", "9782", "Nemesrempehollós"), 
-("HU", "9821", "Hegyhátszentpéter"), 
-("HU", "9913", "Döröske"), 
-("HU", "9934", "Hegyhátszentjakab"), 
-("HU", "9941", "Ispánk"), 
-("HU", "9953", "Nemesmedves"), 
-("HU", "8183", "Papkeszi"), 
-("HU", "8255", "Balatonrendes"), 
-("HU", "8351", "Sümegprága"), 
-("HU", "8597", "Ganna"), 
-("HU", "8357", "Döbröce"), 
-("HU", "8752", "Zalakomár"), 
-("HU", "8784", "Kehidakustány"), 
-("HU", "8879", "Szécsisziget"), 
-("HU", "8929", "Pölöske"), 
-("HU", "8935", "Padár"), 
-("HU", "8957", "Zebecke"), 
-("HU", "8973", "Alsószenterzsébet"), 
-("HU", "8975", "Szentgyörgyvölgy"), 
-("HU", "8984", "Iborfia"), 
-("HU", "8998", "Vaspör"), 
-("HU", "8999", "Csöde"), 
-("HU", "7304", "Mánfa"), 
-("HU", "7334", "Szalatnak"), 
-("HU", "7342", "Mágocs"), 
-("HU", "7349", "Szászvár"), 
-("HU", "7391", "Kishajmás"), 
-("HU", "7626", "Pécs"), 
-("HU", "7629", "Pécs"), 
-("HU", "7668", "Keszü"), 
-("HU", "7823", "Siklósnagyfalu"), 
-("HU", "7926", "Vásárosbéc"), 
-("HU", "7960", "Drávaiványi"), 
-("HU", "7960", "Sumony"), 
-("HU", "7967", "Drávafok"), 
-("HU", "7968", "Felsőszentmárton"), 
-("HU", "7981", "Nemeske"), 
-("HU", "5556", "Örménykút"), 
-("HU", "6000", "Kecskemét"), 
-("HU", "6411", "Zsana"), 
-("HU", "1068", "Budapest"), 
-("HU", "1108", "Budapest"), 
-("HU", "1116", "Budapest"), 
-("HU", "1117", "Budapest"), 
-("HU", "1144", "Budapest"), 
-("HU", "1145", "Budapest"), 
-("HU", "1164", "Budapest"), 
-("HU", "1191", "Budapest"), 
-("HU", "1194", "Budapest"), 
-("HU", "3551", "Ónod"), 
-("HU", "3552", "Muhi"), 
-("HU", "3553", "Kistokaj"), 
-("HU", "3627", "Domaháza"), 
-("HU", "3627", "Kissikátor"), 
-("HU", "3716", "Sóstófalva"), 
-("HU", "3780", "Edelény"), 
-("HU", "3786", "Szakácsi"), 
-("HU", "3847", "Felsődobsza"), 
-("HU", "3881", "Sima"), 
-("HU", "3885", "Arka"), 
-("HU", "3904", "Legyesbénye"), 
-("HU", "3936", "Háromhuta"), 
-("HU", "3993", "Füzérradvány"), 
-("HU", "6758", "Röszke"), 
-("HU", "6903", "Makó"), 
-("HU", "2431", "Perkáta"), 
-("HU", "8060", "Mór"), 
-("HU", "8121", "Tác"), 
-("HU", "9098", "Pér"), 
-("HU", "9125", "Szerecseny"), 
-("HU", "9134", "Bodonhely"), 
-("HU", "9163", "Fehértó"), 
-("HU", "9231", "Máriakálnok"), 
-("HU", "9315", "Sobor"), 
-("HU", "9343", "Edve"), 
-("HU", "9400", "Sopron"), 
-("HU", "9495", "Kópháza"), 
-("HU", "4031", "Debrecen"), 
-("HU", "4065", "Újszentmargita"), 
-("HU", "4143", "Vekerd"), 
-("HU", "3341", "Egercsehi"), 
-("HU", "3355", "Kápolna"), 
-("HU", "5083", "Kengyel"), 
-("HU", "5084", "Rákócziújfalu"), 
-("HU", "5143", "Jánoshida"), 
-("HU", "5309", "Berekfürdő"), 
-("HU", "2855", "Bokod"), 
-("HU", "2898", "Kocs"), 
-("HU", "2948", "Kisigmánd"), 
-("HU", "2176", "Erdőkürt"), 
-("HU", "2643", "Diósjenő"), 
-("HU", "3078", "Bátonyterenye"), 
-("HU", "3127", "Kazár"), 
-("HU", "3137", "Karancsberény"), 
-("HU", "3186", "Litke"), 
-("HU", "2164", "Váchartyán"), 
-("HU", "2174", "Verseg"), 
-("HU", "2213", "Monorierdő"), 
-("HU", "2242", "Sülysáp"), 
-("HU", "2243", "Kóka"), 
-("HU", "2254", "Szentmártonkáta"), 
-("HU", "2318", "Szigetszentmárton"), 
-("HU", "2345", "Apaj"), 
-("HU", "2629", "Márianosztra"), 
-("HU", "2635", "Vámosmikola"), 
-("HU", "2712", "Nyársapát"), 
-("HU", "2736", "Mikebuda"), 
-("HU", "7261", "Taszár"), 
-("HU", "7276", "Somogyszil"), 
-("HU", "7285", "Szorosad"), 
-("HU", "7451", "Kaposvár"), 
-("HU", "7463", "Magyaratád"), 
-("HU", "7471", "Zimány"), 
-("HU", "7474", "Zselicszentpál"), 
-("HU", "7477", "Patca"), 
-("HU", "7526", "Csököly"), 
-("HU", "7530", "Kadarkút"), 
-("HU", "7586", "Bolhó"), 
-("HU", "8600", "Siófok"), 
-("HU", "8619", "Pusztaszemes"), 
-("HU", "8694", "Hács"), 
-("HU", "8711", "Vörs"), 
-("HU", "8713", "Kéthely"), 
-("HU", "8714", "Kelevíz"), 
-("HU", "4324", "Kállósemjén"), 
-("HU", "4432", "Nyíregyháza"), 
-("HU", "4461", "Nyírtelek"), 
-("HU", "4465", "Rakamaz"), 
-("HU", "4547", "Szabolcsbáka"), 
-("HU", "4644", "Mándok"), 
-("HU", "4735", "Hermánszeg"), 
-("HU", "4823", "Nagydobos"), 
-("HU", "4921", "Kisar"), 
-("HU", "4931", "Tarpa"), 
-("HU", "7025", "Bölcske"), 
-("HU", "7061", "Belecska"), 
-("HU", "7091", "Pári"), 
-("HU", "7136", "Fácánkert"), 
-("HU", "7147", "Alsónána"), 
-("HU", "7162", "Grábóc"), 
-("HU", "7182", "Závod"), 
-("HU", "9523", "Szergény"), 
-("HU", "9735", "Csepreg"), 
-("HU", "9774", "Sorkifalud"), 
-("HU", "9824", "Olaszfa"), 
-("HU", "9832", "Nagytilaj"), 
-("HU", "9961", "Rábagyarmat"), 
-("HU", "8237", "Tihany"), 
-("HU", "8284", "Nemesgulács"), 
-("HU", "8308", "Sáska"), 
-("HU", "8422", "Bakonynána"), 
-("HU", "8424", "Jásd"), 
-("HU", "8425", "Lókút"), 
-("HU", "8434", "Románd"), 
-("HU", "8360", "Keszthely"), 
-("HU", "8785", "Kallósd"), 
-("HU", "8799", "Dötk"), 
-("HU", "8809", "Nagykanizsa"), 
-("HU", "8868", "Letenye"), 
-("HU", "8878", "Lovászi"), 
-("HU", "8891", "Bánokszentgyörgy"), 
-("HU", "8983", "Ormándlak"), 
-("HU", "8995", "Keménfa"), 
-("HU", "8996", "Zalacséb"), 
-("HU", "7383", "Szágy"), 
-("HU", "7759", "Kisnyárád"), 
-("HU", "7761", "Kozármisleny"), 
-("HU", "7763", "Kisherend"), 
-("HU", "7817", "Diósviszló"), 
-("HU", "7834", "Baksa"), 
-("HU", "7849", "Drávacsehi"), 
-("HU", "7912", "Nagypeterd"), 
-("HU", "5643", "Bélmegyer"), 
-("HU", "5666", "Medgyesegyháza"), 
-("HU", "5946", "Békéssámson"), 
-("HU", "6033", "Városföld"), 
-("HU", "6088", "Apostag"), 
-("HU", "6098", "Tass"), 
-("HU", "6112", "Pálmonostora"), 
-("HU", "6325", "Dunatetétlen"), 
-("HU", "6445", "Borota"), 
-("HU", "1007", "Budapest"), 
-("HU", "1035", "Budapest"), 
-("HU", "1091", "Budapest"), 
-("HU", "1151", "Budapest"), 
-("HU", "1156", "Budapest"), 
-("HU", "1195", "Budapest"), 
-("HU", "3413", "Cserépfalu"), 
-("HU", "3423", "Tibolddaróc"), 
-("HU", "3450", "Mezőcsát"), 
-("HU", "3559", "Répáshuta"), 
-("HU", "3712", "Sajóvámos"), 
-("HU", "3722", "Felsőkelecsény"), 
-("HU", "3731", "Szuhakálló"), 
-("HU", "3751", "Szendrőlád"), 
-("HU", "3753", "Abod"), 
-("HU", "3761", "Tornakápolna"), 
-("HU", "3769", "Tornaszentjakab"), 
-("HU", "3815", "Gadna"), 
-("HU", "3821", "Pamlény"), 
-("HU", "3843", "Kiskinizs"), 
-("HU", "3844", "Nagykinizs"), 
-("HU", "3916", "Bodrogkeresztúr"), 
-("HU", "6721", "Szeged"), 
-("HU", "6753", "Szeged"), 
-("HU", "6756", "Tiszasziget"), 
-("HU", "6912", "Kövegy"), 
-("HU", "2476", "Pázmánd"), 
-("HU", "8044", "Kincsesbánya"), 
-("HU", "8111", "Seregélyes"), 
-("HU", "8154", "Polgárdi"), 
-("HU", "9019", "Győr"), 
-("HU", "9167", "Bősárkány"), 
-("HU", "9184", "Kunsziget"), 
-("HU", "9241", "Jánossomorja"), 
-("HU", "9342", "Mihályi"), 
-("HU", "9364", "Cirák"), 
-("HU", "9408", "Sopron"), 
-("HU", "9485", "Nagycenk"), 
-("HU", "4273", "Hajdúbagos"), 
-("HU", "4275", "Monostorpályi"), 
-("HU", "3254", "Váraszó"), 
-("HU", "3264", "Kisnána"), 
-("HU", "3283", "Tarnazsadány"), 
-("HU", "3296", "Zaránk"), 
-("HU", "3377", "Szihalom"), 
-("HU", "3399", "Andornaktálya"), 
-("HU", "5008", "Szolnok"), 
-("HU", "5081", "Szajol"), 
-("HU", "5100", "Jászberény"), 
-("HU", "2836", "Baj"), 
-("HU", "2889", "Súr"), 
-("HU", "2911", "Mocsa"), 
-("HU", "2655", "Kétbodony"), 
-("HU", "2659", "Érsekvadkert"), 
-("HU", "2691", "Nógrádkövesd"), 
-("HU", "2694", "Cserháthaláp"), 
-("HU", "3063", "Jobbágyi"), 
-("HU", "3144", "Mátranovák"), 
-("HU", "2040", "Budaörs"), 
-("HU", "2111", "Szada"), 
-("HU", "2166", "Püspökszilágy"), 
-("HU", "2182", "Domony"), 
-("HU", "2234", "Maglód"), 
-("HU", "2310", "Szigetszentmiklós"), 
-("HU", "7271", "Fonó"), 
-("HU", "7283", "Somogyacsa"), 
-("HU", "7521", "Kaposmérő"), 
-("HU", "7538", "Kálmáncsa"), 
-("HU", "7918", "Tótújfalu"), 
-("HU", "8627", "Kötcse"), 
-("HU", "8671", "Kapoly"), 
-("HU", "4244", "Újfehértó"), 
-("HU", "4733", "Gyügye"), 
-("HU", "4737", "Kisnamény"), 
-("HU", "4745", "Szamosbecs"), 
-("HU", "4765", "Csenger"), 
-("HU", "4946", "Tiszakóród"), 
-("HU", "7067", "Varsád"), 
-("HU", "7081", "Simontornya"), 
-("HU", "7159", "Kisdorog"), 
-("HU", "7252", "Attala"), 
-("HU", "9553", "Kemeneskápolna"), 
-("HU", "9561", "Tokorcs"), 
-("HU", "9634", "Lócs"), 
-("HU", "9664", "Nagygeresd"), 
-("HU", "9672", "Gérce"), 
-("HU", "9700", "Szombathely"), 
-("HU", "9722", "Perenye"), 
-("HU", "9739", "Nemescsó"), 
-("HU", "9909", "Magyarnádalja"), 
-("HU", "9915", "Katafa"), 
-("HU", "9942", "Szalafő"), 
-("HU", "9944", "Bajánsenye"), 
-("HU", "9981", "Szentgotthárd"), 
-("HU", "8171", "Balatonvilágos"), 
-("HU", "8264", "Szigliget"), 
-("HU", "8282", "Mindszentkálla"), 
-("HU", "8294", "Kapolcs"), 
-("HU", "8344", "Hetyefő"), 
-("HU", "8491", "Karakószörcsök"), 
-("HU", "8496", "Nagypirit"), 
-("HU", "8513", "Mihályháza"), 
-("HU", "8777", "Homokkomárom"), 
-("HU", "8785", "Zalaszentgrót"), 
-("HU", "8788", "Zalaszentlászló"), 
-("HU", "8825", "Miháld"), 
-("HU", "8834", "Murakeresztúr"), 
-("HU", "8866", "Petrivente"), 
-("HU", "8885", "Valkonya"), 
-("HU", "8925", "Nemesszentandrás"), 
-("HU", "8935", "Orbányosfa"), 
-("HU", "8984", "Petrikeresztúr"), 
-("HU", "8992", "Boncodfölde"), 
-("HU", "7331", "Liget"), 
-("HU", "7628", "Pécs"), 
-("HU", "7831", "Pellérd"), 
-("HU", "7936", "Szentlászló"), 
-("HU", "5624", "Doboz"), 
-("HU", "5673", "Kamut"), 
-("HU", "5925", "Gerendás"), 
-("HU", "6066", "Tiszaalpár"), 
-("HU", "6100", "Kiskunfélegyháza"), 
-("HU", "6300", "Kalocsa"), 
-("HU", "6353", "Dusnok"), 
-("HU", "6430", "Bácsalmás"), 
-("HU", "1054", "Budapest"), 
-("HU", "1066", "Budapest"), 
-("HU", "1081", "Budapest"), 
-("HU", "1087", "Budapest"), 
-("HU", "1165", "Budapest"), 
-("HU", "3425", "Sály"), 
-("HU", "3461", "Egerlövő"), 
-("HU", "3467", "Ároktő"), 
-("HU", "3500", "Miskolc"), 
-("HU", "3593", "Hejőbába"), 
-("HU", "3597", "Hejőkeresztúr"), 
-("HU", "3626", "Hangony"), 
-("HU", "3643", "Dédestapolcsány"), 
-("HU", "3659", "Sáta"), 
-("HU", "3661", "Ózd"), 
-("HU", "3752", "Szendrő"), 
-("HU", "3765", "Tornaszentandrás"), 
-("HU", "3775", "Kondó"), 
-("HU", "3796", "Borsodszirák"), 
-("HU", "3836", "Baktakék"), 
-("HU", "3848", "Csobád"), 
-("HU", "3881", "Abaújszántó"), 
-("HU", "3902", "Szerencs"), 
-("HU", "3978", "Dámóc"), 
-("HU", "6630", "Mindszent"), 
-("HU", "6760", "Kistelek"), 
-("HU", "6763", "Szatymaz"), 
-("HU", "6795", "Bordány"), 
-("HU", "6931", "Apátfalva"), 
-("HU", "2485", "Gárdony"), 
-("HU", "8086", "Felcsút"), 
-("HU", "8133", "Mezőszentgyörgy"), 
-("HU", "8156", "Kisláng"), 
-("HU", "9084", "Győrság"), 
-("HU", "9090", "Pannonhalma"), 
-("HU", "9147", "Dör"), 
-("HU", "9228", "Halászi"), 
-("HU", "9232", "Darnózseli"), 
-("HU", "9312", "Szilsárkány"), 
-("HU", "9434", "Sarród"), 
-("HU", "9438", "Sarród"), 
-("HU", "4071", "Hortobágy"), 
-("HU", "4114", "Bojt"), 
-("HU", "4119", "Váncsod"), 
-("HU", "3258", "Tarnalelesz"), 
-("HU", "3368", "Boconád"), 
-("HU", "3375", "Mezőtárkány"), 
-("HU", "5222", "Örményes"), 
-("HU", "5350", "Tiszafüred"), 
-("HU", "5476", "Szelevény"), 
-("HU", "2531", "Tokod"), 
-("HU", "2837", "Vértesszőlős"), 
-("HU", "2941", "Ács"), 
-("HU", "2611", "Felsőpetény"), 
-("HU", "2651", "Rétság"), 
-("HU", "2658", "Pusztaberki"), 
-("HU", "2693", "Becske"), 
-("HU", "2696", "Terény"), 
-("HU", "2016", "Leányfalu"), 
-("HU", "2093", "Budajenő"), 
-("HU", "2144", "Kerepes"), 
-("HU", "2151", "Fót"), 
-("HU", "7261", "Kaposhomok"), 
-("HU", "7533", "Hedrehely"), 
-("HU", "7537", "Homokszentgyörgy"), 
-("HU", "8676", "Karád"), 
-("HU", "8723", "Varászló"), 
-("HU", "8732", "Főnyed"), 
-("HU", "8733", "Somogysámson"), 
-("HU", "4326", "Máriapócs"), 
-("HU", "4434", "Kálmánháza"), 
-("HU", "4467", "Szabolcs"), 
-("HU", "4484", "Ibrány"), 
-("HU", "4517", "Gégény"), 
-("HU", "4765", "Komlódtótfalu"), 
-("HU", "4842", "Gulács"), 
-("HU", "4952", "Uszka"), 
-("HU", "7066", "Udvari"), 
-("HU", "7084", "Pincehely"), 
-("HU", "7132", "Bogyiszló"), 
-("HU", "7186", "Aparhant"), 
-("HU", "7214", "Lápafő"), 
-("HU", "9512", "Ostffyasszonyfa"), 
-("HU", "9542", "Nemeskocs"), 
-("HU", "9636", "Pósfa"), 
-("HU", "9736", "Tormásliget"), 
-("HU", "9748", "Vát"), 
-("HU", "9937", "Pankasz"), 
-("HU", "9941", "Őriszentpéter"), 
-("HU", "8245", "Vászoly"), 
-("HU", "8291", "Vöröstó"), 
-("HU", "8296", "Monostorapáti"), 
-("HU", "8477", "Apácatorna"), 
-("HU", "8357", "Sümegcsehi"), 
-("HU", "8393", "Szentgyörgyvár"), 
-("HU", "8868", "Kistolmács"), 
-("HU", "8914", "Vasboldogasszony"), 
-("HU", "8924", "Alsónemesapáti"), 
-("HU", "8944", "Sárhida"), 
-("HU", "8969", "Zalaszombatfa"), 
-("HU", "7600", "Pécs"), 
-("HU", "7633", "Pécs"), 
-("HU", "7635", "Pécs"), 
-("HU", "7636", "Pécs"), 
-("HU", "7683", "Dinnyeberki"), 
-("HU", "7691", "Pécs"), 
-("HU", "7695", "Óbánya"), 
-("HU", "7827", "Beremend"), 
-("HU", "7847", "Kovácshida"), 
-("HU", "7973", "Teklafalu"), 
-("HU", "7973", "Bürüs"), 
-("HU", "5552", "Kardos"), 
-("HU", "5747", "Almáskamarás"), 
-("HU", "5836", "Dombegyház"), 
-("HU", "5903", "Orosháza"), 
-("HU", "6070", "Izsák"), 
-("HU", "6136", "Harkakötöny"), 
-("HU", "1027", "Budapest"), 
-("HU", "1061", "Budapest"), 
-("HU", "1102", "Budapest"), 
-("HU", "1107", "Budapest"), 
-("HU", "1171", "Budapest"), 
-("HU", "1213", "Budapest"), 
-("HU", "3444", "Gelej"), 
-("HU", "3526", "Miskolc"), 
-("HU", "3532", "Miskolc"), 
-("HU", "3565", "Tiszalúc"), 
-("HU", "3594", "Hejőpapi"), 
-("HU", "3671", "Borsodnádasd"), 
-("HU", "3704", "Berente"), 
-("HU", "3724", "Ragály"), 
-("HU", "3735", "Felsőtelekes"), 
-("HU", "3821", "Büttös"), 
-("HU", "3909", "Mád"), 
-("HU", "3918", "Szegilong"), 
-("HU", "3965", "Nagyrozvágy"), 
-("HU", "3996", "Füzér"), 
-("HU", "6635", "Szegvár"), 
-("HU", "6916", "Ambrózfalva"), 
-("HU", "2067", "Szárliget"), 
-("HU", "2459", "Rácalmás"), 
-("HU", "2464", "Gyúró"), 
-("HU", "7012", "Alsószentiván"), 
-("HU", "7017", "Mezőszilas"), 
-("HU", "8081", "Zámoly"), 
-("HU", "8125", "Sárkeresztúr"), 
-("HU", "8145", "Nádasdladány"), 
-("HU", "9083", "Écs"), 
-("HU", "9100", "Tét"), 
-("HU", "9121", "Győrszemere"), 
-("HU", "9132", "Árpás"), 
-("HU", "9153", "Öttevény"), 
-("HU", "9172", "Győrzámoly"), 
-("HU", "9175", "Dunaszentpál"), 
-("HU", "9221", "Levél"), 
-("HU", "9300", "Csorna"), 
-("HU", "9322", "Rábatamási"), 
-("HU", "9436", "Fertőszéplak"), 
-("HU", "4069", "Egyek"), 
-("HU", "4132", "Tépe"), 
-("HU", "4134", "Mezősas"), 
-("HU", "4135", "Körösszegapáti"), 
-("HU", "4145", "Csökmő"), 
-("HU", "3009", "Kerekharaszt"), 
-("HU", "3212", "Gyöngyöshalász"), 
-("HU", "3281", "Karácsond"), 
-("HU", "3357", "Nagyút"), 
-("HU", "5363", "Nagyiván"), 
-("HU", "2931", "Almásfüzitő"), 
-("HU", "3066", "Cserhátszentiván"), 
-("HU", "3126", "Bárna"), 
-("HU", "3181", "Karancsalja"), 
-("HU", "2053", "Herceghalom"), 
-("HU", "2083", "Solymár"), 
-("HU", "2095", "Pilisszántó"), 
-("HU", "2114", "Valkó"), 
-("HU", "2161", "Csomád"), 
-("HU", "2181", "Iklad"), 
-("HU", "2193", "Galgahévíz"), 
-("HU", "2363", "Felsőpakony"), 
-("HU", "2767", "Tápiógyörgye"), 
-("HU", "7274", "Kazsok"), 
-("HU", "7281", "Bonnya"), 
-("HU", "7434", "Mezőcsokonya"), 
-("HU", "7511", "Ötvöskónyi"), 
-("HU", "7513", "Rinyaszentkirály"), 
-("HU", "7530", "Kőkút"), 
-("HU", "7539", "Szulok"), 
-("HU", "7585", "Háromfa"), 
-("HU", "7918", "Szentborbás"), 
-("HU", "8622", "Szántód"), 
-("HU", "8655", "Som"), 
-("HU", "8666", "Somogyegres"), 
-("HU", "8725", "Iharosberény"), 
-("HU", "4472", "Gávavencsellő"), 
-("HU", "4503", "Tiszarád"), 
-("HU", "4521", "Berkesz"), 
-("HU", "4564", "Nyírmada"), 
-("HU", "4566", "Ilk"), 
-("HU", "4722", "Nyírmeggyes"), 
-("HU", "4746", "Szamostatárfalva"), 
-("HU", "4813", "Gyüre"), 
-("HU", "4932", "Márokpapi"), 
-("HU", "4969", "Tisztaberek"), 
-("HU", "7020", "Dunaföldvár"), 
-("HU", "7140", "Bátaszék"), 
-("HU", "9555", "Kissomlyó"), 
-("HU", "9622", "Szeleste"), 
-("HU", "9727", "Bozsok"), 
-("HU", "9766", "Rum"), 
-("HU", "8193", "Sóly"), 
-("HU", "8258", "Badacsonytomaj"), 
-("HU", "8295", "Taliándörögd"), 
-("HU", "8445", "Városlőd"), 
-("HU", "8511", "Pápa"), 
-("HU", "8514", "Mezőlak"), 
-("HU", "8516", "Kemeneshőgyész"), 
-("HU", "8532", "Marcaltő"), 
-("HU", "8533", "Malomsok"), 
-("HU", "8571", "Bakonykoppány"), 
-("HU", "8582", "Farkasgyepű"), 
-("HU", "8741", "Zalaapáti"), 
-("HU", "8765", "Egeraracsa"), 
-("HU", "8788", "Sénye"), 
-("HU", "8886", "Oltárc"), 
-("HU", "8893", "Bucsuta"), 
-("HU", "8897", "Söjtör"), 
-("HU", "8932", "Zalaistvánd"), 
-("HU", "8947", "Szentkozmadombja"), 
-("HU", "8971", "Kerkabarabás"), 
-("HU", "7370", "Felsőegerszeg"), 
-("HU", "7663", "Máriakéménd"), 
-("HU", "7694", "Hosszúhetény"), 
-("HU", "7720", "Martonfa"), 
-("HU", "7745", "Olasz"), 
-("HU", "7751", "Szederkény"), 
-("HU", "7785", "Sátorhely"), 
-("HU", "7800", "Kisharsány"), 
-("HU", "7811", "Bisse"), 
-("HU", "7811", "Csarnóta"), 
-("HU", "7838", "Hirics"), 
-("HU", "7914", "Rózsafa"), 
-("HU", "7915", "Szentegát"), 
-("HU", "7924", "Somogyviszló"), 
-("HU", "7973", "Várad"), 
-("HU", "5515", "Ecsegfalva"), 
-("HU", "5905", "Orosháza"), 
-("HU", "6060", "Tiszakécske"), 
-("HU", "6065", "Lakitelek"), 
-("HU", "6077", "Orgovány"), 
-("HU", "6334", "Géderlak"), 
-("HU", "1095", "Budapest"), 
-("HU", "1186", "Budapest"), 
-("HU", "1188", "Budapest"), 
-("HU", "3426", "Borsodgeszt"), 
-("HU", "3434", "Mályi"), 
-("HU", "3518", "Miskolc"), 
-("HU", "3531", "Miskolc"), 
-("HU", "3586", "Sajóörös"), 
-("HU", "3603", "Ózd"), 
-("HU", "3664", "Járdánháza"), 
-("HU", "3852", "Hernádszentandrás"), 
-("HU", "3886", "Korlát"), 
-("HU", "3988", "Sátoraljaújhely"), 
-("HU", "3989", "Alsóregmec"), 
-("HU", "6782", "Mórahalom"), 
-("HU", "6917", "Nagyér"), 
-("HU", "7041", "Vajta"), 
-("HU", "8065", "Nagyveleg"), 
-("HU", "8083", "Csákvár"), 
-("HU", "8143", "Sárszentmihály"), 
-("HU", "9011", "Győr"), 
-("HU", "9024", "Győr"), 
-("HU", "9093", "Győrasszonyfa"), 
-("HU", "9142", "Rábapatona"), 
-("HU", "9155", "Lébény"), 
-("HU", "9173", "Győrladamér"), 
-("HU", "9233", "Lipót"), 
-("HU", "9343", "Beled"), 
-("HU", "9493", "Fertőboz"), 
-("HU", "4121", "Szentpéterszeg"), 
-("HU", "4123", "Hencida"), 
-("HU", "4136", "Körösszakál"), 
-("HU", "4253", "Nyíradony"), 
-("HU", "4272", "Sáránd"), 
-("HU", "4281", "Létavértes"), 
-("HU", "3248", "Ivád"), 
-("HU", "3275", "Detk"), 
-("HU", "5082", "Tiszatenyő"), 
-("HU", "5135", "Jászivány"), 
-("HU", "5331", "Kenderes"), 
-("HU", "5400", "Mezőtúr"), 
-("HU", "5449", "Kunszentmárton"), 
-("HU", "5463", "Nagyrév"), 
-("HU", "2543", "Süttő"), 
-("HU", "2888", "Csatka"), 
-("HU", "2655", "Szente"), 
-("HU", "2660", "Balassagyarmat"), 
-("HU", "3070", "Bátonyterenye"), 
-("HU", "2009", "Pilisszentlászló"), 
-("HU", "2014", "Csobánka"), 
-("HU", "2097", "Pilisborosjenő"), 
-("HU", "2120", "Dunakeszi"), 
-("HU", "2191", "Bag"), 
-("HU", "2209", "Péteri"), 
-("HU", "2255", "Szentlőrinckáta"), 
-("HU", "2623", "Kismaros"), 
-("HU", "2746", "Jászkarajenő"), 
-("HU", "7442", "Várda"), 
-("HU", "7553", "Görgeteg"), 
-("HU", "7570", "Barcs"), 
-("HU", "7988", "Darány"), 
-("HU", "8654", "Ságvár"), 
-("HU", "8660", "Tab"), 
-("HU", "8706", "Nikla"), 
-("HU", "8732", "Sávoly"), 
-("HU", "8739", "Nagyszakácsi"), 
-("HU", "8851", "Gyékényes"), 
-("HU", "4363", "Nyírmihálydi"), 
-("HU", "4456", "Tiszadob"), 
-("HU", "4486", "Tiszatelek"), 
-("HU", "4545", "Gyulaháza"), 
-("HU", "4621", "Fényeslitke"), 
-("HU", "4947", "Tiszacsécse"), 
-("HU", "4965", "Kölcse"), 
-("HU", "7039", "Németkér"), 
-("HU", "7185", "Mucsfa"), 
-("HU", "7355", "Nagymányok"), 
-("HU", "9612", "Porpác"), 
-("HU", "9774", "Gyanógeregye"), 
-("HU", "9835", "Mikosszéplak"), 
-("HU", "9934", "Szaknyér"), 
-("HU", "8229", "Paloznak"), 
-("HU", "8244", "Dörgicse"), 
-("HU", "8248", "Veszprémfajsz"), 
-("HU", "8256", "Salföld"), 
-("HU", "8447", "Ajka"), 
-("HU", "8451", "Ajka"), 
-("HU", "8598", "Pápa"), 
-("HU", "9532", "Külsővat"), 
-("HU", "9534", "Marcalgergelyi"), 
-("HU", "8797", "Batyk"), 
-("HU", "8862", "Semjénháza"), 
-("HU", "8888", "Kiscsehi"), 
-("HU", "8888", "Lispeszentadorján"), 
-("HU", "8915", "Nemesrádó"), 
-("HU", "8951", "Csertalakos"), 
-("HU", "8956", "Pördefölde"), 
-("HU", "8978", "Belsősárd"), 
-("HU", "8985", "Becsvölgye"), 
-("HU", "8988", "Kálócfa"), 
-("HU", "7386", "Gödre"), 
-("HU", "7664", "Pereked"), 
-("HU", "7711", "Bár"), 
-("HU", "7720", "Lovászhetény"), 
-("HU", "7773", "Villány"), 
-("HU", "7813", "Szava"), 
-("HU", "7822", "Nagyharsány"), 
-("HU", "7838", "Nagycsány"), 
-("HU", "7846", "Drávacsepely"), 
-("HU", "7923", "Basal"), 
-("HU", "7925", "Somogyhárságy"), 
-("HU", "7954", "Kisasszonyfa"), 
-("HU", "5520", "Szeghalom"), 
-("HU", "5526", "Kertészsziget"), 
-("HU", "5650", "Mezőberény"), 
-("HU", "5662", "Csanádapáca"), 
-("HU", "5720", "Sarkad"), 
-("HU", "5744", "Kevermes"), 
-("HU", "5811", "Végegyháza"), 
-("HU", "6031", "Szentkirály"), 
-("HU", "6044", "Kecskemét"), 
-("HU", "6096", "Kunpeszér"), 
-("HU", "6131", "Szank"), 
-("HU", "6348", "Érsekhalma"), 
-("HU", "6440", "Jánoshalma"), 
-("HU", "6447", "Felsőszentiván"), 
-("HU", "6512", "Szeremle"), 
-("HU", "6525", "Hercegszántó"), 
-("HU", "1013", "Budapest"), 
-("HU", "1023", "Budapest"), 
-("HU", "1083", "Budapest"), 
-("HU", "1125", "Budapest"), 
-("HU", "1139", "Budapest"), 
-("HU", "1157", "Budapest"), 
-("HU", "1163", "Budapest"), 
-("HU", "3441", "Mezőkeresztes"), 
-("HU", "3465", "Tiszabábolna"), 
-("HU", "3516", "Miskolc"), 
-("HU", "3534", "Miskolc"), 
-("HU", "3623", "Borsodszentgyörgy"), 
-("HU", "3721", "Dövény"), 
-("HU", "3723", "Zubogy"), 
-("HU", "3742", "Rudolftelep"), 
-("HU", "3767", "Tornanádaska"), 
-("HU", "3778", "Varbó"), 
-("HU", "3809", "Selyeb"), 
-("HU", "3833", "Rásonysápberencs"), 
-("HU", "3873", "Garadna"), 
-("HU", "3962", "Karos"), 
-("HU", "3995", "Pusztafalu"), 
-("HU", "6710", "Szeged"), 
-("HU", "6725", "Szeged"), 
-("HU", "6923", "Óföldeák"), 
-("HU", "8130", "Enying"), 
-("HU", "8137", "Mezőkomárom"), 
-("HU", "8151", "Szabadbattyán"), 
-("HU", "9062", "Vének"), 
-("HU", "9074", "Rétalap"), 
-("HU", "9092", "Tarjánpuszta"), 
-("HU", "9223", "Bezenye"), 
-("HU", "9246", "Mosonudvar"), 
-("HU", "9343", "Vásárosfalu"), 
-("HU", "9361", "Hövej"), 
-("HU", "9463", "Sopronhorpács"), 
-("HU", "9471", "Nemeskér"), 
-("HU", "4161", "Báránd"), 
-("HU", "4176", "Sáp"), 
-("HU", "4220", "Hajdúböszörmény"), 
-("HU", "4283", "Létavértes"), 
-("HU", "3012", "Nagykökényes"), 
-("HU", "3348", "Szilvásvárad"), 
-("HU", "5362", "Tiszaörs"), 
-("HU", "2541", "Lábatlan"), 
-("HU", "2884", "Bakonyszombathely"), 
-("HU", "2899", "Naszály"), 
-("HU", "2945", "Tárkány"), 
-("HU", "2649", "Dejtár"), 
-("HU", "3067", "Garáb"), 
-("HU", "3123", "Cered"), 
-("HU", "3134", "Piliny"), 
-("HU", "2340", "Kiskunlacháza"), 
-("HU", "2628", "Szob"), 
-("HU", "7457", "Ecseny"), 
-("HU", "7474", "Simonfa"), 
-("HU", "7475", "Bőszénfa"), 
-("HU", "7515", "Somogyudvarhely"), 
-("HU", "7525", "Jákó"), 
-("HU", "7527", "Gige"), 
-("HU", "7977", "Drávagárdony"), 
-("HU", "8623", "Balatonföldvár"), 
-("HU", "8637", "Balatonőszöd"), 
-("HU", "8692", "Szőlősgyörök"), 
-("HU", "8728", "Pogányszentpéter"), 
-("HU", "8858", "Somogybükkösd"), 
-("HU", "4320", "Nagykálló"), 
-("HU", "4327", "Pócspetri"), 
-("HU", "4431", "Nyíregyháza"), 
-("HU", "4511", "Nyírbogdány"), 
-("HU", "4515", "Kék"), 
-("HU", "4841", "Jánd"), 
-("HU", "4912", "Kérsemjén"), 
-("HU", "4967", "Csaholc"), 
-("HU", "7133", "Fadd"), 
-("HU", "7193", "Regöly"), 
-("HU", "7212", "Kocsola"), 
-("HU", "7214", "Várong"), 
-("HU", "9514", "Kenyeri"), 
-("HU", "9556", "Duka"), 
-("HU", "9633", "Simaság"), 
-("HU", "9652", "Nick"), 
-("HU", "9741", "Vassurány"), 
-("HU", "9756", "Ikervár"), 
-("HU", "9794", "Felsőcsatár"), 
-("HU", "9953", "Vasszentmihály"), 
-("HU", "9970", "Szentgotthárd"), 
-("HU", "8247", "Hidegkút"), 
-("HU", "8281", "Szentbékkálla"), 
-("HU", "8284", "Kisapáti"), 
-("HU", "8330", "Sümeg"), 
-("HU", "8430", "Bakonyszentkirály"), 
-("HU", "8446", "Kislőd"), 
-("HU", "8449", "Magyarpolány"), 
-("HU", "8469", "Kamond"), 
-("HU", "8478", "Somlójenő"), 
-("HU", "8497", "Adorjánháza"), 
-("HU", "8541", "Takácsi"), 
-("HU", "8562", "Nagytevel"), 
-("HU", "8394", "Alsópáhok"), 
-("HU", "8771", "Hahót"), 
-("HU", "8774", "Gelse"), 
-("HU", "8782", "Tilaj"), 
-("HU", "8868", "Murarátka"), 
-("HU", "8873", "Csörnyeföld"), 
-("HU", "8913", "Lakhegy"), 
-("HU", "8936", "Zalaszentmihály"), 
-("HU", "8943", "Csatár"), 
-("HU", "8983", "Babosdöbréte"), 
-("HU", "7334", "Köblény"), 
-("HU", "7348", "Hegyhátmaróc"), 
-("HU", "7383", "Baranyaszentgyörgy"), 
-("HU", "7744", "Ellend"), 
-("HU", "7759", "Lánycsók"), 
-("HU", "7774", "Márok"), 
-("HU", "7823", "Kistapolca"), 
-("HU", "7833", "Görcsöny"), 
-("HU", "7834", "Téseny"), 
-("HU", "7851", "Drávaszabolcs"), 
-("HU", "7913", "Szentdénes"), 
-("HU", "7935", "Csebény"), 
-("HU", "5751", "Nagykamarás"), 
-("HU", "6062", "Tiszakécske"), 
-("HU", "6097", "Kunadacs"), 
-("HU", "6134", "Kömpöc"), 
-("HU", "6235", "Bócsa"), 
-("HU", "6453", "Bácsbokod"), 
-("HU", "1028", "Budapest"), 
-("HU", "1064", "Budapest"), 
-("HU", "1119", "Budapest"), 
-("HU", "1122", "Budapest"), 
-("HU", "1141", "Budapest"), 
-("HU", "3463", "Négyes"), 
-("HU", "3647", "Csokvaomány"), 
-("HU", "3716", "Újcsanálos"), 
-("HU", "3794", "Ziliz"), 
-("HU", "3809", "Nyésta"), 
-("HU", "3866", "Litka"), 
-("HU", "3926", "Taktabáj"), 
-("HU", "3929", "Tiszaladány"), 
-("HU", "3945", "Sátoraljaújhely"), 
-("HU", "3963", "Karcsa"), 
-("HU", "3972", "Tiszacsermely"), 
-("HU", "8095", "Pákozd"), 
-("HU", "8152", "Kőszárhegy"), 
-("HU", "9135", "Rábaszentmihály"), 
-("HU", "9161", "Győrsövényház"), 
-("HU", "9168", "Acsalag"), 
-("HU", "9314", "Egyed"), 
-("HU", "9474", "Gyalóka"), 
-("HU", "4042", "Debrecen"), 
-("HU", "4080", "Hajdúnánás"), 
-("HU", "4085", "Hajdúnánás"), 
-("HU", "4146", "Újiráz"), 
-("HU", "3021", "Lőrinci"), 
-("HU", "3284", "Tarnaméra"), 
-("HU", "3382", "Tarnaszentmiklós"), 
-("HU", "3383", "Hevesvezekény"), 
-("HU", "5051", "Zagyvarékas"), 
-("HU", "5065", "Nagykörű"), 
-("HU", "5071", "Besenyszög"), 
-("HU", "5130", "Jászapáti"), 
-("HU", "5212", "Törökszentmiklós"), 
-("HU", "5310", "Kisújszállás"), 
-("HU", "2518", "Leányvár"), 
-("HU", "2833", "Vértestolna"), 
-("HU", "2853", "Kömlőd"), 
-("HU", "2890", "Tata"), 
-("HU", "2943", "Bábolna"), 
-("HU", "2675", "Nógrádmarcal"), 
-("HU", "2699", "Szügy"), 
-("HU", "3047", "Buják"), 
-("HU", "3053", "Ecseg"), 
-("HU", "3064", "Szurdokpüspöki"), 
-("HU", "2000", "Szentendre"), 
-("HU", "2090", "Remeteszőlős"), 
-("HU", "2230", "Gyömrő"), 
-("HU", "2351", "Alsónémedi"), 
-("HU", "2366", "Kakucs"), 
-("HU", "2634", "Nagybörzsöny"), 
-("HU", "2636", "Tésa"), 
-("HU", "2721", "Pilis"), 
-("HU", "2730", "Albertirsa"), 
-("HU", "2735", "Dánszentmiklós"), 
-("HU", "7258", "Baté"), 
-("HU", "7500", "Nagyatád"), 
-("HU", "7512", "Mike"), 
-("HU", "7589", "Bélavár"), 
-("HU", "8628", "Nagycsepely"), 
-("HU", "8709", "Marcali"), 
-("HU", "8716", "Hosszúvíz"), 
-("HU", "8738", "Nemesvid"), 
-("HU", "4334", "Hodász"), 
-("HU", "4355", "Nagyecsed"), 
-("HU", "4371", "Nyírlugos"), 
-("HU", "4447", "Tiszalök"), 
-("HU", "4481", "Nyíregyháza"), 
-("HU", "4491", "Újdombrád"), 
-("HU", "4525", "Rétközberencs"), 
-("HU", "4541", "Nyírjákó"), 
-("HU", "4551", "Nyíregyháza"), 
-("HU", "4553", "Apagy"), 
-("HU", "4835", "Mátyus"), 
-("HU", "4845", "Tákos"), 
-("HU", "4900", "Fehérgyarmat"), 
-("HU", "7071", "Szakadát"), 
-("HU", "7161", "Cikó"), 
-("HU", "7172", "Harc"), 
-("HU", "9549", "Keléd"), 
-("HU", "9661", "Vasegerszeg"), 
-("HU", "9723", "Gyöngyösfalu"), 
-("HU", "9746", "Acsád"), 
-("HU", "9751", "Vép"), 
-("HU", "9800", "Vasvár"), 
-("HU", "8105", "Pétfürdő"), 
-("HU", "8174", "Balatonkenese"), 
-("HU", "8175", "Balatonfűzfő"), 
-("HU", "8256", "Ábrahámhegy"), 
-("HU", "8275", "Balatonhenye"), 
-("HU", "8431", "Bakonyszentlászló"), 
-("HU", "8442", "Hárskút"), 
-("HU", "8444", "Szentgál"), 
-("HU", "8473", "Gyepükaján"), 
-("HU", "8553", "Lovászpatona"), 
-("HU", "8761", "Zalaigrice"), 
-("HU", "8792", "Zalavég"), 
-("HU", "8885", "Borsfa"), 
-("HU", "8921", "Pethőhenye"), 
-("HU", "8960", "Gosztola"), 
-("HU", "8969", "Bödeháza"), 
-("HU", "8973", "Kerkakutas"), 
-("HU", "7332", "Magyaregregy"), 
-("HU", "7351", "Máza"), 
-("HU", "7383", "Tormás"), 
-("HU", "7639", "Pécs"), 
-("HU", "7726", "Véménd"), 
-("HU", "7754", "Bóly"), 
-("HU", "7772", "Villánykövesd"), 
-("HU", "7781", "Sárok"), 
-("HU", "7781", "Ivándárda"), 
-("HU", "7814", "Kisdér"), 
-("HU", "7841", "Adorjás"), 
-("HU", "7841", "Kisszentmárton"), 
-("HU", "7923", "Patapoklosi"), 
-("HU", "7935", "Ibafa"), 
-("HU", "5667", "Magyarbánhegyes"), 
-("HU", "5920", "Csorvás"), 
-("HU", "6080", "Szabadszállás"), 
-("HU", "6344", "Hajós"), 
-("HU", "6435", "Kunbaja"), 
-("HU", "1039", "Budapest"), 
-("HU", "1067", "Budapest"), 
-("HU", "1184", "Budapest"), 
-("HU", "1214", "Budapest"), 
-("HU", "3412", "Bogács"), 
-("HU", "3418", "Szentistván"), 
-("HU", "3432", "Emőd"), 
-("HU", "3528", "Miskolc"), 
-("HU", "3535", "Miskolc"), 
-("HU", "3662", "Ózd"), 
-("HU", "3765", "Tornabarakony"), 
-("HU", "3768", "Bódvalenke"), 
-("HU", "3792", "Sajóbábony"), 
-("HU", "3809", "Abaújszolnok"), 
-("HU", "3846", "Hernádkércs"), 
-("HU", "6786", "Ruzsa"), 
-("HU", "6794", "Üllés"), 
-("HU", "6805", "Hódmezővásárhely"), 
-("HU", "6911", "Királyhegyes"), 
-("HU", "6922", "Földeák"), 
-("HU", "2064", "Csabdi"), 
-("HU", "2066", "Szár"), 
-("HU", "2421", "Nagyvenyim"), 
-("HU", "2435", "Nagylók"), 
-("HU", "8053", "Bodajk"), 
-("HU", "8071", "Magyaralmás"), 
-("HU", "8089", "Vértesacsa"), 
-("HU", "9061", "Vámosszabadi"), 
-("HU", "9064", "Vámosszabadi"), 
-("HU", "9086", "Töltéstava"), 
-("HU", "9122", "Felpéc"), 
-("HU", "9124", "Gyömöre"), 
-("HU", "9146", "Rábapordány"), 
-("HU", "9178", "Hédervár"), 
-("HU", "9327", "Vág"), 
-("HU", "9341", "Kisfalud"), 
-("HU", "9352", "Veszkény"), 
-("HU", "9353", "Szárföld"), 
-("HU", "9423", "Ágfalva"), 
-("HU", "9437", "Hegykő"), 
-("HU", "9442", "Fertőendréd"), 
-("HU", "4002", "Debrecen"), 
-("HU", "4026", "Debrecen"), 
-("HU", "4243", "Téglás"), 
-("HU", "3011", "Heréd"), 
-("HU", "3256", "Kisfüzes"), 
-("HU", "3263", "Domoszló"), 
-("HU", "3352", "Feldebrő"), 
-("HU", "2027", "Dömös"), 
-("HU", "2882", "Kerékteleki"), 
-("HU", "2949", "Csém"), 
-("HU", "2177", "Erdőtarcsa"), 
-("HU", "2617", "Alsópetény"), 
-("HU", "2674", "Iliny"), 
-("HU", "3041", "Héhalom"), 
-("HU", "3045", "Bér"), 
-("HU", "3100", "Salgótarján"), 
-("HU", "3131", "Sóshartyán"), 
-("HU", "3188", "Ludányhalászi"), 
-("HU", "2017", "Pócsmegyer"), 
-("HU", "2314", "Halásztelek"), 
-("HU", "2370", "Dabas"), 
-("HU", "2373", "Dabas"), 
-("HU", "2627", "Zebegény"), 
-("HU", "2723", "Nyáregyháza"), 
-("HU", "7258", "Kaposkeresztúr"), 
-("HU", "7473", "Hajmás"), 
-("HU", "7522", "Kaposújlak"), 
-("HU", "7536", "Patosfa"), 
-("HU", "7584", "Rinyaújnép"), 
-("HU", "7585", "Bakháza"), 
-("HU", "7587", "Heresznye"), 
-("HU", "8669", "Miklósi"), 
-("HU", "8717", "Szenyér"), 
-("HU", "8722", "Nemesdéd"), 
-("HU", "8858", "Porrog"), 
-("HU", "4445", "Nagycserkesz"), 
-("HU", "4463", "Tiszanagyfalu"), 
-("HU", "4464", "Tiszaeszlár"), 
-("HU", "4531", "Nyírpazony"), 
-("HU", "4633", "Lövőpetri"), 
-("HU", "4635", "Újkenéz"), 
-("HU", "4641", "Mezőladány"), 
-("HU", "4735", "Szamossályi"), 
-("HU", "4754", "Fülpösdaróc"), 
-("HU", "4945", "Szatmárcseke"), 
-("HU", "4975", "Méhtelek"), 
-("HU", "7082", "Kisszékely"), 
-("HU", "7176", "Murga"), 
-("HU", "7215", "Nak"), 
-("HU", "7224", "Dúzs"), 
-("HU", "7354", "Váralja"), 
-("HU", "7362", "Vásárosdombó"), 
-("HU", "9621", "Ölbő"), 
-("HU", "9685", "Szemenye"), 
-("HU", "9733", "Horvátzsidány"), 
-("HU", "9733", "Ólmod"), 
-("HU", "9791", "Torony"), 
-("HU", "9813", "Sárfimizdó"), 
-("HU", "9826", "Petőmihályfa"), 
-("HU", "9833", "Csehi"), 
-("HU", "9962", "Csörötnek"), 
-("HU", "8162", "Küngös"), 
-("HU", "8164", "Balatonfőkajár"), 
-("HU", "8308", "Zalahaláp"), 
-("HU", "8345", "Dabronc"), 
-("HU", "8433", "Bakonygyirót"), 
-("HU", "8438", "Veszprémvarsány"), 
-("HU", "8493", "Iszkáz"), 
-("HU", "8543", "Gecse"), 
-("HU", "8552", "Vanyola"), 
-("HU", "8555", "Bakonytamási"), 
-("HU", "8572", "Bakonyszücs"), 
-("HU", "8356", "Kisgörbő"), 
-("HU", "8776", "Magyarszentmiklós"), 
-("HU", "8789", "Zalaszentgrót"), 
-("HU", "8874", "Dobri"), 
-("HU", "8893", "Szentliszló"), 
-("HU", "8928", "Nemeshetés"), 
-("HU", "8956", "Páka"), 
-("HU", "7300", "Komló"), 
-("HU", "7333", "Kárász"), 
-("HU", "7343", "Nagyhajmás"), 
-("HU", "7385", "Gödre"), 
-("HU", "7394", "Magyarhertelend"), 
-("HU", "7675", "Bakonya"), 
-("HU", "7728", "Görcsönydoboka"), 
-("HU", "7763", "Szemely"), 
-("HU", "7768", "Vokány"), 
-("HU", "7825", "Old"), 
-("HU", "7838", "Besence"), 
-("HU", "7853", "Gordisa"), 
-("HU", "7900", "Szigetvár"), 
-("HU", "7912", "Nagyváty"), 
-("HU", "7954", "Magyarmecske"), 
-("HU", "5742", "Elek"), 
-("HU", "5830", "Battonya"), 
-("HU", "6114", "Bugacpusztaháza"), 
-("HU", "6116", "Fülöpjakab"), 
-("HU", "6413", "Kunfehértó"), 
-("HU", "6454", "Bácsborsód"), 
-("HU", "1031", "Budapest"), 
-("HU", "1075", "Budapest"), 
-("HU", "1097", "Budapest"), 
-("HU", "1118", "Budapest"), 
-("HU", "1132", "Budapest"), 
-("HU", "1183", "Budapest"), 
-("HU", "3574", "Bőcs"), 
-("HU", "3764", "Bódvarákó"), 
-("HU", "3770", "Sajószentpéter"), 
-("HU", "3872", "Novajidrány"), 
-("HU", "3897", "Zsujta"), 
-("HU", "3921", "Taktaszada"), 
-("HU", "3994", "Kishuta"), 
-("HU", "2063", "Óbarok"), 
-("HU", "2065", "Mány"), 
-("HU", "2477", "Vereb"), 
-("HU", "2484", "Gárdony"), 
-("HU", "7019", "Sárbogárd"), 
-("HU", "8132", "Lepsény"), 
-("HU", "8142", "Úrhida"), 
-("HU", "9062", "Kisbajcs"), 
-("HU", "9096", "Nyalka"), 
-("HU", "9169", "Maglóca"), 
-("HU", "9222", "Hegyeshalom"), 
-("HU", "9330", "Kapuvár"), 
-("HU", "9473", "Egyházasfalu"), 
-("HU", "9482", "Nagylózs"), 
-("HU", "4063", "Debrecen"), 
-("HU", "4115", "Ártánd"), 
-("HU", "4144", "Darvas"), 
-("HU", "4164", "Bakonszeg"), 
-("HU", "4173", "Nagyrábé"), 
-("HU", "4184", "Tetétlen"), 
-("HU", "4252", "Nyíradony"), 
-("HU", "4271", "Mikepércs"), 
-("HU", "4274", "Hosszúpályi"), 
-("HU", "4286", "Bagamér"), 
-("HU", "3262", "Markaz"), 
-("HU", "3395", "Demjén"), 
-("HU", "5093", "Vezseny"), 
-("HU", "5452", "Mesterszállás"), 
-("HU", "2523", "Sárisáp"), 
-("HU", "2544", "Neszmély"), 
-("HU", "2897", "Dunaszentmiklós"), 
-("HU", "2655", "Kisecset"), 
-("HU", "3147", "Kazár"), 
-("HU", "3165", "Endrefalva"), 
-("HU", "3184", "Mihálygerge"), 
-("HU", "3187", "Nógrádszakál"), 
-("HU", "2015", "Szigetmonostor"), 
-("HU", "2074", "Perbál"), 
-("HU", "2244", "Úri"), 
-("HU", "2339", "Majosháza"), 
-("HU", "2637", "Perőcsény"), 
-("HU", "2683", "Acsa"), 
-("HU", "2737", "Ceglédbercel"), 
-("HU", "2765", "Farmos"), 
-("HU", "7253", "Szabadi"), 
-("HU", "7436", "Újvárfalva"), 
-("HU", "7473", "Kaposgyarmat"), 
-("HU", "8635", "Ordacsehi"), 
-("HU", "8693", "Kisberény"), 
-("HU", "8699", "Somogyvámos"), 
-("HU", "8700", "Marcali"), 
-("HU", "8716", "Mesztegnyő"), 
-("HU", "8734", "Somogyzsitfa"), 
-("HU", "4311", "Nyírgyulaj"), 
-("HU", "4332", "Nyírderzs"), 
-("HU", "4337", "Jármi"), 
-("HU", "4352", "Mérk"), 
-("HU", "4937", "Barabás"), 
-("HU", "4962", "Nagyszekeres"), 
-("HU", "7095", "Újireg"), 
-("HU", "7097", "Nagyszokoly"), 
-("HU", "7098", "Magyarkeszi"), 
-("HU", "7158", "Bonyhádvarasd"), 
-("HU", "7173", "Zomba"), 
-("HU", "7187", "Bonyhád"), 
-("HU", "7213", "Szakcs"), 
-("HU", "7356", "Kismányok"), 
-("HU", "9517", "Kemenessömjén"), 
-("HU", "9551", "Mesteri"), 
-("HU", "9663", "Nemesládony"), 
-("HU", "9757", "Meggyeskovácsi"), 
-("HU", "9761", "Táplánszentkereszt"), 
-("HU", "9773", "Sorokpolány"), 
-("HU", "9792", "Bucsu"), 
-("HU", "9798", "Ják"), 
-("HU", "9912", "Molnaszecsőd"), 
-("HU", "9917", "Halogy"), 
-("HU", "9982", "Orfalu"), 
-("HU", "8226", "Alsóörs"), 
-("HU", "8233", "Balatonszőlős"), 
-("HU", "8346", "Gógánfa"), 
-("HU", "8429", "Porva"), 
-("HU", "8455", "Pusztamiske"), 
-("HU", "8458", "Oroszi"), 
-("HU", "8500", "Pápa"), 
-("HU", "8551", "Nagygyimót"), 
-("HU", "8597", "Döbrönte"), 
-("HU", "8341", "Mihályfa"), 
-("HU", "8745", "Kerecseny"), 
-("HU", "8753", "Balatonmagyaród"), 
-("HU", "8774", "Gelsesziget"), 
-("HU", "8778", "Újudvar"), 
-("HU", "8832", "Liszó"), 
-("HU", "8925", "Nemessándorháza"), 
-("HU", "7671", "Zók"), 
-("HU", "7678", "Kovácsszénája"), 
-("HU", "7681", "Okorvölgy"), 
-("HU", "7695", "Ófalu"), 
-("HU", "7700", "Mohács"), 
-("HU", "7731", "Nagypall"), 
-("HU", "7781", "Lippó"), 
-("HU", "7812", "Garé"), 
-("HU", "7833", "Szőke"), 
-("HU", "7951", "Szabadszentkirály"), 
-("HU", "7954", "Gilvánfa"), 
-("HU", "7967", "Markóc"), 
-("HU", "5732", "Mezőgyán"), 
-("HU", "5948", "Kaszaper"), 
-("HU", "6086", "Szalkszentmárton"), 
-("HU", "6111", "Gátér"), 
-("HU", "6327", "Harta"), 
-("HU", "6513", "Dunafalva"), 
-("HU", "1014", "Budapest"), 
-("HU", "1024", "Budapest"), 
-("HU", "1026", "Budapest"), 
-("HU", "1034", "Budapest"), 
-("HU", "1073", "Budapest"), 
-("HU", "1077", "Budapest"), 
-("HU", "1084", "Budapest"), 
-("HU", "1086", "Budapest"), 
-("HU", "1101", "Budapest"), 
-("HU", "3400", "Mezőkövesd"), 
-("HU", "3564", "Hernádnémeti"), 
-("HU", "3636", "Sajógalgóc"), 
-("HU", "3712", "Sajósenye"), 
-("HU", "3825", "Viszló"), 
-("HU", "3855", "Fancsal"), 
-("HU", "3871", "Méra"), 
-("HU", "3896", "Telkibánya"), 
-("HU", "3965", "Kisrozvágy"), 
-("HU", "3967", "Lácacséke"), 
-("HU", "3980", "Sátoraljaújhely"), 
-("HU", "3987", "Bodroghalom"), 
-("HU", "6622", "Nagymágocs"), 
-("HU", "6648", "Csongrád"), 
-("HU", "6921", "Maroslele"), 
-("HU", "2091", "Etyek"), 
-("HU", "2456", "Besnyő"), 
-("HU", "2481", "Velence"), 
-("HU", "7013", "Cece"), 
-("HU", "8124", "Káloz"), 
-("HU", "9000", "Győr"), 
-("HU", "9073", "Bőny"), 
-("HU", "9088", "Bakonypéterd"), 
-("HU", "9174", "Dunaszeg"), 
-("HU", "4060", "Balmazújváros"), 
-("HU", "4066", "Tiszacsege"), 
-("HU", "4130", "Derecske"), 
-("HU", "4200", "Hajdúszoboszló"), 
-("HU", "4285", "Álmosd"), 
-("HU", "5142", "Alattyán"), 
-("HU", "5420", "Túrkeve"), 
-("HU", "5430", "Tiszaföldvár"), 
-("HU", "5474", "Tiszasas"), 
-("HU", "2834", "Tardos"), 
-("HU", "2858", "Császár"), 
-("HU", "2646", "Drégelypalánk"), 
-("HU", "2658", "Horpács"), 
-("HU", "3082", "Pásztó"), 
-("HU", "3178", "Varsány"), 
-("HU", "3182", "Karancslapujtő"), 
-("HU", "2092", "Budakeszi"), 
-("HU", "2117", "Isaszeg"), 
-("HU", "2214", "Pánd"), 
-("HU", "2217", "Gomba"), 
-("HU", "7257", "Mosdós"), 
-("HU", "7400", "Zselickislak"), 
-("HU", "7453", "Mernye"), 
-("HU", "8613", "Balatonendréd"), 
-("HU", "8651", "Balatonszabadi"), 
-("HU", "8705", "Somogyszentpál"), 
-("HU", "8708", "Somogyfajsz"), 
-("HU", "4300", "Nyírbátor"), 
-("HU", "4374", "Encsencs"), 
-("HU", "4441", "Szorgalmatos"), 
-("HU", "4450", "Tiszalök"), 
-("HU", "4493", "Tiszakanyár"), 
-("HU", "4516", "Demecser"), 
-("HU", "4741", "Jánkmajtis"), 
-("HU", "4942", "Mánd"), 
-("HU", "4964", "Fülesd"), 
-("HU", "7030", "Paks"), 
-("HU", "7149", "Báta"), 
-("HU", "7361", "Kaposszekcső"), 
-("HU", "9631", "Hegyfalu"), 
-("HU", "9724", "Lukácsháza"), 
-("HU", "9793", "Narda"), 
-("HU", "9795", "Vaskeresztes"), 
-("HU", "8184", "Balatonfűzfő"), 
-("HU", "8248", "Nemesvámos"), 
-("HU", "8272", "Szentjakabfa"), 
-("HU", "8291", "Barnag"), 
-("HU", "8409", "Úrkút"), 
-("HU", "8415", "Nagyesztergár"), 
-("HU", "8419", "Csesznek"), 
-("HU", "8432", "Fenyőfő"), 
-("HU", "8556", "Pápateszér"), 
-("HU", "8581", "Németbánya"), 
-("HU", "8593", "Pápadereske"), 
-("HU", "8371", "Nemesbük"), 
-("HU", "8743", "Zalaszabar"), 
-("HU", "8751", "Zalakomár"), 
-("HU", "8764", "Dióskál"), 
-("HU", "8776", "Magyarszerdahely"), 
-("HU", "8827", "Zalaszentjakab"), 
-("HU", "8881", "Sormás"), 
-("HU", "8887", "Lasztonya"), 
-("HU", "8891", "Várfölde"), 
-("HU", "8911", "Kiskutas"), 
-("HU", "8912", "Nagypáli"), 
-("HU", "8931", "Vöckönd"), 
-("HU", "8935", "Almásháza"), 
-("HU", "8966", "Lenti"), 
-("HU", "8992", "Zalaboldogfa"), 
-("HU", "7348", "Tófű"), 
-("HU", "7370", "Meződ"), 
-("HU", "7661", "Kékesd"), 
-("HU", "7661", "Szellő"), 
-("HU", "7716", "Homorúd"), 
-("HU", "7720", "Apátvarasd"), 
-("HU", "7756", "Kisbudmér"), 
-("HU", "7763", "Egerág"), 
-("HU", "7971", "Hobol"), 
-("HU", "5661", "Újkígyós"), 
-("HU", "5674", "Kétsoprony"), 
-("HU", "5820", "Mezőhegyes"), 
-("HU", "6034", "Helvécia"), 
-("HU", "6087", "Dunavecse"), 
-("HU", "6347", "Érsekcsanád"), 
-("HU", "6503", "Baja"), 
-("HU", "6521", "Vaskút"), 
-("HU", "1025", "Budapest"), 
-("HU", "1063", "Budapest"), 
-("HU", "3422", "Bükkábrány"), 
-("HU", "3572", "Sajólád"), 
-("HU", "3577", "Köröm"), 
-("HU", "3641", "Nagybarca"), 
-("HU", "3648", "Lénárddaróc"), 
-("HU", "3713", "Arnót"), 
-("HU", "3721", "Jákfalva"), 
-("HU", "3768", "Hidvégardó"), 
-("HU", "3813", "Kupa"), 
-("HU", "3817", "Gagybátor"), 
-("HU", "3821", "Keresztéte"), 
-("HU", "3837", "Alsógagy"), 
-("HU", "3876", "Hidasnémeti"), 
-("HU", "3887", "Hernádcéce"), 
-("HU", "3898", "Pányok"), 
-("HU", "3915", "Tarcal"), 
-("HU", "3956", "Viss"), 
-("HU", "6612", "Nagytőke"), 
-("HU", "6806", "Hódmezővásárhely"), 
-("HU", "2454", "Iváncsa"), 
-("HU", "2465", "Ráckeresztúr"), 
-("HU", "7015", "Igar"), 
-("HU", "8072", "Söréd"), 
-("HU", "9028", "Győr"), 
-("HU", "9131", "Mórichida"), 
-("HU", "9181", "Kimle"), 
-("HU", "9325", "Sopronnémeti"), 
-("HU", "9365", "Dénesfa"), 
-("HU", "9375", "Csáfordjánosfa"), 
-("HU", "9435", "Sarród"), 
-("HU", "9476", "Zsira"), 
-("HU", "4032", "Debrecen"), 
-("HU", "4087", "Hajdúdorog"), 
-("HU", "4141", "Furta"), 
-("HU", "4181", "Nádudvar"), 
-("HU", "3211", "Gyöngyösoroszi"), 
-("HU", "3333", "Terpes"), 
-("HU", "3335", "Bükkszék"), 
-("HU", "3343", "Bekölce"), 
-("HU", "3346", "Bükkszentmárton"), 
-("HU", "5064", "Csataszög"), 
-("HU", "5091", "Tószeg"), 
-("HU", "5234", "Tiszaroff"), 
-("HU", "2508", "Esztergom"), 
-("HU", "2522", "Dág"), 
-("HU", "2526", "Epöl"), 
-("HU", "2824", "Várgesztes"), 
-("HU", "2856", "Szákszend"), 
-("HU", "2881", "Ászár"), 
-("HU", "3077", "Mátraverebély"), 
-("HU", "3129", "Nagykeresztúr"), 
-("HU", "3142", "Mátraszele"), 
-("HU", "3163", "Karancsság"), 
-("HU", "3183", "Karancskeszi"), 
-("HU", "2051", "Biatorbágy"), 
-("HU", "2084", "Pilisszentiván"), 
-("HU", "2115", "Vácszentlászló"), 
-("HU", "2233", "Ecser"), 
-("HU", "2252", "Tóalmás"), 
-("HU", "2360", "Gyál"), 
-("HU", "2600", "Vác"), 
-("HU", "2612", "Kosd"), 
-("HU", "2633", "Ipolytölgyes"), 
-("HU", "2700", "Cegléd"), 
-("HU", "7476", "Kaposszerdahely"), 
-("HU", "7582", "Péterhida"), 
-("HU", "8646", "Balatonfenyves"), 
-("HU", "8660", "Torvaj"), 
-("HU", "8666", "Bedegkér"), 
-("HU", "8685", "Gamás"), 
-("HU", "8693", "Lengyeltóti"), 
-("HU", "8735", "Csákány"), 
-("HU", "4373", "Ömböly"), 
-("HU", "4483", "Buj"), 
-("HU", "4488", "Beszterec"), 
-("HU", "4496", "Szabolcsveresmart"), 
-("HU", "4532", "Nyírtura"), 
-("HU", "4555", "Levelek"), 
-("HU", "4756", "Rápolt"), 
-("HU", "4761", "Porcsalma"), 
-("HU", "4762", "Tyukod"), 
-("HU", "4804", "Vásárosnamény"), 
-("HU", "4951", "Tiszabecs"), 
-("HU", "4966", "Vámosoroszi"), 
-("HU", "4973", "Császló"), 
-("HU", "7027", "Paks"), 
-("HU", "7043", "Bikács"), 
-("HU", "7052", "Kölesd"), 
-("HU", "7062", "Keszőhidegkút"), 
-("HU", "7148", "Alsónyék"), 
-("HU", "7150", "Bonyhád"), 
-("HU", "7191", "Hőgyész"), 
-("HU", "7226", "Kurd"), 
-("HU", "9654", "Csánig"), 
-("HU", "9764", "Meggyeskovácsi"), 
-("HU", "9797", "Nárai"), 
-("HU", "8109", "Tés"), 
-("HU", "8227", "Felsőörs"), 
-("HU", "8246", "Tótvázsony"), 
-("HU", "8251", "Zánka"), 
-("HU", "8255", "Kővágóörs"), 
-("HU", "8291", "Pula"), 
-("HU", "8348", "Zalameggyes"), 
-("HU", "8400", "Ajka"), 
-("HU", "8418", "Bakonyoszlop"), 
-("HU", "8423", "Szápár"), 
-("HU", "8427", "Bakonybél"), 
-("HU", "8518", "Kemenesszentpéter"), 
-("HU", "8557", "Bakonyság"), 
-("HU", "8395", "Felsőpáhok"), 
-("HU", "8767", "Alsórajk"), 
-("HU", "8835", "Fityeház"), 
-("HU", "8856", "Surd"), 
-("HU", "8879", "Kerkateskánd"), 
-("HU", "8935", "Misefa"), 
-("HU", "8943", "Bocfölde"), 
-("HU", "8956", "Kányavár"), 
-("HU", "8992", "Hagyárosbörönd"), 
-("HU", "7370", "Vázsnok"), 
-("HU", "7671", "Aranyosgadány"), 
-("HU", "7732", "Fazekasboda"), 
-("HU", "7737", "Székelyszabar"), 
-("HU", "7800", "Siklós"), 
-("HU", "7836", "Bogádmindszent"), 
-("HU", "7976", "Szörény"), 
-("HU", "7981", "Kistamási"), 
-("HU", "5932", "Gádoros"), 
-("HU", "6114", "Bugac"), 
-("HU", "6342", "Drágszél"), 
-("HU", "6352", "Fajsz"), 
-("HU", "6449", "Mélykút"), 
-("HU", "1029", "Budapest"), 
-("HU", "1033", "Budapest"), 
-("HU", "1042", "Budapest"), 
-("HU", "1051", "Budapest"), 
-("HU", "1124", "Budapest"), 
-("HU", "1126", "Budapest"), 
-("HU", "1137", "Budapest"), 
-("HU", "1203", "Budapest"), 
-("HU", "3442", "Csincse"), 
-("HU", "3622", "Uppony"), 
-("HU", "3635", "Dubicsány"), 
-("HU", "3646", "Nekézseny"), 
-("HU", "3655", "Hét"), 
-("HU", "3656", "Sajóvelezd"), 
-("HU", "3918", "Szegi"), 
-("HU", "3959", "Makkoshotyka"), 
-("HU", "3999", "Hollóháza"), 
-("HU", "6624", "Eperjes"), 
-("HU", "7018", "Sárbogárd"), 
-("HU", "8019", "Székesfehérvár"), 
-("HU", "8066", "Pusztavám"), 
-("HU", "8087", "Alcsútdoboz"), 
-("HU", "8136", "Lajoskomárom"), 
-("HU", "8157", "Füle"), 
-("HU", "9027", "Győr"), 
-("HU", "9072", "Nagyszentjános"), 
-("HU", "9133", "Kisbabot"), 
-("HU", "9245", "Mosonszolnok"), 
-("HU", "9316", "Rábaszentandrás"), 
-("HU", "9346", "Magyarkeresztúr"), 
-("HU", "9373", "Pusztacsalád"), 
-("HU", "9443", "Petőháza"), 
-("HU", "9451", "Ebergőc"), 
-("HU", "4142", "Zsáka"), 
-("HU", "4150", "Püspökladány"), 
-("HU", "4175", "Bihardancsháza"), 
-("HU", "4225", "Debrecen"), 
-("HU", "3274", "Ludas"), 
-("HU", "3294", "Tarnaörs"), 
-("HU", "3327", "Novaj"), 
-("HU", "3345", "Mónosbél"), 
-("HU", "3369", "Tarnabod"), 
-("HU", "5062", "Kőtelek"), 
-("HU", "5471", "Tiszakürt"), 
-("HU", "2831", "Tarján"), 
-("HU", "2852", "Kecskéd"), 
-("HU", "2883", "Bársonyos"), 
-("HU", "2672", "Hugyag"), 
-("HU", "2697", "Szanda"), 
-("HU", "3060", "Pásztó"), 
-("HU", "3066", "Bokor"), 
-("HU", "2135", "Csörög"), 
-("HU", "2225", "Üllő"), 
-("HU", "2235", "Mende"), 
-("HU", "2317", "Szigetcsép"), 
-("HU", "2344", "Dömsöd"), 
-("HU", "2745", "Kőröstetétlen"), 
-("HU", "2750", "Nagykőrös"), 
-("HU", "7279", "Kisgyalán"), 
-("HU", "7439", "Bodrog"), 
-("HU", "7441", "Magyaregres"), 
-("HU", "7458", "Polány"), 
-("HU", "7472", "Szentbalázs"), 
-("HU", "8660", "Lulla"), 
-("HU", "8674", "Nágocs"), 
-("HU", "8719", "Böhönye"), 
-("HU", "8737", "Somogysimonyi"), 
-("HU", "4485", "Nagyhalász"), 
-("HU", "4534", "Székely"), 
-("HU", "4558", "Ófehértó"), 
-("HU", "4700", "Mátészalka"), 
-("HU", "4731", "Tunyogmatolcs"), 
-("HU", "4911", "Nábrád"), 
-("HU", "4934", "Beregdaróc"), 
-("HU", "7085", "Nagyszékely"), 
-("HU", "7195", "Mucsi"), 
-("HU", "7353", "Izmény"), 
-("HU", "9725", "Kőszegdoroszló"), 
-("HU", "9725", "Cák"), 
-("HU", "9749", "Nemesbőd"), 
-("HU", "9834", "Csehimindszent"), 
-("HU", "9900", "Körmend"), 
-("HU", "9912", "Magyarszecsőd"), 
-("HU", "8163", "Csajág"), 
-("HU", "8253", "Révfülöp"), 
-("HU", "8257", "Badacsonytomaj"), 
-("HU", "8286", "Gyulakeszi"), 
-("HU", "8294", "Vigántpetend"), 
-("HU", "8349", "Zalagyömörő"), 
-("HU", "8435", "Gic"), 
-("HU", "8476", "Zalaszegvár"), 
-("HU", "8485", "Dabrony"), 
-("HU", "8515", "Békás"), 
-("HU", "8521", "Nagyacsád"), 
-("HU", "8557", "Bakonyszentiván"), 
-("HU", "8565", "Béb"), 
-("HU", "8592", "Dáka"), 
-("HU", "9534", "Vinár"), 
-("HU", "8747", "Zalamerenye"), 
-("HU", "8756", "Csapi"), 
-("HU", "8935", "Nagykapornak"), 
-("HU", "8957", "Hernyék"), 
-("HU", "8973", "Magyarföld"), 
-("HU", "8973", "Ramocsa"), 
-("HU", "8981", "Lickóvadamos"), 
-("HU", "7188", "Szárász"), 
-("HU", "7347", "Egyházaskozár"), 
-("HU", "7370", "Palé"), 
-("HU", "7391", "Mindszentgodisa"), 
-("HU", "7625", "Pécs"), 
-("HU", "7673", "Cserkút"), 
-("HU", "7681", "Hetvehely"), 
-("HU", "7712", "Dunaszekcső"), 
-("HU", "7755", "Töttös"), 
-("HU", "7757", "Babarc"), 
-("HU", "7772", "Ivánbattyán"), 
-("HU", "7775", "Illocska"), 
-("HU", "7782", "Bezedek"), 
-("HU", "7783", "Majs"), 
-("HU", "7826", "Alsószentmárton"), 
-("HU", "7839", "Kemse"), 
-("HU", "7900", "Csertő"), 
-("HU", "7932", "Mozsgó"), 
-("HU", "7960", "Sellye"), 
-("HU", "7960", "Sósvertike"), 
-("HU", "7966", "Bogdása"), 
-("HU", "5609", "Csabaszabadi"), 
-("HU", "5672", "Murony"), 
-("HU", "5741", "Kétegyháza"), 
-("HU", "5945", "Kardoskút"), 
-("HU", "6043", "Kunbaracs"), 
-("HU", "6078", "Jakabszállás"), 
-("HU", "6090", "Kunszentmiklós"), 
-("HU", "6113", "Petőfiszállás"), 
-("HU", "6326", "Harta"), 
-("HU", "6328", "Dunapataj"), 
-("HU", "1056", "Budapest"), 
-("HU", "1094", "Budapest"), 
-("HU", "1105", "Budapest"), 
-("HU", "1134", "Budapest"), 
-("HU", "1149", "Budapest"), 
-("HU", "1174", "Budapest"), 
-("HU", "3563", "Hernádkak"), 
-("HU", "3573", "Sajópetri"), 
-("HU", "3658", "Borsodbóta"), 
-("HU", "3663", "Arló"), 
-("HU", "3726", "Zádorfalva"), 
-("HU", "3743", "Ormosbánya"), 
-("HU", "3837", "Felsőgagy"), 
-("HU", "3865", "Fáj"), 
-("HU", "3906", "Golop"), 
-("HU", "3910", "Tokaj"), 
-("HU", "3925", "Prügy"), 
-("HU", "3954", "Györgytarló"), 
-("HU", "3957", "Zalkod"), 
-("HU", "6600", "Szentes"), 
-("HU", "6720", "Szeged"), 
-("HU", "6781", "Domaszék"), 
-("HU", "6785", "Pusztamérges"), 
-("HU", "6900", "Makó"), 
-("HU", "6914", "Pitvaros"), 
-("HU", "6932", "Magyarcsanád"), 
-("HU", "2455", "Beloiannisz"), 
-("HU", "2458", "Kulcs"), 
-("HU", "2462", "Martonvásár"), 
-("HU", "2490", "Pusztaszabolcs"), 
-("HU", "8042", "Moha"), 
-("HU", "8052", "Fehérvárcsurgó"), 
-("HU", "8127", "Aba"), 
-("HU", "8135", "Dég"), 
-("HU", "9023", "Győr"), 
-("HU", "9123", "Kajárpéc"), 
-("HU", "9243", "Jánossomorja"), 
-("HU", "9317", "Szany"), 
-("HU", "9344", "Rábakecöl"), 
-("HU", "9451", "Röjtökmuzsaj"), 
-("HU", "9484", "Pereszteg"), 
-("HU", "4078", "Debrecen"), 
-("HU", "4090", "Polgár"), 
-("HU", "4096", "Újtikos"), 
-("HU", "4100", "Berettyóújfalu"), 
-("HU", "4122", "Gáborján"), 
-("HU", "3016", "Boldog"), 
-("HU", "3022", "Lőrinci"), 
-("HU", "3023", "Petőfibánya"), 
-("HU", "3024", "Lőrinci"), 
-("HU", "3033", "Rózsaszentmárton"), 
-("HU", "3200", "Gyöngyös"), 
-("HU", "3233", "Gyöngyös"), 
-("HU", "3328", "Egerszólát"), 
-("HU", "3359", "Tenk"), 
-("HU", "3390", "Füzesabony"), 
-("HU", "5321", "Kunmadaras"), 
-("HU", "5411", "Kétpó"), 
-("HU", "2528", "Úny"), 
-("HU", "2885", "Bakonybánk"), 
-("HU", "2947", "Ete"), 
-("HU", "2645", "Nagyoroszi"), 
-("HU", "3065", "Pásztó"), 
-("HU", "3124", "Zabar"), 
-("HU", "2038", "Sóskút"), 
-("HU", "2212", "Csévharaszt"), 
-("HU", "2322", "Makád"), 
-("HU", "2615", "Csővár"), 
-("HU", "2738", "Cegléd"), 
-("HU", "7535", "Lad"), 
-("HU", "7556", "Rinyaújlak"), 
-("HU", "8638", "Balatonlelle"), 
-("HU", "8696", "Táska"), 
-("HU", "8707", "Pusztakovácsi"), 
-("HU", "8714", "Marcali"), 
-("HU", "8721", "Vése"), 
-("HU", "8853", "Zákányfalu"), 
-("HU", "4343", "Bátorliget"), 
-("HU", "4522", "Nyírtass"), 
-("HU", "4567", "Gemzse"), 
-("HU", "4632", "Nyírlövő"), 
-("HU", "4812", "Nagyvarsány"), 
-("HU", "4824", "Szamosszeg"), 
-("HU", "4833", "Tiszaadony"), 
-("HU", "4922", "Nagyar"), 
-("HU", "4977", "Nagyhódos"), 
-("HU", "7143", "Őcsény"), 
-("HU", "7144", "Decs"), 
-("HU", "7146", "Várdomb"), 
-("HU", "7228", "Döbrököz"), 
-("HU", "9522", "Kemenesmagasi"), 
-("HU", "9561", "Nagysimonyi"), 
-("HU", "9608", "Sárvár"), 
-("HU", "9662", "Tompaládony"), 
-("HU", "9764", "Csempeszkopács"), 
-("HU", "9775", "Nemeskolta"), 
-("HU", "8181", "Berhida"), 
-("HU", "8241", "Aszófő"), 
-("HU", "8265", "Hegymagas"), 
-("HU", "8273", "Monoszló"), 
-("HU", "8311", "Nemesvita"), 
-("HU", "8445", "Csehbánya"), 
-("HU", "8452", "Szőc"), 
-("HU", "8564", "Ugod"), 
-("HU", "8341", "Kisvásárhely"), 
-("HU", "8353", "Vindornyalak"), 
-("HU", "8762", "Gétye"), 
-("HU", "8866", "Becsehely"), 
-("HU", "8883", "Rigyác"), 
-("HU", "8896", "Pusztaszentlászló"), 
-("HU", "8913", "Gősfa"), 
-("HU", "8921", "Zalaszentiván"), 
-("HU", "8926", "Kisbucsa"), 
-("HU", "8957", "Kissziget"), 
-("HU", "8986", "Pusztaapáti"), 
-("HU", "7393", "Bakóca"), 
-("HU", "7396", "Magyarszék"), 
-("HU", "7624", "Pécs"), 
-("HU", "7631", "Pécs"), 
-("HU", "7675", "Kővágótöttös"), 
-("HU", "7677", "Orfű"), 
-("HU", "7696", "Hidas"), 
-("HU", "7720", "Pécsvárad"), 
-("HU", "7733", "Maráza"), 
-("HU", "7756", "Nagybudmér"), 
-("HU", "7761", "Magyarsarlós"), 
-("HU", "7766", "Peterd"), 
-("HU", "7811", "Szilvás"), 
-("HU", "7811", "Szalánta"), 
-("HU", "7815", "Harkány"), 
-("HU", "7817", "Márfa"), 
-("HU", "7841", "Kórós"), 
-("HU", "7841", "Baranyahídvég"), 
-("HU", "7850", "Drávapalkonya"), 
-("HU", "7914", "Katádfa"), 
-("HU", "7940", "Szentlőrinc"), 
-("HU", "7953", "Királyegyháza"), 
-("HU", "7972", "Gyöngyösmellék"), 
-("HU", "5527", "Bucsa"), 
-("HU", "5622", "Köröstarcsa"), 
-("HU", "5623", "Békéscsaba"), 
-("HU", "5931", "Nagyszénás"), 
-("HU", "6222", "Csengőd"), 
-("HU", "6323", "Dunaegyháza"), 
-("HU", "6335", "Ordas"), 
-("HU", "1012", "Budapest"), 
-("HU", "1038", "Budapest"), 
-("HU", "1146", "Budapest"), 
-("HU", "3555", "Harsány"), 
-("HU", "3724", "Trizs"), 
-("HU", "3726", "Alsószuha"), 
-("HU", "3741", "Izsófalva"), 
-("HU", "3786", "Irota"), 
-("HU", "3812", "Monaj"), 
-("HU", "3928", "Tiszatardos"), 
-("HU", "6762", "Sándorfalva"), 
-("HU", "2422", "Mezőfalva"), 
-("HU", "8045", "Isztimér"), 
-("HU", "8051", "Sárkeresztes"), 
-("HU", "8073", "Csákberény"), 
-("HU", "9113", "Koroncó"), 
-("HU", "9126", "Gyarmat"), 
-("HU", "9136", "Mérges"), 
-("HU", "9167", "Jánossomorja"), 
-("HU", "9169", "Barbacs"), 
-("HU", "9177", "Ásványráró"), 
-("HU", "9326", "Szil"), 
-("HU", "9351", "Babót"), 
-("HU", "4024", "Debrecen"), 
-("HU", "4110", "Biharkeresztes"), 
-("HU", "4183", "Kaba"), 
-("HU", "3231", "Gyöngyössolymos"), 
-("HU", "3291", "Vámosgyörk"), 
-("HU", "3332", "Sirok"), 
-("HU", "3351", "Verpelét"), 
-("HU", "3371", "Átány"), 
-("HU", "3378", "Mezőszemere"), 
-("HU", "3386", "Sarud"), 
-("HU", "3398", "Nagytálya"), 
-("HU", "5361", "Tiszaigar"), 
-("HU", "2509", "Esztergom"), 
-("HU", "2835", "Tata"), 
-("HU", "2640", "Szendehely"), 
-("HU", "2653", "Bánk"), 
-("HU", "2692", "Szécsénke"), 
-("HU", "2694", "Debercsény"), 
-("HU", "3052", "Csécse"), 
-("HU", "2072", "Zsámbék"), 
-("HU", "2086", "Tinnye"), 
-("HU", "2146", "Mogyoród"), 
-("HU", "2170", "Aszód"), 
-("HU", "2315", "Szigethalom"), 
-("HU", "2371", "Dabas"), 
-("HU", "2376", "Hernád"), 
-("HU", "2639", "Bernecebaráti"), 
-("HU", "7255", "Nagyberki"), 
-("HU", "7275", "Igal"), 
-("HU", "7432", "Csombárd"), 
-("HU", "7443", "Somogyjád"), 
-("HU", "7443", "Edde"), 
-("HU", "7456", "Felsőmocsolád"), 
-("HU", "7461", "Orci"), 
-("HU", "7524", "Kiskorpád"), 
-("HU", "7532", "Hencse"), 
-("HU", "7563", "Somogyszob"), 
-("HU", "7584", "Somogyaracs"), 
-("HU", "8653", "Ádánd"), 
-("HU", "8660", "Sérsekszőlős"), 
-("HU", "4231", "Bököny"), 
-("HU", "4335", "Kántorjánosi"), 
-("HU", "4376", "Nyírpilis"), 
-("HU", "4487", "Tiszatelek"), 
-("HU", "4495", "Döge"), 
-("HU", "4502", "Vasmegyer"), 
-("HU", "4625", "Győröcske"), 
-("HU", "4766", "Pátyod"), 
-("HU", "4954", "Sonkád"), 
-("HU", "7044", "Nagydorog"), 
-("HU", "7047", "Sárszentlőrinc"), 
-("HU", "7068", "Kistormás"), 
-("HU", "9545", "Jánosháza"), 
-("HU", "9547", "Karakó"), 
-("HU", "9623", "Répceszentgyörgy"), 
-("HU", "9624", "Chernelházadamonya"), 
-("HU", "9643", "Jákfa"), 
-("HU", "9671", "Sitke"), 
-("HU", "9784", "Harasztifalu"), 
-("HU", "9915", "Nádasd"), 
-("HU", "9923", "Kemestaródfa"), 
-("HU", "9946", "Magyarszombatfa"), 
-("HU", "8182", "Berhida"), 
-("HU", "8228", "Lovas"), 
-("HU", "8271", "Mencshely"), 
-("HU", "8413", "Eplény"), 
-("HU", "8441", "Márkó"), 
-("HU", "8448", "Ajka"), 
-("HU", "8457", "Bakonypölöske"), 
-("HU", "8475", "Veszprémgalsa"), 
-("HU", "8477", "Tüskevár"), 
-("HU", "8481", "Somlóvásárhely"), 
-("HU", "8522", "Nemesgörzsöny"), 
-("HU", "8523", "Egyházaskesző"), 
-("HU", "8591", "Pápa"), 
-("HU", "8595", "Kup"), 
-("HU", "8372", "Cserszegtomaj"), 
-("HU", "8756", "Zalasárszeg"), 
-("HU", "8773", "Kacorlak"), 
-("HU", "8774", "Kilimán"), 
-("HU", "8872", "Szentmargitfalva"), 
-("HU", "8877", "Tornyiszentmiklós"), 
-("HU", "8931", "Kemendollár"), 
-("HU", "8958", "Iklódbördőce"), 
-("HU", "8976", "Nemesnép"), 
-("HU", "8977", "Lendvajakabfa"), 
-("HU", "8981", "Gellénháza"), 
-("HU", "8986", "Pórszombat"), 
-("HU", "7627", "Pécs"), 
-("HU", "7681", "Szentkatalin"), 
-("HU", "7720", "Zengővárkony"), 
-("HU", "7723", "Erdősmecske"), 
-("HU", "7724", "Feked"), 
-("HU", "7728", "Somberek"), 
-("HU", "7743", "Romonya"), 
-("HU", "7775", "Lapáncsa"), 
-("HU", "7814", "Babarcszőlős"), 
-("HU", "7827", "Kásád"), 
-("HU", "7838", "Vajszló"), 
-("HU", "7914", "Bánfa"), 
-("HU", "7932", "Szulimán"), 
-("HU", "7940", "Kacsóta"), 
-("HU", "7954", "Magyartelek"), 
-("HU", "6221", "Akasztó"), 
-("HU", "6523", "Csátalja"), 
-("HU", "1221", "Budapest"), 
-("HU", "1237", "Budapest"), 
-("HU", "3561", "Felsőzsolca"), 
-("HU", "3578", "Girincs"), 
-("HU", "3653", "Sajópüspöki"), 
-("HU", "3717", "Alsódobsza"), 
-("HU", "3720", "Sajóivánka"), 
-("HU", "3728", "Kelemér"), 
-("HU", "3735", "Kánó"), 
-("HU", "3768", "Becskeháza"), 
-("HU", "3814", "Felsővadász"), 
-("HU", "3826", "Rakacaszend"), 
-("HU", "3834", "Detek"), 
-("HU", "3837", "Gagyapáti"), 
-("HU", "3849", "Forró"), 
-("HU", "3854", "Gibárt"), 
-("HU", "3907", "Tállya"), 
-("HU", "3937", "Komlóska"), 
-("HU", "3974", "Ricse"), 
-("HU", "3989", "Felsőregmec"), 
-("HU", "3994", "Pálháza"), 
-("HU", "6724", "Szeged"), 
-("HU", "6787", "Zákányszék"), 
-("HU", "6821", "Székkutas"), 
-("HU", "6933", "Nagylak"), 
-("HU", "2400", "Dunaújváros"), 
-("HU", "2423", "Daruszentmiklós"), 
-("HU", "2432", "Szabadegyháza"), 
-("HU", "2434", "Hantos"), 
-("HU", "2472", "Kajászó"), 
-("HU", "8056", "Bakonycsernye"), 
-("HU", "9081", "Győrújbarát"), 
-("HU", "9085", "Pázmándfalu"), 
-("HU", "9112", "Sokorópátka"), 
-("HU", "9127", "Csikvánd"), 
-("HU", "9152", "Börcs"), 
-("HU", "9183", "Mosonszentmiklós"), 
-("HU", "9311", "Pásztori"), 
-("HU", "9324", "Bogyoszló"), 
-("HU", "9339", "Kapuvár"), 
-("HU", "9345", "Páli"), 
-("HU", "9431", "Fertőd"), 
-("HU", "9472", "Újkér"), 
-("HU", "4097", "Tiszagyulaháza"), 
-("HU", "4125", "Pocsaj"), 
-("HU", "4126", "Kismarja"), 
-("HU", "4162", "Szerep"), 
-("HU", "4211", "Ebes"), 
-("HU", "4241", "Bocskaikert"), 
-("HU", "3240", "Parád"), 
-("HU", "3245", "Recsk"), 
-("HU", "3374", "Dormánd"), 
-("HU", "3394", "Egerszalók"), 
-("HU", "3396", "Kerecsend"), 
-("HU", "5000", "Szolnok"), 
-("HU", "5241", "Abádszalók"), 
-("HU", "2534", "Tát"), 
-("HU", "2616", "Keszeg"), 
-("HU", "2619", "Legénd"), 
-("HU", "3121", "Somoskőújfalu"), 
-("HU", "3132", "Nógrádmegyer"), 
-("HU", "3135", "Szécsényfelfalu"), 
-("HU", "2022", "Tahitótfalu"), 
-("HU", "2025", "Visegrád"), 
-("HU", "2099", "Pilisszentkereszt"), 
-("HU", "2113", "Erdőkertes"), 
-("HU", "2118", "Dány"), 
-("HU", "2119", "Pécel"), 
-("HU", "2300", "Ráckeve"), 
-("HU", "2625", "Kóspallag"), 
-("HU", "2681", "Galgagyörk"), 
-("HU", "2682", "Püspökhatvan"), 
-("HU", "2760", "Nagykáta"), 
-("HU", "7272", "Gölle"), 
-("HU", "7514", "Tarany"), 
-("HU", "7544", "Szabás"), 
-("HU", "7545", "Nagykorpád"), 
-("HU", "7551", "Lábod"), 
-("HU", "7561", "Pálmajor"), 
-("HU", "8697", "Öreglak"), 
-("HU", "8717", "Nemeskisfalud"), 
-("HU", "4233", "Balkány"), 
-("HU", "4533", "Sényő"), 
-("HU", "4535", "Nyíribrony"), 
-("HU", "4556", "Magy"), 
-("HU", "4803", "Vásárosnamény"), 
-("HU", "4826", "Olcsva"), 
-("HU", "4933", "Beregsurány"), 
-("HU", "7072", "Diósberény"), 
-("HU", "7087", "Fürged"), 
-("HU", "7090", "Tamási"), 
-("HU", "7194", "Kalaznó"), 
-("HU", "7211", "Dalmand"), 
-("HU", "9521", "Kemenesszentmárton"), 
-("HU", "9611", "Csénye"), 
-("HU", "9612", "Bögöt"), 
-("HU", "9684", "Egervölgy"), 
-("HU", "9734", "Peresznye"), 
-("HU", "9789", "Sé"), 
-("HU", "9791", "Dozmat"), 
-("HU", "9831", "Bérbaltavár"), 
-("HU", "8191", "Öskü"), 
-("HU", "8229", "Csopak"), 
-("HU", "8254", "Kővágóörs"), 
-("HU", "8272", "Szentantalfa"), 
-("HU", "8348", "Megyer"), 
-("HU", "8452", "Halimba"), 
-("HU", "8471", "Nemeshany"), 
-("HU", "8596", "Pápakovácsi"), 
-("HU", "8315", "Gyenesdiás"), 
-("HU", "8741", "Bókaháza"), 
-("HU", "8772", "Börzönce"), 
-("HU", "8773", "Pölöskefő"), 
-("HU", "8782", "Ligetfalva"), 
-("HU", "8874", "Kerkaszentkirály"), 
-("HU", "8888", "Maróc"), 
-("HU", "8951", "Gutorfölde"), 
-("HU", "8973", "Kerkafalva"), 
-("HU", "8978", "Lendvadedes"), 
-("HU", "8991", "Teskánd"), 
-("HU", "8995", "Salomvár"), 
-("HU", "7668", "Gyód"), 
-("HU", "7718", "Udvar"), 
-("HU", "7733", "Geresdlak"), 
-("HU", "7756", "Borjád"), 
-("HU", "7843", "Szaporca"), 
-("HU", "7843", "Kémes"), 
-("HU", "7854", "Matty"), 
-("HU", "7915", "Dencsháza"), 
-("HU", "6311", "Öregcsertő"), 
-("HU", "6346", "Sükösd"), 
-("HU", "6400", "Kiskunhalas"), 
-("HU", "6425", "Bácsszőlős"), 
-("HU", "6446", "Rém"), 
-("HU", "1089", "Budapest"), 
-("HU", "1098", "Budapest"), 
-("HU", "1148", "Budapest"), 
-("HU", "1201", "Budapest"), 
-("HU", "3417", "Cserépváralja"), 
-("HU", "3587", "Tiszapalkonya"), 
-("HU", "3780", "Ládbesenyő"), 
-("HU", "3821", "Szászfa"), 
-("HU", "3866", "Szemere"), 
-("HU", "3891", "Vilmány"), 
-("HU", "3893", "Fony"), 
-("HU", "3927", "Csobaj"), 
-("HU", "6623", "Árpádhalom"), 
-("HU", "6754", "Újszentiván"), 
-("HU", "6783", "Ásotthalom"), 
-("HU", "6791", "Szeged"), 
-("HU", "2425", "Nagykarácsony"), 
-("HU", "8085", "Vértesboglár"), 
-("HU", "8122", "Csősz"), 
-("HU", "9095", "Táp"), 
-("HU", "9182", "Károlyháza"), 
-("HU", "9211", "Feketeerdő"), 
-("HU", "9225", "Dunakiliti"), 
-("HU", "9346", "Zsebeháza"), 
-("HU", "9372", "Csapod"), 
-("HU", "9461", "Lövő"), 
-("HU", "9464", "Und"), 
-("HU", "4028", "Debrecen"), 
-("HU", "4124", "Esztár"), 
-("HU", "3015", "Csány"), 
-("HU", "3381", "Pély"), 
-("HU", "5054", "Jászalsószentgyörgy"), 
-("HU", "5122", "Jászdózsa"), 
-("HU", "5125", "Pusztamonostor"), 
-("HU", "5136", "Jászszentandrás"), 
-("HU", "5213", "Fegyvernek"), 
-("HU", "5340", "Kunhegyes"), 
-("HU", "2521", "Csolnok"), 
-("HU", "2529", "Annavölgy"), 
-("HU", "2536", "Nyergesújfalu"), 
-("HU", "2545", "Dunaalmás"), 
-("HU", "2822", "Szomor"), 
-("HU", "2641", "Berkenye"), 
-("HU", "2654", "Romhány"), 
-("HU", "3154", "Szuha"), 
-("HU", "2024", "Kisoroszi"), 
-("HU", "2073", "Tök"), 
-("HU", "2094", "Nagykovácsi"), 
-("HU", "2145", "Kerepes"), 
-("HU", "2163", "Vácrátót"), 
-("HU", "2632", "Letkés"), 
-("HU", "7527", "Rinyakovácsi"), 
-("HU", "7584", "Babócsa"), 
-("HU", "7979", "Drávatamási"), 
-("HU", "7987", "Istvándi"), 
-("HU", "8626", "Teleki"), 
-("HU", "8649", "Balatonberény"), 
-("HU", "8672", "Zics"), 
-("HU", "8683", "Somogytúr"), 
-("HU", "8698", "Somogyvár"), 
-("HU", "8698", "Pamuk"), 
-("HU", "8840", "Csurgó"), 
-("HU", "4342", "Terem"), 
-("HU", "4523", "Pátroha"), 
-("HU", "4625", "Záhony"), 
-("HU", "4737", "Darnó"), 
-("HU", "7122", "Kakasd"), 
-("HU", "7165", "Mórágy"), 
-("HU", "9726", "Velem"), 
-("HU", "9739", "Pusztacsó"), 
-("HU", "9752", "Bozzai"), 
-("HU", "9796", "Horvátlövő"), 
-("HU", "9914", "Döbörhegy"), 
-("HU", "9919", "Csákánydoroszló"), 
-("HU", "9932", "Viszák"), 
-("HU", "9938", "Szatta"), 
-("HU", "8416", "Dudar"), 
-("HU", "8512", "Nyárád"), 
-("HU", "8314", "Vonyarcvashegy"), 
-("HU", "8756", "Nagyrécse"), 
-("HU", "8767", "Pötréte"), 
-("HU", "8772", "Zalaszentbalázs"), 
-("HU", "8863", "Molnári"), 
-("HU", "8932", "Gyűrűs"), 
-("HU", "8971", "Zalabaksa"), 
-("HU", "8973", "Csesztreg"), 
-("HU", "7333", "Vékény"), 
-("HU", "7630", "Pécs"), 
-("HU", "7634", "Pécs"), 
-("HU", "7672", "Boda"), 
-("HU", "7695", "Mecseknádasd"), 
-("HU", "7766", "Pécsdevecser"), 
-("HU", "7836", "Ózdfalu"), 
-("HU", "7912", "Nyugotszenterzsébet"), 
-("HU", "7981", "Merenye"), 
-("HU", "5530", "Vésztő"), 
-("HU", "5537", "Zsadány"), 
-("HU", "5539", "Körösnagyharsány"), 
-("HU", "5700", "Gyula"), 
-("HU", "6050", "Lajosmizse"), 
-("HU", "6067", "Tiszaalpár"), 
-("HU", "6332", "Uszód"), 
-("HU", "6423", "Kelebia"), 
-("HU", "6524", "Dávod"), 
-("HU", "1016", "Budapest"), 
-("HU", "1032", "Budapest"), 
-("HU", "1041", "Budapest"), 
-("HU", "1044", "Budapest"), 
-("HU", "1055", "Budapest"), 
-("HU", "1096", "Budapest"), 
-("HU", "1106", "Budapest"), 
-("HU", "1152", "Budapest"), 
-("HU", "1154", "Budapest"), 
-("HU", "1185", "Budapest"), 
-("HU", "3464", "Tiszavalk"), 
-("HU", "3625", "Ózd"), 
-("HU", "3644", "Tardona"), 
-("HU", "3651", "Ózd"), 
-("HU", "3752", "Galvács"), 
-("HU", "3755", "Martonyi"), 
-("HU", "3780", "Damak"), 
-("HU", "3794", "Boldva"), 
-("HU", "3874", "Pusztaradvány"), 
-("HU", "3882", "Abaújalpár"), 
-("HU", "3924", "Taktakenéz"), 
-("HU", "3955", "Kenézlő"), 
-("HU", "3961", "Vajdácska"), 
-("HU", "3985", "Felsőberecki"), 
-("HU", "6636", "Mártély"), 
-("HU", "6700", "Szeged"), 
-("HU", "6766", "Dóc"), 
-("HU", "2483", "Gárdony"), 
-("HU", "8138", "Szabadhídvég"), 
-("HU", "9200", "Mosonmagyaróvár"), 
-("HU", "9235", "Püski"), 
-("HU", "9324", "Potyond"), 
-("HU", "4025", "Debrecen"), 
-("HU", "4137", "Magyarhomorog"), 
-("HU", "4171", "Sárrétudvari"), 
-("HU", "4251", "Hajdúsámson"), 
-("HU", "3246", "Mátraderecske"), 
-("HU", "3265", "Vécs"), 
-("HU", "3344", "Mikófalva"), 
-("HU", "3356", "Kompolt"), 
-("HU", "5092", "Tiszavárkony"), 
-("HU", "5349", "Kenderes"), 
-("HU", "5462", "Cibakháza"), 
-("HU", "2896", "Szomód"), 
-("HU", "2921", "Komárom"), 
-("HU", "2946", "Csép"), 
-("HU", "2668", "Patvarc"), 
-("HU", "2671", "Őrhalom"), 
-("HU", "3042", "Palotás"), 
-("HU", "3044", "Szirák"), 
-("HU", "3075", "Márkháza"), 
-("HU", "3075", "Nagybárkány"), 
-("HU", "3175", "Nagylóc"), 
-("HU", "2211", "Vasad"), 
-("HU", "2338", "Áporka"), 
-("HU", "2713", "Csemő"), 
-("HU", "2747", "Törtel"), 
-("HU", "7444", "Osztopán"), 
-("HU", "7472", "Cserénfa"), 
-("HU", "7541", "Kutas"), 
-("HU", "7582", "Komlósd"), 
-("HU", "8673", "Somogymeggyes"), 
-("HU", "8681", "Visz"), 
-("HU", "8692", "Gyugy"), 
-("HU", "8716", "Gadány"), 
-("HU", "8840", "Csurgónagymarton"), 
-("HU", "4325", "Kisléta"), 
-("HU", "4331", "Nyírcsászári"), 
-("HU", "4336", "Őr"), 
-("HU", "4341", "Nyírvasvári"), 
-("HU", "4372", "Nyírbéltek"), 
-("HU", "4627", "Zsurk"), 
-("HU", "4822", "Nyírparasznya"), 
-("HU", "4834", "Tiszakerecseny"), 
-("HU", "4956", "Kispalád"), 
-("HU", "7093", "Értény"), 
-("HU", "7121", "Szálka"), 
-("HU", "7200", "Dombóvár"), 
-("HU", "7251", "Kapospula"), 
-("HU", "7357", "Jágónak"), 
-("HU", "9513", "Csönge"), 
-("HU", "9548", "Nemeskeresztúr"), 
-("HU", "9634", "Iklanberény"), 
-("HU", "9662", "Mesterháza"), 
-("HU", "9733", "Kiszsidány"), 
-("HU", "9781", "Egyházashollós"), 
-("HU", "9812", "Telekes"), 
-("HU", "9915", "Hegyhátsál"), 
-("HU", "9915", "Hegyháthodász"), 
-("HU", "9943", "Kondorfa"), 
-("HU", "9962", "Magyarlak"), 
-("HU", "8220", "Balatonalmádi"), 
-("HU", "8225", "Szentkirályszabadja"), 
-("HU", "8272", "Balatoncsicsó"), 
-("HU", "8296", "Hegyesd"), 
-("HU", "8479", "Borszörcsök"), 
-("HU", "8482", "Doba"), 
-("HU", "8483", "Somlószőlős"), 
-("HU", "8484", "Nagyalásony"), 
-("HU", "8777", "Fűzvölgy"), 
-("HU", "8782", "Zalacsány"), 
-("HU", "8861", "Szepetnek"), 
-("HU", "8868", "Zajk"), 
-("HU", "8949", "Mikekarácsonyfa"), 
-("HU", "8960", "Lenti"), 
-("HU", "8969", "Gáborjánháza"), 
-("HU", "8984", "Gombosszeg"), 
-("HU", "8992", "Bagod"), 
-("HU", "7346", "Bikal"), 
-("HU", "7747", "Belvárdgyula"), 
-("HU", "7775", "Kislippó"), 
-("HU", "7934", "Almamellék"), 
-("HU", "7935", "Horváthertelend"), 
-("HU", "7964", "Csányoszró"), 
-("HU", "7980", "Pettend"), 
-("HU", "5502", "Gyomaendrőd"), 
-("HU", "5534", "Okány"), 
-("HU", "5731", "Sarkadkeresztúr"), 
-("HU", "5900", "Orosháza"), 
-("HU", "6008", "Kecskemét"), 
-("HU", "6075", "Páhi"), 
-("HU", "6320", "Solt"), 
-("HU", "6337", "Újtelek"), 
-("HU", "6345", "Nemesnádudvar"), 
-("HU", "6412", "Balotaszállás"), 
-("HU", "6444", "Kéleshalom"), 
-("HU", "6448", "Csávoly"), 
-("HU", "1088", "Budapest"), 
-("HU", "1196", "Budapest"), 
-("HU", "1202", "Budapest"), 
-("HU", "1204", "Budapest"), 
-("HU", "1225", "Budapest"), 
-("HU", "3411", "Szomolya"), 
-("HU", "3515", "Miskolc"), 
-("HU", "3591", "Oszlár"), 
-("HU", "3700", "Kazincbarcika"), 
-("HU", "3735", "Alsótelekes"), 
-("HU", "3754", "Meszes"), 
-("HU", "3757", "Égerszög"), 
-("HU", "3786", "Hegymeg"), 
-("HU", "3793", "Sajóecseg"), 
-("HU", "3908", "Rátka"), 
-("HU", "3917", "Bodrogkisfalud"), 
-("HU", "3989", "Mikóháza"), 
-("HU", "3994", "Füzérkajata"), 
-("HU", "6757", "Szeged"), 
-("HU", "6775", "Kiszombor"), 
-("HU", "6792", "Zsombó"), 
-("HU", "2424", "Előszállás"), 
-("HU", "2428", "Kisapostag"), 
-("HU", "2451", "Ercsi"), 
-("HU", "8000", "Székesfehérvár"), 
-("HU", "8046", "Bakonykúti"), 
-("HU", "8131", "Enying"), 
-("HU", "8134", "Mátyásdomb"), 
-("HU", "9030", "Győr"), 
-("HU", "9111", "Tényő"), 
-("HU", "9165", "Tárnokréti"), 
-("HU", "9371", "Vitnyéd"), 
-("HU", "9407", "Sopron"), 
-("HU", "9433", "Fertőd"), 
-("HU", "9474", "Szakony"), 
-("HU", "4133", "Konyár"), 
-("HU", "4284", "Kokad"), 
-("HU", "4287", "Vámospércs"), 
-("HU", "3000", "Hatvan"), 
-("HU", "3031", "Zagyvaszántó"), 
-("HU", "3213", "Atkár"), 
-("HU", "3243", "Bodony"), 
-("HU", "3273", "Halmajugra"), 
-("HU", "3292", "Adács"), 
-("HU", "3325", "Noszvaj"), 
-("HU", "3326", "Ostoros"), 
-("HU", "3379", "Egerfarmos"), 
-("HU", "5152", "Jászberény"), 
-("HU", "5243", "Tiszaderzs"), 
-("HU", "2028", "Pilismarót"), 
-("HU", "2519", "Piliscsév"), 
-("HU", "2642", "Nógrád"), 
-("HU", "2669", "Ipolyvece"), 
-("HU", "2686", "Galgaguta"), 
-("HU", "2687", "Bercel"), 
-("HU", "3074", "Sámsonháza"), 
-("HU", "3177", "Rimóc"), 
-("HU", "2030", "Érd"), 
-("HU", "2134", "Sződ"), 
-("HU", "2167", "Vácduka"), 
-("HU", "2461", "Tárnok"), 
-("HU", "2613", "Rád"), 
-("HU", "7256", "Kercseliget"), 
-("HU", "7443", "Alsóbogát"), 
-("HU", "7517", "Bolhás"), 
-("HU", "8658", "Bábonymegyer"), 
-("HU", "8660", "Zala"), 
-("HU", "8684", "Somogybabod"), 
-("HU", "4338", "Papos"), 
-("HU", "4353", "Tiborszállás"), 
-("HU", "4356", "Nyírcsaholy"), 
-("HU", "4466", "Timár"), 
-("HU", "4622", "Komoró"), 
-("HU", "4831", "Tiszaszalka"), 
-("HU", "7042", "Pálfa"), 
-("HU", "7054", "Tengelic"), 
-("HU", "7163", "Mőcsény"), 
-("HU", "7174", "Kéty"), 
-("HU", "9553", "Köcsk"), 
-("HU", "9682", "Nyőgér"), 
-("HU", "9707", "Szombathely"), 
-("HU", "9738", "Tömörd"), 
-("HU", "9823", "Pácsony"), 
-("HU", "9909", "Körmend"), 
-("HU", "9931", "Hegyhátszentmárton"), 
-("HU", "9944", "Kerkáskápolna"), 
-("HU", "9954", "Rönök"), 
-("HU", "8312", "Balatonederics"), 
-("HU", "8348", "Rigács"), 
-("HU", "8483", "Kisszőlős"), 
-("HU", "8354", "Zalaköveskút"), 
-("HU", "8777", "Hosszúvölgy"), 
-("HU", "8796", "Türje"), 
-("HU", "8799", "Pakod"), 
-("HU", "8808", "Nagykanizsa"), 
-("HU", "8822", "Zalaújlak"), 
-("HU", "8882", "Eszteregnye"), 
-("HU", "8887", "Bázakerettye"), 
-("HU", "8911", "Nagykutas"), 
-("HU", "8945", "Bak"), 
-("HU", "8948", "Barlahida"), 
-("HU", "8978", "Külsősárd"), 
-("HU", "8983", "Nagylengyel"), 
-("HU", "8994", "Kávás"), 
-("HU", "7305", "Mecsekpölöske"), 
-("HU", "7370", "Varga"), 
-("HU", "7381", "Kisvaszar"), 
-("HU", "7632", "Pécs"), 
-("HU", "7664", "Szilágy"), 
-("HU", "7668", "Pécs"), 
-("HU", "7725", "Szebény"), 
-("HU", "7745", "Hásságy"), 
-("HU", "7766", "Kiskassa"), 
-("HU", "7838", "Páprád"), 
-("HU", "7921", "Somogyhatvan"), 
-("HU", "7951", "Gerde"), 
-("HU", "7958", "Kákics"), 
-("HU", "7981", "Molvány"), 
-("HU", "5663", "Medgyesbodzás"), 
-("HU", "5711", "Gyula"), 
-("HU", "6035", "Ballószög"), 
-("HU", "6041", "Kerekegyháza"), 
-("HU", "6115", "Kunszállás"), 
-("HU", "6120", "Kiskunmajsa"), 
-("HU", "6238", "Imrehegy"), 
-("HU", "6321", "Újsolt"), 
-("HU", "6414", "Pirtó"), 
-("HU", "6455", "Katymár"), 
-("HU", "6528", "Bátmonostor"), 
-("HU", "1048", "Budapest"), 
-("HU", "1104", "Budapest"), 
-("HU", "1121", "Budapest"), 
-("HU", "3529", "Miskolc"), 
-("HU", "3652", "Sajónémeti"), 
-("HU", "3721", "Felsőnyárád"), 
-("HU", "3779", "Alacska"), 
-("HU", "3780", "Balajt"), 
-("HU", "3791", "Sajókeresztúr"), 
-("HU", "3825", "Rakaca"), 
-("HU", "3832", "Léh"), 
-("HU", "3864", "Fulókércs"), 
-("HU", "3882", "Abaújkér"), 
-("HU", "2433", "Sárosd"), 
-("HU", "7011", "Alap"), 
-("HU", "8080", "Bodmér"), 
-("HU", "9025", "Győr"), 
-("HU", "9089", "Lázi"), 
-("HU", "9136", "Rábacsécsény"), 
-("HU", "9176", "Mecsér"), 
-("HU", "9421", "Fertőrákos"), 
-("HU", "4086", "Hajdúböszörmény"), 
-("HU", "4177", "Földes"), 
-("HU", "3013", "Ecséd"), 
-("HU", "3035", "Gyöngyöspata"), 
-("HU", "3295", "Erk"), 
-("HU", "3300", "Eger"), 
-("HU", "3331", "Tarnaszentmária"), 
-("HU", "3349", "Nagyvisnyó"), 
-("HU", "3354", "Tófalu"), 
-("HU", "3360", "Heves"), 
-("HU", "5126", "Jászfényszaru"), 
-("HU", "5465", "Cserkeszőlő"), 
-("HU", "2525", "Bajna"), 
-("HU", "2527", "Máriahalom"), 
-("HU", "2175", "Kálló"), 
-("HU", "2647", "Hont"), 
-("HU", "2673", "Csitár"), 
-("HU", "3067", "Felsőtold"), 
-("HU", "3141", "Salgótarján"), 
-("HU", "3162", "Ságújfalu"), 
-("HU", "2184", "Vácegres"), 
-("HU", "2241", "Sülysáp"), 
-("HU", "2321", "Szigetbecse"), 
-("HU", "2624", "Szokolya"), 
-("HU", "2626", "Nagymaros"), 
-("HU", "7454", "Somodor"), 
-("HU", "7465", "Szentgáloskér"), 
-("HU", "7477", "Szenna"), 
-("HU", "7478", "Bárdudvarnok"), 
-("HU", "7516", "Berzence"), 
-("HU", "7542", "Kisbajom"), 
-("HU", "8640", "Fonyód"), 
-("HU", "4561", "Baktalórántháza"), 
-("HU", "4628", "Tiszaszentmárton"), 
-("HU", "4645", "Tiszamogyorós"), 
-("HU", "4742", "Csegöld"), 
-("HU", "4914", "Olcsvaapáti"), 
-("HU", "4935", "Gelénes"), 
-("HU", "4941", "Penyige"), 
-("HU", "4942", "Nemesborzova"), 
-("HU", "4944", "Túristvándi"), 
-("HU", "7092", "Nagykónyi"), 
-("HU", "7094", "Koppányszántó"), 
-("HU", "9552", "Vásárosmiske"), 
-("HU", "9554", "Egyházashetye"), 
-("HU", "9609", "Sárvár"), 
-("HU", "9651", "Uraiújfalu"), 
-("HU", "9673", "Káld"), 
-("HU", "9737", "Bük"), 
-("HU", "9754", "Pecöl"), 
-("HU", "9754", "Megyehíd"), 
-("HU", "9771", "Balogunyom"), 
-("HU", "9842", "Alsóújlak"), 
-("HU", "8263", "Badacsonytördemic"), 
-("HU", "8283", "Káptalantóti"), 
-("HU", "8428", "Borzavár"), 
-("HU", "8439", "Sikátor"), 
-("HU", "8456", "Noszlop"), 
-("HU", "8495", "Csögle"), 
-("HU", "8558", "Csót"), 
-("HU", "8355", "Vindornyaszőlős"), 
-("HU", "8754", "Galambok"), 
-("HU", "8761", "Pacsa"), 
-("HU", "8793", "Tekenye"), 
-("HU", "8904", "Zalaegerszeg"), 
-("HU", "8932", "Pókaszepetk"), 
-("HU", "8988", "Kozmadombja"), 
-("HU", "8989", "Dobronhegy"), 
-("HU", "8990", "Pálfiszeg"), 
-("HU", "8991", "Hottó"), 
-("HU", "7384", "Baranyajenő"), 
-("HU", "7664", "Berkesd"), 
-("HU", "7683", "Helesfa"), 
-("HU", "7714", "Mohács"), 
-("HU", "7735", "Erdősmárok"), 
-("HU", "7747", "Birján"), 
-("HU", "7763", "Szőkéd"), 
-("HU", "7843", "Cún"), 
-("HU", "7967", "Drávakeresztúr"), 
-("HU", "5516", "Körösladány"), 
-("HU", "5536", "Körösújfalu"), 
-("HU", "5600", "Békéscsaba"), 
-("HU", "5725", "Kötegyán"), 
-("HU", "5745", "Dombiratos"), 
-("HU", "5746", "Kunágota"), 
-("HU", "6042", "Fülöpháza"), 
-("HU", "6045", "Ladánybene"), 
-("HU", "6133", "Jászszentlászló"), 
-("HU", "6239", "Császártöltés"), 
-("HU", "6333", "Dunaszentbenedek"), 
-("HU", "6343", "Miske"), 
-("HU", "6421", "Kisszállás"), 
-("HU", "6424", "Csikéria"), 
-("HU", "6522", "Gara"), 
-("HU", "6527", "Nagybaracska"), 
-("HU", "1045", "Budapest"), 
-("HU", "1047", "Budapest"), 
-("HU", "1052", "Budapest"), 
-("HU", "1071", "Budapest"), 
-("HU", "1074", "Budapest"), 
-("HU", "1131", "Budapest"), 
-("HU", "1155", "Budapest"), 
-("HU", "1162", "Budapest"), 
-("HU", "1173", "Budapest"), 
-("HU", "1192", "Budapest"), 
-("HU", "1222", "Budapest"), 
-("HU", "3517", "Miskolc"), 
-("HU", "3525", "Miskolc"), 
-("HU", "3530", "Miskolc"), 
-("HU", "3571", "Alsózsolca"), 
-("HU", "3596", "Szakáld"), 
-("HU", "3600", "Ózd"), 
-("HU", "3630", "Putnok"), 
-("HU", "3648", "Bükkmogyorósd"), 
-("HU", "3657", "Királd"), 
-("HU", "3720", "Sajókaza"), 
-("HU", "3725", "Imola"), 
-("HU", "3815", "Abaújlak"), 
-("HU", "3837", "Csenyéte"), 
-("HU", "3941", "Vámosújfalu"), 
-("HU", "3985", "Alsóberecki"), 
-("HU", "3992", "Vágáshuta"), 
-("HU", "6723", "Szeged"), 
-("HU", "6726", "Szeged"), 
-("HU", "2427", "Baracs"), 
-("HU", "2475", "Kápolnásnyék"), 
-("HU", "7003", "Sárbogárd"), 
-("HU", "8082", "Gánt"), 
-("HU", "9021", "Győr"), 
-("HU", "9063", "Nagybajcs"), 
-("HU", "9133", "Rábaszentmiklós"), 
-("HU", "9151", "Abda"), 
-("HU", "9483", "Sopronkövesd"), 
-("HU", "9492", "Fertőhomok"), 
-("HU", "4034", "Debrecen"), 
-("HU", "3214", "Nagyréde"), 
-("HU", "3247", "Mátraballa"), 
-("HU", "3322", "Hevesaranyos"), 
-("HU", "3346", "Bélapátfalva"), 
-("HU", "3350", "Kál"), 
-("HU", "3385", "Tiszanána"), 
-("HU", "3387", "Újlőrincfalva"), 
-("HU", "5137", "Jászkisér"), 
-("HU", "5144", "Jászboldogháza"), 
-("HU", "5322", "Tiszaszentimre"), 
-("HU", "2840", "Oroszlány"), 
-("HU", "2887", "Ácsteszér"), 
-("HU", "2610", "Nőtincs"), 
-("HU", "2660", "Ipolyszög"), 
-("HU", "2677", "Herencsény"), 
-("HU", "2678", "Csesztve"), 
-("HU", "2688", "Vanyarc"), 
-("HU", "2698", "Mohora"), 
-("HU", "3138", "Ipolytarnóc"), 
-("HU", "3151", "Rákóczibánya"), 
-("HU", "3153", "Dorogháza"), 
-("HU", "3179", "Nógrádsipek"), 
-("HU", "2021", "Tahitótfalu"), 
-("HU", "2039", "Pusztazámor"), 
-("HU", "2085", "Pilisvörösvár"), 
-("HU", "2116", "Zsámbok"), 
-("HU", "2143", "Kistarcsa"), 
-("HU", "2173", "Kartal"), 
-("HU", "2319", "Szigetújfalu"), 
-("HU", "2367", "Újhartyán"), 
-("HU", "2375", "Tatárszentgyörgy"), 
-("HU", "2766", "Tápiószele"), 
-("HU", "7555", "Csokonyavisonta"), 
-("HU", "7564", "Kaszó"), 
-("HU", "7977", "Kastélyosdombó"), 
-("HU", "8656", "Nagyberény"), 
-("HU", "8675", "Andocs"), 
-("HU", "8691", "Balatonboglár"), 
-("HU", "8710", "Balatonszentgyörgy"), 
-("HU", "8726", "Iharos"), 
-("HU", "8726", "Somogycsicsó"), 
-("HU", "8736", "Szőkedencs"), 
-("HU", "8858", "Porrogszentpál"), 
-("HU", "4333", "Nyírkáta"), 
-("HU", "4544", "Nyírkarász"), 
-("HU", "4562", "Vaja"), 
-("HU", "4721", "Szamoskér"), 
-("HU", "4754", "Géberjén"), 
-("HU", "4843", "Hetefejércse"), 
-("HU", "7026", "Madocsa"), 
-("HU", "7186", "Nagyvejke"), 
-("HU", "7225", "Csibrák"), 
-("HU", "9675", "Bögöte"), 
-("HU", "9721", "Gencsapáti"), 
-("HU", "9740", "Bük"), 
-("HU", "9742", "Salköveskút"), 
-("HU", "9745", "Meszlen"), 
-("HU", "9766", "Rábatöttös"), 
-("HU", "9774", "Sorkikápolna"), 
-("HU", "9922", "Pinkamindszent"), 
-("HU", "9955", "Szentgotthárd"), 
-("HU", "9985", "Felsőszölnök"), 
-("HU", "8100", "Várpalota"), 
-("HU", "8195", "Királyszentistván"), 
-("HU", "8254", "Kékkút"), 
-("HU", "8261", "Badacsonytomaj"), 
-("HU", "8274", "Köveskál"), 
-("HU", "8344", "Zalaerdőd"), 
-("HU", "8496", "Kispirit"), 
-("HU", "8531", "Marcaltő"), 
-("HU", "8542", "Vaszar"), 
-("HU", "8341", "Szalapa"), 
-("HU", "8824", "Sand"), 
-("HU", "8857", "Nemespátró"), 
-("HU", "8919", "Kustánszeg"), 
-("HU", "8997", "Zalaháshágy"), 
-("HU", "7370", "Sásd"), 
-("HU", "7381", "Ág"), 
-("HU", "7671", "Bicsérd"), 
-("HU", "7673", "Kővágószőlős"), 
-("HU", "7757", "Liptód"), 
-("HU", "7768", "Kistótfalu"), 
-("HU", "7771", "Palkonya"), 
-("HU", "7839", "Zaláta"), 
-("HU", "7925", "Magyarlukafa"), 
-("HU", "7940", "Csonkamindszent"), 
-("HU", "7975", "Kétújfalu"), 
-("HU", "5641", "Tarhos"), 
-("HU", "5664", "Medgyesbodzás"), 
-("HU", "5665", "Pusztaottlaka"), 
-("HU", "5743", "Lőkösháza"), 
-("HU", "5919", "Pusztaföldvár"), 
-("HU", "6230", "Soltvadkert"), 
-("HU", "6422", "Tompa"), 
-("HU", "1065", "Budapest"), 
-("HU", "1082", "Budapest"), 
-("HU", "1158", "Budapest"), 
-("HU", "1161", "Budapest"), 
-("HU", "1238", "Budapest"), 
-("HU", "3462", "Borsodivánka"), 
-("HU", "3466", "Tiszadorogma"), 
-("HU", "3608", "Farkaslyuk"), 
-("HU", "3711", "Szirmabesenyő"), 
-("HU", "3714", "Sajópálfala"), 
-("HU", "3761", "Szin"), 
-("HU", "3762", "Szögliget"), 
-("HU", "3765", "Komjáti"), 
-("HU", "3860", "Encs"), 
-("HU", "3874", "Hernádpetri"), 
-("HU", "3874", "Hernádvécse"), 
-("HU", "3888", "Vizsoly"), 
-("HU", "3923", "Gesztely"), 
-("HU", "3934", "Tolcsva"), 
-("HU", "3935", "Erdőhorváti"), 
-("HU", "3943", "Bodrogolaszi"), 
-("HU", "3944", "Sátoraljaújhely"), 
-("HU", "3971", "Tiszakarád"), 
-("HU", "3977", "Zemplénagárd"), 
-("HU", "6640", "Csongrád"), 
-("HU", "6768", "Baks"), 
-("HU", "6772", "Deszk"), 
-("HU", "2471", "Baracska"), 
-("HU", "8055", "Balinka"), 
-("HU", "9022", "Győr"), 
-("HU", "9165", "Rábcakapi"), 
-("HU", "9226", "Dunasziget"), 
-("HU", "9323", "Jobaháza"), 
-("HU", "9363", "Gyóró"), 
-("HU", "9441", "Agyagosszergény"), 
-("HU", "4033", "Debrecen"), 
-("HU", "4075", "Görbeháza"), 
-("HU", "4118", "Mezőpeterd"), 
-("HU", "4163", "Szerep"), 
-("HU", "4172", "Biharnagybajom"), 
-("HU", "3282", "Nagyfüged"), 
-("HU", "5085", "Rákóczifalva"), 
-("HU", "5095", "Tiszavárkony"), 
-("HU", "5324", "Tomajmonostora"), 
-("HU", "5435", "Martfű"), 
-("HU", "5453", "Mezőhék"), 
-("HU", "2517", "Kesztölc"), 
-("HU", "2821", "Gyermely"), 
-("HU", "2832", "Héreg"), 
-("HU", "2859", "Vérteskethely"), 
-("HU", "2942", "Nagyigmánd"), 
-("HU", "2644", "Borsosberény"), 
-("HU", "2685", "Nógrádsáp"), 
-("HU", "3043", "Egyházasdengeleg"), 
-("HU", "3051", "Szarvasgede"), 
-("HU", "3069", "Alsótold"), 
-("HU", "2049", "Diósd"), 
-("HU", "2071", "Páty"), 
-("HU", "2133", "Sződliget"), 
-("HU", "2162", "Őrbottyán"), 
-("HU", "2200", "Monor"), 
-("HU", "2253", "Tápióság"), 
-("HU", "2330", "Dunaharaszti"), 
-("HU", "2769", "Tápiószőlős"), 
-("HU", "7273", "Büssü"), 
-("HU", "7285", "Törökkoppány"), 
-("HU", "7435", "Somogysárd"), 
-("HU", "8612", "Nyim"), 
-("HU", "8700", "Csömend"), 
-("HU", "8854", "Őrtilos"), 
-("HU", "4267", "Penészlek"), 
-("HU", "4455", "Tiszadada"), 
-("HU", "4475", "Paszab"), 
-("HU", "4492", "Dombrád"), 
-("HU", "4537", "Nyírkércs"), 
-("HU", "4600", "Kisvárda"), 
-("HU", "4624", "Tiszabezdéd"), 
-("HU", "4734", "Szamosújlak"), 
-("HU", "4832", "Tiszavid"), 
-("HU", "4955", "Botpalád"), 
-("HU", "4977", "Kishódos"), 
-("HU", "7045", "Györköny"), 
-("HU", "7056", "Szedres"), 
-("HU", "7057", "Medina"), 
-("HU", "7131", "Tolna"), 
-("HU", "9544", "Kemenespálfa"), 
-("HU", "9625", "Gór"), 
-("HU", "9766", "Zsennye"), 
-("HU", "9814", "Halastó"), 
-("HU", "9913", "Nagymizdó"), 
-("HU", "9982", "Kétvölgy"), 
-("HU", "9983", "Szakonyfalu"), 
-("HU", "8243", "Balatonakali"), 
-("HU", "8352", "Bazsi"), 
-("HU", "8414", "Olaszfalu"), 
-("HU", "8420", "Zirc"), 
-("HU", "8460", "Devecser"), 
-("HU", "8475", "Hosztót"), 
-("HU", "8316", "Vállus"), 
-("HU", "8342", "Óhíd"), 
-("HU", "8762", "Szentpéterúr"), 
-("HU", "8798", "Zalabér"), 
-("HU", "8825", "Pat"), 
-("HU", "8872", "Muraszemenye"), 
-("HU", "8912", "Kispáli"), 
-("HU", "8923", "Nemesapáti"), 
-("HU", "8976", "Márokföld"), 
-("HU", "8986", "Szilvágy"), 
-("HU", "7344", "Mekényes"), 
-("HU", "7622", "Pécs"), 
-("HU", "7678", "Husztót"), 
-("HU", "7683", "Cserdi"), 
-("HU", "7756", "Pócsa"), 
-("HU", "7761", "Lothárd"), 
-("HU", "7811", "Bosta"), 
-("HU", "7838", "Vejti"), 
-("HU", "7900", "Botykapeterd"), 
-("HU", "7954", "Gyöngyfa"), 
-("HU", "7976", "Zádor"), 
-("HU", "5555", "Hunya"), 
-("HU", "5561", "Békésszentandrás"), 
-("HU", "5752", "Medgyesegyháza"), 
-("HU", "5837", "Kisdombegyház"), 
-("HU", "6032", "Nyárlőrinc"), 
-("HU", "6223", "Soltszentimre"), 
-("HU", "1021", "Budapest"), 
-("HU", "1022", "Budapest"), 
-("HU", "1092", "Budapest"), 
-("HU", "1111", "Budapest"), 
-("HU", "1142", "Budapest"), 
-("HU", "1143", "Budapest"), 
-("HU", "1147", "Budapest"), 
-("HU", "1223", "Budapest"), 
-("HU", "3501", "Miskolc"), 
-("HU", "3557", "Bükkszentkereszt"), 
-("HU", "3558", "Miskolc"), 
-("HU", "3744", "Múcsony"), 
-("HU", "3758", "Jósvafő"), 
-("HU", "3777", "Parasznya"), 
-("HU", "3811", "Alsóvadász"), 
-("HU", "3821", "Krasznokvajda"), 
-("HU", "3841", "Aszaló"), 
-("HU", "3881", "Baskó"), 
-("HU", "3885", "Boldogkőváralja"), 
-("HU", "3932", "Erdőbénye"), 
-("HU", "6729", "Szeged"), 
-("HU", "6764", "Balástya"), 
-("HU", "6767", "Ópusztaszer"), 
-("HU", "6773", "Klárafalva"), 
-("HU", "7014", "Sáregres"), 
-("HU", "8054", "Balinka"), 
-("HU", "8096", "Sukoró"), 
-("HU", "8112", "Zichyújfalu"), 
-("HU", "8123", "Soponya"), 
-("HU", "9313", "Rábacsanak"), 
-("HU", "9422", "Harka"), 
-("HU", "9481", "Pinnye"), 
-("HU", "9494", "Sopron"), 
-("HU", "4074", "Hajdúböszörmény"), 
-("HU", "4138", "Komádi"), 
-("HU", "4242", "Hajdúhadház"), 
-("HU", "4262", "Nyíracsád"), 
-("HU", "3235", "Mátraszentimre"), 
-("HU", "3261", "Abasár"), 
-("HU", "3272", "Visonta"), 
-("HU", "3384", "Kisköre"), 
-("HU", "5094", "Tiszajenő"), 
-("HU", "5111", "Jászfelsőszentgyörgy"), 
-("HU", "5124", "Jászágó"), 
-("HU", "5211", "Tiszapüspöki"), 
-("HU", "2870", "Kisbér"), 
-("HU", "2694", "Magyarnándor"), 
-("HU", "3155", "Mátramindszent"), 
-("HU", "2011", "Budakalász"), 
-("HU", "2026", "Visegrád"), 
-("HU", "2080", "Pilisjászfalu"), 
-("HU", "2081", "Piliscsaba"), 
-("HU", "2112", "Veresegyház"), 
-("HU", "2131", "Göd"), 
-("HU", "2165", "Kisnémedi"), 
-("HU", "2347", "Bugyi"), 
-("HU", "2364", "Ócsa"), 
-("HU", "2378", "Pusztavacs"), 
-("HU", "2724", "Újlengyel"), 
-("HU", "7432", "Hetes"), 
-("HU", "7479", "Sántos"), 
-("HU", "7562", "Segesd"), 
-("HU", "8624", "Balatonszárszó"), 
-("HU", "8667", "Kánya"), 
-("HU", "8707", "Libickozma"), 
-("HU", "8724", "Inke"), 
-("HU", "8731", "Hollád"), 
-("HU", "8849", "Szenta"), 
-("HU", "8852", "Zákány"), 
-("HU", "4232", "Geszteréd"), 
-("HU", "4245", "Érpatak"), 
-("HU", "4351", "Vállaj"), 
-("HU", "4440", "Tiszavasvári"), 
-("HU", "4494", "Kékcse"), 
-("HU", "4552", "Napkor"), 
-("HU", "4743", "Csengersima"), 
-("HU", "4764", "Csengerújfalu"), 
-("HU", "4800", "Vásárosnamény"), 
-("HU", "4836", "Lónya"), 
-("HU", "7083", "Tolnanémedi"), 
-("HU", "7145", "Sárpilis"), 
-("HU", "7183", "Kisvejke"), 
-("HU", "7341", "Csikóstőttős"), 
-("HU", "9516", "Vönöck"), 
-("HU", "9681", "Sótony"), 
-("HU", "9762", "Tanakajd"), 
-("HU", "9796", "Pornóapáti"), 
-("HU", "9821", "Győrvár"), 
-("HU", "9825", "Oszkó"), 
-("HU", "9841", "Kám"), 
-("HU", "9918", "Felsőmarác"), 
-("HU", "9983", "Alsószölnök"), 
-("HU", "8172", "Balatonakarattya"), 
-("HU", "8242", "Örvényes"), 
-("HU", "8471", "Káptalanfa"), 
-("HU", "8591", "Nóráp"), 
-("HU", "8316", "Várvölgy"), 
-("HU", "8354", "Vindornyafok"), 
-("HU", "8373", "Rezi"), 
-("HU", "8392", "Zalavár"), 
-("HU", "8744", "Orosztony"), 
-("HU", "8953", "Szentpéterfölde"), 
-("HU", "8978", "Rédics"), 
-("HU", "8999", "Zalalövő"), 
-("HU", "7391", "Kisbeszterce"), 
-("HU", "7661", "Erzsébet"), 
-("HU", "7717", "Kölked"), 
-("HU", "7735", "Himesháza"), 
-("HU", "7784", "Nagynyárád"), 
-("HU", "7838", "Lúzsok"), 
-("HU", "7922", "Somogyapáti"), 
-("HU", "7960", "Drávasztára"), 
-("HU", "5540", "Szarvas"), 
-("HU", "5668", "Nagybánhegyes"), 
-("HU", "5675", "Telekgerendás"), 
-("HU", "5734", "Geszt"), 
-("HU", "5838", "Magyardombegyház"), 
-("HU", "6135", "Csólyospálos"), 
-("HU", "6236", "Tázlár"), 
-("HU", "6237", "Kecel"), 
-("HU", "6351", "Bátya"), 
-("HU", "1062", "Budapest"), 
-("HU", "1135", "Budapest"), 
-("HU", "3414", "Bükkzsérc"), 
-("HU", "3431", "Vatta"), 
-("HU", "3533", "Miskolc"), 
-("HU", "3575", "Berzék"), 
-("HU", "3576", "Sajóhídvég"), 
-("HU", "3579", "Kesznyéten"), 
-("HU", "3589", "Tiszatarján"), 
-("HU", "3598", "Nagycsécs"), 
-("HU", "3732", "Kurityán"), 
-("HU", "3756", "Perkupa"), 
-("HU", "3795", "Hangács"), 
-("HU", "3821", "Perecse"), 
-("HU", "3831", "Kázsmárk"), 
-("HU", "3853", "Pere"), 
-("HU", "3884", "Boldogkőújfalu"), 
-("HU", "3894", "Göncruszka"), 
-("HU", "3900", "Szerencs"), 
-("HU", "3922", "Taktaharkány"), 
-("HU", "3931", "Mezőzombor"), 
-("HU", "3933", "Olaszliszka"), 
-("HU", "3950", "Sárospatak"), 
-("HU", "3991", "Vilyvitány"), 
-("HU", "3998", "Nyíri"), 
-("HU", "6621", "Derekegyház"), 
-("HU", "6625", "Fábiánsebestyén"), 
-("HU", "6645", "Felgyő"), 
-("HU", "2060", "Bicske"), 
-("HU", "8092", "Pátka"), 
-("HU", "8144", "Sárkeszi"), 
-("HU", "9091", "Ravazd"), 
-("HU", "9145", "Bágyogszovát"), 
-("HU", "9375", "Répceszemere"), 
-("HU", "4117", "Told"), 
-("HU", "4212", "Hajdúszovát"), 
-("HU", "3257", "Bükkszenterzsébet"), 
-("HU", "3347", "Balaton"), 
-("HU", "3353", "Aldebrő"), 
-("HU", "3373", "Besenyőtelek"), 
-("HU", "5055", "Jászladány"), 
-("HU", "5200", "Törökszentmiklós"), 
-("HU", "5233", "Tiszagyenda"), 
-("HU", "5244", "Tiszaszőlős"), 
-("HU", "5300", "Karcag"), 
-("HU", "5323", "Tiszaszentimre"), 
-("HU", "5412", "Kuncsorba"), 
-("HU", "3152", "Nemti"), 
-("HU", "3161", "Kishartyán"), 
-("HU", "3163", "Szalmatercs"), 
-("HU", "3185", "Egyházasgerge"), 
-("HU", "2132", "Göd"), 
-("HU", "2183", "Galgamácsa"), 
-("HU", "2316", "Tököl"), 
-("HU", "2335", "Taksony"), 
-("HU", "2365", "Inárcs"), 
-("HU", "2614", "Penc"), 
-("HU", "2638", "Kemence"), 
-("HU", "7477", "Szilvásszentmárton"), 
-("HU", "8648", "Balatonkeresztúr"), 
-("HU", "8681", "Látrány"), 
-("HU", "8695", "Buzsák"), 
-("HU", "4362", "Nyírgelse"), 
-("HU", "4400", "Nyíregyháza"), 
-("HU", "4471", "Gávavencsellő"), 
-("HU", "4524", "Ajak"), 
-("HU", "4557", "Besenyőd"), 
-("HU", "4565", "Pusztadobos"), 
-("HU", "4611", "Jéke"), 
-("HU", "4623", "Tuzsér"), 
-("HU", "4631", "Pap"), 
-("HU", "4646", "Eperjeske"), 
-("HU", "4921", "Tivadar"), 
-("HU", "4953", "Magosliget"), 
-("HU", "4971", "Rozsály"), 
-("HU", "7100", "Szekszárd"), 
-("HU", "7130", "Tolna"), 
-("HU", "7134", "Gerjen"), 
-("HU", "7362", "Gerényes"), 
-("HU", "9542", "Boba"), 
-("HU", "9632", "Sajtoskál"), 
-("HU", "9665", "Vámoscsalád"), 
-("HU", "9743", "Söpte"), 
-("HU", "9776", "Püspökmolnári"), 
-("HU", "9836", "Csipkerek"), 
-("HU", "9934", "Felsőjánosfa"), 
-("HU", "9982", "Apátistvánfalva"), 
-("HU", "8291", "Nagyvázsony"), 
-("HU", "8292", "Öcs"), 
-("HU", "8300", "Raposka"), 
-("HU", "8319", "Lesenceistvánd"), 
-("HU", "8321", "Uzsa"), 
-("HU", "8440", "Herend"), 
-("HU", "8477", "Kisberzseny"), 
-("HU", "8484", "Somlóvecse"), 
-("HU", "8492", "Kerta"), 
-("HU", "8494", "Kiscsősz"), 
-("HU", "8581", "Bakonyjákó"), 
-("HU", "9533", "Nemesszalók"), 
-("HU", "8380", "Hévíz"), 
-("HU", "8749", "Zalakaros"), 
-("HU", "8900", "Zalaegerszeg"), 
-("HU", "8921", "Zalaszentlőrinc"), 
-("HU", "8973", "Felsőszenterzsébet"), 
-("HU", "8991", "Böde"), 
-("HU", "7345", "Alsómocsolád"), 
-("HU", "7370", "Oroszló"), 
-("HU", "7381", "Tékes"), 
-("HU", "7621", "Pécs"), 
-("HU", "7623", "Pécs"), 
-("HU", "7661", "Kátoly"), 
-("HU", "7834", "Tengeri"), 
-("HU", "7838", "Piskó"), 
-("HU", "7847", "Ipacsfa"), 
-("HU", "7932", "Almáskeresztúr"), 
-("HU", "7960", "Marócsa"), 
-("HU", "5538", "Biharugra"), 
-("HU", "5551", "Csabacsűd"), 
-("HU", "5671", "Békéscsaba"), 
-("HU", "5726", "Méhkerék"), 
-("HU", "6336", "Szakmár"), 
-("HU", "6456", "Madaras"), 
-("HU", "1015", "Budapest"), 
-("HU", "1046", "Budapest"), 
-("HU", "1093", "Budapest"), 
-("HU", "3424", "Kács"), 
-("HU", "3458", "Tiszakeszi"), 
-("HU", "3521", "Miskolc"), 
-("HU", "3621", "Ózd"), 
-("HU", "3726", "Szuhafő"), 
-("HU", "3757", "Szőlősardó"), 
-("HU", "3757", "Teresztenye"), 
-("HU", "3773", "Sajólászlófalva"), 
-("HU", "3783", "Edelény"), 
-("HU", "3825", "Debréte"), 
-("HU", "3877", "Tornyosnémeti"), 
-("HU", "3898", "Abaújvár"), 
-("HU", "3899", "Kéked"), 
-("HU", "3903", "Bekecs"), 
-("HU", "3958", "Hercegkút"), 
-("HU", "3992", "Kovácsvágás"), 
-("HU", "6647", "Csanytelek"), 
-("HU", "6722", "Szeged"), 
-("HU", "6793", "Forráskút"), 
-("HU", "2066", "Újbarok"), 
-("HU", "2426", "Baracs"), 
-("HU", "2457", "Adony"), 
-("HU", "8074", "Csókakő"), 
-("HU", "8146", "Jenő"), 
-("HU", "9154", "Mosonszentmiklós"), 
-("HU", "9244", "Újrónafő"), 
-("HU", "9321", "Farád"), 
-("HU", "9354", "Osli"), 
-("HU", "4027", "Debrecen"), 
-("HU", "4029", "Debrecen"), 
-("HU", "4030", "Debrecen"), 
-("HU", "4224", "Hajdúböszörmény"), 
-("HU", "4266", "Fülöp"), 
-("HU", "3253", "Istenmezeje"), 
-("HU", "3255", "Fedémes"), 
-("HU", "3321", "Egerbakta"), 
-("HU", "5123", "Jászárokszállás"), 
-("HU", "2533", "Bajót"), 
-("HU", "2854", "Dad"), 
-("HU", "2943", "Tárkány"), 
-("HU", "2648", "Patak"), 
-("HU", "3071", "Bátonyterenye"), 
-("HU", "3073", "Tar"), 
-("HU", "3125", "Szilaspogony"), 
-("HU", "3129", "Lucfalva"), 
-("HU", "2045", "Törökbálint"), 
-("HU", "2216", "Bénye"), 
-("HU", "2309", "Lórév"), 
-("HU", "2377", "Örkény"), 
-("HU", "2631", "Ipolydamásd"), 
-("HU", "7452", "Somogyaszaló"), 
-("HU", "7464", "Ráksi"), 
-("HU", "7523", "Kaposfő"), 
-("HU", "7543", "Beleg"), 
-("HU", "7918", "Lakócsa"), 
-("HU", "8636", "Balatonszemes"), 
-("HU", "8712", "Balatonújlak"), 
-("HU", "8731", "Tikos"), 
-("HU", "4361", "Nyírbogát"), 
-("HU", "4433", "Nyíregyháza"), 
-("HU", "4482", "Kótaj"), 
-("HU", "4844", "Csaroda"), 
-("HU", "4936", "Vámosatya"), 
-("HU", "4961", "Zsarolyán"), 
-("HU", "4968", "Túrricse"), 
-("HU", "7065", "Miszla"), 
-("HU", "7086", "Ozora"), 
-("HU", "7135", "Dunaszentgyörgy"), 
-("HU", "7142", "Pörböly"), 
-("HU", "7184", "Lengyel"), 
-("HU", "7192", "Szakály"), 
-("HU", "9500", "Celldömölk"), 
-("HU", "9541", "Celldömölk"), 
-("HU", "9625", "Bő"), 
-("HU", "9641", "Rábapaty"), 
-("HU", "9676", "Hosszúpereszteg"), 
-("HU", "9725", "Kőszegszerdahely"), 
-("HU", "9744", "Vasasszonyfa"), 
-("HU", "9747", "Vasszilvágy"), 
-("HU", "9763", "Vasszécseny"), 
-("HU", "9784", "Nagykölked"), 
-("HU", "9813", "Gersekarát"), 
-("HU", "9931", "Ivánc"), 
-("HU", "9946", "Velemér"), 
-("HU", "8242", "Balatonudvari"), 
-("HU", "8252", "Balatonszepezd"), 
-("HU", "8272", "Óbudavár"), 
-("HU", "8297", "Tapolca"), 
-("HU", "8347", "Ukk"), 
-("HU", "8417", "Csetény"), 
-("HU", "8426", "Pénzesgyőr"), 
-("HU", "8468", "Kolontár"), 
-("HU", "8475", "Szentimrefalva"), 
-("HU", "8767", "Felsőrajk"), 
-("HU", "8821", "Nagybakónak"), 
-("HU", "8831", "Nagykanizsa"), 
-("HU", "8895", "Pusztamagyaród"), 
-("HU", "8918", "Csonkahegyhát"), 
-("HU", "8946", "Baktüttös"), 
-("HU", "8947", "Zalatárnok"), 
-("HU", "8948", "Nova");
+DELETE FROM orm_zip_code WHERE  `iso2` ="HU";
+
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7715', `location` = 'Mohács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7735', `location` = 'Szűr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7775', `location` = 'Magyarbóly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7814', `location` = 'Ócsárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7814', `location` = 'Siklósbodony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7824', `location` = 'Egyházasharaszti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7833', `location` = 'Regenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7843', `location` = 'Drávapiski', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7951', `location` = 'Velény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7957', `location` = 'Okorág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7973', `location` = 'Endrőc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7985', `location` = 'Kisdobsza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5525', `location` = 'Füzesgyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5621', `location` = 'Csárdaszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5727', `location` = 'Újszalonta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5904', `location` = 'Orosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5940', `location` = 'Tótkomlós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6064', `location` = 'Tiszaug', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6211', `location` = 'Kaskantyú', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6341', `location` = 'Homokmégy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6500', `location` = 'Baja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1053', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1076', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1115', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1182', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1212', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3433', `location` = 'Nyékládháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3443', `location` = 'Mezőnagymihály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3527', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3588', `location` = 'Hejőkürt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3599', `location` = 'Sajószöged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3604', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3642', `location` = 'Bánhorváti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3734', `location` = 'Szuhogy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3754', `location` = 'Szalonna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3756', `location` = 'Varbóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3759', `location` = 'Aggtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3763', `location` = 'Bódvaszilas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3786', `location` = 'Lak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3812', `location` = 'Homrogd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3893', `location` = 'Regéc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3964', `location` = 'Pácin', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3973', `location` = 'Cigánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3974', `location` = 'Semjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6646', `location` = 'Tömörkény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6750', `location` = 'Algyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6784', `location` = 'Öttömös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2473', `location` = 'Vál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8041', `location` = 'Csór', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8093', `location` = 'Lovasberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9012', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9144', `location` = 'Kóny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9162', `location` = 'Bezi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9164', `location` = 'Markotabödöge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9168', `location` = 'Csorna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9171', `location` = 'Győrújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9224', `location` = 'Rajka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9234', `location` = 'Kisbodak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9235', `location` = 'Dunaremete', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9362', `location` = 'Himod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9491', `location` = 'Hidegség', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4064', `location` = 'Nagyhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4079', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4263', `location` = 'Nyírmártonfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4264', `location` = 'Nyírábrány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4288', `location` = 'Újléta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3032', `location` = 'Apc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3259', `location` = 'Szentdomonkos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3358', `location` = 'Erdőtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3388', `location` = 'Poroszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5052', `location` = 'Újszász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5121', `location` = 'Jászjákóhalma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5231', `location` = 'Fegyvernek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5358', `location` = 'Tiszafüred', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5359', `location` = 'Tiszafüred', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5440', `location` = 'Kunszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5461', `location` = 'Tiszaföldvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5464', `location` = 'Tiszainoka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5475', `location` = 'Csépa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2800', `location` = 'Tatabánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2851', `location` = 'Környe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2886', `location` = 'Réde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2618', `location` = 'Nézsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2656', `location` = 'Szátok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3046', `location` = 'Kisbágyon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3066', `location` = 'Kutasó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3109', `location` = 'Salgótarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3133', `location` = 'Magyargéc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3145', `location` = 'Mátraterenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3146', `location` = 'Mátraterenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3170', `location` = 'Szécsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2013', `location` = 'Pomáz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2096', `location` = 'Üröm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2100', `location` = 'Gödöllő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2185', `location` = 'Váckisújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2192', `location` = 'Hévízgyörk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2220', `location` = 'Vecsés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2251', `location` = 'Tápiószecső', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2337', `location` = 'Délegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2381', `location` = 'Táborfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2755', `location` = 'Kocsér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2768', `location` = 'Újszilvás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7285', `location` = 'Kára', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7977', `location` = 'Potony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8618', `location` = 'Kereki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8630', `location` = 'Balatonboglár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8718', `location` = 'Tapsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8858', `location` = 'Porrogszentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4234', `location` = 'Szakoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4405', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4446', `location` = 'Tiszaeszlár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4501', `location` = 'Kemecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4536', `location` = 'Ramocsaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4543', `location` = 'Laskod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4732', `location` = 'Cégénydányád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4752', `location` = 'Győrtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7175', `location` = 'Felsőnána', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7362', `location` = 'Tarrós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9511', `location` = 'Kemenesmihályfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9531', `location` = 'Mersevát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9635', `location` = 'Zsédeny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9674', `location` = 'Vashosszúfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9739', `location` = 'Kőszegpaty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9783', `location` = 'Egyházasrádóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9784', `location` = 'Rádóckölked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9799', `location` = 'Szentpéterfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9917', `location` = 'Daraboshegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9921', `location` = 'Vasalja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9935', `location` = 'Szőce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9951', `location` = 'Rátót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8161', `location` = 'Ősi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8192', `location` = 'Hajmáskér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8196', `location` = 'Litér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8230', `location` = 'Balatonfüred', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8272', `location` = 'Tagyon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8317', `location` = 'Lesencefalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8497', `location` = 'Egeralja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8353', `location` = 'Zalaszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8756', `location` = 'Kisrécse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8790', `location` = 'Zalaszentgrót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8800', `location` = 'Nagykanizsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8864', `location` = 'Tótszerdahely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8913', `location` = 'Egervár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8917', `location` = 'Milejszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8918', `location` = 'Németfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8921', `location` = 'Alibánfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8934', `location` = 'Bezeréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8954', `location` = 'Ortaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8977', `location` = 'Baglad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8977', `location` = 'Resznek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8994', `location` = 'Zalaszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8998', `location` = 'Ozmánbük', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7639', `location` = 'Kökény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7682', `location` = 'Bükkösd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7693', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7741', `location` = 'Nagykozár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7753', `location` = 'Szajk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7763', `location` = 'Áta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7766', `location` = 'Újpetre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7985', `location` = 'Nagydobsza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5500', `location` = 'Gyomaendrőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6076', `location` = 'Ágasegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6200', `location` = 'Kiskőrös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6452', `location` = 'Mátételke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1078', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1113', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1138', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1153', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1181', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1211', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1224', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1239', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3556', `location` = 'Kisgyőr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3578', `location` = 'Kiscsécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3580', `location` = 'Tiszaújváros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3656', `location` = 'Sajómercse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3672', `location` = 'Borsodnádasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3718', `location` = 'Megyaszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3728', `location` = 'Gömörszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3842', `location` = 'Halmaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3844', `location` = 'Szentistvánbaksa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3863', `location` = 'Szalaszend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3875', `location` = 'Hernádszurdok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3892', `location` = 'Hejce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Bózsva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Filkeháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3997', `location` = 'Füzérkomlós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6765', `location` = 'Csengele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6771', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2407', `location` = 'Dunaújváros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2453', `location` = 'Ercsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8088', `location` = 'Tabajd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9071', `location` = 'Gönyű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9082', `location` = 'Nyúl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9099', `location` = 'Pér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9165', `location` = 'Cakóháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9242', `location` = 'Jánossomorja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9243', `location` = 'Várbalog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9375', `location` = 'Csér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4000', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4116', `location` = 'Berekböszörmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4127', `location` = 'Nagykereki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4128', `location` = 'Bedő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4254', `location` = 'Nyíradony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3221', `location` = 'Gyöngyös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3232', `location` = 'Gyöngyös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3244', `location` = 'Parád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3250', `location` = 'Pétervására', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3271', `location` = 'Visonta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3293', `location` = 'Visznek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3334', `location` = 'Szajla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3337', `location` = 'Egerbocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2500', `location` = 'Esztergom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2524', `location` = 'Nagysáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2532', `location` = 'Tokodaltáró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2535', `location` = 'Mogyorósbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2823', `location` = 'Vértessomló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2900', `location` = 'Komárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2944', `location` = 'Bana', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2657', `location` = 'Tolmács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2676', `location` = 'Cserhátsurány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3053', `location` = 'Kozárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3068', `location` = 'Mátraszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3075', `location` = 'Kisbárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2142', `location` = 'Nagytarcsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2336', `location` = 'Dunavarsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2440', `location` = 'Százhalombatta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2621', `location` = 'Verőce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2711', `location` = 'Tápiószentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2740', `location` = 'Abony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2764', `location` = 'Tápióbicske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7282', `location` = 'Fiad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7552', `location` = 'Rinyabesenyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7557', `location` = 'Barcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7561', `location` = 'Nagybajom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8621', `location` = 'Zamárdi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8647', `location` = 'Balatonmáriafürdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4375', `location` = 'Piricse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4546', `location` = 'Anarcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4554', `location` = 'Nyírtét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4634', `location` = 'Aranyosapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4643', `location` = 'Benk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4751', `location` = 'Kocsord', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4755', `location` = 'Ököritófülpös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4767', `location` = 'Szamosangyalos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4913', `location` = 'Panyola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4948', `location` = 'Milota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4976', `location` = 'Garbolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7051', `location` = 'Kajdacs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7063', `location` = 'Szárazd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7164', `location` = 'Bátaapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7227', `location` = 'Gyulaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9515', `location` = 'Pápoc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9600', `location` = 'Sárvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9752', `location` = 'Kenéz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9772', `location` = 'Kisunyom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9811', `location` = 'Andrásfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9933', `location` = 'Őrimagyarósd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9936', `location` = 'Kisrákos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9945', `location` = 'Kercaszomor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8200', `location` = 'Veszprém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8300', `location` = 'Tapolca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8318', `location` = 'Lesencetomaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8411', `location` = 'Veszprém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8443', `location` = 'Bánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8471', `location` = 'Bodorfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8484', `location` = 'Vid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8563', `location` = 'Homokbödöge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8594', `location` = 'Pápasalamon', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8313', `location` = 'Balatongyörök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8354', `location` = 'Karmacs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8356', `location` = 'Nagygörbő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8391', `location` = 'Sármellék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8742', `location` = 'Esztergályhorváti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8746', `location` = 'Nagyrada', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8747', `location` = 'Garabonc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8764', `location` = 'Zalaszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8776', `location` = 'Bocska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8855', `location` = 'Belezna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8876', `location` = 'Tormafölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8946', `location` = 'Tófej', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8969', `location` = 'Szijártóháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7678', `location` = 'Abaliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7742', `location` = 'Bogád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7751', `location` = 'Monyoród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7752', `location` = 'Versend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7762', `location` = 'Pécsudvard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7800', `location` = 'Nagytótfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7843', `location` = 'Tésenfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7951', `location` = 'Pécsbagota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7981', `location` = 'Tótszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5510', `location` = 'Dévaványa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5553', `location` = 'Kondoros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5630', `location` = 'Békés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5712', `location` = 'Szabadkígyós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6055', `location` = 'Felsőlajos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6085', `location` = 'Fülöpszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6331', `location` = 'Foktő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6511', `location` = 'Bácsszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1036', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1037', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1043', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1072', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1085', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1103', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1112', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1114', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1123', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1133', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1136', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3421', `location` = 'Mezőnyárád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3459', `location` = 'Igrici', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3524', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3645', `location` = 'Mályinka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3648', `location` = 'Csernely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3715', `location` = 'Gesztely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3733', `location` = 'Rudabánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3773', `location` = 'Sajókápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3787', `location` = 'Tomor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3800', `location` = 'Szikszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3816', `location` = 'Gagyvendégi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3834', `location` = 'Beret', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3893', `location` = 'Mogyoróska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3905', `location` = 'Monok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3976', `location` = 'Révleányvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Nagyhuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6728', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6774', `location` = 'Ferencszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6800', `location` = 'Hódmezővásárhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7000', `location` = 'Sárbogárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8043', `location` = 'Iszkaszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8097', `location` = 'Nadap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8126', `location` = 'Sárszentágota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9094', `location` = 'Tápszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9141', `location` = 'Ikrény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9143', `location` = 'Enese', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9327', `location` = 'Rábasebes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9346', `location` = 'Vadosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9462', `location` = 'Völcsej', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4067', `location` = 'Egyek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3014', `location` = 'Hort', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3034', `location` = 'Szűcsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3234', `location` = 'Mátraszentimre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3242', `location` = 'Parádsasvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3323', `location` = 'Szarvaskő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3324', `location` = 'Felsőtárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3336', `location` = 'Bátor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3372', `location` = 'Kömlő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3397', `location` = 'Maklár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5061', `location` = 'Tiszasüly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5232', `location` = 'Tiszabő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5235', `location` = 'Tiszabura', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5451', `location` = 'Öcsöd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2652', `location` = 'Tereske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3136', `location` = 'Etes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2023', `location` = 'Dunabogdány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2089', `location` = 'Telki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2098', `location` = 'Pilisszentkereszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2141', `location` = 'Csömör', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2215', `location` = 'Káva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7253', `location` = 'Csoma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7276', `location` = 'Gadács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7282', `location` = 'Kisbárapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7400', `location` = 'Kaposvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7431', `location` = 'Juta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7455', `location` = 'Somogygeszti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7463', `location` = 'Patalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7473', `location` = 'Gálosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7477', `location` = 'Zselickisfalud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7523', `location` = 'Kisasszond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8614', `location` = 'Bálványos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8617', `location` = 'Kőröshegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8732', `location` = 'Szegerdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4235', `location` = 'Biri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4354', `location` = 'Fábiánháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4468', `location` = 'Balsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4474', `location` = 'Tiszabercel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4563', `location` = 'Rohod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4642', `location` = 'Tornyospálca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4811', `location` = 'Kisvarsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4943', `location` = 'Kömörő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4963', `location` = 'Kisszekeres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4972', `location` = 'Gacsály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4974', `location` = 'Zajta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7064', `location` = 'Gyönk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7099', `location` = 'Felsőnyék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7171', `location` = 'Sióagárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7181', `location` = 'Tevel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7352', `location` = 'Györe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9554', `location` = 'Borgáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9653', `location` = 'Répcelak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9913', `location` = 'Szarvaskend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9938', `location` = 'Nagyrákos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9952', `location` = 'Gasztony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8194', `location` = 'Vilonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8245', `location` = 'Pécsely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8412', `location` = 'Veszprém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8454', `location` = 'Nyirád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8474', `location` = 'Csabrendek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8517', `location` = 'Magyargencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8523', `location` = 'Várkesző', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8554', `location` = 'Nagydém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8561', `location` = 'Adásztevel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8795', `location` = 'Zalaszentgrót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8865', `location` = 'Tótszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8925', `location` = 'Búcsúszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8946', `location` = 'Pusztaederics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8957', `location` = 'Csömödér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7394', `location` = 'Bodolyabér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7666', `location` = 'Pogány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7727', `location` = 'Palotabozsok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7773', `location` = 'Kisjakabfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Túrony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7817', `location` = 'Rádfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7837', `location` = 'Hegyszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7841', `location` = 'Sámod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7847', `location` = 'Drávaszerdahely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7937', `location` = 'Boldogasszonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5800', `location` = 'Mezőkovácsháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6132', `location` = 'Móricgát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6224', `location` = 'Tabdi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6451', `location` = 'Tataháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1011', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1172', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1193', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1205', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1215', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3416', `location` = 'Tard', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3508', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3519', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3554', `location` = 'Bükkaranyos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3562', `location` = 'Onga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3592', `location` = 'Nemesbikk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3595', `location` = 'Hejőszalonta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3636', `location` = 'Vadna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3654', `location` = 'Bánréve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3729', `location` = 'Serényfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3761', `location` = 'Szinpetri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3776', `location` = 'Radostyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3795', `location` = 'Nyomár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Kány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3851', `location` = 'Ináncs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3853', `location` = 'Hernádbűd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3895', `location` = 'Gönc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3942', `location` = 'Sárazsadány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6727', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6755', `location` = 'Kübekháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6769', `location` = 'Pusztaszer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6913', `location` = 'Csanádpalota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6915', `location` = 'Csanádalberti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2463', `location` = 'Tordas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9026', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9029', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9097', `location` = 'Mezőörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9374', `location` = 'Iván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9444', `location` = 'Fertőszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9475', `location` = 'Répcevis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4095', `location` = 'Folyás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4174', `location` = 'Bihartorda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3036', `location` = 'Gyöngyöstarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3252', `location` = 'Erdőkövesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3261', `location` = 'Pálosvörösmart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3341', `location` = 'Szúcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5053', `location` = 'Szászberek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5063', `location` = 'Hunyadfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5141', `location` = 'Jásztelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2510', `location` = 'Dorog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2861', `location` = 'Bakonysárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2862', `location` = 'Aka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2879', `location` = 'Kisbér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2903', `location` = 'Komárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2610', `location` = 'Ősagárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3102', `location` = 'Salgótarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3104', `location` = 'Salgótarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3128', `location` = 'Vizslás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3143', `location` = 'Mátranovák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3176', `location` = 'Hollókő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2194', `location` = 'Tura', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7284', `location` = 'Somogydöröcske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7533', `location` = 'Visnye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7588', `location` = 'Vízvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8625', `location` = 'Szólád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8652', `location` = 'Siójut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8668', `location` = 'Tengőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4246', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4542', `location` = 'Petneháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4763', `location` = 'Ura', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4821', `location` = 'Ópályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7038', `location` = 'Pusztahencse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7095', `location` = 'Iregszemcse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9683', `location` = 'Bejcgyertyános', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9730', `location` = 'Kőszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9777', `location` = 'Rábahídvég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9782', `location` = 'Nemesrempehollós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9821', `location` = 'Hegyhátszentpéter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9913', `location` = 'Döröske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9934', `location` = 'Hegyhátszentjakab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9941', `location` = 'Ispánk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9953', `location` = 'Nemesmedves', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8183', `location` = 'Papkeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8255', `location` = 'Balatonrendes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8351', `location` = 'Sümegprága', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8597', `location` = 'Ganna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8357', `location` = 'Döbröce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8752', `location` = 'Zalakomár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8784', `location` = 'Kehidakustány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8879', `location` = 'Szécsisziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8929', `location` = 'Pölöske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8935', `location` = 'Padár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8957', `location` = 'Zebecke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Alsószenterzsébet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8975', `location` = 'Szentgyörgyvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8984', `location` = 'Iborfia', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8998', `location` = 'Vaspör', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8999', `location` = 'Csöde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7304', `location` = 'Mánfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7334', `location` = 'Szalatnak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7342', `location` = 'Mágocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7349', `location` = 'Szászvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7391', `location` = 'Kishajmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7626', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7629', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7668', `location` = 'Keszü', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7823', `location` = 'Siklósnagyfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7926', `location` = 'Vásárosbéc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Drávaiványi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Sumony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7967', `location` = 'Drávafok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7968', `location` = 'Felsőszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7981', `location` = 'Nemeske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5556', `location` = 'Örménykút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6000', `location` = 'Kecskemét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6411', `location` = 'Zsana', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1068', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1108', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1116', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1117', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1144', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1145', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1164', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1191', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1194', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3551', `location` = 'Ónod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3552', `location` = 'Muhi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3553', `location` = 'Kistokaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3627', `location` = 'Domaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3627', `location` = 'Kissikátor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3716', `location` = 'Sóstófalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3780', `location` = 'Edelény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3786', `location` = 'Szakácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3847', `location` = 'Felsődobsza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3881', `location` = 'Sima', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3885', `location` = 'Arka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3904', `location` = 'Legyesbénye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3936', `location` = 'Háromhuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3993', `location` = 'Füzérradvány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6758', `location` = 'Röszke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6903', `location` = 'Makó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2431', `location` = 'Perkáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8060', `location` = 'Mór', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8121', `location` = 'Tác', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9098', `location` = 'Pér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9125', `location` = 'Szerecseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9134', `location` = 'Bodonhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9163', `location` = 'Fehértó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9231', `location` = 'Máriakálnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9315', `location` = 'Sobor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9343', `location` = 'Edve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9400', `location` = 'Sopron', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9495', `location` = 'Kópháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4031', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4065', `location` = 'Újszentmargita', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4143', `location` = 'Vekerd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3341', `location` = 'Egercsehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3355', `location` = 'Kápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5083', `location` = 'Kengyel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5084', `location` = 'Rákócziújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5143', `location` = 'Jánoshida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5309', `location` = 'Berekfürdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2855', `location` = 'Bokod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2898', `location` = 'Kocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2948', `location` = 'Kisigmánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2176', `location` = 'Erdőkürt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2643', `location` = 'Diósjenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3078', `location` = 'Bátonyterenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3127', `location` = 'Kazár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3137', `location` = 'Karancsberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3186', `location` = 'Litke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2164', `location` = 'Váchartyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2174', `location` = 'Verseg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2213', `location` = 'Monorierdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2242', `location` = 'Sülysáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2243', `location` = 'Kóka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2254', `location` = 'Szentmártonkáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2318', `location` = 'Szigetszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2345', `location` = 'Apaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2629', `location` = 'Márianosztra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2635', `location` = 'Vámosmikola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2712', `location` = 'Nyársapát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2736', `location` = 'Mikebuda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7261', `location` = 'Taszár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7276', `location` = 'Somogyszil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7285', `location` = 'Szorosad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7451', `location` = 'Kaposvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7463', `location` = 'Magyaratád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7471', `location` = 'Zimány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7474', `location` = 'Zselicszentpál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7477', `location` = 'Patca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7526', `location` = 'Csököly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7530', `location` = 'Kadarkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7586', `location` = 'Bolhó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8600', `location` = 'Siófok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8619', `location` = 'Pusztaszemes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8694', `location` = 'Hács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8711', `location` = 'Vörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8713', `location` = 'Kéthely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8714', `location` = 'Kelevíz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4324', `location` = 'Kállósemjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4432', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4461', `location` = 'Nyírtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4465', `location` = 'Rakamaz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4547', `location` = 'Szabolcsbáka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4644', `location` = 'Mándok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4735', `location` = 'Hermánszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4823', `location` = 'Nagydobos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4921', `location` = 'Kisar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4931', `location` = 'Tarpa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7025', `location` = 'Bölcske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7061', `location` = 'Belecska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7091', `location` = 'Pári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7136', `location` = 'Fácánkert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7147', `location` = 'Alsónána', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7162', `location` = 'Grábóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7182', `location` = 'Závod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9523', `location` = 'Szergény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9735', `location` = 'Csepreg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9774', `location` = 'Sorkifalud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9824', `location` = 'Olaszfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9832', `location` = 'Nagytilaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9961', `location` = 'Rábagyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8237', `location` = 'Tihany', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8284', `location` = 'Nemesgulács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8308', `location` = 'Sáska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8422', `location` = 'Bakonynána', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8424', `location` = 'Jásd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8425', `location` = 'Lókút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8434', `location` = 'Románd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8360', `location` = 'Keszthely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8785', `location` = 'Kallósd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8799', `location` = 'Dötk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8809', `location` = 'Nagykanizsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8868', `location` = 'Letenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8878', `location` = 'Lovászi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8891', `location` = 'Bánokszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8983', `location` = 'Ormándlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8995', `location` = 'Keménfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8996', `location` = 'Zalacséb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7383', `location` = 'Szágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7759', `location` = 'Kisnyárád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7761', `location` = 'Kozármisleny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7763', `location` = 'Kisherend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7817', `location` = 'Diósviszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7834', `location` = 'Baksa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7849', `location` = 'Drávacsehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7912', `location` = 'Nagypeterd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5643', `location` = 'Bélmegyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5666', `location` = 'Medgyesegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5946', `location` = 'Békéssámson', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6033', `location` = 'Városföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6088', `location` = 'Apostag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6098', `location` = 'Tass', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6112', `location` = 'Pálmonostora', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6325', `location` = 'Dunatetétlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6445', `location` = 'Borota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1007', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1035', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1091', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1151', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1156', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1195', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3413', `location` = 'Cserépfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3423', `location` = 'Tibolddaróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3450', `location` = 'Mezőcsát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3559', `location` = 'Répáshuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3712', `location` = 'Sajóvámos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3722', `location` = 'Felsőkelecsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3731', `location` = 'Szuhakálló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3751', `location` = 'Szendrőlád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3753', `location` = 'Abod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3761', `location` = 'Tornakápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3769', `location` = 'Tornaszentjakab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3815', `location` = 'Gadna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Pamlény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3843', `location` = 'Kiskinizs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3844', `location` = 'Nagykinizs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3916', `location` = 'Bodrogkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6721', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6753', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6756', `location` = 'Tiszasziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6912', `location` = 'Kövegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2476', `location` = 'Pázmánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8044', `location` = 'Kincsesbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8111', `location` = 'Seregélyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8154', `location` = 'Polgárdi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9019', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9167', `location` = 'Bősárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9184', `location` = 'Kunsziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9241', `location` = 'Jánossomorja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9342', `location` = 'Mihályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9364', `location` = 'Cirák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9408', `location` = 'Sopron', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9485', `location` = 'Nagycenk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4273', `location` = 'Hajdúbagos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4275', `location` = 'Monostorpályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3254', `location` = 'Váraszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3264', `location` = 'Kisnána', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3283', `location` = 'Tarnazsadány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3296', `location` = 'Zaránk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3377', `location` = 'Szihalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3399', `location` = 'Andornaktálya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5008', `location` = 'Szolnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5081', `location` = 'Szajol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5100', `location` = 'Jászberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2836', `location` = 'Baj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2889', `location` = 'Súr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2911', `location` = 'Mocsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2655', `location` = 'Kétbodony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2659', `location` = 'Érsekvadkert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2691', `location` = 'Nógrádkövesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2694', `location` = 'Cserháthaláp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3063', `location` = 'Jobbágyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3144', `location` = 'Mátranovák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2040', `location` = 'Budaörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2111', `location` = 'Szada', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2166', `location` = 'Püspökszilágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2182', `location` = 'Domony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2234', `location` = 'Maglód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2310', `location` = 'Szigetszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7271', `location` = 'Fonó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7283', `location` = 'Somogyacsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7521', `location` = 'Kaposmérő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7538', `location` = 'Kálmáncsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7918', `location` = 'Tótújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8627', `location` = 'Kötcse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8671', `location` = 'Kapoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4244', `location` = 'Újfehértó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4733', `location` = 'Gyügye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4737', `location` = 'Kisnamény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4745', `location` = 'Szamosbecs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4765', `location` = 'Csenger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4946', `location` = 'Tiszakóród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7067', `location` = 'Varsád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7081', `location` = 'Simontornya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7159', `location` = 'Kisdorog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7252', `location` = 'Attala', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9553', `location` = 'Kemeneskápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9561', `location` = 'Tokorcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9634', `location` = 'Lócs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9664', `location` = 'Nagygeresd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9672', `location` = 'Gérce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9700', `location` = 'Szombathely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9722', `location` = 'Perenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9739', `location` = 'Nemescsó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9909', `location` = 'Magyarnádalja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9915', `location` = 'Katafa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9942', `location` = 'Szalafő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9944', `location` = 'Bajánsenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9981', `location` = 'Szentgotthárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8171', `location` = 'Balatonvilágos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8264', `location` = 'Szigliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8282', `location` = 'Mindszentkálla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8294', `location` = 'Kapolcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8344', `location` = 'Hetyefő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8491', `location` = 'Karakószörcsök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8496', `location` = 'Nagypirit', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8513', `location` = 'Mihályháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8777', `location` = 'Homokkomárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8785', `location` = 'Zalaszentgrót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8788', `location` = 'Zalaszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8825', `location` = 'Miháld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8834', `location` = 'Murakeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8866', `location` = 'Petrivente', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8885', `location` = 'Valkonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8925', `location` = 'Nemesszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8935', `location` = 'Orbányosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8984', `location` = 'Petrikeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8992', `location` = 'Boncodfölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7331', `location` = 'Liget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7628', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7831', `location` = 'Pellérd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7936', `location` = 'Szentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5624', `location` = 'Doboz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5673', `location` = 'Kamut', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5925', `location` = 'Gerendás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6066', `location` = 'Tiszaalpár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6100', `location` = 'Kiskunfélegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6300', `location` = 'Kalocsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6353', `location` = 'Dusnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6430', `location` = 'Bácsalmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1054', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1066', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1081', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1087', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1165', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3425', `location` = 'Sály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3461', `location` = 'Egerlövő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3467', `location` = 'Ároktő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3500', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3593', `location` = 'Hejőbába', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3597', `location` = 'Hejőkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3626', `location` = 'Hangony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3643', `location` = 'Dédestapolcsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3659', `location` = 'Sáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3661', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3752', `location` = 'Szendrő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3765', `location` = 'Tornaszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3775', `location` = 'Kondó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3796', `location` = 'Borsodszirák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3836', `location` = 'Baktakék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3848', `location` = 'Csobád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3881', `location` = 'Abaújszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3902', `location` = 'Szerencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3978', `location` = 'Dámóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6630', `location` = 'Mindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6760', `location` = 'Kistelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6763', `location` = 'Szatymaz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6795', `location` = 'Bordány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6931', `location` = 'Apátfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2485', `location` = 'Gárdony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8086', `location` = 'Felcsút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8133', `location` = 'Mezőszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8156', `location` = 'Kisláng', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9084', `location` = 'Győrság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9090', `location` = 'Pannonhalma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9147', `location` = 'Dör', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9228', `location` = 'Halászi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9232', `location` = 'Darnózseli', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9312', `location` = 'Szilsárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9434', `location` = 'Sarród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9438', `location` = 'Sarród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4071', `location` = 'Hortobágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4114', `location` = 'Bojt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4119', `location` = 'Váncsod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3258', `location` = 'Tarnalelesz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3368', `location` = 'Boconád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3375', `location` = 'Mezőtárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5222', `location` = 'Örményes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5350', `location` = 'Tiszafüred', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5476', `location` = 'Szelevény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2531', `location` = 'Tokod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2837', `location` = 'Vértesszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2941', `location` = 'Ács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2611', `location` = 'Felsőpetény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2651', `location` = 'Rétság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2658', `location` = 'Pusztaberki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2693', `location` = 'Becske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2696', `location` = 'Terény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2016', `location` = 'Leányfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2093', `location` = 'Budajenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2144', `location` = 'Kerepes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2151', `location` = 'Fót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7261', `location` = 'Kaposhomok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7533', `location` = 'Hedrehely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7537', `location` = 'Homokszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8676', `location` = 'Karád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8723', `location` = 'Varászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8732', `location` = 'Főnyed', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8733', `location` = 'Somogysámson', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4326', `location` = 'Máriapócs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4434', `location` = 'Kálmánháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4467', `location` = 'Szabolcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4484', `location` = 'Ibrány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4517', `location` = 'Gégény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4765', `location` = 'Komlódtótfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4842', `location` = 'Gulács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4952', `location` = 'Uszka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7066', `location` = 'Udvari', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7084', `location` = 'Pincehely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7132', `location` = 'Bogyiszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7186', `location` = 'Aparhant', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7214', `location` = 'Lápafő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9512', `location` = 'Ostffyasszonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9542', `location` = 'Nemeskocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9636', `location` = 'Pósfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9736', `location` = 'Tormásliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9748', `location` = 'Vát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9937', `location` = 'Pankasz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9941', `location` = 'Őriszentpéter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8245', `location` = 'Vászoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8291', `location` = 'Vöröstó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8296', `location` = 'Monostorapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8477', `location` = 'Apácatorna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8357', `location` = 'Sümegcsehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8393', `location` = 'Szentgyörgyvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8868', `location` = 'Kistolmács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8914', `location` = 'Vasboldogasszony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8924', `location` = 'Alsónemesapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8944', `location` = 'Sárhida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8969', `location` = 'Zalaszombatfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7600', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7633', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7635', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7636', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7683', `location` = 'Dinnyeberki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7691', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7695', `location` = 'Óbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7827', `location` = 'Beremend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7847', `location` = 'Kovácshida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7973', `location` = 'Teklafalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7973', `location` = 'Bürüs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5552', `location` = 'Kardos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5747', `location` = 'Almáskamarás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5836', `location` = 'Dombegyház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5903', `location` = 'Orosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6070', `location` = 'Izsák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6136', `location` = 'Harkakötöny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1027', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1061', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1102', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1107', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1171', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1213', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3444', `location` = 'Gelej', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3526', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3532', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3565', `location` = 'Tiszalúc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3594', `location` = 'Hejőpapi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3671', `location` = 'Borsodnádasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3704', `location` = 'Berente', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3724', `location` = 'Ragály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3735', `location` = 'Felsőtelekes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Büttös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3909', `location` = 'Mád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3918', `location` = 'Szegilong', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3965', `location` = 'Nagyrozvágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3996', `location` = 'Füzér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6635', `location` = 'Szegvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6916', `location` = 'Ambrózfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2067', `location` = 'Szárliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2459', `location` = 'Rácalmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2464', `location` = 'Gyúró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7012', `location` = 'Alsószentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7017', `location` = 'Mezőszilas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8081', `location` = 'Zámoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8125', `location` = 'Sárkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8145', `location` = 'Nádasdladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9083', `location` = 'Écs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9100', `location` = 'Tét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9121', `location` = 'Győrszemere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9132', `location` = 'Árpás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9153', `location` = 'Öttevény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9172', `location` = 'Győrzámoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9175', `location` = 'Dunaszentpál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9221', `location` = 'Levél', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9300', `location` = 'Csorna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9322', `location` = 'Rábatamási', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9436', `location` = 'Fertőszéplak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4069', `location` = 'Egyek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4132', `location` = 'Tépe', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4134', `location` = 'Mezősas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4135', `location` = 'Körösszegapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4145', `location` = 'Csökmő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3009', `location` = 'Kerekharaszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3212', `location` = 'Gyöngyöshalász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3281', `location` = 'Karácsond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3357', `location` = 'Nagyút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5363', `location` = 'Nagyiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2931', `location` = 'Almásfüzitő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3066', `location` = 'Cserhátszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3126', `location` = 'Bárna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3181', `location` = 'Karancsalja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2053', `location` = 'Herceghalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2083', `location` = 'Solymár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2095', `location` = 'Pilisszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2114', `location` = 'Valkó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2161', `location` = 'Csomád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2181', `location` = 'Iklad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2193', `location` = 'Galgahévíz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2363', `location` = 'Felsőpakony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2767', `location` = 'Tápiógyörgye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7274', `location` = 'Kazsok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7281', `location` = 'Bonnya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7434', `location` = 'Mezőcsokonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7511', `location` = 'Ötvöskónyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7513', `location` = 'Rinyaszentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7530', `location` = 'Kőkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7539', `location` = 'Szulok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7585', `location` = 'Háromfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7918', `location` = 'Szentborbás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8622', `location` = 'Szántód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8655', `location` = 'Som', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8666', `location` = 'Somogyegres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8725', `location` = 'Iharosberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4472', `location` = 'Gávavencsellő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4503', `location` = 'Tiszarád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4521', `location` = 'Berkesz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4564', `location` = 'Nyírmada', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4566', `location` = 'Ilk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4722', `location` = 'Nyírmeggyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4746', `location` = 'Szamostatárfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4813', `location` = 'Gyüre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4932', `location` = 'Márokpapi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4969', `location` = 'Tisztaberek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7020', `location` = 'Dunaföldvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7140', `location` = 'Bátaszék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9555', `location` = 'Kissomlyó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9622', `location` = 'Szeleste', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9727', `location` = 'Bozsok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9766', `location` = 'Rum', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8193', `location` = 'Sóly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8258', `location` = 'Badacsonytomaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8295', `location` = 'Taliándörögd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8445', `location` = 'Városlőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8511', `location` = 'Pápa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8514', `location` = 'Mezőlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8516', `location` = 'Kemeneshőgyész', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8532', `location` = 'Marcaltő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8533', `location` = 'Malomsok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8571', `location` = 'Bakonykoppány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8582', `location` = 'Farkasgyepű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8741', `location` = 'Zalaapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8765', `location` = 'Egeraracsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8788', `location` = 'Sénye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8886', `location` = 'Oltárc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8893', `location` = 'Bucsuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8897', `location` = 'Söjtör', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8932', `location` = 'Zalaistvánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8947', `location` = 'Szentkozmadombja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8971', `location` = 'Kerkabarabás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Felsőegerszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7663', `location` = 'Máriakéménd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7694', `location` = 'Hosszúhetény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7720', `location` = 'Martonfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7745', `location` = 'Olasz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7751', `location` = 'Szederkény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7785', `location` = 'Sátorhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7800', `location` = 'Kisharsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Bisse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Csarnóta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Hirics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7914', `location` = 'Rózsafa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7915', `location` = 'Szentegát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7924', `location` = 'Somogyviszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7973', `location` = 'Várad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5515', `location` = 'Ecsegfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5905', `location` = 'Orosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6060', `location` = 'Tiszakécske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6065', `location` = 'Lakitelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6077', `location` = 'Orgovány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6334', `location` = 'Géderlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1095', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1186', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1188', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3426', `location` = 'Borsodgeszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3434', `location` = 'Mályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3518', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3531', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3586', `location` = 'Sajóörös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3603', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3664', `location` = 'Járdánháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3852', `location` = 'Hernádszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3886', `location` = 'Korlát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3988', `location` = 'Sátoraljaújhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3989', `location` = 'Alsóregmec', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6782', `location` = 'Mórahalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6917', `location` = 'Nagyér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7041', `location` = 'Vajta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8065', `location` = 'Nagyveleg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8083', `location` = 'Csákvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8143', `location` = 'Sárszentmihály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9011', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9024', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9093', `location` = 'Győrasszonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9142', `location` = 'Rábapatona', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9155', `location` = 'Lébény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9173', `location` = 'Győrladamér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9233', `location` = 'Lipót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9343', `location` = 'Beled', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9493', `location` = 'Fertőboz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4121', `location` = 'Szentpéterszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4123', `location` = 'Hencida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4136', `location` = 'Körösszakál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4253', `location` = 'Nyíradony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4272', `location` = 'Sáránd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4281', `location` = 'Létavértes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3248', `location` = 'Ivád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3275', `location` = 'Detk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5082', `location` = 'Tiszatenyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5135', `location` = 'Jászivány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5331', `location` = 'Kenderes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5400', `location` = 'Mezőtúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5449', `location` = 'Kunszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5463', `location` = 'Nagyrév', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2543', `location` = 'Süttő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2888', `location` = 'Csatka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2655', `location` = 'Szente', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2660', `location` = 'Balassagyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3070', `location` = 'Bátonyterenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2009', `location` = 'Pilisszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2014', `location` = 'Csobánka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2097', `location` = 'Pilisborosjenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2120', `location` = 'Dunakeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2191', `location` = 'Bag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2209', `location` = 'Péteri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2255', `location` = 'Szentlőrinckáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2623', `location` = 'Kismaros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2746', `location` = 'Jászkarajenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7442', `location` = 'Várda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7553', `location` = 'Görgeteg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7570', `location` = 'Barcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7988', `location` = 'Darány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8654', `location` = 'Ságvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8660', `location` = 'Tab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8706', `location` = 'Nikla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8732', `location` = 'Sávoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8739', `location` = 'Nagyszakácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8851', `location` = 'Gyékényes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4363', `location` = 'Nyírmihálydi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4456', `location` = 'Tiszadob', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4486', `location` = 'Tiszatelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4545', `location` = 'Gyulaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4621', `location` = 'Fényeslitke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4947', `location` = 'Tiszacsécse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4965', `location` = 'Kölcse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7039', `location` = 'Németkér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7185', `location` = 'Mucsfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7355', `location` = 'Nagymányok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9612', `location` = 'Porpác', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9774', `location` = 'Gyanógeregye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9835', `location` = 'Mikosszéplak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9934', `location` = 'Szaknyér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8229', `location` = 'Paloznak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8244', `location` = 'Dörgicse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8248', `location` = 'Veszprémfajsz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8256', `location` = 'Salföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8447', `location` = 'Ajka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8451', `location` = 'Ajka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8598', `location` = 'Pápa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9532', `location` = 'Külsővat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9534', `location` = 'Marcalgergelyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8797', `location` = 'Batyk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8862', `location` = 'Semjénháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8888', `location` = 'Kiscsehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8888', `location` = 'Lispeszentadorján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8915', `location` = 'Nemesrádó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8951', `location` = 'Csertalakos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8956', `location` = 'Pördefölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8978', `location` = 'Belsősárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8985', `location` = 'Becsvölgye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8988', `location` = 'Kálócfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7386', `location` = 'Gödre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7664', `location` = 'Pereked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7711', `location` = 'Bár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7720', `location` = 'Lovászhetény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7773', `location` = 'Villány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7813', `location` = 'Szava', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7822', `location` = 'Nagyharsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Nagycsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7846', `location` = 'Drávacsepely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7923', `location` = 'Basal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7925', `location` = 'Somogyhárságy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7954', `location` = 'Kisasszonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5520', `location` = 'Szeghalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5526', `location` = 'Kertészsziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5650', `location` = 'Mezőberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5662', `location` = 'Csanádapáca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5720', `location` = 'Sarkad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5744', `location` = 'Kevermes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5811', `location` = 'Végegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6031', `location` = 'Szentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6044', `location` = 'Kecskemét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6096', `location` = 'Kunpeszér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6131', `location` = 'Szank', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6348', `location` = 'Érsekhalma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6440', `location` = 'Jánoshalma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6447', `location` = 'Felsőszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6512', `location` = 'Szeremle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6525', `location` = 'Hercegszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1013', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1023', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1083', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1125', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1139', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1157', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1163', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3441', `location` = 'Mezőkeresztes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3465', `location` = 'Tiszabábolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3516', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3534', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3623', `location` = 'Borsodszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3721', `location` = 'Dövény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3723', `location` = 'Zubogy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3742', `location` = 'Rudolftelep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3767', `location` = 'Tornanádaska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3778', `location` = 'Varbó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3809', `location` = 'Selyeb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3833', `location` = 'Rásonysápberencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3873', `location` = 'Garadna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3962', `location` = 'Karos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3995', `location` = 'Pusztafalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6710', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6725', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6923', `location` = 'Óföldeák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8130', `location` = 'Enying', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8137', `location` = 'Mezőkomárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8151', `location` = 'Szabadbattyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9062', `location` = 'Vének', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9074', `location` = 'Rétalap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9092', `location` = 'Tarjánpuszta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9223', `location` = 'Bezenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9246', `location` = 'Mosonudvar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9343', `location` = 'Vásárosfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9361', `location` = 'Hövej', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9463', `location` = 'Sopronhorpács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9471', `location` = 'Nemeskér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4161', `location` = 'Báránd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4176', `location` = 'Sáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4220', `location` = 'Hajdúböszörmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4283', `location` = 'Létavértes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3012', `location` = 'Nagykökényes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3348', `location` = 'Szilvásvárad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5362', `location` = 'Tiszaörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2541', `location` = 'Lábatlan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2884', `location` = 'Bakonyszombathely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2899', `location` = 'Naszály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2945', `location` = 'Tárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2649', `location` = 'Dejtár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3067', `location` = 'Garáb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3123', `location` = 'Cered', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3134', `location` = 'Piliny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2340', `location` = 'Kiskunlacháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2628', `location` = 'Szob', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7457', `location` = 'Ecseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7474', `location` = 'Simonfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7475', `location` = 'Bőszénfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7515', `location` = 'Somogyudvarhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7525', `location` = 'Jákó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7527', `location` = 'Gige', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7977', `location` = 'Drávagárdony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8623', `location` = 'Balatonföldvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8637', `location` = 'Balatonőszöd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8692', `location` = 'Szőlősgyörök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8728', `location` = 'Pogányszentpéter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8858', `location` = 'Somogybükkösd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4320', `location` = 'Nagykálló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4327', `location` = 'Pócspetri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4431', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4511', `location` = 'Nyírbogdány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4515', `location` = 'Kék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4841', `location` = 'Jánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4912', `location` = 'Kérsemjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4967', `location` = 'Csaholc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7133', `location` = 'Fadd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7193', `location` = 'Regöly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7212', `location` = 'Kocsola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7214', `location` = 'Várong', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9514', `location` = 'Kenyeri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9556', `location` = 'Duka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9633', `location` = 'Simaság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9652', `location` = 'Nick', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9741', `location` = 'Vassurány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9756', `location` = 'Ikervár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9794', `location` = 'Felsőcsatár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9953', `location` = 'Vasszentmihály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9970', `location` = 'Szentgotthárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8247', `location` = 'Hidegkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8281', `location` = 'Szentbékkálla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8284', `location` = 'Kisapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8330', `location` = 'Sümeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8430', `location` = 'Bakonyszentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8446', `location` = 'Kislőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8449', `location` = 'Magyarpolány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8469', `location` = 'Kamond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8478', `location` = 'Somlójenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8497', `location` = 'Adorjánháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8541', `location` = 'Takácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8562', `location` = 'Nagytevel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8394', `location` = 'Alsópáhok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8771', `location` = 'Hahót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8774', `location` = 'Gelse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8782', `location` = 'Tilaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8868', `location` = 'Murarátka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8873', `location` = 'Csörnyeföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8913', `location` = 'Lakhegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8936', `location` = 'Zalaszentmihály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8943', `location` = 'Csatár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8983', `location` = 'Babosdöbréte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7334', `location` = 'Köblény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7348', `location` = 'Hegyhátmaróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7383', `location` = 'Baranyaszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7744', `location` = 'Ellend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7759', `location` = 'Lánycsók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7774', `location` = 'Márok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7823', `location` = 'Kistapolca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7833', `location` = 'Görcsöny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7834', `location` = 'Téseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7851', `location` = 'Drávaszabolcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7913', `location` = 'Szentdénes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7935', `location` = 'Csebény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5751', `location` = 'Nagykamarás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6062', `location` = 'Tiszakécske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6097', `location` = 'Kunadacs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6134', `location` = 'Kömpöc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6235', `location` = 'Bócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6453', `location` = 'Bácsbokod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1028', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1064', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1119', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1122', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1141', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3463', `location` = 'Négyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3647', `location` = 'Csokvaomány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3716', `location` = 'Újcsanálos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3794', `location` = 'Ziliz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3809', `location` = 'Nyésta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3866', `location` = 'Litka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3926', `location` = 'Taktabáj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3929', `location` = 'Tiszaladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3945', `location` = 'Sátoraljaújhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3963', `location` = 'Karcsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3972', `location` = 'Tiszacsermely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8095', `location` = 'Pákozd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8152', `location` = 'Kőszárhegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9135', `location` = 'Rábaszentmihály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9161', `location` = 'Győrsövényház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9168', `location` = 'Acsalag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9314', `location` = 'Egyed', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9474', `location` = 'Gyalóka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4042', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4080', `location` = 'Hajdúnánás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4085', `location` = 'Hajdúnánás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4146', `location` = 'Újiráz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3021', `location` = 'Lőrinci', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3284', `location` = 'Tarnaméra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3382', `location` = 'Tarnaszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3383', `location` = 'Hevesvezekény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5051', `location` = 'Zagyvarékas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5065', `location` = 'Nagykörű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5071', `location` = 'Besenyszög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5130', `location` = 'Jászapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5212', `location` = 'Törökszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5310', `location` = 'Kisújszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2518', `location` = 'Leányvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2833', `location` = 'Vértestolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2853', `location` = 'Kömlőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2890', `location` = 'Tata', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2943', `location` = 'Bábolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2675', `location` = 'Nógrádmarcal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2699', `location` = 'Szügy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3047', `location` = 'Buják', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3053', `location` = 'Ecseg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3064', `location` = 'Szurdokpüspöki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2000', `location` = 'Szentendre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2090', `location` = 'Remeteszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2230', `location` = 'Gyömrő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2351', `location` = 'Alsónémedi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2366', `location` = 'Kakucs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2634', `location` = 'Nagybörzsöny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2636', `location` = 'Tésa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2721', `location` = 'Pilis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2730', `location` = 'Albertirsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2735', `location` = 'Dánszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7258', `location` = 'Baté', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7500', `location` = 'Nagyatád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7512', `location` = 'Mike', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7589', `location` = 'Bélavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8628', `location` = 'Nagycsepely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8709', `location` = 'Marcali', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8716', `location` = 'Hosszúvíz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8738', `location` = 'Nemesvid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4334', `location` = 'Hodász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4355', `location` = 'Nagyecsed', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4371', `location` = 'Nyírlugos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4447', `location` = 'Tiszalök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4481', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4491', `location` = 'Újdombrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4525', `location` = 'Rétközberencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4541', `location` = 'Nyírjákó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4551', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4553', `location` = 'Apagy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4835', `location` = 'Mátyus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4845', `location` = 'Tákos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4900', `location` = 'Fehérgyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7071', `location` = 'Szakadát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7161', `location` = 'Cikó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7172', `location` = 'Harc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9549', `location` = 'Keléd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9661', `location` = 'Vasegerszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9723', `location` = 'Gyöngyösfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9746', `location` = 'Acsád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9751', `location` = 'Vép', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9800', `location` = 'Vasvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8105', `location` = 'Pétfürdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8174', `location` = 'Balatonkenese', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8175', `location` = 'Balatonfűzfő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8256', `location` = 'Ábrahámhegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8275', `location` = 'Balatonhenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8431', `location` = 'Bakonyszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8442', `location` = 'Hárskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8444', `location` = 'Szentgál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8473', `location` = 'Gyepükaján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8553', `location` = 'Lovászpatona', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8761', `location` = 'Zalaigrice', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8792', `location` = 'Zalavég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8885', `location` = 'Borsfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8921', `location` = 'Pethőhenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8960', `location` = 'Gosztola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8969', `location` = 'Bödeháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Kerkakutas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7332', `location` = 'Magyaregregy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7351', `location` = 'Máza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7383', `location` = 'Tormás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7639', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7726', `location` = 'Véménd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7754', `location` = 'Bóly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7772', `location` = 'Villánykövesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7781', `location` = 'Sárok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7781', `location` = 'Ivándárda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7814', `location` = 'Kisdér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7841', `location` = 'Adorjás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7841', `location` = 'Kisszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7923', `location` = 'Patapoklosi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7935', `location` = 'Ibafa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5667', `location` = 'Magyarbánhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5920', `location` = 'Csorvás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6080', `location` = 'Szabadszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6344', `location` = 'Hajós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6435', `location` = 'Kunbaja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1039', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1067', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1184', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1214', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3412', `location` = 'Bogács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3418', `location` = 'Szentistván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3432', `location` = 'Emőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3528', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3535', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3662', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3765', `location` = 'Tornabarakony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3768', `location` = 'Bódvalenke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3792', `location` = 'Sajóbábony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3809', `location` = 'Abaújszolnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3846', `location` = 'Hernádkércs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6786', `location` = 'Ruzsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6794', `location` = 'Üllés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6805', `location` = 'Hódmezővásárhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6911', `location` = 'Királyhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6922', `location` = 'Földeák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2064', `location` = 'Csabdi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2066', `location` = 'Szár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2421', `location` = 'Nagyvenyim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2435', `location` = 'Nagylók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8053', `location` = 'Bodajk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8071', `location` = 'Magyaralmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8089', `location` = 'Vértesacsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9061', `location` = 'Vámosszabadi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9064', `location` = 'Vámosszabadi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9086', `location` = 'Töltéstava', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9122', `location` = 'Felpéc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9124', `location` = 'Gyömöre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9146', `location` = 'Rábapordány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9178', `location` = 'Hédervár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9327', `location` = 'Vág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9341', `location` = 'Kisfalud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9352', `location` = 'Veszkény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9353', `location` = 'Szárföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9423', `location` = 'Ágfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9437', `location` = 'Hegykő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9442', `location` = 'Fertőendréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4002', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4026', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4243', `location` = 'Téglás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3011', `location` = 'Heréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3256', `location` = 'Kisfüzes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3263', `location` = 'Domoszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3352', `location` = 'Feldebrő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2027', `location` = 'Dömös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2882', `location` = 'Kerékteleki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2949', `location` = 'Csém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2177', `location` = 'Erdőtarcsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2617', `location` = 'Alsópetény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2674', `location` = 'Iliny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3041', `location` = 'Héhalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3045', `location` = 'Bér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3100', `location` = 'Salgótarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3131', `location` = 'Sóshartyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3188', `location` = 'Ludányhalászi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2017', `location` = 'Pócsmegyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2314', `location` = 'Halásztelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2370', `location` = 'Dabas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2373', `location` = 'Dabas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2627', `location` = 'Zebegény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2723', `location` = 'Nyáregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7258', `location` = 'Kaposkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7473', `location` = 'Hajmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7522', `location` = 'Kaposújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7536', `location` = 'Patosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7584', `location` = 'Rinyaújnép', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7585', `location` = 'Bakháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7587', `location` = 'Heresznye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8669', `location` = 'Miklósi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8717', `location` = 'Szenyér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8722', `location` = 'Nemesdéd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8858', `location` = 'Porrog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4445', `location` = 'Nagycserkesz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4463', `location` = 'Tiszanagyfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4464', `location` = 'Tiszaeszlár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4531', `location` = 'Nyírpazony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4633', `location` = 'Lövőpetri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4635', `location` = 'Újkenéz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4641', `location` = 'Mezőladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4735', `location` = 'Szamossályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4754', `location` = 'Fülpösdaróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4945', `location` = 'Szatmárcseke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4975', `location` = 'Méhtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7082', `location` = 'Kisszékely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7176', `location` = 'Murga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7215', `location` = 'Nak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7224', `location` = 'Dúzs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7354', `location` = 'Váralja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7362', `location` = 'Vásárosdombó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9621', `location` = 'Ölbő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9685', `location` = 'Szemenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9733', `location` = 'Horvátzsidány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9733', `location` = 'Ólmod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9791', `location` = 'Torony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9813', `location` = 'Sárfimizdó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9826', `location` = 'Petőmihályfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9833', `location` = 'Csehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9962', `location` = 'Csörötnek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8162', `location` = 'Küngös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8164', `location` = 'Balatonfőkajár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8308', `location` = 'Zalahaláp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8345', `location` = 'Dabronc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8433', `location` = 'Bakonygyirót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8438', `location` = 'Veszprémvarsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8493', `location` = 'Iszkáz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8543', `location` = 'Gecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8552', `location` = 'Vanyola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8555', `location` = 'Bakonytamási', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8572', `location` = 'Bakonyszücs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8356', `location` = 'Kisgörbő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8776', `location` = 'Magyarszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8789', `location` = 'Zalaszentgrót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8874', `location` = 'Dobri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8893', `location` = 'Szentliszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8928', `location` = 'Nemeshetés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8956', `location` = 'Páka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7300', `location` = 'Komló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7333', `location` = 'Kárász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7343', `location` = 'Nagyhajmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7385', `location` = 'Gödre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7394', `location` = 'Magyarhertelend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7675', `location` = 'Bakonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7728', `location` = 'Görcsönydoboka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7763', `location` = 'Szemely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7768', `location` = 'Vokány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7825', `location` = 'Old', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Besence', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7853', `location` = 'Gordisa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7900', `location` = 'Szigetvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7912', `location` = 'Nagyváty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7954', `location` = 'Magyarmecske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5742', `location` = 'Elek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5830', `location` = 'Battonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6114', `location` = 'Bugacpusztaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6116', `location` = 'Fülöpjakab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6413', `location` = 'Kunfehértó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6454', `location` = 'Bácsborsód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1031', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1075', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1097', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1118', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1132', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1183', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3574', `location` = 'Bőcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3764', `location` = 'Bódvarákó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3770', `location` = 'Sajószentpéter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3872', `location` = 'Novajidrány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3897', `location` = 'Zsujta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3921', `location` = 'Taktaszada', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Kishuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2063', `location` = 'Óbarok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2065', `location` = 'Mány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2477', `location` = 'Vereb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2484', `location` = 'Gárdony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7019', `location` = 'Sárbogárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8132', `location` = 'Lepsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8142', `location` = 'Úrhida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9062', `location` = 'Kisbajcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9096', `location` = 'Nyalka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9169', `location` = 'Maglóca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9222', `location` = 'Hegyeshalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9330', `location` = 'Kapuvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9473', `location` = 'Egyházasfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9482', `location` = 'Nagylózs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4063', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4115', `location` = 'Ártánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4144', `location` = 'Darvas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4164', `location` = 'Bakonszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4173', `location` = 'Nagyrábé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4184', `location` = 'Tetétlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4252', `location` = 'Nyíradony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4271', `location` = 'Mikepércs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4274', `location` = 'Hosszúpályi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4286', `location` = 'Bagamér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3262', `location` = 'Markaz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3395', `location` = 'Demjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5093', `location` = 'Vezseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5452', `location` = 'Mesterszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2523', `location` = 'Sárisáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2544', `location` = 'Neszmély', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2897', `location` = 'Dunaszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2655', `location` = 'Kisecset', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3147', `location` = 'Kazár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3165', `location` = 'Endrefalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3184', `location` = 'Mihálygerge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3187', `location` = 'Nógrádszakál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2015', `location` = 'Szigetmonostor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2074', `location` = 'Perbál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2244', `location` = 'Úri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2339', `location` = 'Majosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2637', `location` = 'Perőcsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2683', `location` = 'Acsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2737', `location` = 'Ceglédbercel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2765', `location` = 'Farmos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7253', `location` = 'Szabadi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7436', `location` = 'Újvárfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7473', `location` = 'Kaposgyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8635', `location` = 'Ordacsehi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8693', `location` = 'Kisberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8699', `location` = 'Somogyvámos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8700', `location` = 'Marcali', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8716', `location` = 'Mesztegnyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8734', `location` = 'Somogyzsitfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4311', `location` = 'Nyírgyulaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4332', `location` = 'Nyírderzs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4337', `location` = 'Jármi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4352', `location` = 'Mérk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4937', `location` = 'Barabás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4962', `location` = 'Nagyszekeres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7095', `location` = 'Újireg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7097', `location` = 'Nagyszokoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7098', `location` = 'Magyarkeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7158', `location` = 'Bonyhádvarasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7173', `location` = 'Zomba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7187', `location` = 'Bonyhád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7213', `location` = 'Szakcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7356', `location` = 'Kismányok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9517', `location` = 'Kemenessömjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9551', `location` = 'Mesteri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9663', `location` = 'Nemesládony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9757', `location` = 'Meggyeskovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9761', `location` = 'Táplánszentkereszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9773', `location` = 'Sorokpolány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9792', `location` = 'Bucsu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9798', `location` = 'Ják', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9912', `location` = 'Molnaszecsőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9917', `location` = 'Halogy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9982', `location` = 'Orfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8226', `location` = 'Alsóörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8233', `location` = 'Balatonszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8346', `location` = 'Gógánfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8429', `location` = 'Porva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8455', `location` = 'Pusztamiske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8458', `location` = 'Oroszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8500', `location` = 'Pápa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8551', `location` = 'Nagygyimót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8597', `location` = 'Döbrönte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8341', `location` = 'Mihályfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8745', `location` = 'Kerecseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8753', `location` = 'Balatonmagyaród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8774', `location` = 'Gelsesziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8778', `location` = 'Újudvar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8832', `location` = 'Liszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8925', `location` = 'Nemessándorháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7671', `location` = 'Zók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7678', `location` = 'Kovácsszénája', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7681', `location` = 'Okorvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7695', `location` = 'Ófalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7700', `location` = 'Mohács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7731', `location` = 'Nagypall', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7781', `location` = 'Lippó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7812', `location` = 'Garé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7833', `location` = 'Szőke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7951', `location` = 'Szabadszentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7954', `location` = 'Gilvánfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7967', `location` = 'Markóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5732', `location` = 'Mezőgyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5948', `location` = 'Kaszaper', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6086', `location` = 'Szalkszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6111', `location` = 'Gátér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6327', `location` = 'Harta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6513', `location` = 'Dunafalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1014', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1024', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1026', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1034', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1073', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1077', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1084', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1086', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1101', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3400', `location` = 'Mezőkövesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3564', `location` = 'Hernádnémeti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3636', `location` = 'Sajógalgóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3712', `location` = 'Sajósenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3825', `location` = 'Viszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3855', `location` = 'Fancsal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3871', `location` = 'Méra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3896', `location` = 'Telkibánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3965', `location` = 'Kisrozvágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3967', `location` = 'Lácacséke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3980', `location` = 'Sátoraljaújhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3987', `location` = 'Bodroghalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6622', `location` = 'Nagymágocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6648', `location` = 'Csongrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6921', `location` = 'Maroslele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2091', `location` = 'Etyek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2456', `location` = 'Besnyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2481', `location` = 'Velence', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7013', `location` = 'Cece', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8124', `location` = 'Káloz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9000', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9073', `location` = 'Bőny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9088', `location` = 'Bakonypéterd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9174', `location` = 'Dunaszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4060', `location` = 'Balmazújváros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4066', `location` = 'Tiszacsege', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4130', `location` = 'Derecske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4200', `location` = 'Hajdúszoboszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4285', `location` = 'Álmosd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5142', `location` = 'Alattyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5420', `location` = 'Túrkeve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5430', `location` = 'Tiszaföldvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5474', `location` = 'Tiszasas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2834', `location` = 'Tardos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2858', `location` = 'Császár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2646', `location` = 'Drégelypalánk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2658', `location` = 'Horpács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3082', `location` = 'Pásztó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3178', `location` = 'Varsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3182', `location` = 'Karancslapujtő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2092', `location` = 'Budakeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2117', `location` = 'Isaszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2214', `location` = 'Pánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2217', `location` = 'Gomba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7257', `location` = 'Mosdós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7400', `location` = 'Zselickislak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7453', `location` = 'Mernye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8613', `location` = 'Balatonendréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8651', `location` = 'Balatonszabadi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8705', `location` = 'Somogyszentpál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8708', `location` = 'Somogyfajsz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4300', `location` = 'Nyírbátor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4374', `location` = 'Encsencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4441', `location` = 'Szorgalmatos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4450', `location` = 'Tiszalök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4493', `location` = 'Tiszakanyár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4516', `location` = 'Demecser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4741', `location` = 'Jánkmajtis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4942', `location` = 'Mánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4964', `location` = 'Fülesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7030', `location` = 'Paks', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7149', `location` = 'Báta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7361', `location` = 'Kaposszekcső', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9631', `location` = 'Hegyfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9724', `location` = 'Lukácsháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9793', `location` = 'Narda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9795', `location` = 'Vaskeresztes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8184', `location` = 'Balatonfűzfő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8248', `location` = 'Nemesvámos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8272', `location` = 'Szentjakabfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8291', `location` = 'Barnag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8409', `location` = 'Úrkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8415', `location` = 'Nagyesztergár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8419', `location` = 'Csesznek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8432', `location` = 'Fenyőfő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8556', `location` = 'Pápateszér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8581', `location` = 'Németbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8593', `location` = 'Pápadereske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8371', `location` = 'Nemesbük', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8743', `location` = 'Zalaszabar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8751', `location` = 'Zalakomár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8764', `location` = 'Dióskál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8776', `location` = 'Magyarszerdahely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8827', `location` = 'Zalaszentjakab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8881', `location` = 'Sormás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8887', `location` = 'Lasztonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8891', `location` = 'Várfölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8911', `location` = 'Kiskutas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8912', `location` = 'Nagypáli', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8931', `location` = 'Vöckönd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8935', `location` = 'Almásháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8966', `location` = 'Lenti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8992', `location` = 'Zalaboldogfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7348', `location` = 'Tófű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Meződ', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7661', `location` = 'Kékesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7661', `location` = 'Szellő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7716', `location` = 'Homorúd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7720', `location` = 'Apátvarasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7756', `location` = 'Kisbudmér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7763', `location` = 'Egerág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7971', `location` = 'Hobol', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5661', `location` = 'Újkígyós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5674', `location` = 'Kétsoprony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5820', `location` = 'Mezőhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6034', `location` = 'Helvécia', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6087', `location` = 'Dunavecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6347', `location` = 'Érsekcsanád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6503', `location` = 'Baja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6521', `location` = 'Vaskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1025', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1063', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3422', `location` = 'Bükkábrány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3572', `location` = 'Sajólád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3577', `location` = 'Köröm', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3641', `location` = 'Nagybarca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3648', `location` = 'Lénárddaróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3713', `location` = 'Arnót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3721', `location` = 'Jákfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3768', `location` = 'Hidvégardó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3813', `location` = 'Kupa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3817', `location` = 'Gagybátor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Keresztéte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3837', `location` = 'Alsógagy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3876', `location` = 'Hidasnémeti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3887', `location` = 'Hernádcéce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3898', `location` = 'Pányok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3915', `location` = 'Tarcal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3956', `location` = 'Viss', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6612', `location` = 'Nagytőke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6806', `location` = 'Hódmezővásárhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2454', `location` = 'Iváncsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2465', `location` = 'Ráckeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7015', `location` = 'Igar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8072', `location` = 'Söréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9028', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9131', `location` = 'Mórichida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9181', `location` = 'Kimle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9325', `location` = 'Sopronnémeti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9365', `location` = 'Dénesfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9375', `location` = 'Csáfordjánosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9435', `location` = 'Sarród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9476', `location` = 'Zsira', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4032', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4087', `location` = 'Hajdúdorog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4141', `location` = 'Furta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4181', `location` = 'Nádudvar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3211', `location` = 'Gyöngyösoroszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3333', `location` = 'Terpes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3335', `location` = 'Bükkszék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3343', `location` = 'Bekölce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3346', `location` = 'Bükkszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5064', `location` = 'Csataszög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5091', `location` = 'Tószeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5234', `location` = 'Tiszaroff', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2508', `location` = 'Esztergom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2522', `location` = 'Dág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2526', `location` = 'Epöl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2824', `location` = 'Várgesztes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2856', `location` = 'Szákszend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2881', `location` = 'Ászár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3077', `location` = 'Mátraverebély', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3129', `location` = 'Nagykeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3142', `location` = 'Mátraszele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3163', `location` = 'Karancsság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3183', `location` = 'Karancskeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2051', `location` = 'Biatorbágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2084', `location` = 'Pilisszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2115', `location` = 'Vácszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2233', `location` = 'Ecser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2252', `location` = 'Tóalmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2360', `location` = 'Gyál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2600', `location` = 'Vác', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2612', `location` = 'Kosd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2633', `location` = 'Ipolytölgyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2700', `location` = 'Cegléd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7476', `location` = 'Kaposszerdahely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7582', `location` = 'Péterhida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8646', `location` = 'Balatonfenyves', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8660', `location` = 'Torvaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8666', `location` = 'Bedegkér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8685', `location` = 'Gamás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8693', `location` = 'Lengyeltóti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8735', `location` = 'Csákány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4373', `location` = 'Ömböly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4483', `location` = 'Buj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4488', `location` = 'Beszterec', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4496', `location` = 'Szabolcsveresmart', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4532', `location` = 'Nyírtura', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4555', `location` = 'Levelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4756', `location` = 'Rápolt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4761', `location` = 'Porcsalma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4762', `location` = 'Tyukod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4804', `location` = 'Vásárosnamény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4951', `location` = 'Tiszabecs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4966', `location` = 'Vámosoroszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4973', `location` = 'Császló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7027', `location` = 'Paks', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7043', `location` = 'Bikács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7052', `location` = 'Kölesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7062', `location` = 'Keszőhidegkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7148', `location` = 'Alsónyék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7150', `location` = 'Bonyhád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7191', `location` = 'Hőgyész', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7226', `location` = 'Kurd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9654', `location` = 'Csánig', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9764', `location` = 'Meggyeskovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9797', `location` = 'Nárai', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8109', `location` = 'Tés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8227', `location` = 'Felsőörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8246', `location` = 'Tótvázsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8251', `location` = 'Zánka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8255', `location` = 'Kővágóörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8291', `location` = 'Pula', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8348', `location` = 'Zalameggyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8400', `location` = 'Ajka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8418', `location` = 'Bakonyoszlop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8423', `location` = 'Szápár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8427', `location` = 'Bakonybél', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8518', `location` = 'Kemenesszentpéter', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8557', `location` = 'Bakonyság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8395', `location` = 'Felsőpáhok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8767', `location` = 'Alsórajk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8835', `location` = 'Fityeház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8856', `location` = 'Surd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8879', `location` = 'Kerkateskánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8935', `location` = 'Misefa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8943', `location` = 'Bocfölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8956', `location` = 'Kányavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8992', `location` = 'Hagyárosbörönd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Vázsnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7671', `location` = 'Aranyosgadány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7732', `location` = 'Fazekasboda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7737', `location` = 'Székelyszabar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7800', `location` = 'Siklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7836', `location` = 'Bogádmindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7976', `location` = 'Szörény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7981', `location` = 'Kistamási', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5932', `location` = 'Gádoros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6114', `location` = 'Bugac', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6342', `location` = 'Drágszél', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6352', `location` = 'Fajsz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6449', `location` = 'Mélykút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1029', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1033', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1042', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1051', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1124', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1126', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1137', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1203', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3442', `location` = 'Csincse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3622', `location` = 'Uppony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3635', `location` = 'Dubicsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3646', `location` = 'Nekézseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3655', `location` = 'Hét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3656', `location` = 'Sajóvelezd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3918', `location` = 'Szegi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3959', `location` = 'Makkoshotyka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3999', `location` = 'Hollóháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6624', `location` = 'Eperjes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7018', `location` = 'Sárbogárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8019', `location` = 'Székesfehérvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8066', `location` = 'Pusztavám', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8087', `location` = 'Alcsútdoboz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8136', `location` = 'Lajoskomárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8157', `location` = 'Füle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9027', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9072', `location` = 'Nagyszentjános', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9133', `location` = 'Kisbabot', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9245', `location` = 'Mosonszolnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9316', `location` = 'Rábaszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9346', `location` = 'Magyarkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9373', `location` = 'Pusztacsalád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9443', `location` = 'Petőháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9451', `location` = 'Ebergőc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4142', `location` = 'Zsáka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4150', `location` = 'Püspökladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4175', `location` = 'Bihardancsháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4225', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3274', `location` = 'Ludas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3294', `location` = 'Tarnaörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3327', `location` = 'Novaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3345', `location` = 'Mónosbél', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3369', `location` = 'Tarnabod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5062', `location` = 'Kőtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5471', `location` = 'Tiszakürt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2831', `location` = 'Tarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2852', `location` = 'Kecskéd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2883', `location` = 'Bársonyos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2672', `location` = 'Hugyag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2697', `location` = 'Szanda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3060', `location` = 'Pásztó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3066', `location` = 'Bokor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2135', `location` = 'Csörög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2225', `location` = 'Üllő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2235', `location` = 'Mende', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2317', `location` = 'Szigetcsép', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2344', `location` = 'Dömsöd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2745', `location` = 'Kőröstetétlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2750', `location` = 'Nagykőrös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7279', `location` = 'Kisgyalán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7439', `location` = 'Bodrog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7441', `location` = 'Magyaregres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7458', `location` = 'Polány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7472', `location` = 'Szentbalázs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8660', `location` = 'Lulla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8674', `location` = 'Nágocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8719', `location` = 'Böhönye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8737', `location` = 'Somogysimonyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4485', `location` = 'Nagyhalász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4534', `location` = 'Székely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4558', `location` = 'Ófehértó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4700', `location` = 'Mátészalka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4731', `location` = 'Tunyogmatolcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4911', `location` = 'Nábrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4934', `location` = 'Beregdaróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7085', `location` = 'Nagyszékely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7195', `location` = 'Mucsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7353', `location` = 'Izmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9725', `location` = 'Kőszegdoroszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9725', `location` = 'Cák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9749', `location` = 'Nemesbőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9834', `location` = 'Csehimindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9900', `location` = 'Körmend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9912', `location` = 'Magyarszecsőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8163', `location` = 'Csajág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8253', `location` = 'Révfülöp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8257', `location` = 'Badacsonytomaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8286', `location` = 'Gyulakeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8294', `location` = 'Vigántpetend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8349', `location` = 'Zalagyömörő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8435', `location` = 'Gic', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8476', `location` = 'Zalaszegvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8485', `location` = 'Dabrony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8515', `location` = 'Békás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8521', `location` = 'Nagyacsád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8557', `location` = 'Bakonyszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8565', `location` = 'Béb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8592', `location` = 'Dáka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9534', `location` = 'Vinár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8747', `location` = 'Zalamerenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8756', `location` = 'Csapi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8935', `location` = 'Nagykapornak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8957', `location` = 'Hernyék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Magyarföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Ramocsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8981', `location` = 'Lickóvadamos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7188', `location` = 'Szárász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7347', `location` = 'Egyházaskozár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Palé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7391', `location` = 'Mindszentgodisa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7625', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7673', `location` = 'Cserkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7681', `location` = 'Hetvehely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7712', `location` = 'Dunaszekcső', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7755', `location` = 'Töttös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7757', `location` = 'Babarc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7772', `location` = 'Ivánbattyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7775', `location` = 'Illocska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7782', `location` = 'Bezedek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7783', `location` = 'Majs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7826', `location` = 'Alsószentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7839', `location` = 'Kemse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7900', `location` = 'Csertő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7932', `location` = 'Mozsgó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Sellye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Sósvertike', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7966', `location` = 'Bogdása', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5609', `location` = 'Csabaszabadi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5672', `location` = 'Murony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5741', `location` = 'Kétegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5945', `location` = 'Kardoskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6043', `location` = 'Kunbaracs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6078', `location` = 'Jakabszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6090', `location` = 'Kunszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6113', `location` = 'Petőfiszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6326', `location` = 'Harta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6328', `location` = 'Dunapataj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1056', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1094', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1105', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1134', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1149', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1174', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3563', `location` = 'Hernádkak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3573', `location` = 'Sajópetri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3658', `location` = 'Borsodbóta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3663', `location` = 'Arló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3726', `location` = 'Zádorfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3743', `location` = 'Ormosbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3837', `location` = 'Felsőgagy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3865', `location` = 'Fáj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3906', `location` = 'Golop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3910', `location` = 'Tokaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3925', `location` = 'Prügy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3954', `location` = 'Györgytarló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3957', `location` = 'Zalkod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6600', `location` = 'Szentes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6720', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6781', `location` = 'Domaszék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6785', `location` = 'Pusztamérges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6900', `location` = 'Makó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6914', `location` = 'Pitvaros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6932', `location` = 'Magyarcsanád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2455', `location` = 'Beloiannisz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2458', `location` = 'Kulcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2462', `location` = 'Martonvásár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2490', `location` = 'Pusztaszabolcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8042', `location` = 'Moha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8052', `location` = 'Fehérvárcsurgó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8127', `location` = 'Aba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8135', `location` = 'Dég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9023', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9123', `location` = 'Kajárpéc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9243', `location` = 'Jánossomorja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9317', `location` = 'Szany', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9344', `location` = 'Rábakecöl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9451', `location` = 'Röjtökmuzsaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9484', `location` = 'Pereszteg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4078', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4090', `location` = 'Polgár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4096', `location` = 'Újtikos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4100', `location` = 'Berettyóújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4122', `location` = 'Gáborján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3016', `location` = 'Boldog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3022', `location` = 'Lőrinci', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3023', `location` = 'Petőfibánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3024', `location` = 'Lőrinci', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3033', `location` = 'Rózsaszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3200', `location` = 'Gyöngyös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3233', `location` = 'Gyöngyös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3328', `location` = 'Egerszólát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3359', `location` = 'Tenk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3390', `location` = 'Füzesabony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5321', `location` = 'Kunmadaras', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5411', `location` = 'Kétpó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2528', `location` = 'Úny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2885', `location` = 'Bakonybánk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2947', `location` = 'Ete', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2645', `location` = 'Nagyoroszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3065', `location` = 'Pásztó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3124', `location` = 'Zabar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2038', `location` = 'Sóskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2212', `location` = 'Csévharaszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2322', `location` = 'Makád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2615', `location` = 'Csővár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2738', `location` = 'Cegléd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7535', `location` = 'Lad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7556', `location` = 'Rinyaújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8638', `location` = 'Balatonlelle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8696', `location` = 'Táska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8707', `location` = 'Pusztakovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8714', `location` = 'Marcali', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8721', `location` = 'Vése', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8853', `location` = 'Zákányfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4343', `location` = 'Bátorliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4522', `location` = 'Nyírtass', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4567', `location` = 'Gemzse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4632', `location` = 'Nyírlövő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4812', `location` = 'Nagyvarsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4824', `location` = 'Szamosszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4833', `location` = 'Tiszaadony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4922', `location` = 'Nagyar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4977', `location` = 'Nagyhódos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7143', `location` = 'Őcsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7144', `location` = 'Decs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7146', `location` = 'Várdomb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7228', `location` = 'Döbrököz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9522', `location` = 'Kemenesmagasi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9561', `location` = 'Nagysimonyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9608', `location` = 'Sárvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9662', `location` = 'Tompaládony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9764', `location` = 'Csempeszkopács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9775', `location` = 'Nemeskolta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8181', `location` = 'Berhida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8241', `location` = 'Aszófő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8265', `location` = 'Hegymagas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8273', `location` = 'Monoszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8311', `location` = 'Nemesvita', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8445', `location` = 'Csehbánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8452', `location` = 'Szőc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8564', `location` = 'Ugod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8341', `location` = 'Kisvásárhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8353', `location` = 'Vindornyalak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8762', `location` = 'Gétye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8866', `location` = 'Becsehely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8883', `location` = 'Rigyác', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8896', `location` = 'Pusztaszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8913', `location` = 'Gősfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8921', `location` = 'Zalaszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8926', `location` = 'Kisbucsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8957', `location` = 'Kissziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8986', `location` = 'Pusztaapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7393', `location` = 'Bakóca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7396', `location` = 'Magyarszék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7624', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7631', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7675', `location` = 'Kővágótöttös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7677', `location` = 'Orfű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7696', `location` = 'Hidas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7720', `location` = 'Pécsvárad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7733', `location` = 'Maráza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7756', `location` = 'Nagybudmér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7761', `location` = 'Magyarsarlós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7766', `location` = 'Peterd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Szilvás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Szalánta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7815', `location` = 'Harkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7817', `location` = 'Márfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7841', `location` = 'Kórós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7841', `location` = 'Baranyahídvég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7850', `location` = 'Drávapalkonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7914', `location` = 'Katádfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7940', `location` = 'Szentlőrinc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7953', `location` = 'Királyegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7972', `location` = 'Gyöngyösmellék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5527', `location` = 'Bucsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5622', `location` = 'Köröstarcsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5623', `location` = 'Békéscsaba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5931', `location` = 'Nagyszénás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6222', `location` = 'Csengőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6323', `location` = 'Dunaegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6335', `location` = 'Ordas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1012', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1038', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1146', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3555', `location` = 'Harsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3724', `location` = 'Trizs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3726', `location` = 'Alsószuha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3741', `location` = 'Izsófalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3786', `location` = 'Irota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3812', `location` = 'Monaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3928', `location` = 'Tiszatardos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6762', `location` = 'Sándorfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2422', `location` = 'Mezőfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8045', `location` = 'Isztimér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8051', `location` = 'Sárkeresztes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8073', `location` = 'Csákberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9113', `location` = 'Koroncó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9126', `location` = 'Gyarmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9136', `location` = 'Mérges', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9167', `location` = 'Jánossomorja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9169', `location` = 'Barbacs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9177', `location` = 'Ásványráró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9326', `location` = 'Szil', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9351', `location` = 'Babót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4024', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4110', `location` = 'Biharkeresztes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4183', `location` = 'Kaba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3231', `location` = 'Gyöngyössolymos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3291', `location` = 'Vámosgyörk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3332', `location` = 'Sirok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3351', `location` = 'Verpelét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3371', `location` = 'Átány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3378', `location` = 'Mezőszemere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3386', `location` = 'Sarud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3398', `location` = 'Nagytálya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5361', `location` = 'Tiszaigar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2509', `location` = 'Esztergom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2835', `location` = 'Tata', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2640', `location` = 'Szendehely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2653', `location` = 'Bánk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2692', `location` = 'Szécsénke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2694', `location` = 'Debercsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3052', `location` = 'Csécse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2072', `location` = 'Zsámbék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2086', `location` = 'Tinnye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2146', `location` = 'Mogyoród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2170', `location` = 'Aszód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2315', `location` = 'Szigethalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2371', `location` = 'Dabas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2376', `location` = 'Hernád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2639', `location` = 'Bernecebaráti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7255', `location` = 'Nagyberki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7275', `location` = 'Igal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7432', `location` = 'Csombárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7443', `location` = 'Somogyjád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7443', `location` = 'Edde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7456', `location` = 'Felsőmocsolád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7461', `location` = 'Orci', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7524', `location` = 'Kiskorpád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7532', `location` = 'Hencse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7563', `location` = 'Somogyszob', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7584', `location` = 'Somogyaracs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8653', `location` = 'Ádánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8660', `location` = 'Sérsekszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4231', `location` = 'Bököny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4335', `location` = 'Kántorjánosi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4376', `location` = 'Nyírpilis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4487', `location` = 'Tiszatelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4495', `location` = 'Döge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4502', `location` = 'Vasmegyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4625', `location` = 'Győröcske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4766', `location` = 'Pátyod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4954', `location` = 'Sonkád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7044', `location` = 'Nagydorog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7047', `location` = 'Sárszentlőrinc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7068', `location` = 'Kistormás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9545', `location` = 'Jánosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9547', `location` = 'Karakó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9623', `location` = 'Répceszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9624', `location` = 'Chernelházadamonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9643', `location` = 'Jákfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9671', `location` = 'Sitke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9784', `location` = 'Harasztifalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9915', `location` = 'Nádasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9923', `location` = 'Kemestaródfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9946', `location` = 'Magyarszombatfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8182', `location` = 'Berhida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8228', `location` = 'Lovas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8271', `location` = 'Mencshely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8413', `location` = 'Eplény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8441', `location` = 'Márkó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8448', `location` = 'Ajka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8457', `location` = 'Bakonypölöske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8475', `location` = 'Veszprémgalsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8477', `location` = 'Tüskevár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8481', `location` = 'Somlóvásárhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8522', `location` = 'Nemesgörzsöny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8523', `location` = 'Egyházaskesző', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8591', `location` = 'Pápa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8595', `location` = 'Kup', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8372', `location` = 'Cserszegtomaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8756', `location` = 'Zalasárszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8773', `location` = 'Kacorlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8774', `location` = 'Kilimán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8872', `location` = 'Szentmargitfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8877', `location` = 'Tornyiszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8931', `location` = 'Kemendollár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8958', `location` = 'Iklódbördőce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8976', `location` = 'Nemesnép', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8977', `location` = 'Lendvajakabfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8981', `location` = 'Gellénháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8986', `location` = 'Pórszombat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7627', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7681', `location` = 'Szentkatalin', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7720', `location` = 'Zengővárkony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7723', `location` = 'Erdősmecske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7724', `location` = 'Feked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7728', `location` = 'Somberek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7743', `location` = 'Romonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7775', `location` = 'Lapáncsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7814', `location` = 'Babarcszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7827', `location` = 'Kásád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Vajszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7914', `location` = 'Bánfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7932', `location` = 'Szulimán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7940', `location` = 'Kacsóta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7954', `location` = 'Magyartelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6221', `location` = 'Akasztó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6523', `location` = 'Csátalja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1221', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1237', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3561', `location` = 'Felsőzsolca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3578', `location` = 'Girincs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3653', `location` = 'Sajópüspöki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3717', `location` = 'Alsódobsza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3720', `location` = 'Sajóivánka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3728', `location` = 'Kelemér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3735', `location` = 'Kánó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3768', `location` = 'Becskeháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3814', `location` = 'Felsővadász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3826', `location` = 'Rakacaszend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3834', `location` = 'Detek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3837', `location` = 'Gagyapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3849', `location` = 'Forró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3854', `location` = 'Gibárt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3907', `location` = 'Tállya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3937', `location` = 'Komlóska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3974', `location` = 'Ricse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3989', `location` = 'Felsőregmec', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Pálháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6724', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6787', `location` = 'Zákányszék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6821', `location` = 'Székkutas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6933', `location` = 'Nagylak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2400', `location` = 'Dunaújváros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2423', `location` = 'Daruszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2432', `location` = 'Szabadegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2434', `location` = 'Hantos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2472', `location` = 'Kajászó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8056', `location` = 'Bakonycsernye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9081', `location` = 'Győrújbarát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9085', `location` = 'Pázmándfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9112', `location` = 'Sokorópátka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9127', `location` = 'Csikvánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9152', `location` = 'Börcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9183', `location` = 'Mosonszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9311', `location` = 'Pásztori', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9324', `location` = 'Bogyoszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9339', `location` = 'Kapuvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9345', `location` = 'Páli', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9431', `location` = 'Fertőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9472', `location` = 'Újkér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4097', `location` = 'Tiszagyulaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4125', `location` = 'Pocsaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4126', `location` = 'Kismarja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4162', `location` = 'Szerep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4211', `location` = 'Ebes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4241', `location` = 'Bocskaikert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3240', `location` = 'Parád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3245', `location` = 'Recsk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3374', `location` = 'Dormánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3394', `location` = 'Egerszalók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3396', `location` = 'Kerecsend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5000', `location` = 'Szolnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5241', `location` = 'Abádszalók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2534', `location` = 'Tát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2616', `location` = 'Keszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2619', `location` = 'Legénd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3121', `location` = 'Somoskőújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3132', `location` = 'Nógrádmegyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3135', `location` = 'Szécsényfelfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2022', `location` = 'Tahitótfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2025', `location` = 'Visegrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2099', `location` = 'Pilisszentkereszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2113', `location` = 'Erdőkertes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2118', `location` = 'Dány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2119', `location` = 'Pécel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2300', `location` = 'Ráckeve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2625', `location` = 'Kóspallag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2681', `location` = 'Galgagyörk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2682', `location` = 'Püspökhatvan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2760', `location` = 'Nagykáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7272', `location` = 'Gölle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7514', `location` = 'Tarany', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7544', `location` = 'Szabás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7545', `location` = 'Nagykorpád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7551', `location` = 'Lábod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7561', `location` = 'Pálmajor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8697', `location` = 'Öreglak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8717', `location` = 'Nemeskisfalud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4233', `location` = 'Balkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4533', `location` = 'Sényő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4535', `location` = 'Nyíribrony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4556', `location` = 'Magy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4803', `location` = 'Vásárosnamény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4826', `location` = 'Olcsva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4933', `location` = 'Beregsurány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7072', `location` = 'Diósberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7087', `location` = 'Fürged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7090', `location` = 'Tamási', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7194', `location` = 'Kalaznó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7211', `location` = 'Dalmand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9521', `location` = 'Kemenesszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9611', `location` = 'Csénye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9612', `location` = 'Bögöt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9684', `location` = 'Egervölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9734', `location` = 'Peresznye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9789', `location` = 'Sé', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9791', `location` = 'Dozmat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9831', `location` = 'Bérbaltavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8191', `location` = 'Öskü', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8229', `location` = 'Csopak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8254', `location` = 'Kővágóörs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8272', `location` = 'Szentantalfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8348', `location` = 'Megyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8452', `location` = 'Halimba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8471', `location` = 'Nemeshany', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8596', `location` = 'Pápakovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8315', `location` = 'Gyenesdiás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8741', `location` = 'Bókaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8772', `location` = 'Börzönce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8773', `location` = 'Pölöskefő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8782', `location` = 'Ligetfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8874', `location` = 'Kerkaszentkirály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8888', `location` = 'Maróc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8951', `location` = 'Gutorfölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Kerkafalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8978', `location` = 'Lendvadedes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8991', `location` = 'Teskánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8995', `location` = 'Salomvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7668', `location` = 'Gyód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7718', `location` = 'Udvar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7733', `location` = 'Geresdlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7756', `location` = 'Borjád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7843', `location` = 'Szaporca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7843', `location` = 'Kémes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7854', `location` = 'Matty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7915', `location` = 'Dencsháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6311', `location` = 'Öregcsertő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6346', `location` = 'Sükösd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6400', `location` = 'Kiskunhalas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6425', `location` = 'Bácsszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6446', `location` = 'Rém', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1089', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1098', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1148', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1201', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3417', `location` = 'Cserépváralja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3587', `location` = 'Tiszapalkonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3780', `location` = 'Ládbesenyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Szászfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3866', `location` = 'Szemere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3891', `location` = 'Vilmány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3893', `location` = 'Fony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3927', `location` = 'Csobaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6623', `location` = 'Árpádhalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6754', `location` = 'Újszentiván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6783', `location` = 'Ásotthalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6791', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2425', `location` = 'Nagykarácsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8085', `location` = 'Vértesboglár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8122', `location` = 'Csősz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9095', `location` = 'Táp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9182', `location` = 'Károlyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9211', `location` = 'Feketeerdő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9225', `location` = 'Dunakiliti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9346', `location` = 'Zsebeháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9372', `location` = 'Csapod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9461', `location` = 'Lövő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9464', `location` = 'Und', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4028', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4124', `location` = 'Esztár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3015', `location` = 'Csány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3381', `location` = 'Pély', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5054', `location` = 'Jászalsószentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5122', `location` = 'Jászdózsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5125', `location` = 'Pusztamonostor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5136', `location` = 'Jászszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5213', `location` = 'Fegyvernek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5340', `location` = 'Kunhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2521', `location` = 'Csolnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2529', `location` = 'Annavölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2536', `location` = 'Nyergesújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2545', `location` = 'Dunaalmás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2822', `location` = 'Szomor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2641', `location` = 'Berkenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2654', `location` = 'Romhány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3154', `location` = 'Szuha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2024', `location` = 'Kisoroszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2073', `location` = 'Tök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2094', `location` = 'Nagykovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2145', `location` = 'Kerepes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2163', `location` = 'Vácrátót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2632', `location` = 'Letkés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7527', `location` = 'Rinyakovácsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7584', `location` = 'Babócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7979', `location` = 'Drávatamási', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7987', `location` = 'Istvándi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8626', `location` = 'Teleki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8649', `location` = 'Balatonberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8672', `location` = 'Zics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8683', `location` = 'Somogytúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8698', `location` = 'Somogyvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8698', `location` = 'Pamuk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8840', `location` = 'Csurgó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4342', `location` = 'Terem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4523', `location` = 'Pátroha', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4625', `location` = 'Záhony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4737', `location` = 'Darnó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7122', `location` = 'Kakasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7165', `location` = 'Mórágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9726', `location` = 'Velem', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9739', `location` = 'Pusztacsó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9752', `location` = 'Bozzai', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9796', `location` = 'Horvátlövő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9914', `location` = 'Döbörhegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9919', `location` = 'Csákánydoroszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9932', `location` = 'Viszák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9938', `location` = 'Szatta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8416', `location` = 'Dudar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8512', `location` = 'Nyárád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8314', `location` = 'Vonyarcvashegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8756', `location` = 'Nagyrécse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8767', `location` = 'Pötréte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8772', `location` = 'Zalaszentbalázs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8863', `location` = 'Molnári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8932', `location` = 'Gyűrűs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8971', `location` = 'Zalabaksa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Csesztreg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7333', `location` = 'Vékény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7630', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7634', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7672', `location` = 'Boda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7695', `location` = 'Mecseknádasd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7766', `location` = 'Pécsdevecser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7836', `location` = 'Ózdfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7912', `location` = 'Nyugotszenterzsébet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7981', `location` = 'Merenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5530', `location` = 'Vésztő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5537', `location` = 'Zsadány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5539', `location` = 'Körösnagyharsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5700', `location` = 'Gyula', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6050', `location` = 'Lajosmizse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6067', `location` = 'Tiszaalpár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6332', `location` = 'Uszód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6423', `location` = 'Kelebia', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6524', `location` = 'Dávod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1016', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1032', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1041', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1044', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1055', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1096', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1106', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1152', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1154', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1185', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3464', `location` = 'Tiszavalk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3625', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3644', `location` = 'Tardona', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3651', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3752', `location` = 'Galvács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3755', `location` = 'Martonyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3780', `location` = 'Damak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3794', `location` = 'Boldva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3874', `location` = 'Pusztaradvány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3882', `location` = 'Abaújalpár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3924', `location` = 'Taktakenéz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3955', `location` = 'Kenézlő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3961', `location` = 'Vajdácska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3985', `location` = 'Felsőberecki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6636', `location` = 'Mártély', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6700', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6766', `location` = 'Dóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2483', `location` = 'Gárdony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8138', `location` = 'Szabadhídvég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9200', `location` = 'Mosonmagyaróvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9235', `location` = 'Püski', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9324', `location` = 'Potyond', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4025', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4137', `location` = 'Magyarhomorog', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4171', `location` = 'Sárrétudvari', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4251', `location` = 'Hajdúsámson', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3246', `location` = 'Mátraderecske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3265', `location` = 'Vécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3344', `location` = 'Mikófalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3356', `location` = 'Kompolt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5092', `location` = 'Tiszavárkony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5349', `location` = 'Kenderes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5462', `location` = 'Cibakháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2896', `location` = 'Szomód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2921', `location` = 'Komárom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2946', `location` = 'Csép', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2668', `location` = 'Patvarc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2671', `location` = 'Őrhalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3042', `location` = 'Palotás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3044', `location` = 'Szirák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3075', `location` = 'Márkháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3075', `location` = 'Nagybárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3175', `location` = 'Nagylóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2211', `location` = 'Vasad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2338', `location` = 'Áporka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2713', `location` = 'Csemő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2747', `location` = 'Törtel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7444', `location` = 'Osztopán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7472', `location` = 'Cserénfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7541', `location` = 'Kutas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7582', `location` = 'Komlósd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8673', `location` = 'Somogymeggyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8681', `location` = 'Visz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8692', `location` = 'Gyugy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8716', `location` = 'Gadány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8840', `location` = 'Csurgónagymarton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4325', `location` = 'Kisléta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4331', `location` = 'Nyírcsászári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4336', `location` = 'Őr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4341', `location` = 'Nyírvasvári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4372', `location` = 'Nyírbéltek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4627', `location` = 'Zsurk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4822', `location` = 'Nyírparasznya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4834', `location` = 'Tiszakerecseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4956', `location` = 'Kispalád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7093', `location` = 'Értény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7121', `location` = 'Szálka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7200', `location` = 'Dombóvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7251', `location` = 'Kapospula', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7357', `location` = 'Jágónak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9513', `location` = 'Csönge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9548', `location` = 'Nemeskeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9634', `location` = 'Iklanberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9662', `location` = 'Mesterháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9733', `location` = 'Kiszsidány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9781', `location` = 'Egyházashollós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9812', `location` = 'Telekes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9915', `location` = 'Hegyhátsál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9915', `location` = 'Hegyháthodász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9943', `location` = 'Kondorfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9962', `location` = 'Magyarlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8220', `location` = 'Balatonalmádi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8225', `location` = 'Szentkirályszabadja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8272', `location` = 'Balatoncsicsó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8296', `location` = 'Hegyesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8479', `location` = 'Borszörcsök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8482', `location` = 'Doba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8483', `location` = 'Somlószőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8484', `location` = 'Nagyalásony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8777', `location` = 'Fűzvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8782', `location` = 'Zalacsány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8861', `location` = 'Szepetnek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8868', `location` = 'Zajk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8949', `location` = 'Mikekarácsonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8960', `location` = 'Lenti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8969', `location` = 'Gáborjánháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8984', `location` = 'Gombosszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8992', `location` = 'Bagod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7346', `location` = 'Bikal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7747', `location` = 'Belvárdgyula', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7775', `location` = 'Kislippó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7934', `location` = 'Almamellék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7935', `location` = 'Horváthertelend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7964', `location` = 'Csányoszró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7980', `location` = 'Pettend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5502', `location` = 'Gyomaendrőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5534', `location` = 'Okány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5731', `location` = 'Sarkadkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5900', `location` = 'Orosháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6008', `location` = 'Kecskemét', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6075', `location` = 'Páhi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6320', `location` = 'Solt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6337', `location` = 'Újtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6345', `location` = 'Nemesnádudvar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6412', `location` = 'Balotaszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6444', `location` = 'Kéleshalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6448', `location` = 'Csávoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1088', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1196', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1202', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1204', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1225', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3411', `location` = 'Szomolya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3515', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3591', `location` = 'Oszlár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3700', `location` = 'Kazincbarcika', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3735', `location` = 'Alsótelekes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3754', `location` = 'Meszes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3757', `location` = 'Égerszög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3786', `location` = 'Hegymeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3793', `location` = 'Sajóecseg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3908', `location` = 'Rátka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3917', `location` = 'Bodrogkisfalud', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3989', `location` = 'Mikóháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3994', `location` = 'Füzérkajata', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6757', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6775', `location` = 'Kiszombor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6792', `location` = 'Zsombó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2424', `location` = 'Előszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2428', `location` = 'Kisapostag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2451', `location` = 'Ercsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8000', `location` = 'Székesfehérvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8046', `location` = 'Bakonykúti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8131', `location` = 'Enying', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8134', `location` = 'Mátyásdomb', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9030', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9111', `location` = 'Tényő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9165', `location` = 'Tárnokréti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9371', `location` = 'Vitnyéd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9407', `location` = 'Sopron', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9433', `location` = 'Fertőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9474', `location` = 'Szakony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4133', `location` = 'Konyár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4284', `location` = 'Kokad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4287', `location` = 'Vámospércs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3000', `location` = 'Hatvan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3031', `location` = 'Zagyvaszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3213', `location` = 'Atkár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3243', `location` = 'Bodony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3273', `location` = 'Halmajugra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3292', `location` = 'Adács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3325', `location` = 'Noszvaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3326', `location` = 'Ostoros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3379', `location` = 'Egerfarmos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5152', `location` = 'Jászberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5243', `location` = 'Tiszaderzs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2028', `location` = 'Pilismarót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2519', `location` = 'Piliscsév', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2642', `location` = 'Nógrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2669', `location` = 'Ipolyvece', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2686', `location` = 'Galgaguta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2687', `location` = 'Bercel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3074', `location` = 'Sámsonháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3177', `location` = 'Rimóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2030', `location` = 'Érd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2134', `location` = 'Sződ', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2167', `location` = 'Vácduka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2461', `location` = 'Tárnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2613', `location` = 'Rád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7256', `location` = 'Kercseliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7443', `location` = 'Alsóbogát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7517', `location` = 'Bolhás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8658', `location` = 'Bábonymegyer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8660', `location` = 'Zala', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8684', `location` = 'Somogybabod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4338', `location` = 'Papos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4353', `location` = 'Tiborszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4356', `location` = 'Nyírcsaholy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4466', `location` = 'Timár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4622', `location` = 'Komoró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4831', `location` = 'Tiszaszalka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7042', `location` = 'Pálfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7054', `location` = 'Tengelic', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7163', `location` = 'Mőcsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7174', `location` = 'Kéty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9553', `location` = 'Köcsk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9682', `location` = 'Nyőgér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9707', `location` = 'Szombathely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9738', `location` = 'Tömörd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9823', `location` = 'Pácsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9909', `location` = 'Körmend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9931', `location` = 'Hegyhátszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9944', `location` = 'Kerkáskápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9954', `location` = 'Rönök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8312', `location` = 'Balatonederics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8348', `location` = 'Rigács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8483', `location` = 'Kisszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8354', `location` = 'Zalaköveskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8777', `location` = 'Hosszúvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8796', `location` = 'Türje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8799', `location` = 'Pakod', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8808', `location` = 'Nagykanizsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8822', `location` = 'Zalaújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8882', `location` = 'Eszteregnye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8887', `location` = 'Bázakerettye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8911', `location` = 'Nagykutas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8945', `location` = 'Bak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8948', `location` = 'Barlahida', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8978', `location` = 'Külsősárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8983', `location` = 'Nagylengyel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8994', `location` = 'Kávás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7305', `location` = 'Mecsekpölöske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Varga', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7381', `location` = 'Kisvaszar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7632', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7664', `location` = 'Szilágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7668', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7725', `location` = 'Szebény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7745', `location` = 'Hásságy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7766', `location` = 'Kiskassa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Páprád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7921', `location` = 'Somogyhatvan', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7951', `location` = 'Gerde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7958', `location` = 'Kákics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7981', `location` = 'Molvány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5663', `location` = 'Medgyesbodzás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5711', `location` = 'Gyula', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6035', `location` = 'Ballószög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6041', `location` = 'Kerekegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6115', `location` = 'Kunszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6120', `location` = 'Kiskunmajsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6238', `location` = 'Imrehegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6321', `location` = 'Újsolt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6414', `location` = 'Pirtó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6455', `location` = 'Katymár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6528', `location` = 'Bátmonostor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1048', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1104', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1121', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3529', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3652', `location` = 'Sajónémeti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3721', `location` = 'Felsőnyárád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3779', `location` = 'Alacska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3780', `location` = 'Balajt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3791', `location` = 'Sajókeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3825', `location` = 'Rakaca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3832', `location` = 'Léh', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3864', `location` = 'Fulókércs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3882', `location` = 'Abaújkér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2433', `location` = 'Sárosd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7011', `location` = 'Alap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8080', `location` = 'Bodmér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9025', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9089', `location` = 'Lázi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9136', `location` = 'Rábacsécsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9176', `location` = 'Mecsér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9421', `location` = 'Fertőrákos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4086', `location` = 'Hajdúböszörmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4177', `location` = 'Földes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3013', `location` = 'Ecséd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3035', `location` = 'Gyöngyöspata', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3295', `location` = 'Erk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3300', `location` = 'Eger', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3331', `location` = 'Tarnaszentmária', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3349', `location` = 'Nagyvisnyó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3354', `location` = 'Tófalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3360', `location` = 'Heves', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5126', `location` = 'Jászfényszaru', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5465', `location` = 'Cserkeszőlő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2525', `location` = 'Bajna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2527', `location` = 'Máriahalom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2175', `location` = 'Kálló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2647', `location` = 'Hont', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2673', `location` = 'Csitár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3067', `location` = 'Felsőtold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3141', `location` = 'Salgótarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3162', `location` = 'Ságújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2184', `location` = 'Vácegres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2241', `location` = 'Sülysáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2321', `location` = 'Szigetbecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2624', `location` = 'Szokolya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2626', `location` = 'Nagymaros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7454', `location` = 'Somodor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7465', `location` = 'Szentgáloskér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7477', `location` = 'Szenna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7478', `location` = 'Bárdudvarnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7516', `location` = 'Berzence', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7542', `location` = 'Kisbajom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8640', `location` = 'Fonyód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4561', `location` = 'Baktalórántháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4628', `location` = 'Tiszaszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4645', `location` = 'Tiszamogyorós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4742', `location` = 'Csegöld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4914', `location` = 'Olcsvaapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4935', `location` = 'Gelénes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4941', `location` = 'Penyige', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4942', `location` = 'Nemesborzova', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4944', `location` = 'Túristvándi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7092', `location` = 'Nagykónyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7094', `location` = 'Koppányszántó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9552', `location` = 'Vásárosmiske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9554', `location` = 'Egyházashetye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9609', `location` = 'Sárvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9651', `location` = 'Uraiújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9673', `location` = 'Káld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9737', `location` = 'Bük', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9754', `location` = 'Pecöl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9754', `location` = 'Megyehíd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9771', `location` = 'Balogunyom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9842', `location` = 'Alsóújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8263', `location` = 'Badacsonytördemic', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8283', `location` = 'Káptalantóti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8428', `location` = 'Borzavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8439', `location` = 'Sikátor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8456', `location` = 'Noszlop', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8495', `location` = 'Csögle', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8558', `location` = 'Csót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8355', `location` = 'Vindornyaszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8754', `location` = 'Galambok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8761', `location` = 'Pacsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8793', `location` = 'Tekenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8904', `location` = 'Zalaegerszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8932', `location` = 'Pókaszepetk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8988', `location` = 'Kozmadombja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8989', `location` = 'Dobronhegy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8990', `location` = 'Pálfiszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8991', `location` = 'Hottó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7384', `location` = 'Baranyajenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7664', `location` = 'Berkesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7683', `location` = 'Helesfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7714', `location` = 'Mohács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7735', `location` = 'Erdősmárok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7747', `location` = 'Birján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7763', `location` = 'Szőkéd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7843', `location` = 'Cún', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7967', `location` = 'Drávakeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5516', `location` = 'Körösladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5536', `location` = 'Körösújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5600', `location` = 'Békéscsaba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5725', `location` = 'Kötegyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5745', `location` = 'Dombiratos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5746', `location` = 'Kunágota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6042', `location` = 'Fülöpháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6045', `location` = 'Ladánybene', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6133', `location` = 'Jászszentlászló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6239', `location` = 'Császártöltés', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6333', `location` = 'Dunaszentbenedek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6343', `location` = 'Miske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6421', `location` = 'Kisszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6424', `location` = 'Csikéria', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6522', `location` = 'Gara', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6527', `location` = 'Nagybaracska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1045', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1047', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1052', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1071', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1074', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1131', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1155', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1162', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1173', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1192', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1222', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3517', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3525', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3530', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3571', `location` = 'Alsózsolca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3596', `location` = 'Szakáld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3600', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3630', `location` = 'Putnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3648', `location` = 'Bükkmogyorósd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3657', `location` = 'Királd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3720', `location` = 'Sajókaza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3725', `location` = 'Imola', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3815', `location` = 'Abaújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3837', `location` = 'Csenyéte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3941', `location` = 'Vámosújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3985', `location` = 'Alsóberecki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3992', `location` = 'Vágáshuta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6723', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6726', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2427', `location` = 'Baracs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2475', `location` = 'Kápolnásnyék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7003', `location` = 'Sárbogárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8082', `location` = 'Gánt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9021', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9063', `location` = 'Nagybajcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9133', `location` = 'Rábaszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9151', `location` = 'Abda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9483', `location` = 'Sopronkövesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9492', `location` = 'Fertőhomok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4034', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3214', `location` = 'Nagyréde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3247', `location` = 'Mátraballa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3322', `location` = 'Hevesaranyos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3346', `location` = 'Bélapátfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3350', `location` = 'Kál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3385', `location` = 'Tiszanána', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3387', `location` = 'Újlőrincfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5137', `location` = 'Jászkisér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5144', `location` = 'Jászboldogháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5322', `location` = 'Tiszaszentimre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2840', `location` = 'Oroszlány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2887', `location` = 'Ácsteszér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2610', `location` = 'Nőtincs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2660', `location` = 'Ipolyszög', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2677', `location` = 'Herencsény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2678', `location` = 'Csesztve', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2688', `location` = 'Vanyarc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2698', `location` = 'Mohora', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3138', `location` = 'Ipolytarnóc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3151', `location` = 'Rákóczibánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3153', `location` = 'Dorogháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3179', `location` = 'Nógrádsipek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2021', `location` = 'Tahitótfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2039', `location` = 'Pusztazámor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2085', `location` = 'Pilisvörösvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2116', `location` = 'Zsámbok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2143', `location` = 'Kistarcsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2173', `location` = 'Kartal', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2319', `location` = 'Szigetújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2367', `location` = 'Újhartyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2375', `location` = 'Tatárszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2766', `location` = 'Tápiószele', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7555', `location` = 'Csokonyavisonta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7564', `location` = 'Kaszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7977', `location` = 'Kastélyosdombó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8656', `location` = 'Nagyberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8675', `location` = 'Andocs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8691', `location` = 'Balatonboglár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8710', `location` = 'Balatonszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8726', `location` = 'Iharos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8726', `location` = 'Somogycsicsó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8736', `location` = 'Szőkedencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8858', `location` = 'Porrogszentpál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4333', `location` = 'Nyírkáta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4544', `location` = 'Nyírkarász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4562', `location` = 'Vaja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4721', `location` = 'Szamoskér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4754', `location` = 'Géberjén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4843', `location` = 'Hetefejércse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7026', `location` = 'Madocsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7186', `location` = 'Nagyvejke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7225', `location` = 'Csibrák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9675', `location` = 'Bögöte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9721', `location` = 'Gencsapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9740', `location` = 'Bük', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9742', `location` = 'Salköveskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9745', `location` = 'Meszlen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9766', `location` = 'Rábatöttös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9774', `location` = 'Sorkikápolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9922', `location` = 'Pinkamindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9955', `location` = 'Szentgotthárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9985', `location` = 'Felsőszölnök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8100', `location` = 'Várpalota', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8195', `location` = 'Királyszentistván', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8254', `location` = 'Kékkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8261', `location` = 'Badacsonytomaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8274', `location` = 'Köveskál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8344', `location` = 'Zalaerdőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8496', `location` = 'Kispirit', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8531', `location` = 'Marcaltő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8542', `location` = 'Vaszar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8341', `location` = 'Szalapa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8824', `location` = 'Sand', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8857', `location` = 'Nemespátró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8919', `location` = 'Kustánszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8997', `location` = 'Zalaháshágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Sásd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7381', `location` = 'Ág', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7671', `location` = 'Bicsérd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7673', `location` = 'Kővágószőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7757', `location` = 'Liptód', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7768', `location` = 'Kistótfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7771', `location` = 'Palkonya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7839', `location` = 'Zaláta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7925', `location` = 'Magyarlukafa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7940', `location` = 'Csonkamindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7975', `location` = 'Kétújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5641', `location` = 'Tarhos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5664', `location` = 'Medgyesbodzás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5665', `location` = 'Pusztaottlaka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5743', `location` = 'Lőkösháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5919', `location` = 'Pusztaföldvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6230', `location` = 'Soltvadkert', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6422', `location` = 'Tompa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1065', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1082', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1158', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1161', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1238', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3462', `location` = 'Borsodivánka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3466', `location` = 'Tiszadorogma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3608', `location` = 'Farkaslyuk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3711', `location` = 'Szirmabesenyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3714', `location` = 'Sajópálfala', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3761', `location` = 'Szin', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3762', `location` = 'Szögliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3765', `location` = 'Komjáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3860', `location` = 'Encs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3874', `location` = 'Hernádpetri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3874', `location` = 'Hernádvécse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3888', `location` = 'Vizsoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3923', `location` = 'Gesztely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3934', `location` = 'Tolcsva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3935', `location` = 'Erdőhorváti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3943', `location` = 'Bodrogolaszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3944', `location` = 'Sátoraljaújhely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3971', `location` = 'Tiszakarád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3977', `location` = 'Zemplénagárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6640', `location` = 'Csongrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6768', `location` = 'Baks', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6772', `location` = 'Deszk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2471', `location` = 'Baracska', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8055', `location` = 'Balinka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9022', `location` = 'Győr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9165', `location` = 'Rábcakapi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9226', `location` = 'Dunasziget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9323', `location` = 'Jobaháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9363', `location` = 'Gyóró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9441', `location` = 'Agyagosszergény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4033', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4075', `location` = 'Görbeháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4118', `location` = 'Mezőpeterd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4163', `location` = 'Szerep', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4172', `location` = 'Biharnagybajom', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3282', `location` = 'Nagyfüged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5085', `location` = 'Rákóczifalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5095', `location` = 'Tiszavárkony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5324', `location` = 'Tomajmonostora', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5435', `location` = 'Martfű', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5453', `location` = 'Mezőhék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2517', `location` = 'Kesztölc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2821', `location` = 'Gyermely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2832', `location` = 'Héreg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2859', `location` = 'Vérteskethely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2942', `location` = 'Nagyigmánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2644', `location` = 'Borsosberény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2685', `location` = 'Nógrádsáp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3043', `location` = 'Egyházasdengeleg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3051', `location` = 'Szarvasgede', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3069', `location` = 'Alsótold', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2049', `location` = 'Diósd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2071', `location` = 'Páty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2133', `location` = 'Sződliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2162', `location` = 'Őrbottyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2200', `location` = 'Monor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2253', `location` = 'Tápióság', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2330', `location` = 'Dunaharaszti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2769', `location` = 'Tápiószőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7273', `location` = 'Büssü', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7285', `location` = 'Törökkoppány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7435', `location` = 'Somogysárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8612', `location` = 'Nyim', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8700', `location` = 'Csömend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8854', `location` = 'Őrtilos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4267', `location` = 'Penészlek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4455', `location` = 'Tiszadada', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4475', `location` = 'Paszab', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4492', `location` = 'Dombrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4537', `location` = 'Nyírkércs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4600', `location` = 'Kisvárda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4624', `location` = 'Tiszabezdéd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4734', `location` = 'Szamosújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4832', `location` = 'Tiszavid', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4955', `location` = 'Botpalád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4977', `location` = 'Kishódos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7045', `location` = 'Györköny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7056', `location` = 'Szedres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7057', `location` = 'Medina', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7131', `location` = 'Tolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9544', `location` = 'Kemenespálfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9625', `location` = 'Gór', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9766', `location` = 'Zsennye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9814', `location` = 'Halastó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9913', `location` = 'Nagymizdó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9982', `location` = 'Kétvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9983', `location` = 'Szakonyfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8243', `location` = 'Balatonakali', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8352', `location` = 'Bazsi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8414', `location` = 'Olaszfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8420', `location` = 'Zirc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8460', `location` = 'Devecser', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8475', `location` = 'Hosztót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8316', `location` = 'Vállus', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8342', `location` = 'Óhíd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8762', `location` = 'Szentpéterúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8798', `location` = 'Zalabér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8825', `location` = 'Pat', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8872', `location` = 'Muraszemenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8912', `location` = 'Kispáli', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8923', `location` = 'Nemesapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8976', `location` = 'Márokföld', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8986', `location` = 'Szilvágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7344', `location` = 'Mekényes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7622', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7678', `location` = 'Husztót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7683', `location` = 'Cserdi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7756', `location` = 'Pócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7761', `location` = 'Lothárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7811', `location` = 'Bosta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Vejti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7900', `location` = 'Botykapeterd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7954', `location` = 'Gyöngyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7976', `location` = 'Zádor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5555', `location` = 'Hunya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5561', `location` = 'Békésszentandrás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5752', `location` = 'Medgyesegyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5837', `location` = 'Kisdombegyház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6032', `location` = 'Nyárlőrinc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6223', `location` = 'Soltszentimre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1021', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1022', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1092', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1111', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1142', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1143', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1147', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1223', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3501', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3557', `location` = 'Bükkszentkereszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3558', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3744', `location` = 'Múcsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3758', `location` = 'Jósvafő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3777', `location` = 'Parasznya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3811', `location` = 'Alsóvadász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Krasznokvajda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3841', `location` = 'Aszaló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3881', `location` = 'Baskó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3885', `location` = 'Boldogkőváralja', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3932', `location` = 'Erdőbénye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6729', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6764', `location` = 'Balástya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6767', `location` = 'Ópusztaszer', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6773', `location` = 'Klárafalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7014', `location` = 'Sáregres', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8054', `location` = 'Balinka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8096', `location` = 'Sukoró', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8112', `location` = 'Zichyújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8123', `location` = 'Soponya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9313', `location` = 'Rábacsanak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9422', `location` = 'Harka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9481', `location` = 'Pinnye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9494', `location` = 'Sopron', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4074', `location` = 'Hajdúböszörmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4138', `location` = 'Komádi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4242', `location` = 'Hajdúhadház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4262', `location` = 'Nyíracsád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3235', `location` = 'Mátraszentimre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3261', `location` = 'Abasár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3272', `location` = 'Visonta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3384', `location` = 'Kisköre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5094', `location` = 'Tiszajenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5111', `location` = 'Jászfelsőszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5124', `location` = 'Jászágó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5211', `location` = 'Tiszapüspöki', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2870', `location` = 'Kisbér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2694', `location` = 'Magyarnándor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3155', `location` = 'Mátramindszent', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2011', `location` = 'Budakalász', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2026', `location` = 'Visegrád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2080', `location` = 'Pilisjászfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2081', `location` = 'Piliscsaba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2112', `location` = 'Veresegyház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2131', `location` = 'Göd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2165', `location` = 'Kisnémedi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2347', `location` = 'Bugyi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2364', `location` = 'Ócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2378', `location` = 'Pusztavacs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2724', `location` = 'Újlengyel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7432', `location` = 'Hetes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7479', `location` = 'Sántos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7562', `location` = 'Segesd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8624', `location` = 'Balatonszárszó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8667', `location` = 'Kánya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8707', `location` = 'Libickozma', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8724', `location` = 'Inke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8731', `location` = 'Hollád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8849', `location` = 'Szenta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8852', `location` = 'Zákány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4232', `location` = 'Geszteréd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4245', `location` = 'Érpatak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4351', `location` = 'Vállaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4440', `location` = 'Tiszavasvári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4494', `location` = 'Kékcse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4552', `location` = 'Napkor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4743', `location` = 'Csengersima', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4764', `location` = 'Csengerújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4800', `location` = 'Vásárosnamény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4836', `location` = 'Lónya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7083', `location` = 'Tolnanémedi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7145', `location` = 'Sárpilis', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7183', `location` = 'Kisvejke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7341', `location` = 'Csikóstőttős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9516', `location` = 'Vönöck', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9681', `location` = 'Sótony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9762', `location` = 'Tanakajd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9796', `location` = 'Pornóapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9821', `location` = 'Győrvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9825', `location` = 'Oszkó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9841', `location` = 'Kám', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9918', `location` = 'Felsőmarác', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9983', `location` = 'Alsószölnök', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8172', `location` = 'Balatonakarattya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8242', `location` = 'Örvényes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8471', `location` = 'Káptalanfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8591', `location` = 'Nóráp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8316', `location` = 'Várvölgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8354', `location` = 'Vindornyafok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8373', `location` = 'Rezi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8392', `location` = 'Zalavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8744', `location` = 'Orosztony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8953', `location` = 'Szentpéterfölde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8978', `location` = 'Rédics', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8999', `location` = 'Zalalövő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7391', `location` = 'Kisbeszterce', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7661', `location` = 'Erzsébet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7717', `location` = 'Kölked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7735', `location` = 'Himesháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7784', `location` = 'Nagynyárád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Lúzsok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7922', `location` = 'Somogyapáti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Drávasztára', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5540', `location` = 'Szarvas', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5668', `location` = 'Nagybánhegyes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5675', `location` = 'Telekgerendás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5734', `location` = 'Geszt', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5838', `location` = 'Magyardombegyház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6135', `location` = 'Csólyospálos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6236', `location` = 'Tázlár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6237', `location` = 'Kecel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6351', `location` = 'Bátya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1062', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1135', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3414', `location` = 'Bükkzsérc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3431', `location` = 'Vatta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3533', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3575', `location` = 'Berzék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3576', `location` = 'Sajóhídvég', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3579', `location` = 'Kesznyéten', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3589', `location` = 'Tiszatarján', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3598', `location` = 'Nagycsécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3732', `location` = 'Kurityán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3756', `location` = 'Perkupa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3795', `location` = 'Hangács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3821', `location` = 'Perecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3831', `location` = 'Kázsmárk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3853', `location` = 'Pere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3884', `location` = 'Boldogkőújfalu', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3894', `location` = 'Göncruszka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3900', `location` = 'Szerencs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3922', `location` = 'Taktaharkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3931', `location` = 'Mezőzombor', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3933', `location` = 'Olaszliszka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3950', `location` = 'Sárospatak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3991', `location` = 'Vilyvitány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3998', `location` = 'Nyíri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6621', `location` = 'Derekegyház', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6625', `location` = 'Fábiánsebestyén', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6645', `location` = 'Felgyő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2060', `location` = 'Bicske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8092', `location` = 'Pátka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8144', `location` = 'Sárkeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9091', `location` = 'Ravazd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9145', `location` = 'Bágyogszovát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9375', `location` = 'Répceszemere', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4117', `location` = 'Told', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4212', `location` = 'Hajdúszovát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3257', `location` = 'Bükkszenterzsébet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3347', `location` = 'Balaton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3353', `location` = 'Aldebrő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3373', `location` = 'Besenyőtelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5055', `location` = 'Jászladány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5200', `location` = 'Törökszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5233', `location` = 'Tiszagyenda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5244', `location` = 'Tiszaszőlős', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5300', `location` = 'Karcag', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5323', `location` = 'Tiszaszentimre', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5412', `location` = 'Kuncsorba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3152', `location` = 'Nemti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3161', `location` = 'Kishartyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3163', `location` = 'Szalmatercs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3185', `location` = 'Egyházasgerge', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2132', `location` = 'Göd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2183', `location` = 'Galgamácsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2316', `location` = 'Tököl', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2335', `location` = 'Taksony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2365', `location` = 'Inárcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2614', `location` = 'Penc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2638', `location` = 'Kemence', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7477', `location` = 'Szilvásszentmárton', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8648', `location` = 'Balatonkeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8681', `location` = 'Látrány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8695', `location` = 'Buzsák', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4362', `location` = 'Nyírgelse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4400', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4471', `location` = 'Gávavencsellő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4524', `location` = 'Ajak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4557', `location` = 'Besenyőd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4565', `location` = 'Pusztadobos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4611', `location` = 'Jéke', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4623', `location` = 'Tuzsér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4631', `location` = 'Pap', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4646', `location` = 'Eperjeske', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4921', `location` = 'Tivadar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4953', `location` = 'Magosliget', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4971', `location` = 'Rozsály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7100', `location` = 'Szekszárd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7130', `location` = 'Tolna', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7134', `location` = 'Gerjen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7362', `location` = 'Gerényes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9542', `location` = 'Boba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9632', `location` = 'Sajtoskál', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9665', `location` = 'Vámoscsalád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9743', `location` = 'Söpte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9776', `location` = 'Püspökmolnári', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9836', `location` = 'Csipkerek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9934', `location` = 'Felsőjánosfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9982', `location` = 'Apátistvánfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8291', `location` = 'Nagyvázsony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8292', `location` = 'Öcs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8300', `location` = 'Raposka', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8319', `location` = 'Lesenceistvánd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8321', `location` = 'Uzsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8440', `location` = 'Herend', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8477', `location` = 'Kisberzseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8484', `location` = 'Somlóvecse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8492', `location` = 'Kerta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8494', `location` = 'Kiscsősz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8581', `location` = 'Bakonyjákó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9533', `location` = 'Nemesszalók', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8380', `location` = 'Hévíz', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8749', `location` = 'Zalakaros', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8900', `location` = 'Zalaegerszeg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8921', `location` = 'Zalaszentlőrinc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8973', `location` = 'Felsőszenterzsébet', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8991', `location` = 'Böde', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7345', `location` = 'Alsómocsolád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7370', `location` = 'Oroszló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7381', `location` = 'Tékes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7621', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7623', `location` = 'Pécs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7661', `location` = 'Kátoly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7834', `location` = 'Tengeri', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7838', `location` = 'Piskó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7847', `location` = 'Ipacsfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7932', `location` = 'Almáskeresztúr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7960', `location` = 'Marócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5538', `location` = 'Biharugra', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5551', `location` = 'Csabacsűd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5671', `location` = 'Békéscsaba', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5726', `location` = 'Méhkerék', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6336', `location` = 'Szakmár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6456', `location` = 'Madaras', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1015', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1046', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '1093', `location` = 'Budapest', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3424', `location` = 'Kács', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3458', `location` = 'Tiszakeszi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3521', `location` = 'Miskolc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3621', `location` = 'Ózd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3726', `location` = 'Szuhafő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3757', `location` = 'Szőlősardó', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3757', `location` = 'Teresztenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3773', `location` = 'Sajólászlófalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3783', `location` = 'Edelény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3825', `location` = 'Debréte', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3877', `location` = 'Tornyosnémeti', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3898', `location` = 'Abaújvár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3899', `location` = 'Kéked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3903', `location` = 'Bekecs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3958', `location` = 'Hercegkút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3992', `location` = 'Kovácsvágás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6647', `location` = 'Csanytelek', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6722', `location` = 'Szeged', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '6793', `location` = 'Forráskút', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2066', `location` = 'Újbarok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2426', `location` = 'Baracs', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2457', `location` = 'Adony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8074', `location` = 'Csókakő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8146', `location` = 'Jenő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9154', `location` = 'Mosonszentmiklós', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9244', `location` = 'Újrónafő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9321', `location` = 'Farád', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9354', `location` = 'Osli', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4027', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4029', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4030', `location` = 'Debrecen', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4224', `location` = 'Hajdúböszörmény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4266', `location` = 'Fülöp', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3253', `location` = 'Istenmezeje', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3255', `location` = 'Fedémes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3321', `location` = 'Egerbakta', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '5123', `location` = 'Jászárokszállás', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2533', `location` = 'Bajót', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2854', `location` = 'Dad', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2943', `location` = 'Tárkány', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2648', `location` = 'Patak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3071', `location` = 'Bátonyterenye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3073', `location` = 'Tar', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3125', `location` = 'Szilaspogony', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '3129', `location` = 'Lucfalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2045', `location` = 'Törökbálint', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2216', `location` = 'Bénye', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2309', `location` = 'Lórév', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2377', `location` = 'Örkény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '2631', `location` = 'Ipolydamásd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7452', `location` = 'Somogyaszaló', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7464', `location` = 'Ráksi', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7523', `location` = 'Kaposfő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7543', `location` = 'Beleg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7918', `location` = 'Lakócsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8636', `location` = 'Balatonszemes', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8712', `location` = 'Balatonújlak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8731', `location` = 'Tikos', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4361', `location` = 'Nyírbogát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4433', `location` = 'Nyíregyháza', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4482', `location` = 'Kótaj', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4844', `location` = 'Csaroda', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4936', `location` = 'Vámosatya', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4961', `location` = 'Zsarolyán', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '4968', `location` = 'Túrricse', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7065', `location` = 'Miszla', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7086', `location` = 'Ozora', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7135', `location` = 'Dunaszentgyörgy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7142', `location` = 'Pörböly', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7184', `location` = 'Lengyel', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '7192', `location` = 'Szakály', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9500', `location` = 'Celldömölk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9541', `location` = 'Celldömölk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9625', `location` = 'Bő', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9641', `location` = 'Rábapaty', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9676', `location` = 'Hosszúpereszteg', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9725', `location` = 'Kőszegszerdahely', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9744', `location` = 'Vasasszonyfa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9747', `location` = 'Vasszilvágy', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9763', `location` = 'Vasszécseny', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9784', `location` = 'Nagykölked', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9813', `location` = 'Gersekarát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9931', `location` = 'Ivánc', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '9946', `location` = 'Velemér', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8242', `location` = 'Balatonudvari', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8252', `location` = 'Balatonszepezd', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8272', `location` = 'Óbudavár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8297', `location` = 'Tapolca', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8347', `location` = 'Ukk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8417', `location` = 'Csetény', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8426', `location` = 'Pénzesgyőr', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8468', `location` = 'Kolontár', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8475', `location` = 'Szentimrefalva', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8767', `location` = 'Felsőrajk', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8821', `location` = 'Nagybakónak', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8831', `location` = 'Nagykanizsa', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8895', `location` = 'Pusztamagyaród', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8918', `location` = 'Csonkahegyhát', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8946', `location` = 'Baktüttös', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8947', `location` = 'Zalatárnok', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
+INSERT INTO orm_zip_code SET `iso2` = 'HU', `zip_code` = '8948', `location` = 'Nova', `created_at` = '2023-06-06 11:40:49', `updated_at` = '2023-06-06 11:40:49';
