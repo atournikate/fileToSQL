@@ -1,0 +1,7 @@
+/vendor
+composer.json
+composer.lock
+CSVtoXLSXConverter.php
+JSONtoXLSXConverter.php
+.idea
+.idea/*
