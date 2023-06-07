@@ -5,3 +5,4 @@ CSVtoXLSXConverter.php
 JSONtoXLSXConverter.php
 .idea
 .idea/*
+/tmp

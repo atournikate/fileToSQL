@@ -129,8 +129,9 @@ class CSVtoSQL
         if(!is_dir('sql')) {
             mkdir('sql');
         }
-        if (!file_exists($filepath)) {
-            file_put_contents($filepath, '');
+
+        if (file_exists($filepath)) {
+            unlink($filepath);
         }
 
         if (is_array($data)) {
@@ -139,7 +140,7 @@ class CSVtoSQL
             $content = $data;
         }
 
-        file_put_contents($filepath, $content, FILE_APPEND);
+        file_put_contents($filepath, $content);
     }
 
     /**

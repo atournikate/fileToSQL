@@ -53,10 +53,9 @@ class CountriesSQL {
      * @param $refConditions
      * @return string
      */
-    private function generateUpdateDeletedStatements($table, $updateFields, $condition, $refConditions): string
+    private function generateUpdateDeletedStatements($table, $updateFields, $condition): string
     {
         $sql = SQLGenerator::sqlUpdateStatement($table, $updateFields, $condition) . PHP_EOL;
-        $sql .= SQLGenerator::sqlDeleteStatement('sys_reference_data', $refConditions) . PHP_EOL;
         return $sql;
     }
 
@@ -137,7 +136,7 @@ class CountriesSQL {
                 'title_d'           => $titleDE,
             ];
 
-            $sql .= $this->generateUpdateDeletedStatements($table, $updateFields, $condition, $refConditions);
+            $sql .= $this->generateUpdateDeletedStatements($table, $updateFields, $condition);
             $sql .= SQLGenerator::sqlMultiIndividualInsertStatements('sys_reference_data', $refInsert) . PHP_EOL;
         } elseif ($isNew) {
             $insertData = [

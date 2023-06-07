@@ -58,7 +58,7 @@ class SQLGenerator
                 $key = self::sanitizeValue($key, $pattern, $replace);
                 $value = self::sanitizeValue($value, $pattern, $replace);
 
-                $entryValues[] = "`$key` = '$value'";
+                $entryValues[] = '`' . $key . '` = "' . $value . '"';
             }
 
             $sql .= "INSERT INTO $table SET " . implode(", ", $entryValues);
