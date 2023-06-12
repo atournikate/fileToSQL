@@ -54,16 +54,21 @@ class SQLGenerator
 
         foreach ($data as $entry) {
             $entryValues = [];
-            foreach ($entry as $key => $value) {
-                $key = self::sanitizeValue($key, $pattern, $replace);
-                $value = self::sanitizeValue($value, $pattern, $replace);
+            if (is_array($entry)) {
+                foreach ($entry as $key => $value) {
+                    $key = self::sanitizeValue($key, $pattern, $replace);
+                    $value = self::sanitizeValue($value, $pattern, $replace);
 
-                $entryValues[] = '`' . $key . '` = "' . $value . '"';
+                    $entryValues[] = '`' . $key . '` = "' . $value . '"';
+                }
+            } else {
+                $entryValues[] = '`' . key($) . '` = "' . $value . '"';
             }
+
 
             $sql .= "INSERT INTO $table SET " . implode(", ", $entryValues);
             $sql .= ";" . PHP_EOL;
-        }
+        }exit;
 
         return  $sql;
     }

@@ -1,0 +1,2556 @@
+﻿iso2,zip_code,location
+AT,1010,Wien
+AT,1020,Wien
+AT,1030,Wien
+AT,1040,Wien
+AT,1050,Wien
+AT,1060,Wien
+AT,1070,Wien
+AT,1080,Wien
+AT,1090,Wien
+AT,1100,Wien
+AT,1110,Wien
+AT,1120,Wien
+AT,1130,Wien
+AT,1140,Wien
+AT,1150,Wien
+AT,1160,Wien
+AT,1170,Wien
+AT,1180,Wien
+AT,1190,Wien
+AT,1200,Wien
+AT,1210,Wien
+AT,1220,Wien
+AT,1230,Wien
+AT,1300,Wien-Flughafen
+AT,2000,Stockerau
+AT,2002,Großmugl
+AT,2003,Leitzersdorf
+AT,2004,Niederhollabrunn
+AT,2011,Sierndorf
+AT,2013,Göllersdorf
+AT,2014,Breitenwaida
+AT,2020,Hollabrunn
+AT,2022,Immendorf
+AT,2023,Nappersdorf
+AT,2024,Mailberg
+AT,2031,Eggendorf im Thale
+AT,2032,Enzersdorf im Thale
+AT,2033,Kammersdorf
+AT,2034,Großharras
+AT,2041,Wullersdorf
+AT,2042,Guntersdorf
+AT,2051,Zellerndorf
+AT,2052,Pernersdorf-Pfaffendorf
+AT,2053,Jetzelsdorf
+AT,2054,Haugsdorf
+AT,2061,Hadres
+AT,2062,Seefeld-Großkadolz
+AT,2063,Zwingendorf
+AT,2064,Wulzeshofen
+AT,2070,Retz
+AT,2073,Schrattenthal
+AT,2074,Unterretzbach
+AT,2081,Niederfladnitz
+AT,2082,Hardegg
+AT,2083,Pleißing
+AT,2084,Weitersfeld
+AT,2091,Langau
+AT,2092,Riegersburg
+AT,2093,Geras
+AT,2094,Zissersdorf
+AT,2095,Drosendorf
+AT,2100,Korneuburg
+AT,2102,Bisamberg
+AT,2103,Langenzersdorf
+AT,2104,Spillern
+AT,2105,Oberrohrbach
+AT,2111,Rückersdorf-Harmannsdorf
+AT,2112,Würnitz
+AT,2113,Karnabrunn
+AT,2114,Großrußbach
+AT,2115,Ernstbrunn
+AT,2116,Niederleis
+AT,2120,Wolkersdorf im Weinviertel
+AT,2122,Ulrichskirchen
+AT,2123,Schleinbach
+AT,2124,Niederkreuzstetten
+AT,2125,Neubau
+AT,2126,Ladendorf
+AT,2130,Mistelbach
+AT,2132,Frättingsdorf
+AT,2133,Loosdorf
+AT,2134,Staatz-Kautendorf
+AT,2135,Neudorf im Weinviertel
+AT,2136,Laa an der Thaya
+AT,2141,Ameis
+AT,2143,Großkrut
+AT,2144,Altlichtenwarth
+AT,2145,Hausbrunn
+AT,2151,Asparn an der Zaya
+AT,2152,Gnadendorf
+AT,2153,Stronsdorf
+AT,2154,Unterstinkenbrunn
+AT,2161,Poysbrunn
+AT,2162,Falkenstein
+AT,2163,Ottenthal
+AT,2164,Wildendürnbach
+AT,2165,Drasenhofen
+AT,2170,Poysdorf
+AT,2171,Herrnbaumgarten
+AT,2172,Schrattenberg
+AT,2181,Dobermannsdorf
+AT,2182,Palterndorf
+AT,2183,Neusiedl an der Zaya
+AT,2184,Hauskirchen
+AT,2185,Prinzendorf an der Zaya
+AT,2191,Gaweinstal
+AT,2192,Kettlasbrunn
+AT,2193,Wilfersdorf
+AT,2201,Gerasdorf
+AT,2202,Enzersfeld
+AT,2203,Großebersdorf
+AT,2211,Pillichsdorf
+AT,2212,Großengersdorf
+AT,2213,Bockfließ
+AT,2214,Auersthal
+AT,2215,Raggendorf
+AT,2221,Groß Schweinbarth
+AT,2222,Bad Pirawarth
+AT,2223,Hohenruppersdorf
+AT,2224,Obersulz
+AT,2225,Zistersdorf
+AT,2230,Gänserndorf
+AT,2231,Strasshof an der Nordbahn
+AT,2232,Deutsch Wagram
+AT,2241,Schönkirchen
+AT,2242,Prottes
+AT,2243,Matzen
+AT,2244,Spannberg
+AT,2245,Velm-Götzendorf
+AT,2251,Ebenthal
+AT,2252,Ollersdorf
+AT,2253,Weikendorf
+AT,2261,Angern an der March
+AT,2262,Stillfried
+AT,2263,Dürnkrut
+AT,2264,Jedenspeigen
+AT,2265,Drösing
+AT,2272,Niederabsdorf
+AT,2273,Hohenau an der March
+AT,2274,Rabensburg
+AT,2275,Bernhardsthal
+AT,2276,Reintal
+AT,2280,Glinzendorf
+AT,2281,Raasdorf
+AT,2282,Markgrafneusiedl
+AT,2283,Obersiebenbrunn
+AT,2284,Untersiebenbrunn
+AT,2285,Leopoldsdorf im Marchfelde
+AT,2286,Haringsee
+AT,2291,Lassee
+AT,2292,Engelhartstetten
+AT,2293,Marchegg Stadt
+AT,2294,Marchegg Bahnhof
+AT,2295,Oberweiden
+AT,2301,Groß-Enzersdorf
+AT,2304,Orth an der Donau
+AT,2305,Eckartsau
+AT,2320,Schwechat
+AT,2322,Zwölfaxing
+AT,2325,Himberg
+AT,2326,Maria Lanzendorf
+AT,2331,Vösendorf
+AT,2332,Hennersdorf
+AT,2333,Leopoldsdorf
+AT,2334,Vösendorf
+AT,2340,Mödling
+AT,2344,Maria Enzersdorf
+AT,2345,Brunn am Gebirge
+AT,2351,Wiener Neudorf
+AT,2352,Gumpoldskirchen
+AT,2353,Guntramsdorf
+AT,2361,Laxenburg
+AT,2362,Biedermannsdorf
+AT,2371,Hinterbrühl
+AT,2372,Gießhübl
+AT,2380,Perchtoldsdorf
+AT,2381,Laab im Walde
+AT,2384,Breitenfurt bei Wien
+AT,2391,Kaltenleutgeben
+AT,2392,Sulz im Wienerwald
+AT,2393,Sittendorf
+AT,2401,Fischamend
+AT,2402,Maria Ellend
+AT,2403,Regelsbrunn
+AT,2404,Petronell
+AT,2405,Bad Deutsch Altenburg
+AT,2410,Hainburg an der Donau
+AT,2412,Wolfsthal
+AT,2413,Berg
+AT,2421,Kittsee
+AT,2422,Pama
+AT,2423,Deutsch Jahrndorf
+AT,2424,Zurndorf
+AT,2425,Nickelsdorf
+AT,2431,Kleinneusiedl
+AT,2432,Schwadorf
+AT,2433,Margarethen am Moos
+AT,2434,Götzendorf an der Leitha
+AT,2435,Ebergassing
+AT,2440,Gramatneusiedl
+AT,2441,Mitterndorf an der Fischa
+AT,2442,Unterwaltersdorf
+AT,2443,Deutsch-Brodersdorf
+AT,2444,Seibersdorf
+AT,2451,Hof am Leithaberge
+AT,2452,Mannersdorf am Leithagebirge
+AT,2453,Sommerein
+AT,2454,Trautmannsdorf an der Leitha
+AT,2460,Bruck an der Leitha
+AT,2462,Wilfleinsdorf
+AT,2463,Stixneusiedl
+AT,2464,Göttlesbrunn
+AT,2465,Höflein
+AT,2471,Rohrau
+AT,2472,Prellenkirchen
+AT,2473,Potzneusiedl
+AT,2474,Gattendorf
+AT,2475,Neudorf
+AT,2481,Achau
+AT,2482,Münchendorf
+AT,2483,Ebreichsdorf
+AT,2485,Wampersdorf
+AT,2486,Pottendorf
+AT,2490,Ebenfurth
+AT,2491,Neufeld an der Leitha
+AT,2492,Eggendorf
+AT,2493,Lichtenwörth-Nadelburg
+AT,2500,Baden
+AT,2504,Sooß
+AT,2511,Pfaffstätten
+AT,2512,Tribuswinkel
+AT,2514,Traiskirchen
+AT,2521,Trumau
+AT,2522,Oberwaltersdorf
+AT,2523,Tattendorf
+AT,2524,Teesdorf
+AT,2525,Günselsdorf
+AT,2531,Gaaden
+AT,2532,Heiligenkreuz im Wienerwald
+AT,2533,Klausen-Leopoldsdorf
+AT,2534,Alland
+AT,2540,Bad Vöslau
+AT,2542,Kottingbrunn
+AT,2544,Leobersdorf
+AT,2551,Enzesfeld-Lindabrunn
+AT,2552,Hirtenberg
+AT,2560,Berndorf
+AT,2561,Hernstein
+AT,2563,Pottenstein
+AT,2564,Weissenbach an der Triesting
+AT,2565,Neuhaus
+AT,2571,Altenmarkt-Thenneberg
+AT,2572,Kaumberg
+AT,2601,Sollenau
+AT,2602,Blumau-Neurißhof
+AT,2603,Felixdorf
+AT,2604,Theresienfeld
+AT,2620,Neunkirchen
+AT,2624,Breitenau
+AT,2625,Schwarzau am Steinfelde
+AT,2630,Ternitz
+AT,2631,Sieding-Stixenstein
+AT,2632,Wimpassing im Schwarzatale
+AT,2640,Gloggnitz
+AT,2641,Schottwien
+AT,2650,Payerbach
+AT,2651,Reichenau an der Rax
+AT,2654,Prein an der Rax
+AT,2661,Naßwald
+AT,2662,Schwarzau im Gebirge
+AT,2663,Rohr im Gebirge
+AT,2671,Küb
+AT,2673,Breitenstein
+AT,2680,Semmering
+AT,2700,Wiener Neustadt
+AT,2721,Bad Fischau
+AT,2722,Winzendorf
+AT,2723,Muthmannsdorf
+AT,2724,Hohe Wand-Stollhof
+AT,2731,St. Egyden am Steinfeld
+AT,2732,Willendorf
+AT,2733,Grünbach am Schneeberg
+AT,2734,Puchberg am Schneeberg
+AT,2751,Steinabrückl
+AT,2752,Wöllersdorf
+AT,2753,Markt Piesting
+AT,2754,Waldegg
+AT,2755,Oed
+AT,2761,Miesenbach
+AT,2763,Pernitz
+AT,2770,Gutenstein
+AT,2801,Katzelsdorf
+AT,2802,Hochwolkersdorf
+AT,2803,Schwarzenbach
+AT,2811,Wiesmath
+AT,2812,Hollenthon
+AT,2813,Lichtenegg
+AT,2821,Lanzenkirchen
+AT,2822,Bad Erlach
+AT,2823,Pitten
+AT,2824,Seebenstein
+AT,2831,Warth
+AT,2832,Thernberg
+AT,2833,Bromberg
+AT,2840,Grimmenstein
+AT,2842,Edlitz
+AT,2851,Krumbach
+AT,2852,Hochneukirchen
+AT,2853,Bad Schönau
+AT,2860,Kirchschlag in der Buckligen Welt
+AT,2870,Aspang
+AT,2871,Zöbern
+AT,2872,Mönichkirchen
+AT,2873,Feistritz am Wechsel
+AT,2880,Kirchberg am Wechsel
+AT,2881,Trattenbach
+AT,3001,Mauerbach
+AT,3002,Purkersdorf
+AT,3003,Gablitz
+AT,3004,Ried am Riederberg
+AT,3011,Untertullnerbach
+AT,3012,Wolfsgraben
+AT,3013,Tullnerbach-Lawies
+AT,3021,Pressbaum
+AT,3031,Rekawinkel
+AT,3032,Eichgraben
+AT,3033,Altlengbach
+AT,3034,Maria Anzbach
+AT,3040,Neulengbach
+AT,3041,Asperhofen
+AT,3042,Würmla
+AT,3051,St. Christophen
+AT,3052,Innermanzing
+AT,3053,Laaben
+AT,3061,Ollersbach
+AT,3062,Kirchstetten
+AT,3071,Böheimkirchen
+AT,3072,Kasten bei Böheimkirchen
+AT,3073,Stössing
+AT,3074,Michelbach
+AT,3100,St. Pölten
+AT,3104,St. Pölten-Harland
+AT,3105,St. Pölten-Radlberg
+AT,3107,St. Pölten-Traisenpark
+AT,3110,Neidling
+AT,3121,Karlstetten
+AT,3122,Gansbach
+AT,3123,Obritzberg
+AT,3124,Oberwölbling
+AT,3125,Statzendorf
+AT,3130,Herzogenburg
+AT,3131,Getzersdorf
+AT,3133,Traismauer
+AT,3134,Nußdorf
+AT,3140,Pottenbrunn
+AT,3141,Kapelln
+AT,3142,Perschling
+AT,3143,Pyhra
+AT,3144,Wald
+AT,3150,Wilhelmsburg
+AT,3151,St. Georgen am Steinfelde
+AT,3153,Eschenau
+AT,3160,Traisen
+AT,3161,St. Veit an der Gölsen
+AT,3162,Rainfeld
+AT,3163,Rohrbach
+AT,3170,Hainfeld
+AT,3171,Kleinzell-Salzerbad
+AT,3172,Ramsau
+AT,3180,Lilienfeld
+AT,3183,Freiland
+AT,3184,Türnitz
+AT,3192,Hohenberg
+AT,3193,St. Aegyd am Neuwalde
+AT,3195,Kernhof
+AT,3200,Ober-Grafendorf
+AT,3202,Hofstetten
+AT,3203,Rabenstein an der Pielach
+AT,3204,Kirchberg an der Pielach
+AT,3205,Weinburg
+AT,3211,Loich
+AT,3212,Schwarzenbach an der Pielach
+AT,3213,Frankenfels
+AT,3214,Puchenstuben
+AT,3221,Gösing an der Mariazellerbahn
+AT,3222,Annaberg
+AT,3223,Wienerbruck
+AT,3224,Mitterbach
+AT,3231,St. Margarethen an der Sierning
+AT,3232,Bischofstetten
+AT,3233,Kilb
+AT,3240,Mank
+AT,3241,Kirnberg an der Mank
+AT,3242,Texing
+AT,3243,St. Leonhard am Forst
+AT,3244,Ruprechtshofen
+AT,3250,Wieselburg
+AT,3251,Purgstall
+AT,3252,Petzenkirchen
+AT,3253,Erlauf
+AT,3254,Bergland
+AT,3261,Steinakirchen am Forst
+AT,3262,Wang
+AT,3263,Randegg
+AT,3264,Gresten
+AT,3270,Scheibbs
+AT,3281,Oberndorf an der Melk
+AT,3282,St. Georgen an der Leys
+AT,3283,St. Anton an der Jeßnitz
+AT,3291,Kienberg
+AT,3292,Gaming
+AT,3293,Lunz am See
+AT,3294,Langau
+AT,3295,Lackenhof
+AT,3300,Amstetten
+AT,3304,St. Georgen am Ybbsfelde
+AT,3311,Zeillern
+AT,3312,Oed
+AT,3313,Wallsee
+AT,3314,Strengberg
+AT,3321,Ardagger
+AT,3322,Viehdorf
+AT,3323,Neustadtl an der Donau
+AT,3324,Euratsfeld
+AT,3325,Ferschnitz
+AT,3331,Kematen
+AT,3332,Rosenau am Sonntagberg
+AT,3333,Böhlerwerk
+AT,3334,Gaflenz
+AT,3335,Weyer
+AT,3340,Waidhofen an der Ybbs
+AT,3341,Ybbsitz
+AT,3342,Opponitz
+AT,3343,Hollenstein an der Ybbs
+AT,3344,St. Georgen am Reith
+AT,3345,Göstling an der Ybbs
+AT,3350,Haag
+AT,3351,Weistrach
+AT,3352,St. Peter in der Au
+AT,3353,Seitenstetten
+AT,3354,Wolfsbach
+AT,3355,Ertl
+AT,3361,Aschbach Markt
+AT,3362,Mauer-Öhling
+AT,3363,Ulmerfeld-Hausmening
+AT,3364,Neuhofen an der Ybbs
+AT,3365,Allhartsberg
+AT,3370,Ybbs an der Donau
+AT,3371,Neumarkt an der Ybbs
+AT,3372,Blindenmarkt
+AT,3373,Kemmelbach
+AT,3374,Säusenstein
+AT,3375,Krummnußbaum
+AT,3376,St. Martin-Karlsbach
+AT,3380,Pöchlarn
+AT,3381,Golling
+AT,3382,Loosdorf
+AT,3383,Hürm
+AT,3384,Groß Sierning
+AT,3385,Prinzersdorf
+AT,3386,Hafnerbach
+AT,3390,Melk
+AT,3392,Schönbühel an der Donau
+AT,3393,Matzleinsdorf
+AT,3394,Schönbühel-Aggsbach
+AT,3400,Klosterneuburg
+AT,3413,Hintersdorf
+AT,3420,Kritzendorf
+AT,3421,Höflein an der Donau
+AT,3422,Greifenstein
+AT,3423,St. Andrä-Wördern
+AT,3424,Zeiselmauer
+AT,3425,Langenlebarn
+AT,3426,Muckendorf-Wipfing
+AT,3430,Tulln an der Donau
+AT,3433,Königstetten
+AT,3434,Tulbing
+AT,3435,Zwentendorf an der Donau
+AT,3441,Judenau
+AT,3442,Langenrohr
+AT,3443,Sieghartskirchen
+AT,3451,Michelhausen
+AT,3452,Atzenbrugg
+AT,3454,Sitzenberg-Reidling
+AT,3462,Absdorf
+AT,3463,Stetteldorf am Wagram
+AT,3464,Hausleiten
+AT,3465,Königsbrunn am Wagram
+AT,3470,Kirchberg am Wagram
+AT,3471,Großriedenthal
+AT,3472,Hohenwarth
+AT,3473,Mühlbach am Manhartsberg
+AT,3474,Altenwörth
+AT,3481,Fels am Wagram
+AT,3482,Gösing am Wagram
+AT,3483,Feuersbrunn
+AT,3484,Grafenwörth
+AT,3485,Haitzendorf
+AT,3491,Straß im Straßertale
+AT,3492,Etsdorf am Kamp
+AT,3493,Hadersdorf am Kamp
+AT,3494,Gedersdorf
+AT,3495,Rohrendorf bei Krems
+AT,3500,Krems an der Donau
+AT,3506,Krems-Hollenburg
+AT,3508,Paudorf
+AT,3511,Furth bei Göttweig
+AT,3512,Mautern
+AT,3521,Obermeisling
+AT,3522,Lichtenau
+AT,3524,Grainbrunn
+AT,3525,Sallingberg
+AT,3531,Niedernondorf
+AT,3532,Rastenfeld
+AT,3533,Friedersbach
+AT,3541,Senftenberg
+AT,3542,Gföhl
+AT,3543,Krumau am Kamp
+AT,3544,Idolsberg
+AT,3550,Langenlois
+AT,3552,Lengenfeld
+AT,3553,Schiltern
+AT,3561,Zöbing
+AT,3562,Schönberg
+AT,3564,Plank am Kamp
+AT,3571,Gars am Kamp
+AT,3572,St. Leonhard am Hornerwald
+AT,3573,Rosenburg
+AT,3580,Horn
+AT,3591,Altenburg
+AT,3592,Röhrenbach
+AT,3593,Neupölla
+AT,3594,Franzen
+AT,3595,Brunn an der Wild
+AT,3601,Dürnstein
+AT,3602,Rossatz
+AT,3610,Weißenkirchen in der Wachau
+AT,3611,Großheinrichschlag
+AT,3613,Albrechtsberg an der Großen Krems
+AT,3620,Spitz
+AT,3621,Mitterarnsdorf
+AT,3622,Mühldorf
+AT,3623,Kottes
+AT,3631,Ottenschlag
+AT,3632,Bad Traunstein
+AT,3633,Schönbach
+AT,3641,Aggsbach Markt
+AT,3642,Aggsbach Dorf
+AT,3643,Maria Laach am Jauerling
+AT,3644,Emmersdorf an der Donau
+AT,3650,Pöggstall
+AT,3652,Leiben
+AT,3653,Weiten
+AT,3654,Raxendorf
+AT,3660,Klein-Pöchlarn
+AT,3661,Artstetten
+AT,3662,Münichreith
+AT,3663,Laimbach am Ostrong
+AT,3664,Martinsberg
+AT,3665,Gutenbrunn
+AT,3671,Marbach an der Donau
+AT,3672,Maria Taferl
+AT,3680,Persenbeug
+AT,3681,Hofamt Priel
+AT,3683,Yspertal
+AT,3684,St. Oswald
+AT,3691,Nöchling
+AT,3701,Großweikersdorf
+AT,3702,Niederrußbach
+AT,3704,Glaubendorf
+AT,3710,Ziersdorf
+AT,3711,Großmeiseldorf
+AT,3712,Maissau
+AT,3713,Harmannsdorf
+AT,3714,Sitzendorf an der Schmida
+AT,3720,Ravelsbach
+AT,3721,Limberg
+AT,3722,Straning
+AT,3730,Eggenburg
+AT,3741,Pulkau
+AT,3742,Theras
+AT,3743,Röschitz
+AT,3744,Stockern
+AT,3751,Sigmundsherberg
+AT,3752,Walkenstein
+AT,3753,Hötzelsdorf
+AT,3754,Irnfritz
+AT,3761,Messern
+AT,3762,Ludweis
+AT,3763,Japons
+AT,3800,Göpfritz an der Wild
+AT,3804,Allentsteig
+AT,3811,Kirchberg an der Wild
+AT,3812,Groß Siegharts
+AT,3813,Dietmanns
+AT,3814,Aigen
+AT,3820,Raabs an der Thaya
+AT,3822,Karlstein an der Thaya
+AT,3823,Weikertschlag an der Thaya
+AT,3824,Großau
+AT,3830,Waidhofen an der Thaya
+AT,3834,Pfaffenschlag bei Waidhofen an der Thaya
+AT,3841,Windigsteig
+AT,3842,Thaya
+AT,3843,Dobersberg
+AT,3844,Waldkirchen an der Thaya
+AT,3851,Kautzen
+AT,3852,Gastern
+AT,3860,Heidenreichstein
+AT,3861,Eggern
+AT,3862,Eisgarn
+AT,3863,Reingers
+AT,3871,Nagelberg
+AT,3872,Langegg
+AT,3873,Brand
+AT,3874,Litschau
+AT,3900,Schwarzenau
+AT,3902,Vitis
+AT,3903,Echsenbach
+AT,3910,Zwettl
+AT,3911,Rappottenstein
+AT,3912,Grafenschlag
+AT,3913,Großgöttfritz
+AT,3914,Waldhausen
+AT,3920,Groß Gerungs
+AT,3921,Langschlag
+AT,3922,Großschönau
+AT,3923,Jagenbach
+AT,3924,Rosenau Schloß
+AT,3925,Arbesbach
+AT,3931,Schweiggers
+AT,3932,Kirchberg am Walde
+AT,3942,Hirschbach
+AT,3943,Schrems
+AT,3944,Pürbach
+AT,3945,Hoheneich
+AT,3950,Gmünd
+AT,3961,Waldenstein
+AT,3962,Heinrichs bei Weitra
+AT,3970,Weitra
+AT,3971,St. Martin
+AT,3972,Bad Großpertholz
+AT,3973,Karlstift
+AT,4020,Linz
+AT,4030,Linz
+AT,4040,Linz
+AT,4048,Puchenau
+AT,4050,Traun
+AT,4052,Ansfelden
+AT,4053,Haid
+AT,4055,Pucking
+AT,4060,Leonding
+AT,4061,Pasching
+AT,4062,Thening
+AT,4063,Hörsching
+AT,4064,Oftering
+AT,4070,Eferding
+AT,4072,Alkoven
+AT,4073,Wilhering
+AT,4074,Stroheim
+AT,4075,Breitenaich
+AT,4076,St. Marienkirchen an der Polsenz
+AT,4081,Hartkirchen
+AT,4082,Aschach an der Donau
+AT,4083,Haibach ob der Donau
+AT,4084,St. Agatha
+AT,4085,Wesenufer
+AT,4090,Engelhartszell
+AT,4091,Vichtenstein
+AT,4092,Esternberg
+AT,4100,Ottensheim
+AT,4101,Feldkirchen an der Donau
+AT,4102,Goldwörth
+AT,4111,Walding
+AT,4112,Rottenegg
+AT,4113,St. Martin im Mühlkreis
+AT,4114,Neuhaus an der Donau
+AT,4115,Kleinzell im Mühlkreis
+AT,4116,St. Ulrich im Mühlkreis
+AT,4120,Neufelden
+AT,4121,Altenfelden
+AT,4122,Arnreit
+AT,4131,Kirchberg ob der Donau
+AT,4132,Lembach im Mühlkreis
+AT,4133,Niederkappel
+AT,4134,Putzleinsdorf
+AT,4141,Pfarrkirchen im Mühlkreis
+AT,4142,Hofkirchen im Mühlkreis
+AT,4143,Neustift im Mühlkreis
+AT,4144,Oberkappel
+AT,4150,Rohrbach in Oberösterreich
+AT,4151,Oepping
+AT,4152,Sarleinsbach
+AT,4153,Peilstein im Mühlviertel
+AT,4154,Kollerschlag
+AT,4155,Nebelberg
+AT,4160,Aigen-Schlägl
+AT,4161,Ulrichsberg
+AT,4162,Julbach
+AT,4163,Klaffer am Hochficht
+AT,4164,Schwarzenberg am Böhmerwald
+AT,4170,Haslach an der Mühl
+AT,4171,St. Peter am Wimberg
+AT,4172,St. Johann am Wimberg
+AT,4173,St. Veit im Mühlkreis
+AT,4174,Niederwaldkirchen
+AT,4175,Herzogsdorf
+AT,4180,Zwettl an der Rodl
+AT,4181,Oberneukirchen
+AT,4182,Waxenberg
+AT,4183,Traberg
+AT,4184,Helfenberg
+AT,4190,Bad Leonfelden
+AT,4191,Vorderweißenbach
+AT,4192,Schenkenfelden
+AT,4193,Reichenthal
+AT,4201,Gramastetten
+AT,4202,Hellmonsödt
+AT,4203,Altenberg bei Linz
+AT,4204,Reichenau im Mühlkreis
+AT,4209,Engerwitzdorf
+AT,4210,Gallneukirchen
+AT,4211,Alberndorf in der Riedmark
+AT,4212,Neumarkt im Mühlkreis
+AT,4213,Unterweitersdorf
+AT,4221,Steyregg
+AT,4222,St. Georgen an der Gusen
+AT,4223,Katsdorf
+AT,4224,Wartberg ob der Aist
+AT,4225,Luftenberg
+AT,4230,Pregarten
+AT,4232,Hagenberg im Mühlkreis
+AT,4240,Freistadt
+AT,4242,Hirschbach im Mühlkreis
+AT,4251,Sandl
+AT,4252,Liebenau
+AT,4261,Rainbach im Mühlkreis
+AT,4262,Leopoldschlag
+AT,4263,Windhaag bei Freistadt
+AT,4264,Grünbach
+AT,4271,St. Oswald bei Freistadt
+AT,4272,Weitersfelden
+AT,4273,Unterweißenbach
+AT,4274,Schönau im Mühlkreis
+AT,4280,Königswiesen
+AT,4281,Mönchdorf
+AT,4282,Pierbach
+AT,4283,Bad Zell
+AT,4284,Tragwein
+AT,4291,Lasberg
+AT,4292,Kefermarkt
+AT,4293,Gutau
+AT,4294,St. Leonhard bei Freistadt
+AT,4300,St. Valentin
+AT,4303,St. Pantaleon
+AT,4310,Mauthausen
+AT,4311,Schwertberg
+AT,4312,Ried in der Riedmark
+AT,4320,Perg
+AT,4322,Windhaag bei Perg
+AT,4323,Münzbach
+AT,4324,Rechberg
+AT,4331,Naarn
+AT,4332,Au an der Donau
+AT,4341,Arbing
+AT,4342,Baumgartenberg
+AT,4343,Mitterkirchen
+AT,4351,Saxen
+AT,4352,Klam
+AT,4360,Grein
+AT,4362,Bad Kreuzen
+AT,4363,Pabneukirchen
+AT,4364,St. Thomas
+AT,4371,Dimbach
+AT,4372,St. Georgen am Walde
+AT,4381,St. Nikola an der Donau
+AT,4382,Sarmingstein
+AT,4391,Waldhausen im Strudengau
+AT,4392,Dorfstetten
+AT,4400,Steyr
+AT,4407,Steyr-Gleink
+AT,4421,Aschach an der Steyr
+AT,4431,Haidershofen
+AT,4432,Ernsthofen
+AT,4441,Behamberg
+AT,4442,Kleinraming
+AT,4443,Maria Neustift
+AT,4451,Garsten
+AT,4452,Ternberg
+AT,4453,Trattenbach
+AT,4460,Losenstein
+AT,4461,Laussa
+AT,4462,Reichraming
+AT,4463,Großraming
+AT,4464,Kleinreifling
+AT,4470,Enns
+AT,4481,Asten
+AT,4482,Ennsdorf
+AT,4483,Hargelsberg
+AT,4484,Kronstorf
+AT,4490,St. Florian
+AT,4491,Niederneukirchen
+AT,4492,Hofkirchen im Traunkreis
+AT,4493,Wolfern
+AT,4501,Neuhofen an der Krems
+AT,4502,St. Marien
+AT,4511,Allhaming
+AT,4521,Schiedlberg
+AT,4522,Sierning
+AT,4523,Neuzeug
+AT,4531,Kematen an der Krems
+AT,4532,Rohr im Kremstal
+AT,4533,Piberbach
+AT,4540,Bad Hall
+AT,4541,Adlwang
+AT,4542,Nußbach
+AT,4550,Kremsmünster
+AT,4551,Ried im Traunkreis
+AT,4552,Wartberg an der Krems
+AT,4553,Schlierbach
+AT,4554,Oberschlierbach
+AT,4560,Kirchdorf an der Krems
+AT,4562,Steinbach am Ziehberg
+AT,4563,Micheldorf
+AT,4564,Klaus an der Pyhrnbahn
+AT,4565,Inzersdorf im Kremstal
+AT,4571,Steyrling
+AT,4572,St. Pankraz
+AT,4573,Hinterstoder
+AT,4574,Vorderstoder
+AT,4575,Roßleithen
+AT,4580,Windischgarsten
+AT,4581,Rosenau am Hengstpaß
+AT,4582,Spital am Pyhrn
+AT,4591,Molln
+AT,4592,Leonstein
+AT,4593,Obergrünburg
+AT,4594,Grünburg
+AT,4595,Waldneukirchen
+AT,4596,Steinbach an der Steyr
+AT,4600,Wels
+AT,4611,Buchkirchen
+AT,4612,Scharten
+AT,4613,Mistelbach bei Wels
+AT,4614,Marchtrenk
+AT,4615,Holzhausen
+AT,4616,Weißkirchen
+AT,4621,Sipbachzell
+AT,4622,Eggendorf im Traunkreis
+AT,4623,Gunskirchen
+AT,4624,Pennewang
+AT,4625,Offenhausen
+AT,4631,Krenglbach
+AT,4632,Pichl bei Wels
+AT,4633,Kematen am Innbach
+AT,4641,Steinhaus
+AT,4642,Sattledt
+AT,4643,Pettenbach
+AT,4644,Scharnstein
+AT,4645,Grünau im Almtal
+AT,4650,Lambach
+AT,4651,Stadl-Paura
+AT,4652,Steinerkirchen an der Traun
+AT,4653,Eberstalzell
+AT,4654,Bad Wimsbach-Neydharting
+AT,4655,Vorchdorf
+AT,4656,Kirchham
+AT,4661,Roitham am Traunfall
+AT,4662,Steyrermühl
+AT,4663,Laakirchen
+AT,4664,Oberweis
+AT,4671,Neukirchen bei Lambach
+AT,4672,Bachmanning
+AT,4673,Gaspoltshofen
+AT,4674,Altenhof am Hausruck
+AT,4675,Weibern
+AT,4676,Aistersheim
+AT,4680,Haag am Hausruck
+AT,4681,Rottenbach
+AT,4682,Geboltskirchen
+AT,4690,Schwanenstadt
+AT,4691,Breitenschützing
+AT,4692,Niederthalheim
+AT,4693,Desselbrunn
+AT,4694,Ohlsdorf
+AT,4701,Bad Schallerbach
+AT,4702,Wallern an der Trattnach
+AT,4707,Schlüßlberg
+AT,4710,Grieskirchen
+AT,4712,Michaelnbach
+AT,4713,Gallspach
+AT,4714,Meggenhofen
+AT,4715,Taufkirchen an der Trattnach
+AT,4716,Hofkirchen an der Trattnach
+AT,4720,Neumarkt im Hausruckkreis
+AT,4721,Altschwendt
+AT,4722,Peuerbach
+AT,4723,Natternbach
+AT,4724,Neukirchen am Walde
+AT,4725,St. Aegidi
+AT,4730,Waizenkirchen
+AT,4731,Prambachkirchen
+AT,4732,St. Thomas
+AT,4733,Heiligenberg
+AT,4741,Wendling
+AT,4742,Pram
+AT,4743,Peterskirchen
+AT,4751,Dorf
+AT,4752,Riedau
+AT,4753,Taiskirchen im Innkreis
+AT,4754,Andrichsfurt
+AT,4755,Zell an der Pram
+AT,4760,Raab
+AT,4761,Enzenkirchen
+AT,4762,St. Willibald
+AT,4770,Andorf
+AT,4771,Sigharting
+AT,4772,Lambrechten
+AT,4773,Eggerding
+AT,4774,St. Marienkirchen bei Schärding
+AT,4775,Taufkirchen an der Pram
+AT,4776,Diersbach
+AT,4777,Mayrhof
+AT,4780,Schärding
+AT,4782,St. Florian am Inn
+AT,4783,Wernstein am Inn
+AT,4784,Schardenberg
+AT,4785,Freinberg
+AT,4786,Brunnenthal
+AT,4791,Rainbach im Innkreis
+AT,4792,Münzkirchen
+AT,4793,St. Roman
+AT,4794,Kopfing im Innkreis
+AT,4800,Attnang-Puchheim
+AT,4801,Traunkirchen
+AT,4802,Ebensee
+AT,4810,Gmunden
+AT,4812,Pinsdorf
+AT,4813,Altmünster
+AT,4814,Neukirchen
+AT,4816,Gschwandt
+AT,4817,St. Konrad
+AT,4820,Bad Ischl
+AT,4821,Lauffen
+AT,4822,Bad Goisern am Hallstättersee
+AT,4823,Steeg
+AT,4824,Gosau
+AT,4825,Gosau-Hintertal
+AT,4830,Hallstatt
+AT,4831,Obertraun
+AT,4840,Vöcklabruck
+AT,4841,Ungenach
+AT,4842,Zell am Pettenfirst
+AT,4843,Ampflwang
+AT,4844,Regau
+AT,4845,Rutzenmoos
+AT,4846,Redlham
+AT,4849,Puchkirchen am Trattberg
+AT,4850,Timelkam
+AT,4851,Gampern
+AT,4852,Weyregg am Attersee
+AT,4853,Steinbach am Attersee
+AT,4854,Weißenbach
+AT,4860,Lenzing
+AT,4861,Schörfling
+AT,4863,Seewalchen am Attersee
+AT,4864,Attersee
+AT,4865,Nußdorf am Attersee
+AT,4866,Unterach
+AT,4870,Vöcklamarkt
+AT,4871,Zipf
+AT,4872,Neukirchen an der Vöckla
+AT,4873,Frankenburg am Hausruck
+AT,4880,St. Georgen im Attergau
+AT,4881,Straß im Attergau
+AT,4882,Oberwang
+AT,4890,Frankenmarkt
+AT,4891,Pöndorf
+AT,4892,Fornach
+AT,4893,Zell am Moos
+AT,4894,Oberhofen am Irrsee
+AT,4901,Ottnang
+AT,4902,Wolfsegg am Hausruck
+AT,4903,Manning
+AT,4904,Atzbach
+AT,4906,Eberschwang
+AT,4910,Ried im Innkreis
+AT,4911,Tumeltsham
+AT,4912,Neuhofen im Innkreis
+AT,4920,Schildorn
+AT,4921,Hohenzell
+AT,4922,Geiersberg
+AT,4923,Lohnsburg
+AT,4924,Waldzell
+AT,4925,Pramet
+AT,4926,St. Marienkirchen am Hausruck
+AT,4931,Mettmach
+AT,4932,Kirchheim im Innkreis
+AT,4933,Wildenau
+AT,4941,Mehrnbach
+AT,4942,Gurten
+AT,4943,Geinberg
+AT,4950,Altheim
+AT,4951,Polling im Innkreis
+AT,4952,Weng im Innkreis
+AT,4961,Mühlheim am Inn
+AT,4962,Mining
+AT,4963,St. Peter am Hart
+AT,4970,Eitzing
+AT,4971,Aurolzmünster
+AT,4972,Utzenaich
+AT,4973,St. Martin
+AT,4974,Ort im Innkreis
+AT,4975,Suben
+AT,4980,Antiesenhofen
+AT,4981,Reichersberg
+AT,4982,Obernberg am Inn
+AT,4983,St. Georgen bei Obernberg am Inn
+AT,4984,Weilbach
+AT,5020,Salzburg
+AT,5023,Salzburg-Gnigl
+AT,5026,Salzburg-Aigen
+AT,5061,Elsbethen-Glasenbach
+AT,5071,Wals
+AT,5081,Anif
+AT,5082,Grödig
+AT,5083,Gartenau-St. Leonhard
+AT,5084,Großgmain
+AT,5090,Lofer
+AT,5091,Unken
+AT,5092,St. Martin bei Lofer
+AT,5093,Weißbach bei Lofer
+AT,5101,Bergheim
+AT,5102,Anthering
+AT,5110,Oberndorf bei Salzburg
+AT,5111,Bürmoos
+AT,5112,Lamprechtshausen
+AT,5113,St. Georgen bei Salzburg
+AT,5114,Göming
+AT,5120,St. Pantaleon
+AT,5121,Ostermiething
+AT,5122,Ach
+AT,5123,Überackern
+AT,5131,Franking
+AT,5132,Geretsberg
+AT,5133,Gilgenberg am Weilhart
+AT,5134,Schwand im Innkreis
+AT,5141,Moosdorf
+AT,5142,Eggelsberg
+AT,5143,Feldkirchen bei Mattighofen
+AT,5144,Handenberg
+AT,5145,Neukirchen an der Enknach
+AT,5151,Nußdorf am Haunsberg
+AT,5152,Michaelbeuern
+AT,5161,Elixhausen
+AT,5162,Obertrum am See
+AT,5163,Mattsee
+AT,5164,Seeham
+AT,5165,Berndorf bei Salzburg
+AT,5166,Perwang am Grabensee
+AT,5201,Seekirchen
+AT,5202,Neumarkt am Wallersee
+AT,5203,Köstendorf
+AT,5204,Straßwalchen
+AT,5205,Schleedorf
+AT,5211,Friedburg
+AT,5212,Schneegattern
+AT,5221,Lochen am See
+AT,5222,Munderfing
+AT,5223,Pfaffstätt
+AT,5224,Auerbach
+AT,5225,Jeging
+AT,5230,Mattighofen
+AT,5231,Schalchen
+AT,5232,Kirchberg bei Mattighofen
+AT,5233,Pischelsdorf am Engelbach
+AT,5241,Maria Schmolln
+AT,5242,St. Johann am Walde
+AT,5251,Höhnhart
+AT,5252,Aspach
+AT,5261,Uttendorf
+AT,5270,Mauerkirchen
+AT,5271,Moosbach
+AT,5272,Treubach
+AT,5273,Roßbach
+AT,5274,Burgkirchen
+AT,5280,Braunau am Inn
+AT,5282,Braunau
+AT,5300,Hallwang
+AT,5301,Eugendorf
+AT,5302,Henndorf am Wallersee
+AT,5303,Thalgau
+AT,5310,Mondsee
+AT,5311,Loibichl
+AT,5321,Koppl
+AT,5322,Hof bei Salzburg
+AT,5323,Ebenau
+AT,5324,Faistenau
+AT,5325,Plainfeld
+AT,5330,Fuschl am See
+AT,5340,St. Gilgen
+AT,5342,Abersee
+AT,5350,Strobl
+AT,5360,St. Wolfgang im Salzkammergut
+AT,5400,Hallein
+AT,5411,Oberalm
+AT,5412,Puch bei Hallein
+AT,5421,Adnet
+AT,5422,Heilbad Dürrnberg
+AT,5423,St. Koloman
+AT,5424,Bad Vigaun
+AT,5425,Krispl
+AT,5431,Kuchl
+AT,5440,Golling an der Salzach
+AT,5441,Abtenau
+AT,5442,Rußbach am Paß Gschütt
+AT,5450,Werfen
+AT,5451,Tenneck
+AT,5452,Pfarrwerfen
+AT,5453,Werfenweng
+AT,5500,Bischofshofen
+AT,5505,Mühlbach am Hochkönig
+AT,5511,Hüttau
+AT,5521,Niedernfritz
+AT,5522,St. Martin am Tennengebirge
+AT,5523,Lungötz
+AT,5524,Annaberg
+AT,5531,Eben im Pongau
+AT,5532,Filzmoos
+AT,5541,Altenmarkt im Pongau
+AT,5542,Flachau
+AT,5550,Radstadt
+AT,5552,Forstau
+AT,5561,Untertauern
+AT,5562,Obertauern
+AT,5563,Tweng
+AT,5570,Mauterndorf
+AT,5571,Mariapfarr
+AT,5572,St. Andrä im Lungau
+AT,5573,Weißpriach
+AT,5574,Göriach
+AT,5575,Lessach
+AT,5580,Tamsweg
+AT,5581,St. Margarethen im Lungau
+AT,5582,St. Michael im Lungau
+AT,5583,Muhr
+AT,5584,Zederhaus
+AT,5585,Unternberg
+AT,5591,Ramingstein
+AT,5592,Thomatal
+AT,5600,St. Johann im Pongau
+AT,5602,Wagrain
+AT,5603,Kleinarl
+AT,5611,Großarl
+AT,5612,Hüttschlag
+AT,5620,Schwarzach im Pongau
+AT,5621,St. Veit im Pongau
+AT,5622,Goldegg
+AT,5630,Bad Hofgastein
+AT,5632,Dorfgastein
+AT,5640,Bad Gastein
+AT,5645,Böckstein
+AT,5651,Lend
+AT,5652,Dienten am Hochkönig
+AT,5660,Taxenbach
+AT,5661,Rauris
+AT,5662,Gries
+AT,5671,Bruck an der Großglocknerstraße
+AT,5672,Fusch an der Glocknerstraße
+AT,5700,Zell am See
+AT,5710,Kaprun
+AT,5721,Piesendorf
+AT,5722,Niedernsill
+AT,5723,Uttendorf
+AT,5724,Stuhlfelden
+AT,5730,Mittersill
+AT,5731,Hollersbach im Pinzgau
+AT,5732,Mühlbach
+AT,5733,Bramberg am Wildkogel
+AT,5741,Neukirchen am Großvenediger
+AT,5742,Wald im Pinzgau
+AT,5743,Krimml
+AT,5751,Maishofen
+AT,5752,Viehhofen
+AT,5753,Saalbach
+AT,5754,Hinterglemm
+AT,5760,Saalfelden am Steinernen Meer
+AT,5761,Maria Alm am Steinernen Meer
+AT,5771,Leogang
+AT,6020,Innsbruck
+AT,6060,Hall in Tirol
+AT,6063,Rum
+AT,6065,Thaur
+AT,6067,Absam
+AT,6068,Mils
+AT,6069,Gnadenwald
+AT,6070,Ampass
+AT,6071,Aldrans
+AT,6072,Lans
+AT,6073,Sistrans
+AT,6074,Rinn
+AT,6075,Tulfes
+AT,6080,Innsbruck-Igls
+AT,6082,Patsch
+AT,6083,Ellbögen
+AT,6091,Götzens
+AT,6092,Birgitz
+AT,6094,Axams
+AT,6095,Grinzens
+AT,6100,Seefeld in Tirol
+AT,6103,Reith bei Seefeld
+AT,6105,Leutasch
+AT,6108,Scharnitz
+AT,6111,Volders
+AT,6112,Wattens
+AT,6113,Wattenberg
+AT,6114,Kolsass
+AT,6115,Kolsassberg
+AT,6116,Weer
+AT,6121,Baumkirchen
+AT,6122,Fritzens
+AT,6123,Terfens
+AT,6130,Schwaz
+AT,6133,Weerberg
+AT,6134,Vomp
+AT,6135,Stans
+AT,6136,Pill
+AT,6141,Schönberg im Stubaital
+AT,6142,Mieders
+AT,6143,Matrei am Brenner
+AT,6145,Navis
+AT,6150,Steinach am Brenner
+AT,6152,Trins
+AT,6154,St. Jodok am Brenner
+AT,6156,Gries am Brenner
+AT,6157,Obernberg am Brenner
+AT,6161,Natters
+AT,6162,Mutters
+AT,6165,Telfes im Stubai
+AT,6166,Fulpmes
+AT,6167,Neustift im Stubaital
+AT,6170,Zirl
+AT,6173,Oberperfuss
+AT,6175,Kematen in Tirol
+AT,6176,Völs
+AT,6178,Unterperfuss
+AT,6179,Ranggen
+AT,6181,Sellrain
+AT,6182,Gries im Sellrain
+AT,6183,Kühtai
+AT,6184,St. Sigmund
+AT,6200,Jenbach
+AT,6210,Wiesing
+AT,6212,Maurach
+AT,6213,Pertisau
+AT,6215,Achenkirch
+AT,6220,Buch in Tirol
+AT,6222,Gallzein
+AT,6230,Brixlegg
+AT,6232,Münster
+AT,6233,Kramsach
+AT,6234,Brandenberg
+AT,6235,Reith im Alpbachtal
+AT,6236,Alpbach
+AT,6240,Rattenberg
+AT,6241,Radfeld
+AT,6250,Kundl
+AT,6252,Breitenbach am Inn
+AT,6260,Bruck am Ziller
+AT,6261,Strass im Zillertal
+AT,6262,Schlitters
+AT,6263,Fügen
+AT,6264,Fügenberg
+AT,6265,Hart im Zillertal
+AT,6271,Uderns
+AT,6272,Kaltenbach
+AT,6273,Ried im Zillertal
+AT,6274,Aschau
+AT,6275,Stumm
+AT,6276,Stummerberg
+AT,6277,Zellberg
+AT,6278,Hainzenberg
+AT,6280,Zell am Ziller
+AT,6281,Gerlos
+AT,6283,Hippach
+AT,6284,Ramsau im Zillertal
+AT,6290,Mayrhofen
+AT,6292,Finkenberg
+AT,6293,Tux
+AT,6294,Hintertux
+AT,6295,Ginzling
+AT,6300,Wörgl
+AT,6305,Itter
+AT,6306,Söll
+AT,6311,Wildschönau-Oberau
+AT,6313,Wildschönau-Auffach
+AT,6314,Wildschönau-Niederau
+AT,6320,Angerberg
+AT,6321,Angath
+AT,6322,Kirchbichl
+AT,6323,Bad Häring
+AT,6324,Mariastein
+AT,6330,Kufstein
+AT,6334,Schwoich
+AT,6335,Thiersee
+AT,6336,Langkampfen
+AT,6341,Ebbs
+AT,6342,Niederndorf
+AT,6343,Erl
+AT,6344,Walchsee
+AT,6345,Kössen
+AT,6346,Niederndorferberg
+AT,6347,Rettenschöss
+AT,6351,Scheffau am Wilden Kaiser
+AT,6352,Ellmau
+AT,6353,Going am Wilden Kaiser
+AT,6361,Hopfgarten
+AT,6363,Westendorf
+AT,6364,Brixen im Thale
+AT,6365,Kirchberg in Tirol
+AT,6370,Kitzbühel
+AT,6371,Aurach
+AT,6372,Oberndorf in Tirol
+AT,6373,Jochberg
+AT,6380,St. Johann in Tirol
+AT,6382,Kirchdorf in Tirol
+AT,6383,Erpfendorf
+AT,6384,Waidring
+AT,6385,Schwendt
+AT,6391,Fieberbrunn
+AT,6392,St. Jakob in Haus
+AT,6393,St. Ulrich am Pillersee
+AT,6395,Hochfilzen
+AT,6401,Inzing
+AT,6402,Hatting
+AT,6403,Flaurling
+AT,6404,Polling
+AT,6405,Pfaffenhofen
+AT,6406,Oberhofen im Inntal
+AT,6408,Pettnau
+AT,6410,Telfs
+AT,6413,Wildermieming
+AT,6414,Mieming
+AT,6416,Obsteig
+AT,6421,Rietz
+AT,6422,Stams
+AT,6423,Mötz
+AT,6424,Silz
+AT,6425,Haiming
+AT,6426,Roppen
+AT,6430,Ötztal Bahnhof
+AT,6432,Sautens
+AT,6433,Oetz
+AT,6441,Umhausen
+AT,6444,Längenfeld
+AT,6450,Sölden
+AT,6452,Hochsölden
+AT,6456,Obergurgl
+AT,6458,Vent
+AT,6460,Imst
+AT,6462,Karres
+AT,6463,Karrösten
+AT,6464,Tarrenz
+AT,6465,Nassereith
+AT,6471,Arzl im Pitztal
+AT,6473,Wenns
+AT,6474,Jerzens
+AT,6481,St. Leonhard im Pitztal
+AT,6491,Schönwies
+AT,6492,Imsterberg
+AT,6493,Mils
+AT,6500,Landeck
+AT,6511,Zams
+AT,6521,Fließ
+AT,6522,Prutz
+AT,6524,Feichten im Kaunertal
+AT,6525,Faggen
+AT,6526,Kauns
+AT,6527,Kaunerberg
+AT,6528,Fendels
+AT,6531,Ried im Oberinntal
+AT,6532,Ladis
+AT,6533,Fiss
+AT,6534,Serfaus
+AT,6541,Tösens
+AT,6542,Pfunds
+AT,6543,Nauders
+AT,6544,Spiss
+AT,6551,Pians
+AT,6552,Tobadill
+AT,6553,See
+AT,6555,Kappl
+AT,6561,Ischgl
+AT,6562,Mathon
+AT,6563,Galtür
+AT,6571,Strengen
+AT,6572,Flirsch
+AT,6574,Pettneu am Arlberg
+AT,6580,St. Anton am Arlberg
+AT,6591,Grins
+AT,6600,Reutte
+AT,6604,Höfen
+AT,6610,Wängle
+AT,6611,Heiterwang
+AT,6621,Bichlbach
+AT,6622,Berwang
+AT,6623,Namlos
+AT,6631,Lermoos
+AT,6632,Ehrwald
+AT,6633,Biberwier
+AT,6642,Stanzach
+AT,6644,Elmen
+AT,6645,Vorderhornbach
+AT,6646,Hinterhornbach
+AT,6647,Pfafflar
+AT,6650,Gramais
+AT,6651,Häselgehr
+AT,6652,Elbigenalp
+AT,6653,Bach
+AT,6654,Holzgau
+AT,6655,Steeg
+AT,6670,Forchach
+AT,6671,Weißenbach am Lech
+AT,6672,Nesselwängle
+AT,6673,Grän
+AT,6675,Tannheim
+AT,6677,Schattwald
+AT,6682,Vils
+AT,6691,Jungholz
+AT,6700,Bludenz
+AT,6706,Bürs
+AT,6707,Bürserberg
+AT,6708,Brand
+AT,6710,Nenzing
+AT,6712,Thüringen
+AT,6713,Ludesch
+AT,6714,Nüziders
+AT,6719,Bludesch
+AT,6721,Thüringerberg
+AT,6722,St. Gerold
+AT,6723,Blons
+AT,6731,Sonntag
+AT,6733,Fontanella
+AT,6741,Raggal
+AT,6751,Braz
+AT,6752,Dalaas
+AT,6754,Klösterle
+AT,6762,Stuben
+AT,6763,Zürs
+AT,6764,Lech
+AT,6767,Warth
+AT,6771,St. Anton im Montafon
+AT,6773,Vandans
+AT,6774,Tschagguns
+AT,6780,Schruns
+AT,6781,Bartholomäberg
+AT,6782,Silbertal
+AT,6787,Gargellen
+AT,6791,St. Gallenkirch
+AT,6793,Gaschurn
+AT,6794,Partenen
+AT,6800,Feldkirch
+AT,6811,Göfis
+AT,6812,Meiningen
+AT,6820,Frastanz
+AT,6822,Satteins
+AT,6824,Schlins
+AT,6830,Rankweil
+AT,6832,Sulz-Röthis
+AT,6833,Klaus-Weiler
+AT,6834,Übersaxen
+AT,6835,Zwischenwasser
+AT,6836,Viktorsberg
+AT,6837,Weiler
+AT,6840,Götzis
+AT,6841,Mäder
+AT,6842,Koblach
+AT,6844,Altach
+AT,6845,Hohenems
+AT,6850,Dornbirn
+AT,6858,Schwarzach
+AT,6861,Alberschwende
+AT,6863,Egg
+AT,6866,Andelsbuch
+AT,6867,Schwarzenberg
+AT,6870,Bezau
+AT,6874,Bizau
+AT,6881,Mellau
+AT,6882,Schnepfau
+AT,6883,Au
+AT,6884,Damüls
+AT,6886,Schoppernau
+AT,6888,Schröcken
+AT,6890,Lustenau
+AT,6900,Bregenz
+AT,6911,Lochau
+AT,6912,Hörbranz
+AT,6914,Hohenweiler
+AT,6921,Kennelbach
+AT,6922,Wolfurt
+AT,6923,Lauterach
+AT,6932,Langen bei Bregenz
+AT,6933,Doren
+AT,6934,Sulzberg
+AT,6941,Langenegg
+AT,6942,Krumbach
+AT,6943,Riefensberg
+AT,6951,Lingenau
+AT,6952,Hittisau
+AT,6960,Wolfurt-Bahnhof
+AT,6971,Hard
+AT,6972,Fußach
+AT,6973,Höchst
+AT,6974,Gaißau
+AT,6991,Riezlern
+AT,6992,Hirschegg
+AT,6993,Mittelberg
+AT,7000,Eisenstadt
+AT,7011,Siegendorf
+AT,7012,Zagersdorf
+AT,7013,Klingenbach
+AT,7020,Loipersbach im Burgenland
+AT,7021,Draßburg
+AT,7022,Schattendorf
+AT,7023,Zemendorf
+AT,7024,Hirm
+AT,7025,Pöttelsdorf
+AT,7031,Krensdorf
+AT,7032,Sigleß
+AT,7033,Pöttsching
+AT,7034,Zillingtal
+AT,7035,Steinbrunn
+AT,7041,Wulkaprodersdorf
+AT,7042,Antau
+AT,7051,Großhöflein
+AT,7052,Müllendorf
+AT,7053,Hornstein
+AT,7061,Trausdorf an der Wulka
+AT,7062,St. Margarethen im Burgenland
+AT,7063,Oggau
+AT,7064,Oslip
+AT,7071,Rust
+AT,7072,Mörbisch am See
+AT,7081,Schützen am Gebirge
+AT,7082,Donnerskirchen
+AT,7083,Purbach am Neusiedler See
+AT,7091,Breitenbrunn am Neusiedler See
+AT,7092,Winden am See
+AT,7093,Jois
+AT,7100,Neusiedl am See
+AT,7111,Parndorf
+AT,7121,Weiden am See
+AT,7122,Gols
+AT,7123,Mönchhof
+AT,7131,Halbturn
+AT,7132,Frauenkirchen
+AT,7141,Podersdorf am See
+AT,7142,Illmitz
+AT,7143,Apetlon
+AT,7151,Wallern im Burgenland
+AT,7152,Pamhagen
+AT,7161,St. Andrä am Zicksee
+AT,7162,Tadten
+AT,7163,Andau
+AT,7201,Neudörfl
+AT,7202,Bad Sauerbrunn
+AT,7203,Wiesen
+AT,7210,Mattersburg
+AT,7212,Forchtenstein
+AT,7221,Marz
+AT,7222,Rohrbach bei Mattersburg
+AT,7223,Sieggraben
+AT,7301,Deutschkreutz
+AT,7302,Nikitsch
+AT,7304,Großwarasdorf
+AT,7311,Neckenmarkt
+AT,7312,Horitschon
+AT,7321,Lackendorf
+AT,7322,Lackenbach
+AT,7323,Ritzing
+AT,7331,Weppersdorf
+AT,7332,Kobersdorf
+AT,7341,Markt St. Martin
+AT,7342,Kaisersdorf
+AT,7343,Neutal
+AT,7344,Stoob
+AT,7350,Oberpullendorf
+AT,7361,Lutzmannsburg
+AT,7371,Unterrabnitz
+AT,7372,Draßmarkt
+AT,7373,Piringsdorf
+AT,7374,Weingraben
+AT,7400,Oberwart
+AT,7410,Loipersdorf-Kitzladen
+AT,7411,Markt Allhau
+AT,7412,Wolfau
+AT,7421,Tauchen-Schaueregg
+AT,7422,Riedlingsdorf
+AT,7423,Pinkafeld
+AT,7425,Wiesfleck
+AT,7431,Bad Tatzmannsdorf
+AT,7432,Oberschützen
+AT,7433,Mariasdorf
+AT,7434,Bernstein
+AT,7435,Unterkohlstätten
+AT,7441,Pilgersdorf
+AT,7442,Lockenhaus
+AT,7443,Rattersdorf-Liebing
+AT,7444,Mannersdorf an der Rabnitz
+AT,7451,Oberloisdorf
+AT,7452,Unterpullendorf
+AT,7453,Steinberg-Dörfl
+AT,7461,Stadtschlaining
+AT,7463,Weiden bei Rechnitz
+AT,7464,Markt Neuhodis
+AT,7471,Rechnitz
+AT,7472,Schachendorf
+AT,7473,Hannersdorf
+AT,7474,Deutsch Schützen
+AT,7501,Rotenturm an der Pinka
+AT,7502,Unterwart
+AT,7503,Großpetersdorf
+AT,7511,Mischendorf
+AT,7512,Kohfidisch
+AT,7521,Eberau
+AT,7522,Strem
+AT,7531,Kemeten
+AT,7532,Litzelsdorf
+AT,7533,Ollersdorf im Burgenland
+AT,7534,Olbendorf
+AT,7535,St. Michael im Burgenland
+AT,7536,Güttenbach
+AT,7537,Neuberg im Burgenland
+AT,7540,Güssing
+AT,7542,Gerersdorf bei Güssing
+AT,7543,Kukmirn
+AT,7544,Tobaj
+AT,7545,Neustift bei Güssing
+AT,7546,Moschendorf
+AT,7550,Wörterberg
+AT,7551,Stegersbach
+AT,7552,Stinatz
+AT,7553,Bocksdorf
+AT,7554,Rohr im Burgenland
+AT,7561,Heiligenkreuz im Lafnitztal
+AT,7562,Eltendorf
+AT,7563,Königsdorf
+AT,7564,Dobersdorf
+AT,7571,Rudersdorf
+AT,7572,Deutsch Kaltenbrunn
+AT,7574,Burgauberg-Neudauberg
+AT,8010,Graz
+AT,8020,Graz
+AT,8036,Graz
+AT,8041,Graz-Liebenau
+AT,8042,Graz-St. Peter
+AT,8043,Graz-Kroisbach
+AT,8044,Graz-Mariatrost
+AT,8045,Graz-Andritz
+AT,8046,Graz-St. Veit
+AT,8047,Graz-Ragnitz
+AT,8051,Graz-Gösting
+AT,8052,Graz-Wetzelsdorf
+AT,8053,Graz-Neuhart
+AT,8054,Graz-Straßgang
+AT,8055,Graz-Puntigam
+AT,8061,St. Radegund bei Graz
+AT,8062,Kumberg
+AT,8063,Eggersdorf bei Graz
+AT,8071,Hausmannstätten
+AT,8072,Fernitz
+AT,8073,Feldkirchen bei Graz
+AT,8074,Raaba
+AT,8075,Hart bei Graz
+AT,8076,Vasoldsberg
+AT,8077,Gössendorf
+AT,8081,Heiligenkreuz am Waasen
+AT,8082,Kirchbach in Steiermark
+AT,8083,St. Stefan im Rosental
+AT,8091,Jagerberg
+AT,8092,Mettersdorf am Saßbach
+AT,8093,St. Peter am Ottersbach
+AT,8101,Gratkorn
+AT,8102,Semriach
+AT,8103,Rein
+AT,8111,Judendorf-Straßengel
+AT,8112,Gratwein
+AT,8113,St. Oswald bei Plankenwarth
+AT,8114,Stübing
+AT,8120,Peggau
+AT,8121,Deutschfeistritz
+AT,8122,Waldstein
+AT,8124,Übelbach
+AT,8130,Frohnleiten
+AT,8131,Mixnitz
+AT,8132,Pernegg an der Mur
+AT,8141,Unterpremstätten
+AT,8142,Wundschuh
+AT,8143,Dobl
+AT,8144,Tobelbad
+AT,8151,Hitzendorf
+AT,8152,Stallhofen
+AT,8153,Geistthal
+AT,8160,Weiz
+AT,8162,Passail
+AT,8163,Fladnitz an der Teichalm
+AT,8171,St. Kathrein am Offenegg
+AT,8172,Heilbrunn
+AT,8181,St. Ruprecht an der Raab
+AT,8182,Puch bei Weiz
+AT,8183,Floing
+AT,8184,Anger
+AT,8190,Birkfeld
+AT,8191,Koglhof
+AT,8192,Strallegg
+AT,8200,Gleisdorf
+AT,8211,Ilztal
+AT,8212,Pischelsdorf am Kulm
+AT,8221,Hirnsdorf
+AT,8222,St. Johann bei Herberstein
+AT,8223,Stubenberg am See
+AT,8224,Kaindorf bei Hartberg
+AT,8225,Pöllau bei Hartberg
+AT,8230,Hartberg
+AT,8232,Grafendorf bei Hartberg
+AT,8233,Lafnitz
+AT,8234,Rohrbach an der Lafnitz
+AT,8240,Friedberg
+AT,8241,Dechantskirchen
+AT,8242,St. Lorenzen am Wechsel
+AT,8243,Pinggau
+AT,8244,Schäffern
+AT,8250,Vorau
+AT,8251,Bruck an der Lafnitz
+AT,8252,Mönichwald
+AT,8253,Waldbach
+AT,8254,Wenigzell
+AT,8255,St. Jakob
+AT,8261,Sinabelkirchen
+AT,8262,Ilz
+AT,8263,Großwilfersdorf
+AT,8264,Hainersdorf
+AT,8265,Großsteinbach
+AT,8271,Bad Waltersdorf
+AT,8272,Sebersdorf
+AT,8273,Ebersdorf
+AT,8274,Buch
+AT,8280,Fürstenfeld
+AT,8282,Bad Loipersdorf
+AT,8283,Bad Blumau
+AT,8291,Burgau
+AT,8292,Neudau
+AT,8293,Wörth an der Lafnitz
+AT,8294,Unterrohr
+AT,8295,St. Johann in der Haide
+AT,8301,Laßnitzhöhe
+AT,8302,Nestelbach bei Graz
+AT,8311,Markt Hartmannsdorf
+AT,8312,Ottendorf an der Rittschein
+AT,8313,Breitenfeld an der Rittschein
+AT,8321,St. Margarethen an der Raab
+AT,8322,Studenzen
+AT,8323,St. Marein bei Graz
+AT,8324,Kirchberg an der Raab
+AT,8330,Feldbach
+AT,8332,Edelsbach bei Feldbach
+AT,8333,Riegersburg
+AT,8334,Lödersdorf
+AT,8341,Paldau
+AT,8342,Gnas
+AT,8343,Trautmannsdorf in Oststeiermark
+AT,8344,Bad Gleichenberg
+AT,8345,Straden
+AT,8350,Fehring
+AT,8352,Unterlamm
+AT,8353,Kapfenstein
+AT,8354,St. Anna am Aigen
+AT,8355,Tieschen
+AT,8361,Hatzendorf
+AT,8362,Söchau
+AT,8380,Jennersdorf
+AT,8382,Mogersdorf
+AT,8383,St. Martin an der Raab
+AT,8384,Minihof-Liebau
+AT,8385,Neuhaus am Klausenbach
+AT,8401,Kalsdorf bei Graz
+AT,8402,Werndorf
+AT,8403,Lebring
+AT,8410,Wildon
+AT,8411,Hengsberg
+AT,8412,Allerheiligen bei Wildon
+AT,8413,St. Georgen an der Stiefing
+AT,8421,Wolfsberg im Schwarzautal
+AT,8422,St. Nikolai ob Draßling
+AT,8423,St. Veit am Vogau
+AT,8424,Gabersdorf
+AT,8430,Leibnitz
+AT,8431,Gralla
+AT,8434,Tillmitsch
+AT,8435,Wagna
+AT,8441,Fresing
+AT,8442,Kitzeck im Sausal
+AT,8443,Gleinstätten
+AT,8444,St. Andrä im Sausal
+AT,8451,Heimschuh
+AT,8452,Großklein
+AT,8453,St. Johann im Saggautal
+AT,8454,Arnfels
+AT,8455,Oberhaag
+AT,8461,Ehrenhausen
+AT,8462,Gamlitz
+AT,8463,Leutschach
+AT,8472,Straß in Steiermark
+AT,8473,Weitersfeld an der Mur
+AT,8480,Mureck
+AT,8481,Weinburg am Saßbach
+AT,8483,Deutsch Goritz
+AT,8484,Unterpurkla
+AT,8490,Bad Radkersburg
+AT,8492,Halbenrain
+AT,8493,Klöch
+AT,8501,Lieboch
+AT,8502,Lannach
+AT,8503,St. Josef Weststeiermark
+AT,8504,Preding
+AT,8505,St. Nikolai im Sausal
+AT,8510,Stainz
+AT,8511,St. Stefan ob Stainz
+AT,8521,Wettmannstätten
+AT,8522,Groß St. Florian
+AT,8523,Frauental an der Laßnitz
+AT,8524,Bad Gams
+AT,8530,Deutschlandsberg
+AT,8541,Schwanberg
+AT,8542,St. Peter im Sulmtal
+AT,8543,St. Martin im Sulmtal
+AT,8544,Pölfing-Brunn
+AT,8551,Wies
+AT,8552,Eibiswald
+AT,8553,St. Oswald ob Eibiswald
+AT,8554,Soboth
+AT,8561,Söding
+AT,8562,Mooskirchen
+AT,8563,Ligist
+AT,8564,Krottendorf-Gaisfeld
+AT,8565,St. Johann ob Hohenburg
+AT,8570,Voitsberg
+AT,8572,Bärnbach
+AT,8573,Kainach bei Voitsberg
+AT,8580,Köflach
+AT,8582,Rosental an der Kainach
+AT,8583,Edelschrott
+AT,8584,Hirschegg
+AT,8591,Maria Lankowitz
+AT,8592,Salla
+AT,8593,Graden
+AT,8600,Bruck an der Mur
+AT,8605,Kapfenberg
+AT,8611,St. Katharein an der Laming
+AT,8612,Tragöß-Oberort
+AT,8614,Breitenau
+AT,8616,Gasen
+AT,8621,Thörl
+AT,8622,Etmißl
+AT,8623,Aflenz Kurort
+AT,8624,Au
+AT,8625,Turnau
+AT,8630,Mariazell
+AT,8632,Gußwerk
+AT,8634,Wegscheid
+AT,8635,Gollrad
+AT,8636,Seewiesen
+AT,8641,St. Marein im Mürztal
+AT,8642,St. Lorenzen im Mürztal
+AT,8643,Allerheiligen im Mürztal
+AT,8644,Mürzhofen
+AT,8650,Kindberg
+AT,8652,Kindberg-Aumühl
+AT,8653,Stanz im Mürztal
+AT,8654,Fischbach
+AT,8661,Wartberg im Mürztal
+AT,8662,Mitterdorf im Mürztal
+AT,8663,Dorf Veitsch
+AT,8664,Großveitsch
+AT,8665,Langenwang
+AT,8670,Krieglach
+AT,8671,Alpl
+AT,8672,St. Kathrein am Hauenstein
+AT,8673,Ratten
+AT,8674,Rettenegg
+AT,8680,Mürzzuschlag
+AT,8682,Mürzzuschlag-Hönigsberg
+AT,8684,Spital am Semmering
+AT,8685,Steinhaus am Semmering
+AT,8691,Kapellen
+AT,8692,Neuberg an der Mürz
+AT,8693,Mürzsteg
+AT,8694,Frein an der Mürz
+AT,8700,Leoben
+AT,8712,Niklasdorf
+AT,8713,St. Stefan ob Leoben
+AT,8714,Kraubath an der Mur
+AT,8715,St. Lorenzen bei Knittelfeld
+AT,8720,Knittelfeld
+AT,8723,Kobenz
+AT,8724,Spielberg
+AT,8731,Bischoffeld
+AT,8732,Seckau
+AT,8733,St. Marein bei Knittelfeld
+AT,8734,Großlobming
+AT,8740,Zeltweg
+AT,8741,Weißkirchen in Steiermark
+AT,8742,Obdach
+AT,8750,Judenburg
+AT,8753,Fohnsdorf
+AT,8754,Thalheim
+AT,8755,St. Peter ob Judenburg
+AT,8756,St. Georgen ob Judenburg
+AT,8761,Pöls
+AT,8762,Oberzeiring
+AT,8763,Möderbrugg
+AT,8764,Pusterwald
+AT,8765,St. Johann am Tauern
+AT,8770,St. Michael in Obersteiermark
+AT,8772,Timmersdorf
+AT,8773,Kammern im Liesingtal
+AT,8774,Mautern in Steiermark
+AT,8775,Kalwang
+AT,8781,Wald am Schoberpaß
+AT,8782,Treglwang
+AT,8783,Gaishorn am See
+AT,8784,Trieben
+AT,8785,Hohentauern
+AT,8786,Rottenmann
+AT,8790,Eisenerz
+AT,8792,St. Peter-Freienstein
+AT,8793,Trofaiach
+AT,8794,Vordernberg
+AT,8795,Radmer
+AT,8800,Unzmarkt
+AT,8811,Scheifling
+AT,8812,Mariahof
+AT,8813,St. Lambrecht
+AT,8820,Neumarkt in Steiermark
+AT,8822,Mühlen
+AT,8831,Niederwölz
+AT,8832,Oberwölz
+AT,8833,Teufenbach
+AT,8841,Frojach
+AT,8842,Katsch an der Mur
+AT,8843,St. Peter am Kammersberg
+AT,8844,Schöder
+AT,8850,Murau
+AT,8852,Stolzalpe
+AT,8853,Ranten
+AT,8854,Krakaudorf
+AT,8861,St. Georgen ob Murau
+AT,8862,Stadl an der Mur
+AT,8863,Predlitz
+AT,8864,Turrach
+AT,8900,Selzthal
+AT,8903,Lassing
+AT,8904,Ardning
+AT,8911,Admont
+AT,8912,Johnsbach
+AT,8913,Weng
+AT,8920,Hieflau
+AT,8921,Lainbach
+AT,8922,Gams bei Hieflau
+AT,8923,Palfau
+AT,8924,Wildalpen
+AT,8931,Landl
+AT,8932,Weißenbach an der Enns
+AT,8933,St. Gallen
+AT,8934,Altenmarkt bei St. Gallen
+AT,8940,Liezen
+AT,8942,Wörschach
+AT,8943,Aigen im Ennstal
+AT,8950,Stainach
+AT,8951,Trautenfels
+AT,8952,Irdning
+AT,8953,Donnersbach
+AT,8954,St. Martin am Grimming
+AT,8960,Öblarn
+AT,8961,Stein an der Enns
+AT,8962,Gröbming
+AT,8965,Pruggern
+AT,8966,Aich-Assach
+AT,8967,Haus
+AT,8970,Schladming
+AT,8971,Rohrmoos-Untertal
+AT,8972,Ramsau
+AT,8973,Pichl
+AT,8974,Mandling
+AT,8982,Tauplitz
+AT,8983,Bad Mitterndorf
+AT,8984,Kainisch
+AT,8990,Bad Aussee
+AT,8992,Altaussee
+AT,8993,Grundlsee
+AT,9020,Klagenfurt am Wörthersee
+AT,9061,Klagenfurt-Wölfnitz
+AT,9062,Moosburg
+AT,9063,Maria Saal
+AT,9064,Pischeldorf
+AT,9065,Ebenthal
+AT,9071,Köttmannsdorf
+AT,9072,Ludmannsdorf
+AT,9073,Klagenfurt-Viktring
+AT,9074,Keutschach
+AT,9081,Reifnitz
+AT,9082,Maria Wörth
+AT,9100,Völkermarkt
+AT,9102,Mittertrixen
+AT,9103,Diex
+AT,9111,Haimburg
+AT,9112,Griffen
+AT,9113,Ruden
+AT,9121,Tainach
+AT,9122,St. Kanzian am Klopeiner See
+AT,9123,St. Primus
+AT,9125,Kühnsdorf
+AT,9130,Poggersdorf
+AT,9131,Grafenstein
+AT,9132,Gallizien
+AT,9133,Sittersdorf
+AT,9135,Bad Eisenkappel
+AT,9141,Eberndorf
+AT,9142,Globasnitz
+AT,9143,St. Michael ob Bleiburg
+AT,9150,Bleiburg
+AT,9155,Neuhaus
+AT,9161,Maria Rain
+AT,9162,Strau
+AT,9163,Unterbergen
+AT,9170,Ferlach
+AT,9173,St. Margareten im Rosental
+AT,9181,Feistritz im Rosental
+AT,9182,Maria Elend
+AT,9183,Rosenbach
+AT,9184,St. Jakob im Rosental
+AT,9201,Krumpendorf
+AT,9210,Pörtschach am Wörther See
+AT,9212,Techelsberg am Wörther See
+AT,9220,Velden am Wörther See
+AT,9231,Köstenberg
+AT,9232,Rosegg
+AT,9241,Wernberg
+AT,9300,St. Veit an der Glan
+AT,9311,Kraig
+AT,9312,Meiselding
+AT,9313,St. Georgen am Längsee
+AT,9314,Launsdorf
+AT,9321,Kappel am Krappfeld
+AT,9322,Micheldorf
+AT,9323,Wildbad Einöd
+AT,9330,Treibach-Althofen
+AT,9334,Guttaring
+AT,9335,Lölling
+AT,9341,Straßburg
+AT,9342,Gurk
+AT,9343,Zweinitz
+AT,9344,Weitensfeld
+AT,9345,Kleinglödnitz
+AT,9346,Glödnitz
+AT,9360,Friesach
+AT,9361,St. Salvator
+AT,9362,Grades
+AT,9363,Metnitz
+AT,9371,Brückl
+AT,9372,Eberstein
+AT,9373,Klein St. Paul
+AT,9374,Wieting
+AT,9375,Hüttenberg
+AT,9376,Knappenberg
+AT,9400,Wolfsberg
+AT,9411,St. Michael
+AT,9412,St. Margarethen im Lavanttal
+AT,9413,St. Gertraud
+AT,9421,Eitweg
+AT,9422,Maria Rojach
+AT,9423,St. Georgen
+AT,9431,St. Stefan
+AT,9433,St. Andrä
+AT,9441,Twimberg
+AT,9451,Preitenegg
+AT,9461,Prebl
+AT,9462,Bad St. Leonhard im Lavanttal
+AT,9463,Reichenfels
+AT,9470,St. Paul im Lavanttal
+AT,9472,Ettendorf
+AT,9473,Lavamünd
+AT,9500,Villach
+AT,9504,Villach-Warmbad Villach
+AT,9520,Sattendorf
+AT,9521,Treffen
+AT,9523,Villach-Landskron
+AT,9524,Villach-St. Magdalen
+AT,9530,Bad Bleiberg
+AT,9531,Kreuth
+AT,9535,Schiefling am Wörthersee
+AT,9536,St. Egyden
+AT,9541,Einöde
+AT,9542,Afritz
+AT,9543,Arriach
+AT,9544,Feld am See
+AT,9545,Radenthein
+AT,9546,Bad Kleinkirchheim
+AT,9551,Bodensdorf
+AT,9552,Steindorf am Ossiacher See
+AT,9554,St. Urban
+AT,9555,Glanegg
+AT,9556,Liebenfels
+AT,9560,Feldkirchen in Kärnten
+AT,9562,Himmelberg
+AT,9563,Gnesau
+AT,9564,Patergassen
+AT,9565,Ebene Reichenau
+AT,9570,Ossiach
+AT,9571,Sirnitz
+AT,9572,Deutsch Griffen
+AT,9580,Villach-Drobollach am Faaker See
+AT,9581,Ledenitzen
+AT,9582,Latschach
+AT,9583,Faak am See
+AT,9584,Finkenstein
+AT,9585,Gödersdorf
+AT,9586,Fürnitz
+AT,9587,Riegersdorf
+AT,9601,Arnoldstein
+AT,9602,Thörl-Maglern
+AT,9611,Nötsch
+AT,9612,St. Georgen im Gailtal
+AT,9613,Feistritz an der Gail
+AT,9614,Vorderberg
+AT,9615,Görtschach
+AT,9620,Hermagor
+AT,9622,Weißbriach
+AT,9623,St. Stefan an der Gail
+AT,9624,Egg
+AT,9631,Jenig
+AT,9632,Kirchbach
+AT,9633,Reisach
+AT,9634,Gundersheim
+AT,9635,Dellach
+AT,9640,Kötschach-Mauthen
+AT,9651,St. Jakob im Lesachtal
+AT,9652,Birnbaum
+AT,9653,Liesing
+AT,9654,St. Lorenzen im Lesachtal
+AT,9655,Maria Luggau
+AT,9701,Rothenthurn
+AT,9702,Ferndorf
+AT,9710,Feistritz an der Drau
+AT,9711,Paternion
+AT,9712,Fresach
+AT,9713,Zlan
+AT,9714,Stockenboi
+AT,9721,Weißenstein
+AT,9722,Gummern
+AT,9751,Sachsenburg
+AT,9753,Lind im Drautal
+AT,9754,Steinfeld
+AT,9761,Greifenburg
+AT,9762,Weißensee
+AT,9771,Berg im Drautal
+AT,9772,Dellach
+AT,9773,Irschen
+AT,9781,Oberdrauburg
+AT,9782,Nikolsdorf
+AT,9800,Spittal an der Drau
+AT,9805,Baldramsdorf
+AT,9811,Lendorf
+AT,9812,Pusarnitz
+AT,9813,Möllbrücke
+AT,9814,Mühldorf
+AT,9815,Kolbnitz
+AT,9816,Penk
+AT,9821,Obervellach
+AT,9822,Mallnitz
+AT,9831,Flattach
+AT,9832,Stall
+AT,9833,Rangersdorf
+AT,9841,Winklern
+AT,9842,Mörtschach
+AT,9843,Großkirchheim
+AT,9844,Heiligenblut
+AT,9851,Lieserbrücke
+AT,9852,Trebesing
+AT,9853,Gmünd
+AT,9854,Malta
+AT,9861,Eisentratten
+AT,9862,Kremsbrücke
+AT,9863,Rennweg
+AT,9871,Seeboden
+AT,9872,Millstatt am See
+AT,9873,Döbriach
+AT,9900,Lienz
+AT,9903,Oberlienz
+AT,9904,Thurn
+AT,9905,Gaimberg
+AT,9906,Lavant
+AT,9907,Tristach
+AT,9908,Amlach
+AT,9909,Leisach
+AT,9911,Assling
+AT,9912,Anras
+AT,9913,Abfaltersbach
+AT,9918,Strassen
+AT,9919,Heinfels
+AT,9920,Sillian
+AT,9931,Außervillgraten
+AT,9932,Innervillgraten
+AT,9941,Kartitsch
+AT,9942,Obertilliach
+AT,9943,Untertilliach
+AT,9951,Ainet
+AT,9952,St. Johann im Walde
+AT,9954,Schlaiten
+AT,9961,Hopfgarten in Defereggen
+AT,9962,St. Veit in Defereggen
+AT,9963,St. Jakob in Defereggen
+AT,9971,Matrei in Osttirol
+AT,9972,Virgen
+AT,9974,Prägraten
+AT,9981,Kals
+AT,9990,Nußdorf-Debant
+AT,9991,Dölsach
+AT,9992,Iselsberg-Stronach
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,

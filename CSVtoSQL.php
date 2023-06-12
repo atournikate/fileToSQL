@@ -125,6 +125,7 @@ class CSVtoSQL
      */
     private function printResultToFile($data, string $fileName = 'test.sql'): void
     {
+
         $filepath = 'sql/' . $fileName;
         if(!is_dir('sql')) {
             mkdir('sql');

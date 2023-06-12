@@ -16,12 +16,34 @@ class JSONtoXLSXConverter
         if (!file_exists($jsonFile)) {
             throw new Exception("No data");
         }
+
         // Load the JSON file
         $jsonContents = file_get_contents($jsonFile);
         $data = json_decode($jsonContents, true);
-        var_dump($data);
-        exit;
 
+        // Create a new Spreadsheet object
+        $spreadsheet = new Spreadsheet();
+
+        // Select the active sheet
+        $sheet = $spreadsheet->getActiveSheet();
+
+        // Write the headers
+        $sheet->setCellValue('A1', 'nome');
+        $sheet->setCellValue('B1', 'codice');
+
+        // Write the data
+        $row = 2;
+        foreach ($data as $item) {
+            $sheet->setCellValue('A' . $row, $item['nome']);
+            $sheet->setCellValue('B' . $row, $item['codice']);
+            $row++;
+        }
+
+        // Create a new Xlsx Writer object
+        $writer = new Xlsx($spreadsheet);
+
+        // Save the spreadsheet to a file
+        $writer->save($xlsxFile);
     }
 
     /**
@@ -43,6 +65,6 @@ class JSONtoXLSXConverter
 
 // Usage
 $converter = new JSONtoXLSXConverter();
-$jsonFile = 'tmp/laposte_hexasmal.json';
-$xlsxFile = 'tmp/laposte_hexasmal.xlsx';
+$jsonFile = 'it_plz.json';
+$xlsxFile = 'IT.xlsx';
 $converter->convertJSONtoXLSX($jsonFile, $xlsxFile);

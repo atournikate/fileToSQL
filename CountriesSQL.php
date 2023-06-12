@@ -24,6 +24,7 @@ class CountriesSQL {
         foreach ($data as $entry) {
             $sql[] = $this->getValidSqlCountries($entry, $table);
         }
+
         $newFile = 'countries.sql';
         if (!file_exists($newFile)) {
             fopen('countries.sql', 'w+');
@@ -146,6 +147,9 @@ class CountriesSQL {
                 'title_en'          => $titleEN,
                 'title_fr'          => $titleFR,
                 'title_it'          => $titleIT,
+                'is_european_union' => 0,
+                'is_european'       => 0,
+                'price_code_post_urgent'    => 0,
                 'title_post_sort'   => $postData,
                 'created_at'        => date('Y-m-d H:i:s'),
                 'updated_at'        => date('Y-m-d H:i:s')
